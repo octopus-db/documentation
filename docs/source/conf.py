@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'OCTOPUS database'
+copyright = '2023, Henry'
+author = 'Henry'
 
 release = '0.1'
 version = '0.1.0'
