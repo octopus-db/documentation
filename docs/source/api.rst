@@ -1,5 +1,5 @@
-Mission
-=======
+API
+===
 
 .. autosummary::
    :toctree: generated
