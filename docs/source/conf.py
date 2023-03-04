@@ -3,8 +3,8 @@
 # -- Project information
 
 project = 'OCTOPUS database'
-copyright = '2023, Henry'
-author = 'Henry'
+copyright = '2023, Henry Munack'
+author = 'Henry Munack'
 
 release = '0.1'
 version = '0.1.0'
