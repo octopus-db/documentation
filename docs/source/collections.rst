@@ -18,7 +18,7 @@ CRN Australia
 | **Spatial, temporal data extent**
 | Australia, 1998-2021
 | **Software Required**
-| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref: `usage`)
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`usage`)
 | **FoR codes (2020)**
 | 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
