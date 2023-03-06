@@ -37,8 +37,8 @@ CRN International
 | Global (excl. Australia), 1995-2021
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **FoR codes (2020)**
+| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -67,8 +67,8 @@ The SahulArch Radiocarbon collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1961-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
+| **FoR codes (2020)**
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander) [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -85,8 +85,8 @@ The SahulArch OSL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1990-2022
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
+| **FoR codes (2020)**
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander) [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -103,8 +103,8 @@ The SahulArch TL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1972-2022
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
+| **FoR codes (2020)**
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander) [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -125,8 +125,8 @@ The SahulSed Aeolian OSL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1993-2019
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -143,8 +143,8 @@ The SahulSed Aeolian TL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1987-2018
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -161,8 +161,8 @@ The SahulSed Fluvial OSL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1997-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -179,8 +179,8 @@ The SahulSed Fluvial TL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1986-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -197,8 +197,8 @@ The SahulSed Lacustrine OSL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1997-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -215,8 +215,8 @@ The SahulSed Lacustrine TL collection
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1991-2015
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020) [#f1]_**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
