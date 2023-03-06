@@ -1,2 +1,2 @@
-OCTOPUS community and resources
-===============================
+Community and resources
+=======================
