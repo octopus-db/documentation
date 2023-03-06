@@ -1,5 +1,5 @@
-OCTOPUS data collections
-========================
+Data collections
+================
 
 Core collections
 ----------------
