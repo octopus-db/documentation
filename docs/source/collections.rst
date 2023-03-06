@@ -7,9 +7,8 @@ Core collections
 
 CRN
 ~~~
-.. rubric:: title
-CRN Australia
-"""""""""""""
+.. rubric:: CRN Australia
+"""""""""""""""""""""""""
 .. rubric:: title
 CRN International
 """""""""""""""""
