@@ -10,7 +10,6 @@ CRN
 
 .. rubric:: CRN Australia
 """""""""""""""""""""""""
-
 .. rubric:: CRN International
 """""""""""""""""""""""""""""
 
