@@ -53,7 +53,9 @@ CRN XXL
 CRN inprep
 """"""""""
 | description to follow here...
-----
+
+`Transition`_
+
 SahulArch
 ~~~~~~~~~
 SahulArch is a collection triplet of published **radiometric ages for archaeological records from Sahul**. Sample locations were obfuscated within a radius of 25 km and spatial data includes sample locations as circular polygons. The data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
