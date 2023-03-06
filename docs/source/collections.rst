@@ -11,15 +11,13 @@ Database of published cosmogenic Be-10 and Al-26 concentrations from modern rive
 
 CRN Australia
 """""""""""""
-| some text here
+| Sub-collection 
 | **Publisher, Year**
 | University of Wollongong, 2021
 | **Recommended citation**
 | Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Australian collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.
-| **Collection period**
-| 1998-2021
-| **Extent of Data**
-| Australia
+| **Spatial, temporal data extent**
+| Australia, 1998-2021
 | **Software Required**
 | Web browser + any desktop GIS
 | **FoR codes (2020)**
