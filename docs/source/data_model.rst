@@ -1,2 +1,2 @@
-Semantic data model
-===================
+Data model
+==========
