@@ -2,7 +2,7 @@
 References
 ==========
 
-[ARC:2020codes] Australian Research Council (2020). Classification Codes—FoR, RFCD, SEO and ANZSIC Codes (online). Accessed 06-03-2023, https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes
+| Australian Research Council (2020). Classification Codes—FoR, RFCD, SEO and ANZSIC Codes (online). Accessed 06-03-2023, https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). Earth Syst. Sci. Data, 10, 2123–2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
