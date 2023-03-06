@@ -48,11 +48,11 @@ CRN International
 
 CRN XXL
 """""""
-| description to follow here...
+| description to appear here...
 
 CRN inprep
 """"""""""
-| description to follow here...
+| description to appear here...
 
 SahulArch
 ~~~~~~~~~
@@ -229,6 +229,8 @@ Partner collections
 
 FosSahul
 ~~~~~~~~
+| description to appear here...
 
 expage
 ~~~~~~
+| description to appear here...
