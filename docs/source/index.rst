@@ -22,5 +22,6 @@ Contents
 
    usage
    collections
+   data_model
    api
    wfs
