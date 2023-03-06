@@ -17,8 +17,6 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
-    'sphinx_new_tab_link',
-    'sphinx.ext.autosectionlabel',
 ]
 
 intersphinx_mapping = {
