@@ -1,5 +1,5 @@
-Database usage
-==============
+Data access
+===========
 
 .. _installation:
 
