@@ -81,6 +81,23 @@ The SahulArch Radiocarbon collection
 
 The SahulArch OSL collection
 """"""""""""""""""""""""""""
+| **Description**
+| Database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul
+| **Publisher, Year**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
+| **Spatial, temporal data extent**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1990-2022
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Saktura W.M., Rehn E., Munack H., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch OSL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).
+| **DOI**
+| http://dx.doi.org/10.25900/9y07-4j77
+
 The SahulArch TL collection
 """""""""""""""""""""""""""
 
