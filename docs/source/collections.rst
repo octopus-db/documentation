@@ -20,7 +20,7 @@ CRN Australia
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#]_
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -38,7 +38,7 @@ CRN International
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -68,7 +68,7 @@ The SahulArch Radiocarbon collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander) [#f1]_
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -86,7 +86,7 @@ The SahulArch OSL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander) [#f1]_
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -104,7 +104,7 @@ The SahulArch TL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander) [#f1]_
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -126,7 +126,7 @@ The SahulSed Aeolian OSL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -144,7 +144,7 @@ The SahulSed Aeolian TL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -162,7 +162,7 @@ The SahulSed Fluvial OSL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -180,7 +180,7 @@ The SahulSed Fluvial TL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -198,7 +198,7 @@ The SahulSed Lacustrine OSL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
@@ -216,7 +216,7 @@ The SahulSed Lacustrine TL collection
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments [#f1]_
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
