@@ -24,4 +24,3 @@ Contents
    collections
    data_model
    api
-   wfs
