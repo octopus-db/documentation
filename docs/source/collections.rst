@@ -116,14 +116,34 @@ SahulSed
 ~~~~~~~~
 The SahulSed Aeolian OSL collection
 """""""""""""""""""""""""""""""""""
+
 The SahulSed Aeolian TL collection
 """"""""""""""""""""""""""""""""""
+
 The SahulSed Fluvial OSL collection
 """""""""""""""""""""""""""""""""""
+| *Database of published optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul*
+| **Publisher, Year**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
+| **Spatial, temporal data extent**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1997-2020
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Cohen T.J., Saktura W.M., Jansen J.D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Fluvial OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.
+| **DOI**
+| http://dx.doi.org/10.25900/p5ye-rn35
+
 The SahulSed Fluvial TL collection
 """"""""""""""""""""""""""""""""""
+
 The SahulSed Lacustrine OSL collection
 """"""""""""""""""""""""""""""""""""""
+
 The SahulSed Lacustrine TL collection
 """""""""""""""""""""""""""""""""""""
 
