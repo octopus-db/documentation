@@ -114,6 +114,8 @@ The SahulArch TL collection
 
 SahulSed
 ~~~~~~~~
+OCTOPUS collection set of published **optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul**. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
+
 The SahulSed Aeolian OSL collection
 """""""""""""""""""""""""""""""""""
 
