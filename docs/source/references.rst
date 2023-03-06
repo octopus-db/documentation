@@ -6,4 +6,4 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish, 2022. Earth Syst. Sci. Data, 14, 3695–3713. doi `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
-| Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A., 2019. FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. doi `10.1038/s41597-019-0267-3<https://doi.org/10.1038/s41597-019-0267-3>`_
+| Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A., 2019. FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. doi `10.1038/s41597-019-0267-3 <https://doi.org/10.1038/s41597-019-0267-3>`_
