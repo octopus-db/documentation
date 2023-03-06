@@ -1,6 +1,7 @@
 ==========
 References
 ==========
+
 #. Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. Earth Syst. Sci. Data, 10, 2123–2139, 2018.
 doi `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 
