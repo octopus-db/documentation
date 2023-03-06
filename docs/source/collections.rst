@@ -9,15 +9,12 @@ CRN
 ~~~
 .. rubric:: CRN Australia
 """""""""""""""""""""""""
-.. rubric:: title
-CRN International
-"""""""""""""""""
-.. rubric:: title
-CRN XXL
-"""""""
-.. rubric:: title
-CRN
-"""
+.. rubric:: CRN International
+"""""""""""""""""""""""""""""
+.. rubric:: CRN XXL
+"""""""""""""""""""
+.. rubric:: CRN
+"""""""""""""""
 
 SahulArch
 ~~~~~~~~~
