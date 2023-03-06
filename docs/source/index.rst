@@ -20,9 +20,10 @@ Contents
 
 .. toctree::
 
-   usage
    collections
+   usage
    data_model
+   resources
    community
    references
    api
