@@ -30,6 +30,22 @@ CRN Australia
 
 CRN International
 """""""""""""""""
+| **Description**
+| Global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia
+| **Publisher, Year**
+| University of Wollongong, 2021
+| **Spatial, temporal data extent**
+| Global (excl. Australia), 1995-2021
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.
+| **DOI**
+| http://dx.doi.org/10.25900/g76f-0h45
 CRN XXL
 """""""
 CRN inprep
