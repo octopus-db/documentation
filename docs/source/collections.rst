@@ -37,7 +37,7 @@ CRN International
 | Global (excl. Australia), 1995-2021
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020)**
+| **FoR codes (2020)** [#]_
 | 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
