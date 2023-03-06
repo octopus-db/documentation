@@ -12,7 +12,7 @@ Database of published cosmogenic Be-10 and Al-26 concentrations from modern rive
 CRN Australia
 """""""""""""
 | **Description**
-|Collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances
+| Collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances
 | **Publisher, Year**
 | University of Wollongong, 2021
 | **Spatial, temporal data extent**
