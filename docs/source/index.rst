@@ -23,4 +23,6 @@ Contents
    usage
    collections
    data_model
+   community
+   references
    api
