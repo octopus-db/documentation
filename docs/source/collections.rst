@@ -1,7 +1,7 @@
 ================
 Data collections
 ================
-OCTOPUS database knows two levels of sub-collection integration - *core* collections and *partner* collections. Though being fully integrated into OCTOPUS database, partner collections are not maintained nor officially supported by the OCTOPUS project, meaning that more up to date (albeit less rich in auxiliary data) versions may exist elsewhere.
+OCTOPUS database knows two levels of sub-collection integration - *core* collections and *partner* collections. Though, like core collections, being fully integrated into OCTOPUS database, partner collections are not maintained nor officially supported by the OCTOPUS project, meaning that more up to date (albeit less rich in auxiliary data) versions may exist elsewhere.
 
 Core collections
 ----------------
@@ -58,8 +58,27 @@ CRN inprep
 
 SahulArch
 ~~~~~~~~~
+WHOAMI??? Sample locations were obfuscated within a radius of 25 km and spatial data includes sample locations as circular polygons. The data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
+
 The SahulArch Radiocarbon collection
 """"""""""""""""""""""""""""""""""""
+| **Description**
+| Database of published radiocarbon ages for archaeological records from Sahul
+| **Publisher, Year**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
+| **Spatial, temporal data extent**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1961-2020
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370905 Quaternary environments, 450101 Aboriginal and Torres Strait Islander archaeology
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Saktura W.M., Munack H., Codilean A.T., Wood R., Petchey F., Jacobs Z., Williams A., Ulm S., 2021, OCTOPUS Database v.2: The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages.
+| **DOI**
+| http://dx.doi.org/10.25900/2mb4-rr36
+
 The SahulArch OSL collection
 """"""""""""""""""""""""""""
 The SahulArch TL collection
