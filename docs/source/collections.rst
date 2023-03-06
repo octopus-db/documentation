@@ -1,13 +1,14 @@
 ================
 Data collections
 ================
+OCTOPUS database knows two levels of sub-collection integration - *core* collections and *partner* collections. Though being fully integrated into OCTOPUS database, partner collections are not maintained nor officially supported by the OCTOPUS project, meaning that more up to date (albeit less rich in auxiliary data) versions may exist elsewhere.
 
 Core collections
 ----------------
 
 CRN
 ~~~
-Collections of published cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates inferred from these data. Ancillary spatial data includes: sample site location (point), basin outline (polygon), digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files for the recalculation of denudation rates using the CAIRN model `CAIRN model <https://github.com/LSDtopotools/LSDTopoTools_CRNBasinwide>`_. All denudation rates were recalculated and harmonised using CAIRN.
+OCTOPUS CRN branch features collections of published cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates inferred from these data. Ancillary spatial data includes: sample site location (point), basin outline (polygon), digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files for the recalculation of denudation rates using the CAIRN model `CAIRN model <https://github.com/LSDtopotools/LSDTopoTools_CRNBasinwide>`_. **All denudation rates were recalculated and harmonised** using CAIRN.
 
 CRN Australia
 """""""""""""
@@ -46,10 +47,14 @@ CRN International
 | Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.
 | **DOI**
 | http://dx.doi.org/10.25900/g76f-0h45
+
 CRN XXL
 """""""
+| description to follow here...
+
 CRN inprep
 """"""""""
+| description to follow here...
 
 SahulArch
 ~~~~~~~~~
