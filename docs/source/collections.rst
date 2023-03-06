@@ -74,7 +74,7 @@ The SahulArch Radiocarbon collection
 | **Recommended citation**
 | Saktura W.M., Rehn E., Linnenlucke L., Munack H., Wood R., Petchey F., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).
 | **DOI**
-| http://dx.doi.org/10.25900/gpvr-ay04
+| https://doi.org/10.25900/gpvr-ay04
 
 The SahulArch OSL collection
 """"""""""""""""""""""""""""
@@ -92,7 +92,7 @@ The SahulArch OSL collection
 | **Recommended citation**
 | Saktura W.M., Rehn E., Munack H., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch OSL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).
 | **DOI**
-| http://dx.doi.org/10.25900/9y07-4j77
+| https://doi.org/10.25900/9y07-4j77
 
 The SahulArch TL collection
 """""""""""""""""""""""""""
@@ -110,7 +110,7 @@ The SahulArch TL collection
 | **Recommended citation**
 | Saktura W.M., Rehn E., Munack H., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch TL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).
 | **DOI**
-| http://dx.doi.org/10.25900/af67-kh16
+| https://doi.org/10.25900/af67-kh16
 
 SahulSed
 ~~~~~~~~
@@ -119,6 +119,21 @@ The SahulSed Aeolian OSL collection
 
 The SahulSed Aeolian TL collection
 """"""""""""""""""""""""""""""""""
+| *Database of published thermoluminescence (TL) ages for aeolian sedimentary records from Sahul*
+| **Publisher, Year**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
+| **Spatial, temporal data extent**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1987-2018
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Cohen T.J., Fu X., Hesse P., Price D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Aeolian TL collection. Sahul-wide database of published sedimentary records with radiometric ages.
+| **DOI**
+| https://doi.org/10.25900/a2k9-kj43
 
 The SahulSed Fluvial OSL collection
 """""""""""""""""""""""""""""""""""
@@ -136,7 +151,7 @@ The SahulSed Fluvial OSL collection
 | **Recommended citation**
 | Cohen T.J., Saktura W.M., Jansen J.D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Fluvial OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.
 | **DOI**
-| http://dx.doi.org/10.25900/p5ye-rn35
+| https://doi.org/10.25900/p5ye-rn35
 
 The SahulSed Fluvial TL collection
 """"""""""""""""""""""""""""""""""
