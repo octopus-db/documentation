@@ -30,7 +30,7 @@ CRN Australia
 
 CRN International
 """""""""""""""""
-| Global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia
+| *Global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia*
 | **Publisher, Year**
 | University of Wollongong, 2021
 | **Spatial, temporal data extent**
@@ -60,25 +60,25 @@ WHOAMI??? Sample locations were obfuscated within a radius of 25 km and spatial 
 
 The SahulArch Radiocarbon collection
 """"""""""""""""""""""""""""""""""""
-| Database of published radiocarbon ages for archaeological records from Sahul
+| *Database of published radiocarbon ages for archaeological records from Sahul*
 | **Publisher, Year**
-| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
 | **Spatial, temporal data extent**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1961-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
-| 370905 Quaternary environments, 450101 Aboriginal and Torres Strait Islander archaeology
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
-| Saktura W.M., Munack H., Codilean A.T., Wood R., Petchey F., Jacobs Z., Williams A., Ulm S., 2021, OCTOPUS Database v.2: The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages.
+| Saktura W.M., Rehn E., Linnenlucke L., Munack H., Wood R., Petchey F., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).
 | **DOI**
-| http://dx.doi.org/10.25900/2mb4-rr36
+| http://dx.doi.org/10.25900/gpvr-ay04
 
 The SahulArch OSL collection
 """"""""""""""""""""""""""""
-| Database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul
+| *Database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
 | **Spatial, temporal data extent**
@@ -96,6 +96,21 @@ The SahulArch OSL collection
 
 The SahulArch TL collection
 """""""""""""""""""""""""""
+| *Database of published thermoluminescence (TL) ages for archaeological records from Sahul*
+| **Publisher, Year**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
+| **Spatial, temporal data extent**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1972-2022
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Saktura W.M., Rehn E., Munack H., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch TL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).
+| **DOI**
+| http://dx.doi.org/10.25900/af67-kh16
 
 SahulSed
 ~~~~~~~~
