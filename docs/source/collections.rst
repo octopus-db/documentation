@@ -12,7 +12,6 @@ OCTOPUS CRN branch features collections of published cosmogenic Be-10 and Al-26 
 
 CRN Australia
 """""""""""""
-| **Description**
 | Collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances
 | **Publisher, Year**
 | University of Wollongong, 2021
@@ -31,7 +30,6 @@ CRN Australia
 
 CRN International
 """""""""""""""""
-| **Description**
 | Global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia
 | **Publisher, Year**
 | University of Wollongong, 2021
@@ -62,7 +60,6 @@ WHOAMI??? Sample locations were obfuscated within a radius of 25 km and spatial 
 
 The SahulArch Radiocarbon collection
 """"""""""""""""""""""""""""""""""""
-| **Description**
 | Database of published radiocarbon ages for archaeological records from Sahul
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
@@ -81,7 +78,6 @@ The SahulArch Radiocarbon collection
 
 The SahulArch OSL collection
 """"""""""""""""""""""""""""
-| **Description**
 | Database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
