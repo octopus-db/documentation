@@ -1,7 +1,7 @@
 ================
 Data collections
 ================
-OCTOPUS database knows two levels of sub-collection integration - :ref:`Core collections <Core collections>` and :ref:`Partner collections`. Though, like core collections, being fully integrated into OCTOPUS database, partner collections are not maintained nor officially supported by the OCTOPUS project, meaning that more up to date (albeit less rich in auxiliary data) versions may exist elsewhere.
+OCTOPUS database knows two levels of sub-collection integration - :ref:`core <Core collections>` and :ref:`partner collections <Partner collections>`. Though, like core collections, being fully integrated into OCTOPUS database, partner collections are not maintained nor officially supported by the OCTOPUS project, meaning that more up to date (albeit less rich in auxiliary data) versions may exist elsewhere.
 
 ..  _link-target:
 Core collections
@@ -225,6 +225,7 @@ The SahulSed Lacustrine TL collection
 | **DOI**
 | https://doi.org/10.25900/32de-mj32
 
+..  _link-target:
 Partner collections
 -------------------
 
