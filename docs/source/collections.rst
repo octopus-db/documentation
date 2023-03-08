@@ -237,5 +237,5 @@ expage
 
 .. rubric:: Footnotes
 
-.. [#] `https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes <https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes>`_
 .. [#] `https://github.com/LSDtopotools/LSDTopoTools_CRNBasinwide <https://github.com/LSDtopotools/LSDTopoTools_CRNBasinwide>`_
+.. [#] `https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes <https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes>`_
