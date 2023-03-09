@@ -67,7 +67,7 @@ The below demo R script fetches, via WFS, spatial layers including rich attribut
 
 Note - The script requires the below packages. If not installed on your machine yet, run
 
-.. code-block:: rout
+.. code-block:: r
 
     # install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
 
@@ -75,7 +75,7 @@ and you’ll be all set up.
 
 First we’re going to load the required packages
 
-.. code-block:: rconsole
+.. code-block:: r
 
     library(sf) # Simple features support (sf = standardized way to encode spatial vector data)
     library(httr) # Generic web-service package for working with HTTP
@@ -93,7 +93,7 @@ OK, we’re ready to go now.
  
 Let’s see what is there, i.e. show all available layer names and titles
  
-.. code-block:: console
+.. code-block:: c
 
     OCTOPUSdata_client$getFeatureTypes(pretty = TRUE) # show available layers and titles
  
