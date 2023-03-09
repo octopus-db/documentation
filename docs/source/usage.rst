@@ -163,7 +163,7 @@ Now that we have the data available, we define our plot parameters. We want to p
    :alt: AUS 10Be catchment-averaged denudation rates
    :width: 100.0%
    
-   Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient. For more detail see `CRN/Australia collection info <http://dx.doi.org/10.4225/48/5a836cdfac9b5>`_
+   Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient
 
 Example 2. Australian sedimentary fluvial OSL ages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -194,7 +194,7 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
    :alt: AUS sedimentary fluvial OSL ages
    :width: 100.0%
    
-   Plot 2. Australian sedimentary fluvial OSL ages. For more detail see `SahulSed/fluvial/osl collection info <http://dx.doi.org/10.25900/p5ye-rn35>`_
+   Plot 2. Australian sedimentary fluvial OSL ages
 
 **All done!**
 
