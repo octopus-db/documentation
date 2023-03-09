@@ -76,6 +76,7 @@ and you’ll be all set up.
 First we’re going to load the required packages
 
 .. code-block:: console
+
 library(sf) # Simple features support (sf = standardized way to encode spatial vector data)
 library(httr) # Generic web-service package for working with HTTP
 library(tidyverse) # Workhorse collection of R packages for data sciences
@@ -86,12 +87,14 @@ OK, we’re ready to go now.
 | In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.
 
 .. code-block:: console
+
 OCTOPUSdata <- "http://geoserver.octopusdata.org/geoserver/wfs" # store url in object
 OCTOPUSdata_client <- WFSClient$new(OCTOPUSdata, serviceVersion = "2.0.0") # connection to db
  
 Let’s see what is there, i.e. show all available layer names and titles
  
 .. code-block:: console
+
 OCTOPUSdata_client$getFeatureTypes(pretty = TRUE) # show available layers and titles
  
 **That’s basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. BTW A full description of OCTOPUS database and its collections can be found in a dedicated `Earth Systems Science Data <https://doi.org/10.5194/essd-14-3695-2022>`_ publication.
