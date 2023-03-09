@@ -95,7 +95,30 @@ Let’s see what is there, i.e. show all available layer names and titles
 
     OCTOPUSdata_client$getFeatureTypes(pretty = TRUE) # show available layers and titles
 
+.. code-block:: r
 
+                                               name                                      title
+    1                    be10-denude:crn_aus_basins    CRN Australian collection: River basins
+    2                   be10-denude:crn_aus_outlets    CRN Australian collection: Sample sites
+    3                    be10-denude:crn_int_basins        CRN Global collection: River basins
+    4                   be10-denude:crn_int_outlets        CRN Global collection: Sample sites
+    5                    be10-denude:crn_xxl_basins             CRN Large basins: River basins
+    6                   be10-denude:crn_xxl_outlets             CRN Large basins: Sample sites
+    7                 be10-denude:crn_inprep_basins     CRN UOW (in preparation): River basins
+    8                be10-denude:crn_inprep_outlets     CRN UOW (in preparation): Sample sites
+    9                      be10-denude:publications                   CRN basin bounding boxes
+    10                            opengeo:countries                     Countries of the World
+    11                           be10-denude:expage                            ExpAge Database
+    12 be10-denude:fossahul_webmercator_nrand_25000                          FosSahul Database
+    13                    be10-denude:sahularch_osl          Sahul Archaeology: OSL collection
+    14                    be10-denude:sahularch_c14  Sahul Archaeology: Radiocarbon collection
+    15                     be10-denude:sahularch_tl           Sahul Archaeology: TL collection
+    16             be10-denude:sahulsed_aeolian_osl    Sahul Sedimentary Archives: Aeolian OSL
+    17              be10-denude:sahulsed_aeolian_tl     Sahul Sedimentary Archives: Aeolian TL
+    18             be10-denude:sahulsed_fluvial_osl    Sahul Sedimentary Archives: Fluvial OSL
+    19              be10-denude:sahulsed_fluvial_tl     Sahul Sedimentary Archives: Fluvial TL
+    20          be10-denude:sahulsed_lacustrine_osl Sahul Sedimentary Archives: Lacustrine OSL
+    21           be10-denude:sahulsed_lacustrine_tl  Sahul Sedimentary Archives: Lacustrine TL
 
 **That’s basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. [#]_
 
