@@ -7,9 +7,7 @@ OCTOPUS data can be viewed and exported through a bespoke web interface or acces
 Web interface
 ------------
 
-.. code-block:: console
-
-    You shell commands go here
+*text to come here*
 
 OCTOPUS v.2 Web Feature Service (WFS) - A user guide and brief demonstration of capabilities
 --------------------------------------------------------------------------------------------
@@ -69,12 +67,14 @@ The below demo R script fetches, via WFS, spatial layers including rich attribut
 
 Note - The script requires the below packages. If not installed on your machine yet, run
 
-..  code-block:: php
+.. code-block:: console
 
-# install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
+    # install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
 
 
 and you’ll be all set up.
+
+``{r packages} # install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))``
   
 .. rubric:: Footnotes
 
