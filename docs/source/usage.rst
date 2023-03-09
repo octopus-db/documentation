@@ -94,9 +94,27 @@ Let’s see what is there, i.e. show all available layer names and titles
 .. code-block:: r
 
     OCTOPUSdata_client$getFeatureTypes(pretty = TRUE) # show available layers and titles
- 
+
+
+
 **That’s basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. [#]_
-  
+
+**Example 1. Australian 10Be-derived catchment-averaged denudation rates**
+
+Here we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e., layer *‘be10-denude:crn_aus_basins’* from the above list)
+
+.. code-block:: r
+
+    url <- parse_url(OCTOPUSdata) # parse URL into list
+    url$query <- list(service = "wfs",
+                      version = "2.0.0",
+                      request = "GetFeature",
+                      typename = "be10-denude:crn_aus_basins",
+                      srsName = "EPSG:900913") # set parameters for url$query
+
+    request <- build_url(url) # build a request URL from 'url' list
+    CRN_AUS_basins <- read_sf(request) # read simple features using 'request' URL. Takes few secs...
+
 .. rubric:: Footnotes
 
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
