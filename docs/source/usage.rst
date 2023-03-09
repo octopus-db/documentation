@@ -7,7 +7,9 @@ OCTOPUS data can be viewed and exported through a bespoke web interface or acces
 Web interface
 ------------
 
-*text to come*
+.. code-block:: console
+
+    You shell commands go here
 
 OCTOPUS v.2 Web Feature Service (WFS) - A user guide and brief demonstration of capabilities
 --------------------------------------------------------------------------------------------
