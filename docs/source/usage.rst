@@ -9,10 +9,9 @@ Web interface
 
 *text to come here*
 
-OCTOPUS v.2 Web Feature Service (WFS) - A user guide and brief demonstration of capabilities
---------------------------------------------------------------------------------------------
-
-This user guide outlines how to use WFS through third-party software, specifically `QGIS <https://qgis.org>`__ and/or `R software <https://www.r-project.org/>`__ environment as these software solutions are free, open-source and highly versatile.
+OCTOPUS v.2 Web Feature Service
+-------------------------------
+This user guide and brief demonstration of capabilities outlines how to use WFS through third-party software, specifically `QGIS <https://qgis.org>`__ and/or `R software <https://www.r-project.org/>`__ environment as these software solutions are free, open-source and highly versatile.
 
 WFS in a nutshell
 ~~~~~~~~~~~~~~~~~
