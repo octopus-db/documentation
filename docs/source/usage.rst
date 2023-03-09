@@ -30,7 +30,7 @@ WFS data access via QGIS
 3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
 
 .. image:: ./img/wfsQGIS_fig2.png
-   :width: 50.0%
+   :scale: 50.0%
 
 4. To add a collection of interest, right click on that collection in the Browser pane and select *Add Layer to Project*. The collection will appear in the Layers pane. Alternatively, click + drag the layer of interest into the Layers pane
 5. To locally store a collection, select *Export Layer > To File*
