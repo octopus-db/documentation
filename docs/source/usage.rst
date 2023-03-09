@@ -7,11 +7,7 @@ OCTOPUS data can be viewed and exported through a bespoke web interface or acces
 Web interface
 ------------
 
-To use Lumache, first install it using pip:
-
-.. code-block:: console
-
-   (.venv) $ pip install lumache
+*text to come*
 
 OCTOPUS v.2 Web Feature Service (WFS) - A user guide and brief demonstration of capabilities
 --------------------------------------------------------------------------------------------
@@ -71,9 +67,10 @@ The below demo R script fetches, via WFS, spatial layers including rich attribut
 
 Note - The script requires the below packages. If not installed on your machine yet, run
 
-``
+..  code-block:: rconsole
+    :caption: test
 # install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE));
-``
+
 
 and you’ll be all set up.
   
