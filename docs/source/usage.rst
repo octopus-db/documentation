@@ -69,7 +69,7 @@ Note - The script requires the below packages. If not installed on your machine 
 
 ..  code-block:: rconsole
     :caption: test
-# install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE));
+# install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
 
 
 and you’ll be all set up.
