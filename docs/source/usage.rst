@@ -102,4 +102,4 @@ Let’s see what is there, i.e. show all available layer names and titles
 
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
 .. [#] `https://www.ogc.org <https://www.ogc.org>`_
--- [#] A full description of OCTOPUS database and its collections can be found in a dedicated `Earth Systems Science Data <https://doi.org/10.5194/essd-14-3695-2022>`_ publication.
+.. [#] A full description of OCTOPUS database and its collections can be found in a dedicated `Earth Systems Science Data <https://doi.org/10.5194/essd-14-3695-2022>`_ publication.
