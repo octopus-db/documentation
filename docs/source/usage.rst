@@ -46,7 +46,34 @@ OCTOPUS WFS data access via QGIS
 
 7. To add a saved shapefile to the project, navigate to the *main menu > Layer > Add Layer > Add Vector Layer*. Selecting the .shp, .dbf or .shx file (of the six separate files that constitute the shapefile) will open the collection in the Layers pane
 
+**Excursus. Obtaining obfuscated geographical coordinates in QGIS**
 
+Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potentially culturally sensitive. As a result, coordinates have been obfuscated for these collections using a 25-km radius randomising algorithm. These former point data are represented by polygons now and coordinates are not pushed with the attribute table, or the .csv file if the collection is exported. Follow these steps to obtain obfuscated coordinates (keeping in mind the ≥ 25 km uncertainty) for these collections by calculating polygon centroid points:
+
+1. Navigate to the *main menu > Vector > Geometry Tools > Centroids*\ …
+2. Select the collection of interest as the Input Layer, and click Run
+
+.. image:: ./images/fig4.png
+   :width: 100.0%
+
+3. To save coordinates, go to the Processing Toolbox pane and select *Vector table > Add X/Y fields to layer*
+4. Input Layer should appear as the generated centroids, and the coordinate system must be kept as default EPSG: 4326 – WGS84
+5. Click Run. This will generate a new layer, Added Fields, in the Layers pane. In the Attribute Table, fields for ‘x’ (longitude) and
+   ‘y’ (latitude) will appear at the end of the table with corresponding coordinates for each point feature
+
+.. image:: ./images/fig5.png
+   :width: 100.0%
+
+OCTOPUS WFS data access via R/RStudio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+The below demo R script fetches, via WFS, spatial layers including rich attribute data from OCTOPUS database and generates a scatter plot and an interactive map representation, respectively.
+
+Note - The script requires the below packages. If not installed on your machine yet, run
+.. code-block:: console
+# install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
+
+and you’ll be all set up.
   
 .. rubric:: Footnotes
 
