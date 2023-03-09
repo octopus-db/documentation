@@ -162,7 +162,7 @@ Now that we have the data available, we define our plot parameters. We want to p
    :width: 100.0%
 
 Example 2. Australian sedimentary fluvial OSL ages
-..................................................
+°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°
 
 For this example we quickly want to display Australian OSL (Optically Stimulated Luminescence) ages on a base map.
 
