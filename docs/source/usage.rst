@@ -24,19 +24,19 @@ WFS data access via QGIS
 1. After opening QGIS, start a new project: *Project > New*
 2. In the Browser pane, select WFS/OGC API Features > New Connection…
 
-.. image:: ./images/fig1.png
+.. image:: ./img/wfsQGIS_fig1.png
    :width: 100.0%
 
 3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
 
-.. image:: ./images/fig2.png
+.. image:: ./img/wfsQGIS_fig2.png
    :width: 50.0%
 
 4. To add a collection of interest, right click on that collection in the Browser pane and select *Add Layer to Project*. The collection will appear in the Layers pane. Alternatively, click + drag the layer of interest into the Layers pane
 5. To locally store a collection, select *Export Layer > To File*
 6. Select a file format and specify a file name and save location via the ‘…’ button. Select the coordinate reference system (CRS) of choice; OCTOPUS v.2 collections use EPSG: 3857 (WGS84 Pseudo-Mercator)
 
-.. image:: ./images/fig3.png
+.. image:: ./img/wfsQGIS_fig3.png
    :width: 100.0%
 
 7. To add a saved shapefile to the project, navigate to the *main menu > Layer > Add Layer > Add Vector Layer*. Selecting the .shp, .dbf or .shx file (of the six separate files that constitute the shapefile) will open the collection in the Layers pane
@@ -49,7 +49,7 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
 1. Navigate to the *main menu > Vector > Geometry Tools > Centroids*\ …
 2. Select the collection of interest as the Input Layer, and click Run
 
-.. image:: ./images/fig4.png
+.. image:: ./img/wfsQGIS_fig4.png
    :width: 100.0%
 
 3. To save coordinates, go to the Processing Toolbox pane and select *Vector table > Add X/Y fields to layer*
@@ -57,7 +57,7 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
 5. Click Run. This will generate a new layer, Added Fields, in the Layers pane. In the Attribute Table, fields for ‘x’ (longitude) and
    ‘y’ (latitude) will appear at the end of the table with corresponding coordinates for each point feature
 
-.. image:: ./images/fig5.png
+.. image:: ./img/wfsQGIS_fig5.png
    :width: 100.0%
 
 WFS data access via R/RStudio
