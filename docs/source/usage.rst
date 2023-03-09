@@ -25,7 +25,7 @@ WFS data access via QGIS
 2. In the Browser pane, select WFS/OGC API Features > New Connection…
 
 .. image:: ./img/wfsQGIS_fig1.png
-   :width: 800px
+   :scale: 50%
 
 3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
 
