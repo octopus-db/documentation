@@ -32,8 +32,7 @@ OCTOPUS WFS data access via QGIS
 .. image:: ./images/fig1.png
    :width: 100.0%
 
-3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field.
-|  Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
+3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
 
 .. image:: ./images/fig2.png
    :width: 50.0%
@@ -45,8 +44,7 @@ OCTOPUS WFS data access via QGIS
 .. image:: ./images/fig3.png
    :width: 100.0%
 
-7. To add a saved shapefile to the project, navigate to the *main menu > Layer > Add Layer > Add Vector Layer*.
-|  Selecting the .shp, .dbf or .shx file (of the six separate files that constitute the shapefile) will open the collection in the Layers pane
+7. To add a saved shapefile to the project, navigate to the *main menu > Layer > Add Layer > Add Vector Layer*. Selecting the .shp, .dbf or .shx file (of the six separate files that constitute the shapefile) will open the collection in the Layers pane
 
 
   
