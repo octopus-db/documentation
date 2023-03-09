@@ -77,11 +77,11 @@ First we’re going to load the required packages
 
 .. code-block:: console
 
-library(sf) # Simple features support (sf = standardized way to encode spatial vector data)
-library(httr) # Generic web-service package for working with HTTP
-library(tidyverse) # Workhorse collection of R packages for data sciences
-library(ows4R) # Interface for OGC web-services incl. WFS
-library(viridis) # Predefined colorblind-friendly color scales for R
+    library(sf) # Simple features support (sf = standardized way to encode spatial vector data)
+    library(httr) # Generic web-service package for working with HTTP
+    library(tidyverse) # Workhorse collection of R packages for data sciences
+    library(ows4R) # Interface for OGC web-services incl. WFS
+    library(viridis) # Predefined colorblind-friendly color scales for R
 
 OK, we’re ready to go now.
 | In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.
