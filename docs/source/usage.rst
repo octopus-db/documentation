@@ -72,7 +72,7 @@ The below demo R script fetches, via WFS, spatial layers including rich attribut
 Note - The script requires the below packages. If not installed on your machine yet, run
 
 ..  code-block:: rconsole
-# install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
+install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
 
 and you’ll be all set up.
   
