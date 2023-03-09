@@ -22,6 +22,33 @@ WFS in a nutshell
 ~~~~~~~~~~~~~~~~~
 | Geospatial and location information development and standardisation globally is overseen by the Open Geospatial Consortium (OGC) [#]_. Web Feature Service (WFS) is an OGC interface standard that enables platform independent requests for spatial features across the internet. This is accomplished by Geography Markup Language (GML), an XML derivative. Unlike for WMS (Web Map Service), where immutable map tiles are returned, WFS vector entities can be queried, altered, and spatially analysed.
 | WFS functionality knows three basal operations - ``GetCapabilities``, ``DescribeFeatureType``, and ``GetFeature``. Calling ``GetCapabilities`` will generate a standardised, human readable meta-dataset that describes a WFS service and its functionality. ``DescribeFeatureType`` produces an overview of supported feature types, and ``GetFeature`` fetches features including their geometry and attribite values, i.e, variable fields.
+
+OCTOPUS WFS data access via QGIS
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. After opening QGIS, start a new project: *Project > New*
+2. In the Browser pane, select WFS/OGC API Features > New Connection…
+
+.. image:: ./images/fig1.png
+   :width: 100.0%
+
+3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field.
+|  Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
+
+.. image:: ./images/fig2.png
+   :width: 50.0%
+
+4. To add a collection of interest, right click on that collection in the Browser pane and select *Add Layer to Project*. The collection will appear in the Layers pane. Alternatively, click + drag the layer of interest into the Layers pane
+5. To locally store a collection, select *Export Layer > To File*
+6. Select a file format and specify a file name and save location via the ‘…’ button. Select the coordinate reference system (CRS) of choice; OCTOPUS v.2 collections use EPSG: 3857 (WGS84 Pseudo-Mercator)
+
+.. image:: ./images/fig3.png
+   :width: 100.0%
+
+7. To add a saved shapefile to the project, navigate to the *main menu > Layer > Add Layer > Add Vector Layer*.
+|  Selecting the .shp, .dbf or .shx file (of the six separate files that constitute the shapefile) will open the collection in the Layers pane
+
+
   
 .. rubric:: Footnotes
 
