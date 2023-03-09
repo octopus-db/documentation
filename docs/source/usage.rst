@@ -161,6 +161,34 @@ Now that we have the data available, we define our plot parameters. We want to p
    :alt: AUS 10Be catchment-averaged denudation rates
    :width: 100.0%
 
+**Example 2. Australian sedimentary fluvial OSL ages**
+
+For this example we quickly want to display Australian OSL (Optically Stimulated Luminescence) ages on a base map.
+
+.. code-block:: r
+
+    library(mapview) # Provides functions for quick visualisation of spatial data
+    mapviewOptions(fgb = FALSE)
+    url2 <- parse_url(OCTOPUSdata) # parse URL into list
+    url2$query <- list(service = "wfs",
+                       version = "2.0.0",
+                       request = "GetFeature",
+                       typename = "be10-denude:sahulsed_fluvial_osl",
+                       srsName = "EPSG:900913") # set parameters for url$query
+
+    request2 <- build_url(url2) # build request URL from 'url' list
+    SahulSed.FLV.OSL <- read_sf(request2) # read simple features using 'request' URL. Takes few secs...
+    SahulSed.FLV.OSL <- st_set_crs(SahulSed.FLV.OSL, 900913) # Set Coordinate Reference System
+    SahulSed.FLV.OSL = st_transform(SahulSed.FLV.OSL,
+            crs = "+proj=longlat +datum=WGS84") # Transform geometry to geographic coordinates, WGS84
+    mapview(SahulSed.FLV.OSL, xcol = "X_WGS84", ycol = "Y_WGS84",
+            zcol = "OSL_AGE", at = seq(0, 350, 50), alpha = .25, # set range (0 to 350 ka) and bins (50 ka)
+            alpha.regions = 0.1, legend = TRUE) # Display on map using "mapview" package
+
+.. figure:: ./img/AAUS_sedflvOSL.png
+   :alt: AUS sedimentary fluvial OSL ages
+   :width: 100.0%
+
 .. rubric:: Footnotes
 
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
