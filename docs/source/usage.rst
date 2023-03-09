@@ -75,7 +75,7 @@ and you’ll be all set up.
 
 First we’re going to load the required packages
 
-.. code-block:: console
+.. code-block:: rconsole
 
     library(sf) # Simple features support (sf = standardized way to encode spatial vector data)
     library(httr) # Generic web-service package for working with HTTP
@@ -86,7 +86,7 @@ First we’re going to load the required packages
 OK, we’re ready to go now.
 | In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.
 
-.. code-block:: console
+.. code-block:: r
 
     OCTOPUSdata <- "http://geoserver.octopusdata.org/geoserver/wfs" # store url in object
     OCTOPUSdata_client <- WFSClient$new(OCTOPUSdata, serviceVersion = "2.0.0") # connection to db
