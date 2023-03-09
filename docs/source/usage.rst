@@ -94,6 +94,10 @@ Let’s see what is there, i.e. show all available layer names and titles
 .. code-block:: r
 
     OCTOPUSdata_client$getFeatureTypes(pretty = TRUE) # show available layers and titles
+    
+The above WFS request should yield the following overview
+
+.. code-block:: r
 
                                                name                                      title
     1                    be10-denude:crn_aus_basins    CRN Australian collection: River basins
