@@ -155,8 +155,10 @@ Now that we have the data available, we define our plot parameters. We want to p
     ggtitle("Australian 10Be catchment-avg. denudation rates") + # make title
     theme(plot.title = element_text(size = 18, face = "bold")) + # title settings
     labs(size = "Catchment \narea [km^2]", colour = "Average \ncatchment \nelevation [m]") # re-label legend
-    myPlot # make plot
+    myPlot # call plot
 
+.. image:: ./img/AUSdenudation.png
+   :width: 75.0%
 
 .. rubric:: Footnotes
 
