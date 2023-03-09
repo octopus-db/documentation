@@ -83,8 +83,7 @@ First we’re going to load the required packages
     library(ows4R) # Interface for OGC web-services incl. WFS
     library(viridis) # Predefined colorblind-friendly color scales for R
 
-OK, we’re ready to go now.
-| In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.
+OK, we’re ready to go now. In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.
 
 .. code-block:: r
 
@@ -93,13 +92,14 @@ OK, we’re ready to go now.
  
 Let’s see what is there, i.e. show all available layer names and titles
  
-.. code-block:: c
+.. code-block:: r
 
     OCTOPUSdata_client$getFeatureTypes(pretty = TRUE) # show available layers and titles
  
-**That’s basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. BTW A full description of OCTOPUS database and its collections can be found in a dedicated `Earth Systems Science Data <https://doi.org/10.5194/essd-14-3695-2022>`_ publication.
+**That’s basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. [#]_
   
 .. rubric:: Footnotes
 
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
 .. [#] `https://www.ogc.org <https://www.ogc.org>`_
+-- [#] A full description of OCTOPUS database and its collections can be found in a dedicated `Earth Systems Science Data <https://doi.org/10.5194/essd-14-3695-2022>`_ publication.
