@@ -136,6 +136,22 @@ Here we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e.
     request <- build_url(url) # build a request URL from 'url' list
     CRN_AUS_basins <- read_sf(request) # read simple features using 'request' URL. Takes few secs...
 
+Now that we have the data available, we define our plot parameters. We want to plot denudation rate ("EBE_MMKYR") over average slope gradient ("SLP_AVE") and call the plot (last line)
+
+.. code-block:: r
+
+    myPlot <- ggplot(CRN_AUS_basins, aes(x=SLP_AVE, y=EBE_MMKYR)) + # plot denudation rate over average slope
+    geom_errorbar(aes(ymin=(EBE_MMKYR-EBE_ERR), ymax=(EBE_MMKYR+EBE_ERR)), linewidth=0.3, colour="gray80") + # visualise errors
+    geom_point(aes(size=AREA, color=ELEV_AVE), alpha=.5) + # scale pts. to "AREA", colour pts. to "ELEV_AVE"
+    scale_color_viridis(option="C", direction = -1) + # use 'viridis' colour scale
+    scale_size_continuous(range = c(2, 10)) + # define point size range for better visibility
+    xlab("Slope gradient [m km^-1]") + ylab("Denudation rate [mm kyr^-1]") + # define label x and y axes
+    ggtitle("Australian 10Be catchment-avg. denudation rates") + # make title
+    theme(plot.title = element_text(size = 18, face = "bold")) + # title settings
+    labs(size = "Catchment \narea [km^2]", colour = "Average \ncatchment \nelevation [m]") # re-label legend
+    myPlot # make plot
+
+
 .. rubric:: Footnotes
 
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
