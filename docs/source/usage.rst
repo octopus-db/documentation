@@ -25,19 +25,19 @@ WFS data access via QGIS
 2. In the Browser pane, select WFS/OGC API Features > New Connection…
 
 .. image:: ./img/wfsQGIS_fig1.png
-   :width: 100.0%
+   :width: 100.0 %
 
 3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
 
 .. image:: ./img/wfsQGIS_fig2.png
-   :scale: 50.0%
+   :width: 50.0 %
 
 4. To add a collection of interest, right click on that collection in the Browser pane and select *Add Layer to Project*. The collection will appear in the Layers pane. Alternatively, click + drag the layer of interest into the Layers pane
 5. To locally store a collection, select *Export Layer > To File*
 6. Select a file format and specify a file name and save location via the ‘…’ button. Select the coordinate reference system (CRS) of choice; OCTOPUS v.2 collections use EPSG: 3857 (WGS84 Pseudo-Mercator)
 
 .. image:: ./img/wfsQGIS_fig3.png
-   :width: 100.0%
+   :width: 100.0 %
 
 7. To add a saved shapefile to the project, navigate to the *main menu > Layer > Add Layer > Add Vector Layer*. Selecting the .shp, .dbf or .shx file (of the six separate files that constitute the shapefile) will open the collection in the Layers pane
 
@@ -50,7 +50,7 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
 2. Select the collection of interest as the Input Layer, and click Run
 
 .. image:: ./img/wfsQGIS_fig4.png
-   :width: 100.0%
+   :width: 100.0 %
 
 3. To save coordinates, go to the Processing Toolbox pane and select *Vector table > Add X/Y fields to layer*
 4. Input Layer should appear as the generated centroids, and the coordinate system must be kept as default EPSG: 4326 – WGS84
@@ -58,7 +58,7 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
    ‘y’ (latitude) will appear at the end of the table with corresponding coordinates for each point feature
 
 .. image:: ./img/wfsQGIS_fig5.png
-   :width: 100.0%
+   :width: 100.0 %
 
 WFS data access via R/RStudio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -161,7 +161,7 @@ Now that we have the data available, we define our plot parameters. We want to p
 
 .. figure:: ./img/AUSdenudation.png
    :alt: AUS 10Be catchment-averaged denudation rates
-   :width: 100.0%
+   :width: 100.0 %
    
    Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient
 
@@ -192,7 +192,7 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
 
 .. figure:: ./img/AUS_sedflvOSL.png
    :alt: AUS sedimentary fluvial OSL ages
-   :width: 100.0%
+   :width: 100.0 %
    
    Plot 2. Australian sedimentary fluvial OSL ages
 
