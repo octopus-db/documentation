@@ -18,8 +18,8 @@ WFS in a nutshell
 | Geospatial and location information development and standardisation globally is overseen by the Open Geospatial Consortium (OGC) [#]_. Web Feature Service (WFS) is an OGC interface standard that enables platform independent requests for spatial features across the internet. This is accomplished by Geography Markup Language (GML), an XML derivative. Unlike for WMS (Web Map Service), where immutable map tiles are returned, WFS vector entities can be queried, altered, and spatially analysed.
 | WFS functionality knows three basal operations - ``GetCapabilities``, ``DescribeFeatureType``, and ``GetFeature``. Calling ``GetCapabilities`` will generate a standardised, human readable meta-dataset that describes a WFS service and its functionality. ``DescribeFeatureType`` produces an overview of supported feature types, and ``GetFeature`` fetches features including their geometry and attribite values, i.e, variable fields.
 
-OCTOPUS v.2 WFS data access via QGIS
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WFS data access via QGIS
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. After opening QGIS, start a new project: *Project > New*
 2. In the Browser pane, select WFS/OGC API Features > New Connection…
@@ -59,8 +59,8 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
 .. image:: ./images/fig5.png
    :width: 100.0%
 
-OCTOPUS v.2 WFS data access via R/RStudio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+WFS data access via R/RStudio
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The below demo R script fetches, via WFS, spatial layers including rich attribute data from OCTOPUS database and generates a scatter plot and an interactive map representation, respectively.
 
