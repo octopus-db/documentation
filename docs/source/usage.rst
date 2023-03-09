@@ -160,7 +160,7 @@ Now that we have the data available, we define our plot parameters. We want to p
 .. figure:: ./img/AUSdenudation.png
    :alt: some image
    :width: 100.0%
-   Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient. For more detail see [CRN/Australia collection info](http://dx.doi.org/10.4225/48/5a836cdfac9b5)
+   Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient
 
 .. rubric:: Footnotes
 
