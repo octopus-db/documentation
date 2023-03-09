@@ -66,7 +66,7 @@ The below demo R script fetches, via WFS, spatial layers including rich attribut
 
 .. note::
 
-   Note - The script requires the below packages. If not installed on your machine yet, run
+   The script requires the below packages. If not installed on your machine yet, run
 
 .. code-block:: r
 
