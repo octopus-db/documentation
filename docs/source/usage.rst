@@ -70,7 +70,7 @@ OCTOPUS WFS data access via R/RStudio
 The below demo R script fetches, via WFS, spatial layers including rich attribute data from OCTOPUS database and generates a scatter plot and an interactive map representation, respectively.
 
 Note - The script requires the below packages. If not installed on your machine yet, run
-.. code-block:: <r>
+.. code-block:: <R>
 # install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
 
 and you’ll be all set up.
