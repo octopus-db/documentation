@@ -189,6 +189,10 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
    :alt: AUS sedimentary fluvial OSL ages
    :width: 100.0%
 
+.. note::
+
+   Thanks to the very slick 'Mapview' functionality, points of the original output map are mouse-over sensitive and can be queried in depth by clicking. Further, the map is scalable and you can choose between a decent selection of base map layers. Try it in R!
+
 .. rubric:: Footnotes
 
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
