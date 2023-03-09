@@ -95,8 +95,6 @@ Let’s see what is there, i.e. show all available layer names and titles
 
     OCTOPUSdata_client$getFeatureTypes(pretty = TRUE) # show available layers and titles
 
-.. code-block:: r
-
                                                name                                      title
     1                    be10-denude:crn_aus_basins    CRN Australian collection: River basins
     2                   be10-denude:crn_aus_outlets    CRN Australian collection: Sample sites
