@@ -128,7 +128,7 @@ The above WFS request should yield the following overview
 
 **Example 1. Australian :sup:`10`Be-derived catchment-averaged denudation rates**
 
-In this example we fetch and plot Australian catchment-averaged :sup:`10`Be denudation rates (i.e., layer *‘be10-denude:crn_aus_basins’* from the above list)
+In this example we fetch and plot Australian catchment-averaged :sup:`10` Be denudation rates (i.e., layer *‘be10-denude:crn_aus_basins’* from the above list)
 
 .. code-block:: r
 
