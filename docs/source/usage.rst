@@ -158,7 +158,7 @@ Now that we have the data available, we define our plot parameters. We want to p
     myPlot # call plot
 
 .. figure:: ./img/AUSdenudation.png
-   :alt: some image
+   :alt: AUS 10Be catchment-averaged denudation rates
    :width: 100.0%
 
 .. rubric:: Footnotes
