@@ -159,11 +159,15 @@ Now that we have the data available, we define our plot parameters. We want to p
     labs(size = "Catchment \narea [km^2]", colour = "Average \ncatchment \nelevation [m]") # re-label legend
     myPlot # call plot
 
+<br></br>
+
 .. figure:: ./img/AUSdenudation.png
    :alt: AUS 10Be catchment-averaged denudation rates
    :width: 750px
    
    Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient
+
+<br></br>
 
 Example 2. Australian sedimentary fluvial OSL ages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
