@@ -323,8 +323,8 @@ In this example, we will generate KML files of archaeological, fossil, and sedim
 
 .. rubric:: Footnotes
 
-.. [#] `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
 .. [#] `https://www.ogc.org <https://www.ogc.org>`_
 .. [#] A full description of OCTOPUS database and its collections can be found in a dedicated `Earth Systems Science Data <https://doi.org/10.5194/essd-14-3695-2022>`_ publication.
 .. [#] `https://r-spatial.github.io/mapview/ <https://r-spatial.github.io/mapview/>`_
+.. [#] `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_
