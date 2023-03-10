@@ -14,9 +14,11 @@ Contents
 .. toctree::
    :maxdepth: 2
 
+   intro
    collections
    usage
    data_model
+   fields
    resources
    community
    references
