@@ -9,22 +9,39 @@ Web interface
 
 Layers
 ~~~~~~
+The Layers menu allows you to select data to display, organized by collection. Select tick boxes to view data on the display map.
 
 Filter
 ~~~~~~
+The Filter menu allows you to apply filters to data. You must select at least one dataset to view before you can apply filters, and filters are applied to each data collection individually. In the Filter menu, you can download your filter configuration as a .JSON file and import them.
 
 Export Data
 ~~~~~~~~~~~
+The Export Data menu allows you to download data, unfiltered or filtered by any rules applied in the Filter menu to that dataset. Data may be exported in the following formats: Geography Markup Language (GML) version 2 and 3, ESRI Shapefile, JavaScript Object Notation (JSON), Google Earth KML and KMZ. You will be prompted to provide an intended use of data prior to download.
+
+.. note::
+
+   Exported data in the KML and KMZ formats are geographically restricted to the region displayed on screen at the time of export. Zoom in or out prior to export to capture your region of interest. All other export formats include the complete geographic extent of selected data.
 
 Download Collection
 ~~~~~~~~~~~~~~~~~~~
+The Download Collection menu allows you to request a download of packaged data from the CRN collection. One or more sub-collections from the CRN collection must first be selected in the Layers menu. Hold Ctrl (or Command on Mac) while clicking and dragging to select a region of interest. You will be prompted within the Download Collection menu to provide a name, email address and intended use of data, and tick boxes for data within your selected region.
 
 Setting
 ~~~~~~~
+The Settings menu allows you to change the displayed base map, enable case- sensitivity for filters, and control clustering of data.
 
 Data Display
 ~~~~~~~~~~~~
+Collection data are displayed on a map (see the Settings menu to change base maps) and default to displaying in clusters. Data circles are colour-coded by collection (e.g. Sahul Archaeology: Radiocarbon collection is orange) and show numbers indicating the count of age determinations represented by that circle. The size of circle clusters is also scaled by the number of age determinations it represents. Clicking on a data circle creates a pop-up containing a subset of summary information about the age determinations it represents. Clicking once anywhere in the window outside of the pop-up will close it.
 
+.. note::
+
+   OCTOPUS web interface does not display full data records. To download full data, use the Export Data menu.
+   
+.. note::
+
+   SahulArch and FosSahul data points are randomly obfuscated within 25km.
 
 Example use cases
 ~~~~~~~~~~~~~~~~~
