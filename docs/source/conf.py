@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'OCTOPUS database'
-copyright = '2023, Henry Munack (CC BY 4.0)'
+copyright = '2023, Henry Munack, Alexandru T. Codilean (CC BY 4.0)'
 author = 'Henry Munack'
 
 release = '0.1'
