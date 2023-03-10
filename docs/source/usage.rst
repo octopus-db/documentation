@@ -48,6 +48,7 @@ Example use cases
 Use case #1
 ^^^^^^^^^^^
 In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data clustering.
+
 1. Navigate to the Layers menu
 2. Select ‘Radiocarbon collection’ under the ‘Sahul Archaeology’ subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
 3. Navigate to the Filter menu
