@@ -237,17 +237,17 @@ Use case #1
 ^^^^^^^^^^^
 In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data clustering.
 
-1. Navigate to the Layers menu
-2. Select ‘Radiocarbon collection’ under the ‘Sahul Archaeology’ subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
-3. Navigate to the Filter menu
-4. Select the ‘Sahul Archaeology: Radiocarbon collection’ drop-down menu
-5. Choose ‘Age (BP)’ from the drop-down menu
-6. Click Add Rule
-7. Select ‘>’ (greater than) from the drop-down menu
-8. Type ’10000’ in the text box
+1. Navigate to the *Layers* menu
+2. Select *‘Radiocarbon collection’* under the *‘Sahul Archaeology’* subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
+3. Navigate to the *Filter* menu
+4. Select the *‘Sahul Archaeology: Radiocarbon collection’* drop-down menu
+5. Choose *‘Age (BP)’* from the drop-down menu
+6. Click *Add Rule*
+7. Select *‘>’* (greater than) from the drop-down menu
+8. Type *’10000’* in the text box
 9. Click anywhere outside of the text box to confirm
-10. Navigate to the Settings menu
-11. Change the base map to Maptiler Positron
+10. Navigate to the *Settings* menu
+11. Change the base map to *Maptiler Positron*
 12. Turn off the clustering option. You can now use Print Screen or a screen capture tool to save the map as an image
 
 Use case #2
