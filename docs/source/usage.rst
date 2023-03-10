@@ -197,6 +197,7 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
 .. figure:: ./img/AUS_sedflvOSL.png
    :alt: AUS sedimentary fluvial OSL ages
    :width: 750px
+   :class: with-border
    
    Plot 2. Australian sedimentary fluvial OSL ages
 
