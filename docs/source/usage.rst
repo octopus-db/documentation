@@ -194,6 +194,8 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
             zcol = "OSL_AGE", at = seq(0, 350, 50), alpha = .25, # set range (0 to 350 ka) and bins (50 ka)
             alpha.regions = 0.1, legend = TRUE) # Display on map using "mapview" package
 
+|
+
 .. figure:: ./img/AUS_sedflvOSL.png
    :alt: AUS sedimentary fluvial OSL ages
    :width: 750px
