@@ -7,3 +7,17 @@ OCTOPUS database documentation
 .. note::
 
    This project is under active development.
+
+Contents
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+   collections
+   usage
+   data_model
+   resources
+   community
+   references
+   api
