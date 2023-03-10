@@ -65,6 +65,7 @@ In this example, we will prepare a map of Australian archaeological radiocarbon 
 Use case #2
 ^^^^^^^^^^^
 In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
+
 1. Navigate to the Layers menu
 2. Select ‘OSL collection’ under ‘Fluvial deposits’ under ‘Sahul Sedimentary Archives’ (note: there is no need to deselect/untick CRN or Sahul Archaeology)
 3. Navigate to the Filters menu
@@ -99,6 +100,7 @@ deposits: OSL collection’ drop-down menu. Leave ‘Match Type’ set to ‘All
 Use case #3
 ^^^^^^^^^^^
 In this example, we will generate KML files of archaeological, fossil, and sediment age determinations from Cape York Peninsula (IBRA bioregion [#]_) between 1000 and 8000 years old.
+
 1. Navigate to the Layers menu
 2. Select (by tick boxes) all sub-collections in the Sahul Sedimentary Archives and Sahul Archaeology collections and select the FosSahul Database (note: there is no need to deselect/untick CRN)
 3. Navigate to the Filter menu
