@@ -47,6 +47,9 @@ Example use cases
 ~~~~~~~~~~~~~~~~~
 
 Use case #1
+^^^^^^^^^^^
+
+In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data clustering.
 
 Use case #2
 
