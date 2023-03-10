@@ -3,132 +3,6 @@ Data access
 ===========
 OCTOPUS data can be viewed and exported through a bespoke web interface or accessed directly. For the latter, OCTOPUS database provides web feature service (WFS) allowing users to access database content via third party software such as Geographic Information Systems (GIS), or R language. OCTOPUS data is served by GeoServer [#]_, an open server solution for sharing geospatial data. Unless data from OCTOPUS is explicitly downloaded and locally stored by the user, it will remain cloud-borne, so the user will not have to care about data storage and being up-to-date.
 
-Web interface
--------------
-
-Layers
-~~~~~~
-The Layers menu allows you to select data to display, organized by collection. Select tick boxes to view data on the display map.
-
-Filter
-~~~~~~
-The Filter menu allows you to apply filters to data. You must select at least one dataset to view before you can apply filters, and filters are applied to each data collection individually. In the Filter menu, you can download your filter configuration as a .JSON file and import them.
-
-Export Data
-~~~~~~~~~~~
-The Export Data menu allows you to download data, unfiltered or filtered by any rules applied in the Filter menu to that dataset. Data may be exported in the following formats: Geography Markup Language (GML) version 2 and 3, ESRI Shapefile, JavaScript Object Notation (JSON), Google Earth KML and KMZ. You will be prompted to provide an intended use of data prior to download.
-
-.. note::
-
-   Exported data in the KML and KMZ formats are geographically restricted to the region displayed on screen at the time of export. Zoom in or out prior to export to capture your region of interest. All other export formats include the complete geographic extent of selected data.
-
-Download Collection
-~~~~~~~~~~~~~~~~~~~
-The Download Collection menu allows you to request a download of packaged data from the CRN collection. One or more sub-collections from the CRN collection must first be selected in the Layers menu. Hold Ctrl (or Command on Mac) while clicking and dragging to select a region of interest. You will be prompted within the Download Collection menu to provide a name, email address and intended use of data, and tick boxes for data within your selected region.
-
-Setting
-~~~~~~~
-The Settings menu allows you to change the displayed base map, enable case- sensitivity for filters, and control clustering of data.
-
-Data Display
-~~~~~~~~~~~~
-Collection data are displayed on a map (see the Settings menu to change base maps) and default to displaying in clusters. Data circles are colour-coded by collection (e.g. Sahul Archaeology: Radiocarbon collection is orange) and show numbers indicating the count of age determinations represented by that circle. The size of circle clusters is also scaled by the number of age determinations it represents. Clicking on a data circle creates a pop-up containing a subset of summary information about the age determinations it represents. Clicking once anywhere in the window outside of the pop-up will close it.
-
-.. note::
-
-   OCTOPUS web interface does not display full data records. To download full data, use the Export Data menu.
-   
-.. note::
-
-   SahulArch and FosSahul data points are randomly obfuscated within 25km.
-
-Example use cases
-~~~~~~~~~~~~~~~~~
-
-Use case #1
-^^^^^^^^^^^
-In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data clustering.
-
-1. Navigate to the Layers menu
-2. Select ‘Radiocarbon collection’ under the ‘Sahul Archaeology’ subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
-3. Navigate to the Filter menu
-4. Select the ‘Sahul Archaeology: Radiocarbon collection’ drop-down menu
-5. Choose ‘Age (BP)’ from the drop-down menu
-6. Click Add Rule
-7. Select ‘>’ (greater than) from the drop-down menu
-8. Type ’10000’ in the text box
-9. Click anywhere outside of the text box to confirm
-10. Navigate to the Settings menu
-11. Change the base map to Maptiler Positron
-12. Turn off the clustering option. You can now use Print Screen or a screen capture tool to save the map as an image
-
-Use case #2
-^^^^^^^^^^^
-In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
-
-1. Navigate to the Layers menu
-2. Select ‘OSL collection’ under ‘Fluvial deposits’ under ‘Sahul Sedimentary Archives’ (note: there is no need to deselect/untick CRN or Sahul Archaeology)
-3. Navigate to the Filters menu
-4. Select the ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ drop-down menu. Leave ‘Match Type’ set to ‘All’ (default)
-5. Choose ‘Year’ from the drop-down menu
-6. Click ‘Add Rule’
-7. Select ‘>’ (greater than) from the drop-down menu
-8. Type ‘2000’ in the text box
-9. Click anywhere outside of the text box to confirm
-10. Click ‘Add Group’ above this filter
-11. In the new group that appears below your first filter, change the ‘Match Type’ to ‘Any’
-12. Select ‘Type of material used’ from the drop-down list
-13. Click ‘Add Rule’
-14. Select ‘Sediment’ from the drop-down menu under ‘Type of material used’
-15. Select ‘Type of mineral used’ from the drop-down list
-16. Click the ‘Add Rule’ button again
-17. Select ‘Quartz’ from the drop-down menu under ‘Type of material used’
-18. Within the Filter menu, scroll back up to the top of the menu and click ‘Add Group’
-19. Scroll down to your new group and change ‘Match Type’ to ‘Any’
-20. Select ‘Sample collection method’ from the drop-down menu
-21. Click ‘Add Rule’
-22. Leave the default option of ‘Auger’ for ‘Sample collection method’
-23. Click ‘Add Rule’
-24. Select ‘Core’ from the second drop-down menu
-25. Navigate to the Export Data menu
-26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu
-27. Leave ‘Shapefile’ (default) in the second drop-down menu
-28. Choose your intended use of the data from the third drop-down menu (e.g. ‘Research (other)’)
-29. Click ‘Export Layer’
-
-Use case #3
-^^^^^^^^^^^
-In this example, we will generate KML files of archaeological, fossil, and sediment age determinations from Cape York Peninsula (IBRA bioregion [#]_) between 1000 and 8000 years old.
-
-1. Navigate to the Layers menu
-2. Select (by tick boxes) all sub-collections in the Sahul Sedimentary Archives and Sahul Archaeology collections and select the FosSahul Database (note: there is no need to deselect/untick CRN)
-3. Navigate to the Filter menu
-4. Click the Sahul Sedimentary Archives: Fluvial deposits: OSL collection drop-down menu
-5. Select ‘OSL age (ka)’ from the second drop-down list
-6. Click ‘Add Rule’
-7. In the ‘OSL age (ka)’ filter section, select ‘<=’ (lesser than or equal to) and type 8
-8. Click anywhere outside of the text box to confirm
-9. Click ‘Add Rule’ again
-10. In the second ‘OSL age (ka)’ filter section, select ‘>=’ (greater than or equal to) and type 1
-11. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
-12. Click ‘Add Rule’
-13. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
-14. Click outside the text box to confirm
-15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify ‘TL age (ka)’ instead of ‘OSL age (ka’) except for Sahul Archaeology: Radiocarbon collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka)
-16. For Sahul Archaeology: Radiocarbon collection, select ‘Age (BP)’
-17. Click ‘Add Rule’
-18. Select ‘<=’ (lesser than or equal to) and type ’8000’
-19. Click ‘Add Rule’
-20. Select ‘>=’ (greater than or equal to) and type ’1000’
-21. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
-22. Click ‘Add Rule’
-23. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
-24. Click outside the text box to confirm
-25. Navigate to the Export Data menu
-26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu, ‘KML’ from the second drop- down menu, and intended research purpose (e.g. ‘Research (other)’) from the third drop-down menu
-27. Click Export Layer and save file
-28. Repeat steps 26-27 for each data collection
-
 Web Feature Service
 -------------------
 This user guide and brief demonstration of capabilities outlines how to use WFS through third-party software, specifically `QGIS <https://qgis.org>`__ and/or `R software <https://www.r-project.org/>`__ environment as these software solutions are free, open-source and highly versatile.
@@ -320,6 +194,132 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
 .. note::
 
    Thanks to the very slick 'Mapview' [#]_ functionality, points of the original output map are mouse-over sensitive and can be queried in depth by clicking. Further, the map is scalable and you can choose between a decent selection of base map layers. Try it in R!
+
+Web interface
+-------------
+
+Layers
+~~~~~~
+The Layers menu allows you to select data to display, organized by collection. Select tick boxes to view data on the display map.
+
+Filter
+~~~~~~
+The Filter menu allows you to apply filters to data. You must select at least one dataset to view before you can apply filters, and filters are applied to each data collection individually. In the Filter menu, you can download your filter configuration as a .JSON file and import them.
+
+Export Data
+~~~~~~~~~~~
+The Export Data menu allows you to download data, unfiltered or filtered by any rules applied in the Filter menu to that dataset. Data may be exported in the following formats: Geography Markup Language (GML) version 2 and 3, ESRI Shapefile, JavaScript Object Notation (JSON), Google Earth KML and KMZ. You will be prompted to provide an intended use of data prior to download.
+
+.. note::
+
+   Exported data in the KML and KMZ formats are geographically restricted to the region displayed on screen at the time of export. Zoom in or out prior to export to capture your region of interest. All other export formats include the complete geographic extent of selected data.
+
+Download Collection
+~~~~~~~~~~~~~~~~~~~
+The Download Collection menu allows you to request a download of packaged data from the CRN collection. One or more sub-collections from the CRN collection must first be selected in the Layers menu. Hold Ctrl (or Command on Mac) while clicking and dragging to select a region of interest. You will be prompted within the Download Collection menu to provide a name, email address and intended use of data, and tick boxes for data within your selected region.
+
+Setting
+~~~~~~~
+The Settings menu allows you to change the displayed base map, enable case- sensitivity for filters, and control clustering of data.
+
+Data Display
+~~~~~~~~~~~~
+Collection data are displayed on a map (see the Settings menu to change base maps) and default to displaying in clusters. Data circles are colour-coded by collection (e.g. Sahul Archaeology: Radiocarbon collection is orange) and show numbers indicating the count of age determinations represented by that circle. The size of circle clusters is also scaled by the number of age determinations it represents. Clicking on a data circle creates a pop-up containing a subset of summary information about the age determinations it represents. Clicking once anywhere in the window outside of the pop-up will close it.
+
+.. note::
+
+   OCTOPUS web interface does not display full data records. To download full data, use the Export Data menu.
+   
+.. note::
+
+   SahulArch and FosSahul data points are randomly obfuscated within 25km.
+
+Example use cases
+~~~~~~~~~~~~~~~~~
+
+Use case #1
+^^^^^^^^^^^
+In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data clustering.
+
+1. Navigate to the Layers menu
+2. Select ‘Radiocarbon collection’ under the ‘Sahul Archaeology’ subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
+3. Navigate to the Filter menu
+4. Select the ‘Sahul Archaeology: Radiocarbon collection’ drop-down menu
+5. Choose ‘Age (BP)’ from the drop-down menu
+6. Click Add Rule
+7. Select ‘>’ (greater than) from the drop-down menu
+8. Type ’10000’ in the text box
+9. Click anywhere outside of the text box to confirm
+10. Navigate to the Settings menu
+11. Change the base map to Maptiler Positron
+12. Turn off the clustering option. You can now use Print Screen or a screen capture tool to save the map as an image
+
+Use case #2
+^^^^^^^^^^^
+In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
+
+1. Navigate to the Layers menu
+2. Select ‘OSL collection’ under ‘Fluvial deposits’ under ‘Sahul Sedimentary Archives’ (note: there is no need to deselect/untick CRN or Sahul Archaeology)
+3. Navigate to the Filters menu
+4. Select the ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ drop-down menu. Leave ‘Match Type’ set to ‘All’ (default)
+5. Choose ‘Year’ from the drop-down menu
+6. Click ‘Add Rule’
+7. Select ‘>’ (greater than) from the drop-down menu
+8. Type ‘2000’ in the text box
+9. Click anywhere outside of the text box to confirm
+10. Click ‘Add Group’ above this filter
+11. In the new group that appears below your first filter, change the ‘Match Type’ to ‘Any’
+12. Select ‘Type of material used’ from the drop-down list
+13. Click ‘Add Rule’
+14. Select ‘Sediment’ from the drop-down menu under ‘Type of material used’
+15. Select ‘Type of mineral used’ from the drop-down list
+16. Click the ‘Add Rule’ button again
+17. Select ‘Quartz’ from the drop-down menu under ‘Type of material used’
+18. Within the Filter menu, scroll back up to the top of the menu and click ‘Add Group’
+19. Scroll down to your new group and change ‘Match Type’ to ‘Any’
+20. Select ‘Sample collection method’ from the drop-down menu
+21. Click ‘Add Rule’
+22. Leave the default option of ‘Auger’ for ‘Sample collection method’
+23. Click ‘Add Rule’
+24. Select ‘Core’ from the second drop-down menu
+25. Navigate to the Export Data menu
+26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu
+27. Leave ‘Shapefile’ (default) in the second drop-down menu
+28. Choose your intended use of the data from the third drop-down menu (e.g. ‘Research (other)’)
+29. Click ‘Export Layer’
+
+Use case #3
+^^^^^^^^^^^
+In this example, we will generate KML files of archaeological, fossil, and sediment age determinations from Cape York Peninsula (IBRA bioregion [#]_) between 1000 and 8000 years old.
+
+1. Navigate to the Layers menu
+2. Select (by tick boxes) all sub-collections in the Sahul Sedimentary Archives and Sahul Archaeology collections and select the FosSahul Database (note: there is no need to deselect/untick CRN)
+3. Navigate to the Filter menu
+4. Click the Sahul Sedimentary Archives: Fluvial deposits: OSL collection drop-down menu
+5. Select ‘OSL age (ka)’ from the second drop-down list
+6. Click ‘Add Rule’
+7. In the ‘OSL age (ka)’ filter section, select ‘<=’ (lesser than or equal to) and type 8
+8. Click anywhere outside of the text box to confirm
+9. Click ‘Add Rule’ again
+10. In the second ‘OSL age (ka)’ filter section, select ‘>=’ (greater than or equal to) and type 1
+11. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
+12. Click ‘Add Rule’
+13. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
+14. Click outside the text box to confirm
+15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify ‘TL age (ka)’ instead of ‘OSL age (ka’) except for Sahul Archaeology: Radiocarbon collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka)
+16. For Sahul Archaeology: Radiocarbon collection, select ‘Age (BP)’
+17. Click ‘Add Rule’
+18. Select ‘<=’ (lesser than or equal to) and type ’8000’
+19. Click ‘Add Rule’
+20. Select ‘>=’ (greater than or equal to) and type ’1000’
+21. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
+22. Click ‘Add Rule’
+23. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
+24. Click outside the text box to confirm
+25. Navigate to the Export Data menu
+26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu, ‘KML’ from the second drop- down menu, and intended research purpose (e.g. ‘Research (other)’) from the third drop-down menu
+27. Click Export Layer and save file
+28. Repeat steps 26-27 for each data collection
 
 .. rubric:: Footnotes
 
