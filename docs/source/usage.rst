@@ -7,7 +7,33 @@ OCTOPUS data can be viewed and exported through a bespoke web interface or acces
 Web interface
 -------------
 
-*text to come here*
+Layers
+~~~~~~
+
+Filter
+~~~~~~
+
+Export Data
+~~~~~~~~~~~
+
+Download Collection
+~~~~~~~~~~~~~~~~~~~
+
+Setting
+~~~~~~~
+
+Data Display
+~~~~~~~~~~~~
+
+
+Example use cases
+~~~~~~~~~~~~~~~~~
+
+Use case #1
+
+Use case #2
+
+Use case #3
 
 Web Feature Service
 -------------------
@@ -22,7 +48,7 @@ WFS data access via QGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 1. After opening QGIS, start a new project: *Project > New*
-2. In the Browser pane, select WFS/OGC API Features > New Connection…
+2. In the Browser pane, select *WFS/OGC API Features > New Connection…*
 
 .. image:: ./img/wfsQGIS_fig1.png
    :width: 750px
