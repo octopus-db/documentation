@@ -214,7 +214,7 @@ Download Collection
 ~~~~~~~~~~~~~~~~~~~
 The Download Collection menu allows you to request a download of packaged data from the CRN collection. One or more sub-collections from the CRN collection must first be selected in the Layers menu. Hold Ctrl (or Command on Mac) while clicking and dragging to select a region of interest. You will be prompted within the Download Collection menu to provide a name, email address and intended use of data, and tick boxes for data within your selected region.
 
-Setting
+Settings
 ~~~~~~~
 The Settings menu allows you to change the displayed base map, enable case- sensitivity for filters, and control clustering of data.
 
