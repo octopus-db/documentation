@@ -167,8 +167,6 @@ Now that we have the data available, we define our plot parameters. We want to p
    
    Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient
 
-|
-
 Example 2. Australian sedimentary fluvial OSL ages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
