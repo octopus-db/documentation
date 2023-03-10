@@ -238,7 +238,7 @@ Use case #1
 In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data point clustering.
 
 1. Navigate to the *Layers* menu
-2. Select *‘Radiocarbon collection’* under the *‘Sahul Archaeology’* subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
+2. Select *‘Radiocarbon collection’* under the *‘Sahul Archaeology’* subheading
 3. Navigate to the *Filter* menu
 4. Select the *‘Sahul Archaeology: Radiocarbon collection’* drop-down menu
 5. Choose *‘Age (BP)’* from the drop-down menu
@@ -255,7 +255,7 @@ Use case #2
 In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
 
 1. Navigate to the *Layers* menu
-2. Select *‘OSL collection’* under *‘Fluvial deposits’* under *‘Sahul Sedimentary Archives’* (note: there is no need to deselect/untick CRN or Sahul Archaeology)
+2. Select *‘OSL collection’* under *‘Fluvial deposits’* under *‘Sahul Sedimentary Archives’*
 3. Navigate to the *Filters* menu
 4. Select the *‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’* drop-down menu. Leave *‘Match Type’* set to *‘All’* (default)
 5. Choose *‘Year’* from the drop-down menu
@@ -288,33 +288,33 @@ Use case #3
 ^^^^^^^^^^^
 In this example, we will generate KML files of archaeological, fossil, and sediment age determinations from Cape York Peninsula (IBRA bioregion [#]_) between 1000 and 8000 years old.
 
-1. Navigate to the Layers menu
-2. Select (by tick boxes) all sub-collections in the Sahul Sedimentary Archives and Sahul Archaeology collections and select the FosSahul Database (note: there is no need to deselect/untick CRN)
-3. Navigate to the Filter menu
-4. Click the Sahul Sedimentary Archives: Fluvial deposits: OSL collection drop-down menu
-5. Select ‘OSL age (ka)’ from the second drop-down list
-6. Click ‘Add Rule’
-7. In the ‘OSL age (ka)’ filter section, select ‘<=’ (lesser than or equal to) and type 8
+1. Navigate to the *Layers* menu
+2. Select (by tick boxes) all sub-collections in the *Sahul Sedimentary Archives* and *Sahul Archaeology* collections and select the *FosSahul Database*
+3. Navigate to the *Filter* menu
+4. Click the *Sahul Sedimentary Archives: Fluvial deposits: OSL collection* drop-down menu
+5. Select *‘OSL age (ka)’* from the second drop-down list
+6. Click *‘Add Rule’*
+7. In the *‘OSL age (ka)’* filter section, select *‘<=’* (lesser than or equal to) and type *8*
 8. Click anywhere outside of the text box to confirm
-9. Click ‘Add Rule’ again
-10. In the second ‘OSL age (ka)’ filter section, select ‘>=’ (greater than or equal to) and type 1
-11. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
-12. Click ‘Add Rule’
-13. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
+9. Click *‘Add Rule’* again
+10. In the second *‘OSL age (ka)’* filter section, select *‘>=’* (greater than or equal to) and type *1*
+11. Select *‘IBRA-7 bio-region name’* from the first filter drop-down menu
+12. Click *‘Add Rule’*
+13. In the *‘IBRA-7 bio-region name’* filter section, select *‘Cape York Peninsula’*
 14. Click outside the text box to confirm
-15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify ‘TL age (ka)’ instead of ‘OSL age (ka’) except for Sahul Archaeology: Radiocarbon collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka)
-16. For Sahul Archaeology: Radiocarbon collection, select ‘Age (BP)’
-17. Click ‘Add Rule’
-18. Select ‘<=’ (lesser than or equal to) and type ’8000’
-19. Click ‘Add Rule’
-20. Select ‘>=’ (greater than or equal to) and type ’1000’
-21. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
-22. Click ‘Add Rule’
-23. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
+15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify *‘TL age (ka)’* instead of *‘OSL age (ka)’* except for *Sahul Archaeology: Radiocarbon* collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka)
+16. For *Sahul Archaeology: Radiocarbon collection*, select *‘Age (BP)’*
+17. Click *‘Add Rule’*
+18. Select *‘<=’* (lesser than or equal to) and type *’8000’*
+19. Click *‘Add Rule’*
+20. Select *‘>=’* (greater than or equal to) and type *’1000’*
+21. Select *‘IBRA-7 bio-region name’* from the first filter drop-down menu
+22. Click *‘Add Rule’*
+23. In the *‘IBRA-7 bio-region name’* filter section, select *‘Cape York Peninsula’*
 24. Click outside the text box to confirm
 25. Navigate to the Export Data menu
-26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu, ‘KML’ from the second drop- down menu, and intended research purpose (e.g. ‘Research (other)’) from the third drop-down menu
-27. Click Export Layer and save file
+26. Select *‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’* from the first drop-down menu, *‘KML’* from the second drop- down menu, and intended research purpose (e.g. *‘Research (other)’*) from the third drop-down menu
+27. Click *Export Layer* and save file
 28. Repeat steps 26-27 for each data collection
 
 .. rubric:: Footnotes
