@@ -1,7 +1,6 @@
 ===========
 Data access
 ===========
-
 OCTOPUS data can be viewed and exported through a bespoke web interface or accessed directly. For the latter, OCTOPUS database provides web feature service (WFS) allowing users to access database content via third party software such as Geographic Information Systems (GIS), or R language. OCTOPUS data is served by GeoServer [#]_, an open server solution for sharing geospatial data. Unless data from OCTOPUS is explicitly downloaded and locally stored by the user, it will remain cloud-borne, so the user will not have to care about data storage and being up-to-date.
 
 Web interface
@@ -48,12 +47,85 @@ Example use cases
 
 Use case #1
 ^^^^^^^^^^^
-
 In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data clustering.
+1. Navigate to the Layers menu
+2. Select ‘Radiocarbon collection’ under the ‘Sahul Archaeology’ subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
+3. Navigate to the Filter menu
+4. Select the ‘Sahul Archaeology: Radiocarbon collection’ drop-down menu
+5. Choose ‘Age (BP)’ from the drop-down menu
+6. Click Add Rule
+7. Select ‘>’ (greater than) from the drop-down menu
+8. Type ’10000’ in the text box
+9. Click anywhere outside of the text box to confirm
+10. Navigate to the Settings menu
+11. Change the base map to Maptiler Positron
+12. Turn off the clustering option. You can now use Print Screen or a screen capture tool to save the map as an image
 
 Use case #2
+^^^^^^^^^^^
+In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
+1. Navigate to the Layers menu
+2. Select ‘OSL collection’ under ‘Fluvial deposits’ under ‘Sahul Sedimentary Archives’ (note: there is no need to deselect/untick CRN or Sahul Archaeology)
+3. Navigate to the Filters menu
+4. Select the ‘Sahul Sedimentary Archives: Fluvial
+deposits: OSL collection’ drop-down menu. Leave ‘Match Type’ set to ‘All’ (default)
+5. Choose ‘Year’ from the drop-down menu
+6. Click ‘Add Rule’
+7. Select ‘>’ (greater than) from the drop-down menu
+8. Type ‘2000’ in the text box
+9. Click anywhere outside of the text box to confirm
+10. Click ‘Add Group’ above this filter
+11. In the new group that appears below your first filter, change the ‘Match Type’ to ‘Any’
+12. Select ‘Type of material used’ from the drop-down list
+13. Click ‘Add Rule’
+14. Select ‘Sediment’ from the drop-down menu under ‘Type of material used’
+15. Select ‘Type of mineral used’ from the drop-down list
+16. Click the ‘Add Rule’ button again
+17. Select ‘Quartz’ from the drop-down menu under ‘Type of material used’
+18. Within the Filter menu, scroll back up to the top of the menu and click ‘Add Group’
+19. Scroll down to your new group and change ‘Match Type’ to ‘Any’
+20. Select ‘Sample collection method’ from the drop-down menu
+21. Click ‘Add Rule’
+22. Leave the default option of ‘Auger’ for ‘Sample collection method’
+23. Click ‘Add Rule’
+24. Select ‘Core’ from the second drop-down menu
+25. Navigate to the Export Data menu
+26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu
+27. Leave ‘Shapefile’ (default) in the second drop-down menu
+28. Choose your intended use of the data from the third drop-down menu (e.g. ‘Research (other)’)
+29. Click ‘Export Layer’
 
 Use case #3
+^^^^^^^^^^^
+In this example, we will generate KML files of archaeological, fossil, and sediment age determinations from Cape York Peninsula (IBRA bioregion [#]_) between 1000 and 8000 years old.
+1. Navigate to the Layers menu
+2. Select (by tick boxes) all sub-collections in the Sahul Sedimentary Archives and Sahul Archaeology collections and select the FosSahul Database (note: there is no need to deselect/untick CRN)
+3. Navigate to the Filter menu
+4. Click the Sahul Sedimentary Archives: Fluvial deposits: OSL collection drop-down menu
+5. Select ‘OSL age (ka)’ from the second drop-down list
+6. Click ‘Add Rule’
+7. In the ‘OSL age (ka)’ filter section, select ‘<=’ (lesser than or equal to) and type 8
+8. Click anywhere outside of the text box to confirm
+9. Click ‘Add Rule’ again
+10. In the second ‘OSL age (ka)’ filter section, select ‘>=’ (greater than or equal to) and type 1
+11. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
+12. Click ‘Add Rule’
+13. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
+14. Click outside the text box to confirm
+15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify ‘TL age (ka)’ instead of ‘OSL age (ka’) except for Sahul Archaeology: Radiocarbon collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka)
+16. For Sahul Archaeology: Radiocarbon collection, select ‘Age (BP)’
+17. Click ‘Add Rule’
+18. Select ‘<=’ (lesser than or equal to) and type ’8000’
+19. Click ‘Add Rule’
+20. Select ‘>=’ (greater than or equal to) and type ’1000’
+21. Select ‘IBRA-7 bio-region name’ from the first filter drop-down menu
+22. Click ‘Add Rule’
+23. In the ‘IBRA-7 bio-region name’ filter section, select ‘Cape York Peninsula’
+24. Click outside the text box to confirm
+25. Navigate to the Export Data menu
+26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu, ‘KML’ from the second drop- down menu, and intended research purpose (e.g. ‘Research (other)’) from the third drop-down menu
+27. Click Export Layer and save file
+28. Repeat steps 26-27 for each data collection
 
 Web Feature Service
 -------------------
@@ -66,7 +138,6 @@ WFS in a nutshell
 
 WFS data access via QGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~
-
 1. After opening QGIS, start a new project: *Project > New*
 2. In the Browser pane, select *WFS/OGC API Features > New Connection…*
 
@@ -89,7 +160,6 @@ WFS data access via QGIS
 
 Excursus. Obtaining obfuscated geographical coordinates in QGIS
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potentially culturally sensitive. As a result, coordinates have been obfuscated for these collections using a 25-km radius randomising algorithm. These former point data are represented by polygons now and coordinates are not pushed with the attribute table, or the .csv file if the collection is exported. Follow these steps to obtain obfuscated coordinates (keeping in mind the ≥ 25 km uncertainty) for these collections by calculating polygon centroid points:
 
 1. Navigate to the *main menu > Vector > Geometry Tools > Centroids*\ …
@@ -108,7 +178,6 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
 
 WFS data access via R/RStudio
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 The below demo R script fetches, via WFS, spatial layers including rich attribute data from OCTOPUS database and generates a scatter plot and an interactive map representation, respectively.
 
 .. note::
@@ -175,7 +244,6 @@ The above WFS request should yield the following overview
 
 Example 1. Australian 10Be-derived catchment-averaged denudation rates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 In this example we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e., layer *‘be10-denude:crn_aus_basins’* from the above list)
 
 .. code-block:: r
@@ -215,7 +283,6 @@ Now that we have the data available, we define our plot parameters. We want to p
 
 Example 2. Australian sedimentary fluvial OSL ages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
 For this example we quickly want to display Australian OSL (Optically Stimulated Luminescence) ages on a base map.
 
 .. code-block:: r
@@ -254,6 +321,7 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
 
 .. rubric:: Footnotes
 
+.. [#] `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_
 .. [#] `http://geoserver.octopusdata.org/ <http://geoserver.octopusdata.org/>`_
 .. [#] `https://www.ogc.org <https://www.ogc.org>`_
 .. [#] A full description of OCTOPUS database and its collections can be found in a dedicated `Earth Systems Science Data <https://doi.org/10.5194/essd-14-3695-2022>`_ publication.
