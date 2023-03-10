@@ -149,8 +149,6 @@ Now that we have the data available, we define our plot parameters. We want to p
     labs(size = "Catchment \narea [km^2]", colour = "Average \ncatchment \nelevation [m]") # re-label legend
     myPlot # call plot
 
-|
-
 .. figure:: ./img/AUSdenudation.png
    :alt: AUS 10Be catchment-averaged denudation rates
    :width: 750px
@@ -180,8 +178,6 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
     mapview(SahulSed.FLV.OSL, xcol = "X_WGS84", ycol = "Y_WGS84",
             zcol = "OSL_AGE", at = seq(0, 350, 50), alpha = .25, # set range (0 to 350 ka) and bins (50 ka)
             alpha.regions = 0.1, legend = TRUE) # Display on map using "mapview" package
-
-|
 
 .. figure:: ./img/AUS_sedflvOSL.png
    :alt: AUS sedimentary fluvial OSL ages
