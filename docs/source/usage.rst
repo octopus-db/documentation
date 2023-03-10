@@ -69,8 +69,7 @@ In this example, we will generate a Shapefile of Australian fluvial OSL dates fr
 1. Navigate to the Layers menu
 2. Select ‘OSL collection’ under ‘Fluvial deposits’ under ‘Sahul Sedimentary Archives’ (note: there is no need to deselect/untick CRN or Sahul Archaeology)
 3. Navigate to the Filters menu
-4. Select the ‘Sahul Sedimentary Archives: Fluvial
-deposits: OSL collection’ drop-down menu. Leave ‘Match Type’ set to ‘All’ (default)
+4. Select the ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ drop-down menu. Leave ‘Match Type’ set to ‘All’ (default)
 5. Choose ‘Year’ from the drop-down menu
 6. Click ‘Add Rule’
 7. Select ‘>’ (greater than) from the drop-down menu
