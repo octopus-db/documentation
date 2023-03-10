@@ -1,12 +1,12 @@
-==========================
-Data fields (= attributes)
-==========================
+===========
+Data fields
+===========
 
-Global fields
+Common fields
 -------------
 
-Core collections
-----------------
+Specific fields: Core collections
+---------------------------------
 
 CRN
 ~~~~
@@ -17,8 +17,8 @@ SahulArch
 SahulSed
 ~~~~~~~~
 
-Partner collections
--------------------
+Specific fields: Partner collections
+------------------------------------
 
 FosSahul
 ~~~~~~~~
