@@ -235,7 +235,7 @@ Example use cases
 
 Use case #1
 ^^^^^^^^^^^
-In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data clustering.
+In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data point clustering.
 
 1. Navigate to the *Layers* menu
 2. Select *‘Radiocarbon collection’* under the *‘Sahul Archaeology’* subheading (note: there is no need to deselect/untick CRN or Sahul Sedimentary Archives)
@@ -254,35 +254,35 @@ Use case #2
 ^^^^^^^^^^^
 In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
 
-1. Navigate to the Layers menu
-2. Select ‘OSL collection’ under ‘Fluvial deposits’ under ‘Sahul Sedimentary Archives’ (note: there is no need to deselect/untick CRN or Sahul Archaeology)
-3. Navigate to the Filters menu
-4. Select the ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ drop-down menu. Leave ‘Match Type’ set to ‘All’ (default)
-5. Choose ‘Year’ from the drop-down menu
-6. Click ‘Add Rule’
-7. Select ‘>’ (greater than) from the drop-down menu
-8. Type ‘2000’ in the text box
+1. Navigate to the *Layers* menu
+2. Select *‘OSL collection’* under *‘Fluvial deposits’* under *‘Sahul Sedimentary Archives’* (note: there is no need to deselect/untick CRN or Sahul Archaeology)
+3. Navigate to the *Filters* menu
+4. Select the *‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’* drop-down menu. Leave *‘Match Type’* set to *‘All’* (default)
+5. Choose *‘Year’* from the drop-down menu
+6. Click *‘Add Rule’*
+7. Select *‘>’* (greater than) from the drop-down menu
+8. Type *‘2000’* in the text box
 9. Click anywhere outside of the text box to confirm
-10. Click ‘Add Group’ above this filter
-11. In the new group that appears below your first filter, change the ‘Match Type’ to ‘Any’
-12. Select ‘Type of material used’ from the drop-down list
-13. Click ‘Add Rule’
-14. Select ‘Sediment’ from the drop-down menu under ‘Type of material used’
-15. Select ‘Type of mineral used’ from the drop-down list
-16. Click the ‘Add Rule’ button again
-17. Select ‘Quartz’ from the drop-down menu under ‘Type of material used’
-18. Within the Filter menu, scroll back up to the top of the menu and click ‘Add Group’
-19. Scroll down to your new group and change ‘Match Type’ to ‘Any’
-20. Select ‘Sample collection method’ from the drop-down menu
-21. Click ‘Add Rule’
-22. Leave the default option of ‘Auger’ for ‘Sample collection method’
-23. Click ‘Add Rule’
-24. Select ‘Core’ from the second drop-down menu
-25. Navigate to the Export Data menu
-26. Select ‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’ from the first drop-down menu
-27. Leave ‘Shapefile’ (default) in the second drop-down menu
-28. Choose your intended use of the data from the third drop-down menu (e.g. ‘Research (other)’)
-29. Click ‘Export Layer’
+10. Click *‘Add Group’* above this filter
+11. In the new group that appears below your first filter, change the *‘Match Type’* to *‘Any’*
+12. Select *‘Type of material used’* from the drop-down list
+13. Click *‘Add Rule’*
+14. Select *‘Sediment’* from the drop-down menu under *‘Type of material used’*
+15. Select *‘Type of mineral used’* from the drop-down list
+16. Click the *‘Add Rule’* button again
+17. Select *‘Quartz’* from the drop-down menu under *‘Type of material used’*
+18. Within the Filter menu, scroll back up to the top of the menu and click *‘Add Group’*
+19. Scroll down to your new group and change *‘Match Type’* to *‘Any’*
+20. Select *‘Sample collection method’* from the drop-down menu
+21. Click *‘Add Rule’*
+22. Leave the default option of *‘Auger’* for *‘Sample collection method’*
+23. Click *‘Add Rule’*
+24. Select *‘Core’* from the second drop-down menu
+25. Navigate to the *Export Data* menu
+26. Select *‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’* from the first drop-down menu
+27. Leave *‘Shapefile’* (default) in the second drop-down menu
+28. Choose your intended use of the data from the third drop-down menu (e.g. *‘Research (other)’*)
+29. Click *‘Export Layer’*
 
 Use case #3
 ^^^^^^^^^^^
