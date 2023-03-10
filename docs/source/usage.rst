@@ -16,7 +16,7 @@ This user guide and brief demonstration of capabilities outlines how to use WFS 
 WFS in a nutshell
 ~~~~~~~~~~~~~~~~~
 | Geospatial and location information development and standardisation globally is overseen by the Open Geospatial Consortium (OGC) [#]_. Web Feature Service (WFS) is an OGC interface standard that enables platform independent requests for spatial features across the internet. This is accomplished by Geography Markup Language (GML), an XML derivative. Unlike for WMS (Web Map Service), where immutable map tiles are returned, WFS vector entities can be queried, altered, and spatially analysed.
-| WFS functionality knows three basal operations - ``GetCapabilities``, ``DescribeFeatureType``, and ``GetFeature``. Calling ``GetCapabilities`` will generate a standardised, human readable meta-dataset that describes a WFS service and its functionality. ``DescribeFeatureType`` produces an overview of supported feature types, and ``GetFeature`` fetches features including their geometry and attribite values, i.e, variable fields.
+| WFS functionality knows three basal operations - ``GetCapabilities``, ``DescribeFeatureType``, and ``GetFeature``. Calling *GetCapabilities* will generate a standardised, human readable meta-dataset that describes a WFS service and its functionality. *DescribeFeatureType* produces an overview of supported feature types, and *GetFeature* fetches features including their geometry and attribite values, i.e, variable fields.
 
 WFS data access via QGIS
 ~~~~~~~~~~~~~~~~~~~~~~~~
