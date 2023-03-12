@@ -143,7 +143,7 @@ Now that we have the data available, we define our plot parameters. We want to p
     geom_point(aes(size=AREA, color=ELEV_AVE), alpha=.5) + # scale pts. to "AREA", colour pts. to "ELEV_AVE"
     scale_color_viridis(option="C", direction = -1) + # use 'viridis' colour scale
     scale_size_continuous(range = c(2, 10)) + # define point size range for better visibility
-    xlab("Slope gradient [m km^-1]") + ylab("Denudation rate [mm kyr^-1]") + # define label x and y axes
+    xlab("Slope gradient [m km^-1]") + ylab("Denudation rate [mm kyr^-1]") + # set labels for x and y axes
     ggtitle("Australian 10Be catchment-avg. denudation rates") + # make title
     theme(plot.title = element_text(size = 18, face = "bold")) + # title settings
     labs(size = "Catchment \narea [km^2]", colour = "Average \ncatchment \nelevation [m]") # re-label legend
@@ -189,7 +189,7 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
 
 .. note::
 
-   Thanks to the very slick 'Mapview' [#]_ functionality, points of the original output map are mouse-over sensitive and can be queried in depth by clicking. Further, the map is scalable and you can choose between a decent selection of base map layers. Try it yourself in R or have a look at a fully functional copy ``HERE``!
+   Thanks to the very slick 'Mapview' [#]_ functionality, points of the original output map are mouse-over sensitive and can be queried in depth by clicking. Further, the map is scalable and you can choose between a decent selection of base map layers. Try it yourself in R or have a look at a fully functional copy on `RPubs <https://rpubs.com/HenryM/octopus_wfs>`_!
 
 Web interface
 -------------
