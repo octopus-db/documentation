@@ -16,7 +16,7 @@ CRN Australia
 | *Collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances*
 | **Publisher, Year**
 | University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Australia, 1998-2021
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -34,7 +34,7 @@ CRN International
 | *Global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia*
 | **Publisher, Year**
 | University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Global (excl. Australia), 1995-2021
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -64,7 +64,7 @@ The SahulArch Radiocarbon collection
 | *Database of published radiocarbon ages for archaeological records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1961-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -82,7 +82,7 @@ The SahulArch OSL collection
 | *Database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1990-2022
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -100,7 +100,7 @@ The SahulArch TL collection
 | *Database of published thermoluminescence (TL) ages for archaeological records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1972-2022
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -122,7 +122,7 @@ The SahulSed Aeolian OSL collection
 | *Database of published optically stimulated luminescence (OSL) ages for aeolian sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1993-2019
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -140,7 +140,7 @@ The SahulSed Aeolian TL collection
 | *Database of published thermoluminescence (TL) ages for aeolian sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1987-2018
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -158,7 +158,7 @@ The SahulSed Fluvial OSL collection
 | *Database of published optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1997-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -176,7 +176,7 @@ The SahulSed Fluvial TL collection
 | *Database of published thermoluminescence (TL) ages for fluvial sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1986-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -194,7 +194,7 @@ The SahulSed Lacustrine OSL collection
 | *Database of published optically stimulated luminescence (OSL) ages for lacustrine sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1997-2020
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -212,7 +212,7 @@ The SahulSed Lacustrine TL collection
 | *Database of published thermoluminescence (TL) ages for lacustrine sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1991-2015
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -234,7 +234,7 @@ FosSahul
 | *Database of quality-rated dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
 | **Publisher, Year**
 | OCTOPUS database, 2021
-| **Spatial, temporal data extent**
+| **Spatial extent, Publication period**
 | Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1955-2018
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
@@ -249,7 +249,21 @@ FosSahul
 
 expage
 ~~~~~~
-| description to appear here...
+| *A global database of publisahed 10Be and 26Al data from glacial samples*
+| **Publisher, Year**
+| OCTOPUS database, 2021
+| **Spatial extent, Publication period**
+| Global, 1989-2020
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370502 Geochronology, 370902 Glaciology, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Heyman, Jakob (2021) expage -- A global compilation of glacial 10Be and 26Al data. https://expage.github.io (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
+| **DOI**
+| not applicable
 
 .. rubric:: Footnotes
 
