@@ -249,7 +249,7 @@ FosSahul
 
 expage
 ~~~~~~
-| *A global database of publisahed 10Be and 26Al data from glacial samples*
+| *A global database of published 10Be and 26Al data from glacial samples*
 | **Publisher, Year**
 | OCTOPUS database, 2021
 | **Spatial extent, Publication period**
