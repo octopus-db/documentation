@@ -7,7 +7,7 @@ OCTOPUS database knows two levels of sub-collection integration - :ref:`core col
 Core collections
 ----------------
 
-CRN
+_CRN
 ~~~
 OCTOPUS CRN branch features collections of published **cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates** inferred from these data. Ancillary spatial data includes: sample site location (point), basin outline (polygon), digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files for the recalculation of denudation rates using the CAIRN model [#]_. **All denudation rates were recalculated and harmonised** using CAIRN.
 
