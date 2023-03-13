@@ -13,7 +13,7 @@ OCTOPUS CRN branch features collections of published **cosmogenic Be-10 and Al-2
 
 CRN Australia
 """""""""""""
-| *Collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances*
+| *A collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances*
 | **Publisher, Year**
 | University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -31,7 +31,7 @@ CRN Australia
 
 CRN International
 """""""""""""""""
-| *Global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia*
+| *A global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia*
 | **Publisher, Year**
 | University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -61,7 +61,7 @@ SahulArch is a collection triplet of published **radiometric ages for archaeolog
 
 The SahulArch Radiocarbon collection
 """"""""""""""""""""""""""""""""""""
-| *Database of published radiocarbon ages for archaeological records from Sahul*
+| *A database of published radiocarbon ages for archaeological records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
 | **Spatial extent, Publication period**
@@ -79,7 +79,7 @@ The SahulArch Radiocarbon collection
 
 The SahulArch OSL collection
 """"""""""""""""""""""""""""
-| *Database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul*
+| *A database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
 | **Spatial extent, Publication period**
@@ -97,7 +97,7 @@ The SahulArch OSL collection
 
 The SahulArch TL collection
 """""""""""""""""""""""""""
-| *Database of published thermoluminescence (TL) ages for archaeological records from Sahul*
+| *A database of published thermoluminescence (TL) ages for archaeological records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022
 | **Spatial extent, Publication period**
@@ -119,7 +119,7 @@ OCTOPUS collection set of published **optically stimulated luminescence (OSL) ag
 
 The SahulSed Aeolian OSL collection
 """""""""""""""""""""""""""""""""""
-| *Database of published optically stimulated luminescence (OSL) ages for aeolian sedimentary records from Sahul*
+| *A database of published optically stimulated luminescence (OSL) ages for aeolian sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -137,7 +137,7 @@ The SahulSed Aeolian OSL collection
 
 The SahulSed Aeolian TL collection
 """"""""""""""""""""""""""""""""""
-| *Database of published thermoluminescence (TL) ages for aeolian sedimentary records from Sahul*
+| *A database of published thermoluminescence (TL) ages for aeolian sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -155,7 +155,7 @@ The SahulSed Aeolian TL collection
 
 The SahulSed Fluvial OSL collection
 """""""""""""""""""""""""""""""""""
-| *Database of published optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul*
+| *A database of published optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -173,7 +173,7 @@ The SahulSed Fluvial OSL collection
 
 The SahulSed Fluvial TL collection
 """"""""""""""""""""""""""""""""""
-| *Database of published thermoluminescence (TL) ages for fluvial sedimentary records from Sahul*
+| *A database of published thermoluminescence (TL) ages for fluvial sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -191,7 +191,7 @@ The SahulSed Fluvial TL collection
 
 The SahulSed Lacustrine OSL collection
 """"""""""""""""""""""""""""""""""""""
-| *Database of published optically stimulated luminescence (OSL) ages for lacustrine sedimentary records from Sahul*
+| *A database of published optically stimulated luminescence (OSL) ages for lacustrine sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -209,7 +209,7 @@ The SahulSed Lacustrine OSL collection
 
 The SahulSed Lacustrine TL collection
 """""""""""""""""""""""""""""""""""""
-| *Database of published thermoluminescence (TL) ages for lacustrine sedimentary records from Sahul*
+| *A database of published thermoluminescence (TL) ages for lacustrine sedimentary records from Sahul*
 | **Publisher, Year**
 | ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021
 | **Spatial extent, Publication period**
@@ -231,7 +231,7 @@ Partner collections
 
 FosSahul
 ~~~~~~~~
-| *Database of quality-rated dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
+| *A database of quality-rated dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
 | **Publisher, Year**
 | OCTOPUS database, 2021
 | **Spatial extent, Publication period**
