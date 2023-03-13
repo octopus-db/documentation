@@ -231,11 +231,11 @@ Partner collections
 
 FosSahul
 ~~~~~~~~
-| *Database of dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
+| *Database of quality-rated dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
 | **Publisher, Year**
 | OCTOPUS database, 2021
 | **Spatial, temporal data extent**
-| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1991-2015
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1955-2018
 | **Software Required**
 | any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
 | **FoR codes (2020)**
