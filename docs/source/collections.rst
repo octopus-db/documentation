@@ -47,13 +47,23 @@ CRN International
 | **DOI**
 | http://dx.doi.org/10.25900/g76f-0h45
 
-CRN XXL
-"""""""
-| description to appear here...
-
-CRN inprep
-""""""""""
-| description to appear here...
+CRN Large Basins
+"""""""""""""""""
+| *A global collection of catchment polygons for extra large river basins for which Be-10 and Al-26 abundances have been published*
+| **Publisher, Year**
+| University of Wollongong, 2021
+| **Spatial extent, Publication period**
+| Global, 2006-2017
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Large Basins collection. (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
+| **DOI**
+| not applicable
 
 SahulArch
 ~~~~~~~~~
