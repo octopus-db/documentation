@@ -264,6 +264,7 @@ expage
 | Heyman, Jakob (2021) expage -- A global compilation of glacial 10Be and 26Al data. https://expage.github.io (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
 | **DOI**
 | not applicable
+|
 
 .. rubric:: Footnotes
 
