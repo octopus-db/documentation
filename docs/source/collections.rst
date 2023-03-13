@@ -231,7 +231,21 @@ Partner collections
 
 FosSahul
 ~~~~~~~~
-| description to appear here...
+| *Database of dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
+| **Publisher, Year**
+| OCTOPUS database, 2021
+| **Spatial, temporal data extent**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1991-2015
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 310306 Palaecology, 370502 Geochronology, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
+| **DOI**
+| https://doi.org/10.1038/s41597-019-0267-3
 
 expage
 ~~~~~~
