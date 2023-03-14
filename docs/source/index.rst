@@ -18,7 +18,8 @@ Contents
    collections
    usage
    data_model
-   tables_and_fields
+   data_tables
+   field_index
    resources
    community
    references
