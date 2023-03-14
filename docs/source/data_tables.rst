@@ -55,7 +55,7 @@ UPDATED_AT  timestamptz
 
 * REFDBID -- A unique identifier in the format *Name<colon>YearKeyword* where *Name* is the family name of the first author, *Year* is the publication year, and *Keyword* is a catchy single word from the publication title. No whitespace or special characters are allowed. The keyword must not be numeric. 
 
-* REFDOI -- Publication Digital Object Identifier (`DOI<https://doi.org>`_), if available
+* REFDOI -- Publication Digital Object Identifier (`DOI <https://doi.org>`_), if available
 
 * AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...*
 
