@@ -53,11 +53,9 @@ CREATED_AT  timestamptz           TRUE
 UPDATED_AT  timestamptz                    
 =========== =========== ==== ==== ======== ==================
 
-* REFDBID
+* REFDBID -- Unique identifier in the format *Name<colon>YearKeyword* where Name is the Family name of the first author, Year is the publication year, and Keyword is a catchy single word from the publication title. No whitespace or special characters are allowed. The keyword must not be numeric. 
 
-* REFDOI
-
-Publication Digital Object Identifier (DOI), if available
+* REFDOI -- Publication Digital Object Identifier (DOI), if available
 
 * AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...*
 
