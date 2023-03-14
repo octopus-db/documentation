@@ -1,16 +1,32 @@
-======================
-Data tables and fields
-======================
+===========
+Data tables
+===========
 
 Global tables
 -------------
+
+Reference tables
+~~~~~~~~~~~~~~~~
+
+global_RefCore
+
+global_RefAbstract
+
+global_Author
+
+global_Journal
+
+global_Journal
+
+global_RefKeyword
+
 
 Regional tables
 ---------------
 
 
-Specific fields: Core collections
----------------------------------
+Collection specific tables
+--------------------------
 
 CRN
 ~~~~
@@ -20,9 +36,6 @@ SahulArch
 
 SahulSed
 ~~~~~~~~
-
-Specific fields: Partner collections
-------------------------------------
 
 FosSahul
 ~~~~~~~~
