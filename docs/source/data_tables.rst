@@ -18,6 +18,8 @@ Global tables
 
 * global_rivID
 
+* spatial_ref_sys
+
 Reference tables
 ~~~~~~~~~~~~~~~~
 * global_RefCore
@@ -92,6 +94,8 @@ SahulArch
 
 * c14_solvent2ID
 
+* c_mtdID
+
 * arch_c14_polygons_EPSG3857
 
 * arch_osl_polygons_EPSG3857
@@ -100,7 +104,23 @@ SahulArch
 
 SahulSed
 ~~~~~~~~
+* sed_depconID
 
+* sed_faciesID
+
+* sed_geommodID
+
+* sed_geotypeID
+
+* sed_laketypeID
+
+* sed_morphID
+
+* sed_sitetypeID
+
+* sed-osl_points_EPSG3857
+
+* sed-tl_points_EPSG3857
 
 FosSahul
 ~~~~~~~~
