@@ -8,17 +8,17 @@ Global tables
 Reference tables
 ~~~~~~~~~~~~~~~~
 
-global_RefCore
+* global_RefCore
 
-global_RefAbstract
+* global_RefAbstract
 
-global_Author
+* global_Author
 
-global_Journal
+* global_Journal
 
-global_Journal
+* global_Journal
 
-global_RefKeyword
+* global_RefKeyword
 
 
 Regional tables
