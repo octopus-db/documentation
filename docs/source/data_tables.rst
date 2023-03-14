@@ -39,31 +39,31 @@ SahulSed
 
 FosSahul
 ~~~~~~~~
-*fos_Sample
+* fos_Sample
 
-*fos_DataCore
+* fos_DataCore
 
-*fos_TaxRank1_classID
+* fos_TaxRank1_classID
 
-*fos_TaxRank2_infraclaID
+* fos_TaxRank2_infraclaID
 
-*fos_TaxRank3_ordrID
+* fos_TaxRank3_ordrID
 
-*fos_TaxRank4_familyID
+* fos_TaxRank4_familyID
 
-*fos_TaxRank5_genusID
+* fos_TaxRank5_genusID
 
-*fos_TaxRank6_speciesID
+* fos_TaxRank6_speciesID
 
-*fos_chemtypeID
+* fos_chemtypeID
 
-*fos_fosmat1ID
+* fos_fosmat1ID
 
-*fos_fosmat2ID
+* fos_fosmat2ID
 
-*fos_mtdsID
+* fos_mtdsID
 
-*fos_polygons_EPSG3857
+* fos_polygons_EPSG3857
 
 expage
 ~~~~~~
