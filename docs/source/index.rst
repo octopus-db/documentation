@@ -23,7 +23,6 @@ Contents
    resources
    community
    references
-   api
 
 **Acknowledgement**. OCTOPUS database is supported by the Australian Research Council Centre of Excellence for Australian Biodiversity and Heritage (CABAH) [#]_. Funding was also provided by the University of Wollongong [#]_ and the Australian National Data Service (ANDS), now part of the Australian Research Data Commons [#]_.
 
