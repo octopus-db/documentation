@@ -24,32 +24,32 @@ Reference tables
 ~~~~~~~~~~~~~~~~
 **global_RefCore**
 
-=========== =========== ==== ==== ==================
-Field       Data type   Unit Key  Parent
-=========== =========== ==== ==== ==================
-REFDBID     text             pkey 
-OAID        varchar(11)      fkey global_Author
-REFDOI      text                  
-AUTHORS     text                  
-TITLE       text                  
-PUBTYPEID   int2             fkey global_Publication
-JOURNALID   int2             fkey global_Journal
-VOLUME      text                  
-NUMBER      text                  
-PAGES       text                  
-YEAR        int2                  
-ADDRESS     text                  
-NOTE        text                  
-URL         text                  
-BOOKTITLE   text                  
-CHAPTER     text                  
-EDITOR      text                  
-PUBLISHER   text                  
-INSTITUTION text                  
-SCHOOL      text                  
-CREATED_AT  timestamptz           
-UPDATED_AT  timestamptz           
-=========== =========== ==== ==== ==================
+=========== =========== ==== ==== ======== ==================
+Field       Data type   Unit Key  Nullable Parent
+=========== =========== ==== ==== ======== ==================
+REFDBID     text             pkey FALSE    
+OAID        varchar(11)      fkey          global_Author
+REFDOI      text                           
+AUTHORS     text                           
+TITLE       text                           
+PUBTYPEID   int2             fkey FALSE    global_Publication
+JOURNALID   int2             fkey          global_Journal
+VOLUME      text                           
+NUMBER      text                           
+PAGES       text                           
+YEAR        int2                  FALSE    
+ADDRESS     text                           
+NOTE        text                           
+URL         text                           
+BOOKTITLE   text                           
+CHAPTER     text                           
+EDITOR      text                           
+PUBLISHER   text                           
+INSTITUTION text                           
+SCHOOL      text                           
+CREATED_AT  timestamptz           FALSE    
+UPDATED_AT  timestamptz                    
+=========== =========== ==== ==== ======== ==================
 
 **global_RefAbstract**
 
