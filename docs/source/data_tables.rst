@@ -57,7 +57,7 @@ UPDATED_AT  timestamptz
 
 * REFDOI -- Publication Digital Object Identifier (`R software <https://www.r-project.org/>`_), if available
 
-* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...*
+* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...
 
 * TITLE -- Publication title
 
