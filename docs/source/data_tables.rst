@@ -69,8 +69,8 @@ UPDATED_AT  timestamptz
 
 Regional tables
 ---------------
-Non-Cosmogenics
-~~~~~~~~~~~~~~~
+Non-Cosmogenics tables
+~~~~~~~~~~~~~~~~~~~~~~
 **cabah_LabCodes**
 
 **cabah_chemprepID**
@@ -79,13 +79,13 @@ Non-Cosmogenics
 
 **cabah_methodID**
 
-Cosmogenics
-~~~~~~~~~~~
+Cosmogenics tables
+~~~~~~~~~~~~~~~~~~
 **crn_alstndID**
 
 **crn_bestndID**
 
-Luminescence
+Luminescence tables
 ~~~~~~~~~~~~
 **osl-tl_agemodelID**
 
@@ -104,16 +104,16 @@ Luminescence
 Collection specific tables
 --------------------------
 
-CRN
-~~~~
+CRN tables
+~~~~~~~~~~
 **crn_amsID**
 
 **crn_projepsgID**
 
 **crn_studies_boundingbox**
 
-SahulArch
-~~~~~~~~~
+SahulArch tables
+~~~~~~~~~~~~~~~~
 **arch_featdatedID**
 
 **c13_valID**
@@ -136,8 +136,8 @@ SahulArch
 
 **arch_tl_polygons_EPSG3857**
 
-SahulSed
-~~~~~~~~
+SahulSed tables
+~~~~~~~~~~~~~~~
 **sed_depconID**
 
 **sed_faciesID**
@@ -156,8 +156,8 @@ SahulSed
 
 **sed-tl_points_EPSG3857**
 
-FosSahul
-~~~~~~~~
+FosSahul tables
+~~~~~~~~~~~~~~~
 
 **fos_TaxRank1_classID**
 
@@ -181,6 +181,6 @@ FosSahul
 
 **fos_polygons_EPSG3857**
 
-expage
+expage tables
 ~~~~~~
 **expage_points_EPSG3857**
