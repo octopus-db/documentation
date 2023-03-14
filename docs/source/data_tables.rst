@@ -24,6 +24,33 @@ Reference tables
 ~~~~~~~~~~~~~~~~
 **global_RefCore**
 
+=========== =========== ======= ==================
+Field       Data type   Key     Parent
+=========== =========== ======= ==================
+REFDBID     text        pkey    [NULL]
+OAID        varchar(11) fkey    global_Author
+REFDOI      text        [NULL] [NULL]
+AUTHORS     text        [NULL] [NULL]
+TITLE       text        [NULL] [NULL]
+PUBTYPEID   int2        fkey    global_Publication
+JOURNALID   int2        fkey    global_Journal
+VOLUME      text        [NULL] [NULL]
+NUMBER      text        [NULL] [NULL]
+PAGES       text        [NULL] [NULL]
+YEAR        int2        [NULL] [NULL]
+ADDRESS     text        [NULL] [NULL]
+NOTE        text        [NULL] [NULL]
+URL         text        [NULL] [NULL]
+BOOKTITLE   text        [NULL] [NULL]
+CHAPTER     text        [NULL] [NULL]
+EDITOR      text        [NULL] [NULL]
+PUBLISHER   text        [NULL] [NULL]
+INSTITUTION text        [NULL] [NULL]
+SCHOOL      text        [NULL] [NULL]
+CREATED_AT  timestamptz [NULL] [NULL]
+UPDATED_AT  timestamptz [NULL] [NULL]
+=========== =========== ======= ==================
+
 **global_RefAbstract**
 
 **global_Author**
