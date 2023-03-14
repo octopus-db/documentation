@@ -25,19 +25,19 @@ Reference tables
 **global_RefCore**
 
 =========== =========== ==== ==== ======== ==================
-Field       Data type   Unit Key  Nullable Parent
+Field       Data type   Unit Key  Not Null Parent
 =========== =========== ==== ==== ======== ==================
-REFDBID     text             pkey FALSE    
+REFDBID     text             pkey TRUE     
 OAID        varchar(11)      fkey          global_Author
 REFDOI      text                           
 AUTHORS     text                           
 TITLE       text                           
-PUBTYPEID   int2             fkey FALSE    global_Publication
+PUBTYPEID   int2             fkey TRUE     global_Publication
 JOURNALID   int2             fkey          global_Journal
 VOLUME      text                           
 NUMBER      text                           
 PAGES       text                           
-YEAR        int2                  FALSE    
+YEAR        int2                  TRUE     
 ADDRESS     text                           
 NOTE        text                           
 URL         text                           
@@ -47,7 +47,7 @@ EDITOR      text
 PUBLISHER   text                           
 INSTITUTION text                           
 SCHOOL      text                           
-CREATED_AT  timestamptz           FALSE    
+CREATED_AT  timestamptz           TRUE     
 UPDATED_AT  timestamptz                    
 =========== =========== ==== ==== ======== ==================
 
