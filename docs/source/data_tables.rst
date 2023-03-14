@@ -34,6 +34,7 @@ Reference tables
 
 **global_RefKeyword**
 
+----
 
 Regional tables
 ---------------
@@ -66,6 +67,8 @@ Luminescence
 **osl-tl_mtdID**
 
 **osl_typeID**
+
+----
 
 Collection specific tables
 --------------------------
