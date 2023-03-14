@@ -51,6 +51,40 @@ CREATED_AT  timestamptz           TRUE
 UPDATED_AT  timestamptz                    
 =========== =========== ==== ==== ======== ==================
 
+* REFDBID
+
+* REFDOI
+
+* AUTHORS
+
+* TITLE
+
+* VOLUME
+
+* NUMBER
+
+* PAGES
+
+* YEAR
+
+* ADDRESS
+
+* NOTE
+
+* URL
+
+* BOOKTITLE
+
+* CHAPTER
+
+* EDITOR
+
+* PUBLISHER
+
+* INSTITUTION
+
+* SCHOOL
+
 **global_RefAbstract**
 
 **global_Author**
