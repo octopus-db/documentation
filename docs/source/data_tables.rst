@@ -53,39 +53,7 @@ CREATED_AT  timestamptz           TRUE
 UPDATED_AT  timestamptz                    
 =========== =========== ==== ==== ======== ==================
 
-* REFDBID -- A unique identifier in the format *Name<colon>YearKeyword* where *Name* is the family name of the first author, *Year* is the publication year, and *Keyword* is a catchy single word from the publication title. No whitespace or special characters are allowed. The keyword must not be numeric. 
 
-* REFDOI -- Publication Digital Object Identifier (`R software <https://www.r-project.org/>`_), if available
-
-* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...
-
-* TITLE -- Publication title
-
-* VOLUME -- The volume of the 
-
-* NUMBER -- 
-
-* PAGES -- Page range divided by double dash (e.g. 102--208), or number of pages for books, theses
-
-* YEAR -- Year of publication
-
-* ADDRESS -- 
-
-* NOTE -- 
-
-* URL -- 
-
-* BOOKTITLE -- 
-
-* CHAPTER -- 
-
-* EDITOR -- 
-
-* PUBLISHER -- 
-
-* INSTITUTION -- 
-
-* SCHOOL -- 
 
 **global_RefAbstract**
 
