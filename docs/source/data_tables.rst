@@ -24,6 +24,8 @@ Reference tables
 ~~~~~~~~~~~~~~~~
 **global_RefCore**
 
+Minimum set of information defined by type of publication (REF)
+
 =========== =========== ==== ==== ======== ==================
 Field       Data type   Unit Key  Not Null Parent
 =========== =========== ==== ==== ======== ==================
@@ -55,17 +57,19 @@ UPDATED_AT  timestamptz
 
 * REFDOI
 
-* AUTHORS
+Publication Digital Object Identifier (DOI), if available
 
-* TITLE
+* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...*
 
-* VOLUME
+* TITLE -- Publication title
+
+* VOLUME -- Publication volume
 
 * NUMBER
 
 * PAGES
 
-* YEAR
+* YEAR -- Year of publication
 
 * ADDRESS
 
