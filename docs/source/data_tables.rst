@@ -86,7 +86,7 @@ Cosmogenics tables
 **crn_bestndID**
 
 Luminescence tables
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 **osl-tl_agemodelID**
 
 **osl-tl_ed_procID**
