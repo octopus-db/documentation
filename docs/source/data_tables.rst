@@ -53,39 +53,39 @@ CREATED_AT  timestamptz           TRUE
 UPDATED_AT  timestamptz                    
 =========== =========== ==== ==== ======== ==================
 
-* REFDBID -- Unique identifier in the format *Name<colon>YearKeyword* where *Name* is the family name of the first author, *Year* is the publication year, and *Keyword* is a catchy single word from the publication title. No whitespace or special characters are allowed. The keyword must not be numeric. 
+* REFDBID -- A unique identifier in the format *Name<colon>YearKeyword* where *Name* is the family name of the first author, *Year* is the publication year, and *Keyword* is a catchy single word from the publication title. No whitespace or special characters are allowed. The keyword must not be numeric. 
 
-* REFDOI -- Publication Digital Object Identifier (DOI), if available
+* REFDOI -- Publication Digital Object Identifier (`DOI<https://doi.org>`_), if available
 
 * AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...*
 
 * TITLE -- Publication title
 
-* VOLUME -- Publication volume
+* VOLUME -- The volume of the 
 
-* NUMBER
+* NUMBER -- 
 
-* PAGES
+* PAGES -- Page range divided by double dash (e.g. 102--208), or number of pages for books, theses
 
 * YEAR -- Year of publication
 
-* ADDRESS
+* ADDRESS -- 
 
-* NOTE
+* NOTE -- 
 
-* URL
+* URL -- 
 
-* BOOKTITLE
+* BOOKTITLE -- 
 
-* CHAPTER
+* CHAPTER -- 
 
-* EDITOR
+* EDITOR -- 
 
-* PUBLISHER
+* PUBLISHER -- 
 
-* INSTITUTION
+* INSTITUTION -- 
 
-* SCHOOL
+* SCHOOL -- 
 
 **global_RefAbstract**
 
