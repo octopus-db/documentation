@@ -53,7 +53,7 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
    :width: 750px
 
 WFS data access via R/RStudio
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The below demo R script fetches, via WFS, spatial layers including rich attribute data from OCTOPUS database and generates a scatter plot and an interactive map representation, respectively.
 
 .. note::
