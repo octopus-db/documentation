@@ -1,10 +1,12 @@
-===========
-Data fields
-===========
+======================
+Data tables and fields
+======================
 
-Common fields
+Global tables
 -------------
 
+Regional tables
+---------------
 
 
 Specific fields: Core collections
