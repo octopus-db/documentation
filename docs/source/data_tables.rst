@@ -1,7 +1,9 @@
 ===========
 Data tables
 ===========
-OCTOPUS data tables, using a spatial allegory, can be grouped on a global, a regional, and a local level. While a global table can serve any database relation, a regional table should be seen as a thematic table that is, in turn, not matching certain sub-collections. Local tables, finally, are collection specific tables with a high degree of specialisation, compared to the two aforementioned higher-level table groups.
+OCTOPUS data tables, using a spatial allegory, can be grouped into a *global*, a *regional*, and a *local* level. While a :ref:`Global_tables` can serve any database relation, :ref:`Regional_tables` should be seen as a thematic tables not matching certain sub-collections. Finally, :ref:`Local_tables are collection specific tables with a high degree of specialisation, compared to the two aforementioned higher-level table groups.
+
+..  _Global_tables:
 
 Global tables
 -------------
@@ -166,6 +168,8 @@ global_RefKeyword
 
 ----
 
+..  _Regional_tables:
+
 Regional tables
 ---------------
 
@@ -214,6 +218,8 @@ osl_typeID
 ^^^^^^^^^^
 
 ----
+
+..  _Local_tables:
 
 Local tables
 ------------
