@@ -20,8 +20,6 @@ GRNSIZE    text                   TRUE
 GRNSIZEABB varchar(6)                      
 GRNSIZEMIN numeric(7,4) mm                 
 GRNSIZEMAX numeric(7,4) mm                 
-\                                          
-\                                          
 ========== ============ ==== ==== ======== =========
 
 * GRNSIZEID -- Unique identifier (auto-incrementing serial integer)
