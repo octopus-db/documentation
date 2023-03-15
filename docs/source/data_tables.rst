@@ -237,11 +237,20 @@ c14_solvent2ID
 c_mtdID
 ^^^^^^^
 
-**arch_c14_polygons_EPSG3857
+arch_c14_polygons_EPSG3857
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**arch_osl_polygons_EPSG3857
+arch_c14_polygons_EPSG3857
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-**arch_tl_polygons_EPSG3857
+arch_c14_polygons_EPSG3857
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+arch_osl_polygons_EPSG3857
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+arch_tl_polygons_EPSG3857
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 SahulSed tables
 ~~~~~~~~~~~~~~~
