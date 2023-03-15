@@ -32,7 +32,7 @@ Minimum set of information defined by type of publication (REF)
 Field       Data type   Unit Key  Not Null Parent
 =========== =========== ==== ==== ======== ==================
 REFDBID     text             pkey TRUE     
-OAID        varchar(11)      fkey          :ref:`global_Author`
+OAID        varchar(11)      fkey          :ref:`_global_Author`
 REFDOI      text                           
 AUTHORS     text                           
 TITLE       text                           
