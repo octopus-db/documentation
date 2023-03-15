@@ -24,13 +24,13 @@ GRNSIZEMAX numeric(7,4) mm
 
 * GRNSIZEID -- Unique identifier (auto-incrementing serial integer)
 
-* GRNSIZE -- 
+* GRNSIZE -- Name of grain size fraction / material
 
-* GRNSIZEABB -- 
+* GRNSIZEABB -- Unique abbreviation of "GRNSIZE"
 
-* GRNSIZEMIN -- 
+* GRNSIZEMIN -- Lower grainsize fraction limit, if applicable
 
-* GRNSIZEMAX -- 
+* GRNSIZEMAX -- Upper grain size fraction limit, if applicable
 
 Global georeferencing tables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
