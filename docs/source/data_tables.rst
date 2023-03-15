@@ -148,21 +148,30 @@ global_RefKeyword
 
 Regional tables
 ---------------
+
 Non-Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~~~~~
-**cabah_LabCodes**
 
-**cabah_chemprepID**
+cabah_LabCodes
+^^^^^^^^^^^^^^
 
-**cabah_col_mtdID**
+cabah_chemprepID
+^^^^^^^^^^^^^^^^
 
-**cabah_methodID**
+cabah_col_mtdID
+^^^^^^^^^^^^^^^
+
+cabah_methodID
+^^^^^^^^^^^^^^
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
-**crn_alstndID**
 
-**crn_bestndID**
+crn_alstndID
+^^^^^^^^^^^^
+
+crn_bestndID
+^^^^^^^^^^^^
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
