@@ -101,9 +101,9 @@ UPDATED_AT  timestamptz
 
 **global_Journal**
 
-..  _global_Publication:
+..  _global_PubType:
 
-**global_Publication**
+**global_PubType**
 
 ..  _global_RefKeyword:
 
