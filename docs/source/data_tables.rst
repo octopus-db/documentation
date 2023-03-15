@@ -1,10 +1,10 @@
 ===========
 Data tables
 ===========
+OCTOPUS data tables, using a spatial allegory, can be grouped on a global, a regional, and a local level. While a global table can serve any database relation, a regional table should be seen as a thematic table that is, in turn, not matching certain sub-collections. Local tables, finally, are collection specific tables with a high degree of specialisation, compared to the two aforementioned higher-level table groups.
 
 Global tables
 -------------
-A global table can serve any database relation
 
 Global lookup tables
 ~~~~~~~~~~~~~~~~~~~~
@@ -168,7 +168,6 @@ global_RefKeyword
 
 Regional tables
 ---------------
-Regional tables can be seen as thematic tables
 
 Non-Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -218,7 +217,6 @@ osl_typeID
 
 Local tables
 ------------
-Local tables are collection specific
 
 CRN tables
 ~~~~~~~~~~
