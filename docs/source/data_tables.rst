@@ -105,6 +105,19 @@ UPDATED_AT  timestamptz
 
 **global_PubType**
 
+Information standard defined by BibTex
+
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Nullable Parent
+========= ========= ==== ==== ======== ======
+PUBTYPEID int2           pkey FALSE    
+PUBTYPE   text                         
+========= ========= ==== ==== ======== ======
+
+
+
+
+
 ..  _global_RefKeyword:
 
 **global_RefKeyword**
