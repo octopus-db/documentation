@@ -30,6 +30,7 @@ spatial_ref_sys
 
 Reference tables
 ~~~~~~~~~~~~~~~~
+
 ..  _global_RefCore:
 
 global_RefCore
