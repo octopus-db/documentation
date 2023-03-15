@@ -222,11 +222,14 @@ c14_hum_modID
 c14_materia1ID
 ^^^^^^^^^^^^^^
 
-**c14_materia2ID
+c14_materia2ID
+^^^^^^^^^^^^^^
 
-**c14_solvent2ID
+c14_solvent2ID
+^^^^^^^^^^^^^^
 
-**c_mtdID
+c_mtdID
+^^^^^^^
 
 **arch_c14_polygons_EPSG3857
 
