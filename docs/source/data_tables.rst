@@ -65,7 +65,7 @@ UPDATED_AT  timestamptz
 
 * NUMBER -- 
 
-* PAGES -- Page range divided by double dash (e.g. 102-/-208), or number of pages for books, theses
+* PAGES -- Page range divided by double dash (e.g. 102\\-\\-208), or number of pages for books, theses
 
 * YEAR -- Year of publication
 
