@@ -12,15 +12,15 @@ global_GrainSize
 ^^^^^^^^^^^^^^^^
 This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
 
-========== ============ ==== ==== ======== =========
-Field      Data type    Unit Key  Not Null Reference
-========== ============ ==== ==== ======== =========
+========== ============ ==== ==== ======== ======
+Field      Data type    Unit Key  Not Null Parent
+========== ============ ==== ==== ======== ======
 GRNSIZEID  int2              pkey TRUE     
 GRNSIZE    text                   TRUE     
 GRNSIZEABB varchar(6)                      
 GRNSIZEMIN numeric(7,4) mm                 
 GRNSIZEMAX numeric(7,4) mm                 
-========== ============ ==== ==== ======== =========
+========== ============ ==== ==== ======== ======
 
 * GRNSIZEID -- Unique identifier (auto-incrementing serial integer)
 
@@ -66,7 +66,7 @@ global_RefCore
 Minimum set of information defined by type of publication (REF)
 
 =========== =========== ==== ==== ======== ==================
-Field       Data type   Unit Key  Not Null Reference
+Field       Data type   Unit Key  Not Null Parent
 =========== =========== ==== ==== ======== ==================
 REFDBID     text             pkey TRUE     
 OAID        varchar(11)      fkey          :ref:`global_Author`
@@ -147,12 +147,12 @@ global_PubType
 ^^^^^^^^^^^^^^
 Information standard defined by BibTex
 
-========= ========= ==== ==== ======== =========
-Field     Data type Unit Key  Not Null Reference
-========= ========= ==== ==== ======== =========
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Not Null Parent
+========= ========= ==== ==== ======== ======
 PUBTYPEID int2           pkey TRUE     
 PUBTYPE   text                         
-========= ========= ==== ==== ======== =========
+========= ========= ==== ==== ======== ======
 
 * PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
