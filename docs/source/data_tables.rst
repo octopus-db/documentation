@@ -30,7 +30,7 @@ global_RefCore
 Minimum set of information defined by type of publication (REF)
 
 =========== =========== ==== ==== ======== ==================
-Field       Data type   Unit Key  Not Null Parent
+Field       Data type   Unit Key  Not Null Reference
 =========== =========== ==== ==== ======== ==================
 REFDBID     text             pkey TRUE     
 OAID        varchar(11)      fkey          :ref:`global_Author`
@@ -112,12 +112,12 @@ global_PubType
 
 Information standard defined by BibTex
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Nullable Parent
-========= ========= ==== ==== ======== ======
+========= ========= ==== ==== ======== =========
+Field     Data type Unit Key  Nullable Reference
+========= ========= ==== ==== ======== =========
 PUBTYPEID int2           pkey FALSE    
 PUBTYPE   text                         
-========= ========= ==== ==== ======== ======
+========= ========= ==== ==== ======== =========
 
 * PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
