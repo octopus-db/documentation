@@ -4,17 +4,23 @@ Data tables
 
 Global tables
 -------------
+
+Global lookup
+~~~~~~~~~~~~~
+
 global_GrainSize
-~~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^^
+
+Global georeferences
+~~~~~~~~~~~~~~~~~~~~
 
 global_MetaSite
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 global_SiteCode
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^^
 
 global_SiteMaster
-~~~~~~~~~~~~~~~~~
 
 global_dbDOI
 ~~~~~~~~~~~~
@@ -27,6 +33,8 @@ global_rivID
 
 spatial_ref_sys
 ~~~~~~~~~~~~~~~
+
+Global references
 
 ..  _global_RefCore:
 
