@@ -102,11 +102,13 @@ global_Author
 
 ..  _global_Journal:
 
-**global_Journal**
+global_Journal
+^^^^^^^^^^^^^^
 
 ..  _global_PubType:
 
-**global_PubType**
+global_PubType
+^^^^^^^^^^^^^^
 
 Information standard defined by BibTex
 
@@ -123,7 +125,8 @@ PUBTYPE   text
 
 ..  _global_RefKeyword:
 
-**global_RefKeyword**
+global_RefKeyword
+^^^^^^^^^^^^^^^^^
 
 ----
 
