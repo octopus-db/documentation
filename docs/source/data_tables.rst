@@ -254,23 +254,33 @@ arch_tl_polygons_EPSG3857
 
 SahulSed tables
 ~~~~~~~~~~~~~~~
-**sed_depconID**
 
-**sed_faciesID**
+sed_depconID
+^^^^^^^^^^^^
 
-**sed_geommodID**
+sed_faciesID
+^^^^^^^^^^^^
 
-**sed_geotypeID**
+sed_geommodID
+^^^^^^^^^^^^^
 
-**sed_laketypeID**
+sed_geotypeID
+^^^^^^^^^^^^^
 
-**sed_morphID**
+sed_laketypeID
+^^^^^^^^^^^^^^
 
-**sed_sitetypeID**
+sed_morphID
+^^^^^^^^^^^
 
-**sed-osl_points_EPSG3857**
+sed_sitetypeID
+^^^^^^^^^^^^^^
 
-**sed-tl_points_EPSG3857**
+sed-osl_points_EPSG3857
+^^^^^^^^^^^^^^^^^^^^^^^
+
+sed-tl_points_EPSG3857
+^^^^^^^^^^^^^^^^^^^^^^
 
 FosSahul tables
 ~~~~~~~~~~~~~~~
