@@ -5,14 +5,14 @@ Data tables
 Global tables
 -------------
 
-Global lookup
-~~~~~~~~~~~~~
+Global lookup tables
+~~~~~~~~~~~~~~~~~~~~
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
 
-Global georeferences
-~~~~~~~~~~~~~~~~~~~~
+Global georeferencing tables
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 global_MetaSite
 ^^^^^^^^^^^^^^^
@@ -21,25 +21,27 @@ global_SiteCode
 ^^^^^^^^^^^^^^^
 
 global_SiteMaster
+^^^^^^^^^^^^^^^^^
 
 global_dbDOI
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 
 global_ibraID
-~~~~~~~~~~~~~
+^^^^^^^^^^^^^
 
 global_rivID
-~~~~~~~~~~~~
+^^^^^^^^^^^^
 
 spatial_ref_sys
-~~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
-Global references
+Global reference tables
+~~~~~~~~~~~~~~~~~~~~~~~
 
 ..  _global_RefCore:
 
 global_RefCore
-~~~~~~~~~~~~~~
+^^^^^^^^^^^^^^
 
 Minimum set of information defined by type of publication (REF)
 
