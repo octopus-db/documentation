@@ -95,7 +95,8 @@ UPDATED_AT  timestamptz
 
 ..  _global_Author:
 
-**global_Author**
+global_Author
+^^^^^^^^^^^^^
 
 ..  _global_Journal:
 
