@@ -114,9 +114,9 @@ PUBTYPEID int2           pkey FALSE
 PUBTYPE   text                         
 ========= ========= ==== ==== ======== ======
 
+* PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
-
-
+* PUBTYPE -- Name of reference entry type according to BibTeX standards
 
 ..  _global_RefKeyword:
 
