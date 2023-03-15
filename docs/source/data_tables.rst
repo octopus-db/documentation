@@ -142,7 +142,7 @@ PUBTYPE   text
 ..  _global_RefKeyword:
 
 global_RefKeyword
-
+^^^^^^^^^^^^^^^^^
 
 ----
 
