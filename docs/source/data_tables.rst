@@ -4,6 +4,7 @@ Data tables
 
 Global tables
 -------------
+A global table can serve any database relation
 
 Global lookup tables
 ~~~~~~~~~~~~~~~~~~~~
@@ -167,6 +168,7 @@ global_RefKeyword
 
 Regional tables
 ---------------
+Regional tables can be seen as thematic tables
 
 Non-Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -214,8 +216,9 @@ osl_typeID
 
 ----
 
-Collection specific tables
---------------------------
+Local tables
+------------
+Local tables are collection specific
 
 CRN tables
 ~~~~~~~~~~
