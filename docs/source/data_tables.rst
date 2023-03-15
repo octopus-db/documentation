@@ -5,36 +5,33 @@ Data tables
 Global tables
 -------------
 global_GrainSize
-^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 global_MetaSite
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 global_SiteCode
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~
 
 global_SiteMaster
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~
 
 global_dbDOI
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
 global_ibraID
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 
 global_rivID
-^^^^^^^^^^^^
+~~~~~~~~~~~~
 
 spatial_ref_sys
-^^^^^^^^^^^^^^^
-
-Reference tables
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 
 ..  _global_RefCore:
 
 global_RefCore
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 Minimum set of information defined by type of publication (REF)
 
@@ -102,22 +99,22 @@ UPDATED_AT  timestamptz
 ..  _global_RefAbstract:
 
 global_RefAbstract
-^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~
 
 ..  _global_Author:
 
 global_Author
-^^^^^^^^^^^^^
+~~~~~~~~~~~~~
 
 ..  _global_Journal:
 
 global_Journal
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 ..  _global_PubType:
 
 global_PubType
-^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~
 
 Information standard defined by BibTex
 
@@ -135,7 +132,7 @@ PUBTYPE   text
 ..  _global_RefKeyword:
 
 global_RefKeyword
-^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~
 
 ----
 
