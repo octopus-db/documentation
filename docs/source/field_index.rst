@@ -10,6 +10,8 @@ Data table fields
 Lookup table fields
 -------------------
 
+..  _global_PubType_Fields:
+
 global_PubType Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
