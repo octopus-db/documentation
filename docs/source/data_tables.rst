@@ -8,8 +8,8 @@ OCTOPUS data tables, using a spatial allegory, can be grouped into a *global*, a
 Global tables
 -------------
 
-Global lookup tables
-~~~~~~~~~~~~~~~~~~~~
+Lookup branch
+~~~~~~~~~~~~~
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
@@ -35,8 +35,8 @@ GRNSIZEMAX numeric(7,4) mm
 
 * GRNSIZEMAX -- Upper grain size fraction limit, if applicable
 
-Global georeferencing tables
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Georeferencing branch
+~~~~~~~~~~~~~~~~~~~~~
 
 global_MetaSite
 ^^^^^^^^^^^^^^^
@@ -59,8 +59,8 @@ global_rivID
 spatial_ref_sys
 ^^^^^^^^^^^^^^
 
-Global reference tables
-~~~~~~~~~~~~~~~~~~~~~~~
+References branch
+~~~~~~~~~~~~~~~~~
 
 ..  _global_RefCore:
 
