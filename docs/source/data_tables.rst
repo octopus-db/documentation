@@ -24,7 +24,8 @@ Reference tables
 ~~~~~~~~~~~~~~~~
 ..  _global_RefCore:
 
-**global_RefCore**
+global_RefCore
+^^^^^^^^^^^^^^
 
 Minimum set of information defined by type of publication (REF)
 
