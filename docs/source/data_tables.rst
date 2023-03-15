@@ -159,7 +159,7 @@ PUBTYPE   text
 
 * PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* PUBTYPE -- Name of publication entry type according to BibTeX standards. For selectable values see :ref:`global_PubType Fields`
+* PUBTYPE -- Name of publication entry type according to BibTeX standards. For selectable values see :ref:`global_PubType_Fields`
 
 ..  _global_RefKeyword:
 
