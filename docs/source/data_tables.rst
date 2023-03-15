@@ -137,7 +137,7 @@ PUBTYPE   text
 
 * PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* PUBTYPE -- Name of reference entry type according to BibTeX standards
+* PUBTYPE -- Name of publication entry type according to BibTeX standards
 
 ..  _global_RefKeyword:
 
