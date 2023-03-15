@@ -175,17 +175,23 @@ crn_bestndID
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
-**osl-tl_agemodelID**
+osl-tl_agemodelID
+^^^^^^^^^^^^^^^^^
 
-**osl-tl_ed_procID**
+osl-tl_ed_procID
+^^^^^^^^^^^^^^^^
 
-**osl-tl_lum_matID**
+osl-tl_lum_matID
+^^^^^^^^^^^^^^^^
 
-**osl-tl_mineralID**
+osl-tl_mineralID
+^^^^^^^^^^^^^^^^
 
-**osl-tl_mtdID**
+osl-tl_mtdID
+^^^^^^^^^^^^
 
-**osl_typeID**
+osl_typeID
+^^^^^^^^^^
 
 ----
 
