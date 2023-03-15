@@ -37,8 +37,8 @@ OAID        varchar(11)      fkey          :ref:`global_Author`
 REFDOI      text                           
 AUTHORS     text                           
 TITLE       text                           
-PUBTYPEID   int2             fkey TRUE     global_Publication
-JOURNALID   int2             fkey          global_Journal
+PUBTYPEID   int2             fkey TRUE     :ref:`global_PubType`
+JOURNALID   int2             fkey          :ref:`global_Journal`
 VOLUME      text                           
 NUMBER      text                           
 PAGES       text                           
