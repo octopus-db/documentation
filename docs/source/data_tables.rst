@@ -22,6 +22,8 @@ Global tables
 
 Reference tables
 ~~~~~~~~~~~~~~~~
+..  _global_RefCore:
+
 **global_RefCore**
 
 Minimum set of information defined by type of publication (REF)
@@ -87,13 +89,23 @@ UPDATED_AT  timestamptz
 
 * SCHOOL -- 
 
+..  _global_RefAbstract:
+
 **global_RefAbstract**
+
+..  _global_Author:
 
 **global_Author**
 
+..  _global_Journal:
+
 **global_Journal**
 
+..  _global_Publication:
+
 **global_Publication**
+
+..  _global_RefKeyword:
 
 **global_RefKeyword**
 
