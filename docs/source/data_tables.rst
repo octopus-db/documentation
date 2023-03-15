@@ -129,9 +129,9 @@ global_PubType
 Information standard defined by BibTex
 
 ========= ========= ==== ==== ======== =========
-Field     Data type Unit Key  Nullable Reference
+Field     Data type Unit Key  Not Null Reference
 ========= ========= ==== ==== ======== =========
-PUBTYPEID int2           pkey FALSE    
+PUBTYPEID int2           pkey TRUE     
 PUBTYPE   text                         
 ========= ========= ==== ==== ======== =========
 
