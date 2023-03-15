@@ -35,7 +35,7 @@ PUBTYPEID PUBTYPE
 ========= =============
 
 
-* book _[#] --
+* book [#]_ --
 
 * booklet --
 
@@ -65,3 +65,6 @@ PUBTYPEID PUBTYPE
 
 * online --
 
+.. rubric:: Footnotes
+
+.. [#] Entry type descriptions taken from `http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/ <http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/>`_
