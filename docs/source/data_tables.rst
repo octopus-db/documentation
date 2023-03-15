@@ -57,7 +57,7 @@ UPDATED_AT  timestamptz
 
 * REFDOI -- Publication Digital Object Identifier (`DOI <https://www.doi.org/>`_), if available
 
-* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB; ...
+* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB*; ...
 
 * TITLE -- Publication title
 
@@ -65,7 +65,7 @@ UPDATED_AT  timestamptz
 
 * NUMBER -- 
 
-* PAGES -- Page range divided by double dash (e.g. 102--208), or number of pages for books, theses
+* PAGES -- Page range divided by double dash (e.g. 102-/-208), or number of pages for books, theses
 
 * YEAR -- Year of publication
 
