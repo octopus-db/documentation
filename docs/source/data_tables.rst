@@ -10,6 +10,29 @@ Global lookup tables
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
+This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
+
+========== ============ ==== ==== ======== =========
+Field      Data type    Unit Key  Not Null Reference
+========== ============ ==== ==== ======== =========
+GRNSIZEID  int2              pkey TRUE     
+GRNSIZE    text                   TRUE     
+GRNSIZEABB varchar(6)                      
+GRNSIZEMIN numeric(7,4) mm                 
+GRNSIZEMAX numeric(7,4) mm                 
+\                                          
+\                                          
+========== ============ ==== ==== ======== =========
+
+* GRNSIZEID -- Unique identifier (auto-incrementing serial integer)
+
+* GRNSIZE -- 
+
+* GRNSIZEABB -- 
+
+* GRNSIZEMIN -- 
+
+* GRNSIZEMAX -- 
 
 Global georeferencing tables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -42,7 +65,6 @@ Global reference tables
 
 global_RefCore
 ^^^^^^^^^^^^^^
-
 Minimum set of information defined by type of publication (REF)
 
 =========== =========== ==== ==== ======== ==================
@@ -125,7 +147,6 @@ global_Journal
 
 global_PubType
 ^^^^^^^^^^^^^^
-
 Information standard defined by BibTex
 
 ========= ========= ==== ==== ======== =========
