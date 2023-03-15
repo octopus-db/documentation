@@ -26,7 +26,7 @@ global_rivID
 ~~~~~~~~~~~~
 
 spatial_ref_sys
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 ..  _global_RefCore:
 
