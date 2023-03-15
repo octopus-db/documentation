@@ -93,7 +93,7 @@ UPDATED_AT  timestamptz
 
 **global_Journal**
 
-**global_Journal**
+**global_Publication**
 
 **global_RefKeyword**
 
