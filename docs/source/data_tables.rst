@@ -91,7 +91,8 @@ UPDATED_AT  timestamptz
 
 ..  _global_RefAbstract:
 
-**global_RefAbstract**
+global_RefAbstract
+^^^^^^^^^^^^^^^^^^
 
 ..  _global_Author:
 
