@@ -4,21 +4,29 @@ Data tables
 
 Global tables
 -------------
-**global_GrainSize**
+global_GrainSize
+^^^^^^^^^^^^^^^^
 
-**global_MetaSite**
+global_MetaSite
+^^^^^^^^^^^^^^^
 
-**global_SiteCode**
+global_SiteCode
+^^^^^^^^^^^^^^^
 
-**global_SiteMaster**
+global_SiteMaster
+^^^^^^^^^^^^^^^^^
 
-**global_dbDOI**
+global_dbDOI
+^^^^^^^^^^^^
 
-**global_ibraID**
+global_ibraID
+^^^^^^^^^^^^^
 
-**global_rivID**
+global_rivID
+^^^^^^^^^^^^
 
-**spatial_ref_sys**
+spatial_ref_sys
+^^^^^^^^^^^^^^^
 
 Reference tables
 ~~~~~~~~~~~~~~~~
