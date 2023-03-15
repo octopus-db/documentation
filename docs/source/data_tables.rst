@@ -57,31 +57,31 @@ UPDATED_AT  timestamptz
 
 * REFDOI -- Publication Digital Object Identifier (`DOI <https://www.doi.org/>`_), if available
 
-* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB*; ...
+* AUTHORS -- Full sequence of publication authors in the format *FamilyA, ForenameA; FamilyB, ForenameB*; ... where forenames may be abbreviated with leading capital letter in the format *FamilyA, A.; FamilyB, B.*; ...
 
 * TITLE -- Publication title
 
-* VOLUME -- The volume of the 
+* VOLUME -- Volume of publication medium
 
-* NUMBER -- 
+* NUMBER -- Number of publication medium
 
-* PAGES -- Page range divided by double dash (e.g. 102\-\-208), or number of pages for books, theses
+* PAGES -- Page range divided by double dash (e.g. 102\-\-208), running article number, or a number of pages for books, theses
 
 * YEAR -- Year of publication
 
-* ADDRESS -- 
+* ADDRESS -- Publisher address
 
-* NOTE -- 
+* NOTE -- free text field for annotations
 
-* URL -- 
+* URL -- Publication url, especially favoured when no DOI available
 
-* BOOKTITLE -- 
+* BOOKTITLE -- Title of book, website, 
 
-* CHAPTER -- 
+* CHAPTER -- Book chapter
 
 * EDITOR -- 
 
-* PUBLISHER -- 
+* PUBLISHER -- Publisher
 
 * INSTITUTION -- 
 
