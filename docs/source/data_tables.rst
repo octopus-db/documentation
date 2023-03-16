@@ -66,7 +66,9 @@ Global references tables
 
 global_RefCore
 ^^^^^^^^^^^^^^
-Minimum set of information defined by type of publication (REF)
+This table stores information that allow certain identification and citation of OCTOPUS collection data sources according to BibTeX referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be *required*, some will be *optional*, and others will be *ignored* by BibTeX. Those three categories are defined in the 
+
+defined by type of publication (REF)
 
 =========== =========== ==== ==== ======== ==================
 Field       Data type   Unit Key  Not Null Parent
