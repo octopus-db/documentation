@@ -52,6 +52,10 @@ SITECODEID int2           pkey TRUE
 SITECODE   text                TRUE     
 ========== ========= ==== ==== ======== ======
 
+* SITECODEID -- Unique identifier (auto-incrementing serial integer)
+
+* SITECODE -- 
+
 global_SiteMaster
 ^^^^^^^^^^^^^^^^^
 
@@ -70,6 +74,12 @@ IBRACODE   varchar(3)           TRUE
 IBRAREGION text                          
 ========== ========== ==== ==== ======== ======
 
+* IBRAID -- 
+
+* IBRACODE -- 
+
+* IBRAREGION -- 
+
 global_rivID
 ^^^^^^^^^^^^
 ``DRAFT`` This table
@@ -83,6 +93,16 @@ AHGFL2  varchar(6)
 RIVNAME text                          
 RIVDIV  text                          
 ======= ========== ==== ==== ======== ======
+
+* RIVID -- 
+
+* AHGFL1 -- 
+
+* AHGFL2 -- 
+
+* RIVNAME -- 
+
+* RIVDIV -- 
 
 spatial_ref_sys
 ^^^^^^^^^^^^^^
@@ -195,6 +215,26 @@ AUTH_URL   text
 URL_DATE   date                            
 ========== ============ ==== ==== ======== ======
 
+* OAID -- 
+
+* AUTH -- 
+
+* FORENAME -- 
+
+* INITIALS -- 
+
+* ORCID -- 
+
+* SCOPUSID -- 
+
+* WSCC_RESID -- 
+
+* AUTH_COMMT -- 
+
+* AUTH_URL -- ... if "AUTH" is a corporation
+
+* URL_DATE -- ... only applicable if "AUTH_URL" is not null
+
 ..  _global_Journal:
 
 global_Journal
@@ -210,6 +250,16 @@ JOURNALABB text                 TRUE
 PRINT_ISSN varchar(9)                    
 ONLIN_ISSN varchar(9)                    
 ========== ========== ==== ==== ======== ======
+
+* JOURNALID -- Unique identifier (auto-incrementing serial integer)
+
+* JOURNAL -- 
+
+* JOURNALABB -- Abbreviated journal name according to https://images.webofknowledge.com/images/help/WOS/A_abrvjt.html
+
+* PRINT_ISSN -- 
+
+* ONLIN_ISSN -- 
 
 ..  _global_PubType:
 
