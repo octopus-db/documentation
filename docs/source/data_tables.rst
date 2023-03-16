@@ -469,23 +469,90 @@ BESTNDCOMT text
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
+
+..  _osl-tl_agemodelID:
+
 osl-tl_agemodelID
 ^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+AGEMODELID int2           pkey TRUE     
+AGEMODEL   text                TRUE     
+AGEMODELAB text                         
+========== ========= ==== ==== ======== ======
+
+..  _osl-tl_ed_procID:
 
 osl-tl_ed_procID
 ^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+ED_PROCID  int2           pkey TRUE     
+ED_PROC    text                TRUE     
+ED_PROCABR text                         
+========== ========= ==== ==== ======== ======
+
+..  _osl-tl_lum_matID:
 
 osl-tl_lum_matID
 ^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+LUM_MATID  int2           pkey TRUE     
+LUM_MAT    text                TRUE     
+LUM_MATABB text                         
+========== ========= ==== ==== ======== ======
+
+..  _osl-tl_mineralID:
 
 osl-tl_mineralID
 ^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+MINERALID  int2           pkey TRUE     
+MINERAL    text                TRUE     
+MINERALABB text                         
+========== ========= ==== ==== ======== ======
+
+..  _osl-tl_mtdID:
 
 osl-tl_mtdID
 ^^^^^^^^^^^^
+``DRAFT`` This table 
+
+===== ========= ==== ==== ======== ======
+Field Data type Unit Key  Not Null Parent
+===== ========= ==== ==== ======== ======
+MTDID int2           pkey TRUE     
+MTD   text                TRUE     
+MTDAB text                         
+===== ========= ==== ==== ======== ======
+
+..  _osl_typeID:
 
 osl_typeID
 ^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+OSL_TYPEID int2           pkey TRUE     
+OSL_TYPE   text                TRUE     
+OSL_TYPEAB text                         
+========== ========= ==== ==== ======== ======
 
 ----
 
