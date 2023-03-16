@@ -333,7 +333,7 @@ LAB_URL    text
 LAB_SOURCE text                          
 ========== ========== ==== ==== ======== ======
 
-* LAB_ORIGID -- 
+* LAB_ORIGID -- Unique identifier (auto-incrementing serial integer)
 
 * LAB_PREFIX -- 
 
@@ -363,7 +363,7 @@ CHEMPREP   text                TRUE
 CHEMPREPAB text                         
 ========== ========= ==== ==== ======== ======
 
-* CHEMPREPID -- 
+* CHEMPREPID -- Unique identifier (auto-incrementing serial integer)
 
 * CHEMPREP -- 
 
@@ -382,7 +382,7 @@ COL_MTDID int2           pkey TRUE
 COL_MTD   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* COL_MTDID -- 
+* COL_MTDID -- Unique identifier (auto-incrementing serial integer)
 
 * COL_MTD -- 
 
@@ -400,7 +400,7 @@ METHOD     text                TRUE
 METHODABBR text                TRUE     
 ========== ========= ==== ==== ======== ======
 
-* METHODID -- 
+* METHODID -- Unique identifier (auto-incrementing serial integer)
 
 * METHOD -- 
 
@@ -426,7 +426,7 @@ ALSTNDRTIO numeric
 ALSTNDCOMT text                             
 ========== ============= ==== ==== ======== ======
 
-* ALSTNDID -- 
+* ALSTNDID -- Unique identifier (auto-incrementing serial integer)
 
 * ALSTND -- 
 
@@ -455,7 +455,7 @@ BESTNDRTIO numeric
 BESTNDCOMT text                             
 ========== ============= ==== ==== ======== ======
 
-* BESTNDID -- 
+* BESTNDID -- Unique identifier (auto-incrementing serial integer)
 
 * BESTND -- 
 
