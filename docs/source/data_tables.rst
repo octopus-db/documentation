@@ -121,7 +121,7 @@ UPDATED_AT  timestamptz
 
 * CHAPTER -- A chapter, section, sequence etc. number
 
-* EDITOR -- Name(s) of editor(s)in teh format defined above
+* EDITOR -- Name(s) of editor(s) in the format defined above
 
 * PUBLISHER -- Publisher's name
 
