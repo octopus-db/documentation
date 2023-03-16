@@ -119,7 +119,7 @@ UPDATED_AT  timestamptz
 
 * BOOKTITLE -- Title of a book, part of which is being cited. In OCTOPUS, further, title of website
 
-* CHAPTER -- A chapterr, section, sequence etc. number
+* CHAPTER -- A chapter, section, sequence etc. number
 
 * EDITOR -- Name(s) of editor(s)in teh format defined above
 
