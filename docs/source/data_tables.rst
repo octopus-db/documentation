@@ -78,7 +78,7 @@ global_SiteMaster
 Field      Data type      Unit       Key  Not Null Parent
 ========== ============== ========== ==== ======== ======
 SITEID     text                      pkey TRUE     
-METASITEID text                      fkey          
+METASITEID text                      fkey          :ref:`global_MetaSite`
 CNTRY      varchar(3)                     TRUE     
 REGION_INT text                                    
 REGION_REG varchar(3)                              
@@ -87,8 +87,8 @@ DIV_OTHER  text
 ISL_NAME   text                                    
 LAKE       text                                    
 BASIN      text                                    
-RIVID      int2                      fkey          
-IBRAID     int2                      fkey          
+RIVID      int2                      fkey          :ref:`global_rivID`
+IBRAID     int2                      fkey          :ref:`global_ibraID`
 X_WGS84    numeric(10, 6) dec degree               
 Y_WGS84    numeric(10, 6) dec degree               
 CORDS_ELEV varchar(9)                     TRUE     
@@ -98,7 +98,7 @@ SITE_SPEC  text
 ALTNAME1   text                                    
 ALTNAME2   text                                    
 ALTNAME3   text                                    
-SITECODEID int2                      fkey          
+SITECODEID int2                      fkey          :ref:`global_SiteCodeID`
 OPENCLOSED varchar(6)                              
 SITE_COMMT text                                    
 ========== ============== ========== ==== ======== ======
