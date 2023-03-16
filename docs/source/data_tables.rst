@@ -13,7 +13,7 @@ Global lookup tables
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
-``DRAFT` This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
+``DRAFT`` This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
 
 ========== ============ ==== ==== ======== ======
 Field      Data type    Unit Key  Not Null Parent
