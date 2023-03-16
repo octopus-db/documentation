@@ -74,9 +74,9 @@ global_SiteMaster
 
 ``DRAFT`` This table
 
-========== ============== ========== ==== ======== ======
+========== ============== ========== ==== ======== ======================
 Field      Data type      Unit       Key  Not Null Parent
-========== ============== ========== ==== ======== ======
+========== ============== ========== ==== ======== ======================
 SITEID     text                      pkey TRUE     
 METASITEID text                      fkey          :ref:`global_MetaSite`
 CNTRY      varchar(3)                     TRUE     
@@ -101,7 +101,7 @@ ALTNAME3   text
 SITECODEID int2                      fkey          :ref:`global_SiteCode`
 OPENCLOSED varchar(6)                              
 SITE_COMMT text                                    
-========== ============== ========== ==== ======== ======
+========== ============== ========== ==== ======== ======================
 
 * SITEID -- 
 
