@@ -349,3 +349,7 @@ expage tables
 
 expage_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
+
+.. rubric:: Footnotes
+
+.. [#] `http://www.bibtex.org <http://www.bibtex.org>`_
