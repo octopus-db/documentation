@@ -153,7 +153,6 @@ UPDATED_AT  timestamptz
 
 global_RefAbstract
 ^^^^^^^^^^^^^^^^^^
-
 ``DRAFT`` This table stores publication abstracts for references in :ref:`global_RefCore`.
 
 ========= ========= ==== ==== ======== ======
@@ -171,11 +170,38 @@ ABSTRACT  text
 
 global_Author
 ^^^^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ============ ==== ==== ======== ======
+Field      Data type    Unit Key  Not Null Parent
+========== ============ ==== ==== ======== ======
+OAID       varchar(11)       pkey TRUE     
+AUTH       text                   TRUE     
+FORENAME   text                            
+INITIALS   text                            
+ORCID      #varchar(19)                    
+SCOPUSID   text                            
+WSCC_RESID text                            
+AUTH_COMMT text                            
+AUTH_URL   text                            
+URL_DATE   date                            
+========== ============ ==== ==== ======== ======
 
 ..  _global_Journal:
 
 global_Journal
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ========== ==== ==== ======== ======
+Field      Data type  Unit Key  Not Null Parent
+========== ========== ==== ==== ======== ======
+JOURNALID  int2            pkey TRUE     
+JOURNAL    text                 TRUE     
+JOURNALABB text                 TRUE     
+PRINT_ISSN varchar(9)                    
+ONLIN_ISSN varchar(9)                    
+========== ========== ==== ==== ======== ======
 
 ..  _global_PubType:
 
