@@ -484,6 +484,12 @@ AGEMODEL   text                TRUE
 AGEMODELAB text                         
 ========== ========= ==== ==== ======== ======
 
+* BESTND -- 
+
+* BESTND -- 
+
+* BESTND -- 
+
 ..  _osl-tl_ed_procID:
 
 osl-tl_ed_procID
@@ -497,6 +503,12 @@ ED_PROCID  int2           pkey TRUE
 ED_PROC    text                TRUE     
 ED_PROCABR text                         
 ========== ========= ==== ==== ======== ======
+
+* BESTND -- 
+
+* BESTND -- 
+
+* BESTND -- 
 
 ..  _osl-tl_lum_matID:
 
@@ -512,6 +524,12 @@ LUM_MAT    text                TRUE
 LUM_MATABB text                         
 ========== ========= ==== ==== ======== ======
 
+* BESTND -- 
+
+* BESTND -- 
+
+* BESTND -- 
+
 ..  _osl-tl_mineralID:
 
 osl-tl_mineralID
@@ -525,6 +543,12 @@ MINERALID  int2           pkey TRUE
 MINERAL    text                TRUE     
 MINERALABB text                         
 ========== ========= ==== ==== ======== ======
+
+* BESTND -- 
+
+* BESTND -- 
+
+* BESTND -- 
 
 ..  _osl-tl_mtdID:
 
@@ -540,6 +564,12 @@ MTD   text                TRUE
 MTDAB text                         
 ===== ========= ==== ==== ======== ======
 
+* BESTND -- 
+
+* BESTND -- 
+
+* BESTND -- 
+
 ..  _osl_typeID:
 
 osl_typeID
@@ -553,6 +583,12 @@ OSL_TYPEID int2           pkey TRUE
 OSL_TYPE   text                TRUE     
 OSL_TYPEAB text                         
 ========== ========= ==== ==== ======== ======
+
+* BESTND -- 
+
+* BESTND -- 
+
+* BESTND -- 
 
 ----
 
