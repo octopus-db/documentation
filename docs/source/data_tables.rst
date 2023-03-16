@@ -113,7 +113,7 @@ UPDATED_AT  timestamptz
 
 * ADDRESS -- Usually the address of the publisher or other institution
 
-* NOTE -- free text field for annotations
+* NOTE -- Free text field for annotations
 
 * URL -- Publication url, especially favoured when no DOI available
 
