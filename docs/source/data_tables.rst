@@ -43,6 +43,14 @@ global_MetaSite
 
 global_SiteCode
 ^^^^^^^^^^^^^^^
+``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+SITECODEID int2           pkey TRUE     
+SITECODE   text                TRUE     
+========== ========= ==== ==== ======== ======
 
 global_SiteMaster
 ^^^^^^^^^^^^^^^^^
