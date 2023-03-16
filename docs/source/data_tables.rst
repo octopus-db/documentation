@@ -13,6 +13,8 @@ Global tables
 Global lookup tables
 ~~~~~~~~~~~~~~~~~~~~
 
+..  _global_GrainSize:
+
 global_GrainSize
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
@@ -40,8 +42,12 @@ GRNSIZEMAX numeric(7,4) mm
 Global georeferencing tables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+..  _global_MetaSite:
+
 global_MetaSite
 ^^^^^^^^^^^^^^^
+
+..  _global_SiteCode:
 
 global_SiteCode
 ^^^^^^^^^^^^^^^
@@ -58,11 +64,17 @@ SITECODE   text                TRUE
 
 * SITECODE -- 
 
+..  _global_SiteMaster:
+
 global_SiteMaster
 ^^^^^^^^^^^^^^^^^
 
+..  _global_dbDOI:
+
 global_dbDOI
 ^^^^^^^^^^^^
+
+..  _global_ibraID:
 
 global_ibraID
 ^^^^^^^^^^^^^
