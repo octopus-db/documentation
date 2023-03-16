@@ -52,9 +52,29 @@ global_dbDOI
 
 global_ibraID
 ^^^^^^^^^^^^^
+``DRAFT`` This table
+
+========== ========== ==== ==== ======== ======
+Field      Data type  Unit Key  Not Null Parent
+========== ========== ==== ==== ======== ======
+IBRAID     int2            pkey TRUE     
+IBRACODE   varchar(3)           TRUE     
+IBRAREGION text                          
+========== ========== ==== ==== ======== ======
 
 global_rivID
 ^^^^^^^^^^^^
+``DRAFT`` This table
+
+======= ========== ==== ==== ======== ======
+Field   Data type  Unit Key  Not Null Parent
+======= ========== ==== ==== ======== ======
+RIVID   int2            pkey TRUE     
+AHGFL1  varchar(3)                    
+AHGFL2  varchar(6)                    
+RIVNAME text                          
+RIVDIV  text                          
+======= ========== ==== ==== ======== ======
 
 spatial_ref_sys
 ^^^^^^^^^^^^^^
