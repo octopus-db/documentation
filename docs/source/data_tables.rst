@@ -143,7 +143,7 @@ REFDBID   text           pkey TRUE
 ABSTRACT  text                         
 ========= ========= ==== ==== ======== ======
 
-* REFDBID -- Unique identifier (auto-incrementing serial integer)
+* REFDBID -- Uses same "REFDBID" as :ref:`global_RefCore` tables does (because is one-to-one relationship)
 
 * ABSTRACT -- Is publication abstract, if available. Note - Very extensive abstracts have been truncated and marked as *... [_truncated_]* at their end.
 
