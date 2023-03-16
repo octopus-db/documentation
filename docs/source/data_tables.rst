@@ -134,6 +134,19 @@ UPDATED_AT  timestamptz
 global_RefAbstract
 ^^^^^^^^^^^^^^^^^^
 
+``DRAFT`` This table stores publication abstracts for references in :ref:`global_RefCore`.
+
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Not Null Parent
+========= ========= ==== ==== ======== ======
+REFDBID   text           pkey TRUE     
+ABSTRACT  text                         
+========= ========= ==== ==== ======== ======
+
+* REFDBID -- Unique identifier (auto-incrementing serial integer)
+
+* ABSTRACT -- Is publication abstract, if available. Note - Very extensive abstracts have been truncated and marked as *... [_truncated_]* at their end.
+
 ..  _global_Author:
 
 global_Author
