@@ -98,7 +98,7 @@ SITE_SPEC  text
 ALTNAME1   text                                    
 ALTNAME2   text                                    
 ALTNAME3   text                                    
-SITECODEID int2                      fkey          :ref:`global_SiteCodeID`
+SITECODEID int2                      fkey          :ref:`global_SiteCode`
 OPENCLOSED varchar(6)                              
 SITE_COMMT text                                    
 ========== ============== ========== ==== ======== ======
