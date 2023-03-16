@@ -330,6 +330,22 @@ LAB_URL    text
 LAB_SOURCE text                          
 ========== ========== ==== ==== ======== ======
 
+* LAB_ORIGID -- 
+
+* LAB_PREFIX -- 
+
+* LAB_FACLTY -- 
+
+* CNTRY -- 
+
+* LAB_ACTIVE -- 
+
+* LAB_MTD -- 
+
+* LAB_URL -- 
+
+* LAB_SOURCE -- 
+
 ..  _cabah_chemprepID:
 
 cabah_chemprepID
@@ -344,6 +360,12 @@ CHEMPREP   text                TRUE
 CHEMPREPAB text                         
 ========== ========= ==== ==== ======== ======
 
+* CHEMPREPID -- 
+
+* CHEMPREP -- 
+
+* CHEMPREPAB -- 
+
 ..  _cabah_col_mtdID:
 
 cabah_col_mtdID
@@ -356,6 +378,10 @@ Field     Data type Unit Key  Not Null Parent
 COL_MTDID int2           pkey TRUE     
 COL_MTD   text                TRUE     
 ========= ========= ==== ==== ======== ======
+
+* COL_MTDID -- 
+
+* COL_MTD -- 
 
 ..  _cabah_methodID:
 
@@ -370,6 +396,12 @@ METHODID   int2           pkey TRUE
 METHOD     text                TRUE     
 METHODABBR text                TRUE     
 ========== ========= ==== ==== ======== ======
+
+* METHODID -- 
+
+* METHOD -- 
+
+* METHODABBR -- 
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
@@ -391,6 +423,18 @@ ALSTNDRTIO numeric
 ALSTNDCOMT text                             
 ========== ============= ==== ==== ======== ======
 
+* ALSTNDID -- 
+
+* ALSTND -- 
+
+* ALSTND_PUB -- 
+
+* ALCORR -- 
+
+* ALSTNDRTIO -- 
+
+* ALSTNDCOMT -- 
+
 ..  _crn_bestndID:
 
 crn_bestndID
@@ -407,6 +451,18 @@ BECORR     numeric(5, 4)
 BESTNDRTIO numeric                          
 BESTNDCOMT text                             
 ========== ============= ==== ==== ======== ======
+
+* BESTNDID -- 
+
+* BESTND -- 
+
+* BESTND_PUB -- 
+
+* BECORR -- 
+
+* BESTNDRTIO -- 
+
+* BESTNDCOMT -- 
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
