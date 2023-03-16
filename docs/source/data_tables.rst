@@ -8,6 +8,8 @@ OCTOPUS data tables, using a spatial allegory, can be grouped into a *global*, a
 Global tables
 -------------
 
+..  _Global_lookup_tables:
+
 Global lookup tables
 ~~~~~~~~~~~~~~~~~~~~
 
