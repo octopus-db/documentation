@@ -148,7 +148,7 @@ global_Journal
 
 global_PubType
 ^^^^^^^^^^^^^^
-Information standard defined by BibTex
+``DRAFT`` Information standard defined by BibTex
 
 ========= ========= ==== ==== ======== ======
 Field     Data type Unit Key  Not Null Parent
