@@ -295,24 +295,30 @@ Non-Cosmogenics tables
 
 cabah_LabCodes
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 cabah_chemprepID
 ^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 cabah_col_mtdID
 ^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 cabah_methodID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
 
 crn_alstndID
 ^^^^^^^^^^^^
+``DRAFT`` This table 
 
 crn_bestndID
 ^^^^^^^^^^^^
+``DRAFT`` This table 
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
