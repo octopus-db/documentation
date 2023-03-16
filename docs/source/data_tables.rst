@@ -111,23 +111,23 @@ UPDATED_AT  timestamptz
 
 * YEAR -- Year of publication
 
-* ADDRESS -- Publisher address
+* ADDRESS -- Usually the address of the publisher or other institution
 
 * NOTE -- free text field for annotations
 
 * URL -- Publication url, especially favoured when no DOI available
 
-* BOOKTITLE -- Title of book, website, 
+* BOOKTITLE -- Title of a book, part of which is being cited. In OCTOPUS, further, title of website
 
-* CHAPTER -- Book chapter
+* CHAPTER -- A chapterr, section, sequence etc. number
 
-* EDITOR -- 
+* EDITOR -- Name(s) of editor(s)in teh format defined above
 
-* PUBLISHER -- Publisher
+* PUBLISHER -- Publisher's name
 
-* INSTITUTION -- 
+* INSTITUTION -- Institutuion sponsoring a technical report
 
-* SCHOOL -- 
+* SCHOOL -- Name of school where thesis was written
 
 ..  _global_RefAbstract:
 
