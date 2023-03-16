@@ -28,8 +28,8 @@ Field      Data type    Unit Key  Not Null Parent
 GRNSIZEID  int2              pkey TRUE     
 GRNSIZE    text                   TRUE     
 GRNSIZEABB varchar(6)                      
-GRNSIZEMIN numeric(7,4) mm                 
-GRNSIZEMAX numeric(7,4) mm                 
+GRNSIZEMIN numeric(7, 4) mm                 
+GRNSIZEMAX numeric(7, 4) mm                 
 ========== ============ ==== ==== ======== ======
 
 * GRNSIZEID -- Unique identifier (auto-incrementing serial integer)
@@ -71,6 +71,37 @@ SITECODE   text                TRUE
 
 global_SiteMaster
 ^^^^^^^^^^^^^^^^^
+
+``DRAFT`` This table
+
+========== ============== ========== ==== ======== ======
+Field      Data type      Unit       Key  Not Null Parent
+========== ============== ========== ==== ======== ======
+SITEID     text                      pkey TRUE     
+METASITEID text                      fkey          
+CNTRY      varchar(3)                     TRUE     
+REGION_INT text                                    
+REGION_REG varchar(3)                              
+DIV_ADMIN  varchar(7)                              
+DIV_OTHER  text                                    
+ISL_NAME   text                                    
+LAKE       text                                    
+BASIN      text                                    
+RIVID      int2                      fkey          
+IBRAID     int2                      fkey          
+X_WGS84    numeric(10, 6) dec degree               
+Y_WGS84    numeric(10, 6) dec degree               
+CORDS_ELEV varchar(9)                     TRUE     
+ELEVATION  numeric(6, 2)  m a.s.l.                 
+SITENAME   text                                    
+SITE_SPEC  text                                    
+ALTNAME1   text                                    
+ALTNAME2   text                                    
+ALTNAME3   text                                    
+SITECODEID int2                      fkey          
+OPENCLOSED varchar(6)                              
+SITE_COMMT text                                    
+========== ============== ========== ==== ======== ======
 
 ..  _global_dbDOI:
 
