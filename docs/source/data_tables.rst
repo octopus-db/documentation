@@ -352,4 +352,4 @@ expage_points_EPSG3857
 
 .. rubric:: Footnotes
 
-.. [#] `http://www.bibtex.org <http://www.bibtex.org>`_
+.. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
