@@ -103,6 +103,54 @@ OPENCLOSED varchar(6)
 SITE_COMMT text                                    
 ========== ============== ========== ==== ======== ======
 
+* SITEID -- 
+
+* METASITEID -- 
+
+* CNTRY -- 
+
+* REGION_INT -- 
+
+* REGION_REG -- 
+
+* DIV_ADMIN -- 
+
+* DIV_OTHER -- 
+
+* ISL_NAME -- 
+
+* LAKE -- 
+
+* BASIN -- 
+
+* RIVID -- 
+
+* IBRAID -- 
+
+* X_WGS84 -- 
+
+* Y_WGS84 -- 
+
+* CORDS_ELEV -- 
+
+* ELEVATION -- 
+
+* SITE_SPEC -- 
+
+* ALTNAME1 -- 
+
+* ALTNAME2 -- 
+
+* ALTNAME3 -- 
+
+* SITECODEID -- 
+
+* OPENCLOSED -- 
+
+* SITECODE -- 
+
+* SITE_COMMT -- 
+
 ..  _global_dbDOI:
 
 global_dbDOI
