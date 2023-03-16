@@ -94,6 +94,8 @@ IBRAREGION text
 
 * IBRAREGION -- 
 
+..  _global_rivID:
+
 global_rivID
 ^^^^^^^^^^^^
 ``DRAFT`` This table
@@ -117,6 +119,8 @@ RIVDIV  text
 * RIVNAME -- 
 
 * RIVDIV -- 
+
+..  _spatial_ref_sys:
 
 spatial_ref_sys
 ^^^^^^^^^^^^^^
@@ -307,6 +311,8 @@ Regional tables
 Non-Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~~~~~
 
+..  _cabah_LabCodes:
+
 cabah_LabCodes
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
@@ -324,6 +330,8 @@ LAB_URL    text
 LAB_SOURCE text                          
 ========== ========== ==== ==== ======== ======
 
+..  _cabah_chemprepID:
+
 cabah_chemprepID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
@@ -336,6 +344,8 @@ CHEMPREP   text                TRUE
 CHEMPREPAB text                         
 ========== ========= ==== ==== ======== ======
 
+..  _cabah_col_mtdID:
+
 cabah_col_mtdID
 ^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
@@ -346,6 +356,8 @@ Field     Data type Unit Key  Not Null Parent
 COL_MTDID int2           pkey TRUE     
 COL_MTD   text                TRUE     
 ========= ========= ==== ==== ======== ======
+
+..  _cabah_methodID:
 
 cabah_methodID
 ^^^^^^^^^^^^^^
@@ -362,6 +374,8 @@ METHODABBR text                TRUE
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
 
+..  _crn_alstndID:
+
 crn_alstndID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
@@ -376,6 +390,8 @@ ALCORR     numeric(5, 4)
 ALSTNDRTIO numeric                          
 ALSTNDCOMT text                             
 ========== ============= ==== ==== ======== ======
+
+..  _crn_bestndID:
 
 crn_bestndID
 ^^^^^^^^^^^^
