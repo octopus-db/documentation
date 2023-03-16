@@ -297,17 +297,53 @@ cabah_LabCodes
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+========== ========== ==== ==== ======== ======
+Field      Data type  Unit Key  Not Null Parent
+========== ========== ==== ==== ======== ======
+LAB_ORIGID int2            pkey TRUE     
+LAB_PREFIX text                          
+LAB_FACLTY text                          
+CNTRY      varchar(3)                    
+LAB_ACTIVE bool                          
+LAB_MTD    varchar(3)                    
+LAB_URL    text                          
+LAB_SOURCE text                          
+========== ========== ==== ==== ======== ======
+
 cabah_chemprepID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+CHEMPREPID int2           pkey TRUE     
+CHEMPREP   text                TRUE     
+CHEMPREPAB text                         
+========== ========= ==== ==== ======== ======
 
 cabah_col_mtdID
 ^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Not Null Parent
+========= ========= ==== ==== ======== ======
+COL_MTDID int2           pkey TRUE     
+COL_MTD   text                TRUE     
+========= ========= ==== ==== ======== ======
+
 cabah_methodID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+METHODID   int2           pkey TRUE     
+METHOD     text                TRUE     
+METHODABBR text                TRUE     
+========== ========= ==== ==== ======== ======
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
@@ -316,9 +352,31 @@ crn_alstndID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+========== ============= ==== ==== ======== ======
+Field      Data type     Unit Key  Not Null Parent
+========== ============= ==== ==== ======== ======
+ALSTNDID   int2               pkey TRUE     
+ALSTND     text                    TRUE     
+ALSTND_PUB text                             
+ALCORR     numeric(5, 4)                    
+ALSTNDRTIO numeric                          
+ALSTNDCOMT text                             
+========== ============= ==== ==== ======== ======
+
 crn_bestndID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+========== ============= ==== ==== ======== ======
+Field      Data type     Unit Key  Not Null Parent
+========== ============= ==== ==== ======== ======
+BESTNDID   int2               pkey TRUE     
+BESTND     text                    TRUE     
+BESTND_PUB text                             
+BECORR     numeric(5, 4)                    
+BESTNDRTIO numeric                          
+BESTNDCOMT text                             
+========== ============= ==== ==== ======== ======
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
