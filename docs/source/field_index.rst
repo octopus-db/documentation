@@ -56,6 +56,8 @@ GRNSIZEID GRNSIZE                       GRNSIZEABB GRNSIZEMIN GRNSIZEMAX
 global_ibraID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
+``Draft`` -- `https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes <https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes>`_
+
 ====== ======== =============================
 IBRAID IBRACODE IBRAREGION
 ====== ======== =============================
@@ -155,6 +157,8 @@ IBRAID IBRACODE IBRAREGION
 
 global_rivID Fields
 ~~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- `http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426 <http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426>`_
 
 +-------+--------+--------+---------------------+---------------------+
 | RIVID | AHGFL1 | AHGFL2 | RIVNAME             | RIVDIV              |
@@ -742,9 +746,9 @@ PUBTYPEID PUBTYPE
 16        online
 ========= =============
 
-* **article** -- An article from a journal or magazine. *Required fields*: author, title, journal, year. *Optional fields*: volume, number, pages, month, note.
+* **article** [#]_ -- An article from a journal or magazine. *Required fields*: author, title, journal, year. *Optional fields*: volume, number, pages, month, note.
 
-* **book** [#]_ -- A book with an explicit publisher. *Required fields*: author or editor, title, publisher, year. *Optional fields*: volume or number, series, address, edition, month, note.
+* **book** -- A book with an explicit publisher. *Required fields*: author or editor, title, publisher, year. *Optional fields*: volume or number, series, address, edition, month, note.
 
 * **booklet** -- A work that is printed and bound, but without a named publisher or sponsoring institution. *Required field*: title. *Optional fields*: author, howpublished, address, month, year, note.
 
