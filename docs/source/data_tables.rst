@@ -4,7 +4,7 @@ Data tables
 | OCTOPUS data tables, using a spatial allegory, can be grouped into a *global*, a *regional*, and a *local* level. While a :ref:`Global_tables` can serve any database relation, :ref:`Regional_tables` should be seen as a thematic tables not matching certain sub-collections. Finally, :ref:`Local_tables` are collection specific tables with a high degree of specialisation compared to the two aforementioned higher-level table groups.
 
 | ``DRAFT`` --> data type abbreviations, key abbreviations, not null, parent (link to https://www.postgresql.org/docs/11/datatype.html)
-| ``DRAFT`` --> "CREATED_AT", "UPDATED_AT"
+| ``DRAFT`` --> "CREATED_AT" (Is record timestamp with timezone based on UTC), "UPDATED_AT" (Is timestamp of record update with timezone based on UTC)
 
 ..  _Global_tables:
 
@@ -679,14 +679,44 @@ Local tables
 CRN tables
 ~~~~~~~~~~
 
+..  _crn_amsID:
+
 crn_amsID
 ^^^^^^^^^
+
+====== ========= ==== ==== ======== ======
+Field  Data type Unit Key  Not Null Parent
+====== ========= ==== ==== ======== ======
+AMSID  int2           pkey TRUE     
+AMS    text                TRUE     
+AMSORG text                         
+AMSURL text                         
+====== ========= ==== ==== ======== ======
+
+..  _crn_projepsgID:
 
 crn_projepsgID
 ^^^^^^^^^^^^^^
 
+========== =========== ==== ==== ======== ======
+Field      Data type   Unit Key  Not Null Parent
+========== =========== ==== ==== ======== ======
+PROJEPSGID int2             pkey TRUE     
+PROJECTION varchar(13)           TRUE     
+========== =========== ==== ==== ======== ======
+
+..  _crn_projepsgID:
+
 crn_studies_boundingbox
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+======= ========== ==== ==== ======== ======
+Field   Data type  Unit Key  Not Null Parent
+======= ========== ==== ==== ======== ======
+id      serial4         pkey TRUE     
+geom    geometry                      
+STUDYID varchar(5)      ukey TRUE     
+======= ========== ==== ==== ======== ======
 
 SahulArch tables
 ~~~~~~~~~~~~~~~~
