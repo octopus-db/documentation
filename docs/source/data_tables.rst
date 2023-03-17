@@ -755,6 +755,10 @@ FEATDATEID           int2 pkey TRUE
 FEATDATED            text      TRUE     
 ========== ========= ==== ==== ======== ======
 
+* FEATDATEID -- 
+
+* FEATDATED -- 
+
 ..  _c13_valID:
 
 c13_valID
@@ -767,6 +771,10 @@ Field     Data type Unit Key  Not Null Parent
 C13_VALID int2           pkey TRUE     
 C13_VAL   text                TRUE     
 ========= ========= ==== ==== ======== ======
+
+* C13_VALID -- 
+
+* C13_VAL -- 
 
 ..  _c14_contamID:
 
@@ -781,6 +789,10 @@ CONTAMID int2           pkey TRUE
 CONTAM   text                TRUE     
 ======== ========= ==== ==== ======== ======
 
+* CONTAMID -- 
+
+* CONTAM -- 
+
 ..  _c14_hum_modID:
 
 c14_hum_modID
@@ -793,6 +805,10 @@ Field     Data type Unit Key  Not Null Parent
 HUM_MODID int2           pkey TRUE     
 HUM_MOD   text                TRUE     
 ========= ========= ==== ==== ======== ======
+
+* HUM_MODID -- 
+
+* HUM_MOD -- 
 
 ..  _c14_materia1ID:
 
@@ -808,6 +824,12 @@ MATERIAL1  text                TRUE
 MATERIA1AB text                         
 ========== ========= ==== ==== ======== ======
 
+* MATERIA1ID -- 
+
+* MATERIAL1 -- 
+
+* MATERIA1AB -- 
+
 ..  _c14_materia2ID:
 
 c14_materia2ID
@@ -820,6 +842,10 @@ Field      Data type Unit Key  Not Null Parent
 MATERIA2ID int2           pkey TRUE     
 MATERIAL2  text                TRUE     
 ========== ========= ==== ==== ======== ======
+
+* MATERIA2ID -- 
+
+* MATERIAL2 -- 
 
 ..  _c14_solvent2ID:
 
@@ -835,6 +861,12 @@ SOLVENT2   text                TRUE
 SOLVENT2AB text                         
 ========== ========= ==== ==== ======== ======
 
+* SOLVENT2ID -- 
+
+* SOLVENT2 -- 
+
+* SOLVENT2AB -- 
+
 ..  _c_mtdID:
 
 c_mtdID
@@ -848,6 +880,12 @@ C_MTDID int2           pkey TRUE
 C_MTD   text                TRUE     
 C_MTDAB text                         
 ======= ========= ==== ==== ======== ======
+
+* C_MTDID -- 
+
+* C_MTD -- 
+
+* C_MTDAB -- 
 
 ..  _arch_c14_polygons_EPSG3857:
 
@@ -864,6 +902,14 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
+* id -- 
+
+* geom -- 
+
+* OBSID1 -- 
+
+* OBSID2 -- 
+
 ..  _arch_osl_polygons_EPSG3857:
 
 arch_osl_polygons_EPSG3857
@@ -879,6 +925,14 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
+* id -- 
+
+* geom -- 
+
+* OBSID1 -- 
+
+* OBSID2 -- 
+
 ..  _arch_tl_polygons_EPSG3857:
 
 arch_tl_polygons_EPSG3857
@@ -893,6 +947,14 @@ geom   geometry(mp)
 OBSID1 text              ukey TRUE     
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
+
+* id -- 
+
+* geom -- 
+
+* OBSID1 -- 
+
+* OBSID2 -- 
 
 SahulSed tables
 ~~~~~~~~~~~~~~~
