@@ -135,21 +135,21 @@ SITE_COMMT text
 
 * ELEVATION -- Elevation above sea level of the sample
 
-* SITE_SPEC -- 
+* SITENAME -- Name of the site
 
-* ALTNAME1 -- 
+* SITE_SPEC -- Further specifies information given in “SITENAME”
 
-* ALTNAME2 -- 
+* ALTNAME1 -- First alternative or additional name of the site (e.g., published under previous name etc.)
 
-* ALTNAME3 -- 
+* ALTNAME2 -- Second alternative or additional name of the site
+
+* ALTNAME3 -- Second alternative or additional name of the site
 
 * SITECODEID -- 
 
-* OPENCLOSED -- 
+* OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - this field is related to 
 
-* SITECODE -- 
-
-* SITE_COMMT -- 
+* SITE_COMMT -- Free text site comment field
 
 ..  _global_dbDOI:
 
