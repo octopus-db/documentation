@@ -153,7 +153,7 @@ IBRAID IBRACODE IBRAREGION
 
 ..  _global_rivID_Fields:
 
-global_rivvID Fields
+global_rivID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
 +-------+--------+--------+---------------------+---------------------+
