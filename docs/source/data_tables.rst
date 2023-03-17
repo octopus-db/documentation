@@ -218,15 +218,15 @@ srtext    varchar(2048)
 proj4text varchar(2048)                    
 ========= ============= ==== ==== ======== ======
 
-* srid -- 
+* srid [#]_  -- An integer value that uniquely identifies the Spatial Referencing System (SRS) within the database
 
-* auth_name -- 
+* auth_name -- The name of the standard or standards body that is being cited for this reference system. For example, "EPSG" would be a valid AUTH_NAME
 
-* auth_srid -- 
+* auth_srid -- The ID of the Spatial Reference System as defined by the Authority cited in the AUTH_NAME. In the case of EPSG, this is where the EPSG projection code would go.
 
-* srtext -- 
+* srtext -- The Well-Known Text representation of the Spatial Reference System
 
-* proj4text -- 
+* proj4text -- PostGIS uses the Proj4 library to provide coordinate transformation capabilities. The PROJ4TEXT column contains the Proj4 coordinate definition string for a particular SRID
 
 Global references tables
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1201,4 +1201,5 @@ expage_points_EPSG3857
 
 .. rubric:: Footnotes
 
+.. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
