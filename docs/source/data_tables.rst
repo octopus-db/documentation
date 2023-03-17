@@ -20,7 +20,8 @@ Global lookup tables
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
-``DRAFT`` This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
+| ``DRAFT`` This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
+| ... ... :ref:`global_GrainSize_Fields`
 
 ========== ============= ==== ==== ======== ======
 Field      Data type     Unit Key  Not Null Parent
@@ -160,7 +161,7 @@ global_dbDOI
 
 global_ibraID
 ^^^^^^^^^^^^^
-``DRAFT`` This table
+``DRAFT`` This table ... :ref:`global_ibraID_Fields`
 
 ========== ========== ==== ==== ======== ======
 Field      Data type  Unit Key  Not Null Parent
@@ -180,7 +181,7 @@ IBRAREGION text
 
 global_rivID
 ^^^^^^^^^^^^
-``DRAFT`` This table
+``DRAFT`` This table ... :ref:`global_rivID_Fields`
 
 ======= ========== ==== ==== ======== ======
 Field   Data type  Unit Key  Not Null Parent
