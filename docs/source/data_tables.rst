@@ -961,66 +961,124 @@ SahulSed tables
 
 ..  _sed_depconID:
 
-
 sed_depconID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed_faciesID:
+======== ========= ==== ==== ======== ======
+Field    Data type Unit Key  Not Null Parent
+======== ========= ==== ==== ======== ======
+DEPCONID int2           pkey TRUE     
+DEPCON   text                TRUE     
+======== ========= ==== ==== ======== ======
 
+..  _sed_faciesID:
 
 sed_faciesID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed_geommodID:
+======== ========= ==== ==== ======== ======
+Field    Data type Unit Key  Not Null Parent
+======== ========= ==== ==== ======== ======
+FACIESID int2           pkey TRUE     
+FACIES   text                TRUE     
+======== ========= ==== ==== ======== ======
 
+..  _sed_geommodID:
 
 sed_geommodID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed_geotypeID:
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Not Null Parent
+========= ========= ==== ==== ======== ======
+GEOMMODID int2           pkey TRUE     
+GEOMMOD   text                TRUE     
+========= ========= ==== ==== ======== ======
 
+..  _sed_geotypeID:
 
 sed_geotypeID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed_laketypeID:
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Not Null Parent
+========= ========= ==== ==== ======== ======
+GEOTYPEID int2           pkey TRUE     
+GEOTYPE   text                TRUE     
+========= ========= ==== ==== ======== ======
 
+..  _sed_laketypeID:
 
 sed_laketypeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed_morphID:
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+LAKETYPEID int2           pkey TRUE     
+LAKETYPE   text                TRUE     
+========== ========= ==== ==== ======== ======
 
+..  _sed_morphID:
 
 sed_morphID
 ^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed_sitetypeID:
+======= ========= ==== ==== ======== ======
+Field   Data type Unit Key  Not Null Parent
+======= ========= ==== ==== ======== ======
+MORPHID int2           pkey TRUE     
+MORPH   text                TRUE     
+======= ========= ==== ==== ======== ======
 
+..  _sed_sitetypeID:
 
 sed_sitetypeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed-osl_points_EPSG3857:
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+SITETYPEID int2           pkey TRUE     
+SITETYPE   text                TRUE     
+========== ========= ==== ==== ======== ======
 
+..  _sed-osl_points_EPSG3857:
 
 sed-osl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-..  _sed-tl_points_EPSG3857:
+====== ============ ==== ==== ======== ======
+Field  Data type    Unit Key  Not Null Parent
+====== ============ ==== ==== ======== ======
+id     serial4           pkey TRUE     
+geom   geometry(pt)                    
+OBSID1 text              ukey TRUE     
+OBSID2 text                            
+====== ============ ==== ==== ======== ======
 
+..  _sed-tl_points_EPSG3857:
 
 sed-tl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+====== ============ ==== ==== ======== ======
+Field  Data type    Unit Key  Not Null Parent
+====== ============ ==== ==== ======== ======
+id     serial4           pkey TRUE     
+geom   geometry(pt)                    
+OBSID1 text              ukey TRUE     
+OBSID2 text                            
+====== ============ ==== ==== ======== ======
 
 FosSahul tables
 ~~~~~~~~~~~~~~~
