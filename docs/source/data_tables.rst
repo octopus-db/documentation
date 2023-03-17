@@ -131,7 +131,7 @@ SITE_COMMT text
 
 * Y_WGS84 -- WGS84 latitude of site
 
-* CORDS_ELEV -- Dual field. First part of value refers to source of coordinates (“X_WGS84”, “Y_WGS84”) for the sample site (‘INTP_’, or ‘ORIG_’, or ‘ND_’). Second part of value refers to “ELEVATION” (‘_INTP’, or ‘_ORIG’, or ‘_ND’). Nine (9) combinations possible
+* CORDS_ELEV -- Dual field. First part of value refers to source of coordinates (“X_WGS84”, “Y_WGS84”) for the sample site ('INTP_', or 'ORIG_', or 'ND_'). Second part of value refers to “ELEVATION” ('_INTP', or '_ORIG', or '_ND'). Nine (9) combinations possible
 
 * ELEVATION -- Elevation above sea level of the sample
 
