@@ -972,6 +972,10 @@ DEPCONID int2           pkey TRUE
 DEPCON   text                TRUE     
 ======== ========= ==== ==== ======== ======
 
+* DEPCONID -- Unique identifier (auto-incrementing serial integer)
+
+* DEPCON -- 
+
 ..  _sed_faciesID:
 
 sed_faciesID
@@ -984,6 +988,10 @@ Field    Data type Unit Key  Not Null Parent
 FACIESID int2           pkey TRUE     
 FACIES   text                TRUE     
 ======== ========= ==== ==== ======== ======
+
+* FACIESID -- Unique identifier (auto-incrementing serial integer)
+
+* FACIES -- 
 
 ..  _sed_geommodID:
 
@@ -998,6 +1006,10 @@ GEOMMODID int2           pkey TRUE
 GEOMMOD   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
+* GEOMMODID -- Unique identifier (auto-incrementing serial integer)
+
+* GEOMMOD -- 
+
 ..  _sed_geotypeID:
 
 sed_geotypeID
@@ -1010,6 +1022,10 @@ Field     Data type Unit Key  Not Null Parent
 GEOTYPEID int2           pkey TRUE     
 GEOTYPE   text                TRUE     
 ========= ========= ==== ==== ======== ======
+
+* GEOTYPEID -- Unique identifier (auto-incrementing serial integer)
+
+* GEOTYPE -- 
 
 ..  _sed_laketypeID:
 
@@ -1024,6 +1040,10 @@ LAKETYPEID int2           pkey TRUE
 LAKETYPE   text                TRUE     
 ========== ========= ==== ==== ======== ======
 
+* LAKETYPEID -- Unique identifier (auto-incrementing serial integer)
+
+* LAKETYPE -- 
+
 ..  _sed_morphID:
 
 sed_morphID
@@ -1037,6 +1057,10 @@ MORPHID int2           pkey TRUE
 MORPH   text                TRUE     
 ======= ========= ==== ==== ======== ======
 
+* MORPHID -- Unique identifier (auto-incrementing serial integer)
+
+* MORPH -- 
+
 ..  _sed_sitetypeID:
 
 sed_sitetypeID
@@ -1049,6 +1073,10 @@ Field      Data type Unit Key  Not Null Parent
 SITETYPEID int2           pkey TRUE     
 SITETYPE   text                TRUE     
 ========== ========= ==== ==== ======== ======
+
+* SITETYPEID -- Unique identifier (auto-incrementing serial integer)
+
+* SITETYPE -- 
 
 ..  _sed-osl_points_EPSG3857:
 
@@ -1065,6 +1093,14 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
+* id -- Unique identifier (auto-incrementing serial integer)
+
+* geom -- 
+
+* OBSID1 -- 
+
+* OBSID2 -- 
+
 ..  _sed-tl_points_EPSG3857:
 
 sed-tl_points_EPSG3857
@@ -1079,6 +1115,14 @@ geom   geometry(pt)
 OBSID1 text              ukey TRUE     
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
+
+* id -- Unique identifier (auto-incrementing serial integer)
+
+* geom -- 
+
+* OBSID1 -- 
+
+* OBSID2 -- 
 
 FosSahul tables
 ~~~~~~~~~~~~~~~
