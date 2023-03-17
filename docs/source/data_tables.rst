@@ -147,7 +147,7 @@ SITE_COMMT text
 
 * SITECODEID -- 
 
-* OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - this field is related to the :ref:`SahulArch` collection
+* OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - this field is related to the :ref:`SahulArch` collection, i.e., will not appear in any other collection view [#]_.
 
 * SITE_COMMT -- Free text site comment field
 
@@ -1201,5 +1201,6 @@ expage_points_EPSG3857
 
 .. rubric:: Footnotes
 
+.. [#] PostgreSQL view: `https://www.postgresql.org/docs/current/sql-createview.html <https://www.postgresql.org/docs/current/sql-createview.html>`_
 .. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
