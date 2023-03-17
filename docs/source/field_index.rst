@@ -10,6 +10,47 @@ Data table fields
 Lookup table fields
 -------------------
 
+..  _global_GrainSize_Fields:
+
+global_GrainSize Fields
+~~~~~~~~~~~~~~~~~~~~~
+
+========= ============================= ========== ========== ==========
+GRNSIZEID GRNSIZE                       GRNSIZEABB GRNSIZEMIN GRNSIZEMAX
+========= ============================= ========== ========== ==========
+-9999     ND                            ND                    
+1         Sand                          Sa         0.063      2
+2         Silt                          Si         0.002      0.063
+3         Clay                          Cl                    0.002
+4         Large boulder                 LBo        630        
+5         Boulder                       Bo         200        630
+6         Cobble                        Co         63         200
+7         Gravel                        Gr         2          63
+12        Silty Sand                    SiSa       0.002      2
+13        Clayey Sand                   ClSa                  2
+14        Mix of Sand and Large boulder SaLBo      0.063      
+15        Mix of Sand and Boulder       SaBo       0.063      630
+16        Mix of Sand and Cobble        SaCo       0.063      200
+17        Mix of Sand and Gravel        SaGr       0.063      63
+21        Coarse silt                   CSi        0.02       0.063
+22        Medium silt                   MSi        0.0063     0.02
+23        Fine silt                     FSi        0.002      0.0063
+31        Coarse sand                   CSa        0.63       2
+32        Medium sand                   MSa        0.2        0.63
+33        Fine sand                     FSa        0.063      0.2
+50        Pebble                        Pe         4          64
+56        Mix of Boulders and Cobbles   BoCo       63         630
+65        Mix of Cobbles and Boulders   CoBo       63         630
+71        Coarse gravel                 CGr        20         63
+72        Medium gravel                 MGr        6.3        20
+73        Fine gravel                   FGr        2          6.3
+80        Sediment (unspecified)        Sed                   
+81        Loam                          Lo                    2
+100       Bedrock                       Bed                   
+========= ============================= ========== ========== ==========
+
+* -- "GRNSIZEMIN" and "GRNSIZEMAX" unit is *mm*.
+
 ..  _global_PubType_Fields:
 
 global_PubType Fields
