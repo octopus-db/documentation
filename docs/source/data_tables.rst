@@ -206,6 +206,19 @@ RIVDIV  text
 
 spatial_ref_sys
 ^^^^^^^^^^^^^^^
+``DRAFT`` This table
+
+
+
+* srid -- 
+
+* auth_name -- 
+
+* auth_srid -- 
+
+* srtext -- 
+
+* proj4text -- 
 
 Global references tables
 ~~~~~~~~~~~~~~~~~~~~~~~~
