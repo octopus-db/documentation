@@ -74,12 +74,12 @@ global_SiteMaster
 
 ``DRAFT`` This table
 
-========== ============== ========== ==== ======== ======================
-Field      Data type      Unit       Key  Not Null Parent
-========== ============== ========== ==== ======== ======================
-SITEID     text                      pkey TRUE     
-METASITEID text                      fkey          :ref:`global_MetaSite`
-CNTRY      varchar(3)                     TRUE     
+========== ============== =========== ==== ======== ======================
+Field      Data type      Unit        Key  Not Null Parent
+========== ============== =========== ==== ======== ======================
+SITEID     text                       pkey TRUE     
+METASITEID text                       fkey          :ref:`global_MetaSite`
+CNTRY      varchar(3)                      TRUE     
 REGION_INT text                                    
 REGION_REG varchar(3)                              
 DIV_ADMIN  varchar(7)                              
@@ -87,53 +87,53 @@ DIV_OTHER  text
 ISL_NAME   text                                    
 LAKE       text                                    
 BASIN      text                                    
-RIVID      int2                      fkey          :ref:`global_rivID`
-IBRAID     int2                      fkey          :ref:`global_ibraID`
-X_WGS84    numeric(10, 6) dec degree               
-Y_WGS84    numeric(10, 6) dec degree               
-CORDS_ELEV varchar(9)                     TRUE     
-ELEVATION  numeric(6, 2)  m a.s.l.                 
+RIVID      int2                       fkey          :ref:`global_rivID`
+IBRAID     int2                       fkey          :ref:`global_ibraID`
+X_WGS84    numeric(10, 6) decimal deg               
+Y_WGS84    numeric(10, 6) decimal deg               
+CORDS_ELEV varchar(9)                      TRUE     
+ELEVATION  numeric(6, 2)  m                 
 SITENAME   text                                    
 SITE_SPEC  text                                    
 ALTNAME1   text                                    
 ALTNAME2   text                                    
 ALTNAME3   text                                    
-SITECODEID int2                      fkey          :ref:`global_SiteCode`
+SITECODEID int2                       fkey          :ref:`global_SiteCode`
 OPENCLOSED varchar(6)                              
 SITE_COMMT text                                    
-========== ============== ========== ==== ======== ======================
+========== ============== =========== ==== ======== ======================
 
 * SITEID -- 
 
 * METASITEID -- 
 
-* CNTRY -- 
+* CNTRY -- ISO 3166 Alpha-3 country code: `https://www.iso.org/obp/ui/#search <https://www.iso.org/obp/ui/#search>`_
 
-* REGION_INT -- 
+* REGION_INT -- Region where the study site is located
 
-* REGION_REG -- 
+* REGION_REG -- Refers to Sahul region. Same as “CNTRY” but needed to accommodate for ‘TSI’
 
-* DIV_ADMIN -- 
+* DIV_ADMIN -- ISO 3166 code of the administrative region where the study site is located
 
-* DIV_OTHER -- 
+* DIV_OTHER -- Geographical region in ‘PNG’ and ‘TSI’ where study site is located
 
-* ISL_NAME -- 
+* ISL_NAME -- Name of island where study site is located
 
-* LAKE -- 
+* LAKE -- Name of lake where study site is located
 
-* BASIN -- 
+* BASIN -- Name of river basin where study site is located
 
 * RIVID -- 
 
 * IBRAID -- 
 
-* X_WGS84 -- 
+* X_WGS84 -- WGS84 longitude of site
 
-* Y_WGS84 -- 
+* Y_WGS84 -- WGS84 latitude of site
 
-* CORDS_ELEV -- 
+* CORDS_ELEV -- Dual field. First part of value refers to source of coordinates (“X_WGS84”, “Y_WGS84”) for the sample site (‘INTP_’, or ‘ORIG_’, or ‘ND_’). Second part of value refers to “ELEVATION” (‘_INTP’, or ‘_ORIG’, or ‘_ND’). Nine (9) combinations possible
 
-* ELEVATION -- 
+* ELEVATION -- Elevation above sea level of the sample
 
 * SITE_SPEC -- 
 
