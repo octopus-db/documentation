@@ -683,6 +683,7 @@ CRN tables
 
 crn_amsID
 ^^^^^^^^^
+``DRAFT`` This table 
 
 ====== ========= ==== ==== ======== ======
 Field  Data type Unit Key  Not Null Parent
@@ -693,10 +694,19 @@ AMSORG text
 AMSURL text                         
 ====== ========= ==== ==== ======== ======
 
+* AMSID -- 
+
+* AMS -- 
+
+* AMSORG -- 
+
+* AMSURL --
+
 ..  _crn_projepsgID:
 
 crn_projepsgID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 ========== =========== ==== ==== ======== ======
 Field      Data type   Unit Key  Not Null Parent
@@ -705,10 +715,15 @@ PROJEPSGID int2             pkey TRUE
 PROJECTION varchar(13)           TRUE     
 ========== =========== ==== ==== ======== ======
 
+* PROJEPSGID -- 
+
+* PROJECTION -- 
+
 ..  _crn_projepsgID:
 
 crn_studies_boundingbox
 ^^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 ======= ========== ==== ==== ======== ======
 Field   Data type  Unit Key  Not Null Parent
@@ -717,6 +732,12 @@ id      serial4         pkey TRUE
 geom    geometry                      
 STUDYID varchar(5)      ukey TRUE     
 ======= ========== ==== ==== ======== ======
+
+* id -- 
+
+* geom -- 
+
+* STUDYID -- 
 
 SahulArch tables
 ~~~~~~~~~~~~~~~~
