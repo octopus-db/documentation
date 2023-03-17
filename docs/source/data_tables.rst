@@ -107,7 +107,7 @@ SITE_COMMT text
 
 * METASITEID -- 
 
-* CNTRY -- ISO 3166 Alpha-3 country code: `https://www.iso.org/obp/ui/#search <https://www.iso.org/obp/ui/#search>`_
+* CNTRY -- `ISO 3166 Alpha-3 country code <https://www.iso.org/obp/ui/#search>`_
 
 * REGION_INT -- Region where the study site is located
 
