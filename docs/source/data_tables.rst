@@ -205,7 +205,7 @@ RIVDIV  text
 ..  _spatial_ref_sys:
 
 spatial_ref_sys
-^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^
 
 Global references tables
 ~~~~~~~~~~~~~~~~~~~~~~~~
