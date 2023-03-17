@@ -208,7 +208,15 @@ spatial_ref_sys
 ^^^^^^^^^^^^^^^
 ``DRAFT`` This table
 
-
+========= ============= ==== ==== ======== ======
+Field     Data type     Unit Key  Not Null Parent
+========= ============= ==== ==== ======== ======
+srid      int4               pkey TRUE     
+auth_name varchar(256)                     
+auth_srid int4                             
+srtext    varchar(2048)                    
+proj4text varchar(2048)                    
+========= ============= ==== ==== ======== ======
 
 * srid -- 
 
