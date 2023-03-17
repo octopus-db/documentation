@@ -744,108 +744,140 @@ SahulArch tables
 
 arch_featdatedID
 ^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 c13_valID
 ^^^^^^^^^
+``DRAFT`` This table 
 
 c14_contamID
 ^^^^^^^^^^^^
+``DRAFT`` This table 
 
 c14_hum_modID
 ^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 c14_materia1ID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 c14_materia2ID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 c14_solvent2ID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 c_mtdID
 ^^^^^^^
+``DRAFT`` This table 
 
 arch_c14_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 arch_osl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 arch_tl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 SahulSed tables
 ~~~~~~~~~~~~~~~
 
 sed_depconID
 ^^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed_faciesID
 ^^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed_geommodID
 ^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed_geotypeID
 ^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed_laketypeID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed_morphID
 ^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed_sitetypeID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed-osl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 sed-tl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 FosSahul tables
 ~~~~~~~~~~~~~~~
 
 fos_TaxRank1_classID
 ^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_TaxRank2_infraclaID
 ^^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_TaxRank3_ordrID
 ^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_TaxRank4_familyID
 ^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_TaxRank5_genusID
 ^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_TaxRank6_speciesID
 ^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_chemtypeID
 ^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_fosmat1ID
 ^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_fosmat2ID
 ^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_mtdsID
 ^^^^^^^^^^
+``DRAFT`` This table 
 
 fos_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 expage tables
 ~~~~~~~~~~~~~
 
 expage_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
+``DRAFT`` This table 
 
 .. rubric:: Footnotes
 
