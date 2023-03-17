@@ -748,11 +748,25 @@ arch_featdatedID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+FEATDATEID           int2 pkey TRUE     
+FEATDATED            text      TRUE     
+========== ========= ==== ==== ======== ======
+
 ..  _c13_valID:
 
 c13_valID
 ^^^^^^^^^
 ``DRAFT`` This table 
+
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Not Null Parent
+========= ========= ==== ==== ======== ======
+C13_VALID int2           pkey TRUE     
+C13_VAL   text                TRUE     
+========= ========= ==== ==== ======== ======
 
 ..  _c14_contamID:
 
@@ -760,11 +774,25 @@ c14_contamID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+======== ========= ==== ==== ======== ======
+Field    Data type Unit Key  Not Null Parent
+======== ========= ==== ==== ======== ======
+CONTAMID int2           pkey TRUE     
+CONTAM   text                TRUE     
+======== ========= ==== ==== ======== ======
+
 ..  _c14_hum_modID:
 
 c14_hum_modID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+========= ========= ==== ==== ======== ======
+Field     Data type Unit Key  Not Null Parent
+========= ========= ==== ==== ======== ======
+HUM_MODID int2           pkey TRUE     
+HUM_MOD   text                TRUE     
+========= ========= ==== ==== ======== ======
 
 ..  _c14_materia1ID:
 
@@ -772,11 +800,26 @@ c14_materia1ID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+MATERIA1ID int2           pkey TRUE     
+MATERIAL1  text                TRUE     
+MATERIA1AB text                         
+========== ========= ==== ==== ======== ======
+
 ..  _c14_materia2ID:
 
 c14_materia2ID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+MATERIA2ID int2           pkey TRUE     
+MATERIAL2  text                TRUE     
+========== ========= ==== ==== ======== ======
 
 ..  _c14_solvent2ID:
 
@@ -784,11 +827,27 @@ c14_solvent2ID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+SOLVENT2ID int2           pkey TRUE     
+SOLVENT2   text                TRUE     
+SOLVENT2AB text                         
+========== ========= ==== ==== ======== ======
+
 ..  _c_mtdID:
 
 c_mtdID
 ^^^^^^^
 ``DRAFT`` This table 
+
+======= ========= ==== ==== ======== ======
+Field   Data type Unit Key  Not Null Parent
+======= ========= ==== ==== ======== ======
+C_MTDID int2           pkey TRUE     
+C_MTD   text                TRUE     
+C_MTDAB text                         
+======= ========= ==== ==== ======== ======
 
 ..  _arch_c14_polygons_EPSG3857:
 
@@ -796,17 +855,44 @@ arch_c14_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+====== ============ ==== ==== ======== ======
+Field  Data type    Unit Key  Not Null Parent
+====== ============ ==== ==== ======== ======
+id     serial4           pkey TRUE     
+geom   geometry(mp)                    
+OBSID1 text              ukey TRUE     
+OBSID2 text                            
+====== ============ ==== ==== ======== ======
+
 ..  _arch_osl_polygons_EPSG3857:
 
 arch_osl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+====== ============ ==== ==== ======== ======
+Field  Data type    Unit Key  Not Null Parent
+====== ============ ==== ==== ======== ======
+id     serial4           pkey TRUE     
+geom   geometry(mp)                    
+OBSID1 text              ukey TRUE     
+OBSID2 text                            
+====== ============ ==== ==== ======== ======
+
 ..  _arch_tl_polygons_EPSG3857:
 
 arch_tl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+====== ============ ==== ==== ======== ======
+Field  Data type    Unit Key  Not Null Parent
+====== ============ ==== ==== ======== ======
+id     serial4           pkey TRUE     
+geom   geometry(mp)                    
+OBSID1 text              ukey TRUE     
+OBSID2 text                            
+====== ============ ==== ==== ======== ======
 
 SahulSed tables
 ~~~~~~~~~~~~~~~
