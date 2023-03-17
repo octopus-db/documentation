@@ -206,7 +206,7 @@ RIVDIV  text
 
 spatial_ref_sys
 ^^^^^^^^^^^^^^^
-``DRAFT`` This table
+The spatial_ref_sys table that comes with PostgreSQL's PostGIS extention. As an OGC compliant database table it lists over 3000 spatial reference systems and technical details needed to transform/reproject between them. For more information see `Section 4.2.1.<https://postgis.net/docs/manual-1.4/ch04.html#spatial_ref_sys>`_ of the PostGIS online manual.
 
 ========= ============= ==== ==== ======== ======
 Field     Data type     Unit Key  Not Null Parent
