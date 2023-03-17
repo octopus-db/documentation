@@ -959,37 +959,64 @@ OBSID2 text
 SahulSed tables
 ~~~~~~~~~~~~~~~
 
+..  _sed_depconID:
+
+
 sed_depconID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+..  _sed_faciesID:
+
 
 sed_faciesID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+..  _sed_geommodID:
+
+
 sed_geommodID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+..  _sed_geotypeID:
+
 
 sed_geotypeID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+..  _sed_laketypeID:
+
+
 sed_laketypeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+..  _sed_morphID:
+
 
 sed_morphID
 ^^^^^^^^^^^
 ``DRAFT`` This table 
 
+..  _sed_sitetypeID:
+
+
 sed_sitetypeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
+..  _sed-osl_points_EPSG3857:
+
+
 sed-osl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
+
+..  _sed-tl_points_EPSG3857:
+
 
 sed-tl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
