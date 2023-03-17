@@ -105,7 +105,7 @@ SITE_COMMT text
 
 * SITEID -- 
 
-* METASITEID -- Fkey; see :ref:`global_MetaSite`table
+* METASITEID -- Fkey; see :ref:`global_MetaSite` table
 
 * CNTRY -- `ISO 3166 Alpha-3 country code <https://www.iso.org/obp/ui/#search>`_
 
