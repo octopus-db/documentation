@@ -185,9 +185,8 @@ global_rivID Fields
 +-------+--------+--------+---------------------+---------------------+
 | 12    | CC     | CC_12  | Mornington Island   | Carpentaria Coast   |
 +-------+--------+--------+---------------------+---------------------+
-| 13    | CC     | CC_13  | N                   | Carpentaria Coast   |
-|       |        |        | icholson-Leichhardt |                     |
-|       |        |        | Rivers              |                     |
+| 13    | CC     | CC_13  | Nicholson           | Carpentaria Coast   |
+|       |        |        | -Leichhardt Rivers  |                     |
 +-------+--------+--------+---------------------+---------------------+
 | 14    | CC     | CC_14  | Morning Inlet       | Carpentaria Coast   |
 +-------+--------+--------+---------------------+---------------------+
