@@ -563,7 +563,7 @@ AGEMODEL   text                TRUE
 AGEMODELAB text                         
 ========== ========= ==== ==== ======== ======
 
-* AGEMODELID -- 
+* AGEMODELID -- Unique identifier (auto-incrementing serial integer)
 
 * AGEMODEL -- 
 
@@ -583,7 +583,7 @@ ED_PROC    text                TRUE
 ED_PROCABR text                         
 ========== ========= ==== ==== ======== ======
 
-* ED_PROCID -- 
+* ED_PROCID -- Unique identifier (auto-incrementing serial integer)
 
 * ED_PROC -- 
 
@@ -603,7 +603,7 @@ LUM_MAT    text                TRUE
 LUM_MATABB text                         
 ========== ========= ==== ==== ======== ======
 
-* LUM_MATID -- 
+* LUM_MATID -- Unique identifier (auto-incrementing serial integer)
 
 * LUM_MAT -- 
 
@@ -623,7 +623,7 @@ MINERAL    text                TRUE
 MINERALABB text                         
 ========== ========= ==== ==== ======== ======
 
-* MINERALID -- 
+* MINERALID -- Unique identifier (auto-incrementing serial integer)
 
 * MINERAL -- 
 
@@ -643,7 +643,7 @@ MTD   text                TRUE
 MTDAB text                         
 ===== ========= ==== ==== ======== ======
 
-* MTDID -- 
+* MTDID -- Unique identifier (auto-incrementing serial integer)
 
 * MTD -- 
 
@@ -663,7 +663,7 @@ OSL_TYPE   text                TRUE
 OSL_TYPEAB text                         
 ========== ========= ==== ==== ======== ======
 
-* OSL_TYPEID -- 
+* OSL_TYPEID -- Unique identifier (auto-incrementing serial integer)
 
 * OSL_TYPE -- 
 
@@ -694,7 +694,7 @@ AMSORG text
 AMSURL text                         
 ====== ========= ==== ==== ======== ======
 
-* AMSID -- 
+* AMSID -- Unique identifier (auto-incrementing serial integer)
 
 * AMS -- 
 
@@ -715,7 +715,7 @@ PROJEPSGID int2             pkey TRUE
 PROJECTION varchar(13)           TRUE     
 ========== =========== ==== ==== ======== ======
 
-* PROJEPSGID -- 
+* PROJEPSGID -- Unique identifier (auto-incrementing serial integer)
 
 * PROJECTION -- 
 
@@ -733,7 +733,7 @@ geom    geometry
 STUDYID varchar(5)      ukey TRUE     
 ======= ========== ==== ==== ======== ======
 
-* id -- 
+* id -- Unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -755,7 +755,7 @@ FEATDATEID           int2 pkey TRUE
 FEATDATED            text      TRUE     
 ========== ========= ==== ==== ======== ======
 
-* FEATDATEID -- 
+* FEATDATEID -- Unique identifier (auto-incrementing serial integer)
 
 * FEATDATED -- 
 
@@ -772,7 +772,7 @@ C13_VALID int2           pkey TRUE
 C13_VAL   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* C13_VALID -- 
+* C13_VALID -- Unique identifier (auto-incrementing serial integer)
 
 * C13_VAL -- 
 
@@ -789,7 +789,7 @@ CONTAMID int2           pkey TRUE
 CONTAM   text                TRUE     
 ======== ========= ==== ==== ======== ======
 
-* CONTAMID -- 
+* CONTAMID -- Unique identifier (auto-incrementing serial integer)
 
 * CONTAM -- 
 
@@ -806,7 +806,7 @@ HUM_MODID int2           pkey TRUE
 HUM_MOD   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* HUM_MODID -- 
+* HUM_MODID -- Unique identifier (auto-incrementing serial integer)
 
 * HUM_MOD -- 
 
@@ -824,7 +824,7 @@ MATERIAL1  text                TRUE
 MATERIA1AB text                         
 ========== ========= ==== ==== ======== ======
 
-* MATERIA1ID -- 
+* MATERIA1ID -- Unique identifier (auto-incrementing serial integer)
 
 * MATERIAL1 -- 
 
@@ -843,7 +843,7 @@ MATERIA2ID int2           pkey TRUE
 MATERIAL2  text                TRUE     
 ========== ========= ==== ==== ======== ======
 
-* MATERIA2ID -- 
+* MATERIA2ID -- Unique identifier (auto-incrementing serial integer)
 
 * MATERIAL2 -- 
 
@@ -861,7 +861,7 @@ SOLVENT2   text                TRUE
 SOLVENT2AB text                         
 ========== ========= ==== ==== ======== ======
 
-* SOLVENT2ID -- 
+* SOLVENT2ID -- Unique identifier (auto-incrementing serial integer)
 
 * SOLVENT2 -- 
 
@@ -881,7 +881,7 @@ C_MTD   text                TRUE
 C_MTDAB text                         
 ======= ========= ==== ==== ======== ======
 
-* C_MTDID -- 
+* C_MTDID -- Unique identifier (auto-incrementing serial integer)
 
 * C_MTD -- 
 
@@ -902,7 +902,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- 
+* id -- Unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -925,7 +925,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- 
+* id -- Unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -948,7 +948,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- 
+* id -- Unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
