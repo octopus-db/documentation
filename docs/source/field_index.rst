@@ -979,7 +979,7 @@ ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
 25       ND     ND                 0      
 ======== ====== ================== ====== ==========
 
-crn_alstndID **ALSTNDCOMT**
+crn_alstndID **"ALSTNDCOMT"**
 
 * IDs 1,2	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
 * IDs 3,4	-- ANSTO, equivalent to KNSTD
@@ -1136,7 +1136,7 @@ crn_amsID Fields
 |       |                        | University (CHN)            |
 +-------+------------------------+-----------------------------+
 
-crn_amsID **AMSURL**
+crn_amsID **"AMSURL"**
 
 * IDs 1,2	-- https://www.ansto.gov.au/accelerator-mass-spectrometry
 * IDs 3,4	-- https://physics.anu.edu.au/nuclear/research/ams/
