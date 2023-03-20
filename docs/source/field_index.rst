@@ -1136,6 +1136,27 @@ crn_amsID Fields
 |       |                        | University (CHN)            |
 +-------+------------------------+-----------------------------+
 
+crn_amsID **AMSURL**
+
+* IDs 1,2	-- https://www.ansto.gov.au/accelerator-mass-spectrometry
+* IDs 3,4	-- https://physics.anu.edu.au/nuclear/research/ams/
+* IDs 5,6	-- https://www.cerege.fr
+* IDs 7,8	-- https://cologneams.uni-koeln.de
+* IDs 9,10	-- https://www.hzdr.de
+* IDs 11,12	-- https://ams.ethz.ch
+* IDs 13,14 -- https://www.lsce.ipsl.fr
+* IDs 15,16	-- https://www.kigam.re.kr
+* IDs 17,18	-- https://eng.kist.re.kr
+* IDs 19,20	-- https://cams.llnl.gov
+* IDs 21,22 -- http://malt.um.u-tokyo.ac.jp
+* IDs 23,24 -- https://www.physics.purdue.edu/primelab/
+* IDs 25,26 -- https://www.gla.ac.uk/research/az/suerc/researchthemes/ams/
+* IDs 27,28 -- https://www.tandemlab.uu.se
+* IDs 29,30 -- https://www.gns.cri.nz
+* IDs 31,32 -- http://www.xaams.cn
+* IDs 33,34 -- https://tlabs.ac.za
+* IDs 35,36 -- http://earth.tju.edu.cn/en/
+
 ----
 
 ..  _arch_featdatedID_Fields:
