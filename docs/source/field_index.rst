@@ -899,6 +899,33 @@ cabah_chemprepID Fields
 | 99         | for other method          | Other                     |
 +------------+---------------------------+---------------------------+
 
+* ABA -- Acid-base-acid is equivalent to *AAA* (acid-alkali-acid)
+
+* ABOx-SC -- Acid-base-oxidation-stepped-combustion
+
+* HyPy -- Hydrogen pyrolysis
+
+* Acid-gelatinisation -- The Longin method
+
+* CARDS -- Carbonate Density Separation
+
+* XAD -- Resin used to clean amino acids. Note that ‘XAD’ flag overwrites potential other pretreatment
+
+* Plasma oxidation and potassium permanganate methods refer to methods which aim to convert a specific portion of the sample to CO2 and may involve a variety of other steps.
+
+* Bulk -- Several fragments dated together
+
+* SC -- Stepped combustion
+
+* Ultra = Ultrafiltration
+
+* Longin -- Modified Longing method
+
+* Gelatin -- Gelatinisation
+
+* Coll -- Collagen
+
+
 ..  _cabah_col_mtdID_Fields:
 
 cabah_col_mtdID Fields
