@@ -939,7 +939,158 @@ METHODID METHOD                               METHODABBR
 11       Coupled U-ESR model                  U-ESR
 ======== ==================================== ==========
 
+..  _arch_featdatedID_Fields:
 
+arch_featdatedID Fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
+========== ========================
+FEATDATEID FEATDATED
+========== ========================
+-9999      no data
+1          Hearth
+2          Burial (animal)
+3          Burial (human)
+4          Mud wasp nest
+5          Rock art
+9          Other
+999        not related to a feature
+========== ========================
+
+..  _arch_c13_valID_Fields:
+
+arch_c13_valID Fields
+~~~~~~~~~~~~~~~~~~~~~
+
+========= ========================
+C13_VALID C13_VAL
+========= ========================
+-9999     no data
+1         Measured by AMS
+2         Measured by IRMS or CRDS
+3         Assumed
+========= ========================
+
+..  _arch_c14_contamID_Fields:
+
+arch_c14_contamID Fields
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+======== =======================
+CONTAMID CONTAM
+======== =======================
+-9999    ND
+1        Glue
+2        Conservative
+3        Rootlets
+4        Sediment
+5        Recrystallised material
+9        Other
+======== =======================
+
+..  _arch_c14_hum_modID_Fields:
+
+arch_c14_hum_modID Fields
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+========= ==============
+HUM_MODID HUM_MOD
+========= ==============
+-9999     ND
+1         Yes
+2         No
+10        Artefact
+11        Cut marked
+19        Other
+100       Bead
+101       String
+102       Boomerang
+103       Point
+104       Hook
+109       Other artefact
+========= ==============
+
+..  _arch_c14_materia1ID_Fields:
+
+arch_c14_materia1ID Fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+========== =================== ==========
+MATERIA1ID MATERIAL1           MATERIA1AB
+========== =================== ==========
+-9999      no data             ND
+1          Biogenic Carbonate  CarbBio
+2          Inorganic Carbonate CarbInorg
+3          Charred Plant       Charred
+4          Faunal              Faunal
+5          Oxalate             Oxalate
+6          Paint               Paint
+7          Plant               Plant
+8          Sediment            Sediment
+9          Other               Other
+10         Mix of materials    Bulk
+========== =================== ==========
+
+..  _arch_c14_materia2ID_Fields:
+
+arch_c14_materia2ID Fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+========== ======================
+MATERIA2ID MATERIAL2
+========== ======================
+29         Bulk
+1          Bark
+2          Beeswax
+3          Binder
+4          Bone
+5          Calcined bone
+6          Calcium soil carbonate
+7          Celtis seed
+8          Coral
+9          Dentine
+10         Egg shell
+11         Enamel
+12         Foraminifera
+13         Freshwater shell
+14         Hair
+15         Marine shell
+16         Nut
+17         Otolith
+18         Peat
+19         Pigment
+20         Pollen
+21         Resin
+22         Seed
+23         Speleothem
+24         Terrestrial snail
+25         Tooth dentine
+26         Tooth enamel
+27         Tufa
+28         Wood
+99         Other
+-9999      ND
+========== ======================
+
+..  _arch_c14_solvent2ID_Fields:
+
+arch_c14_solvent2ID Fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+========== ========================= ==========
+SOLVENT2ID SOLVENT2                  SOLVENT2AB
+========== ========================= ==========
+-9999      no data                   ND
+1          Methanol                  Met
+2          Ethanol                   Eth
+3          Chloroform                Chl
+4          Dichloromethane           Dic
+5          Toluene                   Tol
+6          Hexane                    Hex
+7          Chloroform: Methanol      Chl:Met
+8          Dichloromethane: Methanol Dic:Met
+9          Other                     Other
+========== ========================= ==========
 
 .. rubric:: Footnotes
 
