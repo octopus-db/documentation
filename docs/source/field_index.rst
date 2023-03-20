@@ -1308,10 +1308,10 @@ FEATDATEID FEATDATED
 999        not related to a feature
 ========== ========================
 
-..  _arch_c13_valID_Fields:
+..  _c13_valID_Fields:
 
-arch_c13_valID Fields
-~~~~~~~~~~~~~~~~~~~~~
+c13_valID Fields
+~~~~~~~~~~~~~~~~
 
 ========= ========================
 C13_VALID C13_VAL
@@ -1322,10 +1322,10 @@ C13_VALID C13_VAL
 3         Assumed
 ========= ========================
 
-..  _arch_c14_contamID_Fields:
+..  _c14_contamID_Fields:
 
-arch_c14_contamID Fields
-~~~~~~~~~~~~~~~~~~~~~~~~
+c14_contamID Fields
+~~~~~~~~~~~~~~~~~~~
 
 ======== =======================
 CONTAMID CONTAM
@@ -1339,10 +1339,10 @@ CONTAMID CONTAM
 9        Other
 ======== =======================
 
-..  _arch_c14_hum_modID_Fields:
+..  _c14_hum_modID_Fields:
 
-arch_c14_hum_modID Fields
-~~~~~~~~~~~~~~~~~~~~~~~~~
+c14_hum_modID Fields
+~~~~~~~~~~~~~~~~~~~~
 
 ========= ==============
 HUM_MODID HUM_MOD
@@ -1361,10 +1361,10 @@ HUM_MODID HUM_MOD
 109       Other artefact
 ========= ==============
 
-..  _arch_c14_materia1ID_Fields:
+..  _c14_materia1ID_Fields:
 
-arch_c14_materia1ID Fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+c14_materia1ID Fields
+~~~~~~~~~~~~~~~~~~~~~
 
 ========== =================== ==========
 MATERIA1ID MATERIAL1           MATERIA1AB
@@ -1382,10 +1382,10 @@ MATERIA1ID MATERIAL1           MATERIA1AB
 10         Mix of materials    Bulk
 ========== =================== ==========
 
-..  _arch_c14_materia2ID_Fields:
+..  _c14_materia2ID_Fields:
 
-arch_c14_materia2ID Fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+c14_materia2ID Fields
+~~~~~~~~~~~~~~~~~~~~~
 
 ========== ======================
 MATERIA2ID MATERIAL2
@@ -1423,10 +1423,10 @@ MATERIA2ID MATERIAL2
 -9999      ND
 ========== ======================
 
-..  _arch_c14_solvent2ID_Fields:
+..  _c14_solvent2ID_Fields:
 
-arch_c14_solvent2ID Fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+c14_solvent2ID Fields
+~~~~~~~~~~~~~~~~~~~~~
 
 ========== ========================= ==========
 SOLVENT2ID SOLVENT2                  SOLVENT2AB
