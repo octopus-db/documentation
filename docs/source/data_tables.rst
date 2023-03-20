@@ -66,7 +66,7 @@ SITECODE   text                TRUE
 
 * SITECODEID -- Unique identifier (auto-incrementing serial integer)
 
-* SITECODE -- For availabvle values refer to :ref:`global_SiteCode_Fields`
+* SITECODE -- For available values refer to :ref:`global_SiteCode_Fields`
 
 ..  _global_SiteMaster:
 
@@ -177,7 +177,7 @@ IBRAREGION text
 
 * IBRAREGION -- The location of the site within the relevant bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7) framework. *Only used for data from Australia*
 
-For availabvle values refer to :ref:`global_ibraID_Fields`
+For available values refer to :ref:`global_ibraID_Fields`
 
 ..  _global_rivID:
 
@@ -205,7 +205,7 @@ RIVDIV  text
 
 * RIVDIV -- Geofabric AHGF river division name. *Only used for data from Australia*
 
-For availabvle values refer to :ref:`global_rivID_Fields`
+For available values refer to :ref:`global_rivID_Fields`
 
 ..  _spatial_ref_sys:
 
@@ -391,7 +391,7 @@ ONLIN_ISSN varchar(9)
 
 global_PubType
 ^^^^^^^^^^^^^^
-``DRAFT`` Information standard defined by BibTex
+The *global_PubType* table stores **publication entry types according to BibTeX standards**.
 
 ========= ========= ==== ==== ======== ======
 Field     Data type Unit Key  Not Null Parent
@@ -402,7 +402,7 @@ PUBTYPE   text
 
 * PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* PUBTYPE -- Name of publication entry type according to BibTeX standards. For availabvle values refer to :ref:`global_PubType_Fields`
+* PUBTYPE -- For available values refer to :ref:`global_PubType_Fields`
 
 ..  _global_RefKeyword:
 
@@ -470,11 +470,9 @@ CHEMPREPAB text
 
 * CHEMPREPID -- Unique identifier (auto-incrementing serial integer)
 
-* CHEMPREP -- 
+* CHEMPREP -- For available values refer to :ref:`cabah_chemprepID_Fields`
 
-* CHEMPREPAB -- 
-
-For availabvle values refer to :ref:`cabah_chemprepID_Fields`
+* CHEMPREPAB -- For available values refer to :ref:`cabah_chemprepID_Fields`
 
 ..  _cabah_col_mtdID:
 
@@ -491,7 +489,7 @@ COL_MTD   text                TRUE
 
 * COL_MTDID -- Unique identifier (auto-incrementing serial integer)
 
-* COL_MTD -- For availabvle values refer to :ref:`cabah_col_mtdID_Fields`
+* COL_MTD -- For available values refer to :ref:`cabah_col_mtdID_Fields`
 
 ..  _cabah_methodID:
 
@@ -509,11 +507,9 @@ METHODABBR text                TRUE
 
 * METHODID -- Unique identifier (auto-incrementing serial integer)
 
-* METHOD -- 
+* METHOD -- For available values refer to :ref:`cabah_methodID_Fields`
 
-* METHODABBR -- 
-
-For availabvle values refer to :ref:`cabah_methodID_Fields`
+* METHODABBR -- For available values refer to :ref:`cabah_methodID_Fields`
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
@@ -547,7 +543,7 @@ ALSTNDCOMT text
 
 * ALSTNDCOMT -- 
 
-For availabvle values refer to :ref:`crn_alstndID_Fields`
+For available values refer to :ref:`crn_alstndID_Fields`
 
 ..  _crn_bestndID:
 
@@ -578,7 +574,7 @@ BESTNDCOMT text
 
 * BESTNDCOMT -- 
 
-For availabvle values refer to :ref:`crn_bestndID_Fields`
+For available values refer to :ref:`crn_bestndID_Fields`
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
