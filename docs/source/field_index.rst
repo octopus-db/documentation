@@ -981,17 +981,17 @@ ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
 
 crn_alstndID **"ALSTNDCOMT"**
 
-* IDs 1,2	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
-* IDs 3,4	-- ANSTO, equivalent to KNSTD
-* IDs 5,6	-- Cologne, equivalent to KNSTD
-* IDs 7,8	-- Nishiizumi, 2004
-* IDs 9,10	-- LLNL-CAMS, equivalent to KNSTD
-* IDs 11,12	-- LLNL-CAMS, PRIME-Lab, equivalent to KNSTD
-* IDs 13,14 -- ASTER in-house standard
-* IDs 15,16	-- PRIME Lab standard, equivalent to KNSTD
-* IDs 17,18	-- PRIME Lab standard, ANSTO, ANSTO-Assumed, equivalent to KNSTD
-* IDs 19,20	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
-* IDs 21,22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
+* IDs 1, 2	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
+* IDs 3, 4	-- ANSTO, equivalent to KNSTD
+* IDs 5, 6	-- Cologne, equivalent to KNSTD
+* IDs 7, 8	-- Nishiizumi, 2004
+* IDs 9, 10	-- LLNL-CAMS, equivalent to KNSTD
+* IDs 11, 12	-- LLNL-CAMS, PRIME-Lab, equivalent to KNSTD
+* IDs 13, 14 -- ASTER in-house standard
+* IDs 15, 16	-- PRIME Lab standard, equivalent to KNSTD
+* IDs 17, 18	-- PRIME Lab standard, ANSTO, ANSTO-Assumed, equivalent to KNSTD
+* IDs 19, 20	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
+* IDs 21, 22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
 
 ..  _crn_amsID_Fields:
 
@@ -1138,24 +1138,24 @@ crn_amsID Fields
 
 crn_amsID **"AMSURL"**
 
-* IDs 1,2	-- https://www.ansto.gov.au/accelerator-mass-spectrometry
-* IDs 3,4	-- https://physics.anu.edu.au/nuclear/research/ams/
-* IDs 5,6	-- https://www.cerege.fr
-* IDs 7,8	-- https://cologneams.uni-koeln.de
-* IDs 9,10	-- https://www.hzdr.de
-* IDs 11,12	-- https://ams.ethz.ch
-* IDs 13,14 -- https://www.lsce.ipsl.fr
-* IDs 15,16	-- https://www.kigam.re.kr
-* IDs 17,18	-- https://eng.kist.re.kr
-* IDs 19,20	-- https://cams.llnl.gov
-* IDs 21,22 -- http://malt.um.u-tokyo.ac.jp
-* IDs 23,24 -- https://www.physics.purdue.edu/primelab/
-* IDs 25,26 -- https://www.gla.ac.uk/research/az/suerc/researchthemes/ams/
-* IDs 27,28 -- https://www.tandemlab.uu.se
-* IDs 29,30 -- https://www.gns.cri.nz
-* IDs 31,32 -- http://www.xaams.cn
-* IDs 33,34 -- https://tlabs.ac.za
-* IDs 35,36 -- http://earth.tju.edu.cn/en/
+* IDs 1, 2	-- https://www.ansto.gov.au/accelerator-mass-spectrometry
+* IDs 3, 4	-- https://physics.anu.edu.au/nuclear/research/ams/
+* IDs 5, 6	-- https://www.cerege.fr
+* IDs 7, 8	-- https://cologneams.uni-koeln.de
+* IDs 9, 10	-- https://www.hzdr.de
+* IDs 11, 12	-- https://ams.ethz.ch
+* IDs 13, 14 -- https://www.lsce.ipsl.fr
+* IDs 15, 16	-- https://www.kigam.re.kr
+* IDs 17, 18	-- https://eng.kist.re.kr
+* IDs 19, 20	-- https://cams.llnl.gov
+* IDs 21, 22 -- http://malt.um.u-tokyo.ac.jp
+* IDs 23, 24 -- https://www.physics.purdue.edu/primelab/
+* IDs 25, 26 -- https://www.gla.ac.uk/research/az/suerc/researchthemes/ams/
+* IDs 27, 28 -- https://www.tandemlab.uu.se
+* IDs 29, 30 -- https://www.gns.cri.nz
+* IDs 31, 32 -- http://www.xaams.cn
+* IDs 33, 34 -- https://tlabs.ac.za
+* IDs 35, 36 -- http://earth.tju.edu.cn/en/
 
 ..  _crn_bestndID_Fields:
 
@@ -1229,35 +1229,35 @@ BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
 
 crn_bestndID **"BESTNDCOMT"**
 
-* IDs 1,2	-- Nishiizumi et al, 2007 (NIM-B v. 258, p. 403)
-* IDs 3,4	-- Standard used at PRIME, equivalent to 07KNSTD
-* IDs 5,6	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
-* IDs 7,8	-- ETH-Zurich standard, equivalent to 07KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
-* IDs 9,10	-- S130 and S142, Nishiizumi e al., 2007, equivalent to 07KNSTD
-* IDs 11,12	-- S145, Nishiizumi e al., 2007, equivalent to 07KNSTD
-* IDs 13,14 -- S109, Nishiizumi e al., 2007, measured in Cologne, equivalent to 07KNSTD
-* IDs 15,16	-- Nishiizumi standards assuming old 10Be half life
-* IDs 17,18	-- S154, primary LLNL standard (01-5-4), Rood et al., 2013
-* IDs 19,20	-- LLNL-CAMS in-house standard, cf. Balco, 2016
-* IDs 21,22 -- LLNL-CAMS in-house standard, cf. Balco, 2016
-* IDs 23,24 -- LLNL-CAMS in-house standard, cf. Balco, 2016
-* IDs 25,26 -- LLNL-CAMS in-house standard, cf. Balco, 2016
-* IDs 27,28 -- LLNL-CAMS in-house standard, cf. Balco, 2016
-* IDs 29,30 -- equivalent to 07KNSTD
-* IDs 31,32 -- NIST SRM-4325, but with differing assumed isotope ratio, equivalent to 07KNSTD
-* IDs 33,34 -- NIST SRM-4325, but with differing assumed isotope ratio
-* IDs 35,36 -- NIST SRM-4325, but with differing assumed isotope ratio
-* IDs 37,38 -- NIST SRM-4325, but with differing assumed isotope ratio
-* IDs 39,40 -- NIST SRM-4325, but with differing assumed isotope ratio
-* IDs 41,42 -- used at PRIME Lab prior to 12 Jan 2005, cf. Balco 2016
-* IDs 43,44 -- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
-* IDs 45,46 -- ETH-Zurich standard, equivalent to 07KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
-* IDs 47,48 -- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
-* IDs 49,50 -- ETH-Zurich standard, equivalent to 07KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
-* IDs 51,52 -- S225, DREAMS, equivalent to 07KNSTD
-* IDs 53,54 -- various ANSTO runs, equivalent to 07KNSTD
-* IDs 55,56 -- ASTER standard, equivalent to NIST_27900 and 07KNSTD
-* IDs 57,58 -- NIST SRM-4325, but with differing assumed isotope ratio
+* IDs 1, 2	-- Nishiizumi et al, 2007 (NIM-B v. 258, p. 403)
+* IDs 3, 4	-- Standard used at PRIME, equivalent to 07KNSTD
+* IDs 5, 6	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
+* IDs 7, 8	-- ETH-Zurich standard, equivalent to 07KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
+* IDs 9, 10	-- S130 and S142, Nishiizumi e al., 2007, equivalent to 07KNSTD
+* IDs 11, 12	-- S145, Nishiizumi e al., 2007, equivalent to 07KNSTD
+* IDs 13, 14 -- S109, Nishiizumi e al., 2007, measured in Cologne, equivalent to 07KNSTD
+* IDs 15, 16	-- Nishiizumi standards assuming old 10Be half life
+* IDs 17, 18	-- S154, primary LLNL standard (01-5-4), Rood et al., 2013
+* IDs 19, 20	-- LLNL-CAMS in-house standard, cf. Balco, 2016
+* IDs 21, 22 -- LLNL-CAMS in-house standard, cf. Balco, 2016
+* IDs 23, 24 -- LLNL-CAMS in-house standard, cf. Balco, 2016
+* IDs 25, 26 -- LLNL-CAMS in-house standard, cf. Balco, 2016
+* IDs 27, 28 -- LLNL-CAMS in-house standard, cf. Balco, 2016
+* IDs 29, 30 -- equivalent to 07KNSTD
+* IDs 31, 32 -- NIST SRM-4325, but with differing assumed isotope ratio, equivalent to 07KNSTD
+* IDs 33, 34 -- NIST SRM-4325, but with differing assumed isotope ratio
+* IDs 35, 36 -- NIST SRM-4325, but with differing assumed isotope ratio
+* IDs 37, 38 -- NIST SRM-4325, but with differing assumed isotope ratio
+* IDs 39, 40 -- NIST SRM-4325, but with differing assumed isotope ratio
+* IDs 41, 42 -- used at PRIME Lab prior to 12 Jan 2005, cf. Balco 2016
+* IDs 43, 44 -- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
+* IDs 45, 46 -- ETH-Zurich standard, equivalent to 07KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
+* IDs 47, 48 -- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
+* IDs 49, 50 -- ETH-Zurich standard, equivalent to 07KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
+* IDs 51, 52 -- S225, DREAMS, equivalent to 07KNSTD
+* IDs 53, 54 -- various ANSTO runs, equivalent to 07KNSTD
+* IDs 55, 56 -- ASTER standard, equivalent to NIST_27900 and 07KNSTD
+* IDs 57, 58 -- NIST SRM-4325, but with differing assumed isotope ratio
 
 ----
 
