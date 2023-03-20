@@ -975,7 +975,7 @@ ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
 25       ND     ND                 0      
 ======== ====== ================== ====== ==========
 
-**ALSTNDCOMT**
+crn_alstndID **ALSTNDCOMT**
 
 * IDs 1,2	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
 * IDs 3,4	-- ANSTO, equivalent to KNSTD
