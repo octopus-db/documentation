@@ -1175,19 +1175,19 @@ fos_TaxRank6_speciesID
 
 fos_chemtypeID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+The *fos_chemtypeID' table stores the **type of chemical pretreatment given to the sample** as described in original publication. There may be considerable variation within each pretreatment code.
 
 fos_fosmat1ID
 ^^^^^^^^^^^^^
-``DRAFT`` This table 
+The *fos_fosmat1ID* table stores the **type of dated remain**.
 
 fos_fosmat2ID
 ^^^^^^^^^^^^^
-``DRAFT`` This table 
+The *fos_fosmat2ID* table stores the **type of dated material**.
 
 fos_mtdsID
 ^^^^^^^^^^
-``DRAFT`` This table 
+The *fos_mtdsID* table stores the type of **method used in age determination**.
 
 fos_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^
