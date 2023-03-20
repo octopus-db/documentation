@@ -944,190 +944,50 @@ METHODID METHOD                               METHODABBR
 crn_alstndID Fields
 ~~~~~~~~~~~~~~~~~~~
 
-+----------+--------+-----------+--------+-----------+-----------+
-| ALSTNDID | ALSTND | A         | ALCORR | A         | A         |
-|          |        | LSTND_PUB |        | LSTNDRTIO | LSTNDCOMT |
-+==========+========+===========+========+===========+===========+
-| -9999    | NA     | NA        | 0      |           | not       |
-|          |        |           |        |           | a         |
-|          |        |           |        |           | pplicable |
-+----------+--------+-----------+--------+-----------+-----------+
-| 1        | ZAL94  | AL09      | 0.9134 | 1.19E-09  | E         |
-|          |        |           |        |           | TH-Zurich |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | former    |
-|          |        |           |        |           | Cologne   |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to ZAL94  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 2        | ZAL94  | AL0       | 0.9134 | 1.19E-09  | E         |
-|          |        | 9-Assumed |        |           | TH-Zurich |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | former    |
-|          |        |           |        |           | Cologne   |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to ZAL94  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 3        | KNSTD  | KN-4-2    | 1      | 3.096E-11 | ANSTO,    |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 4        | KNSTD  | KN-4-     | 1      | 3.096E-11 | ANSTO,    |
-|          |        | 2-Assumed |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 5        | KNSTD  | KN01-X-Y  | 1      |           | Cologne,  |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 6        | KNSTD  | KN01-X-   | 1      |           | Cologne,  |
-|          |        | Y-Assumed |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 7        | KNSTD  | KNSTD     | 1      |           | Ni        |
-|          |        |           |        |           | shiizumi, |
-|          |        |           |        |           | 2004      |
-+----------+--------+-----------+--------+-----------+-----------+
-| 8        | KNSTD  | KNST      | 1      |           | Ni        |
-|          |        | D-Assumed |        |           | shiizumi, |
-|          |        |           |        |           | 2004      |
-+----------+--------+-----------+--------+-----------+-----------+
-| 9        | KNSTD  | K         | 1      | 1.065E-11 | L         |
-|          |        | NSTD10650 |        |           | LNL-CAMS, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 10       | KNSTD  | KNSTD1065 | 1      | 1.065E-11 | L         |
-|          |        | 0-Assumed |        |           | LNL-CAMS, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 11       | KNSTD  | K         | 1      | 3.096E-11 | L         |
-|          |        | NSTD30960 |        |           | LNL-CAMS, |
-|          |        |           |        |           | P         |
-|          |        |           |        |           | RIME-Lab, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 12       | KNSTD  | KNSTD3096 | 1      | 3.096E-11 | L         |
-|          |        | 0-Assumed |        |           | LNL-CAMS, |
-|          |        |           |        |           | P         |
-|          |        |           |        |           | RIME-Lab, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 13       | KNSTD  | NBS       | 1      |           | L         |
-|          |        |           |        |           | LNL-CAMS, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 14       | KNSTD  | NB        | 1      |           | L         |
-|          |        | S-Assumed |        |           | LNL-CAMS, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 15       | SMAL11 | SMAL11    | 1.021  | 7.401E-12 | ASTER     |
-|          |        |           |        |           | in-house  |
-|          |        |           |        |           | standard  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 16       | SMAL11 | SMAL1     | 1.021  | 7.401E-12 | ASTER     |
-|          |        | 1-Assumed |        |           | in-house  |
-|          |        |           |        |           | standard  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 17       | KNSTD  | Z92-0222  | 1      | 4.11E-11  | PRIME Lab |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 18       | KNSTD  | Z92-022   | 1      | 4.11E-11  | PRIME Lab |
-|          |        | 2-Assumed |        |           | standard, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 19       | KNSTD  | Z93-0221  | 1      | 1.68E-11  | PRIME Lab |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | ANSTO,    |
-|          |        |           |        |           | ANSTO     |
-|          |        |           |        |           | -Assumed, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 20       | KNSTD  | Z93-022   | 1      | 1.68E-11  | PRIME Lab |
-|          |        | 1-Assumed |        |           | standard, |
-|          |        |           |        |           | ANSTO,    |
-|          |        |           |        |           | ANSTO     |
-|          |        |           |        |           | -Assumed, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD  |
-+----------+--------+-----------+--------+-----------+-----------+
-| 21       | ZAL94  | ZAL94     | 0.9134 | 5.26E-10  | E         |
-|          |        |           |        |           | TH-Zurich |
-|          |        |           |        |           | standard  |
-|          |        |           |        |           | used      |
-|          |        |           |        |           | prior to  |
-|          |        |           |        |           | 1 Apr     |
-|          |        |           |        |           | 2010,     |
-|          |        |           |        |           | Kubik and |
-|          |        |           |        |           | Christl,  |
-|          |        |           |        |           | 2010      |
-+----------+--------+-----------+--------+-----------+-----------+
-| 22       | ZAL94  | ZAL9      | 0.9134 | 5.26E-10  | E         |
-|          |        | 4-Assumed |        |           | TH-Zurich |
-|          |        |           |        |           | standard  |
-|          |        |           |        |           | used      |
-|          |        |           |        |           | prior to  |
-|          |        |           |        |           | 1 Apr     |
-|          |        |           |        |           | 2010,     |
-|          |        |           |        |           | Kubik and |
-|          |        |           |        |           | Christl,  |
-|          |        |           |        |           | 2010      |
-+----------+--------+-----------+--------+-----------+-----------+
-| 23       | ZAL94N | ZAL94N    | 1      | 4.9E-10   | E         |
-|          |        |           |        |           | TH-Zurich |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD, |
-|          |        |           |        |           | effective |
-|          |        |           |        |           | 1 Apr     |
-|          |        |           |        |           | 2010,     |
-|          |        |           |        |           | Kubik and |
-|          |        |           |        |           | Christl,  |
-|          |        |           |        |           | 2010      |
-+----------+--------+-----------+--------+-----------+-----------+
-| 24       | ZAL94N | ZAL94     | 1      | 4.9E-10   | E         |
-|          |        | N-Assumed |        |           | TH-Zurich |
-|          |        |           |        |           | standard, |
-|          |        |           |        |           | e         |
-|          |        |           |        |           | quivalent |
-|          |        |           |        |           | to KNSTD, |
-|          |        |           |        |           | effective |
-|          |        |           |        |           | 1 Apr     |
-|          |        |           |        |           | 2010,     |
-|          |        |           |        |           | Kubik and |
-|          |        |           |        |           | Christl,  |
-|          |        |           |        |           | 2010      |
-+----------+--------+-----------+--------+-----------+-----------+
-| 25       | ND     | ND        | 0      |           | no data   |
-+----------+--------+-----------+--------+-----------+-----------+
+======== ====== ================== ====== ==========
+ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
+======== ====== ================== ====== ==========
+-9999    NA     NA                 0      
+1        ZAL94  AL09               0.9134 1.19E-09
+2        ZAL94  AL09-Assumed       0.9134 1.19E-09
+3        KNSTD  KN-4-2             1      3.096E-11
+4        KNSTD  KN-4-2-Assumed     1      3.096E-11
+5        KNSTD  KN01-X-Y           1      
+6        KNSTD  KN01-X-Y-Assumed   1      
+7        KNSTD  KNSTD              1      
+8        KNSTD  KNSTD-Assumed      1      
+9        KNSTD  KNSTD10650         1      1.065E-11
+10       KNSTD  KNSTD10650-Assumed 1      1.065E-11
+11       KNSTD  KNSTD30960         1      3.096E-11
+12       KNSTD  KNSTD30960-Assumed 1      3.096E-11
+13       KNSTD  NBS                1      
+14       KNSTD  NBS-Assumed        1      
+15       SMAL11 SMAL11             1.021  7.401E-12
+16       SMAL11 SMAL11-Assumed     1.021  7.401E-12
+17       KNSTD  Z92-0222           1      4.11E-11
+18       KNSTD  Z92-0222-Assumed   1      4.11E-11
+19       KNSTD  Z93-0221           1      1.68E-11
+20       KNSTD  Z93-0221-Assumed   1      1.68E-11
+21       ZAL94  ZAL94              0.9134 5.26E-10
+22       ZAL94  ZAL94-Assumed      0.9134 5.26E-10
+23       ZAL94N ZAL94N             1      4.9E-10
+24       ZAL94N ZAL94N-Assumed     1      4.9E-10
+25       ND     ND                 0      
+======== ====== ================== ====== ==========
+
+**ALSTNDCOMT**
+
+* ZAL94	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
+* KNSTD	-- ANSTO, equivalent to KNSTD
+* KNSTD	-- Cologne, equivalent to KNSTD
+* KNSTD	-- Nishiizumi, 2004
+* KNSTD	-- LLNL-CAMS, equivalent to KNSTD
+* KNSTD	-- LLNL-CAMS, PRIME-Lab, equivalent to KNSTD
+* SMAL11 -- ASTER in-house standard
+* KNSTD	-- PRIME Lab standard, equivalent to KNSTD
+* KNSTD	-- PRIME Lab standard, ANSTO, ANSTO-Assumed, equivalent to KNSTD
+* ZAL94	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
+* ZAL94N -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
 
 
 
