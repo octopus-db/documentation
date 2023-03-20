@@ -909,7 +909,7 @@ cabah_chemprepID Fields
 
 * CARDS -- Carbonate Density Separation
 
-* XAD -- Resin used to clean amino acids. Note that ‘XAD’ flag overwrites potential other pretreatment
+* XAD -- Resin used to clean amino acids. Note that *XAD* flag overwrites potential other pretreatment
 
 * Plasma oxidation and potassium permanganate methods refer to methods which aim to convert a specific portion of the sample to CO2 and may involve a variety of other steps.
 
@@ -917,7 +917,7 @@ cabah_chemprepID Fields
 
 * SC -- Stepped combustion
 
-* Ultra = Ultrafiltration
+* Ultra -- Ultrafiltration
 
 * Longin -- Modified Longing method
 
