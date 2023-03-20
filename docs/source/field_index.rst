@@ -977,19 +977,17 @@ ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
 
 **ALSTNDCOMT**
 
-* ZAL94	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
-* KNSTD	-- ANSTO, equivalent to KNSTD
-* KNSTD	-- Cologne, equivalent to KNSTD
-* KNSTD	-- Nishiizumi, 2004
-* KNSTD	-- LLNL-CAMS, equivalent to KNSTD
-* KNSTD	-- LLNL-CAMS, PRIME-Lab, equivalent to KNSTD
-* SMAL11 -- ASTER in-house standard
-* KNSTD	-- PRIME Lab standard, equivalent to KNSTD
-* KNSTD	-- PRIME Lab standard, ANSTO, ANSTO-Assumed, equivalent to KNSTD
-* ZAL94	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
-* ZAL94N -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
-
-
+* IDs 1,2	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
+* IDs 3,4	-- ANSTO, equivalent to KNSTD
+* IDs 5,6	-- Cologne, equivalent to KNSTD
+* IDs 7,8	-- Nishiizumi, 2004
+* IDs 9,10	-- LLNL-CAMS, equivalent to KNSTD
+* IDs 11,12	-- LLNL-CAMS, PRIME-Lab, equivalent to KNSTD
+* IDs 13,14 -- ASTER in-house standard
+* IDs 15,16	-- PRIME Lab standard, equivalent to KNSTD
+* IDs 17,18	-- PRIME Lab standard, ANSTO, ANSTO-Assumed, equivalent to KNSTD
+* IDs 19,20	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
+* IDs 21,22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
 
 ..  _arch_featdatedID_Fields:
 
