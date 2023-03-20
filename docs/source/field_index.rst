@@ -803,6 +803,8 @@ PUBTYPEID PUBTYPE
 
 * **online** -- Internet source. *Required fields*: title, url, urldate (in "NOTE" field)
 
+----
+
 ..  _cabah_chemprepID_Fields:
 
 cabah_chemprepID Fields
@@ -939,6 +941,8 @@ METHODID METHOD                               METHODABBR
 11       Coupled U-ESR model                  U-ESR
 ======== ==================================== ==========
 
+----
+
 ..  _crn_alstndID_Fields:
 
 crn_alstndID Fields
@@ -988,6 +992,8 @@ crn_alstndID **ALSTNDCOMT**
 * IDs 17,18	-- PRIME Lab standard, ANSTO, ANSTO-Assumed, equivalent to KNSTD
 * IDs 19,20	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
 * IDs 21,22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
+
+----
 
 ..  _arch_featdatedID_Fields:
 
