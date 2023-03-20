@@ -171,11 +171,13 @@ IBRACODE   varchar(3)           TRUE
 IBRAREGION text                          
 ========== ========== ==== ==== ======== ======
 
-* IBRAID -- 
+* IBRAID -- Unique identifier (serial integer)
 
-* IBRACODE -- 
+* IBRACODE -- The location code of the site within the relevant bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7) framework. *Only used for data from Australia*
 
-* IBRAREGION -- 
+* IBRAREGION -- The location of the site within the relevant bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7) framework. *Only used for data from Australia*
+
+For availabvle values refer to :ref:`global_ibraID_Fields`
 
 ..  _global_rivID:
 
@@ -193,15 +195,17 @@ RIVNAME text
 RIVDIV  text                          
 ======= ========== ==== ==== ======== ======
 
-* RIVID -- 
+* RIVID -- Unique identifier (serial integer)
 
-* AHGFL1 -- 
+* AHGFL1 -- Geofabric AHGF river region code. *Only used for data from Australia*
 
-* AHGFL2 -- 
+* AHGFL2 -- Geofabric AHGF combined river region code (“AHGLF1”) and topographic drainage division two-digit number. *Only used for data from Australia*
 
-* RIVNAME -- 
+* RIVNAME -- Geofabric AHGF river name. *Only used for data from Australia*. A full list of AHGF river names and codes is available at: http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426
 
-* RIVDIV -- 
+* RIVDIV -- Geofabric AHGF river division name. *Only used for data from Australia*
+
+For availabvle values refer to :ref:`global_rivID_Fields`
 
 ..  _spatial_ref_sys:
 
