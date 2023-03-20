@@ -66,7 +66,7 @@ SITECODE   text                TRUE
 
 * SITECODEID -- Unique identifier (auto-incrementing serial integer)
 
-* SITECODE -- 
+* SITECODE -- For availabvle values refer to :ref:`global_SiteCode_Fields`.
 
 ..  _global_SiteMaster:
 
