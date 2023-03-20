@@ -402,7 +402,7 @@ PUBTYPE   text
 
 * PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* PUBTYPE -- Name of publication entry type according to BibTeX standards. For selectable values see :ref:`global_PubType_Fields`
+* PUBTYPE -- Name of publication entry type according to BibTeX standards. For availabvle values refer to :ref:`global_PubType_Fields`
 
 ..  _global_RefKeyword:
 
@@ -454,6 +454,8 @@ LAB_SOURCE text
 
 * LAB_SOURCE -- 
 
+For availabvle values refer to :ref:`cabah_LabCodes_Fields`
+
 ..  _cabah_chemprepID:
 
 cabah_chemprepID
@@ -474,6 +476,8 @@ CHEMPREPAB text
 
 * CHEMPREPAB -- 
 
+For availabvle values refer to :ref:`cabah_chemprepID_Fields`
+
 ..  _cabah_col_mtdID:
 
 cabah_col_mtdID
@@ -489,7 +493,7 @@ COL_MTD   text                TRUE
 
 * COL_MTDID -- Unique identifier (auto-incrementing serial integer)
 
-* COL_MTD -- 
+* COL_MTD -- For availabvle values refer to :ref:`cabah_col_mtdID_Fields`
 
 ..  _cabah_methodID:
 
@@ -510,6 +514,8 @@ METHODABBR text                TRUE
 * METHOD -- 
 
 * METHODABBR -- 
+
+For availabvle values refer to :ref:`cabah_methodID_Fields`
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
@@ -543,6 +549,8 @@ ALSTNDCOMT text
 
 * ALSTNDCOMT -- 
 
+For availabvle values refer to :ref:`crn_alstndID_Fields`
+
 ..  _crn_bestndID:
 
 crn_bestndID
@@ -571,6 +579,8 @@ BESTNDCOMT text
 * BESTNDRTIO -- 
 
 * BESTNDCOMT -- 
+
+For availabvle values refer to :ref:`crn_bestndID_Fields`
 
 Luminescence tables
 ~~~~~~~~~~~~~~~~~~~
