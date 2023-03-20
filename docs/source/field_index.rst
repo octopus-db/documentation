@@ -1157,6 +1157,76 @@ crn_amsID **"AMSURL"**
 * IDs 33,34 -- https://tlabs.ac.za
 * IDs 35,36 -- http://earth.tju.edu.cn/en/
 
+..  _crn_bestndID_Fields:
+
+crn_bestndID Fields
+~~~~~~~~~~~~~~~~~~~
+
+======== ============== ====================== ====== ==========
+BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
+======== ============== ====================== ====== ==========
+-9999    NA             NA                     0      
+1        07KNSTD        07KNSTD                1      
+2        07KNSTD        07KNSTD-Assumed        1      
+3        07KNSTD        07KNSTD3110            1      2.85E-12
+4        07KNSTD        07KNSTD3110-Assumed    1      2.85E-12
+5        BEST433        BEST433                0.9124 9.31E-11
+6        BEST433        BEST433-Assumed        0.9124 9.31E-11
+7        BEST433N       BEST433N               1      8.33E-11
+8        BEST433N       BEST433N-Assumed       1      8.33E-11
+9        07KNSTD        ICN                    1      
+10       07KNSTD        ICN-Assumed            1      
+11       07KNSTD        ICN 01-5-2             1      8.558E-12
+12       07KNSTD        ICN 01-5-2-Assumed     1      8.558E-12
+13       07KNSTD        KN01-6-2               1      5.349E-13
+14       07KNSTD        KN01-6-2-Assumed       1      5.349E-13
+15       KNSTD          KNSTD                  0.9042 
+16       KNSTD          KNSTD-Assumed          0.9042 
+17       07KNSTD        KNSTD3110              1      2.85E-12
+18       07KNSTD        KNSTD3110-Assumed      1      2.85E-12
+19       LLNL1000       LLNL1000               0.9313 1E-12
+20       LLNL1000       LLNL1000-Assumed       0.9313 1E-12
+21       LLNL10000      LLNL10000              0.9042 1E-11
+22       LLNL10000      LLNL10000-Assumed      0.9042 1E-11
+23       LLNL300        LLNL300                0.8562 3E-13
+24       LLNL300        LLNL300-Assumed        0.8562 3E-13
+25       LLNL3000       LLNL3000               0.8644 3E-12
+26       LLNL3000       LLNL3000-Assumed       0.8644 3E-12
+27       LLNL31000      LLNL31000              0.8761 3.1E-11
+28       LLNL31000      LLNL31000-Assumed      0.8761 3.1E-11
+29       07KNSTD        NIST SRM-4325          1      2.79E-11
+30       07KNSTD        NIST SRM-4325-Assumed  1      2.79E-11
+31       07KNSTD        NIST_27900             1      2.79E-11
+32       07KNSTD        NIST_27900-Assumed     1      2.79E-11
+33       NIST_30000     NIST_30000             0.9313 3E-11
+34       NIST_30000     NIST_30000-Assumed     0.9313 3E-11
+35       NIST_30200     NIST_30200             0.9251 3.02E-11
+36       NIST_30200     NIST_30200-Assumed     0.9251 3.02E-11
+37       NIST_30300     NIST_30300             0.9221 3.03E-11
+38       NIST_30300     NIST_30300-Assumed     0.9221 3.03E-11
+39       NIST_30600     NIST_30600             0.913  3.06E-11
+40       NIST_30600     NIST_30600-Assumed     0.913  3.06E-11
+41       NIST_Certified NIST_Certified         1.0425 2.68E-11
+42       NIST_Certified NIST_Certified-Assumed 1.0425 2.68E-11
+43       S2007          S2007                  0.9124 3.08E-11
+44       S2007          S2007-Assumed          0.9124 3.08E-11
+45       S2007N         S2007N                 1      2.81E-11
+46       S2007N         S2007N-Assumed         1      2.81E-11
+47       S555           S555                   0.9124 9.55E-11
+48       S555           S555-Assumed           0.9124 9.55E-11
+49       S555N          S555N                  1      8.71E-11
+50       S555N          S555N-Assumed          1      8.71E-11
+51       07KNSTD        SMD-Be-12              1      1.704E-12
+52       07KNSTD        SMD-Be-12-Assumed      1      1.704E-12
+53       07KNSTD        SRM KN-5-2             1      8.558E-12
+54       07KNSTD        SRM KN-5-2-Assumed     1      8.558E-12
+55       07KNSTD        STD-11                 1      1.191E-11
+56       07KNSTD        STD-11-Assumed         1      1.191E-11
+57       NIST_30500     NIST_30500             0.9124 3.05E-11
+58       NIST_30500     NIST_30500-Assumed     0.9124 3.05E-11
+59       ND             ND                     0      
+======== ============== ====================== ====== ==========
+
 ----
 
 ..  _arch_featdatedID_Fields:
