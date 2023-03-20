@@ -993,6 +993,149 @@ crn_alstndID **ALSTNDCOMT**
 * IDs 19,20	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
 * IDs 21,22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
 
+..  _crn_amsID_Fields:
+
+crn_amsID Fields
+~~~~~~~~~~~~~~~~~~~
+
++-------+------------------------+-----------------------------+
+| AMSID | AMS                    | AMSORG                      |
++=======+========================+=============================+
+| -9999 | NA                     | not applicable              |
++-------+------------------------+-----------------------------+
+| 1     | ANSTO                  | Australian Nuclear Science  |
+|       |                        | and Technology Organisation |
+|       |                        | ANSTO                       |
++-------+------------------------+-----------------------------+
+| 2     | ANSTO-Assumed          | Australian Nuclear Science  |
+|       |                        | and Technology Organisation |
+|       |                        | ANSTO                       |
++-------+------------------------+-----------------------------+
+| 3     | ANU                    | Australian National         |
+|       |                        | University ANU              |
++-------+------------------------+-----------------------------+
+| 4     | ANU-Assumed            | Australian National         |
+|       |                        | University ANU              |
++-------+------------------------+-----------------------------+
+| 5     | ASTER                  | Centre for Research and     |
+|       |                        | Teaching in Environmental   |
+|       |                        | Geoscience CEREGE           |
++-------+------------------------+-----------------------------+
+| 6     | ASTER-Assumed          | Centre for Research and     |
+|       |                        | Teaching in Environmental   |
+|       |                        | Geoscience CEREGE           |
++-------+------------------------+-----------------------------+
+| 7     | Cologne                | University of Cologne       |
++-------+------------------------+-----------------------------+
+| 8     | Cologne-Assumed        | University of Cologne       |
++-------+------------------------+-----------------------------+
+| 9     | DREAMS                 | Helmholtz-Zentrum           |
+|       |                        | Dresden-Rossendorf HZDR     |
++-------+------------------------+-----------------------------+
+| 10    | DREAMS-Assumed         | Helmholtz-Zentrum           |
+|       |                        | Dresden-Rossendorf HZDR     |
++-------+------------------------+-----------------------------+
+| 11    | ETH-Zurich             | Swiss Federal Institute of  |
+|       |                        | Technology in Zurich        |
+|       |                        | ETH-Zurich                  |
++-------+------------------------+-----------------------------+
+| 12    | ETH-Zurich-Assumed     | Swiss Federal Institute of  |
+|       |                        | Technology in Zurich        |
+|       |                        | ETH-Zurich                  |
++-------+------------------------+-----------------------------+
+| 13    | Gif-sur-Yvette         | Climate and Environment     |
+|       |                        | Sciences Laboratory LSCE,   |
+|       |                        | Pierre Simon Laplace        |
+|       |                        | Institute                   |
++-------+------------------------+-----------------------------+
+| 14    | Gif-sur-Yvette-Assumed | Climate and Environment     |
+|       |                        | Sciences Laboratory LSCE,   |
+|       |                        | Pierre Simon Laplace        |
+|       |                        | Institute                   |
++-------+------------------------+-----------------------------+
+| 15    | KIGAM AMS              | Korea Institute of          |
+|       |                        | Geoscience and Mineral      |
+|       |                        | Resources KIGAM             |
++-------+------------------------+-----------------------------+
+| 16    | KIGAM AMS-Assumed      | Korea Institute of          |
+|       |                        | Geoscience and Mineral      |
+|       |                        | Resources KIGAM             |
++-------+------------------------+-----------------------------+
+| 17    | KIST Seoul             | Korea Institute of Science  |
+|       |                        | and Technology              |
++-------+------------------------+-----------------------------+
+| 18    | KIST Seoul-Assumed     | Korea Institute of Science  |
+|       |                        | and Technology              |
++-------+------------------------+-----------------------------+
+| 19    | LLNL-CAMS              | Lawrence Livermore National |
+|       |                        | Laboratory LLNL, Center for |
+|       |                        | Accelerator Mass            |
+|       |                        | Spectrometry                |
++-------+------------------------+-----------------------------+
+| 20    | LLNL-CAMS-Assumed      | Lawrence Livermore National |
+|       |                        | Laboratory LLNL, Center for |
+|       |                        | Accelerator Mass            |
+|       |                        | Spectrometry                |
++-------+------------------------+-----------------------------+
+| 21    | MALT Tokyo AMS         | Micro                       |
+|       |                        | Analysis Laboratory, Tandem |
+|       |                        | accelerator MALT, The       |
+|       |                        | University of Tokyo         |
++-------+------------------------+-----------------------------+
+| 22    | MALT Tokyo AMS-Assumed | Micro                       |
+|       |                        | Analysis Laboratory, Tandem |
+|       |                        | accelerator MALT, The       |
+|       |                        | University of Tokyo         |
++-------+------------------------+-----------------------------+
+| 23    | PRIME-Lab              | Purdue Rare Isotope         |
+|       |                        | Measurement Laboratory      |
+|       |                        | PRIME                       |
++-------+------------------------+-----------------------------+
+| 24    | PRIME-Lab-Assumed      | Purdue Rare Isotope         |
+|       |                        | Measurement Laboratory      |
+|       |                        | PRIME                       |
++-------+------------------------+-----------------------------+
+| 25    | SUERC                  | Scottish Universities       |
+|       |                        | Environmental Research      |
+|       |                        | Centre                      |
++-------+------------------------+-----------------------------+
+| 26    | SUERC-Assumed          | Scottish Universities       |
+|       |                        | Environmental Research      |
+|       |                        | Centre                      |
++-------+------------------------+-----------------------------+
+| 27    | Uppsala                | Uppsala University, Tandem  |
+|       |                        | Laboratory                  |
++-------+------------------------+-----------------------------+
+| 28    | Uppsala-Assumed        | Uppsala University, Tandem  |
+|       |                        | Laboratory                  |
++-------+------------------------+-----------------------------+
+| 29    | XCAMS (GNS)            | Compact AMS, GNS New        |
+|       |                        | Zealand                     |
++-------+------------------------+-----------------------------+
+| 30    | XCAMS (GNS)-Assumed    | Compact AMS, GNS New        |
+|       |                        | Zealand                     |
++-------+------------------------+-----------------------------+
+| 31    | XAAMS                  | Xi’an AMS Center, China     |
++-------+------------------------+-----------------------------+
+| 32    | XAAMS-Assumed          | Xi’an AMS Center, China     |
++-------+------------------------+-----------------------------+
+| 33    | iThemba LABS           | iThemba Laboratory for      |
+|       |                        | Accelerator Based Sciences  |
++-------+------------------------+-----------------------------+
+| 34    | iThemba LABS-Assumed   | iThemba Laboratory for      |
+|       |                        | Accelerator Based Sciences  |
++-------+------------------------+-----------------------------+
+| 35    | Tianjin                | Inst. of Surface-Earth      |
+|       |                        | System Sci., School of      |
+|       |                        | Earth System Sci., Tianjin  |
+|       |                        | University (CHN)            |
++-------+------------------------+-----------------------------+
+| 36    | Tianjin-Assumed        | Inst. of Surface-Earth      |
+|       |                        | System Sci., School of      |
+|       |                        | Earth System Sci., Tianjin  |
+|       |                        | University (CHN)            |
++-------+------------------------+-----------------------------+
+
 ----
 
 ..  _arch_featdatedID_Fields:
