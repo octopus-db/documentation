@@ -1175,7 +1175,7 @@ fos_TaxRank6_speciesID
 
 fos_chemtypeID
 ^^^^^^^^^^^^^^
-The *fos_chemtypeID' table stores the **type of chemical pretreatment given to the sample** as described in original publication. There may be considerable variation within each pretreatment code.
+The *fos_chemtypeID* table stores the **type of chemical pretreatment given to the sample** as described in the original publication. There may be considerable variation within each pretreatment code.
 
 fos_fosmat1ID
 ^^^^^^^^^^^^^
