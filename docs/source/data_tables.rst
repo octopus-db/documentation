@@ -55,7 +55,7 @@ global_MetaSite
 
 global_SiteCode
 ^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+The *global_SiteCode* table stores **site types characterising the dominant attribute of a site**
 
 ========== ========= ==== ==== ======== ======
 Field      Data type Unit Key  Not Null Parent
