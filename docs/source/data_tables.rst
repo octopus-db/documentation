@@ -454,7 +454,7 @@ LAB_SOURCE text
 
 cabah_chemprepID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+The stores the **type of chemical pretreatment given to a sample**. Note -- methods capture the majority of methods applied in Australia. There may be considerable variation within each pretreatment code.
 
 ========== ========= ==== ==== ======== ======
 Field      Data type Unit Key  Not Null Parent
