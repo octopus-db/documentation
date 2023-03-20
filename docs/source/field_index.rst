@@ -778,6 +778,143 @@ PUBTYPEID PUBTYPE
 
 * **online** -- Internet source. *Required fields*: title, url, urldate (in "NOTE" field)
 
+..  _cabah_chemprepID_Fields:
+
+cabah_chemprepID Fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
++------------+---------------------------+---------------------------+
+| CHEMPREPID | CHEMPREP                  | CHEMPREPAB                |
++============+===========================+===========================+
+| -9999      | no data                   | ND                        |
++------------+---------------------------+---------------------------+
+| -9991      | not applicable            | NA                        |
++------------+---------------------------+---------------------------+
+| 1          | Acid-Base-Acid            | ABA                       |
++------------+---------------------------+---------------------------+
+| 2          | ABA (base soluble)        | ABA (base soluble)        |
++------------+---------------------------+---------------------------+
+| 3          | ABA and bleach            | ABA and bleach            |
++------------+---------------------------+---------------------------+
+| 4          | ABA and bleach-Stepped    | ABA and bleach-SC         |
+|            | Combustion                |                           |
++------------+---------------------------+---------------------------+
+| 5          | Acid-Base-Acid Stepped    | ABA-SC                    |
+|            | Combustion                |                           |
++------------+---------------------------+---------------------------+
+| 6          | Acid-Base Oxidation       | ABOx                      |
++------------+---------------------------+---------------------------+
+| 7          | Acid-Base Oxidation       | ABOx-SC                   |
+|            | Stepped Combustion        |                           |
++------------+---------------------------+---------------------------+
+| 8          | Acid treatment            | Acid                      |
++------------+---------------------------+---------------------------+
+| 9          | Acid (to extract apatite) | Acid (to extract apatite) |
++------------+---------------------------+---------------------------+
+| 10         | Acid or ABA               | Acid or ABA               |
+|            | gelatinisation            | gelatinisation            |
+|            | -ultrafiltration          | -ultrafiltration          |
++------------+---------------------------+---------------------------+
+| 11         | Acid or                   | Acid or                   |
+|            | ABA-gelatinisation        | ABA-gelatinisation        |
++------------+---------------------------+---------------------------+
+| 12         | Alpha cellulose           | Alpha cellulose           |
++------------+---------------------------+---------------------------+
+| 13         | Alpha cellulose-SC        | Alpha cellulose-SC        |
++------------+---------------------------+---------------------------+
+| 14         | AOx                       | AOx                       |
++------------+---------------------------+---------------------------+
+| 15         | AOx-SC                    | AOx-SC                    |
++------------+---------------------------+---------------------------+
+| 16         | Carbonate Density         | CARDS                     |
+|            | Separation                |                           |
++------------+---------------------------+---------------------------+
+| 17         | CARDS + acid              | CARDS + acid              |
++------------+---------------------------+---------------------------+
+| 18         | Hydroxyproline            | Hydroxyproline            |
++------------+---------------------------+---------------------------+
+| 19         | Hydrogen Pyrolysis        | HyPy                      |
++------------+---------------------------+---------------------------+
+| 20         | Plasma Oxidation          | Plasma Oxidation          |
++------------+---------------------------+---------------------------+
+| 21         | Potassium permanganate    | Potassium permanganate    |
+|            | (to extract oxalate)      | (to extract oxalate)      |
++------------+---------------------------+---------------------------+
+| 22         | Stepped hydrolysis        | Stepped hydrolysis        |
++------------+---------------------------+---------------------------+
+| 23         | Resin used to clean amino | XAD                       |
+|            | acids                     |                           |
++------------+---------------------------+---------------------------+
+| 24         | Acid-Alkali-Acid          | AAA                       |
++------------+---------------------------+---------------------------+
+| 25         | AAA or ABA                | AAA/ABA                   |
++------------+---------------------------+---------------------------+
+| 26         | AAA or ABA or Acid wash   | AAA/ABA/Acid              |
++------------+---------------------------+---------------------------+
+| 27         | ABA + Ultrafiltration     | ABAu                      |
++------------+---------------------------+---------------------------+
+| 28         | Several fragments dated   | Bulk                      |
+|            | together                  |                           |
++------------+---------------------------+---------------------------+
+| 29         | Collagen Stepped          | Coll_SC                   |
+|            | Combustion                |                           |
++------------+---------------------------+---------------------------+
+| 30         | Collagen ultrafiltration  | Coll_ultra                |
++------------+---------------------------+---------------------------+
+| 31         | Gelatinisation            | Gelatin                   |
++------------+---------------------------+---------------------------+
+| 32         | Modified Longin method    | Longin                    |
++------------+---------------------------+---------------------------+
+| 33         | no treatment              | No                        |
++------------+---------------------------+---------------------------+
+| 34         | Ultrafiltration           | Ultra                     |
++------------+---------------------------+---------------------------+
+| 99         | for other method          | Other                     |
++------------+---------------------------+---------------------------+
+
+..  _cabah_col_mtdID_Fields:
+
+cabah_col_mtdID Fields
+~~~~~~~~~~~~~~~~~~~~~~
+
+========= =============
+COL_MTDID COL_MTD
+========= =============
+-9999     ND
+1         Auger
+2         Block
+3         Core
+4         Downhole Tube
+5         Excavated
+6         Tube
+7         Other
+8         InSitu
+9         Sieve
+========= =============
+
+..  _cabah_methodID_Fields:
+
+cabah_methodID Fields
+~~~~~~~~~~~~~~~~~~~~~~
+
+======== ==================================== ==========
+METHODID METHOD                               METHODABBR
+======== ==================================== ==========
+-9999    not applicable                       NA
+1        Amino Acid Racemization              AAR
+2        Radiocarbon Dating                   C14
+3        Cation Ratio Dating                  CRD
+4        Electron Spin Resonance              ESR
+5        Oxidisable Carbon Ratio              OCR
+6        Optically Stimulated Luminescence    OSL
+7        Thermoluminescence                   TL
+8        Uranium-Series                       U
+9        Closed-system U-Series and ESR model CSU-ESR
+10       Stratigraphic correlation            Strat
+11       Coupled U-ESR model                  U-ESR
+======== ==================================== ==========
+
+
 .. rubric:: Footnotes
 
 .. [#] Entry type descriptions taken from `http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/ <http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/>`_
