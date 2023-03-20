@@ -1227,6 +1227,8 @@ BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
 59       ND             ND                     0      
 ======== ============== ====================== ====== ==========
 
+crn_bestndID **"BESTNDCOMT"**
+
 * IDs 1,2	-- Nishiizumi et al, 2007 (NIM-B v. 258, p. 403)
 * IDs 3,4	-- Standard used at PRIME, equivalent to 07KNSTD
 * IDs 5,6	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
