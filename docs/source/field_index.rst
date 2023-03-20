@@ -1,6 +1,6 @@
-=============
-Field indices
-=============
+=======================
+Fields and their values
+=======================
 
 Data table fields
 -----------------
