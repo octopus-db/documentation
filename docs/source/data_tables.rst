@@ -454,8 +454,6 @@ LAB_SOURCE text
 
 * LAB_SOURCE -- 
 
-For availabvle values refer to :ref:`cabah_LabCodes_Fields`
-
 ..  _cabah_chemprepID:
 
 cabah_chemprepID
