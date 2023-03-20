@@ -595,9 +595,9 @@ AGEMODELAB text
 
 * AGEMODELID -- Unique identifier (auto-incrementing serial integer)
 
-* AGEMODEL -- 
+* AGEMODEL -- For available values refer to :ref:`osl-tl_agemodelID_Fields`
 
-* AGEMODELAB -- 
+* AGEMODELAB -- For available values refer to :ref:`osl-tl_agemodelID_Fields`
 
 ..  _osl-tl_ed_procID:
 
@@ -615,9 +615,9 @@ ED_PROCABR text
 
 * ED_PROCID -- Unique identifier (auto-incrementing serial integer)
 
-* ED_PROC -- 
+* ED_PROC -- For available values refer to :ref:`osl-tl_ed_procID_Fields`
 
-* ED_PROCABR -- 
+* ED_PROCABR -- For available values refer to :ref:`osl-tl_ed_procID_Fields`
 
 ..  _osl-tl_lum_matID:
 
@@ -635,9 +635,9 @@ LUM_MATABB text
 
 * LUM_MATID -- Unique identifier (auto-incrementing serial integer)
 
-* LUM_MAT -- 
+* LUM_MAT -- For available values refer to :ref:`osl-tl_lum_matID_Fields`
 
-* LUM_MATABB -- 
+* LUM_MATABB -- For available values refer to :ref:`osl-tl_lum_matID_Fields`
 
 ..  _osl-tl_mineralID:
 
@@ -655,9 +655,9 @@ MINERALABB text
 
 * MINERALID -- Unique identifier (auto-incrementing serial integer)
 
-* MINERAL -- 
+* MINERAL -- For available values refer to :ref:`osl-tl_mineralID_Fields`
 
-* MINERALABB -- 
+* MINERALABB -- For available values refer to :ref:`osl-tl_mineralID_Fields`
 
 ..  _osl-tl_mtdID:
 
@@ -675,9 +675,9 @@ MTDAB text
 
 * MTDID -- Unique identifier (auto-incrementing serial integer)
 
-* MTD -- 
+* MTD -- For available values refer to :ref:`osl-tl_mtdID_Fields`
 
-* MTDAB -- 
+* MTDAB -- For available values refer to :ref:`osl-tl_mtdID_Fields`
 
 ..  _osl_typeID:
 
@@ -695,9 +695,9 @@ OSL_TYPEAB text
 
 * OSL_TYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* OSL_TYPE -- 
+* OSL_TYPE -- For available values refer to :ref:`osl_typeID_Fields`
 
-* OSL_TYPEAB -- 
+* OSL_TYPEAB -- For available values refer to :ref:`osl_typeID_Fields`
 
 ----
 
@@ -747,7 +747,7 @@ PROJECTION varchar(13)           TRUE
 
 * PROJEPSGID -- Unique identifier (auto-incrementing serial integer)
 
-* PROJECTION -- 
+* PROJECTION -- For available values refer to :ref:`crn_projepsgID_Fields`
 
 ..  _crn_projepsgID:
 
@@ -787,7 +787,7 @@ FEATDATED            text      TRUE
 
 * FEATDATEID -- Unique identifier (auto-incrementing serial integer)
 
-* FEATDATED -- 
+* FEATDATED -- For available values refer to :ref:`arch_featdatedID_Fields`
 
 ..  _c13_valID:
 
@@ -804,7 +804,7 @@ C13_VAL   text                TRUE
 
 * C13_VALID -- Unique identifier (auto-incrementing serial integer)
 
-* C13_VAL -- 
+* C13_VAL -- For available values refer to :ref:`c13_valID_Fields`
 
 ..  _c14_contamID:
 
@@ -821,7 +821,7 @@ CONTAM   text                TRUE
 
 * CONTAMID -- Unique identifier (auto-incrementing serial integer)
 
-* CONTAM -- 
+* CONTAM -- For available values refer to :ref:`c14_contamID_Fields`
 
 ..  _c14_hum_modID:
 
@@ -838,7 +838,7 @@ HUM_MOD   text                TRUE
 
 * HUM_MODID -- Unique identifier (auto-incrementing serial integer)
 
-* HUM_MOD -- 
+* HUM_MOD -- For available values refer to :ref:`c14_hum_modID_Fields`
 
 ..  _c14_materia1ID:
 
@@ -856,9 +856,9 @@ MATERIA1AB text
 
 * MATERIA1ID -- Unique identifier (auto-incrementing serial integer)
 
-* MATERIAL1 -- 
+* MATERIAL1 -- For available values refer to :ref:`c14_materia1ID_Fields`
 
-* MATERIA1AB -- 
+* MATERIA1AB -- For available values refer to :ref:`c14_materia1ID_Fields`
 
 ..  _c14_materia2ID:
 
@@ -875,7 +875,7 @@ MATERIAL2  text                TRUE
 
 * MATERIA2ID -- Unique identifier (auto-incrementing serial integer)
 
-* MATERIAL2 -- 
+* MATERIAL2 -- For available values refer to :ref:`c14_materia2ID_Fields`
 
 ..  _c14_solvent2ID:
 
@@ -893,9 +893,9 @@ SOLVENT2AB text
 
 * SOLVENT2ID -- Unique identifier (auto-incrementing serial integer)
 
-* SOLVENT2 -- 
+* SOLVENT2 -- For available values refer to :ref:`c14_solvent2ID_Fields`
 
-* SOLVENT2AB -- 
+* SOLVENT2AB -- For available values refer to :ref:`c14_solvent2ID_Fields`
 
 ..  _c_mtdID:
 
@@ -913,9 +913,9 @@ C_MTDAB text
 
 * C_MTDID -- Unique identifier (auto-incrementing serial integer)
 
-* C_MTD -- 
+* C_MTD -- For available values refer to :ref:`c_mtdID_Fields`
 
-* C_MTDAB -- 
+* C_MTDAB -- For available values refer to :ref:`c_mtdID_Fields`
 
 ..  _arch_c14_polygons_EPSG3857:
 
@@ -1004,7 +1004,7 @@ DEPCON   text                TRUE
 
 * DEPCONID -- Unique identifier (auto-incrementing serial integer)
 
-* DEPCON -- 
+* DEPCON -- For available values refer to :ref:`sed_depconID_Fields`
 
 ..  _sed_faciesID:
 
@@ -1021,7 +1021,7 @@ FACIES   text                TRUE
 
 * FACIESID -- Unique identifier (auto-incrementing serial integer)
 
-* FACIES -- 
+* FACIES -- For available values refer to :ref:`sed_faciesID_Fields`
 
 ..  _sed_geommodID:
 
@@ -1038,7 +1038,7 @@ GEOMMOD   text                TRUE
 
 * GEOMMODID -- Unique identifier (auto-incrementing serial integer)
 
-* GEOMMOD -- 
+* GEOMMOD -- For available values refer to :ref:`sed_geommodID_Fields`
 
 ..  _sed_geotypeID:
 
@@ -1055,7 +1055,7 @@ GEOTYPE   text                TRUE
 
 * GEOTYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* GEOTYPE -- 
+* GEOTYPE -- For available values refer to :ref:`sed_geotypeID_Fields`
 
 ..  _sed_laketypeID:
 
@@ -1072,7 +1072,7 @@ LAKETYPE   text                TRUE
 
 * LAKETYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* LAKETYPE -- 
+* LAKETYPE -- For available values refer to :ref:`sed_laketypeID_Fields`
 
 ..  _sed_morphID:
 
@@ -1089,7 +1089,7 @@ MORPH   text                TRUE
 
 * MORPHID -- Unique identifier (auto-incrementing serial integer)
 
-* MORPH -- 
+* MORPH -- For available values refer to :ref:`sed_morphID_Fields`
 
 ..  _sed_sitetypeID:
 
@@ -1106,7 +1106,7 @@ SITETYPE   text                TRUE
 
 * SITETYPEID -- Unique identifier (auto-incrementing serial integer)
 
-* SITETYPE -- 
+* SITETYPE -- For available values refer to :ref:`sed_sitetypeID_Fields`
 
 ..  _sed-osl_points_EPSG3857:
 
