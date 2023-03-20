@@ -76,6 +76,8 @@ SITECODEID SITECODE
 19         Other
 ========== ========================
 
+Note that, for example, burials in a rockshelter with lots of occupation deposit would be classified as a Rockshelter, not a Cemetery.
+
 ..  _global_ibraID_Fields:
 
 global_ibraID Fields
