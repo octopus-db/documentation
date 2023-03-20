@@ -51,6 +51,31 @@ GRNSIZEID GRNSIZE                       GRNSIZEABB GRNSIZEMIN GRNSIZEMAX
 
 * -- "GRNSIZEMIN" and "GRNSIZEMAX" unit is *mm*.
 
+..  _global_SiteCode_Fields:
+
+global_SiteCode Fields
+~~~~~~~~~~~~~~~~~~~~
+
+========== ========================
+SITECODEID SITECODE
+========== ========================
+-9999      no data
+1          Stone artefact deposit
+2          Burial (animal)
+3          Burial (human)
+4          Cemetery
+5          Earth mound
+6          Hearth (isolated)
+7          Shell midden
+8          Open site
+9          Quarry
+10         Rock art
+11         Rockshelter or cave
+12         Culturally modified tree
+13         Stone structure
+19         Other
+========== ========================
+
 ..  _global_ibraID_Fields:
 
 global_ibraID Fields
@@ -913,6 +938,7 @@ METHODID METHOD                               METHODABBR
 10       Stratigraphic correlation            Strat
 11       Coupled U-ESR model                  U-ESR
 ======== ==================================== ==========
+
 
 
 .. rubric:: Footnotes
