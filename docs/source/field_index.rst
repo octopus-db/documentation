@@ -87,6 +87,10 @@ global_ibraID Fields
 
 ``Draft`` -- `https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes <https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes>`_
 
+.. note::
+
+   The global_ibraID Fields table only applies to samples from Australia.
+
 ====== ======== =============================
 IBRAID IBRACODE IBRAREGION
 ====== ======== =============================
@@ -188,6 +192,10 @@ global_rivID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
 ``Draft`` -- `http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426 <http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426>`_
+
+.. note::
+
+   The global_ibraID Fields table only applies to samples from Australia.
 
 +-------+--------+--------+---------------------+---------------------+
 | RIVID | AHGFL1 | AHGFL2 | RIVNAME             | RIVDIV              |
