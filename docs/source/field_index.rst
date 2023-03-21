@@ -812,6 +812,8 @@ PUBTYPEID PUBTYPE
 cabah_chemprepID Fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+``Draft`` -- 
+
 +------------+---------------------------+---------------------------+
 | CHEMPREPID | CHEMPREP                  | CHEMPREPAB                |
 +============+===========================+===========================+
@@ -933,6 +935,8 @@ cabah_chemprepID Fields
 cabah_col_mtdID Fields
 ~~~~~~~~~~~~~~~~~~~~~~
 
+``Draft`` -- 
+
 ========= =============
 COL_MTDID COL_MTD
 ========= =============
@@ -952,6 +956,8 @@ COL_MTDID COL_MTD
 
 cabah_methodID Fields
 ~~~~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ======== ==================================== ==========
 METHODID METHOD                               METHODABBR
@@ -976,6 +982,8 @@ METHODID METHOD                               METHODABBR
 
 crn_alstndID Fields
 ~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ======== ====== ================== ====== ==========
 ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
@@ -1025,7 +1033,9 @@ crn_alstndID **"ALSTNDCOMT"**
 ..  _crn_amsID_Fields:
 
 crn_amsID Fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 +-------+------------------------+-----------------------------+
 | AMSID | AMS                    | AMSORG                      |
@@ -1191,6 +1201,8 @@ crn_amsID **"AMSURL"**
 crn_bestndID Fields
 ~~~~~~~~~~~~~~~~~~~
 
+``Draft`` -- 
+
 ======== ============== ====================== ====== ==========
 BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
 ======== ============== ====================== ====== ==========
@@ -1295,6 +1307,8 @@ crn_bestndID **"BESTNDCOMT"**
 arch_featdatedID Fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+``Draft`` -- 
+
 ========== ========================
 FEATDATEID FEATDATED
 ========== ========================
@@ -1313,6 +1327,8 @@ FEATDATEID FEATDATED
 c13_valID Fields
 ~~~~~~~~~~~~~~~~
 
+``Draft`` -- 
+
 ========= ========================
 C13_VALID C13_VAL
 ========= ========================
@@ -1326,6 +1342,8 @@ C13_VALID C13_VAL
 
 c14_contamID Fields
 ~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ======== =======================
 CONTAMID CONTAM
@@ -1343,6 +1361,8 @@ CONTAMID CONTAM
 
 c14_hum_modID Fields
 ~~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ========= ==============
 HUM_MODID HUM_MOD
@@ -1366,6 +1386,8 @@ HUM_MODID HUM_MOD
 c14_materia1ID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
+``Draft`` -- 
+
 ========== =================== ==========
 MATERIA1ID MATERIAL1           MATERIA1AB
 ========== =================== ==========
@@ -1386,6 +1408,8 @@ MATERIA1ID MATERIAL1           MATERIA1AB
 
 c14_materia2ID Fields
 ~~~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ========== ======================
 MATERIA2ID MATERIAL2
@@ -1428,6 +1452,8 @@ MATERIA2ID MATERIAL2
 c14_solvent2ID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
+``Draft`` -- 
+
 ========== ========================= ==========
 SOLVENT2ID SOLVENT2                  SOLVENT2AB
 ========== ========================= ==========
@@ -1443,12 +1469,32 @@ SOLVENT2ID SOLVENT2                  SOLVENT2AB
 9          Other                     Other
 ========== ========================= ==========
 
+..  _c_mtdID_Fields:
+
+c_mtdID_ Fields
+~~~~~~~~~~~~~~~
+
+``Draft`` -- 
+
+======= ==================== =======
+C_MTDID C_MTD                C_MTDAB
+======= ==================== =======
+-9999   ND                   ND
+1       IR mass spectrometry IRMS
+2       Elemental analyser   Elemt
+3       CRD spectroscopy     CRDS
+4       Volumetric           Vol
+5       Other                Other
+======= ==================== =======
+
 ----
 
 ..  _fos_chemtypeID_Fields:
 
 fos_chemtypeID Fields
 ~~~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ========== ====================================== ==============
 CHEMTYPEID CHEMTYPE                               CHEMTYPEAB
@@ -1480,6 +1526,8 @@ CHEMTYPEID CHEMTYPE                               CHEMTYPEAB
 
 fos_fosmat1ID Fields
 ~~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ========= ======================================== ============
 FOSMAT1ID FOSMAT1                                  FOSMAT1ABB
@@ -1528,6 +1576,8 @@ FOSMAT1ID FOSMAT1                                  FOSMAT1ABB
 
 fos_fosmat2ID Fields
 ~~~~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ========= ================================= =================
 FOSMAT2ID FOSMAT2                           FOSMAT2ABB
@@ -1586,6 +1636,8 @@ FOSMAT2ID FOSMAT2                           FOSMAT2ABB
 
 fos_mtdsID Fields
 ~~~~~~~~~~~~~~~~~
+
+``Draft`` -- 
 
 ========== ============================================ ==========
 FOS_MTDSID FOS_MTDSUB                                   FOS_MTDSAB
