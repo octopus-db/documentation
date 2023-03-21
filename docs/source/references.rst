@@ -4,7 +4,7 @@ References
 
 | Australian Research Council (2020). Classification Codes—FoR, RFCD, SEO and ANZSIC Codes (online). Accessed 06-03-2023, https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes
 | 
-| ``add``--> Balco 2016
+| Balco, Greg (2016). 26Al-10Be exposure age/erosion rate calculators: table of Be and Al isotope ratio standardizations (online). Latest update 25 Feb 2016, accessed 31 Mar 2023. https://hess.ess.washington.edu/math/docs/al_be_v22/AlBe_standardization_table.pdf
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123–2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
@@ -14,7 +14,7 @@ References
 | 
 | Heyman, Jakob (2023). expage - A global compilation of glacial 10Be and 26Al data. Accessed 06-03-2023, `https://expage.github.io/index.html <https://expage.github.io/index.html>`_
 | 
-| ``add``--> Kubik & Christl 2010
+| Kubik, Peter W.; Christl, Marcus (2010). 10Be and 26Al measurements at the Zurich 6MV Tandem AMS facility. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 268, 7–8, 880-883. DOI: `10.1016/j.nimb.2009.10.054 <https://doi.org/10.1016/j.nimb.2009.10.054>`_
 | 
 | Mudd, Simon M.; Harel, Marie-Alice; Hurst, Martin D.; Grieve, Stuart W. D.; Marrero, Shasta M. (2016). The CAIRN method: automated, reproducible calculation of catchment-averaged denudation rates from cosmogenic nuclide concentrations, Earth Surf. Dynam., 4, 655–674. DOI: `10.5194/esurf-4-655-2016 <https://doi.org/10.5194/esurf-4-655-2016>`_
 | 
