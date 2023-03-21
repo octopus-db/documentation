@@ -18,7 +18,7 @@ References
 | 
 | Mudd, Simon M.; Harel, Marie-Alice; Hurst, Martin D.; Grieve, Stuart W. D.; Marrero, Shasta M. (2016). The CAIRN method: automated, reproducible calculation of catchment-averaged denudation rates from cosmogenic nuclide concentrations, Earth Surf. Dynam., 4, 655–674. DOI: `10.5194/esurf-4-655-2016 <https://doi.org/10.5194/esurf-4-655-2016>`_
 | 
-| Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments & Methods In Physics Research Section B: Beam Interactions With Materials And Atoms, 258, 403–413. DOI: _`10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`
+| Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments & Methods In Physics Research Section B: Beam Interactions With Materials And Atoms, 258, 403–413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
 | 
 | Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. DOI: `10.1038/s41597-019-0267-3 <https://doi.org/10.1038/s41597-019-0267-3>`_
 | 
