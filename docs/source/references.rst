@@ -4,7 +4,7 @@ References
 
 | Australian Research Council (2020). Classification Codes—FoR, RFCD, SEO and ANZSIC Codes (online). Accessed 06-03-2023, https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes
 | 
-| Balco, Greg (2016). 26Al-10Be exposure age/erosion rate calculators: table of Be and Al isotope ratio standardizations (online). Latest update 25 Feb 2016, accessed 31 Mar 2023. https://hess.ess.washington.edu/math/docs/al_be_v22/AlBe_standardization_table.pdf
+| Balco, Greg (2016). 26Al-10Be exposure age/erosion rate calculators: table of Be and Al isotope ratio standardizations (online). Latest update 25-02-2016, accessed 31-03-2023. https://hess.ess.washington.edu/math/docs/al_be_v22/AlBe_standardization_table.pdf
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123–2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
