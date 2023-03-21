@@ -87,10 +87,6 @@ global_ibraID Fields
 
 ``Draft`` -- `https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes <https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes>`_
 
-.. note::
-
-   The global_ibraID Fields table only applies to samples from Australia.
-
 ====== ======== =============================
 IBRAID IBRACODE IBRAREGION
 ====== ======== =============================
@@ -186,16 +182,16 @@ IBRAID IBRACODE IBRAREGION
 89     YAL      Yalgoo
 ====== ======== =============================
 
+.. note::
+
+   The *global_ibraID* table only applies to samples from Australia.
+
 ..  _global_rivID_Fields:
 
 global_rivID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
 ``Draft`` -- `http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426 <http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426>`_
-
-.. note::
-
-   The global_ibraID Fields table only applies to samples from Australia.
 
 +-------+--------+--------+---------------------+---------------------+
 | RIVID | AHGFL1 | AHGFL2 | RIVNAME             | RIVDIV              |
@@ -756,6 +752,10 @@ global_rivID Fields
 | 218   | TTS    | TTS_25 | Buckingham River    | Tanami-Timor Sea    |
 |       |        |        |                     | Coast               |
 +-------+--------+--------+---------------------+---------------------+
+
+.. note::
+
+   The *global_rivID* table only applies to samples from Australia.
 
 ..  _global_PubType_Fields:
 
