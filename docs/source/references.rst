@@ -22,7 +22,7 @@ References
 | 
 | Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. DOI: `10.1038/s41597-019-0267-3 <https://doi.org/10.1038/s41597-019-0267-3>`_
 | 
-| ``add``--> Rood et al. 2013
+| Rood, Dylan H.; Brown, Thomas A.; Finkel, Robert C.; Guilderson, Thomas P. (2013). Poisson and non-Poisson uncertainty estimations of 10Be/9Be measurements at LLNL–CAMS, Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 294, 426-429. `10.1016/j.nimb.2012.08.039 <https://doi.org/10.1016/j.nimb.2012.08.039>`_
 | 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Cohen, Tim J.; Williams, Alan N.; Ulm, Sean (2023). SahulArch: A geochronological database for the archaeology of Sahul, Australian Archaeology. DOI: `10.1080/03122417.2022.2159751 <https://doi.org/10.1080/03122417.2022.2159751>`_
 |
