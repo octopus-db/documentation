@@ -1471,8 +1471,8 @@ SOLVENT2ID SOLVENT2                  SOLVENT2AB
 
 ..  _c_mtdID_Fields:
 
-c_mtdID_ Fields
-~~~~~~~~~~~~~~~
+c_mtdID Fields
+~~~~~~~~~~~~~~
 
 ``Draft`` -- 
 
