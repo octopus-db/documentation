@@ -76,7 +76,9 @@ SITECODEID SITECODE
 19         Other
 ========== ========================
 
-Note that, for example, burials in a rockshelter with lots of occupation deposit would be classified as a Rockshelter, not a Cemetery.
+.. note::
+
+   The dominant attribute of a site will override any other. So, for example, burials in a rockshelter with lots of occupation deposit would be classified as a Rockshelter, not a Cemetery.
 
 ..  _global_ibraID_Fields:
 
