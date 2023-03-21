@@ -1185,17 +1185,73 @@ fos_chemtypeID
 ^^^^^^^^^^^^^^
 The *fos_chemtypeID* table stores the **type of chemical pretreatment given to the sample** as described in the original publication. There may be considerable variation within each pretreatment code.
 
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+CHEMTYPEID int2           pkey TRUE     
+CHEMTYPE   text                TRUE     
+CHEMTYPEAB text                         
+========== ========= ==== ==== ======== ======
+
+* CHEMTYPEID -- Unique identifier (auto-incrementing serial integer)
+
+* CHEMTYPE -- For available values refer to :ref:`fos_chemtypeID_Fields`
+
+* CHEMTYPEAB -- For available values refer to :ref:`fos_chemtypeID_Fields`
+
 fos_fosmat1ID
 ^^^^^^^^^^^^^
 The *fos_fosmat1ID* table stores the **type of dated remain**.
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+FOSMAT1ID  int2           pkey TRUE     
+FOSMAT1    text                TRUE     
+FOSMAT1ABB text                         
+========== ========= ==== ==== ======== ======
+
+* iFOSMAT1IDd -- Unique identifier (auto-incrementing serial integer)
+
+* FOSMAT1 -- For available values refer to :ref:`fos_fosmat1ID_Fields`
+
+* FOSMAT1ABB -- For available values refer to :ref:`fos_fosmat1ID_Fields`
 
 fos_fosmat2ID
 ^^^^^^^^^^^^^
 The *fos_fosmat2ID* table stores the **type of dated material**.
 
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+FOSMAT2ID  int2           pkey TRUE     
+FOSMAT2    text                TRUE     
+FOSMAT2ABB text                         
+========== ========= ==== ==== ======== ======
+
+* FOSMAT2ID -- Unique identifier (auto-incrementing serial integer)
+
+* FOSMAT2 -- For available values refer to :ref:`fos_fosmat2ID_Fields`
+
+* FOSMAT2ABB -- For available values refer to :ref:`fos_fosmat2ID_Fields`
+
 fos_mtdsID
 ^^^^^^^^^^
 The *fos_mtdsID* table stores the type of **method used in age determination**.
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+FOS_MTDSID int2           pkey TRUE     
+FOS_MTDSUB text                TRUE     
+FOS_MTDSAB text                         
+========== ========= ==== ==== ======== ======
+
+* FOS_MTDSID -- Unique identifier (auto-incrementing serial integer)
+
+* FOS_MTDSUB -- For available values refer to :ref:`fos_mtdsID_Fields`
+
+* FOS_MTDSAB -- For available values refer to :ref:`fos_mtdsID_Fields`
 
 fos_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^
