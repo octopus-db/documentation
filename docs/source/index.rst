@@ -27,7 +27,7 @@ Contents
    references
 
 **Acknowledgement**. OCTOPUS database is supported by the Australian Research Council Centre of Excellence for Australian Biodiversity and Heritage (CABAH) [#]_. Funding was also provided by the University of Wollongong [#]_ and the Australian National Data Service (ANDS), now part of the Australian Research Data Commons [#]_.
-Selection and compostition of attribute fields for the individual sub-collections is the collective effort of expert panels, whose contributing individuals are named 
+Selection and compostition of attribute fields for the individual sub-collections is the collective effort of expert panels, whose contributing individuals are named in the :ref:`Data collections` section.
 Not least, shaping and maintining OCTOPUS v.2 considerably benefited from the liberal knowledge transfer and advice of Jessica L. Blois, Simon Goring, Eric C. Grimm, and John W. (Jack) Williams (in alph. order).
 
 .. rubric:: Footnotes
