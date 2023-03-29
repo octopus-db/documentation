@@ -1068,11 +1068,14 @@ Field      Data type Unit Key  Not Null Parent
 ========== ========= ==== ==== ======== ======
 LAKETYPEID int2           pkey TRUE     
 LAKETYPE   text                TRUE     
+PARENTID   int2           fkey
 ========== ========= ==== ==== ======== ======
 
 * LAKETYPEID -- Unique identifier (auto-incrementing serial integer)
 
 * LAKETYPE -- For available values refer to :ref:`sed_laketypeID_Fields`
+
+* PARENTID -- Is fkey. Refers to ordinally higher ranking "LAKETYPEID"
 
 ..  _sed_morphID:
 
