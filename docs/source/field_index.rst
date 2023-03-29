@@ -1597,7 +1597,7 @@ sed_laketypeID Fields
 ========== ================================ ========
 LAKETYPEID LAKETYPE                         PARENTID
 ========== ================================ ========
--9999      ND                               
+-9999      ND                               -9999
 1          Tectonic lake                    11
 2          Landslide lake                   11
 3          Crater lake (volcanic)           15
