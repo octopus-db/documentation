@@ -1594,19 +1594,68 @@ sed_laketypeID Fields
 
 ``Draft`` -- 
 
-========== ==============
-LAKETYPEID LAKETYPE
-========== ==============
--9999      ND
-1          Tectonic lake
-2          Landslide lake
-3          Crater lake
-4          Oxbow lake
-5          Playa lake
-6          Fen
-7          Swamp
-8          Lagoon
-========== ==============
+========== ================================ ========
+LAKETYPEID LAKETYPE                         PARENTID
+========== ================================ ========
+-9999      ND                               
+1          Tectonic lake                    11
+2          Landslide lake                   11
+3          Crater lake (volcanic)           15
+4          Oxbow lake                       31
+5          Playa lake                       11
+6          Fen                              50
+7          Swamp                            50
+8          Lagoon                           11
+9          Lake (unknown origin)            10
+10         Lake (non-specific)              10
+11         Natural lake                     10
+12         Natural lake (unknown origin)    11
+13         Artificial lake                  10
+14         Artificial lake (unknown origin) 13
+15         Volcanic lake                    11
+16         Caldera lake                     15
+17         Lava flow dammed lake            15
+18         Glacial lake                     11
+19         Glacial meltwater channel lake   18
+20         Glacial scour lake               18
+21         Kettle lake                      18
+22         Cirque lake                      18
+23         Proglacial lake                  18
+24         Subglacial lake                  18
+25         Finger lake                      18
+26         Valley glacier lake              18
+27         Glacial outburst flood lake      18
+28         Ice thrust lake                  18
+29         Moraine dammed lake              18
+30         Drift filled valley lake         18
+31         Fluvial lake                     11
+32         Meander lake                     31
+33         Fluviatile dam lake              31
+34         Lateral lake                     31
+35         Floodplain lake                  31
+36         Plunge pool lake                 31
+37         Alluvial fan dammed lake         31
+38         Flood scour lake                 31
+39         Fluvial terrace lake             31
+40         Drained lake                     11
+41         Backwater lake                   31
+42         Solution lake                    11
+43         Karst pond                       42
+44         Underground lake                 42
+45         Aeolian lake                     11
+46         Deflation basin lake             45
+47         Dune dammed lake                 45
+48         Interdunal lake                  45
+49         Shoreline lake                   11
+50         Organic lake                     11
+51         Lake marginal fen                50
+52         Anthropogenic lake               13
+53         Reservoir                        13
+54         Meteorite impact lake            11
+55         Peat lake                        50
+56         Periglacial lake                 11
+57         Thermokarst lake                 56
+========== ================================ ========
 
 ..  _sed_morphID_Fields:
 
