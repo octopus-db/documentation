@@ -156,6 +156,16 @@ SITE_COMMT text
 
 global_biomeID
 ^^^^^^^^^^^^^^
+``DRAFT`` -- 
+
+========== ========= ==== ==== ======== ======
+Field      Data type Unit Key  Not Null Parent
+========== ========= ==== ==== ======== ======
+BIOMEID    serial4        pkey TRUE     
+BIOMETYPE  text           ukey TRUE     
+PARENTID   int2           fkey          
+BIOMEDESCR text                         
+========== ========= ==== ==== ======== ======
 
 * BIOMEID -- Unique identifier (serial integer)
 
