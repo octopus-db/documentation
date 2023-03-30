@@ -14,7 +14,7 @@ References
 | 
 | Heyman, Jakob (2023). expage - A global compilation of glacial 10Be and 26Al data. Accessed 06-03-2023, `https://expage.github.io/index.html <https://expage.github.io/index.html>`_
 | 
-| Kubik, Peter W.; Christl, Marcus (2010). 10Be and 26Al measurements at the Zurich 6MV Tandem AMS facility. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 268, 7–8, 880-883. DOI: `10.1016/j.nimb.2009.10.054 <https://doi.org/10.1016/j.nimb.2009.10.054>`_
+| Kubik, Peter W.; Christl, Marcus (2010). 10Be and 26Al measurements at the Zurich 6MV Tandem AMS facility. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 268(7–8), 880-883. DOI: `10.1016/j.nimb.2009.10.054 <https://doi.org/10.1016/j.nimb.2009.10.054>`_
 | 
 | Mudd, Simon M.; Harel, Marie-Alice; Hurst, Martin D.; Grieve, Stuart W. D.; Marrero, Shasta M. (2016). The CAIRN method: automated, reproducible calculation of catchment-averaged denudation rates from cosmogenic nuclide concentrations, Earth Surf. Dynam., 4, 655–674. DOI: `10.5194/esurf-4-655-2016 <https://doi.org/10.5194/esurf-4-655-2016>`_
 | 
@@ -22,10 +22,12 @@ References
 | 
 | Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. DOI: `10.1038/s41597-019-0267-3 <https://doi.org/10.1038/s41597-019-0267-3>`_
 | 
-| Prentice, I. Colin; Cramer, Wolfgang; Harrison, Sandy P.; Leeman, Rik; Monserud, Robert A.; Solomon, Allen M. (1992). A global biome model based on plant physiology and dominance, soil properties and climate. Journal of Biogeography, 19, 2, 117–134. DOI: `10.2307/2845499 <https://doi.org/10.2307/2845499>`_
+| Prentice, I. Colin; Cramer, Wolfgang; Harrison, Sandy P.; Leeman, Rik; Monserud, Robert A.; Solomon, Allen M. (1992). A global biome model based on plant physiology and dominance, soil properties and climate. Journal of Biogeography, 19(2), 117–134. DOI: `10.2307/2845499 <https://doi.org/10.2307/2845499>`_
 | 
 | Rood, Dylan H.; Brown, Thomas A.; Finkel, Robert C.; Guilderson, Thomas P. (2013). Poisson and non-Poisson uncertainty estimations of 10Be/9Be measurements at LLNL–CAMS. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 294, 426-429. DOI: `10.1016/j.nimb.2012.08.039 <https://doi.org/10.1016/j.nimb.2012.08.039>`_
 | 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Cohen, Tim J.; Williams, Alan N.; Ulm, Sean (2023). SahulArch: A geochronological database for the archaeology of Sahul, Australian Archaeology. DOI: `10.1080/03122417.2022.2159751 <https://doi.org/10.1080/03122417.2022.2159751>`_
 |
 | Schaefer, Joerg M.; Codilean, Alexandru T.; Willenbring, Jane K.; Lu, Zheng-Tian; Keisling, Benjamin; Fülöp, Réka-H.; Val, Pedro (2022). Cosmogenic nuclide techniques. Nat Rev Methods Primers 2, 18. DOI: `10.1038/s43586-022-00096-9 <https://doi.org/10.1038/s43586-022-00096-9>`_
+| 
+| Williams, John W.; Grimm, Eric C.; Blois, Jessica L.; Charles, Donald F.; Davis, Edward B.; Goring, Simon J.; Graham, Russell W.; Smith, Alison J.; Anderson, Michael; Arroyo-Cabrales, Joaquin; Ashworth, Allan C.; Betancourt, Julio L.; Bills, Brian W.; Booth, Robert K.; Buckland, Philip I.; Curry, B. Brandon; Giesecke, Thomas; Jackson, Stephen T.; Latorre, Claudio; Nichols, Jonathan (2018). The Neotoma Paleoecology Database, a multiproxy, international, community-curated data resource. Quaternary Research, 89(1), 156-177. DOI:10.1017/qua.2017.105
