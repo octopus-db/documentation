@@ -228,6 +228,7 @@ global_biomeID Fields
 | 63      | Barren                          | 1        |            |
 +---------+---------------------------------+----------+------------+
 
+Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
 
 ..  _global_ibraID_Fields:
 
@@ -2019,4 +2020,5 @@ FOS_MTDSID FOS_MTDSUB                                   FOS_MTDSAB
 
 .. rubric:: Footnotes
 
+.. [#] `https://www.paleofire.org <https://www.paleofire.org>`_
 .. [#] Entry type descriptions taken from `http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/ <http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/>`_
