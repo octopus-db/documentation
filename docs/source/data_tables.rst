@@ -152,6 +152,21 @@ SITE_COMMT text
 
 * SITE_COMMT -- Free text site comment field
 
+..  _global_biomeID:
+
+global_biomeID
+^^^^^^^^^^^^^^
+
+* BIOMEID -- Unique identifier (serial integer)
+
+* BIOMETYPE -- Name of biome
+
+* PARENTID -- Is fkey. Refers to ordinally higher ranking "BIOMEID"
+
+* BIOMEDESCR -- A concise description of "BIOMETYPE"
+
+For available values refer to :ref:`global_biomeID_Fields`
+
 ..  _global_dbDOI:
 
 global_dbDOI
