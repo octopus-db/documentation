@@ -2020,5 +2020,5 @@ FOS_MTDSID FOS_MTDSUB                                   FOS_MTDSAB
 
 .. rubric:: Footnotes
 
-.. [#] `https://www.paleofire.org <https://www.paleofire.org>`_
+.. [#] `Global Palaeofire Database <https://www.paleofire.org>`_
 .. [#] Entry type descriptions taken from `http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/ <http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/>`_
