@@ -1166,7 +1166,7 @@ cabah_methodID Fields
 |          | Luminescence   |            |          | & Thewalt      |
 |          |                |            |          | (1985) [#]_    |
 +----------+----------------+------------+----------+----------------+
-| 7        | Thermo-        | TL         | 47       | Daniels, Boyd  |
+| 7        | Thermo\        | TL         | 47       | Daniels, Boyd  |
 |          | luminescence   |            |          | & Saunders     |
 |          |                |            |          | (1953) [#]_    |
 +----------+----------------+------------+----------+----------------+
@@ -1449,7 +1449,7 @@ cabah_methodID Fields
 |          | chrono-        |            |          | (1954) [#]_    |
 |          | stratigraphy   |            |          |                |
 +----------+----------------+------------+----------+----------------+
-| 70       | Tephro-        | Tephra     | 68       | Thorarinsson,  |
+| 70       | Tephro\        | Tephra     | 68       | Thorarinsson,  |
 |          | chronology     |            |          | Sigurdur       |
 |          |                |            |          | (1944).        |
 |          |                |            |          | Tef            |
@@ -1471,11 +1471,11 @@ cabah_methodID Fields
 +----------+----------------+------------+----------+----------------+
 | 72       | Known fire     | Fire       | 68       | NULL           |
 +----------+----------------+------------+----------+----------------+
-| 73       | Magneto-       | Magnet     | 68       | NULL           |
+| 73       | Magneto\       | Magnet     | 68       | NULL           |
 |          | stratigraphy   |            |          |                |
 |          | (non-specific) |            |          |                |
 +----------+----------------+------------+----------+----------------+
-| 74       | Archaeo-       | A-Magnet   | 73       | Harold (1960)  |
+| 74       | Archaeo\       | A-Magnet   | 73       | Harold (1960)  |
 |          | magnetic       |            |          | [#]_           |
 |          | dating         |            |          |                |
 +----------+----------------+------------+----------+----------------+
