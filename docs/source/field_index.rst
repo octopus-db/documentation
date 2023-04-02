@@ -1166,8 +1166,8 @@ cabah_methodID Fields
 |          | Luminescence   |            |          | & Thewalt      |
 |          |                |            |          | (1985) [#]_    |
 +----------+----------------+------------+----------+----------------+
-| 7        | Ther           | TL         | 47       | Daniels, Boyd  |
-|          | moluminescence |            |          | & Saunders     |
+| 7        | Thermo-        | TL         | 47       | Daniels, Boyd  |
+|          | luminescence   |            |          | & Saunders     |
 |          |                |            |          | (1953) [#]_    |
 +----------+----------------+------------+----------+----------------+
 | 8        | Uranium-Series | U          | 42       | NULL           |
@@ -1373,13 +1373,13 @@ cabah_methodID Fields
 |          | (non-specific) |            |          |                |
 +----------+----------------+------------+----------+----------------+
 | 49       | Infrared       | IR-PL      | 47       | Prasad,        |
-|          | Pho            |            |          | Poolton, Kook  |
-|          | toluminescence |            |          | & Jain (2017)  |
+|          | Photo-         |            |          | Poolton, Kook  |
+|          | luminescence   |            |          | & Jain (2017)  |
 |          |                |            |          | [#]_           |
 +----------+----------------+------------+----------+----------------+
 | 50       | Infrared       | IR-RF      | 47       | Trautmann,     |
-|          | Rad            |            |          | Krbetschek,    |
-|          | iofluorescence |            |          | Dietrich &     |
+|          | Radio-         |            |          | Krbetschek,    |
+|          | fluorescence   |            |          | Dietrich &     |
 |          |                |            |          | Stolz (1998)   |
 |          |                |            |          | [#]_           |
 +----------+----------------+------------+----------+----------------+
@@ -1400,8 +1400,8 @@ cabah_methodID Fields
 | 55       | Banded records | Banded     | 12       | NULL           |
 |          | (non-specific) |            |          |                |
 +----------+----------------+------------+----------+----------------+
-| 56       | De             | Dendro     | 55       | NULL           |
-|          | ndrochronology |            |          |                |
+| 56       | Dendro-        | Dendro     | 55       | NULL           |
+|          | chronology     |            |          |                |
 +----------+----------------+------------+----------+----------------+
 | 57       | Varve          | Varve      | 55       | NULL           |
 |          | chronology     |            |          |                |
@@ -1446,11 +1446,11 @@ cabah_methodID Fields
 |          | (non-specific) |            |          |                |
 +----------+----------------+------------+----------+----------------+
 | 69       | Oxygen isotope | Oxygen     | 68       | Emiliani       |
-|          | chro           |            |          | (1954) [#]_    |
-|          | nostratigraphy |            |          |                |
+|          | chrono-        |            |          | (1954) [#]_    |
+|          | stratigraphy   |            |          |                |
 +----------+----------------+------------+----------+----------------+
-| 70       | Te             | Tephra     | 68       | Thorarinsson,  |
-|          | phrochronology |            |          | Sigurdur       |
+| 70       | Tephro-        | Tephra     | 68       | Thorarinsson,  |
+|          | chronology     |            |          | Sigurdur       |
 |          |                |            |          | (1944).        |
 |          |                |            |          | Tef            |
 |          |                |            |          | rokronologiska |
@@ -1471,12 +1471,12 @@ cabah_methodID Fields
 +----------+----------------+------------+----------+----------------+
 | 72       | Known fire     | Fire       | 68       | NULL           |
 +----------+----------------+------------+----------+----------------+
-| 73       | Magne          | Magnet     | 68       | NULL           |
-|          | tostratigraphy |            |          |                |
+| 73       | Magneto-       | Magnet     | 68       | NULL           |
+|          | stratigraphy   |            |          |                |
 |          | (non-specific) |            |          |                |
 +----------+----------------+------------+----------+----------------+
-| 74       | A              | A-Magnet   | 73       | Harold (1960)  |
-|          | rchaeomagnetic |            |          | [#]_           |
+| 74       | Archaeo-       | A-Magnet   | 73       | Harold (1960)  |
+|          | magnetic       |            |          | [#]_           |
 |          | dating         |            |          |                |
 +----------+----------------+------------+----------+----------------+
 | 75       | Geomagnetic    | G-Magnet   | 73       | Thellier, E.   |
