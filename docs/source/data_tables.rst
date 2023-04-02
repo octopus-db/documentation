@@ -527,7 +527,9 @@ Field      Data type Unit Key  Not Null Parent
 ========== ========= ==== ==== ======== ======
 METHODID   int2           pkey TRUE     
 METHOD     text                TRUE     
-METHODABBR text                TRUE     
+METHODABBR text           ukey TRUE     
+PARENTID   int2           fkey TRUE     
+METHODREF  text                         
 ========== ========= ==== ==== ======== ======
 
 * METHODID -- Unique identifier (auto-incrementing serial integer)
@@ -535,6 +537,10 @@ METHODABBR text                TRUE
 * METHOD -- For available values refer to :ref:`cabah_methodID_Fields`
 
 * METHODABBR -- For available values refer to :ref:`cabah_methodID_Fields`
+
+* PARENTID -- Is fkey. Refers to ordinally higher ranking "METHODID"
+
+* METHODREF -- Basic method literature reference
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
