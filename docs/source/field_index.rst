@@ -1400,8 +1400,8 @@ cabah_methodID Fields
 | 55       | Banded records | Banded     | 12       | NULL           |
 |          | (non-specific) |            |          |                |
 +----------+----------------+------------+----------+----------------+
-| 56       | Dendro-        | Dendro     | 55       | NULL           |
-|          | chronology     |            |          |                |
+| 56       | Dendro\        | Dendro     | 55       | NULL           |
+|          | _chronology     |            |          |                |
 +----------+----------------+------------+----------+----------------+
 | 57       | Varve          | Varve      | 55       | NULL           |
 |          | chronology     |            |          |                |
