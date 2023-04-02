@@ -1561,6 +1561,8 @@ cabah_methodID Fields
 | 92       | SHRIMP         | SHRIMP     | 88       | NULL           |
 +----------+----------------+------------+----------+----------------+
 
+Classification and selection of methods on the basis of Geyh (2005), and Walker (2005).
+
 ----
 
 ..  _crn_alstndID_Fields:
