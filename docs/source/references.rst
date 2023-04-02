@@ -12,6 +12,8 @@ References
 | 
 | Forseth, Irwin N. (2010). Terrestrial Biomes. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, `https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/ <https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/>`_
 | 
+| Geyh, Mebus A. (2005). Handbuch der physikalischen und chemischen Altersbestimmung. (in German) Wissenschaftliche Buchgesellschaft, Darmstadt.
+| 
 | Hajdas, Irka; Ascough, Philippa; Garnett, Mark H.; Fallon, Stewart J.; Pearson, Charlotte L.; Quarta, Gianluca; Spalding, Kirsty L., Yamaguchi, Haruka; Yoneda, Minoru (2021), Radiocarbon dating. Nat Rev Methods Primers 1, 62. DOI: `10.1038/s43586-021-00058-7 <https://doi.org/10.1038/s43586-021-00058-7>`_
 | 
 | Heyman, Jakob (2023). expage - A global compilation of glacial 10Be and 26Al data. Accessed 06-03-2023, `https://expage.github.io/index.html <https://expage.github.io/index.html>`_
