@@ -2447,3 +2447,36 @@ FOS_MTDSID FOS_MTDSUB                                   FOS_MTDSAB
 
 .. [#] Global Palaeofire Database (`https://www.paleofire.org <https://www.paleofire.org>`_)
 .. [#] Entry type descriptions taken from `http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/ <http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/>`_
+.. [#] Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947)`DOI:10.1103/PhysRev.72.931 <https://doi.org/10.1103/PhysRev.72.931>`_
+.. [#] Dorn (1983)`DOI: 10.1016/0033-5894(83)90065-0 <https://doi.org/10.1016/0033-5894(83)90065-0>`_
+.. [#] Frink (1996)`DOI: 10.2136/sssaspecpub44.c6 <https://doi.org/10.2136/sssaspecpub44.c6>`_
+.. [#] Huntley, Godfrey-Smith & Thewalt (1985)`DOI: 10.1038/313105a0 <https://doi.org/10.1038/313105a0>`_
+.. [#] Daniels, Boyd & Saunders (1953)`DOI: 10.1126/science.117.3040.343 <https://doi.org/10.1126/science.117.3040.343>`_
+.. [#] Kaufmann & Libby (1954)`DOI: 10.1103/PhysRev.93.1337 <https://doi.org/10.1103/PhysRev.93.1337>`_
+.. [#] Arnold (1956)`DOI: 10.1126/science.124.3222.584 <https://doi.org/10.1126/science.124.3222.584>`_
+.. [#] Lal, Goldberg & Koide (1960)`DOI: 10.1126/science.131.3397.332 <https://doi.org/10.1126/science.131.3397.332>`_
+.. [#] Davis & Schaeffer (1955)`DOI: 10.1111/j.1749-6632.1955.tb35368.x <https://doi.org/10.1111/j.1749-6632.1955.tb35368.x>`_
+.. [#] Loosli & Oeschger (1968)`DOI: 10.1016/S0012-821X(68)80039-1 <https://doi.org/10.1016/S0012-821X(68)80039-1>`_
+.. [#] Raisbeck & Yiou (1979)`DOI: 10.1038/277042a0 <https://doi.org/10.1038/277042a0>`_
+.. [#] Wilkinson & Sheline (1955)`DOI: 10.1103/PhysRev.99.752 <https://doi.org/10.1103/PhysRev.99.752>`_
+.. [#] Marti (1967)`DOI: 10.1103/PhysRevLett.18.264 <https://doi.org/10.1103/PhysRevLett.18.264>`_
+.. [#] Takagi, Hampel & Kirsten (1974)`DOI: 10.1016/0012-821X(74)90019-3 <https://doi.org/10.1016/0012-821X(74)90019-3>`_
+.. [#] Smits & Gentner (1950)`DOI: 10.1016/0016-7037(50)90005-6 <https://doi.org/10.1016/0016-7037(50)90005-6>`_
+.. [#] Hahn, Strassmann & Walling (1937)`DOI: 10.1007/BF01492269 <https://doi.org/10.1007/BF01492269>`_
+.. [#] Herr, Merz, Eberhardt & Signer (1958)`DOI: 10.1515/zna-1958-0404 <https://doi.org/10.1515/zna-1958-0404>`_
+.. [#] Herr & Merz (1955)`DOI: 10.1515/zna-1955-0804 <https://doi.org/10.1515/zna-1955-0804>`_
+.. [#] Holmes (1911) `DOI: 10.1098/rspa.1911.0036 <https://doi.org/10.1098/rspa.1911.0036>`_
+.. [#] Williams (1995)`DOI: 10.1007/BF00768738 <https://doi.org/10.1007/BF00768738>`_
+.. [#] Barnes, Lang & Potratz (1956)`DOI: 10.1126/science.124.3213.175.b <https://doi.org/10.1126/science.124.3213.175.b>`_
+.. [#] Thurber (1962)`DOI: 10.1029/JZ067i011p04518 <https://doi.org/10.1029/JZ067i011p04518>`_
+.. [#] Prasad, Poolton, Kook & Jain (2017)`DOI: 10.1038/s41598-017-10174-8 <https://doi.org/10.1038/s41598-017-10174-8>`_
+.. [#] Trautmann, Krbetschek, Dietrich & Stolz (1998)`DOI: 10.1016/S1350-4487(98)00012-2 <https://doi.org/10.1016/S1350-4487(98)00012-2>`_
+.. [#] Hütt, Jaek & Tchonka (1988)`DOI: 10.1016/0277-3791(88)90033-9 <https://doi.org/10.1016/0277-3791(88)90033-9>`_
+.. [#] Huang & Walker (1967)`DOI: 10.1126/science.155.3766.1103 <https://doi.org/10.1126/science.155.3766.1103>`_
+.. [#] Fanale & Schaeffer (1965)`DOI: 10.1126/science.149.3681.312 <https://doi.org/10.1126/science.149.3681.312>`_
+.. [#] Price & Walker (1962)`DOI: 10.1038/196732a0 <https://doi.org/10.1038/196732a0>`_
+.. [#] Friedman & Smith (1960)`DOI: 10.2307/276634 <https://doi.org/10.2307/276634>`_
+.. [#] Emiliani (1954)`DOI: 10.1126/science.119.3103.853 <https://doi.org/10.1126/science.119.3103.853>`_
+.. [#] Harold (1960)`DOI: 10.1111/j.1475-4754.1960.tb00518.x <https://doi.org/10.1111/j.1475-4754.1960.tb00518.x>`_
+.. [#] Rengan (1983)`DOI: 10.1021%2Fed060p682 <https://doi.org/10.1021%2Fed060p682>`_
+.. [#] Fifield (1999)`DOI: 10.1088/0034-4885/62/8/202 <https://doi.org/10.1088/0034-4885/62/8/202>`_
