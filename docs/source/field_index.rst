@@ -1373,12 +1373,12 @@ cabah_methodID Fields
 |          | (non-specific) |            |          |                |
 +----------+----------------+------------+----------+----------------+
 | 49       | Infrared       | IR-PL      | 47       | Prasad,        |
-|          | Photo-         |            |          | Poolton, Kook  |
+|          | Photo\         |            |          | Poolton, Kook  |
 |          | luminescence   |            |          | & Jain (2017)  |
 |          |                |            |          | [#]_           |
 +----------+----------------+------------+----------+----------------+
 | 50       | Infrared       | IR-RF      | 47       | Trautmann,     |
-|          | Radio-         |            |          | Krbetschek,    |
+|          | Radio\         |            |          | Krbetschek,    |
 |          | fluorescence   |            |          | Dietrich &     |
 |          |                |            |          | Stolz (1998)   |
 |          |                |            |          | [#]_           |
