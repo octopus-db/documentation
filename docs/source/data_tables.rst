@@ -290,8 +290,6 @@ EDITOR      text
 PUBLISHER   text                           
 INSTITUTION text                           
 SCHOOL      text                           
-CREATED_AT  timestamptz           TRUE     
-UPDATED_AT  timestamptz                    
 =========== =========== ==== ==== ======== ==================
 
 * REFDBID -- A unique identifier in the format *Name<colon>YearKeyword* where *Name* is the family name of the first author, *Year* is the publication year, and *Keyword* is a catchy single word from the publication title. No whitespace or special characters are allowed. The keyword must not be numeric. 
