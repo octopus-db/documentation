@@ -1310,8 +1310,8 @@ cabah_methodID Fields
 |          |                |            |          | lead and the   |
 |          |                |            |          | age of         |
 |          |                |            |          | uranium.       |
-|          |                |            |          | Naturw         |
-|          |                |            |          | issenschaften, |
+|          |                |            |          | Naturwissen-   |
+|          |                |            |          | schaften,      |
 |          |                |            |          | 33, 185--186.  |
 +----------+----------------+------------+----------+----------------+
 | 39       | Radionuclides  | RN-short   | 28       | NULL           |
@@ -1433,8 +1433,8 @@ cabah_methodID Fields
 +----------+----------------+------------+----------+----------------+
 | 67       | Relative       | FUn        | 63       | Oakley, K.     |
 |          | dating of      |            |          | (1949). The    |
-|          | fossile bone   |            |          | f              |
-|          |                |            |          | luorine-dating |
+|          | fossile bone   |            |          | fluorine-      |
+|          |                |            |          | dating         |
 |          |                |            |          | method.        |
 |          |                |            |          | Yearbook of    |
 |          |                |            |          | Physical       |
