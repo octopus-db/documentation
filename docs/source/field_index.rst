@@ -2467,7 +2467,7 @@ FOS_MTDSID FOS_MTDSUB                                   FOS_MTDSAB
 .. [#] Hahn, Strassmann & Walling (1937) DOI: `10.1007/BF01492269 <https://doi.org/10.1007/BF01492269>`_
 .. [#] Herr, Merz, Eberhardt & Signer (1958) DOI: `10.1515/zna-1958-0404 <https://doi.org/10.1515/zna-1958-0404>`_
 .. [#] Herr & Merz (1955) DOI: `10.1515/zna-1955-0804 <https://doi.org/10.1515/zna-1955-0804>`_
-.. [#] Holmes (1911) `DOI: 10.1098/rspa.1911.0036 <https://doi.org/10.1098/rspa.1911.0036>`_
+.. [#] Holmes (1911) DOI: 10.1098/rspa.1911.0036 <https://doi.org/10.1098/rspa.1911.0036>`_
 .. [#] Williams (1995) DOI: `10.1007/BF00768738 <https://doi.org/10.1007/BF00768738>`_
 .. [#] Barnes, Lang & Potratz (1956) DOI: `10.1126/science.124.3213.175.b <https://doi.org/10.1126/science.124.3213.175.b>`_
 .. [#] Thurber (1962) DOI: `10.1029/JZ067i011p04518 <https://doi.org/10.1029/JZ067i011p04518>`_
