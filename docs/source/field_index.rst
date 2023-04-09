@@ -2449,7 +2449,7 @@ FOS_MTDSID FOS_MTDSUB                                   FOS_MTDSAB
 
 .. [#] Global Palaeofire Database (`https://www.paleofire.org <https://www.paleofire.org>`_)
 .. [#] Entry type descriptions taken from `http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/ <http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/>`_
-.. [#] Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947)`DOI:10.1103/PhysRev.72.931 <https://doi.org/10.1103/PhysRev.72.931>`_
+.. [#] Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947) DOI: 10.1103/PhysRev.72.931 <https://doi.org/10.1103/PhysRev.72.931>`_
 .. [#] Dorn (1983) DOI: `10.1016/0033-5894(83)90065-0 <https://doi.org/10.1016/0033-5894(83)90065-0>`_
 .. [#] Frink (1996) DOI: `10.2136/sssaspecpub44.c6 <https://doi.org/10.2136/sssaspecpub44.c6>`_
 .. [#] Huntley, Godfrey-Smith & Thewalt (1985) DOI: `10.1038/313105a0 <https://doi.org/10.1038/313105a0>`_
