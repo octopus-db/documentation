@@ -1,0 +1,4 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+id,serial4,,pkey,TRUE,
+geom,geometry,,,,
+STUDYID,varchar(5),,ukey,TRUE,

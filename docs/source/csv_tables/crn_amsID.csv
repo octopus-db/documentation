@@ -1,0 +1,5 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+AMSID,int2,,pkey,TRUE,
+AMS,text,,,TRUE,
+AMSORG,text,,,,
+AMSURL,text,,,,

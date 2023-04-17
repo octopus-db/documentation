@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+PROJEPSGID,int2,,pkey,TRUE,
+PROJECTION,varchar(13),,,TRUE,
