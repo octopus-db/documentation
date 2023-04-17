@@ -61,12 +61,9 @@ global_SiteCode
 ^^^^^^^^^^^^^^^
 The *global_SiteCode* table stores **site types characterising the dominant attribute of a site**
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-SITECODEID int2           pkey TRUE     
-SITECODE   text                TRUE     
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_SiteCode.csv
+   :header-rows: 1
 
 * SITECODEID -- Unique identifier (auto-incrementing serial integer)
 
@@ -162,14 +159,9 @@ global_biomeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` -- 
 
-========== ========= ==== ==== ======== =======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== =======
-BIOMEID    serial4        pkey TRUE     
-BIOMETYPE  text           ukey TRUE     
-PARENTID   int2           fkey          BIOMEID
-BIOMEDESCR text                         
-========== ========= ==== ==== ======== =======
+.. csv-table::
+   :file: ./csv_tables/global_biomeID.csv
+   :header-rows: 1
 
 * BIOMEID -- Unique identifier (serial integer)
 
@@ -192,13 +184,9 @@ global_ibraID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table ... :ref:`global_ibraID_Fields`
 
-========== ========== ==== ==== ======== ======
-Field      Data type  Unit Key  Not Null Parent
-========== ========== ==== ==== ======== ======
-IBRAID     int2            pkey TRUE     
-IBRACODE   varchar(3)           TRUE     
-IBRAREGION text                          
-========== ========== ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_ibraID.csv
+   :header-rows: 1
 
 * IBRAID -- Unique identifier (serial integer)
 
@@ -214,15 +202,9 @@ global_rivID
 ^^^^^^^^^^^^
 ``DRAFT`` This table ... :ref:`global_rivID_Fields`
 
-======= ========== ==== ==== ======== ======
-Field   Data type  Unit Key  Not Null Parent
-======= ========== ==== ==== ======== ======
-RIVID   int2            pkey TRUE     
-AHGFL1  varchar(3)                    
-AHGFL2  varchar(6)                    
-RIVNAME text                          
-RIVDIV  text                          
-======= ========== ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_rivID.csv
+   :header-rows: 1
 
 * RIVID -- Unique identifier (serial integer)
 
