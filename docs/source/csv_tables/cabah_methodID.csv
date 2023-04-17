@@ -1,0 +1,6 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+METHODID,int2,,pkey,TRUE,
+METHOD,text,,,TRUE,
+METHODABBR,text,,ukey,TRUE,
+PARENTID,int2,,fkey,TRUE,METHODID
+METHODREF,text,,,,

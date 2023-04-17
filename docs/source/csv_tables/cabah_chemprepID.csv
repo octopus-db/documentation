@@ -1,0 +1,4 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+CHEMPREPID,int2,,pkey,TRUE,
+CHEMPREP,text,,,TRUE,
+CHEMPREPAB,text,,,,
