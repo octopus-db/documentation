@@ -16,6 +16,12 @@ Global tables
 Global lookup tables
 ~~~~~~~~~~~~~~~~~~~~
 
+..  _global_varunitID:
+
+global_varunitID
+^^^^^^^^^^^^
+``DRAFT`` This table ... :ref:`global_varunitID_Fields`
+
 ..  _global_GrainSize:
 
 global_GrainSize
@@ -231,12 +237,6 @@ RIVDIV  text
 * RIVDIV -- Geofabric AHGF river division name. *Only used for data from Australia*
 
 For available values refer to :ref:`global_rivID_Fields`
-
-..  _global_varunitID:
-
-global_varunitID
-^^^^^^^^^^^^
-``DRAFT`` This table ... :ref:`global_varunitID_Fields`
 
 ..  _spatial_ref_sys:
 
