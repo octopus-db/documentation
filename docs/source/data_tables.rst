@@ -726,7 +726,7 @@ c13_valID
 
 c14_contamID
 ^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *c14_contamID* table ...
 
 .. csv-table::
    :file: ./csv_tables/c14_contamID.csv
@@ -741,7 +741,7 @@ c14_contamID
 
 c14_hum_modID
 ^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *c14_hum_modID* table ...
 
 .. csv-table::
    :file: ./csv_tables/c14_hum_modID.csv
@@ -755,7 +755,7 @@ c14_hum_modID
 
 c14_materia1ID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *c14_materia1ID* table ...
 
 .. csv-table::
    :file: ./csv_tables/c14_materia1ID.csv
@@ -771,7 +771,7 @@ c14_materia1ID
 
 c14_materia2ID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *c14_materia2ID* table ...
 
 .. csv-table::
    :file: ./csv_tables/c14_materia2ID.csv
@@ -785,7 +785,7 @@ c14_materia2ID
 
 c14_solvent2ID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *c14_solvent2ID* table ...
 
 .. csv-table::
    :file: ./csv_tables/c14_solvent2ID.csv
@@ -801,7 +801,7 @@ c14_solvent2ID
 
 c_mtdID
 ^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *c_mtdID* table ...
 
 .. csv-table::
    :file: ./csv_tables/c_mtdID.csv
@@ -817,7 +817,7 @@ c_mtdID
 
 arch_c14_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *arch_c14_polygons_EPSG3857* table ...
 
 .. csv-table::
    :file: ./csv_tables/arch_c14_polygons_EPSG3857.csv
@@ -835,7 +835,7 @@ arch_c14_polygons_EPSG3857
 
 arch_osl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *arch_osl_polygons_EPSG3857* table ...
 
 .. csv-table::
    :file: ./csv_tables/arch_osl_polygons_EPSG3857.csv
@@ -853,7 +853,7 @@ arch_osl_polygons_EPSG3857
 
 arch_tl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *arch_tl_polygons_EPSG3857* table ...
 
 .. csv-table::
    :file: ./csv_tables/arch_tl_polygons_EPSG3857.csv
@@ -874,7 +874,7 @@ SahulSed tables
 
 sed_depconID
 ^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed_depconID* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed_depconID.csv
@@ -888,7 +888,7 @@ sed_depconID
 
 sed_faciesID
 ^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed_faciesID* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed_faciesID.csv
@@ -902,7 +902,7 @@ sed_faciesID
 
 sed_geommodID
 ^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed_geommodID* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed_geommodID.csv
@@ -916,7 +916,7 @@ sed_geommodID
 
 sed_geotypeID
 ^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed_geotypeID* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed_geotypeID.csv
@@ -930,7 +930,7 @@ sed_geotypeID
 
 sed_laketypeID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed_laketypeID* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed_laketypeID.csv
@@ -946,7 +946,7 @@ sed_laketypeID
 
 sed_morphID
 ^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed_morphID* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed_morphID.csv
@@ -960,7 +960,7 @@ sed_morphID
 
 sed_sitetypeID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed_sitetypeID* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed_sitetypeID.csv
@@ -974,7 +974,7 @@ sed_sitetypeID
 
 sed-osl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed-osl_points_EPSG3857* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed-osl_points_EPSG3857.csv
@@ -992,7 +992,7 @@ sed-osl_points_EPSG3857
 
 sed-tl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *sed-tl_points_EPSG3857* table ...
 
 .. csv-table::
    :file: ./csv_tables/sed-tl_points_EPSG3857.csv
@@ -1011,27 +1011,27 @@ FosSahul tables
 
 fos_TaxRank1_classID
 ^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *fos_TaxRank1_classID* table ...
 
 fos_TaxRank2_infraclaID
 ^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *fos_TaxRank2_infraclaID* table ...
 
 fos_TaxRank3_ordrID
 ^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *fos_TaxRank3_ordrID* table ...
 
 fos_TaxRank4_familyID
 ^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *fos_TaxRank4_familyID* table ...
 
 fos_TaxRank5_genusID
 ^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *fos_TaxRank5_genusID* table ...
 
 fos_TaxRank6_speciesID
 ^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *fos_TaxRank6_speciesID* table ...
 
 fos_chemtypeID
 ^^^^^^^^^^^^^^
@@ -1091,14 +1091,14 @@ The *fos_mtdsID* table stores the type of **method used in age determination**.
 
 fos_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *fos_polygons_EPSG3857* table ...
 
 expage tables
 ~~~~~~~~~~~~~
 
 expage_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *expage_points_EPSG3857* table ...
 
 .. rubric:: Footnotes
 
