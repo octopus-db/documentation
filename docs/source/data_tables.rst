@@ -615,13 +615,9 @@ osl_typeID
 ^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-OSL_TYPEID int2           pkey TRUE     
-OSL_TYPE   text                TRUE     
-OSL_TYPEAB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/osl_typeID.csv
+   :header-rows: 1
 
 * OSL_TYPEID -- A unique identifier (auto-incrementing serial integer)
 
