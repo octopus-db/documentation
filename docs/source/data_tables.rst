@@ -484,16 +484,9 @@ crn_alstndID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ============= ==== ==== ======== ======
-Field      Data type     Unit Key  Not Null Parent
-========== ============= ==== ==== ======== ======
-ALSTNDID   int2               pkey TRUE     
-ALSTND     text                    TRUE     
-ALSTND_PUB text                             
-ALCORR     numeric(5, 4)                    
-ALSTNDRTIO numeric                          
-ALSTNDCOMT text                             
-========== ============= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/crn_alstndID.csv
+   :header-rows: 1
 
 * ALSTNDID -- A unique identifier (auto-incrementing serial integer)
 
@@ -515,16 +508,9 @@ crn_bestndID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ============= ==== ==== ======== ======
-Field      Data type     Unit Key  Not Null Parent
-========== ============= ==== ==== ======== ======
-BESTNDID   int2               pkey TRUE     
-BESTND     text                    TRUE     
-BESTND_PUB text                             
-BECORR     numeric(5, 4)                    
-BESTNDRTIO numeric                          
-BESTNDCOMT text                             
-========== ============= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/crn_bestndID.csv
+   :header-rows: 1
 
 * BESTNDID -- A unique identifier (auto-incrementing serial integer)
 
