@@ -1,0 +1,4 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+FOS_MTDSID,int2,,pkey,TRUE,
+FOS_MTDSUB,text,,,TRUE,
+FOS_MTDSAB,text,,,,

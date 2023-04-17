@@ -1,0 +1,4 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+FOSMAT2ID,int2,,pkey,TRUE,
+FOSMAT2,text,,,TRUE,
+FOSMAT2ABB,text,,,,
