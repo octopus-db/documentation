@@ -26,6 +26,14 @@ global_varunitID
    :file: ./csv_tables/global_varunitID.csv
    :header-rows: 1
 
+* V_UNITID -- A unique identifier (auto-incrementing serial integer)
+
+* V_UNITABBR -- Unique abbreviation of "V_UNITNAME"
+
+* V_UNITNAME -- Unit name
+
+* PARENTID -- Is fkey. Refers to ordinally higher ranking "V_UNITID"
+
 ..  _global_GrainSize:
 
 global_GrainSize
