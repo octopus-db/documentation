@@ -33,15 +33,9 @@ global_GrainSize
 | ``DRAFT`` This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
 | ... ... :ref:`global_GrainSize_Fields`
 
-========== ============= ==== ==== ======== ======
-Field      Data type     Unit Key  Not Null Parent
-========== ============= ==== ==== ======== ======
-GRNSIZEID  int2               pkey TRUE     
-GRNSIZE    text                    TRUE     
-GRNSIZEABB varchar(6)                      
-GRNSIZEMIN numeric(7, 4) mm                 
-GRNSIZEMAX numeric(7, 4) mm                 
-========== ============= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_GrainSize.csv
+   :header-rows: 1
 
 * GRNSIZEID -- Unique identifier (auto-incrementing serial integer)
 
