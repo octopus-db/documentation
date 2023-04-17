@@ -811,14 +811,9 @@ arch_c14_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-====== ============ ==== ==== ======== ======
-Field  Data type    Unit Key  Not Null Parent
-====== ============ ==== ==== ======== ======
-id     serial4           pkey TRUE     
-geom   geometry(mp)                    
-OBSID1 text              ukey TRUE     
-OBSID2 text                            
-====== ============ ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/arch_c14_polygons_EPSG3857.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
@@ -834,14 +829,9 @@ arch_osl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-====== ============ ==== ==== ======== ======
-Field  Data type    Unit Key  Not Null Parent
-====== ============ ==== ==== ======== ======
-id     serial4           pkey TRUE     
-geom   geometry(mp)                    
-OBSID1 text              ukey TRUE     
-OBSID2 text                            
-====== ============ ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/arch_osl_polygons_EPSG3857.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
@@ -857,14 +847,9 @@ arch_tl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-====== ============ ==== ==== ======== ======
-Field  Data type    Unit Key  Not Null Parent
-====== ============ ==== ==== ======== ======
-id     serial4           pkey TRUE     
-geom   geometry(mp)                    
-OBSID1 text              ukey TRUE     
-OBSID2 text                            
-====== ============ ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/arch_tl_polygons_EPSG3857.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
