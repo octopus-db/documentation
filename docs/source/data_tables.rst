@@ -692,12 +692,9 @@ arch_featdatedID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-FEATDATEID           int2 pkey TRUE     
-FEATDATED            text      TRUE     
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/arch_featdatedID.csv
+   :header-rows: 1
 
 * FEATDATEID -- A unique identifier (auto-incrementing serial integer)
 
@@ -709,12 +706,9 @@ c13_valID
 ^^^^^^^^^
 ``DRAFT`` This table 
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Not Null Parent
-========= ========= ==== ==== ======== ======
-C13_VALID int2           pkey TRUE     
-C13_VAL   text                TRUE     
-========= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/c13_valID.csv
+   :header-rows: 1
 
 * C13_VALID -- A unique identifier (auto-incrementing serial integer)
 
@@ -726,12 +720,10 @@ c14_contamID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-======== ========= ==== ==== ======== ======
-Field    Data type Unit Key  Not Null Parent
-======== ========= ==== ==== ======== ======
-CONTAMID int2           pkey TRUE     
-CONTAM   text                TRUE     
-======== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/c14_contamID.csv
+   :header-rows: 1
+
 
 * CONTAMID -- A unique identifier (auto-incrementing serial integer)
 
@@ -743,12 +735,9 @@ c14_hum_modID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Not Null Parent
-========= ========= ==== ==== ======== ======
-HUM_MODID int2           pkey TRUE     
-HUM_MOD   text                TRUE     
-========= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/c14_hum_modID.csv
+   :header-rows: 1
 
 * HUM_MODID -- A unique identifier (auto-incrementing serial integer)
 
@@ -760,13 +749,9 @@ c14_materia1ID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-MATERIA1ID int2           pkey TRUE     
-MATERIAL1  text                TRUE     
-MATERIA1AB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/c14_materia1ID.csv
+   :header-rows: 1
 
 * MATERIA1ID -- A unique identifier (auto-incrementing serial integer)
 
@@ -780,12 +765,9 @@ c14_materia2ID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-MATERIA2ID int2           pkey TRUE     
-MATERIAL2  text                TRUE     
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/c14_materia2ID.csv
+   :header-rows: 1
 
 * MATERIA2ID -- A unique identifier (auto-incrementing serial integer)
 
@@ -797,13 +779,9 @@ c14_solvent2ID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-SOLVENT2ID int2           pkey TRUE     
-SOLVENT2   text                TRUE     
-SOLVENT2AB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/c14_solvent2ID.csv
+   :header-rows: 1
 
 * SOLVENT2ID -- A unique identifier (auto-incrementing serial integer)
 
@@ -817,13 +795,9 @@ c_mtdID
 ^^^^^^^
 ``DRAFT`` This table 
 
-======= ========= ==== ==== ======== ======
-Field   Data type Unit Key  Not Null Parent
-======= ========= ==== ==== ======== ======
-C_MTDID int2           pkey TRUE     
-C_MTD   text                TRUE     
-C_MTDAB text                         
-======= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/c_mtdID.csv
+   :header-rows: 1
 
 * C_MTDID -- A unique identifier (auto-incrementing serial integer)
 
