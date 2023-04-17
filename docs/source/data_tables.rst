@@ -1200,7 +1200,7 @@ FOSMAT1    text                TRUE
 FOSMAT1ABB text                         
 ========== ========= ==== ==== ======== ======
 
-* iFOSMAT1IDd -- Unique identifier (auto-incrementing serial integer)
+* FOSMAT1IDd -- Unique identifier (auto-incrementing serial integer)
 
 * FOSMAT1 -- For available values refer to :ref:`fos_fosmat1ID_Fields`
 
