@@ -868,12 +868,9 @@ sed_depconID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-======== ========= ==== ==== ======== ======
-Field    Data type Unit Key  Not Null Parent
-======== ========= ==== ==== ======== ======
-DEPCONID int2           pkey TRUE     
-DEPCON   text                TRUE     
-======== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed_depconID.csv
+   :header-rows: 1
 
 * DEPCONID -- A unique identifier (auto-incrementing serial integer)
 
@@ -885,12 +882,9 @@ sed_faciesID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-======== ========= ==== ==== ======== ======
-Field    Data type Unit Key  Not Null Parent
-======== ========= ==== ==== ======== ======
-FACIESID int2           pkey TRUE     
-FACIES   text                TRUE     
-======== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed_faciesID.csv
+   :header-rows: 1
 
 * FACIESID -- A unique identifier (auto-incrementing serial integer)
 
@@ -902,12 +896,9 @@ sed_geommodID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Not Null Parent
-========= ========= ==== ==== ======== ======
-GEOMMODID int2           pkey TRUE     
-GEOMMOD   text                TRUE     
-========= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed_geommodID.csv
+   :header-rows: 1
 
 * GEOMMODID -- A unique identifier (auto-incrementing serial integer)
 
@@ -919,12 +910,9 @@ sed_geotypeID
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Not Null Parent
-========= ========= ==== ==== ======== ======
-GEOTYPEID int2           pkey TRUE     
-GEOTYPE   text                TRUE     
-========= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed_geotypeID.csv
+   :header-rows: 1
 
 * GEOTYPEID -- A unique identifier (auto-incrementing serial integer)
 
@@ -936,13 +924,9 @@ sed_laketypeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-LAKETYPEID int2           pkey TRUE     
-LAKETYPE   text                TRUE     
-PARENTID   int2           fkey
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed_laketypeID.csv
+   :header-rows: 1
 
 * LAKETYPEID -- A unique identifier (auto-incrementing serial integer)
 
@@ -956,12 +940,9 @@ sed_morphID
 ^^^^^^^^^^^
 ``DRAFT`` This table 
 
-======= ========= ==== ==== ======== ======
-Field   Data type Unit Key  Not Null Parent
-======= ========= ==== ==== ======== ======
-MORPHID int2           pkey TRUE     
-MORPH   text                TRUE     
-======= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed_morphID.csv
+   :header-rows: 1
 
 * MORPHID -- A unique identifier (auto-incrementing serial integer)
 
@@ -973,12 +954,9 @@ sed_sitetypeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-SITETYPEID int2           pkey TRUE     
-SITETYPE   text                TRUE     
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed_sitetypeID.csv
+   :header-rows: 1
 
 * SITETYPEID -- A unique identifier (auto-incrementing serial integer)
 
@@ -990,14 +968,9 @@ sed-osl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-====== ============ ==== ==== ======== ======
-Field  Data type    Unit Key  Not Null Parent
-====== ============ ==== ==== ======== ======
-id     serial4           pkey TRUE     
-geom   geometry(pt)                    
-OBSID1 text              ukey TRUE     
-OBSID2 text                            
-====== ============ ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed-osl_points_EPSG3857.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
@@ -1013,14 +986,9 @@ sed-tl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-====== ============ ==== ==== ======== ======
-Field  Data type    Unit Key  Not Null Parent
-====== ============ ==== ==== ======== ======
-id     serial4           pkey TRUE     
-geom   geometry(pt)                    
-OBSID1 text              ukey TRUE     
-OBSID2 text                            
-====== ============ ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/sed-tl_points_EPSG3857.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
