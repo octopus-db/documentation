@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+FACIESID,int2,,pkey,TRUE,
+FACIES,text,,,TRUE,

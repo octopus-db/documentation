@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+MORPHID,int2,,pkey,TRUE,
+MORPH,text,,,TRUE,
