@@ -20,7 +20,7 @@ Global lookup tables
 
 global_varunitID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` This table ... :ref:`global_varunitID_Fields`
+``DRAFT`` The *global_varunitID* table ... :ref:`global_varunitID_Fields`
 
 .. csv-table::
    :file: ./csv_tables/global_varunitID.csv
@@ -38,7 +38,7 @@ global_varunitID
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
-| ``DRAFT`` This table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
+| ``DRAFT`` The *global_GrainSize* table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
 | ... ... :ref:`global_GrainSize_Fields`
 
 .. csv-table::
@@ -165,7 +165,7 @@ SITE_COMMT text
 
 global_biomeID
 ^^^^^^^^^^^^^^
-``DRAFT`` -- 
+``DRAFT`` -- The *global_biomeID* table ...
 
 .. csv-table::
    :file: ./csv_tables/global_biomeID.csv
@@ -190,7 +190,7 @@ global_dbDOI
 
 global_ibraID
 ^^^^^^^^^^^^^
-``DRAFT`` This table ... :ref:`global_ibraID_Fields`
+``DRAFT`` The *global_ibraID* table ... :ref:`global_ibraID_Fields`
 
 .. csv-table::
    :file: ./csv_tables/global_ibraID.csv
@@ -208,7 +208,7 @@ For available values refer to :ref:`global_ibraID_Fields`
 
 global_rivID
 ^^^^^^^^^^^^
-``DRAFT`` This table ... :ref:`global_rivID_Fields`
+``DRAFT`` The *global_rivID* table ... :ref:`global_rivID_Fields`
 
 .. csv-table::
    :file: ./csv_tables/global_rivID.csv
@@ -230,7 +230,7 @@ For available values refer to :ref:`global_rivID_Fields`
 
 spatial_ref_sys
 ^^^^^^^^^^^^^^^
-The spatial_ref_sys table that comes with PostgreSQL's PostGIS extention. As an OGC compliant database table it lists over 3000 spatial reference systems and technical details needed to transform/reproject between them. For more information see `Section 4.2.1. <https://postgis.net/docs/manual-1.4/ch04.html#spatial_ref_sys>`_ of the PostGIS online manual.
+The *spatial_ref_sys* table that comes with PostgreSQL's PostGIS extention. As an OGC compliant database table it lists over 3000 spatial reference systems and technical details needed to transform/reproject between them. For more information see `Section 4.2.1. <https://postgis.net/docs/manual-1.4/ch04.html#spatial_ref_sys>`_ of the PostGIS online manual.
 
 .. csv-table::
    :file: ./csv_tables/spatial_ref_sys.csv
@@ -253,7 +253,7 @@ Global references tables
 
 global_RefCore
 ^^^^^^^^^^^^^^
-This table stores information that allow certain identification and citation of OCTOPUS collection data sources according to BibTeX [#]_ referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be *required*, some will be *optional*, and others will be *ignored* by BibTeX. Those three categories are defined in the :ref:`global_PubType_Fields` section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.
+The *global_RefCore* table stores information that allow certain identification and citation of OCTOPUS collection data sources according to BibTeX [#]_ referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be *required*, some will be *optional*, and others will be *ignored* by BibTeX. Those three categories are defined in the :ref:`global_PubType_Fields` section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.
 
 =========== =========== ==== ==== ======== ==================
 Field       Data type   Unit Key  Not Null Parent
@@ -318,7 +318,7 @@ SCHOOL      text
 
 global_RefAbstract
 ^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table stores publication abstracts for references in :ref:`global_RefCore`.
+``DRAFT`` The *global_RefAbstract* table stores publication abstracts for references in :ref:`global_RefCore`.
 
 .. csv-table::
    :file: ./csv_tables/global_RefAbstract.csv
@@ -332,7 +332,7 @@ global_RefAbstract
 
 global_Author
 ^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *global_Author* table ...
 
 .. csv-table::
    :file: ./csv_tables/global_Author.csv
@@ -362,7 +362,7 @@ global_Author
 
 global_Journal
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *global_Journal* table ...
 
 .. csv-table::
    :file: ./csv_tables/global_Journal.csv
@@ -411,7 +411,7 @@ Non-Cosmogenics tables
 
 cabah_LabCodes
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *cabah_LabCodes* table ...
 
 .. csv-table::
    :file: ./csv_tables/cabah_LabCodes.csv
@@ -437,7 +437,7 @@ cabah_LabCodes
 
 cabah_chemprepID
 ^^^^^^^^^^^^^^^^
-The stores the **type of chemical pretreatment given to a sample**. Note -- methods capture the majority of methods applied in Australia. There may be considerable variation within each pretreatment code.
+The *cabah_chemprepID* table stores the **type of chemical pretreatment given to a sample**. Note -- methods capture the majority of methods applied in Australia. There may be considerable variation within each pretreatment code.
 
 .. csv-table::
    :file: ./csv_tables/cabah_chemprepID.csv
