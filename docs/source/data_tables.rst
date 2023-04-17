@@ -1029,13 +1029,9 @@ fos_chemtypeID
 ^^^^^^^^^^^^^^
 The *fos_chemtypeID* table stores the **type of chemical pretreatment given to the sample** as described in the original publication. There may be considerable variation within each pretreatment code.
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-CHEMTYPEID int2           pkey TRUE     
-CHEMTYPE   text                TRUE     
-CHEMTYPEAB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/fos_chemtypeID.csv
+   :header-rows: 1
 
 * CHEMTYPEID -- A unique identifier (auto-incrementing serial integer)
 
@@ -1047,13 +1043,9 @@ fos_fosmat1ID
 ^^^^^^^^^^^^^
 The *fos_fosmat1ID* table stores the **type of dated remain**.
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-FOSMAT1ID  int2           pkey TRUE     
-FOSMAT1    text                TRUE     
-FOSMAT1ABB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/fos_fosmat1ID.csv
+   :header-rows: 1
 
 * FOSMAT1IDd -- A unique identifier (auto-incrementing serial integer)
 
@@ -1065,13 +1057,9 @@ fos_fosmat2ID
 ^^^^^^^^^^^^^
 The *fos_fosmat2ID* table stores the **type of dated material**.
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-FOSMAT2ID  int2           pkey TRUE     
-FOSMAT2    text                TRUE     
-FOSMAT2ABB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/fos_fosmat2ID.csv
+   :header-rows: 1
 
 * FOSMAT2ID -- A unique identifier (auto-incrementing serial integer)
 
@@ -1083,13 +1071,9 @@ fos_mtdsID
 ^^^^^^^^^^
 The *fos_mtdsID* table stores the type of **method used in age determination**.
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-FOS_MTDSID int2           pkey TRUE     
-FOS_MTDSUB text                TRUE     
-FOS_MTDSAB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/fos_mtdsID.csv
+   :header-rows: 1
 
 * FOS_MTDSID -- A unique identifier (auto-incrementing serial integer)
 
