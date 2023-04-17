@@ -158,14 +158,14 @@ global_biomeID
 ^^^^^^^^^^^^^^
 ``DRAFT`` -- 
 
-========== ========= ==== ==== ======== ======
+========== ========= ==== ==== ======== =======
 Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
+========== ========= ==== ==== ======== =======
 BIOMEID    serial4        pkey TRUE     
 BIOMETYPE  text           ukey TRUE     
-PARENTID   int2           fkey          
+PARENTID   int2           fkey          BIOMEID
 BIOMEDESCR text                         
-========== ========= ==== ==== ======== ======
+========== ========= ==== ==== ======== =======
 
 * BIOMEID -- Unique identifier (serial integer)
 
@@ -231,6 +231,12 @@ RIVDIV  text
 * RIVDIV -- Geofabric AHGF river division name. *Only used for data from Australia*
 
 For available values refer to :ref:`global_rivID_Fields`
+
+..  _global_varunitID:
+
+global_varunitID
+^^^^^^^^^^^^
+``DRAFT`` This table ... :ref:`global_varunitID_Fields`
 
 ..  _spatial_ref_sys:
 
@@ -520,15 +526,15 @@ cabah_methodID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
+========== ========= ==== ==== ======== ========
 Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
+========== ========= ==== ==== ======== ========
 METHODID   int2           pkey TRUE     
 METHOD     text                TRUE     
 METHODABBR text           ukey TRUE     
-PARENTID   int2           fkey TRUE     
+PARENTID   int2           fkey TRUE     METHODID
 METHODREF  text                         
-========== ========= ==== ==== ======== ======
+========== ========= ==== ==== ======== ========
 
 * METHODID -- Unique identifier (auto-incrementing serial integer)
 
