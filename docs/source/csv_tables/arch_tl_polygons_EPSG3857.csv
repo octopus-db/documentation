@@ -1,0 +1,5 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+id,serial4,,pkey,TRUE,
+geom,geometry(mp),,,,
+OBSID1,text,,ukey,TRUE,
+OBSID2,text,,,,
