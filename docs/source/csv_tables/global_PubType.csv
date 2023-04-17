@@ -1,0 +1,8 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+PUBTYPEID,int2,,pkey,TRUE,
+PUBTYPE,text,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,
+,,,,,

@@ -1,0 +1,6 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+JOURNALID,int2,,pkey,TRUE,
+JOURNAL,text,,,TRUE,
+JOURNALABB,text,,,TRUE,
+PRINT_ISSN,varchar(9),,,,
+ONLIN_ISSN,varchar(9),,,,

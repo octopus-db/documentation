@@ -1,0 +1,11 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+OAID,varchar(11),,pkey,TRUE,
+AUTH,text,,,TRUE,
+FORENAME,text,,,,
+INITIALS,text,,,,
+ORCID,varchar(19),,,,
+SCOPUSID,text,,,,
+WSCC_RESID,text,,,,
+AUTH_COMMT,text,,,,
+AUTH_URL,text,,,,
+URL_DATE,date,,,,
