@@ -405,18 +405,9 @@ cabah_LabCodes
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========== ==== ==== ======== ======
-Field      Data type  Unit Key  Not Null Parent
-========== ========== ==== ==== ======== ======
-LAB_ORIGID int2            pkey TRUE     
-LAB_PREFIX text                          
-LAB_FACLTY text                          
-CNTRY      varchar(3)                    
-LAB_ACTIVE bool                          
-LAB_MTD    varchar(3)                    
-LAB_URL    text                          
-LAB_SOURCE text                          
-========== ========== ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/cabah_LabCodes.csv
+   :header-rows: 1
 
 * LAB_ORIGID -- A unique identifier (auto-incrementing serial integer)
 
@@ -440,13 +431,9 @@ cabah_chemprepID
 ^^^^^^^^^^^^^^^^
 The stores the **type of chemical pretreatment given to a sample**. Note -- methods capture the majority of methods applied in Australia. There may be considerable variation within each pretreatment code.
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-CHEMPREPID int2           pkey TRUE     
-CHEMPREP   text                TRUE     
-CHEMPREPAB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/cabah_chemprepID.csv
+   :header-rows: 1
 
 * CHEMPREPID -- A unique identifier (auto-incrementing serial integer)
 
@@ -460,12 +447,9 @@ cabah_col_mtdID
 ^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Not Null Parent
-========= ========= ==== ==== ======== ======
-COL_MTDID int2           pkey TRUE     
-COL_MTD   text                TRUE     
-========= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/cabah_col_mtdID.csv
+   :header-rows: 1
 
 * COL_MTDID -- A unique identifier (auto-incrementing serial integer)
 
@@ -477,15 +461,9 @@ cabah_methodID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ========
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ========
-METHODID   int2           pkey TRUE     
-METHOD     text                TRUE     
-METHODABBR text           ukey TRUE     
-PARENTID   int2           fkey TRUE     METHODID
-METHODREF  text                         
-========== ========= ==== ==== ======== ========
+.. csv-table::
+   :file: ./csv_tables/cabah_methodID.csv
+   :header-rows: 1
 
 * METHODID -- A unique identifier (auto-incrementing serial integer)
 
