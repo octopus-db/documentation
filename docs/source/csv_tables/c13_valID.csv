@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+C13_VALID,int2,,pkey,TRUE,
+C13_VAL,text,,,TRUE,

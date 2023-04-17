@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+HUM_MODID,int2,,pkey,TRUE,
+HUM_MOD,text,,,TRUE,

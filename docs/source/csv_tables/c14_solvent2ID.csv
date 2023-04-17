@@ -1,0 +1,4 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+SOLVENT2ID,int2,,pkey,TRUE,
+SOLVENT2,text,,,TRUE,
+SOLVENT2AB,text,,,,
