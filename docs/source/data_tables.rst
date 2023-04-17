@@ -224,15 +224,9 @@ spatial_ref_sys
 ^^^^^^^^^^^^^^^
 The spatial_ref_sys table that comes with PostgreSQL's PostGIS extention. As an OGC compliant database table it lists over 3000 spatial reference systems and technical details needed to transform/reproject between them. For more information see `Section 4.2.1. <https://postgis.net/docs/manual-1.4/ch04.html#spatial_ref_sys>`_ of the PostGIS online manual.
 
-========= ============= ==== ==== ======== ======
-Field     Data type     Unit Key  Not Null Parent
-========= ============= ==== ==== ======== ======
-srid      int4               pkey TRUE     
-auth_name varchar(256)                     
-auth_srid int4                             
-srtext    varchar(2048)                    
-proj4text varchar(2048)                    
-========= ============= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/spatial_ref_sys.csv
+   :header-rows: 1
 
 * srid [#]_  -- An integer value that uniquely identifies the Spatial Referencing System (SRS) within the database
 
@@ -318,12 +312,9 @@ global_RefAbstract
 ^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table stores publication abstracts for references in :ref:`global_RefCore`.
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Not Null Parent
-========= ========= ==== ==== ======== ======
-REFDBID   text           pkey TRUE     
-ABSTRACT  text                         
-========= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_RefAbstract.csv
+   :header-rows: 1
 
 * REFDBID -- Uses same "REFDBID" as :ref:`global_RefCore` table does (because is one-to-one relationship)
 
@@ -335,20 +326,9 @@ global_Author
 ^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ============ ==== ==== ======== ======
-Field      Data type    Unit Key  Not Null Parent
-========== ============ ==== ==== ======== ======
-OAID       varchar(11)       pkey TRUE     
-AUTH       text                   TRUE     
-FORENAME   text                            
-INITIALS   text                            
-ORCID      #varchar(19)                    
-SCOPUSID   text                            
-WSCC_RESID text                            
-AUTH_COMMT text                            
-AUTH_URL   text                            
-URL_DATE   date                            
-========== ============ ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_Author.csv
+   :header-rows: 1
 
 * OAID -- 
 
@@ -376,15 +356,9 @@ global_Journal
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========== ==== ==== ======== ======
-Field      Data type  Unit Key  Not Null Parent
-========== ========== ==== ==== ======== ======
-JOURNALID  int2            pkey TRUE     
-JOURNAL    text                 TRUE     
-JOURNALABB text                 TRUE     
-PRINT_ISSN varchar(9)                    
-ONLIN_ISSN varchar(9)                    
-========== ========== ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_Journal.csv
+   :header-rows: 1
 
 * JOURNALID -- Unique identifier (auto-incrementing serial integer)
 
@@ -402,12 +376,9 @@ global_PubType
 ^^^^^^^^^^^^^^
 The *global_PubType* table stores **publication entry types according to BibTeX standards**.
 
-========= ========= ==== ==== ======== ======
-Field     Data type Unit Key  Not Null Parent
-========= ========= ==== ==== ======== ======
-PUBTYPEID int2           pkey TRUE     
-PUBTYPE   text                         
-========= ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/global_PubType.csv
+   :header-rows: 1
 
 * PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
 
