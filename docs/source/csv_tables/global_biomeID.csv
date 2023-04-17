@@ -1,0 +1,5 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+BIOMEID,serial4,,pkey,TRUE,
+BIOMETYPE,text,,ukey,TRUE,
+PARENTID,int2,,fkey,,BIOMEID
+BIOMEDESCR,text,,,,
