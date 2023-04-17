@@ -37,7 +37,7 @@ global_GrainSize
    :file: ./csv_tables/global_GrainSize.csv
    :header-rows: 1
 
-* GRNSIZEID -- Unique identifier (auto-incrementing serial integer)
+* GRNSIZEID -- A unique identifier (auto-incrementing serial integer)
 
 * GRNSIZE -- Name of grain size fraction / material
 
@@ -65,7 +65,7 @@ The *global_SiteCode* table stores **site types characterising the dominant attr
    :file: ./csv_tables/global_SiteCode.csv
    :header-rows: 1
 
-* SITECODEID -- Unique identifier (auto-incrementing serial integer)
+* SITECODEID -- A unique identifier (auto-incrementing serial integer)
 
 * SITECODE -- For available values refer to :ref:`global_SiteCode_Fields`
 
@@ -360,7 +360,7 @@ global_Journal
    :file: ./csv_tables/global_Journal.csv
    :header-rows: 1
 
-* JOURNALID -- Unique identifier (auto-incrementing serial integer)
+* JOURNALID -- A unique identifier (auto-incrementing serial integer)
 
 * JOURNAL -- 
 
@@ -380,7 +380,7 @@ The *global_PubType* table stores **publication entry types according to BibTeX 
    :file: ./csv_tables/global_PubType.csv
    :header-rows: 1
 
-* PUBTYPEID -- Unique identifier (auto-incrementing serial integer)
+* PUBTYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * PUBTYPE -- For available values refer to :ref:`global_PubType_Fields`
 
@@ -418,7 +418,7 @@ LAB_URL    text
 LAB_SOURCE text                          
 ========== ========== ==== ==== ======== ======
 
-* LAB_ORIGID -- Unique identifier (auto-incrementing serial integer)
+* LAB_ORIGID -- A unique identifier (auto-incrementing serial integer)
 
 * LAB_PREFIX -- 
 
@@ -448,7 +448,7 @@ CHEMPREP   text                TRUE
 CHEMPREPAB text                         
 ========== ========= ==== ==== ======== ======
 
-* CHEMPREPID -- Unique identifier (auto-incrementing serial integer)
+* CHEMPREPID -- A unique identifier (auto-incrementing serial integer)
 
 * CHEMPREP -- For available values refer to :ref:`cabah_chemprepID_Fields`
 
@@ -467,7 +467,7 @@ COL_MTDID int2           pkey TRUE
 COL_MTD   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* COL_MTDID -- Unique identifier (auto-incrementing serial integer)
+* COL_MTDID -- A unique identifier (auto-incrementing serial integer)
 
 * COL_MTD -- For available values refer to :ref:`cabah_col_mtdID_Fields`
 
@@ -487,7 +487,7 @@ PARENTID   int2           fkey TRUE     METHODID
 METHODREF  text                         
 ========== ========= ==== ==== ======== ========
 
-* METHODID -- Unique identifier (auto-incrementing serial integer)
+* METHODID -- A unique identifier (auto-incrementing serial integer)
 
 * METHOD -- For available values refer to :ref:`cabah_methodID_Fields`
 
@@ -517,7 +517,7 @@ ALSTNDRTIO numeric
 ALSTNDCOMT text                             
 ========== ============= ==== ==== ======== ======
 
-* ALSTNDID -- Unique identifier (auto-incrementing serial integer)
+* ALSTNDID -- A unique identifier (auto-incrementing serial integer)
 
 * ALSTND -- 
 
@@ -548,7 +548,7 @@ BESTNDRTIO numeric
 BESTNDCOMT text                             
 ========== ============= ==== ==== ======== ======
 
-* BESTNDID -- Unique identifier (auto-incrementing serial integer)
+* BESTNDID -- A unique identifier (auto-incrementing serial integer)
 
 * BESTND -- 
 
@@ -579,7 +579,7 @@ AGEMODEL   text                TRUE
 AGEMODELAB text                         
 ========== ========= ==== ==== ======== ======
 
-* AGEMODELID -- Unique identifier (auto-incrementing serial integer)
+* AGEMODELID -- A unique identifier (auto-incrementing serial integer)
 
 * AGEMODEL -- For available values refer to :ref:`osl-tl_agemodelID_Fields`
 
@@ -599,7 +599,7 @@ ED_PROC    text                TRUE
 ED_PROCABR text                         
 ========== ========= ==== ==== ======== ======
 
-* ED_PROCID -- Unique identifier (auto-incrementing serial integer)
+* ED_PROCID -- A unique identifier (auto-incrementing serial integer)
 
 * ED_PROC -- For available values refer to :ref:`osl-tl_ed_procID_Fields`
 
@@ -619,7 +619,7 @@ LUM_MAT    text                TRUE
 LUM_MATABB text                         
 ========== ========= ==== ==== ======== ======
 
-* LUM_MATID -- Unique identifier (auto-incrementing serial integer)
+* LUM_MATID -- A unique identifier (auto-incrementing serial integer)
 
 * LUM_MAT -- For available values refer to :ref:`osl-tl_lum_matID_Fields`
 
@@ -639,7 +639,7 @@ MINERAL    text                TRUE
 MINERALABB text                         
 ========== ========= ==== ==== ======== ======
 
-* MINERALID -- Unique identifier (auto-incrementing serial integer)
+* MINERALID -- A unique identifier (auto-incrementing serial integer)
 
 * MINERAL -- For available values refer to :ref:`osl-tl_mineralID_Fields`
 
@@ -659,7 +659,7 @@ MTD   text                TRUE
 MTDAB text                         
 ===== ========= ==== ==== ======== ======
 
-* MTDID -- Unique identifier (auto-incrementing serial integer)
+* MTDID -- A unique identifier (auto-incrementing serial integer)
 
 * MTD -- For available values refer to :ref:`osl-tl_mtdID_Fields`
 
@@ -679,7 +679,7 @@ OSL_TYPE   text                TRUE
 OSL_TYPEAB text                         
 ========== ========= ==== ==== ======== ======
 
-* OSL_TYPEID -- Unique identifier (auto-incrementing serial integer)
+* OSL_TYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * OSL_TYPE -- For available values refer to :ref:`osl_typeID_Fields`
 
@@ -710,7 +710,7 @@ AMSORG text
 AMSURL text                         
 ====== ========= ==== ==== ======== ======
 
-* AMSID -- Unique identifier (auto-incrementing serial integer)
+* AMSID -- A unique identifier (auto-incrementing serial integer)
 
 * AMS -- 
 
@@ -731,7 +731,7 @@ PROJEPSGID int2             pkey TRUE
 PROJECTION varchar(13)           TRUE     
 ========== =========== ==== ==== ======== ======
 
-* PROJEPSGID -- Unique identifier (auto-incrementing serial integer)
+* PROJEPSGID -- A unique identifier (auto-incrementing serial integer)
 
 * PROJECTION -- For available values refer to :ref:`crn_projepsgID_Fields`
 
@@ -749,7 +749,7 @@ geom    geometry
 STUDYID varchar(5)      ukey TRUE     
 ======= ========== ==== ==== ======== ======
 
-* id -- Unique identifier (auto-incrementing serial integer)
+* id -- A unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -771,7 +771,7 @@ FEATDATEID           int2 pkey TRUE
 FEATDATED            text      TRUE     
 ========== ========= ==== ==== ======== ======
 
-* FEATDATEID -- Unique identifier (auto-incrementing serial integer)
+* FEATDATEID -- A unique identifier (auto-incrementing serial integer)
 
 * FEATDATED -- For available values refer to :ref:`arch_featdatedID_Fields`
 
@@ -788,7 +788,7 @@ C13_VALID int2           pkey TRUE
 C13_VAL   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* C13_VALID -- Unique identifier (auto-incrementing serial integer)
+* C13_VALID -- A unique identifier (auto-incrementing serial integer)
 
 * C13_VAL -- For available values refer to :ref:`c13_valID_Fields`
 
@@ -805,7 +805,7 @@ CONTAMID int2           pkey TRUE
 CONTAM   text                TRUE     
 ======== ========= ==== ==== ======== ======
 
-* CONTAMID -- Unique identifier (auto-incrementing serial integer)
+* CONTAMID -- A unique identifier (auto-incrementing serial integer)
 
 * CONTAM -- For available values refer to :ref:`c14_contamID_Fields`
 
@@ -822,7 +822,7 @@ HUM_MODID int2           pkey TRUE
 HUM_MOD   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* HUM_MODID -- Unique identifier (auto-incrementing serial integer)
+* HUM_MODID -- A unique identifier (auto-incrementing serial integer)
 
 * HUM_MOD -- For available values refer to :ref:`c14_hum_modID_Fields`
 
@@ -840,7 +840,7 @@ MATERIAL1  text                TRUE
 MATERIA1AB text                         
 ========== ========= ==== ==== ======== ======
 
-* MATERIA1ID -- Unique identifier (auto-incrementing serial integer)
+* MATERIA1ID -- A unique identifier (auto-incrementing serial integer)
 
 * MATERIAL1 -- For available values refer to :ref:`c14_materia1ID_Fields`
 
@@ -859,7 +859,7 @@ MATERIA2ID int2           pkey TRUE
 MATERIAL2  text                TRUE     
 ========== ========= ==== ==== ======== ======
 
-* MATERIA2ID -- Unique identifier (auto-incrementing serial integer)
+* MATERIA2ID -- A unique identifier (auto-incrementing serial integer)
 
 * MATERIAL2 -- For available values refer to :ref:`c14_materia2ID_Fields`
 
@@ -877,7 +877,7 @@ SOLVENT2   text                TRUE
 SOLVENT2AB text                         
 ========== ========= ==== ==== ======== ======
 
-* SOLVENT2ID -- Unique identifier (auto-incrementing serial integer)
+* SOLVENT2ID -- A unique identifier (auto-incrementing serial integer)
 
 * SOLVENT2 -- For available values refer to :ref:`c14_solvent2ID_Fields`
 
@@ -897,7 +897,7 @@ C_MTD   text                TRUE
 C_MTDAB text                         
 ======= ========= ==== ==== ======== ======
 
-* C_MTDID -- Unique identifier (auto-incrementing serial integer)
+* C_MTDID -- A unique identifier (auto-incrementing serial integer)
 
 * C_MTD -- For available values refer to :ref:`c_mtdID_Fields`
 
@@ -918,7 +918,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- Unique identifier (auto-incrementing serial integer)
+* id -- A unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -941,7 +941,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- Unique identifier (auto-incrementing serial integer)
+* id -- A unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -964,7 +964,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- Unique identifier (auto-incrementing serial integer)
+* id -- A unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -988,7 +988,7 @@ DEPCONID int2           pkey TRUE
 DEPCON   text                TRUE     
 ======== ========= ==== ==== ======== ======
 
-* DEPCONID -- Unique identifier (auto-incrementing serial integer)
+* DEPCONID -- A unique identifier (auto-incrementing serial integer)
 
 * DEPCON -- For available values refer to :ref:`sed_depconID_Fields`
 
@@ -1005,7 +1005,7 @@ FACIESID int2           pkey TRUE
 FACIES   text                TRUE     
 ======== ========= ==== ==== ======== ======
 
-* FACIESID -- Unique identifier (auto-incrementing serial integer)
+* FACIESID -- A unique identifier (auto-incrementing serial integer)
 
 * FACIES -- For available values refer to :ref:`sed_faciesID_Fields`
 
@@ -1022,7 +1022,7 @@ GEOMMODID int2           pkey TRUE
 GEOMMOD   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* GEOMMODID -- Unique identifier (auto-incrementing serial integer)
+* GEOMMODID -- A unique identifier (auto-incrementing serial integer)
 
 * GEOMMOD -- For available values refer to :ref:`sed_geommodID_Fields`
 
@@ -1039,7 +1039,7 @@ GEOTYPEID int2           pkey TRUE
 GEOTYPE   text                TRUE     
 ========= ========= ==== ==== ======== ======
 
-* GEOTYPEID -- Unique identifier (auto-incrementing serial integer)
+* GEOTYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * GEOTYPE -- For available values refer to :ref:`sed_geotypeID_Fields`
 
@@ -1057,7 +1057,7 @@ LAKETYPE   text                TRUE
 PARENTID   int2           fkey
 ========== ========= ==== ==== ======== ======
 
-* LAKETYPEID -- Unique identifier (auto-incrementing serial integer)
+* LAKETYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * LAKETYPE -- For available values refer to :ref:`sed_laketypeID_Fields`
 
@@ -1076,7 +1076,7 @@ MORPHID int2           pkey TRUE
 MORPH   text                TRUE     
 ======= ========= ==== ==== ======== ======
 
-* MORPHID -- Unique identifier (auto-incrementing serial integer)
+* MORPHID -- A unique identifier (auto-incrementing serial integer)
 
 * MORPH -- For available values refer to :ref:`sed_morphID_Fields`
 
@@ -1093,7 +1093,7 @@ SITETYPEID int2           pkey TRUE
 SITETYPE   text                TRUE     
 ========== ========= ==== ==== ======== ======
 
-* SITETYPEID -- Unique identifier (auto-incrementing serial integer)
+* SITETYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * SITETYPE -- For available values refer to :ref:`sed_sitetypeID_Fields`
 
@@ -1112,7 +1112,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- Unique identifier (auto-incrementing serial integer)
+* id -- A unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -1135,7 +1135,7 @@ OBSID1 text              ukey TRUE
 OBSID2 text                            
 ====== ============ ==== ==== ======== ======
 
-* id -- Unique identifier (auto-incrementing serial integer)
+* id -- A unique identifier (auto-incrementing serial integer)
 
 * geom -- 
 
@@ -1182,7 +1182,7 @@ CHEMTYPE   text                TRUE
 CHEMTYPEAB text                         
 ========== ========= ==== ==== ======== ======
 
-* CHEMTYPEID -- Unique identifier (auto-incrementing serial integer)
+* CHEMTYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * CHEMTYPE -- For available values refer to :ref:`fos_chemtypeID_Fields`
 
@@ -1200,7 +1200,7 @@ FOSMAT1    text                TRUE
 FOSMAT1ABB text                         
 ========== ========= ==== ==== ======== ======
 
-* FOSMAT1IDd -- Unique identifier (auto-incrementing serial integer)
+* FOSMAT1IDd -- A unique identifier (auto-incrementing serial integer)
 
 * FOSMAT1 -- For available values refer to :ref:`fos_fosmat1ID_Fields`
 
@@ -1218,7 +1218,7 @@ FOSMAT2    text                TRUE
 FOSMAT2ABB text                         
 ========== ========= ==== ==== ======== ======
 
-* FOSMAT2ID -- Unique identifier (auto-incrementing serial integer)
+* FOSMAT2ID -- A unique identifier (auto-incrementing serial integer)
 
 * FOSMAT2 -- For available values refer to :ref:`fos_fosmat2ID_Fields`
 
@@ -1236,7 +1236,7 @@ FOS_MTDSUB text                TRUE
 FOS_MTDSAB text                         
 ========== ========= ==== ==== ======== ======
 
-* FOS_MTDSID -- Unique identifier (auto-incrementing serial integer)
+* FOS_MTDSID -- A unique identifier (auto-incrementing serial integer)
 
 * FOS_MTDSUB -- For available values refer to :ref:`fos_mtdsID_Fields`
 
