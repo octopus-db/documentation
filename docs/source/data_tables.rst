@@ -453,7 +453,7 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
 
 cabah_col_mtdID
 ^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *cabah_col_mtdID* table ...
 
 .. csv-table::
    :file: ./csv_tables/cabah_col_mtdID.csv
@@ -467,7 +467,7 @@ cabah_col_mtdID
 
 cabah_methodID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *cabah_methodID* table ...
 
 .. csv-table::
    :file: ./csv_tables/cabah_methodID.csv
@@ -490,7 +490,7 @@ Cosmogenics tables
 
 crn_alstndID
 ^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *crn_alstndID* table ...
 
 .. csv-table::
    :file: ./csv_tables/crn_alstndID.csv
@@ -514,7 +514,7 @@ For available values refer to :ref:`crn_alstndID_Fields`
 
 crn_bestndID
 ^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *crn_bestndID* table ...
 
 .. csv-table::
    :file: ./csv_tables/crn_bestndID.csv
@@ -541,7 +541,7 @@ Luminescence tables
 
 osl-tl_agemodelID
 ^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *osl-tl_agemodelID* table ...
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_agemodelID.csv
@@ -557,7 +557,7 @@ osl-tl_agemodelID
 
 osl-tl_ed_procID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *osl-tl_ed_procID* table ...
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_ed_procID.csv
@@ -573,7 +573,7 @@ osl-tl_ed_procID
 
 osl-tl_lum_matID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *osl-tl_lum_matID* table ... 
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_lum_matID.csv
@@ -589,7 +589,7 @@ osl-tl_lum_matID
 
 osl-tl_mineralID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *osl-tl_mineralID* table ...
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_mineralID.csv
@@ -605,7 +605,7 @@ osl-tl_mineralID
 
 osl-tl_mtdID
 ^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *osl-tl_mtdID* table ...
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_mtdID.csv
@@ -621,7 +621,7 @@ osl-tl_mtdID
 
 osl_typeID
 ^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *osl_typeID* table ...
 
 .. csv-table::
    :file: ./csv_tables/osl_typeID.csv
@@ -647,7 +647,7 @@ CRN tables
 
 crn_amsID
 ^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *crn_amsID* table ...
 
 .. csv-table::
    :file: ./csv_tables/crn_amsID.csv
@@ -665,7 +665,7 @@ crn_amsID
 
 crn_projepsgID
 ^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *crn_projepsgID* table ...
 
 .. csv-table::
    :file: ./csv_tables/crn_projepsgID.csv
@@ -679,7 +679,7 @@ crn_projepsgID
 
 crn_studies_boundingbox
 ^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *crn_studies_boundingbox* table ...
 
 .. csv-table::
    :file: ./csv_tables/crn_studies_boundingbox.csv
@@ -698,7 +698,7 @@ SahulArch tables
 
 arch_featdatedID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *arch_featdatedID* table ...
 
 .. csv-table::
    :file: ./csv_tables/arch_featdatedID.csv
@@ -712,7 +712,7 @@ arch_featdatedID
 
 c13_valID
 ^^^^^^^^^
-``DRAFT`` This table 
+``DRAFT`` The *c13_valID* table ...
 
 .. csv-table::
    :file: ./csv_tables/c13_valID.csv
