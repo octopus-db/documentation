@@ -1,0 +1,4 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+MINERALID,int2,,pkey,TRUE,
+MINERAL,text,,,TRUE,
+MINERALABB,text,,,,

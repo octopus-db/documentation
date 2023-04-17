@@ -1,0 +1,4 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+LUM_MATID,int2,,pkey,TRUE,
+LUM_MAT,text,,,TRUE,
+LUM_MATABB,text,,,,
