@@ -19,8 +19,12 @@ Global lookup tables
 ..  _global_varunitID:
 
 global_varunitID
-^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^
 ``DRAFT`` This table ... :ref:`global_varunitID_Fields`
+
+.. csv-table:: global_varunitID
+   :file: ./csv_tables/global_varunitID.csv
+   :header-rows: 1
 
 ..  _global_GrainSize:
 
