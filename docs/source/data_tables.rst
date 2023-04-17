@@ -641,14 +641,9 @@ crn_amsID
 ^^^^^^^^^
 ``DRAFT`` This table 
 
-====== ========= ==== ==== ======== ======
-Field  Data type Unit Key  Not Null Parent
-====== ========= ==== ==== ======== ======
-AMSID  int2           pkey TRUE     
-AMS    text                TRUE     
-AMSORG text                         
-AMSURL text                         
-====== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/crn_amsID.csv
+   :header-rows: 1
 
 * AMSID -- A unique identifier (auto-incrementing serial integer)
 
@@ -664,12 +659,9 @@ crn_projepsgID
 ^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== =========== ==== ==== ======== ======
-Field      Data type   Unit Key  Not Null Parent
-========== =========== ==== ==== ======== ======
-PROJEPSGID int2             pkey TRUE     
-PROJECTION varchar(13)           TRUE     
-========== =========== ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/crn_projepsgID.csv
+   :header-rows: 1
 
 * PROJEPSGID -- A unique identifier (auto-incrementing serial integer)
 
@@ -681,13 +673,9 @@ crn_studies_boundingbox
 ^^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-======= ========== ==== ==== ======== ======
-Field   Data type  Unit Key  Not Null Parent
-======= ========== ==== ==== ======== ======
-id      serial4         pkey TRUE     
-geom    geometry                      
-STUDYID varchar(5)      ukey TRUE     
-======= ========== ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/crn_studies_boundingbox.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
