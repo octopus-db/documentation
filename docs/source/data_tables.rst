@@ -22,7 +22,7 @@ global_varunitID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table ... :ref:`global_varunitID_Fields`
 
-.. csv-table:: global_varunit
+.. csv-table:: global_varunitID
    :file: ./csv_tables/global_varunitID.csv
    :widths: 30, 20, 10, 10, 10, 20
    :header-rows: 1
