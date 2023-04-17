@@ -1,0 +1,7 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+ALSTNDID,int2,,pkey,TRUE,
+ALSTND,text,,,TRUE,
+ALSTND_PUB,text,,,,
+ALCORR,"numeric(5, 4)",,,,
+ALSTNDRTIO,numeric,,,,
+ALSTNDCOMT,text,,,,
