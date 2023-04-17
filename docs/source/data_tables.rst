@@ -535,13 +535,9 @@ osl-tl_agemodelID
 ^^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-AGEMODELID int2           pkey TRUE     
-AGEMODEL   text                TRUE     
-AGEMODELAB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/osl-tl_agemodelID.csv
+   :header-rows: 1
 
 * AGEMODELID -- A unique identifier (auto-incrementing serial integer)
 
@@ -555,13 +551,9 @@ osl-tl_ed_procID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-ED_PROCID  int2           pkey TRUE     
-ED_PROC    text                TRUE     
-ED_PROCABR text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/osl-tl_ed_procID.csv
+   :header-rows: 1
 
 * ED_PROCID -- A unique identifier (auto-incrementing serial integer)
 
@@ -575,13 +567,9 @@ osl-tl_lum_matID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-LUM_MATID  int2           pkey TRUE     
-LUM_MAT    text                TRUE     
-LUM_MATABB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/osl-tl_lum_matID.csv
+   :header-rows: 1
 
 * LUM_MATID -- A unique identifier (auto-incrementing serial integer)
 
@@ -595,13 +583,9 @@ osl-tl_mineralID
 ^^^^^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-========== ========= ==== ==== ======== ======
-Field      Data type Unit Key  Not Null Parent
-========== ========= ==== ==== ======== ======
-MINERALID  int2           pkey TRUE     
-MINERAL    text                TRUE     
-MINERALABB text                         
-========== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/osl-tl_mineralID.csv
+   :header-rows: 1
 
 * MINERALID -- A unique identifier (auto-incrementing serial integer)
 
@@ -615,13 +599,9 @@ osl-tl_mtdID
 ^^^^^^^^^^^^
 ``DRAFT`` This table 
 
-===== ========= ==== ==== ======== ======
-Field Data type Unit Key  Not Null Parent
-===== ========= ==== ==== ======== ======
-MTDID int2           pkey TRUE     
-MTD   text                TRUE     
-MTDAB text                         
-===== ========= ==== ==== ======== ======
+.. csv-table::
+   :file: ./csv_tables/osl-tl_mtdID.csv
+   :header-rows: 1
 
 * MTDID -- A unique identifier (auto-incrementing serial integer)
 
