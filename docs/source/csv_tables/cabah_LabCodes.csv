@@ -1,5 +1,5 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-LAB_ORIGID,int2,,pkey,TRUE,
+LAB_ORIGID,int2 seq.,,pkey,TRUE,
 LAB_PREFIX,text,,,,
 LAB_FACLTY,text,,,,
 CNTRY,varchar(3),,,,
