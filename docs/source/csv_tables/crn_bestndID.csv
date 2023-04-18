@@ -1,5 +1,5 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-BESTNDID,int2,,pkey,TRUE,
+BESTNDID,int2 seq.,,pkey,TRUE,
 BESTND,text,,,TRUE,
 BESTND_PUB,text,,,,
 BECORR,"numeric(5, 4)",,,,
