@@ -157,11 +157,7 @@ SITE_COMMT text
 
 * SITECODEID -- Is fkey. Refer to :ref:`global_SiteCode` table
 
-* OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information.
-
-.. note::
-
-This field is related to the :ref:`SahulArch` collection, i.e., will not appear in any other collection view [#]_ or flat output table.
+* OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - This field is related to the :ref:`SahulArch` collection, i.e., will not appear in any other collection view [#]_ or flat output table.
 
 * SITE_COMMT -- Free text site comment field
 
@@ -441,11 +437,7 @@ cabah_LabCodes
 
 cabah_chemprepID
 ^^^^^^^^^^^^^^^^
-The *cabah_chemprepID* table stores the **type of chemical pretreatment given to a sample**. 
-
-.. note::
-
-Methods capture the majority of methods applied in Australia. There may be considerable variation within each pretreatment code.
+The *cabah_chemprepID* table stores the **type of chemical pretreatment given to a sample**. Note - Methods capture the majority of methods applied in Australia. There may be considerable variation within each pretreatment code.
 
 .. csv-table::
    :file: ./csv_tables/cabah_chemprepID.csv
