@@ -1,5 +1,5 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-ALSTNDID,int2,,pkey,TRUE,
+ALSTNDID,int2 seq.,,pkey,TRUE,
 ALSTND,text,,,TRUE,
 ALSTND_PUB,text,,,,
 ALCORR,"numeric(5, 4)",,,,
