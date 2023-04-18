@@ -1,5 +1,5 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-JOURNALID,int2,,pkey,TRUE,
+JOURNALID,int2 seq.,,pkey,TRUE,
 JOURNAL,text,,,TRUE,
 JOURNALABB,text,,,TRUE,
 PRINT_ISSN,varchar(9),,,,
