@@ -5,8 +5,6 @@ Table fields and their values
 Data table fields
 -----------------
 
-
-
 Lookup table fields
 -------------------
 
@@ -26,25 +24,9 @@ global_GrainSize Fields
 global_SiteCode Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-========== ========================
-SITECODEID SITECODE
-========== ========================
--9999      no data
-1          Stone artefact deposit
-2          Burial (animal)
-3          Burial (human)
-4          Cemetery
-5          Earth mound
-6          Hearth (isolated)
-7          Shell midden
-8          Open site
-9          Quarry
-10         Rock art
-11         Rockshelter or cave
-12         Culturally modified tree
-13         Stone structure
-19         Other
-========== ========================
+.. csv-table::
+   :file: ./csv_tables/global_SiteCode_FIELDS.csv
+   :header-rows: 1
 
 .. note::
 
