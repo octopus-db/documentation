@@ -1,0 +1,27 @@
+﻿COL_MTDID,COL_MTD,PARENTID
+-9999,ND,-9999
+1,Auger,1
+2,Block,2
+3,Core,3
+4,Downhole Tube,6
+5,Excavated,5
+6,Tube,6
+7,Other,7
+8,InSitu,8
+9,Sieve,9
+10,Grab sample,10
+11,Composite sample,10
+12,Van Veen grab sampler,10
+13,Casq corer,3
+14,Russian corer,3
+15,Wardenaar corer,3
+16,Freeze corer,3
+17,Gravity corer,3
+18,Percussion corer,3
+19,Piston corer,3
+20,D-section corer,14
+21,Vibro corer,3
+22,Box corer,3
+23,Reineck box corer,22
+24,USNEL box corer,22
+25,Grab sample amalgamated,10
