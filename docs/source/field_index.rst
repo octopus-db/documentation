@@ -1238,20 +1238,9 @@ cabah_col_mtdID Fields
 
 ``Draft`` -- 
 
-========= =============
-COL_MTDID COL_MTD
-========= =============
--9999     ND
-1         Auger
-2         Block
-3         Core
-4         Downhole Tube
-5         Excavated
-6         Tube
-7         Other
-8         InSitu
-9         Sieve
-========= =============
+.. csv-table::
+   :file: ./csv_tables/cabah_col_mtdID_FIELDS.csv
+   :header-rows: 1
 
 ..  _cabah_methodID_Fields:
 
