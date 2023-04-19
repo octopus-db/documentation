@@ -1,3 +1,5 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-SITECODEID,int2,,pkey,TRUE,
+SITECODEID,int2 sequ.,,pkey,TRUE,
 SITECODE,text,,,TRUE,
+PARENTID,int2,,fkey,,
+SITEDESCR,text,,,,
