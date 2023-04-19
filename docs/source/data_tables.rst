@@ -39,7 +39,7 @@ global_varunitID
 global_GrainSize
 ^^^^^^^^^^^^^^^^
 | ``DRAFT`` The *global_GrainSize* table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
-| ... ... :ref:`global_GrainSize_Fields`
+| ... :ref:`global_GrainSize_Fields`
 
 .. csv-table::
    :file: ./csv_tables/global_GrainSize.csv
