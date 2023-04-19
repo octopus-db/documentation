@@ -77,6 +77,10 @@ The *global_SiteCode* table stores **site types characterising the dominant attr
 
 * SITECODE -- For available values refer to :ref:`global_SiteCode_Fields`
 
+* PARENTID -- Is fkey. Refers to ordinally higher ranking "SITECODEID"
+
+* SITEDESCR -- A concise description of “SITECODE”
+
 ..  _global_SiteMaster:
 
 global_SiteMaster
