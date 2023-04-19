@@ -1,16 +1,75 @@
-﻿SITECODEID,SITECODE
--9999,no data
-1,Stone artefact deposit
-2,Burial (animal)
-3,Burial (human)
-4,Cemetery
-5,Earth mound
-6,Hearth (isolated)
-7,Shell midden
-8,Open site
-9,Quarry
-10,Rock art
-11,Rockshelter or cave
-12,Culturally modified tree
-13,Stone structure
-19,Other
+﻿SITECODEID,SITECODE,PARENTID,SITEDESCR
+-9999,no data,-9999,
+1,Stone artefact deposit,15,
+2,Burial (animal),15,
+3,Burial (human),15,
+4,Cemetery,15,
+5,Earth mound,15,
+6,Hearth (isolated),15,
+7,Shell midden,15,
+8,Open site,15,
+9,Quarry,15,
+10,Rock art,15,
+11,Rockshelter or cave,15,
+12,Culturally modified tree,15,
+13,Stone structure,15,
+14,Anthropogenic,14,
+15,Archaeological,14,
+16,Modern (anthropogenic),14,
+17,"Anthrosol, Technosol",14,
+18,"Tailings, Dump",14,
+19,Other,15,
+20,Occupation debris (indet.),14,
+21,Natural,21,
+22,Terrestrial (indet.),21,
+23,Soil (indet.),22,
+24,Aeolian origin,21,
+25,Fluvial origin,21,
+26,Alluvial ,25,
+27,Colluvial,22,
+28,Lacustrine origin,21,
+29,Coastal origin,21,
+30,Marine origin,21,
+31,Glacial origin,22,
+32,Biogenic origin,32,
+33,Animal origin,32,
+34,Palaeosol,22,
+35,Flat (indet.),35,
+36,Slope (indet.),22,
+37,Slope (concave),22,
+38,Slope (convex),22,
+39,Small hollow,22,
+40,Mound,22,
+41,Cave (indet.),22,
+42,Talus cone,22,
+43,Slope wash,22,
+44,Terrace (indet.),22,
+45,Terrace (fluvial),25,
+46,Crevasse splay,25,
+47,Estuarine,29,
+48,Salt marsh,29,
+49,Marsh,35,
+50,Playa,28,
+51,Floodplain (indet.),25,
+52,Delta (indet.),25,
+53,Channel (indet.),25,
+54,Overbank deposit,25,
+55,Levee,25,
+56,Lake,28,
+57,Pond,28,
+58,Bog,22,
+59,Fen,22,
+60,Mire,22,
+61,Peat,22,
+62,Buried fen,22,
+63,Sapropel / Gyttja,32,
+64,Moss polster,32,
+65,Dune,24,
+66,Loess,24,
+67,Mound spring or spring,22,
+68,Burrow,33,
+69,Nest,33,
+70,Clutch,33,
+71,Midden (animal),33,
+72,Roost,33,
+73,Owl roost,72,
