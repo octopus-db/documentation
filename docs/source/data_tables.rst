@@ -1108,6 +1108,9 @@ expage_points_EPSG3857
 
 .. rubric:: Footnotes
 
+.. [#] primary key
+.. [#] unique key
+.. [#] foreign key
 .. [#] PostgreSQL view: `https://www.postgresql.org/docs/current/sql-createview.html <https://www.postgresql.org/docs/current/sql-createview.html>`_
 .. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
