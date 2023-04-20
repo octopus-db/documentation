@@ -1,13 +1,13 @@
 ============================
 Data tables and their fields
 ============================
-| OCTOPUS data tables, using a spatial allegory, can be grouped into a *global*, a *regional*, and a *local* level. While :ref:`Global_tables` can serve any database relation, :ref:`Regional_tables` should be seen as thematic tables matching certain sub-collections. Finally, :ref:`Local_tables` are collection specific tables with a high degree of specialisation compared to the two aforementioned higher-level table groups.
+OCTOPUS data tables, using a spatial allegory, can be grouped into a *global*, a *regional*, and a *local* level. While :ref:`Global_tables` can serve any database relation, :ref:`Regional_tables` should be seen as thematic tables matching certain sub-collections. Finally, :ref:`Local_tables` are collection specific tables with a high degree of specialisation compared to the two aforementioned higher-level table groups.
 
-| ``DRAFT`` --> data type abbreviations, key abbreviations, not null, parent (link to https://www.postgresql.org/docs/11/datatype.html)
+PostgreSQL data types, constraints, and keys are comprehensibly described in the PostgreSQL online documentation (https://www.postgresql.org/docs/15/datatype.html). Another excellent introductory read is Michael J. Hernandez' *Database design for Mere Mortals - A Hands-On Guide to Relational Database Design*.
 
 .. note::
 
-    To ensure database integrity, any OCTOPUS db relation features a "CREATED_AT" (= *record timestamp* with timezone based on UTC) and a "UPDATED_AT" (= *timestamp of record update* with timezone based on UTC) field, respectively. Those fields are populated upon db action, however, are not displayed as part of this documentation for the sake of readability.
+    To ensure database integrity, any OCTOPUS db relation features a "CREATED_AT" (= *record timestamp* with timezone based on UTC) and a "UPDATED_AT" (= *timestamp of record update* with timezone based on UTC) field, respectively. These fields are automatically populated upon db action, however, are not displayed as part of this documentation for the sake of readability.
 
 ..  _Global_tables:
 
