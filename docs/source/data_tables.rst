@@ -64,6 +64,7 @@ Global georeferencing tables
 
 global_MetaSite
 ^^^^^^^^^^^^^^^
+``DRAFT`` The *global_MetaSite* table ...
 
 ..  _global_SiteCode:
 
@@ -87,8 +88,7 @@ The *global_SiteCode* table stores **site types characterising the dominant attr
 
 global_SiteMaster
 ^^^^^^^^^^^^^^^^^
-
-``DRAFT`` This table
+``DRAFT`` The *global_SiteMaster* table ...
 
 ========== ============== =========== ==== ======== ======================
 Field      Data type      Unit        Key  Not Null Parent
