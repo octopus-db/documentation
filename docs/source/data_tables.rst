@@ -175,7 +175,7 @@ SITE_COMMT text
 
 global_biomeID
 ^^^^^^^^^^^^^^
-``DRAFT`` -- The *global_biomeID* table ...
+The *global_biomeID* table stores iconic biome types that allow for a coarse characterisation/classifications of sampled sites amongst Earth's major biogeographic units. 
 
 .. csv-table::
    :file: ./csv_tables/global_biomeID.csv
@@ -183,13 +183,11 @@ global_biomeID
 
 * BIOMEID -- Unique identifier (serial integer)
 
-* BIOMETYPE -- Name of biome
+* BIOMETYPE -- Name of biome. For available values refer to :ref:`global_biomeID_Fields`
 
 * PARENTID -- Is fkey. Refers to ordinally higher ranking "BIOMEID"
 
 * BIOMEDESCR -- A concise description of "BIOMETYPE"
-
-For available values refer to :ref:`global_biomeID_Fields`
 
 ..  _global_dbDOI:
 
