@@ -123,7 +123,7 @@ OPENCLOSED varchar(6)
 SITE_COMMT text                                    
 ========== ============== =========== ==== ======== ======================
 
-* SITEID -- 
+* SITEID -- A unique site identifier provided as part of the compilation
 
 * METASITEID -- Is fkey. Refer to :ref:`global_MetaSite` table
 
@@ -143,9 +143,9 @@ SITE_COMMT text
 
 * BASIN -- Name of river basin where study site is located
 
-* RIVID -- Is fkey. Refer to :ref:`global_rivID` table
+* RIVID -- Is fkey. For available values refer to :ref:`global_rivID` table
 
-* IBRAID -- Is fkey. Refer to :ref:`global_ibraID` table
+* IBRAID -- Is fkey. For available values refer to :ref:`global_ibraID` table
 
 * X_WGS84 -- WGS84 longitude of site
 
@@ -153,7 +153,7 @@ SITE_COMMT text
 
 * CORDS_ELEV -- Dual field. First part of value refers to source of coordinates (“X_WGS84”, “Y_WGS84”) for the sample site ('INTP', or 'ORIG', or 'ND'). Second part of value refers to “ELEVATION” ('INTP', or 'ORIG', or 'ND'). Nine (9) combinations possible
 
-* ELEVATION -- Elevation above sea level of the sample
+* ELEVATION -- Elevation above sea level
 
 * SITENAME -- Name of the site
 
@@ -163,9 +163,9 @@ SITE_COMMT text
 
 * ALTNAME2 -- Second alternative or additional name of the site
 
-* ALTNAME3 -- Second alternative or additional name of the site
+* ALTNAME3 -- Third alternative or additional name of the site
 
-* SITECODEID -- Is fkey. Refer to :ref:`global_SiteCode` table
+* SITECODEID -- Is fkey. For available values refer to :ref:`global_SiteCode` table
 
 * OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - This field is related to the :ref:`SahulArch` collection, i.e., will not appear in any other collection view [#]_ or flat output table.
 
