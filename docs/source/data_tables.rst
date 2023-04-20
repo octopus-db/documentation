@@ -199,7 +199,7 @@ global_dbDOI
 
 global_ibraID
 ^^^^^^^^^^^^^
-The *global_ibraID* table stores the location code of a site within the relevant bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7) framework.
+The *global_ibraID* table stores the location code of a site within the relevant **bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7)** framework.
 
 .. csv-table::
    :file: ./csv_tables/global_ibraID.csv
