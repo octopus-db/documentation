@@ -7,7 +7,7 @@ Data tables and their fields
 
 .. note::
 
-To ensure database integrity, any OCTOPUS db relation features a "CREATED_AT" (= *record timestamp* with timezone based on UTC) and a "UPDATED_AT" (= *timestamp of record update* with timezone based on UTC) field, respectively. Those fields, however, are not displayed as part of this documentation for the sake of readability.
+To ensure database integrity, any OCTOPUS db relation features a "CREATED_AT" (= *record timestamp* with timezone based on UTC) and a "UPDATED_AT" (= *timestamp of record update* with timezone based on UTC) field, respectively. Those fields are populated upon db action, however, are not displayed as part of this documentation for the sake of readability.
 
 ..  _Global_tables:
 
