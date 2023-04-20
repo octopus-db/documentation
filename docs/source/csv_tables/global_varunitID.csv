@@ -1,5 +1,5 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-V_UNITID,serial4,,pkey,TRUE,
-V_UNITABBR,text,,ukey,TRUE,
+V_UNITID,serial4,,pkey [#]_,TRUE,
+V_UNITABBR,text,,ukey[#]_,TRUE,
 V_UNITNAME,text,,,,
-PARENTID,int2,,fkey,,V_UNITID
+PARENTID,int2,,fkey[#]_,,V_UNITID
