@@ -23,7 +23,7 @@ Global lookup tables
 
 global_varunitID
 ^^^^^^^^^^^^^^^^
-The *global_varunitID* table stores variable units for those compilations whose values involve different units of measurement. Data tables with invariant variable units, however, do not feature explicit units fields. 
+The *global_varunitID* table stores **variable units** for those compilations whose values involve different units of measurement. Data tables with invariant variable units, however, do not feature explicit units fields. 
 
 .. csv-table::
    :file: ./csv_tables/global_varunitID.csv
@@ -41,7 +41,7 @@ The *global_varunitID* table stores variable units for those compilations whose 
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
-The *global_GrainSize* table, focusing on granulomety, stores the *type of (sedimentary rock) material sampled*, serving several collections as for intance CRN denudation ("MATERIAL"), expage ("MATERIAL"), and SahulSed ("SED_MAT").
+The *global_GrainSize* table, focusing on granulomety, stores the **type of (sedimentary rock) material sampled**, serving several collections as for intance CRN denudation ("MATERIAL"), expage ("MATERIAL"), and SahulSed ("SED_MAT").
 
 .. csv-table::
    :file: ./csv_tables/global_GrainSize.csv
