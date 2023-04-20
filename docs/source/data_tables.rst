@@ -41,8 +41,7 @@ The *global_varunitID* table stores variable units for those compilations whose 
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
-| ``DRAFT`` The *global_GrainSize* table stores the *type of material sampled* (= "MATERIAL" in CRN denudation and expage tables, = "SED_MAT" in SahulSed tables).
-| ... :ref:`global_GrainSize_Fields`
+The *global_GrainSize* table stores the *type of material sampled*, thus serving several collections as for intance CRN denudation ("MATERIAL") and expage ("MATERIAL"), and SahulSed ("SED_MAT").
 
 .. csv-table::
    :file: ./csv_tables/global_GrainSize.csv
@@ -50,7 +49,7 @@ global_GrainSize
 
 * GRNSIZEID -- A unique identifier (auto-incrementing serial integer)
 
-* GRNSIZE -- Name of grain size fraction / material
+* GRNSIZE -- Name of grain size fraction / material. For available values refer to :ref:`global_GrainSize_Fields`
 
 * GRNSIZEABB -- Unique abbreviation of "GRNSIZE"
 
