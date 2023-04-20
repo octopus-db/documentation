@@ -193,6 +193,7 @@ The *global_biomeID* table stores iconic biome types that allow for a coarse cha
 
 global_dbDOI
 ^^^^^^^^^^^^
+``DRAFT`` The *global_dbDOI* table ...
 
 ..  _global_ibraID:
 
