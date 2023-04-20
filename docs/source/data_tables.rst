@@ -6,6 +6,7 @@ Data tables and their fields
 | ``DRAFT`` --> data type abbreviations, key abbreviations, not null, parent (link to https://www.postgresql.org/docs/11/datatype.html)
 
 .. note::
+
 To ensure database integrity, any OCTOPUS db relation features a "CREATED_AT" (= *record timestamp* with timezone based on UTC) and a "UPDATED_AT" (= *timestamp of record update* with timezone based on UTC) field, respectively. Those fields are populated upon db action, however, are not displayed as part of this documentation for the sake of readability.
 
 ..  _Global_tables:
