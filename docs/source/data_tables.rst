@@ -23,7 +23,7 @@ Global lookup tables
 
 global_varunitID
 ^^^^^^^^^^^^^^^^
-The *global_varunitID* table stores variable units for those compilations whose values involve different units of measurement. Data tables with contant variable units, however, do not feature explicit units fields. 
+The *global_varunitID* table stores variable units for those compilations whose values involve different units of measurement. Data tables with invariant variable units, however, do not feature explicit units fields. 
 
 .. csv-table::
    :file: ./csv_tables/global_varunitID.csv
