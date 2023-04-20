@@ -1108,9 +1108,9 @@ expage_points_EPSG3857
 
 .. rubric:: Footnotes
 
-.. [#] primary key
-.. [#] unique key
-.. [#] foreign key
+.. [#] `Primary key <https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS>`_
+.. [#] `Unique key <https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS>`_
+.. [#] `Foreign key <https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-FK>`_
 .. [#] PostgreSQL view: `https://www.postgresql.org/docs/current/sql-createview.html <https://www.postgresql.org/docs/current/sql-createview.html>`_
 .. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
