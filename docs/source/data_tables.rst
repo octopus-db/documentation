@@ -70,7 +70,7 @@ global_MetaSite
 
 global_SiteCode
 ^^^^^^^^^^^^^^^
-The *global_SiteCode* table stores **site types characterising the dominant attribute of a site**
+The *global_SiteCode* table stores **site types characterising the dominant attribute of a site**.
 
 .. csv-table::
    :file: ./csv_tables/global_SiteCode.csv
@@ -88,7 +88,11 @@ The *global_SiteCode* table stores **site types characterising the dominant attr
 
 global_SiteMaster
 ^^^^^^^^^^^^^^^^^
-``DRAFT`` The *global_SiteMaster* table ...
+The *global_SiteMaster* table stores an information set that enables **georeferencing and description of a sampled site**.
+
+.. note::
+
+    Site coordinates for both SahulArch and FosSahul collections, for cultural reasons, were obfuscated within a radius of 25 km. Spatial data for those collections includes sample locations as circular polygons.
 
 ========== ============== =========== ==== ======== ======================
 Field      Data type      Unit        Key  Not Null Parent
