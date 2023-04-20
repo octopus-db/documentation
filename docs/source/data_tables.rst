@@ -23,7 +23,7 @@ Global lookup tables
 
 global_varunitID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` The *global_varunitID* table ... :ref:`global_varunitID_Fields`
+The *global_varunitID* table stores variable units for those compilations whose values involve different units of measurement. Data tables with contant variable units, however, do not feature explicit units fields. 
 
 .. csv-table::
    :file: ./csv_tables/global_varunitID.csv
@@ -33,7 +33,7 @@ global_varunitID
 
 * V_UNITABBR -- Unique abbreviation of "V_UNITNAME"
 
-* V_UNITNAME -- Unit name
+* V_UNITNAME -- Unit name. For available values refer to :ref:`global_varunitID_Fields`
 
 * PARENTID -- Is fkey. Refers to ordinally higher ranking "V_UNITID"
 
