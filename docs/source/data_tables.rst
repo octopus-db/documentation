@@ -219,7 +219,7 @@ The *global_ibraID* table stores the location code of a site within the relevant
 
 global_rivID
 ^^^^^^^^^^^^
-The *global_rivID* table stores the **Geofabric AHGF river name** (http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426) of the river that drains the catchment of sample origin.
+The *global_rivID* table stores the **Geofabric AHGF river name/region code** (http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426) of the river that drains the catchment of sample origin.
 
 .. csv-table::
    :file: ./csv_tables/global_rivID.csv
