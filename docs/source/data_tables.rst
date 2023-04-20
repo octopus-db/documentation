@@ -199,7 +199,7 @@ global_dbDOI
 
 global_ibraID
 ^^^^^^^^^^^^^
-``DRAFT`` The *global_ibraID* table ... :ref:`global_ibraID_Fields`
+The *global_ibraID* table stores the location code of a site within the relevant bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7) framework.
 
 .. csv-table::
    :file: ./csv_tables/global_ibraID.csv
@@ -207,17 +207,19 @@ global_ibraID
 
 * IBRAID -- Unique identifier (serial integer)
 
-* IBRACODE -- The location code of the site within the relevant bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7) framework. *Only used for data from Australia*
+* IBRACODE -- IBRA code. For available values refer to :ref:`global_ibraID_Fields`
 
-* IBRAREGION -- The location of the site within the relevant bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7) framework. *Only used for data from Australia*
+* IBRAREGION -- IBRA region name. For available values refer to :ref:`global_ibraID_Fields`
 
-For available values refer to :ref:`global_ibraID_Fields`
+.. note::
+
+    The IBRA classificatiuon system applies to data from Australia only.
 
 ..  _global_rivID:
 
 global_rivID
 ^^^^^^^^^^^^
-``DRAFT`` The *global_rivID* table ... :ref:`global_rivID_Fields`
+The *global_rivID* table stores the **Geofabric AHGF river name** (http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426) of the river that drains the catchment of sample origin.
 
 .. csv-table::
    :file: ./csv_tables/global_rivID.csv
@@ -225,15 +227,17 @@ global_rivID
 
 * RIVID -- Unique identifier (serial integer)
 
-* AHGFL1 -- Geofabric AHGF river region code. *Only used for data from Australia*
+* AHGFL1 -- Geofabric AHGF river region code
 
-* AHGFL2 -- Geofabric AHGF combined river region code (“AHGLF1”) and topographic drainage division two-digit number. *Only used for data from Australia*
+* AHGFL2 -- Geofabric AHGF combined river region code (“AHGLF1”) and topographic drainage division two-digit number
 
-* RIVNAME -- Geofabric AHGF river name. *Only used for data from Australia*. A full list of AHGF river names and codes is available at: http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426
+* RIVNAME -- Geofabric AHGF river name. For available values refer to :ref:`global_rivID_Fields`
 
-* RIVDIV -- Geofabric AHGF river division name. *Only used for data from Australia*
+* RIVDIV -- Geofabric AHGF river division name
 
-For available values refer to :ref:`global_rivID_Fields`
+.. note::
+
+    The Geofabric classificatiuon system applies to data from Australia only.
 
 ..  _spatial_ref_sys:
 
