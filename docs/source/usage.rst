@@ -193,8 +193,6 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
    
 ----
 
-|
-
 Web interface
 -------------
 
