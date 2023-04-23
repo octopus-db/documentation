@@ -1,0 +1,9 @@
+﻿GEOMMODID,GEOMMOD
+-9999,ND
+0,"No modifier, i.e., 'normal' dune"
+1,Lacustrine source bordering
+2,Lakefloor
+3,Fluvial source bordering
+4,Obstacle
+5,Coastal
+6,Blowout
