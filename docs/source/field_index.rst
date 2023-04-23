@@ -166,8 +166,6 @@ cabah_chemprepID Fields
 cabah_col_mtdID Fields
 ~~~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
 .. csv-table::
    :file: ./csv_tables/cabah_col_mtdID_FIELDS.csv
    :header-rows: 1
