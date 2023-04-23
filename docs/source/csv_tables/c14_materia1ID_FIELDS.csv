@@ -1,0 +1,12 @@
+﻿MATERIA1ID,MATERIAL1,MATERIA1AB
+-9999,no data,ND
+1,Biogenic Carbonate,CarbBio
+2,Inorganic Carbonate,CarbInorg
+3,Charred Plant,Charred
+4,Faunal,Faunal
+5,Oxalate,Oxalate
+6,Paint,Paint
+7,Plant,Plant
+8,Sediment,Sediment
+9,Other,Other
+10,Mix of materials,Bulk

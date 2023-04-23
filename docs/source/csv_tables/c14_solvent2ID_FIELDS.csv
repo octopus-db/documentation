@@ -1,0 +1,11 @@
+﻿SOLVENT2ID,SOLVENT2,SOLVENT2AB
+-9999,no data,ND
+1,Methanol,Met
+2,Ethanol,Eth
+3,Chloroform,Chl
+4,Dichloromethane,Dic
+5,Toluene,Tol
+6,Hexane,Hex
+7,Chloroform: Methanol,Chl:Met
+8,Dichloromethane: Methanol,Dic:Met
+9,Other,Other
