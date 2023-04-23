@@ -63,8 +63,6 @@ Detailed information about Australia's bioregions classification rationale and m
 global_rivID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- `http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426 <http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426>`_
-
 +-------+--------+--------+---------------------+---------------------+
 | RIVID | AHGFL1 | AHGFL2 | RIVNAME             | RIVDIV              |
 +=======+========+========+=====================+=====================+
@@ -624,6 +622,8 @@ global_rivID Fields
 | 218   | TTS    | TTS_25 | Buckingham River    | Tanami-Timor Sea    |
 |       |        |        |                     | Coast               |
 +-------+--------+--------+---------------------+---------------------+
+
+Detailed information about the Australian Hydrological Geospatial Fabric (Geofabric) classification rationale and model can be found at  `http://www.bom.gov.au/water/geofabric/ <http://www.bom.gov.au/water/geofabric/>`_.
 
 .. note::
 
