@@ -1007,18 +1007,9 @@ c14_solvent2ID Fields
 c_mtdID Fields
 ~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-======= ==================== =======
-C_MTDID C_MTD                C_MTDAB
-======= ==================== =======
--9999   ND                   ND
-1       IR mass spectrometry IRMS
-2       Elemental analyser   Elemt
-3       CRD spectroscopy     CRDS
-4       Volumetric           Vol
-5       Other                Other
-======= ==================== =======
+.. csv-table::
+   :file: ./csv_tables/c_mtdID_FIELDS.csv
+   :header-rows: 1
 
 ----
 
