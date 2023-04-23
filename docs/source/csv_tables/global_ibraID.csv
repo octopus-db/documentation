@@ -1,4 +1,4 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 IBRAID,int2,,pkey,TRUE,
-IBRACODE,varchar(3),,,TRUE,
-IBRAREGION,text,,,,
+IBRACODE,varchar(3),,ukey,TRUE,
+IBRAREGION,text,,ukey,TRUE,
