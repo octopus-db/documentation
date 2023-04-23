@@ -87,26 +87,9 @@ global_varunitID Fields
 global_PubType Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-========= =============
-PUBTYPEID PUBTYPE
-========= =============
-1         article
-2         book
-3         booklet
-4         conference
-5         inbook
-6         incollection
-7         inproceedings
-8         manual
-9         mastersthesis
-10        misc
-11        phdthesis
-12        proceedings
-13        techreport
-14        unpublished
-15        pers_comm
-16        online
-========= =============
+.. csv-table::
+   :file: ./csv_tables/global_PubType_FIELDS.csv
+   :header-rows: 1
 
 * **article** [#]_ -- An article from a journal or magazine. *Required fields*: author, title, journal, year. *Optional fields*: volume, number, pages, month, note.
 
