@@ -48,7 +48,7 @@ Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010),
 global_ibraID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- `https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes <https://www.dcceew.gov.au/environment/land/nrs/science/ibra/ibra7-codes>`_
+Information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
 
 ====== ======== =============================
 IBRAID IBRACODE IBRAREGION
