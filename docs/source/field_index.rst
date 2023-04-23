@@ -17,7 +17,7 @@ global_GrainSize Fields
    :file: ./csv_tables/global_GrainSize_FIELDS.csv
    :header-rows: 1
 
-* -- "GRNSIZEMIN" and "GRNSIZEMAX" unit is *mm*.
+The unit for both fields "GRNSIZEMIN" and "GRNSIZEMAX" is *mm*.
 
 ..  _global_SiteCode_Fields:
 
