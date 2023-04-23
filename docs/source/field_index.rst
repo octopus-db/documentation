@@ -657,7 +657,7 @@ ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
 25       ND     ND                 0      
 ======== ====== ================== ====== ==========
 
-Values for crn_alstndID.**"ALSTNDCOMT"** field as follows ...
+Values for crn_alstndID."ALSTNDCOMT" field as follows ...
 
 * IDs 1, 2	-- ETH-Zurich standard, former Cologne standard, equivalent to ZAL94
 * IDs 3, 4	-- ANSTO, equivalent to KNSTD
@@ -814,7 +814,7 @@ crn_amsID Fields
 |       |                        | University (CHN)            |
 +-------+------------------------+-----------------------------+
 
-Values for crn_amsID.**"AMSURL"** field as follows ...
+Values for crn_amsID."AMSURL" field as follows ...
 
 * IDs 1, 2	-- https://www.ansto.gov.au/accelerator-mass-spectrometry
 * IDs 3, 4	-- https://physics.anu.edu.au/nuclear/research/ams/
@@ -905,7 +905,7 @@ BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
 59       ND             ND                     0      
 ======== ============== ====================== ====== ==========
 
-Values for crn_bestndID.**"BESTNDCOMT"** as follows ...
+Values for crn_bestndID."BESTNDCOMT" as follows ...
 
 * IDs 1, 2	-- Nishiizumi et al, 2007 (NIM-B v. 258, p. 403)
 * IDs 3, 4	-- Standard used at PRIME, equivalent to 07KNSTD
