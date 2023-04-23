@@ -963,7 +963,7 @@ c14_contamID Fields
 ~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/c14_contamID.csv
+   :file: ./csv_tables/c14_contamID_FIELDS.csv
    :header-rows: 1
 
 ..  _c14_hum_modID_Fields:
@@ -972,7 +972,7 @@ c14_hum_modID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/c14_hum_modID.csv
+   :file: ./csv_tables/c14_hum_modID_FIELDS.csv
    :header-rows: 1
 
 ..  _c14_materia1ID_Fields:
@@ -981,7 +981,7 @@ c14_materia1ID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/c14_materia1ID.csv
+   :file: ./csv_tables/c14_materia1ID_FIELDS.csv
    :header-rows: 1
 
 ..  _c14_materia2ID_Fields:
@@ -990,7 +990,7 @@ c14_materia2ID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/c14_materia2ID.csv
+   :file: ./csv_tables/c14_materia2ID_FIELDS.csv
    :header-rows: 1
 
 ..  _c14_solvent2ID_Fields:
@@ -999,7 +999,7 @@ c14_solvent2ID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/c14_solvent2ID.csv
+   :file: ./csv_tables/c14_solvent2ID_FIELDS.csv
    :header-rows: 1
 
 ..  _c_mtdID_Fields:
