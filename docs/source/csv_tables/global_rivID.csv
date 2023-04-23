@@ -1,6 +1,6 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 RIVID,int2,,pkey,TRUE,
-AHGFL1,varchar(3),,,,
+AHGFL1,varchar(3),,,TRUE,
 AHGFL2,varchar(6),,ukey,TRUE,
 RIVNAME,text,,,,
 RIVDIV,text,,,,
