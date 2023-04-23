@@ -1083,142 +1083,27 @@ sed_sitetypeID Fields
 fos_chemtypeID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========== ====================================== ==============
-CHEMTYPEID CHEMTYPE                               CHEMTYPEAB
-========== ====================================== ==============
--9999      no data                                ND
--9991      not applicable                         NA
-1          Acid-alkali-acid and decalcification   AAA_decal
-2          ABA_BC technique                       ABA-BC
-3          Acid-base-oxidation stepped combustion ABOx-SC
-4          Acetic acid treatment                  Acetic
-5          Alkali wash                            Alkali_wash
-6          Etching                                Etch
-7          Filtration                             Filtration
-8          Gelatinisation                         Gelatinisation
-9          Hydrochloric acid etching              HCl_etch
-10         Hydrocloric acid wash                  HCl_wash
-11         Treatment with HCl and NaOH            HCl,NaOH
-12         Leaching                               Leach
-13         Boiling in saturated NaCl solution     NaCl_boil
-14         no treatment                           No
-15         not reported                           Not_rep
-16         Ultrafiltration                        Ultra
-17         Wash                                   Wash
-18         for other treatment (see attachment)   Other
-========== ====================================== ==============
-
+.. csv-table::
+   :file: ./csv_tables/fos_chemtypeID_FIELDS.csv
+   :header-rows: 1
 
 ..  _fos_fosmat1ID_Fields:
 
 fos_fosmat1ID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========= ======================================== ============
-FOSMAT1ID FOSMAT1                                  FOSMAT1ABB
-========= ======================================== ============
--9999     no data                                  ND
--9991     not applicable                           NA
-1         Bone                                     Bone
-2         Bulk bone                                Bone_bulk
-3         Multiple bones                           Bone_mult
-4         Calcite filling in bone                  Calc_bone
-5         Calcite straw (reworked in bone breccia) Calc_straw
-6         Calcite within tooth                     Calc_tooth
-7         Carcass remains                          Carcass
-8         Calcite cement                           Cement
-9         Charcoal                                 Charcoal
-10        Diprotodon crop content                  Dipto_crop
-11        Eggshell                                 Eggshell
-12        Fireplace                                Fireplace
-13        Fish otolith                             Fish_olth
-14        Flowstone                                Flow
-15        Flowstone (oldest)                       Flow_old
-16        Flowstone straw                          Flow_straw
-17        Flowstone (youngest)                     Flow_young
-18        Gut content                              Gut
-19        Sarcophilus hair                         Hair_sarco
-20        Midden                                   Midden
-21        Carbonate nodule                         Nodule
-22        Plant remains                            Plant
-23        Post-depositional formation              Post-deposit
-24        Sediment                                 Sed
-25        Shell                                    Shell
-26        Marine shell                             Shell_mare
-27        Skull                                    Skull
-28        Skull (dentary)                          Skull_dnty
-29        Skull (maxilla)                          Skull_max
-30        Snail shell                              Snail
-31        Speleothem                               Speleo
-32        Coralline speleothem                     Speleo_coral
-33        Tooth                                    Tooth
-34        Wood                                     Wood
-35        for other                                Other
-========= ======================================== ============
-
+.. csv-table::
+   :file: ./csv_tables/fos_fosmat1ID_FIELDS.csv
+   :header-rows: 1
 
 ..  _fos_fosmat2ID_Fields:
 
 fos_fosmat2ID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========= ================================= =================
-FOSMAT2ID FOSMAT2                           FOSMAT2ABB
-========= ================================= =================
--9999     no data                           ND
--9991     not applicable                    NA
-1         Apatite                           Apatite
-2         Bone                              Bone
-3         Multiple bones                    Bone_mult
-4         Burnt bone                        Bone_burnt
-5         Calcite                           Calcite
-6         Carbonate                         Carb
-7         Charcoal                          Charcoal
-8         Cellulose                         Cellulose
-9         Collagen                          Collagen
-10        Dentine                           Dentine
-11        Dentine/Enamel                    Dentine/Enamel
-12        Eggshell                          Eggshell
-13        Enamel                            Enamel
-14        Flesh                             Flesh
-15        Gelatine extract                  Gelatine_extr
-16        Gelatine fraction                 Gelatine_frac
-17        Hair                              Hair
-18        Acid and alkali insoluble residue Insoble
-19        Acid insoluble fraction           Insoble_acid_frac
-20        Acid insoluble residue            Insoble_acid_res
-21        Molar                             Molar
-22        Organic band                      Organic_layer
-23        Organic carbon residue            Organic_carb
-24        Organic fraction                  Organic_frac
-25        Organic material                  Organic_mat
-26        Otolith                           Otolith
-27        Peat                              Peat
-28        Carbonaceous pellet               Pellet_carb
-29        Leaf, seed and stem fragments     Plant
-30        Quartz                            Quartz
-31        Celtis seed                       Seed_celtis
-32        Shell                             Shell
-33        Shell (Velesunio ambiguous)       Shell_veles
-34        Bulk soil organics                Soil
-35        Marine shell                      Shell_mare
-36        Speleothem                        Speleo
-37        Straw stalactite                  Stalactite
-38        Tooth                             Tooth
-39        Tooth from breccia                Tooth_breccia
-40        Wood                              Wood
-41        Burnt wood                        Wood_burnt
-42        Carbonised wood                   Wood_carb
-43        for other                         Other
-44        Charcoal (assumed)                Charcoal?
-45        Sediment                          Sed
-========= ================================= =================
+.. csv-table::
+   :file: ./csv_tables/fos_fosmat2ID_FIELDS.csv
+   :header-rows: 1
 
 
 ..  _fos_mtdsID_Fields:
@@ -1226,22 +1111,9 @@ FOSMAT2ID FOSMAT2                           FOSMAT2ABB
 fos_mtdsID Fields
 ~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========== ============================================ ==========
-FOS_MTDSID FOS_MTDSUB                                   FOS_MTDSAB
-========== ============================================ ==========
--9999      ND                                           ND
--9991      NA                                           NA
-1          Accelerator Mass Spectroscopy                AMS
-2          C13 adjusted                                 C13_adj
-3          Early uptake ESR                             EU
-4          Inductively Coupled Plasma Mass Spectrometry ICP-MS
-5          Linear uptake ESR                            LU
-6          Multicollector ICP-MS                        MC-ICP-MS
-7          Thermal Ionization Mass Spectrometry         TIMS
-8          Thermally-transferred                        TT
-========== ============================================ ==========
+.. csv-table::
+   :file: ./csv_tables/fos_mtdsID_FIELDS.csv
+   :header-rows: 1
 
 
 .. rubric:: Footnotes
