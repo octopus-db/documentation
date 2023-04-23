@@ -1018,201 +1018,63 @@ c_mtdID Fields
 sed_depconID Fields
 ~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-======== ==========================
-DEPCONID DEPCON
-======== ==========================
--9999    ND
-1        Isolated dune
-2        Dunefield
-3        Aeolian cap on beach ridge
-4        Sandsheet
-5        Coastal shoreline
-======== ==========================
+.. csv-table::
+   :file: ./csv_tables/sed_depconID_FIELDS.csv
+   :header-rows: 1
 
 ..  _sed_faciesID_Fields:
 
 sed_faciesID Fields
 ~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-======== ================================
-FACIESID FACIES
-======== ================================
--9999    ND
-1        Channel
-2        Overbank
-3        Beach / Shoreline
-4        Deep-water lacustrine
-5        Shallow-water lacustrine
-6        Near-shore lacustrine
-7        Lacustrine (water depth unclear)
-8        Playa
-9        Calcareous deposits
-======== ================================
+.. csv-table::
+   :file: ./csv_tables/sed_faciesID_FIELDS.csv
+   :header-rows: 1
 
 ..  _sed_geommodID_Fields:
 
 sed_geommodID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========= ================================
-GEOMMODID GEOMMOD
-========= ================================
--9999     ND
-0         No modifier, i.e., 'normal' dune
-1         Lacustrine source bordering
-2         Lakefloor
-3         Fluvial source bordering
-4         Obstacle
-5         Coastal
-6         Blowout
-========= ================================
+.. csv-table::
+   :file: ./csv_tables/sed_geommodID_FIELDS.csv
+   :header-rows: 1
 
 ..  _sed_geotypeID_Fields:
 
 sed_geotypeID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========= ===================
-GEOTYPEID GEOTYPE
-========= ===================
--9999     ND
-1         Terrace
-2         Floodplain
-3         Alluvial fan
-4         Bench
-5         Island
-6         Slack water deposit
-7         Levee
-8         Dune
-9         Sandsheet
-10        Beach / Shoreline
-11        Nearshore deposit
-12        Lake floor
-13        Lakeshore terrace
-14        Deflated cliff
-15        Bar
-========= ===================
+.. csv-table::
+   :file: ./csv_tables/sed_geotypeID_FIELDS.csv
+   :header-rows: 1
 
 ..  _sed_laketypeID_Fields:
 
 sed_laketypeID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========== ================================ ========
-LAKETYPEID LAKETYPE                         PARENTID
-========== ================================ ========
--9999      ND                               -9999
-1          Tectonic lake                    11
-2          Landslide lake                   11
-3          Crater lake (volcanic)           15
-4          Oxbow lake                       31
-5          Playa lake                       11
-6          Fen                              50
-7          Swamp                            50
-8          Lagoon                           11
-9          Lake (unknown origin)            10
-10         Lake (non-specific)              10
-11         Natural lake                     10
-12         Natural lake (unknown origin)    11
-13         Artificial lake                  10
-14         Artificial lake (unknown origin) 13
-15         Volcanic lake                    11
-16         Caldera lake                     15
-17         Lava flow dammed lake            15
-18         Glacial lake                     11
-19         Glacial meltwater channel lake   18
-20         Glacial scour lake               18
-21         Kettle lake                      18
-22         Cirque lake                      18
-23         Proglacial lake                  18
-24         Subglacial lake                  18
-25         Finger lake                      18
-26         Valley glacier lake              18
-27         Glacial outburst flood lake      18
-28         Ice thrust lake                  18
-29         Moraine dammed lake              18
-30         Drift filled valley lake         18
-31         Fluvial lake                     11
-32         Meander lake                     31
-33         Fluviatile dam lake              31
-34         Lateral lake                     31
-35         Floodplain lake                  31
-36         Plunge pool lake                 31
-37         Alluvial fan dammed lake         31
-38         Flood scour lake                 31
-39         Fluvial terrace lake             31
-40         Drained lake                     11
-41         Backwater lake                   31
-42         Solution lake                    11
-43         Karst pond                       42
-44         Underground lake                 42
-45         Aeolian lake                     11
-46         Deflation basin lake             45
-47         Dune dammed lake                 45
-48         Interdunal lake                  45
-49         Shoreline lake                   11
-50         Organic lake                     11
-51         Lake marginal fen                50
-52         Anthropogenic lake               13
-53         Reservoir                        13
-54         Meteorite impact lake            11
-55         Peat lake                        50
-56         Periglacial lake                 11
-57         Thermokarst lake                 56
-========== ================================ ========
+.. csv-table::
+   :file: ./csv_tables/sed_laketypeID_FIELDS.csv
+   :header-rows: 1
 
 ..  _sed_morphID_Fields:
 
 sed_morphID Fields
 ~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-======= ====================
-MORPHID MORPH
-======= ====================
--9999   ND
-0       no modifier
-1       Climbing
-2       Falling
-3       Foredune
-4       Longitudinal
-5       Lunette
-6       Nebkha
-7       Network
-8       Parabolic
-9       Sand sheet
-10      Transverse
-11      Transverse shoreline
-======= ====================
+.. csv-table::
+   :file: ./csv_tables/sed_morphID_FIELDS.csv
+   :header-rows: 1
 
 ..  _sed_sitetypeID_Fields:
 
 sed_sitetypeID Fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
-========== ==============================
-SITETYPEID SITETYPE
-========== ==============================
--9999      ND
-1          Outcrop
-2          Core
-3          Auger hole
-4          Pit or Quarry
-5          Artificial excavation (trench)
-========== ==============================
+.. csv-table::
+   :file: ./csv_tables/sed_sitetypeID_FIELDS.csv
+   :header-rows: 1
 
 ----
 
