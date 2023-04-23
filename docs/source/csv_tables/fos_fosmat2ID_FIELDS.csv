@@ -1,0 +1,48 @@
+﻿FOSMAT2ID,FOSMAT2,FOSMAT2ABB
+-9999,no data,ND
+-9991,not applicable,NA
+1,Apatite,Apatite
+2,Bone,Bone
+3,Multiple bones,Bone_mult
+4,Burnt bone,Bone_burnt
+5,Calcite,Calcite
+6,Carbonate,Carb
+7,Charcoal,Charcoal
+8,Cellulose,Cellulose
+9,Collagen,Collagen
+10,Dentine,Dentine
+11,Dentine/Enamel,Dentine/Enamel
+12,Eggshell,Eggshell
+13,Enamel,Enamel
+14,Flesh,Flesh
+15,Gelatine extract,Gelatine_extr
+16,Gelatine fraction,Gelatine_frac
+17,Hair,Hair
+18,Acid and alkali insoluble residue,Insoble
+19,Acid insoluble fraction,Insoble_acid_frac
+20,Acid insoluble residue,Insoble_acid_res
+21,Molar,Molar
+22,Organic band,Organic_layer
+23,Organic carbon residue,Organic_carb
+24,Organic fraction,Organic_frac
+25,Organic material,Organic_mat
+26,Otolith,Otolith
+27,Peat,Peat
+28,Carbonaceous pellet,Pellet_carb
+29,"Leaf, seed and stem fragments",Plant
+30,Quartz,Quartz
+31,Celtis seed,Seed_celtis
+32,Shell,Shell
+33,Shell (Velesunio ambiguous),Shell_veles
+34,Bulk soil organics,Soil
+35,Marine shell,Shell_mare
+36,Speleothem,Speleo
+37,Straw stalactite,Stalactite
+38,Tooth,Tooth
+39,Tooth from breccia,Tooth_breccia
+40,Wood,Wood
+41,Burnt wood,Wood_burnt
+42,Carbonised wood,Wood_carb
+43,for other,Other
+44,Charcoal (assumed),Charcoal?
+45,Sediment,Sed

@@ -1,0 +1,38 @@
+﻿FOSMAT1ID,FOSMAT1,FOSMAT1ABB
+-9999,no data,ND
+-9991,not applicable,NA
+1,Bone,Bone
+2,Bulk bone,Bone_bulk
+3,Multiple bones,Bone_mult
+4,Calcite filling in bone,Calc_bone
+5,Calcite straw (reworked in bone breccia),Calc_straw
+6,Calcite within tooth,Calc_tooth
+7,Carcass remains,Carcass
+8,Calcite cement,Cement
+9,Charcoal,Charcoal
+10,Diprotodon crop content,Dipto_crop
+11,Eggshell,Eggshell
+12,Fireplace,Fireplace
+13,Fish otolith,Fish_olth
+14,Flowstone,Flow
+15,Flowstone (oldest),Flow_old
+16,Flowstone straw,Flow_straw
+17,Flowstone (youngest),Flow_young
+18,Gut content,Gut
+19,Sarcophilus hair,Hair_sarco
+20,Midden,Midden
+21,Carbonate nodule,Nodule
+22,Plant remains,Plant
+23,Post-depositional formation,Post-deposit
+24,Sediment,Sed
+25,Shell,Shell
+26,Marine shell,Shell_mare
+27,Skull,Skull
+28,Skull (dentary),Skull_dnty
+29,Skull (maxilla),Skull_max
+30,Snail shell,Snail
+31,Speleothem,Speleo
+32,Coralline speleothem,Speleo_coral
+33,Tooth,Tooth
+34,Wood,Wood
+35,for other,Other

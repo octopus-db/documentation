@@ -1,0 +1,11 @@
+﻿FOS_MTDSID,FOS_MTDSUB,FOS_MTDSAB
+-9999,ND,ND
+-9991,NA,NA
+1,Accelerator Mass Spectroscopy,AMS
+2,C13 adjusted,C13_adj
+3,Early uptake ESR,EU
+4,Inductively Coupled Plasma Mass Spectrometry,ICP-MS
+5,Linear uptake ESR,LU
+6,Multicollector ICP-MS,MC-ICP-MS
+7,Thermal Ionization Mass Spectrometry,TIMS
+8,Thermally-transferred,TT

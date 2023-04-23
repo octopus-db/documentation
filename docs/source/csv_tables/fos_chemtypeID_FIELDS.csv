@@ -1,0 +1,21 @@
+﻿CHEMTYPEID,CHEMTYPE,CHEMTYPEAB
+-9999,no data,ND
+-9991,not applicable,NA
+1,Acid-alkali-acid and decalcification,AAA_decal
+2,ABA_BC technique,ABA-BC
+3,Acid-base-oxidation stepped combustion,ABOx-SC
+4,Acetic acid treatment,Acetic
+5,Alkali wash,Alkali_wash
+6,Etching,Etch
+7,Filtration,Filtration
+8,Gelatinisation,Gelatinisation
+9,Hydrochloric acid etching,HCl_etch
+10,Hydrocloric acid wash,HCl_wash
+11,Treatment with HCl and NaOH,"HCl,NaOH"
+12,Leaching,Leach
+13,Boiling in saturated NaCl solution,NaCl_boil
+14,no treatment,No
+15,not reported,Not_rep
+16,Ultrafiltration,Ultra
+17,Wash,Wash
+18,for other treatment (see attachment),Other
