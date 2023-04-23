@@ -147,8 +147,6 @@ PUBTYPEID PUBTYPE
 cabah_chemprepID Fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-``Draft`` -- 
-
 .. csv-table::
    :file: ./csv_tables/cabah_chemprepID_FIELDS.csv
    :header-rows: 1
