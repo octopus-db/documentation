@@ -54,7 +54,7 @@ global_ibraID Fields
 
 Detailed information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
 
-.. note::
+.. warning::
 
    The *global_ibraID* table only applies to samples from Australia.
 
@@ -69,7 +69,7 @@ global_rivID Fields
 
 Detailed information about the Australian Hydrological Geospatial Fabric (Geofabric) classification rationale and model can be found at  `http://www.bom.gov.au/water/geofabric/ <http://www.bom.gov.au/water/geofabric/>`_.
 
-.. note::
+.. warning::
 
    The *global_rivID* table only applies to samples from Australia.
 
