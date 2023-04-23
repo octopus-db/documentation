@@ -1,6 +1,6 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 GRNSIZEID,int2,,pkey,TRUE,
-GRNSIZE,text,,,TRUE,
-GRNSIZEABB,varchar(6),,ukey,,
+GRNSIZE,text,,ukey,TRUE,
+GRNSIZEABB,varchar(6),,ukey,TRUE,
 GRNSIZEMIN,"numeric(7,4)",mm,,,
 GRNSIZEMAX,"numeric(7,4)",mm,,,
