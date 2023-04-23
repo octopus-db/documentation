@@ -984,7 +984,6 @@ c14_materia1ID Fields
    :file: ./csv_tables/c14_materia1ID.csv
    :header-rows: 1
 
-
 ..  _c14_materia2ID_Fields:
 
 c14_materia2ID Fields
