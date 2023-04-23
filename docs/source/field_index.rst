@@ -48,8 +48,6 @@ Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010),
 global_ibraID Fields
 ~~~~~~~~~~~~~~~~~~~~
 
-Information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
-
 ====== ======== =============================
 IBRAID IBRACODE IBRAREGION
 ====== ======== =============================
@@ -144,6 +142,8 @@ IBRAID IBRACODE IBRAREGION
 88     WET      Wet Tropics
 89     YAL      Yalgoo
 ====== ======== =============================
+
+Detailed information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
 
 .. note::
 
