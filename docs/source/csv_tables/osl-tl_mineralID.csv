@@ -1,4 +1,4 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 MINERALID,int2 seq.,,pkey,TRUE,
-MINERAL,text,,,TRUE,
-MINERALABB,text,,,,
+MINERAL,text,,ukey,TRUE,
+MINERALABB,text,,ukey,TRUE,
