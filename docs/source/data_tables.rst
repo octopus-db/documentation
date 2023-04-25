@@ -670,9 +670,9 @@ The *crn_amsID* table stores information about **Acceleration Mass Spectrometer 
 
 * AMSID -- A unique identifier (auto-incrementing serial integer)
 
-* AMS -- Abbreviated AMS name
+* AMS -- Abbreviated AMS name. For available values refer to :ref:`crn_amsID_Fields`
 
-* AMSORG -- Full name of AMS facility
+* AMSORG -- Full name of AMS facility. For available values refer to :ref:`crn_amsID_Fields`
 
 * AMSURL -- AMS url
 
