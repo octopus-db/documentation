@@ -704,7 +704,7 @@ The *crn_studies_boundingbox* table is a **CRN denudation spatial features table
 
 * geom -- WKT [#]_ notification of bounding box geometry
 
-* STUDYID -- CRN study ID
+* STUDYID -- :ref:`CRN` study ID
 
 SahulArch tables
 ~~~~~~~~~~~~~~~~
