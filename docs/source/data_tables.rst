@@ -694,7 +694,7 @@ The *crn_projepsgID* table stores **study-specific projection information** (EPS
 
 crn_studies_boundingbox
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *crn_studies_boundingbox* table is a **CRN denudation** *spatial features table* (polygons, EPSG:900913) where bounding boxes delimit study extents, respectively.
+The *crn_studies_boundingbox* table is a **CRN denudation spatial features table** (polygons, EPSG:900913) whose bounding boxes define study extents, respectively.
 
 .. csv-table::
    :file: ./csv_tables/crn_studies_boundingbox.csv
@@ -702,7 +702,7 @@ The *crn_studies_boundingbox* table is a **CRN denudation** *spatial features ta
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- WKT [#]_ notifikation of bounding box geometry
+* geom -- WKT [#]_ notification of bounding box geometry
 
 * STUDYID -- CRN study ID
 
