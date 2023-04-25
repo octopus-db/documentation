@@ -1,0 +1,9 @@
+﻿OSL_TYPEID,OSL_TYPE,OSL_TYPEAB
+-9999,no data,ND
+1,Infrared Stimulated Luminescence,IRSL
+2,Multiple Elevated Temperature post-Infrared IRSL,MET-pIRIR
+3,Optically Stimulated Luminescence,OSL
+4,Post-Infrared IRSL (2-step),pIRIR
+5,Thermally Transferred OSL,TT-OSL
+6,Violet Stimulated Luminescence,VSL
+7,undefined OSL type,Other

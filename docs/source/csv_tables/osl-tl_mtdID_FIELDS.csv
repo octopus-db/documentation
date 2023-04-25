@@ -1,0 +1,34 @@
+﻿MTDID,MTD,MTDAB
+-9999,no data,ND
+-9991,not applicable,NA
+1,Atomic Absorption Spectroscopy,AAS
+2,Flame Photometry,F
+3,In-situ Gamma Spectrometry,FGS
+4,Combined In-situ Gamma Spectrometry and Neutron Activation Analysis,FGS+NAA
+5,Geiger-Müller Beta Counting,GMBC
+6,combined GMBC and FGS results,GMBC+FGS
+7,High-Resolution Gamma-ray Spectrometry,HRGS
+8,Combined High-Resolution Gamma-ray Spectrometry and In-situ Gamma Spectrometry,HRGS&FGS
+9,Combined HRGS and High-resolution alpha-spectrometry,HRGS&HRAS
+10,Mean of HRGS and XRF,HRGS&XRF
+11,Inductively Coupled Plasma Atomic or Optical Emission Spectroscopy,ICP-A/OES
+12,Inductively Coupled Plasma Mass Spectrometry,ICP-MS
+13,Combined ICP-MS and –A/OES results,ICP-MS+ICP-A/OES
+14,Neutron Activation Analysis,NAA
+15,Combined NAA and In-situ Gamma Spectrometry results,NAA+FGS
+16,Mean of NAA and HRGS,NAA+HRGS
+17,Combined Neutron Activation Analysis and Inductively Coupled Plasma Mass Spectrometry,NAA+ICP-MS
+18,Neutron Activation Analysis (+Potassium),NAA+K
+19,Mean of NAA and TSAC,NAA+TSAC
+20,Mean of NAA and XRF,NAA+XRF
+21,Thick Source Alpha Counting,TSAC
+22,Thick Source Alpha Counting + Geiger-Müller Beta Counting,TSAC+GMBC
+23,Thick Source Alpha Counting (+Potassium),TSAC+K
+24,X-ray Fluorescence,XRF
+25,Other,Other
+26,TBA,DNA+TSAC
+27,Combined Neutron Activation Analysis and Inductively Coupled Plasma Atomic or Optical Emission Spectroscopy,NAA+ICP-A/OES
+28,Combined X-ray Fluorescence and Inductively Coupled Plasma Atomic or Optical Emission Spectroscopy,XRF+ICP-A/OES
+29,Combined Neutron Activation Analysis and Inductively Coupled Plasma Mass Spectrometry (+Potassium),NAA+ICP-MS+K
+31,Flame Atomic Emission Spectroscopy,F-AES
+32,Combined AES and XRF results,AES+XRF

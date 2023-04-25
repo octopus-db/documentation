@@ -1,0 +1,8 @@
+﻿ED_PROCID,ED_PROC,ED_PROCABR
+-9999,no data,ND
+1,‘Australian Slide’,AS
+2,Combined Regenerative and Additive Method,CRAM
+3,Multiple Aliquot Additive Dose,MAAD
+4,Multiple Aliquot Regenerative Dose,MAR
+5,Single Aliquot Regenerative Dose,SAR
+6,Single Aliquot Additive Dose,SAAD
