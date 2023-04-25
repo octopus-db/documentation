@@ -505,7 +505,7 @@ Cosmogenics tables
 
 crn_alstndID
 ^^^^^^^^^^^^
-``DRAFT`` The *crn_alstndID* table ...
+The *crn_alstndID* table stores **Al standards, correction factors, ratios and related information**.
 
 .. csv-table::
    :file: ./csv_tables/crn_alstndID.csv
@@ -513,15 +513,15 @@ crn_alstndID
 
 * ALSTNDID -- A unique identifier (auto-incrementing serial integer)
 
-* ALSTND -- 
+* ALSTND -- Al meta-standard equivalent to "ALSTND_PUB"
 
-* ALSTND_PUB -- 
+* ALSTND_PUB -- Published Al standard
 
-* ALCORR -- 
+* ALCORR -- Al correction factor
 
-* ALSTNDRTIO -- 
+* ALSTNDRTIO -- Al standard ratio
 
-* ALSTNDCOMT -- 
+* ALSTNDCOMT -- Al standard comment
 
 For available values refer to :ref:`crn_alstndID_Fields`
 
@@ -529,7 +529,7 @@ For available values refer to :ref:`crn_alstndID_Fields`
 
 crn_bestndID
 ^^^^^^^^^^^^
-``DRAFT`` The *crn_bestndID* table ...
+The *crn_bestndID* table stores **Be standards, correction factors, ratios and related information**.
 
 .. csv-table::
    :file: ./csv_tables/crn_bestndID.csv
@@ -537,15 +537,15 @@ crn_bestndID
 
 * BESTNDID -- A unique identifier (auto-incrementing serial integer)
 
-* BESTND -- 
+* BESTND -- Be meta-standard equivalent to "BeSTND_PUB"
 
-* BESTND_PUB -- 
+* BESTND_PUB -- Published Al standard
 
-* BECORR -- 
+* BECORR -- Be correction factor
 
-* BESTNDRTIO -- 
+* BESTNDRTIO -- Be standard ratio
 
-* BESTNDCOMT -- 
+* BESTNDCOMT -- Be standard comment
 
 For available values refer to :ref:`crn_bestndID_Fields`
 
