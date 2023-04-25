@@ -22,7 +22,7 @@ The unit for both fields "GRNSIZEMIN" and "GRNSIZEMAX" is *mm*.
 ..  _global_SiteCode_Fields:
 
 global_SiteCode Fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_SiteCode_FIELDS.csv
