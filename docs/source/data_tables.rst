@@ -680,21 +680,21 @@ The *crn_amsID* table stores information about **Acceleration Mass Spectrometer 
 
 crn_projepsgID
 ^^^^^^^^^^^^^^
-``DRAFT`` The *crn_projepsgID* table ...
+The *crn_projepsgID* table stores **study-specific projection information** (EPSG and human readable), i.e., the particular UTM projected coordinate system used for (re)calculations.
 
 .. csv-table::
    :file: ./csv_tables/crn_projepsgID.csv
    :header-rows: 1
 
-* PROJEPSGID -- A unique identifier (auto-incrementing serial integer)
+* PROJEPSGID -- EPSG [#]_ projection code, used as unique identifier
 
 * PROJECTION -- For available values refer to :ref:`crn_projepsgID_Fields`
 
-..  _crn_projepsgID:
+..  _crn_studies_boundingbox:
 
 crn_studies_boundingbox
 ^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *crn_studies_boundingbox* table ...
+The *crn_studies_boundingbox* table is a **CRN denudation** *spatial features table* (polygons, EPSG:900913) where bounding boxes delimit study extents, respectively.
 
 .. csv-table::
    :file: ./csv_tables/crn_studies_boundingbox.csv
@@ -702,9 +702,9 @@ crn_studies_boundingbox
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom -- WKT [#]_ notifikation of bounding box geometry
 
-* STUDYID -- 
+* STUDYID -- CRN study ID
 
 SahulArch tables
 ~~~~~~~~~~~~~~~~
@@ -1123,3 +1123,5 @@ expage_points_EPSG3857
 .. [#] PostgreSQL view: `https://www.postgresql.org/docs/current/sql-createview.html <https://www.postgresql.org/docs/current/sql-createview.html>`_
 .. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
+.. [#] https://epsg.org/
+.. [#] Well Known Text (https://postgis.net/docs/manual-1.4/ch04.html#id417971)
