@@ -1,4 +1,4 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 OSL_TYPEID,int2 seq.,,pkey,TRUE,
-OSL_TYPE,text,,,TRUE,
-OSL_TYPEAB,text,,,,
+OSL_TYPE,text,,ukey,TRUE,
+OSL_TYPEAB,text,,ukey,TRUE,
