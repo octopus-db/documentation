@@ -662,7 +662,7 @@ CRN tables
 
 crn_amsID
 ^^^^^^^^^
-``DRAFT`` The *crn_amsID* table ...
+The *crn_amsID* table stores information about **Acceleration Mass Spectrometer (AMS)** facilities.
 
 .. csv-table::
    :file: ./csv_tables/crn_amsID.csv
@@ -670,11 +670,11 @@ crn_amsID
 
 * AMSID -- A unique identifier (auto-incrementing serial integer)
 
-* AMS -- 
+* AMS -- Abbreviated AMS name
 
-* AMSORG -- 
+* AMSORG -- Full name of AMS facility
 
-* AMSURL --
+* AMSURL -- AMS url
 
 ..  _crn_projepsgID:
 
