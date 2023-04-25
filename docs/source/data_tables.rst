@@ -556,7 +556,7 @@ Luminescence tables
 
 osl-tl_agemodelID
 ^^^^^^^^^^^^^^^^^
-``DRAFT`` The *osl-tl_agemodelID* table ...
+The *osl-tl_agemodelID* table stored the **model used to combine individual equivalent dose estimates for age determination**.
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_agemodelID.csv
@@ -572,7 +572,7 @@ osl-tl_agemodelID
 
 osl-tl_ed_procID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` The *osl-tl_ed_procID* table ...
+The *osl-tl_ed_procID* table stores the **reported procedure used to determine sample equivalent dose for OSL and TL methods**.
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_ed_procID.csv
@@ -588,7 +588,7 @@ osl-tl_ed_procID
 
 osl-tl_lum_matID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` The *osl-tl_lum_matID* table ... 
+The *osl-tl_lum_matID* table stores the **type of sample material used for OSL and TL dating**.
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_lum_matID.csv
@@ -604,7 +604,7 @@ osl-tl_lum_matID
 
 osl-tl_mineralID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` The *osl-tl_mineralID* table ...
+The *osl-tl_mineralID* table stores the **type of mineral used for equivalent dose determination**.
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_mineralID.csv
@@ -620,7 +620,7 @@ osl-tl_mineralID
 
 osl-tl_mtdID
 ^^^^^^^^^^^^
-``DRAFT`` The *osl-tl_mtdID* table ...
+The *osl-tl_mtdID* table stores the **method used to determine a certain element concentration of the sample** resp. the **method used to determine an external dose rate**.
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_mtdID.csv
@@ -636,7 +636,7 @@ osl-tl_mtdID
 
 osl_typeID
 ^^^^^^^^^^
-``DRAFT`` The *osl_typeID* table ...
+The *osl_typeID* table stores the *published OSL type used to determine equivalent dose*.
 
 .. csv-table::
    :file: ./csv_tables/osl_typeID.csv
