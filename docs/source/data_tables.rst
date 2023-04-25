@@ -351,25 +351,25 @@ global_Author
    :file: ./csv_tables/global_Author.csv
    :header-rows: 1
 
-* OAID -- 
+* OAID -- A unique identifier
 
-* AUTH -- 
+* AUTH -- Author family name. If the author is not an individual, but a corporation, '(Corp.)' will be added to the abbreviated corporation name, both of which will be followed by the full corporation name is for instance 'ALA (Corp.) Atlas of Living Australia (online)'. For corporations, "FORENAME":"WSCC_RESID" fields must not be populated.
 
-* FORENAME -- 
+* FORENAME -- Auhtor given name(s)
 
-* INITIALS -- 
+* INITIALS -- Given name(s) initial(s) incl. full stop and divided by space char.
 
-* ORCID -- 
+* ORCID -- Open Researcher and Contributor ID (https://info.orcid.org/what-is-orcid/). **Preferred external identifier!**
 
-* SCOPUSID -- 
+* SCOPUSID -- Scopus ID (https://www.scopus.com)
 
-* WSCC_RESID -- 
+* WSCC_RESID -- Web of Science author ID (currently owned by Clarivate, https://clarivate.com/). Only relevant in case "ORCID" and "SCOPUSID" are not available
 
-* AUTH_COMMT -- 
+* AUTH_COMMT -- Free text comment field
 
-* AUTH_URL -- ... if "AUTH" is a corporation
+* AUTH_URL -- URL field. Only used if "AUTH" is a corporation
 
-* URL_DATE -- ... only applicable if "AUTH_URL" is not null
+* URL_DATE -- Date of "AUTH_URL" visit. Only applicable if "AUTH_URL" is not null
 
 ..  _global_Journal:
 
