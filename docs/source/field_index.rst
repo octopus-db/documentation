@@ -1034,7 +1034,7 @@ osl-tl_ed_procID Fields
 ..  _osl-tl_lum_matID_Fields:
 
 osl-tl_lum_matID Fields
-^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_lum_matID_FIELDS.csv
