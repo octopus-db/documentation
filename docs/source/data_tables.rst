@@ -31,7 +31,7 @@ The *global_varunitID* table stores **variable units** for those compilations wh
 
 * V_UNITID -- A unique identifier (auto-incrementing serial integer)
 
-* V_UNITABBR -- Unique abbreviation of "V_UNITNAME"
+* V_UNITABBR -- Unique abbreviation of "V_UNITNAME". For available values refer to :ref:`global_varunitID_Fields`
 
 * V_UNITNAME -- Unit name. For available values refer to :ref:`global_varunitID_Fields`
 
@@ -566,7 +566,7 @@ The *osl-tl_agemodelID* table stores the **model used to combine individual equi
 
 * AGEMODEL -- For available values refer to :ref:`osl-tl_agemodelID_Fields`
 
-* AGEMODELAB -- For available values refer to :ref:`osl-tl_agemodelID_Fields`
+* AGEMODELAB -- Unique abbreviation of "AGEMODEL". For available values refer to :ref:`osl-tl_agemodelID_Fields`
 
 ..  _osl-tl_ed_procID:
 
@@ -582,7 +582,7 @@ The *osl-tl_ed_procID* table stores the **reported procedure used to determine s
 
 * ED_PROC -- For available values refer to :ref:`osl-tl_ed_procID_Fields`
 
-* ED_PROCABR -- For available values refer to :ref:`osl-tl_ed_procID_Fields`
+* ED_PROCABR -- Unique abbreviation of "ED_PROC". For available values refer to :ref:`osl-tl_ed_procID_Fields`
 
 ..  _osl-tl_lum_matID:
 
@@ -598,7 +598,7 @@ The *osl-tl_lum_matID* table stores the **type of sample material used for OSL a
 
 * LUM_MAT -- For available values refer to :ref:`osl-tl_lum_matID_Fields`
 
-* LUM_MATABB -- For available values refer to :ref:`osl-tl_lum_matID_Fields`
+* LUM_MATABB -- Unique abbreviation of "LUM_MAT". For available values refer to :ref:`osl-tl_lum_matID_Fields`
 
 ..  _osl-tl_mineralID:
 
@@ -614,7 +614,7 @@ The *osl-tl_mineralID* table stores the **type of mineral used for equivalent do
 
 * MINERAL -- For available values refer to :ref:`osl-tl_mineralID_Fields`
 
-* MINERALABB -- For available values refer to :ref:`osl-tl_mineralID_Fields`
+* MINERALABB -- Unique abbreviation of "MINERAL". For available values refer to :ref:`osl-tl_mineralID_Fields`
 
 ..  _osl-tl_mtdID:
 
@@ -630,7 +630,7 @@ The *osl-tl_mtdID* table stores the **method used to determine a certain element
 
 * MTD -- For available values refer to :ref:`osl-tl_mtdID_Fields`
 
-* MTDAB -- For available values refer to :ref:`osl-tl_mtdID_Fields`
+* MTDAB -- Unique abbreviation of "MTDAB". For available values refer to :ref:`osl-tl_mtdID_Fields`
 
 ..  _osl_typeID:
 
@@ -646,7 +646,7 @@ The *osl_typeID* table stores the **published OSL type used to determine equival
 
 * OSL_TYPE -- For available values refer to :ref:`osl_typeID_Fields`
 
-* OSL_TYPEAB -- For available values refer to :ref:`osl_typeID_Fields`
+* OSL_TYPEAB -- Unique abbreviation of "OSL_TYPE". For available values refer to :ref:`osl_typeID_Fields`
 
 ----
 
