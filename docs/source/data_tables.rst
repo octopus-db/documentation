@@ -556,7 +556,7 @@ Luminescence tables
 
 osl-tl_agemodelID
 ^^^^^^^^^^^^^^^^^
-The *osl-tl_agemodelID* table stored the **model used to combine individual equivalent dose estimates for age determination**.
+The *osl-tl_agemodelID* table stores the **model used to combine individual equivalent dose estimates for age determination**.
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_agemodelID.csv
