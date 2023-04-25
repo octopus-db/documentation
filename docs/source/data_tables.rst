@@ -395,7 +395,7 @@ The *global_Journal* table stores information about **peer-reviewed scientific j
 
 global_PubType
 ^^^^^^^^^^^^^^
-The *global_PubType* table stores **publication entry types according to BibTeX standards**.
+The *global_PubType* table stores **publication entry types** according to BibTeX standards.
 
 .. csv-table::
    :file: ./csv_tables/global_PubType.csv
@@ -409,6 +409,8 @@ The *global_PubType* table stores **publication entry types according to BibTeX 
 
 global_RefKeyword
 ^^^^^^^^^^^^^^^^^
+
+``DRAFT`` The *global_RefKeyword* table ...
 
 ----
 
