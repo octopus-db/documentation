@@ -1013,7 +1013,60 @@ c_mtdID Fields
 
 ----
 
-text
+..  _osl-tl_agemodelID_Fields:
+
+osl-tl_agemodelID Fields
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/osl-tl_agemodelID_FIELDS.csv
+   :header-rows: 1
+
+..  _osl-tl_ed_procID_Fields:
+
+osl-tl_ed_procID Fields
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/osl-tl_ed_procID_FIELDS.csv
+   :header-rows: 1
+
+..  _osl-tl_lum_matID_Fields:
+
+osl-tl_lum_matID Fields
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/osl-tl_lum_matID_FIELDS.csv
+   :header-rows: 1
+
+..  _osl-tl_mineralID_Fields:
+
+osl-tl_mineralID Fields
+^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/osl-tl_mineralID_FIELDS.csv
+   :header-rows: 1
+
+..  _osl-tl_mtdID_Fields:
+
+osl-tl_mtdID Fields
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/osl-tl_mtdID_FIELDS.csv
+   :header-rows: 1
+
+..  _osl_typeID_Fields:
+
+osl_typeID Fields
+^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/osl_typeID_FIELDS.csv
+   :header-rows: 1
+
 
 ----
 
