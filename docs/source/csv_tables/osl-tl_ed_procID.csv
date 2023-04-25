@@ -1,4 +1,4 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-ED_PROCID,int2 (seq.),,pkey,TRUE,
+ED_PROCID,int2 seq.,,pkey,TRUE,
 ED_PROC,text,,ukey,TRUE,
 ED_PROCABR,text,,ukey,TRUE,
