@@ -636,7 +636,7 @@ The *osl-tl_mtdID* table stores the **method used to determine a certain element
 
 osl_typeID
 ^^^^^^^^^^
-The *osl_typeID* table stores the *published OSL type used to determine equivalent dose*.
+The *osl_typeID* table stores the **published OSL type used to determine equivalent dose**.
 
 .. csv-table::
    :file: ./csv_tables/osl_typeID.csv
