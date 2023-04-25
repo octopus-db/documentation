@@ -468,7 +468,7 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
 
 cabah_col_mtdID
 ^^^^^^^^^^^^^^^
-``DRAFT`` The *cabah_col_mtdID* table ...
+The *cabah_col_mtdID* table stores the **sample collection method**.
 
 .. csv-table::
    :file: ./csv_tables/cabah_col_mtdID.csv
@@ -482,7 +482,7 @@ cabah_col_mtdID
 
 cabah_methodID
 ^^^^^^^^^^^^^^
-``DRAFT`` The *cabah_methodID* table ...
+The *cabah_methodID* table stores the **type of method used in age/rate determination**.
 
 .. csv-table::
    :file: ./csv_tables/cabah_methodID.csv
