@@ -353,13 +353,13 @@ global_Author
 
 * OAID -- A unique identifier
 
-* AUTH -- Author family name. If the author is not an individual, but a corporation, '(Corp.)' will be added to the abbreviated corporation name, both of which will be followed by the full corporation name is for instance 'ALA (Corp.) Atlas of Living Australia (online)'. For corporations, "FORENAME":"WSCC_RESID" fields must not be populated.
+* AUTH -- Author family name. If the author is not an individual, but a corporation, '(Corp.)' will be added to the abbreviated corporation name, both of which will be followed by the full corporation name as for instance 'ALA (Corp.) Atlas of Living Australia (online)'. For corporations "FORENAME" : "WSCC_RESID" fields must not be populated.
 
 * FORENAME -- Auhtor given name(s)
 
 * INITIALS -- Given name(s) initial(s) incl. full stop and divided by space char.
 
-* ORCID -- Open Researcher and Contributor ID (https://info.orcid.org/what-is-orcid/). **Preferred external identifier!**
+* ORCID -- Open Researcher and Contributor ID (https://info.orcid.org/what-is-orcid/). ORCID is the **preferred external identifier**!
 
 * SCOPUSID -- Scopus ID (https://www.scopus.com)
 
@@ -369,7 +369,7 @@ global_Author
 
 * AUTH_URL -- URL field. Only used if "AUTH" is a corporation
 
-* URL_DATE -- Date of "AUTH_URL" visit. Only applicable if "AUTH_URL" is not null
+* URL_DATE -- Date of "AUTH_URL" visit. Only applicable if "AUTH_URL" is not *NULL*
 
 ..  _global_Journal:
 
