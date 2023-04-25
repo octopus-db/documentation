@@ -458,7 +458,7 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
    :file: ./csv_tables/cabah_chemprepID.csv
    :header-rows: 1
 
-* CHEMPREPID -- A unique identifier (auto-incrementing serial integer)
+* CHEMPREPID -- A unique identifier
 
 * CHEMPREP -- For available values refer to :ref:`cabah_chemprepID_Fields`
 
