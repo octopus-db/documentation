@@ -1,4 +1,4 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 AGEMODELID,int2,,pkey,TRUE,
 AGEMODEL,text,,ukey,TRUE,
-AGEMODELAB,text,,ukey,,
+AGEMODELAB,text,,ukey,TRUE,
