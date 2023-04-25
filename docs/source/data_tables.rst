@@ -266,7 +266,7 @@ Global references tables
 
 global_RefCore
 ^^^^^^^^^^^^^^
-The *global_RefCore* table stores information that allow certain identification and citation of OCTOPUS collection data sources according to BibTeX [#]_ referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be *required*, some will be *optional*, and others will be *ignored* by BibTeX. Those three categories are defined in the :ref:`global_PubType_Fields` section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.
+The *global_RefCore* table stores information that allow certain **identification and citation of OCTOPUS collection data sources** according to BibTeX [#]_ referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be *required*, some will be *optional*, and others will be *ignored* by BibTeX. Those three categories are defined in the :ref:`global_PubType_Fields` section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.
 
 =========== =========== ==== ==== ======== ==================
 Field       Data type   Unit Key  Not Null Parent
@@ -331,7 +331,7 @@ SCHOOL      text
 
 global_RefAbstract
 ^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *global_RefAbstract* table stores publication abstracts for references in :ref:`global_RefCore`.
+The *global_RefAbstract* table stores **publication abstracts** for references in :ref:`global_RefCore`.
 
 .. csv-table::
    :file: ./csv_tables/global_RefAbstract.csv
@@ -345,7 +345,7 @@ global_RefAbstract
 
 global_Author
 ^^^^^^^^^^^^^
-``DRAFT`` The *global_Author* table ...
+The *global_Author* table stores information about **publication (first) authors**, which can be individuals or corporations.
 
 .. csv-table::
    :file: ./csv_tables/global_Author.csv
@@ -375,7 +375,7 @@ global_Author
 
 global_Journal
 ^^^^^^^^^^^^^^
-``DRAFT`` The *global_Journal* table ...
+The *global_Journal* table stores information about **peer-reviewed scientific journals**.
 
 .. csv-table::
    :file: ./csv_tables/global_Journal.csv
@@ -383,13 +383,13 @@ global_Journal
 
 * JOURNALID -- A unique identifier (auto-incrementing serial integer)
 
-* JOURNAL -- 
+* JOURNAL -- Journal title
 
 * JOURNALABB -- Abbreviated journal name according to https://images.webofknowledge.com/images/help/WOS/A_abrvjt.html
 
-* PRINT_ISSN -- 
+* PRINT_ISSN -- Print ISSN according to https://portal.issn.org
 
-* ONLIN_ISSN -- 
+* ONLIN_ISSN -- Online ISSN according to https://portal.issn.org
 
 ..  _global_PubType:
 
