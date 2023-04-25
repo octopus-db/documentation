@@ -426,7 +426,7 @@ Non-Cosmogenics tables
 
 cabah_LabCodes
 ^^^^^^^^^^^^^^
-``DRAFT`` The *cabah_LabCodes* table ...
+The *cabah_LabCodes* table stores information about the **lab of origin** for a certain C14 or luminescence observation, i.e., measurement. The labs have been identified automatically by their distinct labcode prefixes
 
 .. csv-table::
    :file: ./csv_tables/cabah_LabCodes.csv
@@ -434,19 +434,19 @@ cabah_LabCodes
 
 * LAB_ORIGID -- A unique identifier (auto-incrementing serial integer)
 
-* LAB_PREFIX -- 
+* LAB_PREFIX -- Lab prefix
 
-* LAB_FACLTY -- 
+* LAB_FACLTY -- Facility / institution of lab affiliation
 
-* CNTRY -- 
+* CNTRY -- Country of "LAB_FACLTY"
 
-* LAB_ACTIVE -- 
+* LAB_ACTIVE -- Whether the lab is active or not
 
-* LAB_MTD -- 
+* LAB_MTD -- Lab method (C14, OSL, TL)
 
-* LAB_URL -- 
+* LAB_URL -- Lab url
 
-* LAB_SOURCE -- 
+* LAB_SOURCE -- Source of information stored in a certain tuple. Major yources are 'Radiocarbon' (https://doi.org/10.1017/S0033822200038923) and 'RadonKiel' (https://radon.ufg.uni-kiel.de/labs).
 
 ..  _cabah_chemprepID:
 
