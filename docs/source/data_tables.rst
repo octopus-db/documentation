@@ -702,7 +702,7 @@ The *crn_studies_boundingbox* table is a **CRN denudation spatial features table
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- WKT [#]_ notification of bounding box geometry
+* geom -- WKT [#]_ notation of bounding box geometry
 
 * STUDYID -- :ref:`CRN` study ID
 
@@ -840,11 +840,11 @@ The *arch_c14_polygons_EPSG3857* table stores **spatial features** (i.e., polygo
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- WKT geometry 
+* geom -- WKT geometry notation
 
-* OBSID1 -- A unique identifier
+* OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
-* OBSID2 -- 
+* OBSID2 -- The original sample identifier (as published), if available
 
 ..  _arch_osl_polygons_EPSG3857:
 
@@ -858,11 +858,11 @@ The *arch_osl_polygons_EPSG3857* table stores **spatial features** (i.e., polygo
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom -- WKT geometry notation
 
-* OBSID1 -- 
+* OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
-* OBSID2 -- 
+* OBSID2 -- The original sample identifier (as published), if available
 
 ..  _arch_tl_polygons_EPSG3857:
 
@@ -876,11 +876,11 @@ The *arch_tl_polygons_EPSG3857* table stores **spatial features** (i.e., polygon
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom -- WKT geometry notation
 
-* OBSID1 -- 
+* OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
-* OBSID2 -- 
+* OBSID2 -- The original sample identifier (as published), if available
 
 SahulSed tables
 ~~~~~~~~~~~~~~~
@@ -997,11 +997,11 @@ sed-osl_points_EPSG3857
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom -- WKT geometry notation
 
-* OBSID1 -- 
+* OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
-* OBSID2 -- 
+* OBSID2 -- The original sample identifier (as published), if available
 
 ..  _sed-tl_points_EPSG3857:
 
@@ -1015,11 +1015,11 @@ sed-tl_points_EPSG3857
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom -- WKT geometry notation
 
-* OBSID1 -- 
+* OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
-* OBSID2 -- 
+* OBSID2 -- The original sample identifier (as published), if available
 
 FosSahul tables
 ~~~~~~~~~~~~~~~
@@ -1108,12 +1108,29 @@ fos_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` The *fos_polygons_EPSG3857* table ...
 
+* id -- A unique identifier (auto-incrementing serial integer)
+
+* geom -- WKT geometry notation
+
+* OBSID1 -- A unique identifier and one-to-one reference to a certain observation
+
+* OBSID2 -- The original sample identifier (as published), if available
+
 expage tables
 ~~~~~~~~~~~~~
 
 expage_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` The *expage_points_EPSG3857* table ...
+
+* id -- A unique identifier (auto-incrementing serial integer)
+
+* geom -- WKT geometry notation
+
+* OBSID1 -- A unique identifier and one-to-one reference to a certain observation
+
+* OBSID2 -- The original sample identifier (as published), if available
+
 
 .. rubric:: Footnotes
 
