@@ -187,7 +187,7 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
 
 **All done!**
 
-.. note::
+.. tip::
 
    Thanks to the very slick 'Mapview' [#]_ functionality, points of the original output map are mouse-over sensitive and can be queried in depth by clicking. Further, the map is scalable and you can choose between a decent selection of base map layers. Try it yourself in R or have a look at a fully functional copy of the above script on `RPubs <https://rpubs.com/HenryM/octopus_wfs>`_!
    
