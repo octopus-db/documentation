@@ -3,4 +3,4 @@ Community
 =========
 
 .. raw:: html
-   :file: filename.html
+   :file: ./OCTOPUS_dbschema/index.html
