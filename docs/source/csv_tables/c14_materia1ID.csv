@@ -1,4 +1,4 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 MATERIA1ID,int2,,pkey,TRUE,
-MATERIAL1,text,,,TRUE,
-MATERIA1AB,text,,,,
+MATERIAL1,text,,ukey,TRUE,
+MATERIA1AB,text,,ukey,TRUE,
