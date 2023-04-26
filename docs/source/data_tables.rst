@@ -832,7 +832,7 @@ The *c_mtdID* table stores the **method used to determine an element abundance/ 
 
 arch_c14_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *arch_c14_polygons_EPSG3857* table ...
+The *arch_c14_polygons_EPSG3857* table stores **spatial features** (i.e., polygons of the SahulArch/ Radiocarbon collection, EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/arch_c14_polygons_EPSG3857.csv
@@ -840,9 +840,9 @@ arch_c14_polygons_EPSG3857
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom -- WKT geometry 
 
-* OBSID1 -- 
+* OBSID1 -- A unique identifier
 
 * OBSID2 -- 
 
@@ -850,7 +850,7 @@ arch_c14_polygons_EPSG3857
 
 arch_osl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *arch_osl_polygons_EPSG3857* table ...
+The *arch_osl_polygons_EPSG3857* table stores **spatial features** (i.e., polygons of the SahulArch/ OSL collection, EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/arch_osl_polygons_EPSG3857.csv
@@ -868,7 +868,7 @@ arch_osl_polygons_EPSG3857
 
 arch_tl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *arch_tl_polygons_EPSG3857* table ...
+The *arch_tl_polygons_EPSG3857* table stores **spatial features** (i.e., polygons of the SahulArch/ TL collection, EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/arch_tl_polygons_EPSG3857.csv
