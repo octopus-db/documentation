@@ -713,7 +713,7 @@ SahulArch tables
 
 arch_featdatedID
 ^^^^^^^^^^^^^^^^
-``DRAFT`` The *arch_featdatedID* table ...
+The *arch_featdatedID* table stores information about **specific features dated**.
 
 .. csv-table::
    :file: ./csv_tables/arch_featdatedID.csv
@@ -727,7 +727,7 @@ arch_featdatedID
 
 c13_valID
 ^^^^^^^^^
-``DRAFT`` The *c13_valID* table ...
+The *c13_valID* table stores information whether **delta13C was measured or assumed**.
 
 .. csv-table::
    :file: ./csv_tables/c13_valID.csv
@@ -741,7 +741,7 @@ c13_valID
 
 c14_contamID
 ^^^^^^^^^^^^
-``DRAFT`` The *c14_contamID* table ...
+The *c14_contamID* table stores information about **specific contaminants that may have remained after C14 sample pretreatment**.
 
 .. csv-table::
    :file: ./csv_tables/c14_contamID.csv
@@ -756,7 +756,7 @@ c14_contamID
 
 c14_hum_modID
 ^^^^^^^^^^^^^
-``DRAFT`` The *c14_hum_modID* table ...
+The *c14_hum_modID* table stores information about **indications of human modification**.
 
 .. csv-table::
    :file: ./csv_tables/c14_hum_modID.csv
@@ -770,7 +770,7 @@ c14_hum_modID
 
 c14_materia1ID
 ^^^^^^^^^^^^^^
-``DRAFT`` The *c14_materia1ID* table ...
+The *c14_materia1ID* table stores information about the **type of sample material used for 14C dating**.
 
 .. csv-table::
    :file: ./csv_tables/c14_materia1ID.csv
@@ -786,7 +786,7 @@ c14_materia1ID
 
 c14_materia2ID
 ^^^^^^^^^^^^^^
-``DRAFT`` The *c14_materia2ID* table ...
+The *c14_materia2ID* table stores information about the **sub-type of sample material used for 14C dating**.
 
 .. csv-table::
    :file: ./csv_tables/c14_materia2ID.csv
@@ -800,7 +800,7 @@ c14_materia2ID
 
 c14_solvent2ID
 ^^^^^^^^^^^^^^
-``DRAFT`` The *c14_solvent2ID* table ...
+The *c14_solvent2ID* table stores the **solvent used** for C14 sample processing.
 
 .. csv-table::
    :file: ./csv_tables/c14_solvent2ID.csv
@@ -816,7 +816,7 @@ c14_solvent2ID
 
 c_mtdID
 ^^^^^^^
-``DRAFT`` The *c_mtdID* table ...
+The *c_mtdID* table stores the **method used to determine an element abundance/ ratio**.
 
 .. csv-table::
    :file: ./csv_tables/c_mtdID.csv
