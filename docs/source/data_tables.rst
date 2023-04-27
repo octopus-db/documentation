@@ -889,7 +889,7 @@ SahulSed tables
 
 sed_depconID
 ^^^^^^^^^^^^
-The *sed_depconID* table stores the **deposition context of sampled feature**.
+The *sed_depconID* table stores the **deposition context of a sampled feature**.
 
 .. csv-table::
    :file: ./csv_tables/sed_depconID.csv
@@ -917,7 +917,7 @@ The *sed_faciesID* table stores the **type of sedimentological facies**.
 
 sed_geommodID
 ^^^^^^^^^^^^^
-``DRAFT`` The *sed_geommodID* table ...
+The *sed_geommodID* table stores the **geomorphic modifier of a sampled feature**.
 
 .. csv-table::
    :file: ./csv_tables/sed_geommodID.csv
@@ -931,7 +931,7 @@ sed_geommodID
 
 sed_geotypeID
 ^^^^^^^^^^^^^
-``DRAFT`` The *sed_geotypeID* table ...
+The *sed_geotypeID* table stores the **geomorphological type of a sampled feature**.
 
 .. csv-table::
    :file: ./csv_tables/sed_geotypeID.csv
@@ -945,7 +945,7 @@ sed_geotypeID
 
 sed_laketypeID
 ^^^^^^^^^^^^^^
-``DRAFT`` The *sed_laketypeID* table ...
+The *sed_laketypeID* table stores the **type of (origin of) lake (formation)**.
 
 .. csv-table::
    :file: ./csv_tables/sed_laketypeID.csv
@@ -961,7 +961,7 @@ sed_laketypeID
 
 sed_morphID
 ^^^^^^^^^^^
-``DRAFT`` The *sed_morphID* table ...
+The *sed_morphID* table stores the **morphology of a sampled feature**.
 
 .. csv-table::
    :file: ./csv_tables/sed_morphID.csv
@@ -975,7 +975,7 @@ sed_morphID
 
 sed_sitetypeID
 ^^^^^^^^^^^^^^
-``DRAFT`` The *sed_sitetypeID* table ...
+The *sed_sitetypeID* table stores the **type of the site from which samples were extracted**.
 
 .. csv-table::
    :file: ./csv_tables/sed_sitetypeID.csv
