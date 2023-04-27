@@ -1028,25 +1028,37 @@ fos_TaxRank1_classID
 ^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** name.
 
+``Table to come``
+
 fos_TaxRank2_infraclaID
 ^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infraclass** name.
+
+``Table to come``
 
 fos_TaxRank3_ordrID
 ^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** name.
 
+``Table to come``
+
 fos_TaxRank4_familyID
 ^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** name.
+
+``Table to come``
 
 fos_TaxRank5_genusID
 ^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** name.
 
+``Table to come``
+
 fos_TaxRank6_speciesID
 ^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species** name.
+
+``Table to come``
 
 fos_chemtypeID
 ^^^^^^^^^^^^^^
@@ -1108,6 +1120,8 @@ fos_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^
 The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the FosSahul partner collection (EPSG:900913).
 
+``Table to come``
+
 * id -- A unique identifier (auto-incrementing serial integer)
 
 * geom -- WKT geometry notation
@@ -1122,6 +1136,8 @@ expage tables
 expage_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
 The *expage_points_EPSG3857* table stores spatial features, i.e., points of the expage partner collection (EPSG:900913).
+
+``Table to come``
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
