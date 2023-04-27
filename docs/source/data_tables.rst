@@ -989,7 +989,7 @@ The *sed_sitetypeID* table stores the **type of the site from which samples were
 
 sed-osl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *sed-osl_points_EPSG3857* table stores spatial features, i.e., points of the OSL collection (EPSG:900913).
+The *sed-osl_points_EPSG3857* table stores **spatial features**, i.e., points of the OSL collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/sed-osl_points_EPSG3857.csv
@@ -1007,7 +1007,7 @@ The *sed-osl_points_EPSG3857* table stores spatial features, i.e., points of the
 
 sed-tl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
-The *sed-tl_points_EPSG3857* table stores spatial features, i.e., points of the TL collection (EPSG:900913).
+The *sed-tl_points_EPSG3857* table stores **spatial features**, i.e., points of the TL collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/sed-tl_points_EPSG3857.csv
@@ -1026,27 +1026,27 @@ FosSahul tables
 
 fos_TaxRank1_classID
 ^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *fos_TaxRank1_classID* table ...
+The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** name.
 
 fos_TaxRank2_infraclaID
 ^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *fos_TaxRank2_infraclaID* table ...
+The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infraclass** name.
 
 fos_TaxRank3_ordrID
 ^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *fos_TaxRank3_ordrID* table ...
+The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** name.
 
 fos_TaxRank4_familyID
 ^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *fos_TaxRank4_familyID* table ...
+The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** name.
 
 fos_TaxRank5_genusID
 ^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *fos_TaxRank5_genusID* table ...
+The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** name.
 
 fos_TaxRank6_speciesID
 ^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *fos_TaxRank6_speciesID* table ...
+The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species** name.
 
 fos_chemtypeID
 ^^^^^^^^^^^^^^
