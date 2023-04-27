@@ -1,4 +1,4 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-FOSMAT1ID,int2,,pkey,TRUE,
+FOSMAT1ID,int2 seq.,,pkey,TRUE,
 FOSMAT1,text,,ukey,TRUE,
 FOSMAT1ABB,text,,ukey,TRUE,
