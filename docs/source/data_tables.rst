@@ -889,7 +889,7 @@ SahulSed tables
 
 sed_depconID
 ^^^^^^^^^^^^
-``DRAFT`` The *sed_depconID* table ...
+The *sed_depconID* table stores the **deposition context of sampled feature**.
 
 .. csv-table::
    :file: ./csv_tables/sed_depconID.csv
@@ -903,7 +903,7 @@ sed_depconID
 
 sed_faciesID
 ^^^^^^^^^^^^
-``DRAFT`` The *sed_faciesID* table ...
+The *sed_faciesID* table stores the **type of sedimentological facies**.
 
 .. csv-table::
    :file: ./csv_tables/sed_faciesID.csv
