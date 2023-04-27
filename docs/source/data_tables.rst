@@ -832,7 +832,7 @@ The *c_mtdID* table stores the **method used to determine an element abundance/ 
 
 arch_c14_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *arch_c14_polygons_EPSG3857* table stores **spatial features** (i.e., polygons of the SahulArch/ Radiocarbon collection, EPSG:900913).
+The *arch_c14_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the SahulArch/ Radiocarbon collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/arch_c14_polygons_EPSG3857.csv
@@ -850,7 +850,7 @@ The *arch_c14_polygons_EPSG3857* table stores **spatial features** (i.e., polygo
 
 arch_osl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *arch_osl_polygons_EPSG3857* table stores **spatial features** (i.e., polygons of the SahulArch/ OSL collection, EPSG:900913).
+The *arch_osl_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the SahulArch/ OSL collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/arch_osl_polygons_EPSG3857.csv
@@ -868,7 +868,7 @@ The *arch_osl_polygons_EPSG3857* table stores **spatial features** (i.e., polygo
 
 arch_tl_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-The *arch_tl_polygons_EPSG3857* table stores **spatial features** (i.e., polygons of the SahulArch/ TL collection, EPSG:900913).
+The *arch_tl_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the SahulArch/ TL collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/arch_tl_polygons_EPSG3857.csv
@@ -989,7 +989,7 @@ The *sed_sitetypeID* table stores the **type of the site from which samples were
 
 sed-osl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *sed-osl_points_EPSG3857* table ...
+The *sed-osl_points_EPSG3857* table stores spatial features, i.e., points of the OSL collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/sed-osl_points_EPSG3857.csv
@@ -1007,7 +1007,7 @@ sed-osl_points_EPSG3857
 
 sed-tl_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *sed-tl_points_EPSG3857* table ...
+The *sed-tl_points_EPSG3857* table stores spatial features, i.e., points of the TL collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/sed-tl_points_EPSG3857.csv
@@ -1106,7 +1106,7 @@ The *fos_mtdsID* table stores the type of **method used in age determination**.
 
 fos_polygons_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *fos_polygons_EPSG3857* table ...
+The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the FosSahul partner collection (EPSG:900913).
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
@@ -1121,7 +1121,7 @@ expage tables
 
 expage_points_EPSG3857
 ^^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *expage_points_EPSG3857* table ...
+The *expage_points_EPSG3857* table stores spatial features, i.e., points of the expage partner collection (EPSG:900913).
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
