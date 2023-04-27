@@ -1,3 +1,3 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
-GEOTYPEID,int2,,pkey,TRUE,
-GEOTYPE,text,,,TRUE,
+GEOTYPEID,int2 seq.,,pkey,TRUE,
+GEOTYPE,text,,ukey,TRUE,
