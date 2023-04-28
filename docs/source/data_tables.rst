@@ -13,6 +13,7 @@ PostgreSQL data types, constraints, and foreign key principles are comprehensibl
 
 Global tables
 -------------
+This section features information about :ref:`Global_lookup_tables`, :ref:`Global_georeferencing_tables`, and :ref:`Global_references_tables`. The latter relations form the part of OCTOPUS db that allows for certain identification of data sources resp. publications.
 
 ..  _Global_lookup_tables:
 
@@ -56,6 +57,9 @@ The *global_GrainSize* table, focusing on granulomety, stores the **type of (sed
 * GRNSIZEMIN -- Lower grainsize fraction limit, if applicable
 
 * GRNSIZEMAX -- Upper grain size fraction limit, if applicable
+
+
+..  _Global_georeferencing_tables:
 
 Global georeferencing tables
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -258,6 +262,9 @@ The *spatial_ref_sys* table comes with PostgreSQL's PostGIS extention. As an OGC
 * srtext -- The Well-Known Text representation of the Spatial Reference System
 
 * proj4text -- PostGIS uses the Proj4 library to provide coordinate transformation capabilities. The PROJ4TEXT column contains the Proj4 coordinate definition string for a particular SRID
+
+
+..  _Global_references_tables:
 
 Global references tables
 ~~~~~~~~~~~~~~~~~~~~~~~~
