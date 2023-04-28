@@ -68,8 +68,7 @@ Global georeferencing tables
 
 global_MetaSite
 ^^^^^^^^^^^^^^^
-``DRAFT`` The *global_MetaSite* table ... TEST TEST TEST
-
+``DRAFT`` The *global_MetaSite* table ...
 ..  _global_SiteCode:
 
 global_SiteCode
