@@ -83,7 +83,7 @@ CRN Large Basins
 
 SahulArch
 ~~~~~~~~~
-SahulArch is a collection triplet of published **radiometric ages for archaeological records from Sahul**. Sample locations were obfuscated within a radius of 25 km and spatial data includes sample locations as circular polygons. The data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information. For more detailed information see `Saktura et al. 2023 <https://doi.org/10.1080/03122417.2022.2159751>`_.
+SahulArch is a collection triplet of published **radiometric ages for archaeological records from Sahul**. Sample locations were obfuscated within a radius of 25 km and spatial data includes sample locations as circular polygons. The data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information. For more detailed information refer to `Saktura et al. 2023 <https://doi.org/10.1080/03122417.2022.2159751>`_.
 
 
 ..  _The_SahulArch_Radiocarbon_collection:
