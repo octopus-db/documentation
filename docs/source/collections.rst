@@ -8,9 +8,14 @@ OCTOPUS database knows two levels of sub-collection integration - :ref:`core col
 Core collections
 ----------------
 
+..  _CRN:
+
 CRN
 ~~~~
 OCTOPUS CRN branch features collections of published **cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates** inferred from these data. Ancillary spatial data includes: sample site location (point), basin outline (polygon), digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files for the recalculation of denudation rates using the CAIRN model [#]_. **All denudation rates were recalculated and harmonised** using CAIRN.
+
+
+..  _CRN_Australia:
 
 CRN Australia
 """""""""""""
@@ -30,6 +35,9 @@ CRN Australia
 | **DOI**
 | http://dx.doi.org/10.25900/mpr9-yn15
 
+
+..  _CRN_International:
+
 CRN International
 """""""""""""""""
 | *A global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia*
@@ -47,6 +55,9 @@ CRN International
 | Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.
 | **DOI**
 | http://dx.doi.org/10.25900/g76f-0h45
+
+
+..  _CRN_Large_Basins:
 
 CRN Large Basins
 """""""""""""""""
@@ -68,9 +79,14 @@ CRN Large Basins
 
 ----
 
+..  _SahulArch:
+
 SahulArch
 ~~~~~~~~~
 SahulArch is a collection triplet of published **radiometric ages for archaeological records from Sahul**. Sample locations were obfuscated within a radius of 25 km and spatial data includes sample locations as circular polygons. The data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
+
+
+..  _The_SahulArch_Radiocarbon_collection:
 
 The SahulArch Radiocarbon collection
 """"""""""""""""""""""""""""""""""""
@@ -90,6 +106,9 @@ The SahulArch Radiocarbon collection
 | **DOI**
 | https://doi.org/10.25900/gpvr-ay04
 
+
+..  _The_SahulArch_OSL_collection:
+
 The SahulArch OSL collection
 """"""""""""""""""""""""""""
 | *A database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul*
@@ -107,6 +126,9 @@ The SahulArch OSL collection
 | Saktura W.M., Rehn E., Munack H., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch OSL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).
 | **DOI**
 | https://doi.org/10.25900/9y07-4j77
+
+
+..  _The_SahulArch_TL_collection:
 
 The SahulArch TL collection
 """""""""""""""""""""""""""
@@ -128,9 +150,14 @@ The SahulArch TL collection
 
 ----
 
+..  _SahulSed:
+
 SahulSed
 ~~~~~~~~
 OCTOPUS collection set of published **optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul**. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
+
+
+..  _The_SahulSed_Aeolian_OSL_collection:
 
 The SahulSed Aeolian OSL collection
 """""""""""""""""""""""""""""""""""
@@ -150,6 +177,9 @@ The SahulSed Aeolian OSL collection
 | **DOI**
 | https://doi.org/10.25900/5jcw-tn50
 
+
+..  _The_SahulSed_Aeolian_TL_collection:
+
 The SahulSed Aeolian TL collection
 """"""""""""""""""""""""""""""""""
 | *A database of published thermoluminescence (TL) ages for aeolian sedimentary records from Sahul*
@@ -167,6 +197,9 @@ The SahulSed Aeolian TL collection
 | Cohen T.J., Fu X., Hesse P., Price D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Aeolian TL collection. Sahul-wide database of published sedimentary records with radiometric ages.
 | **DOI**
 | https://doi.org/10.25900/a2k9-kj43
+
+
+..  _The_SahulSed_Fluvial_OSL_collection:
 
 The SahulSed Fluvial OSL collection
 """""""""""""""""""""""""""""""""""
@@ -186,6 +219,9 @@ The SahulSed Fluvial OSL collection
 | **DOI**
 | https://doi.org/10.25900/p5ye-rn35
 
+
+..  _The_SahulSed_Fluvial_TL_collection:
+
 The SahulSed Fluvial TL collection
 """"""""""""""""""""""""""""""""""
 | *A database of published thermoluminescence (TL) ages for fluvial sedimentary records from Sahul*
@@ -204,6 +240,9 @@ The SahulSed Fluvial TL collection
 | **DOI**
 | https://doi.org/10.25900/2a76-vw55
 
+
+..  _The_SahulSed_Lacustrine_OSL_collection:
+
 The SahulSed Lacustrine OSL collection
 """"""""""""""""""""""""""""""""""""""
 | *A database of published optically stimulated luminescence (OSL) ages for lacustrine sedimentary records from Sahul*
@@ -221,6 +260,9 @@ The SahulSed Lacustrine OSL collection
 | Cohen T.J., Fu X., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.
 | **DOI**
 | https://doi.org/10.25900/6hmv-zz61
+
+
+..  _The_SahulSed_Lacustrine_TL_collection:
 
 The SahulSed Lacustrine TL collection
 """""""""""""""""""""""""""""""""""""
@@ -245,6 +287,9 @@ The SahulSed Lacustrine TL collection
 Partner collections
 -------------------
 
+
+..  _FosSahul:
+
 FosSahul
 ~~~~~~~~
 | *A database of quality-rated dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
@@ -262,6 +307,9 @@ FosSahul
 | Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
 | **DOI**
 | https://doi.org/10.1038/s41597-019-0267-3
+
+
+..  _expage:
 
 expage
 ~~~~~~
