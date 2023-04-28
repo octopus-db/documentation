@@ -41,7 +41,7 @@ The *global_varunitID* table stores **variable units** for those compilations wh
 
 global_GrainSize
 ^^^^^^^^^^^^^^^^
-The *global_GrainSize* table, focusing on granulomety, stores the **type of (sedimentary rock) material sampled**, serving several collections as for intance :ref:`CRN` ("MATERIAL"), :ref:`expage` ("MATERIAL"), and :ref:`SahulSed` ("SED_MAT").
+The *global_GrainSize* table, focusing on granulomety, stores the **type of (sedimentary rock) material sampled**, serving several collections as for instance :ref:`CRN` ("MATERIAL"), :ref:`expage` ("MATERIAL"), and :ref:`SahulSed` ("SED_MAT").
 
 .. csv-table::
    :file: ./csv_tables/global_GrainSize.csv
