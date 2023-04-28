@@ -13,7 +13,7 @@ PostgreSQL data types, constraints, and foreign key principles are comprehensibl
 
 Global tables
 -------------
-This section features information about :ref:`Global_lookup_tables`, :ref:`Global_georeferencing_tables`, and :ref:`Global_references_tables`. The latter relations form the part of OCTOPUS db that allows for certain identification of data sources resp. publications.
+This section features information about :ref:`Global_lookup_tables` (i.e., indexed arrays of certian data recurring across the entire database), :ref:`Global_georeferencing_tables` (i.e., tables that store information about the spatial context of an observation), and :ref:`Global_references_tables`. The latter relations form the part of OCTOPUS db that allows for definite identification of data sources resp. publications.
 
 ..  _Global_lookup_tables:
 
