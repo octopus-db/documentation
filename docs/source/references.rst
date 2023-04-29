@@ -24,7 +24,7 @@ References
 | 
 | Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 258, 403–413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
 |
-| Obe, Regina O.; Hsu, Leo S. (2021). PostGIS in action (Third Edition). ManningPublications Co., 20 Baldwin Road, PO Box 761, Shelter Island, NY 11964.
+| Obe, Regina O.; Hsu, Leo S. (2021). PostGIS in action (Third Edition). Manning Publications Co., 20 Baldwin Road, PO Box 761, Shelter Island, NY 11964.
 | 
 | Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. DOI: `10.1038/s41597-019-0267-3 <https://doi.org/10.1038/s41597-019-0267-3>`_
 | 
