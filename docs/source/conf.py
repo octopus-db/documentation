@@ -37,7 +37,7 @@ html_theme_options = {
 #    'style_external_links': False,
 #    'vcs_pageview_mode': '',
 #    'style_nav_header_background': 'white',
-     'html_logo': ./img/logo.png
+     'html_logo': './img/logo.png'
 }
 
 # html_static_path = ['_static']
