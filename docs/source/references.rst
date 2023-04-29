@@ -16,6 +16,8 @@ References
 | 
 | Hajdas, Irka; Ascough, Philippa; Garnett, Mark H.; Fallon, Stewart J.; Pearson, Charlotte L.; Quarta, Gianluca; Spalding, Kirsty L., Yamaguchi, Haruka; Yoneda, Minoru (2021), Radiocarbon dating. Nat Rev Methods Primers 1, 62. DOI: `10.1038/s43586-021-00058-7 <https://doi.org/10.1038/s43586-021-00058-7>`_
 | 
+| Hernandez, Michael J. (2020). Database Design for Mere Mortals - A Hands--On Guide to Relational Database Design (Fourth Edition). Addison-Wesley, Pearson Education Inc.
+|
 | Heyman, Jakob (2023). expage - A global compilation of glacial 10Be and 26Al data. Accessed 06-03-2023, `https://expage.github.io/index.html <https://expage.github.io/index.html>`_
 | 
 | Kubik, Peter W.; Christl, Marcus (2010). 10Be and 26Al measurements at the Zurich 6MV Tandem AMS facility. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 268(7–8), 880-883. DOI: `10.1016/j.nimb.2009.10.054 <https://doi.org/10.1016/j.nimb.2009.10.054>`_
