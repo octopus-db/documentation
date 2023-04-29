@@ -38,8 +38,10 @@ References
 |
 | Schaefer, Joerg M.; Codilean, Alexandru T.; Willenbring, Jane K.; Lu, Zheng-Tian; Keisling, Benjamin; Fülöp, Réka-H.; Val, Pedro (2022). Cosmogenic nuclide techniques. Nat Rev Methods Primers 2, 18. DOI: `10.1038/s43586-022-00096-9 <https://doi.org/10.1038/s43586-022-00096-9>`_
 | 
-| The PostgreSQL Global Development Group (2023). PostgreSQL: The World's Most Advanced Open Source Relational Database. Accessed 29-04-2ß23. https://www.postgresql.org
+| The PostgreSQL Global Development Group (2023). PostgreSQL: The World's Most Advanced Open Source Relational Database. Accessed 29-04-2023. https://www.postgresql.org
 |
 | Walker, Mike (2005). Quaternary Dating Methods. John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex PO19 8SQ, England.
 | 
+| Wickham et al., (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686. DOI: `10.21105/joss.01686 <https://doi.org/10.21105/joss.01686>`_
+|
 | Williams, John W.; Grimm, Eric C.; Blois, Jessica L.; Charles, Donald F.; Davis, Edward B.; Goring, Simon J.; Graham, Russell W.; Smith, Alison J.; Anderson, Michael; Arroyo-Cabrales, Joaquin; Ashworth, Allan C.; Betancourt, Julio L.; Bills, Brian W.; Booth, Robert K.; Buckland, Philip I.; Curry, B. Brandon; Giesecke, Thomas; Jackson, Stephen T.; Latorre, Claudio; Nichols, Jonathan (2018). The Neotoma Paleoecology Database, a multiproxy, international, community-curated data resource. Quaternary Research, 89(1), 156-177. DOI: `10.1017/qua.2017.105 <https://doi.org/10.1017/qua.2017.105>`_
