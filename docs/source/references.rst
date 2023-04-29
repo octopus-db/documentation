@@ -42,6 +42,6 @@ References
 |
 | Walker, Mike (2005). Quaternary Dating Methods. John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex PO19 8SQ, England.
 | 
-| Wickham et al., (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686. DOI: `10.21105/joss.01686 <https://doi.org/10.21105/joss.01686>`_
+| Wickham, Hadley; Averick, Mara; Bryan, Jennifer; Chang, Winston; D’Agostino McGowan, Lucy; François, Romain; Grolemund, Garrett; Hayes, Alex; Henry, Lionel; Hester, Jim; Kuhn, Max; Pedersen, Thomas Lin; Miller, Evan; Bache, Stephan Milton; Müller, Kirill; Ooms, Jeroen; Robinson, David; Seidel, Dana Paige; Spinu, Vitalie; Takahashi, Kohske; Vaughan, Davis; Wilke, Claus; Woo, Kara; Yutani, Hiroaki (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686. DOI: `10.21105/joss.01686 <https://doi.org/10.21105/joss.01686>`_
 |
 | Williams, John W.; Grimm, Eric C.; Blois, Jessica L.; Charles, Donald F.; Davis, Edward B.; Goring, Simon J.; Graham, Russell W.; Smith, Alison J.; Anderson, Michael; Arroyo-Cabrales, Joaquin; Ashworth, Allan C.; Betancourt, Julio L.; Bills, Brian W.; Booth, Robert K.; Buckland, Philip I.; Curry, B. Brandon; Giesecke, Thomas; Jackson, Stephen T.; Latorre, Claudio; Nichols, Jonathan (2018). The Neotoma Paleoecology Database, a multiproxy, international, community-curated data resource. Quaternary Research, 89(1), 156-177. DOI: `10.1017/qua.2017.105 <https://doi.org/10.1017/qua.2017.105>`_
