@@ -40,8 +40,8 @@ The *global_varunitID* table stores **variable units** for those compilations wh
 
 ..  _global_GrainSize:
 
-global_GrainSize
-^^^^^^^^^^^^^^^^
+global_GrainSize table
+^^^^^^^^^^^^^^^^^^^^^^
 The *global_GrainSize* table, focusing on granulomety, stores the **type of (sedimentary rock) material sampled**, serving several collections as for instance :ref:`CRN` ("MATERIAL"), :ref:`expage` ("MATERIAL"), and :ref:`SahulSed` ("SED_MAT").
 
 .. csv-table::
@@ -66,13 +66,13 @@ Global georeferencing tables
 
 ..  _global_MetaSite:
 
-global_MetaSite
-^^^^^^^^^^^^^^^
+global_MetaSite table
+^^^^^^^^^^^^^^^^^^^^^
 ``DRAFT`` The *global_MetaSite* table ...
 ..  _global_SiteCode:
 
-global_SiteCode
-^^^^^^^^^^^^^^^
+global_SiteCode table
+^^^^^^^^^^^^^^^^^^^^^
 The *global_SiteCode* table stores **site types characterising the dominant attribute of a site**.
 
 .. csv-table::
@@ -89,8 +89,8 @@ The *global_SiteCode* table stores **site types characterising the dominant attr
 
 ..  _global_SiteMaster:
 
-global_SiteMaster
-^^^^^^^^^^^^^^^^^
+global_SiteMaster table
+^^^^^^^^^^^^^^^^^^^^^^^
 The *global_SiteMaster* table stores an information set that enables **georeferencing and description of a sampled site**.
 
 .. note::
@@ -176,8 +176,8 @@ SITE_COMMT text
 
 ..  _global_biomeID:
 
-global_biomeID
-^^^^^^^^^^^^^^
+global_biomeID table
+^^^^^^^^^^^^^^^^^^^^
 The *global_biomeID* table stores iconic biome types that allow for a coarse characterisation/classifications of sampled sites amongst Earth's major biogeographic units. 
 
 .. csv-table::
@@ -194,14 +194,14 @@ The *global_biomeID* table stores iconic biome types that allow for a coarse cha
 
 ..  _global_dbDOI:
 
-global_dbDOI
-^^^^^^^^^^^^
+global_dbDOI table
+^^^^^^^^^^^^^^^^^^
 ``DRAFT`` The *global_dbDOI* table ...
 
 ..  _global_ibraID:
 
-global_ibraID
-^^^^^^^^^^^^^
+global_ibraID table
+^^^^^^^^^^^^^^^^^^^
 The *global_ibraID* table stores the location code of a site within the relevant **bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7)** framework.
 
 .. csv-table::
@@ -220,8 +220,8 @@ The *global_ibraID* table stores the location code of a site within the relevant
 
 ..  _global_rivID:
 
-global_rivID
-^^^^^^^^^^^^
+global_rivID_table
+^^^^^^^^^^^^^^^^^^
 The *global_rivID* table stores the **Geofabric AHGF river name/region code** (http://www.bom.gov.au/metadata/catalogue/19115/ANZCW0503900426) of the river that drains the catchment of sample origin.
 
 .. csv-table::
@@ -244,8 +244,8 @@ The *global_rivID* table stores the **Geofabric AHGF river name/region code** (h
 
 ..  _spatial_ref_sys:
 
-spatial_ref_sys
-^^^^^^^^^^^^^^^
+spatial_ref_sys table
+^^^^^^^^^^^^^^^^^^^^^
 The *spatial_ref_sys* table comes with PostgreSQL's PostGIS extention. As an OGC compliant database table it lists over 3000 spatial reference systems and technical details needed to transform/reproject between them. For more information see `Section 4.2.1. <https://postgis.net/docs/manual-1.4/ch04.html#spatial_ref_sys>`_ of the PostGIS online manual.
 
 .. csv-table::
@@ -270,8 +270,8 @@ Global references tables
 
 ..  _global_RefCore:
 
-global_RefCore
-^^^^^^^^^^^^^^
+global_RefCore table
+^^^^^^^^^^^^^^^^^^^^
 The *global_RefCore* table stores information that allow certain **identification and citation of OCTOPUS collection data sources** according to BibTeX [#]_ referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be *required*, some will be *optional*, and others will be *ignored* by BibTeX. Those three categories are defined in the :ref:`global_PubType_Fields` section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.
 
 =========== =========== ==== ==== ======== ==================
@@ -335,8 +335,8 @@ SCHOOL      text
 
 ..  _global_RefAbstract:
 
-global_RefAbstract
-^^^^^^^^^^^^^^^^^^
+global_RefAbstract table
+^^^^^^^^^^^^^^^^^^^^^^^^
 The *global_RefAbstract* table stores **publication abstracts** for references in :ref:`global_RefCore`.
 
 .. csv-table::
@@ -349,8 +349,8 @@ The *global_RefAbstract* table stores **publication abstracts** for references i
 
 ..  _global_Author:
 
-global_Author
-^^^^^^^^^^^^^
+global_Author table
+^^^^^^^^^^^^^^^^^^^
 The *global_Author* table stores information about **publication (first) authors**, which can be individuals or corporations.
 
 .. csv-table::
@@ -379,8 +379,8 @@ The *global_Author* table stores information about **publication (first) authors
 
 ..  _global_Journal:
 
-global_Journal
-^^^^^^^^^^^^^^
+global_Journal table
+^^^^^^^^^^^^^^^^^^^^
 The *global_Journal* table stores information about **peer-reviewed scientific journals**.
 
 .. csv-table::
@@ -399,8 +399,8 @@ The *global_Journal* table stores information about **peer-reviewed scientific j
 
 ..  _global_PubType:
 
-global_PubType
-^^^^^^^^^^^^^^
+global_PubType table
+^^^^^^^^^^^^^^^^^^^^
 The *global_PubType* table stores **publication entry types** according to BibTeX standards.
 
 .. csv-table::
@@ -413,8 +413,8 @@ The *global_PubType* table stores **publication entry types** according to BibTe
 
 ..  _global_RefKeyword:
 
-global_RefKeyword
-^^^^^^^^^^^^^^^^^
+global_RefKeyword table
+^^^^^^^^^^^^^^^^^^^^^^^
 
 ``DRAFT`` The *global_RefKeyword* table ...
 
@@ -430,8 +430,8 @@ Non-Cosmogenics tables
 
 ..  _cabah_LabCodes:
 
-cabah_LabCodes
-^^^^^^^^^^^^^^
+cabah_LabCodes table
+^^^^^^^^^^^^^^^^^^^^
 The *cabah_LabCodes* table stores information about the **lab of origin** for a certain C14 or luminescence observation, i.e., measurement. The labs have been identified automatically by their distinct labcode prefixes
 
 .. csv-table::
@@ -456,8 +456,8 @@ The *cabah_LabCodes* table stores information about the **lab of origin** for a 
 
 ..  _cabah_chemprepID:
 
-cabah_chemprepID
-^^^^^^^^^^^^^^^^
+cabah_chemprepID table
+^^^^^^^^^^^^^^^^^^^^^^
 The *cabah_chemprepID* table stores the **type of chemical pretreatment given to a sample**. Note - Methods capture the majority of methods applied in Australia. There may be considerable variation within each pretreatment code.
 
 .. csv-table::
@@ -472,8 +472,8 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
 
 ..  _cabah_col_mtdID:
 
-cabah_col_mtdID
-^^^^^^^^^^^^^^^
+cabah_col_mtdID table
+^^^^^^^^^^^^^^^^^^^^^
 The *cabah_col_mtdID* table stores the **sample collection method**.
 
 .. csv-table::
@@ -486,8 +486,8 @@ The *cabah_col_mtdID* table stores the **sample collection method**.
 
 ..  _cabah_methodID:
 
-cabah_methodID
-^^^^^^^^^^^^^^
+cabah_methodID table
+^^^^^^^^^^^^^^^^^^^^
 The *cabah_methodID* table stores the **type of method used in age/rate determination**.
 
 .. csv-table::
@@ -509,8 +509,8 @@ Cosmogenics tables
 
 ..  _crn_alstndID:
 
-crn_alstndID
-^^^^^^^^^^^^
+crn_alstndID table
+^^^^^^^^^^^^^^^^^^
 The *crn_alstndID* table stores **Al standards, correction factors, ratios and related information**.
 
 .. csv-table::
@@ -533,8 +533,8 @@ For available values refer to :ref:`crn_alstndID_Fields`
 
 ..  _crn_bestndID:
 
-crn_bestndID
-^^^^^^^^^^^^
+crn_bestndID table
+^^^^^^^^^^^^^^^^^^
 The *crn_bestndID* table stores **Be standards, correction factors, ratios and related information**.
 
 .. csv-table::
@@ -560,8 +560,8 @@ Luminescence tables
 
 ..  _osl-tl_agemodelID:
 
-osl-tl_agemodelID
-^^^^^^^^^^^^^^^^^
+osl-tl_agemodelID table
+^^^^^^^^^^^^^^^^^^^^^^^
 The *osl-tl_agemodelID* table stores the **model used to combine individual equivalent dose estimates for age determination**.
 
 .. csv-table::
@@ -576,8 +576,8 @@ The *osl-tl_agemodelID* table stores the **model used to combine individual equi
 
 ..  _osl-tl_ed_procID:
 
-osl-tl_ed_procID
-^^^^^^^^^^^^^^^^
+osl-tl_ed_procID table
+^^^^^^^^^^^^^^^^^^^^^^
 The *osl-tl_ed_procID* table stores the **reported procedure used to determine sample equivalent dose for OSL and TL methods**.
 
 .. csv-table::
@@ -592,8 +592,8 @@ The *osl-tl_ed_procID* table stores the **reported procedure used to determine s
 
 ..  _osl-tl_lum_matID:
 
-osl-tl_lum_matID
-^^^^^^^^^^^^^^^^
+osl-tl_lum_matID table
+^^^^^^^^^^^^^^^^^^^^^^
 The *osl-tl_lum_matID* table stores the **type of sample material used for OSL and TL dating**.
 
 .. csv-table::
@@ -608,8 +608,8 @@ The *osl-tl_lum_matID* table stores the **type of sample material used for OSL a
 
 ..  _osl-tl_mineralID:
 
-osl-tl_mineralID
-^^^^^^^^^^^^^^^^
+osl-tl_mineralID table
+^^^^^^^^^^^^^^^^^^^^^^
 The *osl-tl_mineralID* table stores the **type of mineral used for equivalent dose determination**.
 
 .. csv-table::
@@ -624,8 +624,8 @@ The *osl-tl_mineralID* table stores the **type of mineral used for equivalent do
 
 ..  _osl-tl_mtdID:
 
-osl-tl_mtdID
-^^^^^^^^^^^^
+osl-tl_mtdID table
+^^^^^^^^^^^^^^^^^^
 The *osl-tl_mtdID* table stores the **method used to determine a certain element concentration of the sample** resp. the **method used to determine an external dose rate**.
 
 .. csv-table::
@@ -640,8 +640,8 @@ The *osl-tl_mtdID* table stores the **method used to determine a certain element
 
 ..  _osl_typeID:
 
-osl_typeID
-^^^^^^^^^^
+osl_typeID table
+^^^^^^^^^^^^^^^^
 The *osl_typeID* table stores the **published OSL type used to determine equivalent dose**.
 
 .. csv-table::
@@ -666,8 +666,8 @@ CRN tables
 
 ..  _crn_amsID:
 
-crn_amsID
-^^^^^^^^^
+crn_amsID table
+^^^^^^^^^^^^^^^
 The *crn_amsID* table stores information about **Acceleration Mass Spectrometer (AMS)** facilities.
 
 .. csv-table::
@@ -684,8 +684,8 @@ The *crn_amsID* table stores information about **Acceleration Mass Spectrometer 
 
 ..  _crn_projepsgID:
 
-crn_projepsgID
-^^^^^^^^^^^^^^
+crn_projepsgID table
+^^^^^^^^^^^^^^^^^^^^
 The *crn_projepsgID* table stores **study-specific projection information** (EPSG and human readable), i.e., the particular UTM projected coordinate system used for (re)calculations.
 
 .. csv-table::
@@ -698,8 +698,8 @@ The *crn_projepsgID* table stores **study-specific projection information** (EPS
 
 ..  _crn_studies_boundingbox:
 
-crn_studies_boundingbox
-^^^^^^^^^^^^^^^^^^^^^^^
+crn_studies_boundingbox table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *crn_studies_boundingbox* table is a **CRN denudation spatial features table** (polygons, EPSG:900913) whose bounding boxes define study extents, respectively.
 
 .. csv-table::
@@ -717,8 +717,8 @@ SahulArch tables
 
 ..  _arch_featdatedID:
 
-arch_featdatedID
-^^^^^^^^^^^^^^^^
+arch_featdatedID table
+^^^^^^^^^^^^^^^^^^^^^^
 The *arch_featdatedID* table stores information about **specific features dated**.
 
 .. csv-table::
@@ -731,8 +731,8 @@ The *arch_featdatedID* table stores information about **specific features dated*
 
 ..  _c13_valID:
 
-c13_valID
-^^^^^^^^^
+c13_valID table
+^^^^^^^^^^^^^^^
 The *c13_valID* table stores information whether **delta13C was measured or assumed**.
 
 .. csv-table::
@@ -745,8 +745,8 @@ The *c13_valID* table stores information whether **delta13C was measured or assu
 
 ..  _c14_contamID:
 
-c14_contamID
-^^^^^^^^^^^^
+c14_contamID table
+^^^^^^^^^^^^^^^^^^
 The *c14_contamID* table stores information about **specific contaminants that may have remained after C14 sample pretreatment**.
 
 .. csv-table::
@@ -760,8 +760,8 @@ The *c14_contamID* table stores information about **specific contaminants that m
 
 ..  _c14_hum_modID:
 
-c14_hum_modID
-^^^^^^^^^^^^^
+c14_hum_modID table
+^^^^^^^^^^^^^^^^^^^
 The *c14_hum_modID* table stores information about **indications of human modification**.
 
 .. csv-table::
@@ -774,8 +774,8 @@ The *c14_hum_modID* table stores information about **indications of human modifi
 
 ..  _c14_materia1ID:
 
-c14_materia1ID
-^^^^^^^^^^^^^^
+c14_materia1ID table
+^^^^^^^^^^^^^^^^^^^^
 The *c14_materia1ID* table stores information about the **type of sample material used for 14C dating**.
 
 .. csv-table::
@@ -790,8 +790,8 @@ The *c14_materia1ID* table stores information about the **type of sample materia
 
 ..  _c14_materia2ID:
 
-c14_materia2ID
-^^^^^^^^^^^^^^
+c14_materia2ID table
+^^^^^^^^^^^^^^^^^^^^
 The *c14_materia2ID* table stores information about the **sub-type of sample material used for 14C dating**.
 
 .. csv-table::
@@ -804,8 +804,8 @@ The *c14_materia2ID* table stores information about the **sub-type of sample mat
 
 ..  _c14_solvent2ID:
 
-c14_solvent2ID
-^^^^^^^^^^^^^^
+c14_solvent2ID table
+^^^^^^^^^^^^^^^^^^^^
 The *c14_solvent2ID* table stores the **solvent used** for C14 sample processing.
 
 .. csv-table::
@@ -820,8 +820,8 @@ The *c14_solvent2ID* table stores the **solvent used** for C14 sample processing
 
 ..  _c_mtdID:
 
-c_mtdID
-^^^^^^^
+c_mtdID table
+^^^^^^^^^^^^^
 The *c_mtdID* table stores the **method used to determine an element abundance/ ratio**.
 
 .. csv-table::
@@ -836,8 +836,8 @@ The *c_mtdID* table stores the **method used to determine an element abundance/ 
 
 ..  _arch_c14_polygons_EPSG3857:
 
-arch_c14_polygons_EPSG3857
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+arch_c14_polygons_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *arch_c14_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the SahulArch/ Radiocarbon collection (EPSG:900913).
 
 .. csv-table::
@@ -854,8 +854,8 @@ The *arch_c14_polygons_EPSG3857* table stores **spatial features**, i.e., polygo
 
 ..  _arch_osl_polygons_EPSG3857:
 
-arch_osl_polygons_EPSG3857
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+arch_osl_polygons_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *arch_osl_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the SahulArch/ OSL collection (EPSG:900913).
 
 .. csv-table::
@@ -872,8 +872,8 @@ The *arch_osl_polygons_EPSG3857* table stores **spatial features**, i.e., polygo
 
 ..  _arch_tl_polygons_EPSG3857:
 
-arch_tl_polygons_EPSG3857
-^^^^^^^^^^^^^^^^^^^^^^^^^
+arch_tl_polygons_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *arch_tl_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the SahulArch/ TL collection (EPSG:900913).
 
 .. csv-table::
@@ -893,8 +893,8 @@ SahulSed tables
 
 ..  _sed_depconID:
 
-sed_depconID
-^^^^^^^^^^^^
+sed_depconID table
+^^^^^^^^^^^^^^^^^^
 The *sed_depconID* table stores the **deposition context of a sampled feature**.
 
 .. csv-table::
@@ -907,8 +907,8 @@ The *sed_depconID* table stores the **deposition context of a sampled feature**.
 
 ..  _sed_faciesID:
 
-sed_faciesID
-^^^^^^^^^^^^
+sed_faciesID table
+^^^^^^^^^^^^^^^^^^
 The *sed_faciesID* table stores the **type of sedimentological facies**.
 
 .. csv-table::
@@ -921,8 +921,8 @@ The *sed_faciesID* table stores the **type of sedimentological facies**.
 
 ..  _sed_geommodID:
 
-sed_geommodID
-^^^^^^^^^^^^^
+sed_geommodID table
+^^^^^^^^^^^^^^^^^^^
 The *sed_geommodID* table stores the **geomorphic modifier of a sampled feature**.
 
 .. csv-table::
@@ -935,8 +935,8 @@ The *sed_geommodID* table stores the **geomorphic modifier of a sampled feature*
 
 ..  _sed_geotypeID:
 
-sed_geotypeID
-^^^^^^^^^^^^^
+sed_geotypeID table
+^^^^^^^^^^^^^^^^^^^
 The *sed_geotypeID* table stores the **geomorphological type of a sampled feature**.
 
 .. csv-table::
@@ -949,8 +949,8 @@ The *sed_geotypeID* table stores the **geomorphological type of a sampled featur
 
 ..  _sed_laketypeID:
 
-sed_laketypeID
-^^^^^^^^^^^^^^
+sed_laketypeID table
+^^^^^^^^^^^^^^^^^^^^
 The *sed_laketypeID* table stores the **type of (origin of) lake (formation)**.
 
 .. csv-table::
@@ -965,8 +965,8 @@ The *sed_laketypeID* table stores the **type of (origin of) lake (formation)**.
 
 ..  _sed_morphID:
 
-sed_morphID
-^^^^^^^^^^^
+sed_morphID table
+^^^^^^^^^^^^^^^^^
 The *sed_morphID* table stores the **morphology of a sampled feature**.
 
 .. csv-table::
@@ -979,8 +979,8 @@ The *sed_morphID* table stores the **morphology of a sampled feature**.
 
 ..  _sed_sitetypeID:
 
-sed_sitetypeID
-^^^^^^^^^^^^^^
+sed_sitetypeID table
+^^^^^^^^^^^^^^^^^^^^
 The *sed_sitetypeID* table stores the **type of the site from which samples were extracted**.
 
 .. csv-table::
@@ -993,8 +993,8 @@ The *sed_sitetypeID* table stores the **type of the site from which samples were
 
 ..  _sed-osl_points_EPSG3857:
 
-sed-osl_points_EPSG3857
-^^^^^^^^^^^^^^^^^^^^^^^
+sed-osl_points_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *sed-osl_points_EPSG3857* table stores **spatial features**, i.e., points of the OSL collection (EPSG:900913).
 
 .. csv-table::
@@ -1011,8 +1011,8 @@ The *sed-osl_points_EPSG3857* table stores **spatial features**, i.e., points of
 
 ..  _sed-tl_points_EPSG3857:
 
-sed-tl_points_EPSG3857
-^^^^^^^^^^^^^^^^^^^^^^
+sed-tl_points_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *sed-tl_points_EPSG3857* table stores **spatial features**, i.e., points of the TL collection (EPSG:900913).
 
 .. csv-table::
@@ -1031,43 +1031,43 @@ FosSahul tables
 ~~~~~~~~~~~~~~~
 
 fos_TaxRank1_classID
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** name.
 
 ``Table to come``
 
-fos_TaxRank2_infraclaID
-^^^^^^^^^^^^^^^^^^^^^^^
+fos_TaxRank2_infraclaID table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infraclass** name.
 
 ``Table to come``
 
-fos_TaxRank3_ordrID
-^^^^^^^^^^^^^^^^^^^
+fos_TaxRank3_ordrID table
+^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** name.
 
 ``Table to come``
 
-fos_TaxRank4_familyID
-^^^^^^^^^^^^^^^^^^^^^
+fos_TaxRank4_familyID table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** name.
 
 ``Table to come``
 
-fos_TaxRank5_genusID
-^^^^^^^^^^^^^^^^^^^^
+fos_TaxRank5_genusID table
+^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** name.
 
 ``Table to come``
 
-fos_TaxRank6_speciesID
-^^^^^^^^^^^^^^^^^^^^^^
+fos_TaxRank6_speciesID table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species** name.
 
 ``Table to come``
 
-fos_chemtypeID
-^^^^^^^^^^^^^^
+fos_chemtypeID table
+^^^^^^^^^^^^^^^^^^^^
 The *fos_chemtypeID* table stores the **type of chemical pretreatment given to the sample** as described in the original publication. There may be considerable variation within each pretreatment code.
 
 .. csv-table::
@@ -1080,8 +1080,8 @@ The *fos_chemtypeID* table stores the **type of chemical pretreatment given to t
 
 * CHEMTYPEAB -- For available values refer to :ref:`fos_chemtypeID_Fields`
 
-fos_fosmat1ID
-^^^^^^^^^^^^^
+fos_fosmat1ID table
+^^^^^^^^^^^^^^^^^^^
 The *fos_fosmat1ID* table stores the **type of dated remain**.
 
 .. csv-table::
@@ -1094,8 +1094,8 @@ The *fos_fosmat1ID* table stores the **type of dated remain**.
 
 * FOSMAT1ABB -- For available values refer to :ref:`fos_fosmat1ID_Fields`
 
-fos_fosmat2ID
-^^^^^^^^^^^^^
+fos_fosmat2ID table
+^^^^^^^^^^^^^^^^^^^
 The *fos_fosmat2ID* table stores the **type of dated material**.
 
 .. csv-table::
@@ -1108,8 +1108,8 @@ The *fos_fosmat2ID* table stores the **type of dated material**.
 
 * FOSMAT2ABB -- For available values refer to :ref:`fos_fosmat2ID_Fields`
 
-fos_mtdsID
-^^^^^^^^^^
+fos_mtdsID table
+^^^^^^^^^^^^^^^^
 The *fos_mtdsID* table stores the type of **method used in age determination**.
 
 .. csv-table::
@@ -1122,8 +1122,8 @@ The *fos_mtdsID* table stores the type of **method used in age determination**.
 
 * FOS_MTDSAB -- For available values refer to :ref:`fos_mtdsID_Fields`
 
-fos_polygons_EPSG3857
-^^^^^^^^^^^^^^^^^^^^^
+fos_polygons_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the FosSahul partner collection (EPSG:900913).
 
 ``Table to come``
@@ -1139,8 +1139,8 @@ The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of
 expage tables
 ~~~~~~~~~~~~~
 
-expage_points_EPSG3857
-^^^^^^^^^^^^^^^^^^^^^^
+expage_points_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *expage_points_EPSG3857* table stores spatial features, i.e., points of the expage partner collection (EPSG:900913).
 
 ``Table to come``
