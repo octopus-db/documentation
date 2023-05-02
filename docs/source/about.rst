@@ -1,6 +1,6 @@
-========
-About us
-========
+=====
+About
+=====
 
 Henry Munack (ORCID `0000-0002-3750-9674 <https://orcid.org/0000-0002-3750-9674>`_ )
 Emma Rehn (ORCID `0000-0002-9097-0232 <https://orcid.org/0000-0002-9097-0232>`_)
