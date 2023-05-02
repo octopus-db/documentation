@@ -2,10 +2,13 @@
 About
 =====
 
-Henry Munack (ORCID `0000-0002-3750-9674 <https://orcid.org/0000-0002-3750-9674>`_ )
-Emma Rehn (ORCID `0000-0002-9097-0232 <https://orcid.org/0000-0002-9097-0232>`_)
-Wanchese M. Saktura (ORCID `0000-0002-7198-7776 <https://orcid.org/0000-0002-7198-7776>`_)
-Alexandru T. Codilean (ORCID `0000-0003-1895-5633 <https://orcid.org/0000-0003-1895-5633>`_)
+Recommended citation: Munack, Henry [#]_; Rehn, Emma [#]_; Saktura, Wanchese M. [#]_ & Codilean, Alexandru T. [#]_ (2023). OCTOPUS database documentation (online). https://octopus-database.readthedocs.io (accessed DD-MM-YYYY).
 
-Contact *octopus-database(at)googlegroups.com*
+To provide feedback about the data collections, to contribute, or to request more information, please contact *octopus-database(at)googlegroups.com*.
 
+.. rubric:: Footnotes
+
+.. [#] ORCID `0000-0002-3750-9674 <https://orcid.org/0000-0002-3750-9674>`_
+.. [#] ORCID `0000-0002-9097-0232 <https://orcid.org/0000-0002-9097-0232>`_
+.. [#] ORCID `0000-0002-7198-7776 <https://orcid.org/0000-0002-7198-7776>`_
+.. [#] ORCID `0000-0003-1895-5633 <https://orcid.org/0000-0003-1895-5633>`_
