@@ -10,7 +10,7 @@ Lookup table fields
 
 ..  _global_GrainSize_Fields:
 
-global_GrainSize Fields
+global_GrainSize fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -21,7 +21,7 @@ The unit for both fields "GRNSIZEMIN" and "GRNSIZEMAX" is *mm*.
 
 ..  _global_SiteCode_Fields:
 
-global_SiteCode Fields
+global_SiteCode fields
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -34,7 +34,7 @@ global_SiteCode Fields
 
 ..  _global_biomeID_Fields:
 
-global_biomeID Fields
+global_biomeID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -45,7 +45,7 @@ Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010),
 
 ..  _global_ibraID_Fields:
 
-global_ibraID Fields
+global_ibraID fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -60,7 +60,7 @@ Detailed information about Australia's bioregions classification rationale and m
 
 ..  _global_rivID_Fields:
 
-global_rivID Fields
+global_rivID fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -75,7 +75,7 @@ Detailed information about the Australian Hydrological Geospatial Fabric (Geofab
 
 ..  _global_varunitID_Fields:
 
-global_varunitID Fields
+global_varunitID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -84,7 +84,7 @@ global_varunitID Fields
 
 ..  _global_PubType_Fields:
 
-global_PubType Fields
+global_PubType fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -127,7 +127,7 @@ global_PubType Fields
 
 ..  _cabah_chemprepID_Fields:
 
-cabah_chemprepID Fields
+cabah_chemprepID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -163,7 +163,7 @@ cabah_chemprepID Fields
 
 ..  _cabah_col_mtdID_Fields:
 
-cabah_col_mtdID Fields
+cabah_col_mtdID fields
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -172,7 +172,7 @@ cabah_col_mtdID Fields
 
 ..  _cabah_methodID_Fields:
 
-cabah_methodID Fields
+cabah_methodID fields
 ~~~~~~~~~~~~~~~~~~~~~~
 
 +----------+----------------+------------+----------+----------------+
@@ -623,7 +623,7 @@ Classification and selection of methods on the basis of Geyh (2005), and Walker 
 
 ..  _crn_alstndID_Fields:
 
-crn_alstndID Fields
+crn_alstndID fields
 ~~~~~~~~~~~~~~~~~~~
 
 ======== ====== ================== ====== ==========
@@ -673,7 +673,7 @@ Values for crn_alstndID."ALSTNDCOMT" field as follows ...
 
 ..  _crn_amsID_Fields:
 
-crn_amsID Fields
+crn_amsID fields
 ~~~~~~~~~~~~~~~~
 
 +-------+------------------------+-----------------------------+
@@ -835,9 +835,16 @@ Values for crn_amsID."AMSURL" field as follows ...
 * IDs 33, 34 -- https://tlabs.ac.za
 * IDs 35, 36 -- http://earth.tju.edu.cn/en/
 
+
+..  _crn_projepsgID_Fields:
+
+crn_projepsgID fields
+^^^^^^^^^^^^^^^^^^^^
+
+
 ..  _crn_bestndID_Fields:
 
-crn_bestndID Fields
+crn_bestndID fields
 ~~~~~~~~~~~~~~~~~~~
 
 ======== ============== ====================== ====== ==========
@@ -941,7 +948,7 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 
 ..  _arch_featdatedID_Fields:
 
-arch_featdatedID Fields
+arch_featdatedID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -950,7 +957,7 @@ arch_featdatedID Fields
 
 ..  _c13_valID_Fields:
 
-c13_valID Fields
+c13_valID fields
 ~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -959,7 +966,7 @@ c13_valID Fields
 
 ..  _c14_contamID_Fields:
 
-c14_contamID Fields
+c14_contamID fields
 ~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -968,7 +975,7 @@ c14_contamID Fields
 
 ..  _c14_hum_modID_Fields:
 
-c14_hum_modID Fields
+c14_hum_modID fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -977,7 +984,7 @@ c14_hum_modID Fields
 
 ..  _c14_materia1ID_Fields:
 
-c14_materia1ID Fields
+c14_materia1ID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -986,7 +993,7 @@ c14_materia1ID Fields
 
 ..  _c14_materia2ID_Fields:
 
-c14_materia2ID Fields
+c14_materia2ID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -995,7 +1002,7 @@ c14_materia2ID Fields
 
 ..  _c14_solvent2ID_Fields:
 
-c14_solvent2ID Fields
+c14_solvent2ID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1004,7 +1011,7 @@ c14_solvent2ID Fields
 
 ..  _c_mtdID_Fields:
 
-c_mtdID Fields
+c_mtdID fields
 ~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1015,7 +1022,7 @@ c_mtdID Fields
 
 ..  _osl-tl_agemodelID_Fields:
 
-osl-tl_agemodelID Fields
+osl-tl_agemodelID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1024,7 +1031,7 @@ osl-tl_agemodelID Fields
 
 ..  _osl-tl_ed_procID_Fields:
 
-osl-tl_ed_procID Fields
+osl-tl_ed_procID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1033,7 +1040,7 @@ osl-tl_ed_procID Fields
 
 ..  _osl-tl_lum_matID_Fields:
 
-osl-tl_lum_matID Fields
+osl-tl_lum_matID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1042,7 +1049,7 @@ osl-tl_lum_matID Fields
 
 ..  _osl-tl_mineralID_Fields:
 
-osl-tl_mineralID Fields
+osl-tl_mineralID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1051,7 +1058,7 @@ osl-tl_mineralID Fields
 
 ..  _osl-tl_mtdID_Fields:
 
-osl-tl_mtdID Fields
+osl-tl_mtdID fields
 ~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1060,7 +1067,7 @@ osl-tl_mtdID Fields
 
 ..  _osl_typeID_Fields:
 
-osl_typeID Fields
+osl_typeID fields
 ~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1071,7 +1078,7 @@ osl_typeID Fields
 
 ..  _sed_depconID_Fields:
 
-sed_depconID Fields
+sed_depconID fields
 ~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1080,7 +1087,7 @@ sed_depconID Fields
 
 ..  _sed_faciesID_Fields:
 
-sed_faciesID Fields
+sed_faciesID fields
 ~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1089,7 +1096,7 @@ sed_faciesID Fields
 
 ..  _sed_geommodID_Fields:
 
-sed_geommodID Fields
+sed_geommodID fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1098,7 +1105,7 @@ sed_geommodID Fields
 
 ..  _sed_geotypeID_Fields:
 
-sed_geotypeID Fields
+sed_geotypeID fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1107,7 +1114,7 @@ sed_geotypeID Fields
 
 ..  _sed_laketypeID_Fields:
 
-sed_laketypeID Fields
+sed_laketypeID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1116,7 +1123,7 @@ sed_laketypeID Fields
 
 ..  _sed_morphID_Fields:
 
-sed_morphID Fields
+sed_morphID fields
 ~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1125,7 +1132,7 @@ sed_morphID Fields
 
 ..  _sed_sitetypeID_Fields:
 
-sed_sitetypeID Fields
+sed_sitetypeID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1136,7 +1143,7 @@ sed_sitetypeID Fields
 
 ..  _fos_chemtypeID_Fields:
 
-fos_chemtypeID Fields
+fos_chemtypeID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1145,7 +1152,7 @@ fos_chemtypeID Fields
 
 ..  _fos_fosmat1ID_Fields:
 
-fos_fosmat1ID Fields
+fos_fosmat1ID fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1154,7 +1161,7 @@ fos_fosmat1ID Fields
 
 ..  _fos_fosmat2ID_Fields:
 
-fos_fosmat2ID Fields
+fos_fosmat2ID fields
 ~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
@@ -1164,7 +1171,7 @@ fos_fosmat2ID Fields
 
 ..  _fos_mtdsID_Fields:
 
-fos_mtdsID Fields
+fos_mtdsID fields
 ~~~~~~~~~~~~~~~~~
 
 .. csv-table::
