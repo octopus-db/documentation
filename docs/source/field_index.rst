@@ -97,7 +97,7 @@ global_PubType fields
 
 * **booklet** -- A work that is printed and bound, but without a named publisher or sponsoring institution. *Required field*: title. *Optional fields*: author, howpublished, address, month, year, note.
 
-* **conference** -- The same as INPROCEEDINGS, included for Scribe compatibility.
+* **conference** -- The same as inproceedings, included for Scribe compatibility.
 
 * **inbook** -- A part of a book, which may be a chapter (or section or whatever) and/or a range of pages. *Required fields*: author or editor, title, chapter and/or pages, publisher, year. *Optional fields*: volume or number, series, type, address, edition, month, note.
 
