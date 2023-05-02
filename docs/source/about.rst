@@ -8,7 +8,7 @@ To provide feedback about the data collections, to contribute, or to request mor
 
 .. rubric:: Footnotes
 
-.. [#] ORCID `0000-0002-3750-9674 <https://orcid.org/0000-0002-3750-9674>`_
-.. [#] ORCID `0000-0002-9097-0232 <https://orcid.org/0000-0002-9097-0232>`_
-.. [#] ORCID `0000-0002-7198-7776 <https://orcid.org/0000-0002-7198-7776>`_
-.. [#] ORCID `0000-0003-1895-5633 <https://orcid.org/0000-0003-1895-5633>`_
+.. [#] University of Wollongong, ORCID `0000-0002-3750-9674 <https://orcid.org/0000-0002-3750-9674>`_
+.. [#] James Cook University, ORCID `0000-0002-9097-0232 <https://orcid.org/0000-0002-9097-0232>`_
+.. [#] University of Wollongong, ORCID `0000-0002-7198-7776 <https://orcid.org/0000-0002-7198-7776>`_
+.. [#] University of Wollongong, ORCID `0000-0003-1895-5633 <https://orcid.org/0000-0003-1895-5633>`_

@@ -839,7 +839,7 @@ Values for crn_amsID."AMSURL" field as follows ...
 ..  _crn_projepsgID_Fields:
 
 crn_projepsgID fields
-^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 
 ..  _crn_bestndID_Fields:
