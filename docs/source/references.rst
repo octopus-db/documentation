@@ -6,13 +6,13 @@ References
 | 
 | Balco, Greg (2016). 26Al-10Be exposure age/erosion rate calculators: table of Be and Al isotope ratio standardizations (online). Latest update 25-02-2016, accessed 31-03-2023. https://hess.ess.washington.edu/math/docs/al_be_v22/AlBe_standardization_table.pdf
 | 
-| Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
-| 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). OCTOPUS database (v.2). Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Global collection, University of Wollongong Australia [data set]. DOI: `10.25900/g76f-0h45 <https://doi.org/10.25900/g76f-0h45>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Australian collection, University of Wollongong Australia [data set]. DOI: `10.25900/mpr9-yn15 <https://doi.org/10.25900/mpr9-yn15>`_
+| 
+| Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
 | Forseth, Irwin N. (2010). Terrestrial Biomes. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, `https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/ <https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/>`_
 | 
