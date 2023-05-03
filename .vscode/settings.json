@@ -5,5 +5,8 @@
         "metasite",
         "ORCID",
         "varunit"
+    ],
+    "cSpell.ignoreWords": [
+        "Rehn"
     ]
 }
