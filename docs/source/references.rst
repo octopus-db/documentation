@@ -8,23 +8,23 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). OCTOPUS database (v.2). Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
-| Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Global collection, University of Wollongong Australia [data set]. DOI: `10.25900/g76f-0h45 <https://doi.org/10.25900/g76f-0h45>`_
+| Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Global collection. University of Wollongong Australia [data set]. DOI: `10.25900/g76f-0h45 <https://doi.org/10.25900/g76f-0h45>`_
 | 
-| Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Australian collection, University of Wollongong Australia [data set]. DOI: `10.25900/mpr9-yn15 <https://doi.org/10.25900/mpr9-yn15>`_
+| Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Australian collection. University of Wollongong Australia [data set]. DOI: `10.25900/mpr9-yn15 <https://doi.org/10.25900/mpr9-yn15>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
-| Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/a2k9-kj43
+| Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection. University of Wollongong Australia [data set]. DOI: `10.25900/a2k9-kj43 <https://doi.org/10.25900/a2k9-kj43>`_
 | 
-| Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/5jcw-tn50
+| Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian OSL collection. University of Wollongong Australia [data set]. DOI: `10.25900/5jcw-tn50 <https://doi.org/10.25900/5jcw-tn50>`_
 | 
-| Cohen, Timothy J.; Fu, Xiao; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/32de-mj32
+| Cohen, Timothy J.; Fu, Xiao; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine TL collection. University of Wollongong Australia [data set]. DOI: `<10.25900/32de-mj32 https://doi.org/10.25900/32de-mj32>`_
 | 
-| Cohen, Timothy J.; Fu, Xiao; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/6hmv-zz61
+| Cohen, Timothy J.; Fu, Xiao; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection. University of Wollongong Australia [data set]. DOI: `<10.25900/6hmv-zz61 https://doi.org/10.25900/6hmv-zz61>`_
 | 
-| Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/2a76-vw55
+| Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial TL collection. University of Wollongong Australia [data set]. DOI: `10.25900/2a76-vw55 <https://doi.org/10.25900/2a76-vw55>`_
 | 
-| Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/p5ye-rn35
+| Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial OSL collection. University of Wollongong Australia [data set]. DOI: `10.25900/p5ye-rn35 <https://doi.org/10.25900/p5ye-rn35>`_
 | 
 | Forseth, Irwin N. (2010). Terrestrial Biomes. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, `https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/ <https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/>`_
 | 
@@ -42,6 +42,8 @@ References
 | 
 | Munack, Henry; Codilean, Alexandru T. (2022). OCTOPUS Database v.2: Relational database schema and documentation (v.2), Zenodo [data set] (online). DOI: `10.5281/zenodo.5874855 <https://doi.org/10.5281/zenodo.5874855>`_
 |
+| Murray, Andrew; Arnold, Lee J.; Buylaert, Jan-Pieter; Guérin, Guillaume; Qin, Jintang; Singhvi, Ashok K.; Smedley, Rachel; Thomsen, Kristina J. (2021). Optically stimulated luminescence dating using quartz. Nat Rev Methods Primers, 1, 72​​​​​​​, `10.1038/s43586-021-00068-5 <https://doi.org/10.1038/s43586-021-00068-5>`_
+| 
 | Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 258, 403--413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
 |
 | Obe, Regina O.; Hsu, Leo S. (2021). PostGIS in action (Third Edition). Manning Publications Co., 20 Baldwin Road, PO Box 761, Shelter Island, NY 11964.
