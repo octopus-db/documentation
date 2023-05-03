@@ -16,11 +16,11 @@ References
 | 
 | Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/a2k9-kj43
 | 
-| Cohen, Timothy J.; Fu, Xiao, Hesse, Paul; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/5jcw-tn50
+| Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/5jcw-tn50
 | 
-| Cohen, Timothy J.; Fu, Xiao, Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/32de-mj32
+| Cohen, Timothy J.; Fu, Xiao; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/32de-mj32
 | 
-| Cohen, Timothy J.; Fu, Xiao, Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/6hmv-zz61
+| Cohen, Timothy J.; Fu, Xiao; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/6hmv-zz61
 | 
 | Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/2a76-vw55
 | 
