@@ -56,12 +56,6 @@ References
 |
 | Rood, Dylan H.; Brown, Thomas A.; Finkel, Robert C.; Guilderson, Thomas P. (2013). Poisson and non-Poisson uncertainty estimations of 10Be/9Be measurements at LLNL--CAMS. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 294, 426-429. DOI: `10.1016/j.nimb.2012.08.039 <https://doi.org/10.1016/j.nimb.2012.08.039>`_
 | 
-| Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022). The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).University of Wollongong Australia [data set]. DOI: `10.25900/gpvr-ay04 <https://doi.org/10.25900/gpvr-ay04>`_
-| 
-| Saktura, Wanchese M.; Rehn, Emma; Munack, Henry; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022)., The SahulArch OSL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2). University of Wollongong Australia [data set]. DOI `10.25900/9y07-4j77 <https://doi.org/10.25900/9y07-4j77>`_ 
-| 
-| Saktura, Wanchese M.; Rehn, Emma; Munack, Henry; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022)., The SahulArch TL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2). University of Wollongong Australia [data set]. DOI `10.25900/af67-kh16 <https://doi.org/10.25900/af67-kh16>`_
-| 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Cohen, Tim J.; Williams, Alan N.; Ulm, Sean (2023). SahulArch: A geochronological database for the archaeology of Sahul, Australian Archaeology. DOI: `10.1080/03122417.2022.2159751 <https://doi.org/10.1080/03122417.2022.2159751>`_
 |
 | Schaefer, Joerg M.; Codilean, Alexandru T.; Willenbring, Jane K.; Lu, Zheng-Tian; Keisling, Benjamin; Fülöp, Réka-H.; Val, Pedro (2022). Cosmogenic nuclide techniques. Nat Rev Methods Primers 2, 18. DOI: `10.1038/s43586-022-00096-9 <https://doi.org/10.1038/s43586-022-00096-9>`_
