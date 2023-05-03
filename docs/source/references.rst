@@ -14,17 +14,17 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
-| Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/a2k9-kj43
+| Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/a2k9-kj43
 | 
-| Cohen, Timothy J., Fu, Xiao, Hesse, Paul; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/5jcw-tn50
+| Cohen, Timothy J.; Fu, Xiao, Hesse, Paul; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/5jcw-tn50
 | 
-| Cohen, Timothy J., Fu, Xiao, Price, D., Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/32de-mj32
+| Cohen, Timothy J.; Fu, Xiao, Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/32de-mj32
 | 
-| Cohen, Timothy J., Fu, Xiao, Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/6hmv-zz61
+| Cohen, Timothy J.; Fu, Xiao, Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/6hmv-zz61
 | 
-| Cohen, Timothy J., Saktura, Wanchese M., Jansen, John D.; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/2a76-vw55
+| Cohen, Timothy J.; Saktura, Wanchese M., Jansen, John D.; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial TL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/2a76-vw55
 | 
-| Cohen, Timothy J., Saktura, Wanchese M., Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/p5ye-rn35
+| Cohen, Timothy J.; Saktura, Wanchese M., Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial OSL collection, University of Wollongong Australia [data set]. https://doi.org/10.25900/p5ye-rn35
 | 
 | Forseth, Irwin N. (2010). Terrestrial Biomes. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, `https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/ <https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/>`_
 | 
