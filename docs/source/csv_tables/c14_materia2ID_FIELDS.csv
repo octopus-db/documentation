@@ -1,32 +1,59 @@
-﻿MATERIA2ID,MATERIAL2
--9999,ND
-1,Bark
-2,Beeswax
-3,Binder
-4,Bone
-5,Calcined bone
-6,Calcium soil carbonate
-7,Celtis seed
-8,Coral
-9,Dentine
-10,Egg shell
-11,Enamel
-12,Foraminifera
-13,Freshwater shell
-14,Hair
-15,Marine shell
-16,Nut
-17,Otolith
-18,Peat
-19,Pigment
-20,Pollen
-21,Resin
-22,Seed
-23,Speleothem
-24,Terrestrial snail
-25,Tooth dentine
-26,Tooth enamel
-27,Tufa
-28,Wood
-29,Bulk
-99,Other
+﻿MATERIA2ID,MATERIAL2,PARENTID,MAT2_DESCR
+-9999,ND,-9999,
+1,Bark,39,
+2,Beeswax,40,
+3,Binder,3,
+4,Bone,40,
+5,Calcined bone,40,
+6,Calcium soil carbonate,45,
+7,Celtis seed,39,
+8,Coral,40,
+9,Dentine,40,
+10,Egg shell,40,
+11,Enamel,40,
+12,Foraminifera,12,
+13,Freshwater shell,44,
+14,Hair,40,
+15,Marine shell,44,
+16,Nut,39,
+17,Otolith,40,
+18,Peat,39,
+19,Pigment,19,
+20,Pollen,39,
+21,Resin,39,
+22,Seed,39,
+23,Speleothem,45,
+24,Terrestrial snail,40,
+25,Tooth dentine,40,
+26,Tooth enamel,40,
+27,Tufa,45,
+28,Wood,39,
+29,Bulk,29,
+30,Bulk sediment,29,
+31,"Bulk sediment, lake deposits",30,
+32,"Bulk sediment, calcareous lake deposits",31,
+33,"Bulk sediment, organic lake deposits",31,
+34,"Bulk sediment, organic lake deposits, diatomaceous",33,
+35,"Bulk sediment, organic lake deposits, diatomite",33,
+36,"Bulk sediment, peat",29,
+37,"Bulk sediment, gyttja",36,
+38,Soil,38,
+39,Plant origin,39,
+40,Animal origin,40,
+41,Plant macrofossil,39,
+42,Pollen concentrate,20,
+43,Pollen suspension,20,
+44,Shell,40,
+45,Calcareous precipitate / aggregate,45,
+46,Dripstone,23,
+47,Flowstone,23,
+48,Cave crystal,23,
+49,Speleogen,23,
+50,Calcareous crust,45,
+51,Minerogenic sample (indet.),51,
+52,Artificial / Processed,52,
+53,Hydrogen pyrolysis residue,52,
+54,Dispersed NaOH insoluble fraction (humic materials),52,
+55,Archaeological artefact (indet.),52,
+56,Charcoal,56,
+99,Other,99,
