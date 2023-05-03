@@ -13,7 +13,7 @@ PostgreSQL data types, constraints, and foreign key principles are comprehensibl
 
 Global tables
 -------------
-This section features information about :ref:`Global_lookup_tables` (i.e., indexed arrays of certian data recurring across the entire database), :ref:`Global_georeferencing_tables` (i.e., tables that store information about the spatial context of an observation), and :ref:`Global_references_tables`. The latter relations form the part of OCTOPUS db that allows for definite identification of data sources resp. publications.
+This section features information about :ref:`Global_lookup_tables` (i.e., indexed arrays of certain data recurring across the entire database), :ref:`Global_georeferencing_tables` (i.e., tables that store information about the spatial context of an observation), and :ref:`Global_references_tables`. The latter relations form the part of OCTOPUS db that allows for definite identification of data sources resp. publications.
 
 ..  _Global_lookup_tables:
 
@@ -36,7 +36,7 @@ The *global_varunitID* table stores **variable units** for those compilations wh
 
 * V_UNITNAME -- Unit name. For available values refer to :ref:`global_varunitID_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinally higher ranking "V_UNITID"
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "V_UNITID"
 
 ..  _global_GrainSize:
 
@@ -84,7 +84,7 @@ The *global_SiteCode* table stores **site types characterising the dominant attr
 
 * SITECODE -- For available values refer to :ref:`global_SiteCode_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinally higher ranking "SITECODEID"
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "SITECODEID"
 
 * SITEDESCR -- A concise description of “SITECODE”
 
@@ -189,7 +189,7 @@ The *global_biomeID* table stores iconic biome types that allow for a coarse cha
 
 * BIOMETYPE -- Name of biome. For available values refer to :ref:`global_biomeID_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinally higher ranking "BIOMEID"
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "BIOMEID"
 
 * BIOMEDESCR -- A concise description of "BIOMETYPE"
 
@@ -501,7 +501,7 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 * METHODABBR -- For available values refer to :ref:`cabah_methodID_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinally higher ranking "METHODID"
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "METHODID"
 
 * METHODREF -- Basic method literature reference
 
@@ -803,7 +803,7 @@ The *c14_materia2ID* table stores information about the **sub-type of sample mat
 
 * MATERIAL2 -- For available values refer to :ref:`c14_materia2ID_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinally higher ranking "MATERIA2ID"
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "MATERIA2ID"
 
 * MAT2_DESCR -- A concise description of "MATERIAL2"
 
@@ -966,7 +966,7 @@ The *sed_laketypeID* table stores the **type of (origin of) lake (formation)**.
 
 * LAKETYPE -- For available values refer to :ref:`sed_laketypeID_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinally higher ranking "LAKETYPEID"
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "LAKETYPEID"
 
 ..  _sed_morphID:
 
