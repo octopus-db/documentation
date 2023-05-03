@@ -52,6 +52,8 @@ References
 | 
 | Prentice, I. Colin; Cramer, Wolfgang; Harrison, Sandy P.; Leeman, Rik; Monserud, Robert A.; Solomon, Allen M. (1992). A global biome model based on plant physiology and dominance, soil properties and climate. Journal of Biogeography, 19(2), 117--134. DOI: `10.2307/2845499 <https://doi.org/10.2307/2845499>`_
 |
+| re3data.org (2018). OCTOPUS database. re3data.org -- Registry of Research Data Repositories [data set] (online). DOI: `10.17616/R31NJN2E <https://doi.org/10.17616/R31NJN2E>`_
+|
 | Rood, Dylan H.; Brown, Thomas A.; Finkel, Robert C.; Guilderson, Thomas P. (2013). Poisson and non-Poisson uncertainty estimations of 10Be/9Be measurements at LLNL--CAMS. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 294, 426-429. DOI: `10.1016/j.nimb.2012.08.039 <https://doi.org/10.1016/j.nimb.2012.08.039>`_
 | 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Cohen, Tim J.; Williams, Alan N.; Ulm, Sean (2023). SahulArch: A geochronological database for the archaeology of Sahul, Australian Archaeology. DOI: `10.1080/03122417.2022.2159751 <https://doi.org/10.1080/03122417.2022.2159751>`_
