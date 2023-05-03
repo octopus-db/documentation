@@ -485,6 +485,8 @@ The *cabah_col_mtdID* table stores the **sample collection method**.
 
 * COL_MTD -- For available values refer to :ref:`cabah_col_mtdID_Fields`
 
+* PARENTID -- Is fkey. Refers to ordinal higher ranking “COL_MTDID”
+
 ..  _cabah_methodID:
 
 cabah_methodID table
