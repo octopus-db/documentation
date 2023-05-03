@@ -803,6 +803,10 @@ The *c14_materia2ID* table stores information about the **sub-type of sample mat
 
 * MATERIAL2 -- For available values refer to :ref:`c14_materia2ID_Fields`
 
+* PARENTID -- Is fkey. Refers to ordinally higher ranking "MATERIA2ID"
+
+* MAT2_DESCR -- A concise description of "MATERIAL2"
+
 ..  _c14_solvent2ID:
 
 c14_solvent2ID table
