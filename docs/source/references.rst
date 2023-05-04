@@ -10,7 +10,7 @@ References
 | 
 | Balco, Greg (2019). **Glacier Change and Paleoclimate Applications of Cosmogenic-Nuclide Exposure Dating**. Annu. Rev. Earth Pl. Sc., 48, 21--48. DOI: `10.1146/annurev-earth-081619-052609 <https://doi.org/10.1146/annurev-earth-081619-052609>`_
 | 
-| Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago, Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
+| Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). **Human occupation of northern Australia by 65,000 years ago**. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). **OCTOPUS database (v.2)**. Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
@@ -34,7 +34,7 @@ References
 | 
 | Crabtree, S. A.; White, D. A.; Bradshaw, C. J. A.; Saltré, F.; Williams, A. N.; Beaman, R. J.; Bird, M. I.; Ulm, S. (2021). **Landscape rules predict optimal superhighways for the first peopling of Sahul**. Nature Human Behaviour, 5, 1303--1313. DOI: `10.1038/s41562-021-01106-8 <https://doi.org/10.1038/s41562-021-01106-8>`_
 | 
-| Dixon, Jean L.; Riebe, Clifford S. (2014). **Tracing and Pacing Soil Across Slopes**. Elements, 10, 363--368. DOI: `10.2113/gselements.10.5.363<https://doi.org/10.2113/gselements.10.5.363>`_ 
+| Dixon, Jean L.; Riebe, Clifford S. (2014). **Tracing and Pacing Soil Across Slopes**. Elements, 10, 363--368. DOI: `10.2113/gselements.10.5.363 <https://doi.org/10.2113/gselements.10.5.363>`_ 
 | 
 | Forseth, Irwin N. (2010). **Terrestrial Biomes**. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/
 | 
