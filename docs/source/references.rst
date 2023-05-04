@@ -36,7 +36,7 @@ References
 | 
 | Dixon, Jean L.; Riebe, Clifford S. (2014). **Tracing and Pacing Soil Across Slopes**. Elements, 10, 363--368. DOI: `10.2113/gselements.10.5.363<https://doi.org/10.2113/gselements.10.5.363>`_ 
 | 
-| Forseth, Irwin N. (2010). **Terrestrial Biomes**. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, `https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/ <https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/>`_
+| Forseth, Irwin N. (2010). **Terrestrial Biomes**. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/
 | 
 | Geyh, Mebus A. (2005). **Handbuch der physikalischen und chemischen Altersbestimmung** (in German). Wissenschaftliche Buchgesellschaft, Darmstadt.
 | 
@@ -52,7 +52,7 @@ References
 | 
 | Hernandez, Michael J. (2020). **Database Design for Mere Mortals - A Hands--On Guide to Relational Database Design** (Fourth Edition). Addison-Wesley, Pearson Education Inc.
 | 
-| Heyman, Jakob (2023). **expage - A global compilation of glacial 10Be and 26Al data**. Accessed 06-03-2023, `https://expage.github.io/index.html <https://expage.github.io/index.html>`_
+| Heyman, Jakob (2023). **expage - A global compilation of glacial 10Be and 26Al data**. Accessed 06-03-2023, https://expage.github.io/index.html
 | 
 | Hocknull, S. A.; Lewis, R.; Arnold, L. J.; Pietsch, T.; Joannes-Boyau, R.; Price, G. J.; Moss, P.; Wood, R.; Dosseto, A.; Louys, J.; Olley, J.; Lawrence, R. A. (2020). **Extinction of eastern Sahul megafauna coincides with sustained environmental deterioration**. Nat. Commun., 11, 2250. DOI: `10.1038/s41467-020-15785-w <https://doi.org/10.1038/s41467-020-15785-w>`_
 | 
@@ -100,7 +100,7 @@ References
 | 
 | Singhvi, Ashok K.; Porat, Naomi (2008). **Impact of luminescence dating on geomorphological and palaeoclimate research in drylands**. Boreas, 37, 536--558. DOI: `10.1111/j.1502-3885.2008.00058.x <https://doi.org/10.1111/j.1502-3885.2008.00058.x>`_
 | 
-| The PostgreSQL Global Development Group (2023). **PostgreSQL: The World's Most Advanced Open Source Relational Database**. Accessed 29-04-2023. https://www.postgresql.org
+| The PostgreSQL Global Development Group (2023). **PostgreSQL: The World's Most Advanced Open Source Relational Database**. Accessed 29-04-2023, https://www.postgresql.org
 | 
 | Walker, Mike (2005). **Quaternary Dating Methods**. John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex PO19 8SQ, England.
 | 
