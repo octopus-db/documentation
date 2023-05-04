@@ -3,15 +3,15 @@ References
 ==========
 
 | Akcar, Naki; Ivy-Ochs, Susan; Schlüchter, Christian (2008). **Application of in-situ produced terrestrial cosmogenic nuclides to archaeology: A schematic review**. E&G Quaternary Sci. J., 57, 226--238. DOI: `10.3285/eg.57.1-2.9 <https://doi.org/10.3285/eg.57.1-2.9>`_
-|
+| 
 | Australian Research Council (2020). **Classification Codes—FoR, RFCD, SEO and ANZSIC Codes** (online). Accessed 06-03-2023, https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes
-|
+| 
 | Balco, Greg (2016). **26Al-10Be exposure age/erosion rate calculators: table of Be and Al isotope ratio standardizations** (online). Latest update 25-02-2016, accessed 31-03-2023. https://hess.ess.washington.edu/math/docs/al_be_v22/AlBe_standardization_table.pdf
 | 
 | Balco, Greg (2019). **Glacier Change and Paleoclimate Applications of Cosmogenic-Nuclide Exposure Dating**. Annu. Rev. Earth Pl. Sc., 48, 21--48. DOI: `10.1146/annurev-earth-081619-052609 <https://doi.org/10.1146/annurev-earth-081619-052609>`_
-|
+| 
 | Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago, Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
-|
+| 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). **OCTOPUS database (v.2)**. Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry (2021). **OCTOPUS Database v.2: The CRN Denudation Global collection** (online). University of Wollongong Australia [data set]. DOI: `10.25900/g76f-0h45 <https://doi.org/10.25900/g76f-0h45>`_
@@ -33,29 +33,29 @@ References
 | Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). **OCTOPUS Database v.2: The SahulSed Fluvial OSL collection** (online). University of Wollongong Australia [data set]. DOI: `10.25900/p5ye-rn35 <https://doi.org/10.25900/p5ye-rn35>`_
 | 
 | Crabtree, S. A.; White, D. A.; Bradshaw, C. J. A.; Saltré, F.; Williams, A. N.; Beaman, R. J.; Bird, M. I.; Ulm, S. (2021). **Landscape rules predict optimal superhighways for the first peopling of Sahul**. Nature Human Behaviour, 5, 1303--1313. DOI: `10.1038/s41562-021-01106-8 <https://doi.org/10.1038/s41562-021-01106-8>`_
-|
+| 
 | Dixon, Jean L.; Riebe, Clifford S. (2014). **Tracing and Pacing Soil Across Slopes**. Elements, 10, 363--368. DOI: `10.2113/gselements.10.5.363<https://doi.org/10.2113/gselements.10.5.363>`_ 
-|
+| 
 | Forseth, Irwin N. (2010). **Terrestrial Biomes**. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, `https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/ <https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/>`_
 | 
 | Geyh, Mebus A. (2005). **Handbuch der physikalischen und chemischen Altersbestimmung** (in German). Wissenschaftliche Buchgesellschaft, Darmstadt.
 | 
 | Granger, D. E.; Lifton, N. A.; Willenbring, J. K. (2013). **A cosmic trip: 25 years of cosmogenic nuclides in geology**. Geol. Soc. Am. Bull., 125, 1379--1402. DOI: `10.1130/B30774.1 <https://doi.org/10.1130/B30774.1>`_
-|
+| 
 | Granger, D. E.; Schaller, M. (2014). **Cosmogenic Nuclides and Erosion at the Watershed Scale**. Elements, 10, 369--373. DOI: `10.2113/gselements.10.5.369 <https://doi.org/10.2113/gselements.10.5.369>`_
-|
+| 
 | Granger, D. E.; Gibbon, R. J.; Kuman, K.; Clarke, R. J.; Bruxelles, L.; Caffee, M. W. (2015). **New cosmogenic burial ages for Sterkfontein Member 2 Australopithecus and Member 5 Oldowan**. Nature, 522, 85--88. DOI: `10.1038/nature14268 <https://doi.org/10.1038/nature14268>`_
-|
+| 
 | Guralnik, B.; Ankjærgaard, C.; Jain, M.; Murray, A.; Müller, A.; Wälle, M.; Lowick, S.; Preusser, F.; Rhodes, E.; Wu, T.-S.; Mathew, G.; Herman, F. (2015). **OSL-thermochronometry using bedrock quartz: A note of caution**. Quat. Geochronol., 25, 37--48. DOI: `10.1016/j.quageo.2014.09.001 <https://doi.org/10.1016/j.quageo.2014.09.001>`_
-|
+| 
 | Hajdas, Irka; Ascough, Philippa; Garnett, Mark H.; Fallon, Stewart J.; Pearson, Charlotte L.; Quarta, Gianluca; Spalding, Kirsty L., Yamaguchi, Haruka; Yoneda, Minoru (2021), **Radiocarbon dating**. Nat Rev Methods Primers 1, 62. DOI: `10.1038/s43586-021-00058-7 <https://doi.org/10.1038/s43586-021-00058-7>`_
 | 
 | Hernandez, Michael J. (2020). **Database Design for Mere Mortals - A Hands--On Guide to Relational Database Design** (Fourth Edition). Addison-Wesley, Pearson Education Inc.
-|
+| 
 | Heyman, Jakob (2023). **expage - A global compilation of glacial 10Be and 26Al data**. Accessed 06-03-2023, `https://expage.github.io/index.html <https://expage.github.io/index.html>`_
 | 
 | Hocknull, S. A.; Lewis, R.; Arnold, L. J.; Pietsch, T.; Joannes-Boyau, R.; Price, G. J.; Moss, P.; Wood, R.; Dosseto, A.; Louys, J.; Olley, J.; Lawrence, R. A. (2020). **Extinction of eastern Sahul megafauna coincides with sustained environmental deterioration**. Nat. Commun., 11, 2250. DOI: `10.1038/s41467-020-15785-w <https://doi.org/10.1038/s41467-020-15785-w>`_
-|
+| 
 | Jacobs, Z.; Li, B.; Shunkov, M. V.; Kozlikin, M. B.; Bolikhovskaya, N. S.; Agadjanian, A. K.; Uliyanov, V. A.; Vasiliev, S. K.; O'Gorman, K.; Derevianko, A. P.; Roberts, R. G. (2019). **Timing of archaic hominin occupation of Denisova Cave in southern Siberia**. Nature, 565, 594--599. DOI: `10.1038/s41586-018-0843-2 <https://doi.org/10.1038/s41586-018-0843-2>`_
 | 
 | King, G.,; Herman, F.; Lambert, R.; Valla, P.; Guralnik, B. (2016). **Multi-OSL-thermochronometry of feldspar**. Quat. Geochronol., 33, 76--87. DOI: `10.1016/j.quageo.2016.01.004 <https://doi.org/10.1016/j.quageo.2016.01.004>`_
