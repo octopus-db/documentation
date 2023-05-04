@@ -2,10 +2,6 @@
 Semantic data model
 ===================
 
-.. note::
-
-   The following section is a negligibly modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
-
 Unlike the prior version of the OCTOPUS database that stored data in a series of flat data tables (`Codilean et al., 2018 <https://doi.org/10.5194/essd-10-2123-2018>`_), OCTOPUS v.2 builds on a fully relational PostgreSQL database that, using PostGIS spatial extensions, organises data following a two-pronged conceptual model (Fig. Sdm1). First, data are organised hierarchically going from a broader defined agglomeration of “sites” sharing common properties (referred to as a “metasite”) down to “observations”, namely the actual 10Be, 26Al, OSL, TL, or radiocarbon age or rate data. Second, data are also organised thematically into (i) “local” data, spatial features, and parent tables -- with all of these serving a single data collection; (ii) “thematic” parent tables serving multiple data collections that are thematically linked (e.g. are based on the same method); and (iii) “global” parent tables that serve all data collections (Fig. Sdm1).
 
 .. image:: ./img/data_model.png
@@ -18,3 +14,8 @@ In terms of hierarchy, the OCTOPUS v.2 data model includes four levels: metasite
 We illustrate how the above hierarchical semantic data model is implemented in OCTOPUS v.2, using the example of a South Australian shell midden cluster (`Wilson et al., 2012 <https://doi.org/10.1002/j.1834-4453.2012.tb00128.x>`_) (Fig. Sdm1, inset). A cluster of shell middens that share contextual similarities form a metasite -- “Glen Lossie” -- that has a footprint that may be defined by a bounding box. Individual middens belonging to Glen Lossie are considered sites (point geometry) and have unique OCTOPUS site identifiers assigned (Fig. Sdm1, inset). Shell fragments are samples from those midden sites. In the Glen Lossie case, a repeat measurement was done on a shell fragment with the original ID “GLM3-ss14”. As a result, OCTOPUS considers “GLM3-ss14” and “GLM3-ss14(r)” as a single sample with two associated observations, i.e. two separate radiocarbon ages (Obs. IDs ARCH0171C14001 and ARCH0171C14002 respectively; Fig. Sdm1, inset).
 
 To serve the data collected in the OCTOPUS database as geospatial layers via an interactive map interface and to allow for data manipulation via the WFS protocol, each data sub-collection is served to GeoServer as a flat data table. The deployed version of GeoServer does not accept dynamically generated PostgreSQL virtual tables (knows as “views”); therefore, the generation of static flat data tables was required to serve the purpose of a view. Newer versions of GeoServer, however, accept materialised views, and an upgrade would present a possible improvement in the database by eliminating the need to store duplicate data. When downloading data from OCTOPUS, users are presented with point or polygon geospatial data files with associated attribute tables. Direct connections to the PostgreSQL/PostGIS database are possible upon request. Munack and Codilean (`2022 <https://doi.org/10.5281/zenodo.7352807>`_) provide a complete documentation of the relational database, including a detailed database model diagram and searchable HTML documentation generated using SchemaSpy (https://schemaspy.org, last access: 04 May 2023).
+
+
+.. note::
+
+   The above section is a negligibly modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
