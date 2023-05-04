@@ -4,7 +4,7 @@ System architecture
 
 .. note::
 
-   The following section is a negligibly modified copy of Section 2 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
+   The following section is a negligibly modified version of Section 2 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 
 The software architecture behind OCTOPUS v.2 is illustrated in Fig. Sys1. Both software and data are deployed on the Google Cloud Platform (GCP) and follow a modular set-up aimed at optimal leveraging of cloud services available within the GCP. Although migration of the OCTOPUS platform to a cloud-hosted infrastructure such as the GCP adds complexity to the system architecture, Google Cloud offers extensive infrastructure and software solutions which are constantly updated with the latest technologies and architectures. This constant evolution ensures that any future work and redesigns of the OCTOPUS platform have access to best-in-class solutions. Further, the OCTOPUS platform is completely reproducible with access to a GCP environment, as the source code contains the entire project and required documentation, including infrastructure definitions, application definitions, and deployment steps.
 

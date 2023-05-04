@@ -4,7 +4,7 @@ Semantic data model
 
 .. note::
 
-   The following section is a negligibly modified copy of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
+   The following section is a negligibly modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 
 Unlike the prior version of the OCTOPUS database that stored data in a series of flat data tables (`Codilean et al., 2018 <https://doi.org/10.5194/essd-10-2123-2018>`_), OCTOPUS v.2 builds on a fully relational PostgreSQL database that, using PostGIS spatial extensions, organises data following a two-pronged conceptual model (Fig. Sdm1). First, data are organised hierarchically going from a broader defined agglomeration of “sites” sharing common properties (referred to as a “metasite”) down to “observations”, namely the actual 10Be, 26Al, OSL, TL, or radiocarbon age or rate data. Second, data are also organised thematically into (i) “local” data, spatial features, and parent tables -- with all of these serving a single data collection; (ii) “thematic” parent tables serving multiple data collections that are thematically linked (e.g. are based on the same method); and (iii) “global” parent tables that serve all data collections (Fig. Sdm1).
 
