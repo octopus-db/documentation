@@ -14,7 +14,7 @@ Most components of OCTOPUS v.2 run natively on the GCP apart from GeoServer and 
 
 .. note::
 
-   The above section is a negligibly modified version of Section 2 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
+   The above section is a modified version of Section 2 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 
 
 .. rubric:: Footnotes
