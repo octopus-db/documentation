@@ -26,9 +26,10 @@ Contents
    intro
    collections
    usage
-   data_model
    data_tables
    field_index
+   data_model
+   system_architecture
    resources
    community
    references
