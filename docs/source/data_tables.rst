@@ -723,6 +723,8 @@ SahulArch tables
 
 arch_c14_DataCore table
 ^^^^^^^^^^^^^^^^^^^^^^^
+The *arch_c14_DataCore* table stores stores **observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the SahulArch/ Radiocarbon collection.
+
 .. csv-table::
    :file: ./csv_tables/arch_c14_DataCore.csv
    :header-rows: 1
