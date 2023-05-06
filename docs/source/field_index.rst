@@ -1,6 +1,12 @@
 ============================
-Lookup table fields & values
+Parent table fields & values
 ============================
+
+
+..  _global_parent_tables:
+
+Global parent tables
+--------------------
 
 ..  _global_GrainSize_Fields:
 
@@ -117,7 +123,11 @@ global_PubType fields
 
 * **online** -- Internet source. *Required fields*: title, url, urldate (in "NOTE" field)
 
-----
+
+..  _regional_parent_tables:
+
+Regional parent tables
+----------------------
 
 ..  _cabah_chemprepID_Fields:
 
