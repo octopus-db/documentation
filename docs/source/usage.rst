@@ -1,7 +1,9 @@
 ===========
 Data access
 ===========
-OCTOPUS data can be viewed and exported through a bespoke web interface or accessed directly. For the latter, OCTOPUS database provides web feature service (WFS) allowing users to access database content via third party software such as Geographic Information Systems (GIS), or R language. OCTOPUS data is served by GeoServer [#]_, an open server solution for sharing geospatial data. Unless data from OCTOPUS is explicitly downloaded and locally stored by the user, it will remain cloud-borne, so the user will not have to care about data storage and being up-to-date.
+OCTOPUS data can be viewed and exported through a bespoke web interface (:ref:`Web_interface`) or accessed directly (:ref:`Web_Feature_Service`). For the latter, OCTOPUS database provides web feature service (WFS) allowing users to access database content via third party software such as Geographic Information Systems (GIS), or R language. OCTOPUS data is served by GeoServer [#]_, an open server solution for sharing geospatial data. Unless data from OCTOPUS is explicitly downloaded and locally stored by the user, it will remain cloud-borne, so the user will not have to care about data storage and being up-to-date.
+
+..  _Web_Feature_Service:
 
 Web Feature Service
 -------------------
@@ -192,6 +194,8 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
    Thanks to the very slick 'Mapview' [#]_ functionality, points of the original output map are mouse-over sensitive and can be queried in depth by clicking. Further, the map is scalable and you can choose between a decent selection of base map layers. Try it yourself in R or have a look at a fully functional copy of the above script on `RPubs <https://rpubs.com/HenryM/octopus_wfs>`_!
    
 ----
+
+..  _Web_interface:
 
 Web interface
 -------------
