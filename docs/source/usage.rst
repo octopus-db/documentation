@@ -1,7 +1,7 @@
 ===========
 Data access
 ===========
-OCTOPUS data can be viewed and exported through a bespoke :ref:`Web_interface` or accessed directly via :ref:`Web_Feature_Service`. For the latter, OCTOPUS database provides web feature service (WFS) allowing users to access database content via third party software such as Geographic Information Systems (GIS), or R language. OCTOPUS data is served by GeoServer [#]_, an open server solution for sharing geospatial data. Unless data from OCTOPUS is explicitly downloaded and locally stored by the user, it will remain cloud-borne, so the user will not have to care about data storage and being up-to-date.
+OCTOPUS data can be viewed and exported through a bespoke :ref:`Web_interface` or accessed directly via :ref:`Web_Feature_Service` (WFS). The latter allows users to access database content via third party software such as Geographic Information Systems (GIS), or R language. OCTOPUS data is served by GeoServer [#]_, an open server solution for sharing geospatial data. Unless data from OCTOPUS is explicitly downloaded and locally stored by the user, it will remain cloud-borne, so the user will not have to care about data storage and being up-to-date.
 
 ..  _Web_Feature_Service:
 
