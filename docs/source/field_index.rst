@@ -1,6 +1,6 @@
-=============================
-Table fields and their values
-=============================
+============================
+Lookup table fields & values
+============================
 
 ..  _global_GrainSize_Fields:
 
