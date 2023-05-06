@@ -1,66 +1,66 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent,,,
-OBSID1,text,,pkey,TRUE,,,,
-SMPID,text,,fkey,TRUE,:ref:`arch_Sample`,,,
-OBSID2,text ,,,,,,,
-LABID,text ,,,,,,,
-IGSNID,text ,,,,,,,
-LAB_ORIGID,int2 ,,fkey,,:ref:`cabah_LabCodes`,,,
-METHODID,int2,,fkey,TRUE,:ref:`cabah_methodID`,,,
-DBDOI,text ,,fkey,,:ref:`global_dbDOI`,,,
-REFDBID1,text,,fkey,TRUE,:ref:`global_RefCore`,,,
-REFDBID2,text ,,fkey,,:ref:`global_RefCore`,,,
-REFDBID3,text ,,fkey,,:ref:`global_RefCore`,,,
-REFDBID4,text ,,fkey,,:ref:`global_RefCore`,,,
-COL_MTDID,int2 ,,fkey,,:ref:`cabah_col_mtdID`,,,
-MATERIA1ID,int2 ,,fkey,,:ref:`c14_materia1ID`,,,
-MATERIA2ID,int2 ,,fkey,,:ref:`c14_materia2ID`,,,
-BURNT,varchar(3) ,,,,,,,
-ARCHSPECIS,text ,,,,,,,
-ORGPART,text ,,,,,,,
-HUM_MODID,int2 ,,fkey,,:ref:`c14_hum_modID`,,,
-SINGULAR,varchar(3) ,,,,,,,
-CONSERV,varchar(3) ,,,,,,,
-AGEMTD,varchar(4) ,,,,,,,
-PHYSCLEAN,varchar(3) ,,,,,,,
-CONTAMID,int2 ,,fkey,,:ref:`c14_contamID`,,,
-CHEMPREPID,int2 ,,fkey,,:ref:`cabah_chemprepID`,,,
-SOLVENT1,varchar(3) ,,,,,,,
-SOLVENT2ID,int2 ,,fkey,,:ref:`c14_solventID`,,,
-YIELD_MG,numeric ,mg,,,,,,
-YIELD_PCT,numeric ,%,,,,,,
-C,numeric ,mg,,,,,,
-C_ERR,numeric ,mg,,,,,,
-C_MTDID,int2 ,,fkey,,:ref:`c_mtdID`,,,
-PCT_C,numeric ,%,fkey,,:ref:`c_mtdID`,,,
-PCT_C_ERR,numeric ,%,,,,,,
-PCT_C_MTID,int2 ,,,,,,,
-PCT_N,numeric ,%,fkey,,:ref:`c_mtdID`,,,
-PCT_N_ERR,numeric ,%,,,,,,
-PCT_N_MTID,int2 ,,,,,,,
-CN_RATIO,numeric ,,,,,,,
-CN_ERR,numeric ,,,,,,,
-CN_MTDID,int2 ,,fkey,,:ref:`c_mtdID`,,,
-C13,numeric ,‰ ,,,,,,
-C13_ERR,numeric ,‰ ,,,,,,
-C13_MTDID,int2 ,,fkey,,:ref:`c_mtdID`,,,
-O18,numeric ,‰ ,,,,,,
-O18_ERR,numeric ,‰ ,,,,,,
-O18_MTDID,int2 ,,fkey,,:ref:`c_mtdID`,,,
-N15,numeric ,‰ ,,,,,,
-N15_ERR,numeric ,‰ ,,,,,,
-N15_MTDID,int2 ,,fkey,,:ref:`c_mtdID`,,,
-S34,numeric ,‰ ,,,,,,
-S34_ERR,numeric ,‰ ,,,,,,
-S34_MTDID,int2 ,,fkey,,:ref:`c_mtdID`,,,
-RECRYST,varchar(3) ,,,,,,,
-PCT_RE_VAL,numeric ,%,,,,,,
-PCT_RE_ERR,numeric ,%,,,,,,
-PCT_RE_MTD,varchar(5) ,,,,,,,
-C14_AGE,numeric ,BP,,,,,,
-C14_ERRPOS,numeric ,BP,,,,,,
-C14_ERRNEG,numeric ,BP,,,,,,
-C14_INF,varchar(3) ,,,,,,,
-F14C,numeric ,,,,,,,
-F14C_ERR,numeric ,,,,,,,
-C13_VALID,int2 ,,fkey,,:ref:`c13_valID`,,,
-AGE_COMMT,text ,,,,,,,
+﻿Field,Data type,Unit,Key,Not Null,Parent
+OBSID1,text,,pkey,TRUE,
+SMPID,text,,fkey,TRUE,:ref:`arch_Sample`
+OBSID2,text ,,,,
+LABID,text ,,,,
+IGSNID,text ,,,,
+LAB_ORIGID,int2 ,,fkey,,:ref:`cabah_LabCodes`
+METHODID,int2,,fkey,TRUE,:ref:`cabah_methodID`
+DBDOI,text ,,fkey,,:ref:`global_dbDOI`
+REFDBID1,text,,fkey,TRUE,:ref:`global_RefCore`
+REFDBID2,text ,,fkey,,:ref:`global_RefCore`
+REFDBID3,text ,,fkey,,:ref:`global_RefCore`
+REFDBID4,text ,,fkey,,:ref:`global_RefCore`
+COL_MTDID,int2 ,,fkey,,:ref:`cabah_col_mtdID`
+MATERIA1ID,int2 ,,fkey,,:ref:`c14_materia1ID`
+MATERIA2ID,int2 ,,fkey,,:ref:`c14_materia2ID`
+BURNT,varchar(3) ,,,,
+ARCHSPECIS,text ,,,,
+ORGPART,text ,,,,
+HUM_MODID,int2 ,,fkey,,:ref:`c14_hum_modID`
+SINGULAR,varchar(3) ,,,,
+CONSERV,varchar(3) ,,,,
+AGEMTD,varchar(4) ,,,,
+PHYSCLEAN,varchar(3) ,,,,
+CONTAMID,int2 ,,fkey,,:ref:`c14_contamID`
+CHEMPREPID,int2 ,,fkey,,:ref:`cabah_chemprepID`
+SOLVENT1,varchar(3) ,,,,
+SOLVENT2ID,int2 ,,fkey,,:ref:`c14_solvent2ID`
+YIELD_MG,numeric ,mg,,,
+YIELD_PCT,numeric ,%,,,
+C,numeric ,mg,,,
+C_ERR,numeric ,mg,,,
+C_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
+PCT_C,numeric ,%,fkey,,:ref:`c_mtdID`
+PCT_C_ERR,numeric ,%,,,
+PCT_C_MTID,int2 ,,,,
+PCT_N,numeric ,%,fkey,,:ref:`c_mtdID`
+PCT_N_ERR,numeric ,%,,,
+PCT_N_MTID,int2 ,,,,
+CN_RATIO,numeric ,,,,
+CN_ERR,numeric ,,,,
+CN_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
+C13,numeric ,‰ ,,,
+C13_ERR,numeric ,‰ ,,,
+C13_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
+O18,numeric ,‰ ,,,
+O18_ERR,numeric ,‰ ,,,
+O18_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
+N15,numeric ,‰ ,,,
+N15_ERR,numeric ,‰ ,,,
+N15_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
+S34,numeric ,‰ ,,,
+S34_ERR,numeric ,‰ ,,,
+S34_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
+RECRYST,varchar(3) ,,,,
+PCT_RE_VAL,numeric ,%,,,
+PCT_RE_ERR,numeric ,%,,,
+PCT_RE_MTD,varchar(5) ,,,,
+C14_AGE,numeric ,BP,,,
+C14_ERRPOS,numeric ,BP,,,
+C14_ERRNEG,numeric ,BP,,,
+C14_INF,varchar(3) ,,,,
+F14C,numeric ,,,,
+F14C_ERR,numeric ,,,,
+C13_VALID,int2 ,,fkey,,:ref:`c13_valID`
+AGE_COMMT,text ,,,,
