@@ -25,8 +25,6 @@ Contents
    :maxdepth: 2
 
    intro
-   system_architecture
-   data_model
    collections
    data_tables
    output_tables
