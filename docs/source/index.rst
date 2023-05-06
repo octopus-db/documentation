@@ -28,7 +28,8 @@ Contents
    collections
    usage
    data_tables
-   field_index
+   output_tables
+   parent_tables
    data_model
    system_architecture
    resources
