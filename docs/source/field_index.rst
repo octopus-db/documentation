@@ -2,12 +2,6 @@
 Table fields and their values
 =============================
 
-Data table fields
------------------
-
-Lookup table fields
--------------------
-
 ..  _global_GrainSize_Fields:
 
 global_GrainSize fields
