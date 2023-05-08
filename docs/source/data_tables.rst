@@ -738,7 +738,7 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
 * BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field.
-| Permissible values: 'Yes', 'No', or 'ND' (for ''no data')
+Permissible values: 'Yes', 'No', or 'ND' (for ''no data')
 
 * ARCHSPECIS -- Genus and/ or species, i.e., scientific name of animal or plant used for 14C dating
 
