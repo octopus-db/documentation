@@ -831,7 +831,7 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 arch_osl_DataCore table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *arch_osl_DataCore* table stores stores **OSL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_OSL_collection`.
+The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_OSL_collection`.
 
 .. csv-table::
    :file: ./csv_tables/arch_osl_DataCore.csv
