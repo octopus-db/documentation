@@ -1,0 +1,87 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+OBSID1,text,,pkey,TRUE,
+SMPID,text,,fkey,TRUE,:ref:`arch_Sample`
+OBSID2,text,,,,
+LABID,text,,,,
+IGSNID,text,,,,
+LAB_ORIGID,int2 ,,fkey,,:ref:`cabah_LabCodes`
+METHODID,int2,,fkey,TRUE,:ref:`cabah_methodID`
+DBDOI,text,,fkey,,:ref:`global_dbDOI`
+REFDBID1,text,,fkey,TRUE,:ref:`global_RefCore`
+REFDBID2,text,,fkey,,:ref:`global_RefCore`
+REFDBID3,text,,fkey,,:ref:`global_RefCore`
+REFDBID4,text,,fkey,,:ref:`global_RefCore`
+COL_MTDID, int2,,fkey,,:ref:`cabah_col_mtdID`
+LUM_MATID, int2,,fkey,,:ref:`osl-tl_lum_matID`
+MINERALID, int2,,fkey,,:ref:`osl-tl_mineralID`
+SIZE_MIN, int2,µm,,,
+SIZE_MAX, int2,µm,,,
+H2O_MEAS, numeric,%,,,
+H2O_USED, numeric,%,,,
+H2O_ERR, numeric,%,,,
+ALIQ_SIZE, numeric,mm,,,
+ED_PROCID, int2,,fkey,,:ref:`osl-tl_ed_procID`
+RESCOR, varchar(3):p,,,,
+AGEMODELID, int2,,fkey,,:ref:`osl-tl_agemodelID`
+PLAT_REG, varchar(9),°C ,,,
+AN_TEMP, int2,°C ,,,
+NUM_MEAS, int2,°C ,,,
+EQUIVDOSE, numeric,Gy,,,
+ED_ERR, numeric,Gy,,,
+ED_SAT, numeric,Gy,,,
+ED_SATERR, numeric,Gy,,,
+U, numeric,ppm / μg/g ,,,
+U_ERR, numeric,ppm / μg/g ,,,
+U_MTDID, int2,,fkey,,:ref:`osl-tl_mtdID`
+TH, numeric,ppm / μg/g ,,,
+TH_ERR, numeric,ppm / μg/g ,,,
+TH_MTDID, int2,,fkey,,:ref:`osl-tl_mtdID`
+U_TH, numeric,Bq/kg ,,,
+U_TH_ERR, numeric,Bq/kg ,,,
+U_TH_MTDID, int2,,fkey,,:ref:`osl-tl_mtdID`
+K, numeric,ppm / μg/g ,,,
+K_ERR, numeric,ppm / μg/g ,,,
+K_MTDID, int2,,fkey,,:ref:`osl-tl_mtdID`
+RB, numeric,ppm / μg/g ,,,
+U238, numeric,Bq/kg ,,,
+U238_ERR, numeric,Bq/kg ,,,
+RA226, numeric,Bq/kg ,,,
+RA226_ERR, numeric,Bq/kg ,,,
+PB210, numeric,Bq/kg ,,,
+PB210_ERR, numeric,Bq/kg ,,,
+RA228, numeric,Bq/kg ,,,
+RA228_ERR, numeric,Bq/kg ,,,
+TH228, numeric,Bq/kg ,,,
+TH228_ERR, numeric,Bq/kg ,,,
+TH232, numeric,Bq/kg ,,,
+TH232_ERR, numeric,Bq/kg ,,,
+K40, numeric,Bq/kg ,,,
+K40_ERR, numeric,Bq/kg ,,,
+ALPH, numeric,Gy/ka ,,,
+ALPH_ERR, numeric,Gy/ka ,,,
+ALPH_MTDID, int2,,fkey,,:ref:`osl-tl_mtdID`
+BETA, numeric,Gy/ka ,,,
+BETA_ERR, numeric,Gy/ka ,,,
+BETA_MTDID, int2,,fkey,,:ref:`osl-tl_mtdID`
+GAMMA, numeric,Gy/ka ,,,
+GAMMA_ERR, numeric,Gy/ka ,,,
+GMMA_MTDID, int2,,fkey,,:ref:`osl-tl_mtdID`
+COSMIC, numeric,Gy/ka ,,,
+COSMIC_ERR, numeric,Gy/ka ,,,
+ALPH_I, numeric,Gy/ka ,,,
+ALPH_I_ERR, numeric,Gy/ka ,,,
+ALPH_I_MTD, varchar(8):p,,,,
+BETA_I, numeric,Gy/ka ,,,
+BETA_I_ERR, numeric,Gy/ka ,,,
+BETA_I_MTD, varchar(8):p,,,,
+DIFF_DOSE, varchar(3):p,,,,
+DOSERATE, numeric,Gy/ka ,,,
+DOSE_ERR, numeric,Gy/ka ,,,
+TL_AGE, numeric,ka,,,
+TL_RNDERR, numeric,ka,,,
+TL_ERR, numeric,ka,,,
+AGE_CI, varchar(2):p,,,,
+FADCOR, varchar(3):p,,,,
+G_VAL, numeric,%/10a ,,,
+G_VAL_ERR, numeric,%/10a ,,,
+AGE_COMMT, text,,,,
