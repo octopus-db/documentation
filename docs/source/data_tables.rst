@@ -833,7 +833,9 @@ arch_osl_DataCore table
 ^^^^^^^^^^^^^^^^^^^^^^^
 The *arch_osl_DataCore* table stores stores **OSL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_OSL_collection`.
 
--->
+.. csv-table::
+   :file: ./csv_tables/arch_osl_DataCore.csv
+   :header-rows: 1
 
 * OBSID1 -- Unique age identifier provided as part of the compilation. The first part of the identifier (i.e., ARCH####) is linked to “SITEID”, the ID of the site. The second part of the identifier is unique to the database entry and does also include abbreviation given to the method used to produce the age. For method abbreviations see “METHOD”.
 
@@ -860,7 +862,9 @@ arch_tl_DataCore table
 ^^^^^^^^^^^^^^^^^^^^^^^
 The *arch_tl_DataCore* table stores stores **TL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_TL_collection`.
 
--->
+.. csv-table::
+   :file: ./csv_tables/arch_tl_DataCore.csv
+   :header-rows: 1
 
 * OBSID1 -- Unique age identifier provided as part of the compilation. The first part of the identifier (i.e., ARCH####) is linked to “SITEID”, the ID of the site. The second part of the identifier is unique to the database entry and does also include abbreviation given to the method used to produce the age. For method abbreviations see “METHOD”.
 
