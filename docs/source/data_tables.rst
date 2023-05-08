@@ -743,9 +743,9 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * ORGPART -- Bone element, wood part etc. -- e.g., 'Sapwood', 'Heartwood', 'Twig', 'Ring number', 'Femur' ...
 
-* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? A **predefined value set** only allows for 'Yes', 'No', 'NA' (ingle entities do not exist, i.e., for example sediment), or 'ND' (= 'no data')
+* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? A **predefined value set** only allows for 'Yes', 'No', 'NA' (single entities do not exist, i.e., for example sediment), or 'ND' (= 'no data')
 
-* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? A **predefined value set** only allows for 'Yes','No', 'ND' (= 'no data'), or 'NA' (= not applicable)
+* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= 'no data'), or 'NA' (= not applicable)
 
 * AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional. A **predefined value set** only allows for 'AMS' (= Accelerator Mass Spectrometry), 'CONV' (= conventional), or 'ND' (= 'no data')
 
@@ -814,7 +814,7 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * C14_ERRNEG -- Estimated standard error attached to an individual determination, equal to one standard deviation (1σ). Note that occasionally determinations have asymmetrical standard deviations.
 
-* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement. A **predefined value set** only allows for
+* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
 * F14C -- Proportion of radiocarbon atoms in the sample compared to that present in the year AD 1950. “F14C” is pMC (percent modern carbon)/100.
 
