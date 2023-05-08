@@ -723,7 +723,7 @@ SahulArch tables
 
 arch_c14_DataCore table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *arch_c14_DataCore* table stores stores **observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the SahulArch/ Radiocarbon collection.
+The *arch_c14_DataCore* table stores stores **C14-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_Radiocarbon_collection`.
 
 .. csv-table::
    :file: ./csv_tables/arch_c14_DataCore.csv
@@ -822,6 +822,59 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * AGE_COMMT -- Free text age comment field.
 
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
+..  _arch_osl_DataCore:
+
+arch_osl_DataCore table
+^^^^^^^^^^^^^^^^^^^^^^^
+The *arch_osl_DataCore* table stores stores **OSL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_OSL_collection`.
+
+-->
+
+* OBSID1 -- Unique age identifier provided as part of the compilation. The first part of the identifier (i.e., ARCH####) is linked to “SITEID”, the ID of the site. The second part of the identifier is unique to the database entry and does also include abbreviation given to the method used to produce the age. For method abbreviations see “METHOD”.
+
+* OBSID2 -- Original sample identifier (as published). This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample. Samples labelled only by numbers in the literature (e.g. 1, 2, 3 etc) have had a compound prefix -- first three author name letters AND double-digit publication year -- added (e.g. 'Nan87_1' for sample 1 (Nanson 1987)).
+
+* LABID -- Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.
+
+* IGSNID -- Placeholder for International Geo Sample Number unique ID
+
+* 
+
+* 
+
+* 
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
+
+..  _arch_tl_DataCore:
+
+arch_tl_DataCore table
+^^^^^^^^^^^^^^^^^^^^^^^
+The *arch_tl_DataCore* table stores stores **TL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_TL_collection`.
+
+-->
+
+* OBSID1 -- Unique age identifier provided as part of the compilation. The first part of the identifier (i.e., ARCH####) is linked to “SITEID”, the ID of the site. The second part of the identifier is unique to the database entry and does also include abbreviation given to the method used to produce the age. For method abbreviations see “METHOD”.
+
+* OBSID2 -- Original sample identifier (as published). This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample. Samples labelled only by numbers in the literature (e.g. 1, 2, 3 etc) have had a compound prefix -- first three author name letters AND double-digit publication year -- added (e.g. 'Nan87_1' for sample 1 (Nanson 1987)).
+
+* LABID -- Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.
+
+* IGSNID -- Placeholder for International Geo Sample Number unique ID
+
+* 
+
+* 
+
+* 
 
 .. note::
 
