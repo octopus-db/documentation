@@ -737,21 +737,21 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field. A **predefined value set** only allows for 'Yes' (= burnt), 'No' (= not burnt), or 'ND' (for 'no data')
+* BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field. A **predefined value set** only allows for 'Yes' (= burnt), 'No' (= not burnt), or 'ND' (= 'no data')
 
 * ARCHSPECIS -- Genus and/ or species, i.e., scientific name of animal or plant used for 14C dating
 
 * ORGPART -- Bone element, wood part etc. -- e.g., 'Sapwood', 'Heartwood', 'Twig', 'Ring number', 'Femur' ...
 
-* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together?
+* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? A **predefined value set** only allows for 'Yes', 'No', 'NA' (ingle entities do not exist, i.e., for example sediment), or 'ND' (= 'no data')
 
-* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant?
+* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? A **predefined value set** only allows for 'Yes','No', 'ND' (= 'no data'), or 'NA' (= not applicable)
 
-* AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional
+* AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional. A **predefined value set** only allows for 'AMS' (= Accelerator Mass Spectrometry), 'CONV' (= conventional), or 'ND' (= 'no data')
 
-* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes').
+* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* SOLVENT1 -- Was the pretreatment preceded by a solvent extraction?
+* SOLVENT1 -- Was the pretreatment preceded by a solvent extraction? A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
 * YIELD_MG -- Amount of material after pretreament in mg. If a range was used for a particular sample or (more commonly) all samples, the average for the range given is reported here.
 
@@ -789,13 +789,13 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * S34_ERR -- Error for measured δ34S of the of the pretreated sample.
 
-* RECRYST -- Is secondary recrystallisation present in the pretreated carbonate sample?
+* RECRYST -- Is secondary recrystallisation present in the pretreated carbonate sample? A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
 * PCT_RE_VAL -- Calcite/recrystallised mineral in the pretreated carbonate sample. Stain or microscopy methods used: 998 = presence of calcite/ recrystallization verified, or -991 = absence of calcite/ recrystallization.
 
 * PCT_RE_ERR -- Error for measured amount of calcite/recrystallised mineral in the pretreated sample. Is -9999.99 even if “PCT_RE_VAL” = 998
 
-* PCT_RE_MTD -- How was the presence and/or amount of calcite/recrystallisation measured in the pretreated carbonate sample
+* PCT_RE_MTD -- How was the presence and/or amount of calcite/recrystallisation measured in the pretreated carbonate sample. A **predefined value set** only allows for 'Stain' (= Fiegl's stain), 'XRD' (= X-ray diffractometry), 'FTIR' (= FT infrared spectroscopy), 'Micro' (= Microscopy), 'Other' (= other), or 'ND' (= 'no data')
 
 * C14_AGE -- Conventional radiocarbon age (CRA), as defined by Stuiver and Polach (1977):
 
@@ -814,7 +814,7 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * C14_ERRNEG -- Estimated standard error attached to an individual determination, equal to one standard deviation (1σ). Note that occasionally determinations have asymmetrical standard deviations.
 
-* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement
+* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement. A **predefined value set** only allows for
 
 * F14C -- Proportion of radiocarbon atoms in the sample compared to that present in the year AD 1950. “F14C” is pMC (percent modern carbon)/100.
 
