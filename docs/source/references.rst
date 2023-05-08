@@ -38,6 +38,8 @@ References
 | 
 | Forseth, Irwin N. (2010). Terrestrial Biomes. Nature Education Knowledge 3(10):11. Accessed 30-03-2023, https://www.nature.com/scitable/knowledge/library/terrestrial-biomes-13236757/
 | 
+| Galbraith, R.F.; Roberts, R.G.; Laslett, G.M.; Yoshida, H.; Olley, J.M. (1999). Optical Dating of Single and Multiple Grains of Quartz from Jinmium Rock Shelter, Northern Australia: Part I, Experimental Design and Statistical Models. Archaeometry, 41, 339--364. DOI: `10.1111/j.1475-4754.1999.tb00987.x <https://doi.org/10.1111/j.1475-4754.1999.tb00987.x>`_
+| 
 | Geyh, Mebus A. (2005). Handbuch der physikalischen und chemischen Altersbestimmung (in German). Wissenschaftliche Buchgesellschaft, Darmstadt.
 | 
 | Granger, D. E.; Lifton, N. A.; Willenbring, J. K. (2013). A cosmic trip: 25 years of cosmogenic nuclides in geology. Geol. Soc. Am. Bull., 125, 1379--1402. DOI: `10.1130/B30774.1 <https://doi.org/10.1130/B30774.1>`_
@@ -100,6 +102,8 @@ References
 | 
 | Singhvi, Ashok K.; Porat, Naomi (2008). Impact of luminescence dating on geomorphological and palaeoclimate research in drylands. Boreas, 37, 536--558. DOI: `10.1111/j.1502-3885.2008.00058.x <https://doi.org/10.1111/j.1502-3885.2008.00058.x>`_
 | 
+| Stuiver, Minze; Polach, Henry A. (1977). Discussion Reporting of 14C Data. Radiocarbon, 19(3), 355--363. DOI: `10.1017/S0033822200003672 <https://doi.org/10.1017/S0033822200003672>`_
+|
 | The PostgreSQL Global Development Group (2023). PostgreSQL: The World's Most Advanced Open Source Relational Database. Accessed 29-04-2023, https://www.postgresql.org
 | 
 | Walker, Mike (2005). Quaternary Dating Methods. John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex PO19 8SQ, England.
