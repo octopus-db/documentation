@@ -9,7 +9,7 @@ METHODID,int2,,fkey,TRUE,:ref:`cabah_methodID`
 DBDOI,text,,fkey,,:ref:`global_dbDOI`
 REFDBID1,text,,fkey,TRUE,:ref:`global_RefCore`
 REFDBID2,text,,fkey,,:ref:`global_RefCore`
-REFDBID3,text,µ,fkey,,:ref:`global_RefCore`
+REFDBID3,text,,fkey,,:ref:`global_RefCore`
 REFDBID4,text,,fkey,,:ref:`global_RefCore`
 COL_MTDID, int2,,fkey,,:ref:`cabah_col_mtdID`
 LUM_MATID, int2,,fkey,,:ref:`osl-tl_lum_matID`
@@ -19,7 +19,7 @@ SIZE_MAX, int2,µm,,,
 H2O_MEAS, numeric,%,,,
 H2O_USED, numeric,%,,,
 H2O_ERR, numeric,%,,,
-OSL_TYPEID, int2,,fkey,,:ref:`osl-tl_osl_typeID`
+OSL_TYPEID, int2,,fkey,,:ref:`osl_typeID`
 ALIQ_TYPE, varchar(3):p,,,,
 ALIQ_SIZE, numeric,mm,,,
 ED_PROCID, int2,,fkey,,:ref:`osl-tl_ed_procID`
