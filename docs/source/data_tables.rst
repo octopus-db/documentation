@@ -729,6 +729,62 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
    :file: ./csv_tables/arch_c14_DataCore.csv
    :header-rows: 1
 
+* OBSID1 -- A unique, collection-specific identifier
+
+* OBSID2
+
+* LABID
+
+* IGSNID
+
+* BURNT
+
+* ARCHSPECIS
+
+* ORGPART
+
+* SINGULAR
+
+* CONSERV
+
+* AGEMTD
+
+* PHYSCLEAN
+
+* SOLVENT1
+
+* YIELD_MG
+
+* YIELD_PCT
+
+* C
+
+* C_ERR
+
+* PCT_C
+
+* PCT_C_ERR
+
+* PCT_N
+
+* PCT_N_ERR
+
+* CN_RATIO
+
+* CN_ERR
+
+* C13
+
+* C13_ERR
+
+* O18
+
+* O18_ERR
+
+* 
+
+
+
 ..  _arch_featdatedID:
 
 arch_featdatedID table

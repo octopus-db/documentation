@@ -31,12 +31,12 @@ YIELD_PCT,numeric ,%,,,
 C,numeric ,mg,,,
 C_ERR,numeric ,mg,,,
 C_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
-PCT_C,numeric ,%,fkey,,:ref:`c_mtdID`
+PCT_C,numeric ,%,,,
 PCT_C_ERR,numeric ,%,,,
-PCT_C_MTID,int2 ,,,,
-PCT_N,numeric ,%,fkey,,:ref:`c_mtdID`
+PCT_C_MTID,int2 ,,fkey,,:ref:`c_mtdID`
+PCT_N,numeric ,%,,,
 PCT_N_ERR,numeric ,%,,,
-PCT_N_MTID,int2 ,,,,
+PCT_N_MTID,int2 ,,fkey,,:ref:`c_mtdID`
 CN_RATIO,numeric ,,,,
 CN_ERR,numeric ,,,,
 CN_MTDID,int2 ,,fkey,,:ref:`c_mtdID`
