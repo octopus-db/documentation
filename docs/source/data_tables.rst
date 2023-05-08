@@ -923,55 +923,55 @@ The *arch_osl_DataCore* table stores stores **OSL-related observations** (= smal
 
 * K40_ERR -- Published error value for “K40”
 
-* ALPH -- 
+* ALPH -- External alpha dose rate (wet)
 
-* ALPH_ERR -- 
+* ALPH_ERR -- 1 standard error (1σ) for external alpha dose rate
 
-* BETA -- 
+* BETA -- External beta dose rate (wet)
 
-* BETA_ERR -- 
+* BETA_ERR -- 1 standard error (1σ) for external beta dose rate
 
-* GAMMA -- 
+* GAMMA -- External gamma dose rate (wet)
 
-* GAMMA_ERR -- 
+* GAMMA_ERR -- 1 standard error (1σ) for external gamma dose rate
 
-* COSMIC -- 
+* COSMIC -- Cosmic dose rate (wet)
 
-* COSMIC_ERR -- 
+* COSMIC_ERR -- 1 standard error (1σ) for cosmic dose rate
 
-* ALPH_I -- 
+* ALPH_I -- Internal alpha dose rate (from within grain)
 
-* ALPH_I_ERR -- 
+* ALPH_I_ERR -- 1 standard error (1σ) for "ALPH_I"
 
-* ALPH_I_MTD -- 
+* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
 
-* BETA_I -- 
+* BETA_I -- Internal beta dose rate (from within grain)
 
-* BETA_I_ERR -- 
+* BETA_I_ERR -- 1 standard error (1σ) for "BETA_I"
 
-* BETA_I_MTD -- 
+* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
 
-* DIFF_DOSE -- 
+* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* DOSERATE -- 
+* DOSERATE -- Total (wet) environmental dose rate used for age determination
 
-* DOSE_ERR -- 
+* DOSE_ERR -- Total (wet) environmental dose rate error at 1σ
 
-* OSL_AGE -- 
+* OSL_AGE -- Published OSL age
 
-* OSL_RNDERR -- 
+* OSL_RNDERR -- Published Random only “OSL_AGE” error
 
-* OSL_ERR -- 
+* OSL_ERR -- Published total “OSL_AGE” error (random + systematic)
 
-* AGE_CI -- 
+* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= 'no data')
 
-* FADCOR -- 
+* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* G_VAL -- 
+* G_VAL -- Represents the correcting approach using value of fading rate in feldspars. If reported, express as percent per decade.
 
-* G_VAL_ERR -- 
+* G_VAL_ERR -- Published 1σ error for the “G_VAL”
 
-* AGE_COMMT -- 
+* AGE_COMMT -- Free text age comment field.
 
 .. note::
 
