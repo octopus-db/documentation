@@ -797,19 +797,30 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * PCT_RE_MTD
 
-* C14_AGE
+* C14_AGE -- Conventional radiocarbon age (CRA), as defined by Stuiver and Polach (1977):
+             (1) the use of the Libby half-life value of 5568 years (mean life 8033 years);
+             (2) the assumption of uniformity in 14C activity throughout the biosphere in the past;
+             (3) the use of oxalic acid or a secondary standard as the modern standard;
+             (4) isotopic fractionation normalization of all sample activities to the base of δ13C = -25.0 per mille (relative to the 13C:12C ratio of PDB standard); and,
+             (5) the use of AD 1950 as the base year, with ages given in years before present (BP) (i.e., AD 1950 = 0 BP)
+             This definition may not be met prior to c.1980 and is unlikely to be met prior to 1977. If the database user wishes to use dates from this period, they will need to establish how the radiocarbon age was calculated.
 
-* C14_ERRPOS
+* C14_ERRPOS -- Estimated standard error attached to an individual determination, equal to one standard deviation (1σ). Note that occasionally determinations have asymmetrical standard deviations.
 
-* C14_ERRNEG
+* C14_ERRNEG -- Estimated standard error attached to an individual determination, equal to one standard deviation (1σ). Note that occasionally determinations have asymmetrical standard deviations.
 
-* C14_INF
+* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement
 
-* F14C
+* F14C -- Proportion of radiocarbon atoms in the sample compared to that present in the year AD 1950. “F14C” is pMC (percent modern carbon)/100.
 
-* F14C_ERR
+* F14C_ERR -- Error for proportion of radiocarbon atoms in the sample compared to that present in the year AD 1950. The error for “F14C” is the error for pMC (percent modern carbon)/100.
 
-* AGE_COMMT
+* AGE_COMMT -- Free text age comment field.
+
+
+.. note::
+
+    Fields sourced from parent tables are described .
 
 
 ..  _arch_featdatedID:
