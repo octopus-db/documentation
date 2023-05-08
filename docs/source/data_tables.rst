@@ -781,8 +781,35 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 * O18_ERR
 
-* 
+* N15
 
+* N15_ERR
+
+* S34
+
+* S34_ERR
+
+* RECRYST
+
+* PCT_RE_VAL
+
+* PCT_RE_ERR
+
+* PCT_RE_MTD
+
+* C14_AGE
+
+* C14_ERRPOS
+
+* C14_ERRNEG
+
+* C14_INF
+
+* F14C
+
+* F14C_ERR
+
+* AGE_COMMT
 
 
 ..  _arch_featdatedID:
