@@ -845,87 +845,83 @@ The *arch_osl_DataCore* table stores stores **OSL-related observations** (= smal
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* SIZE_MIN -- 
+* SIZE_MIN -- Reported minimum grain size used for equivalent dose and environmental dose rate determination
 
-* SIZE_MAX -- 
+* SIZE_MAX -- Reported maximum grain size used for equivalent dose and environmental dose rate determination
 
-* H2O_MEAS -- 
+* H2O_MEAS -- Water content as measured from the sample. “H2O_MEAS” will be -9999.99 for estimated, but not measured water content. For those samples, “H2O_USED” will hold the reported estimated value. If the measured water content is given as <1% in the original publication, then 1.0 was recorded here.
 
-* H2O_USED -- 
+* H2O_USED -- Water content used for environmental dose rate determination
 
-* H2O_ERR -- 
+* H2O_ERR -- Standard error for “H2O_USED” (1σ)
 
-* ALIQ_TYPE -- 
+* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. A **predefined value set** only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= 'no data')
 
-* ALIQ_SIZE -- 
+* ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
-* RESCOR -- 
+* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* DOSERECOV -- 
+* DOSERECOV -- Were dose recovery test results reported in the study? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= 'no data'), or 'NA' (= not applicable)
 
-* PH1_TEMP -- 
+* PH1_TEMP -- Preheat temperature applied immediately prior to measurement of either the Natural, Regenerative or Additive dose
 
-* PH2_TEMP -- 
+* PH2_TEMP -- Preheat temperature applied immediately prior to measurement of test dose
 
-* NUM_MEAS -- 
+* NUM_MEAS -- Number of aliquots/grains measured for the sample
 
-* NUM_ACC -- 
+* NUM_ACC -- Number of aliquots/grains accepted for equivalent dose determination
 
-* EQUIVDOSE -- 
+* EQUIVDOSE -- Reported equivalent dose in Gy, sometimes referred to as ED, De, palaeodose (P) or burial dose
 
-* ED_ERR -- 
+* ED_ERR -- Published error for the equivalent dose at 1 standard error (1σ)
 
-* ED_INF -- 
+* ED_INF -- Natural signal projected onto the dose saturation plateau of dose response curve (De represented is a minimum value)
 
-* OD -- 
+* OD -- Overdispersion value for equivalent dose dataset calculated as per Galbraith et al., (1999)
 
-* OD_INF -- 
+* OD_INF -- Overdispersion error value (at 1 standard error, 1σ) for equivalent dose data set calculated as per Galbraith et al., (1999)
 
-* U -- 
+* OD_TYPE -- The unit of measure for “OD” and “OD_ERR” values
 
-* U_ERR -- 
+* U -- Uranium content of the sample
 
-* U_MTDID -- 
+* U_ERR -- Standard error (1σ) for the uranium content of the sample
 
-* TH -- 
+* TH -- Thorium content of the sample
 
-* TH_ERR -- 
+* TH_ERR -- Standard error (1σ) for the thorium content of the sample
 
-* TH_MTDID -- 
+* K -- Potassium content of the sample. N.B. K not K2O
 
-* K -- 
+* K_ERR -- Standard error (1σ) for the potassium content of the sample
 
-* K_ERR -- 
+* U238 -- 238U content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
-* K_MTDID -- 
+* U238_ERR -- Published error value for “U238”
 
-* U238 -- 
+* RA226 -- 226Ra content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
-* U238_ERR -- 
+* RA226_ERR -- Published error value for “RA226”
 
-* RA226 -- 
+* PB210 -- 210Pb content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
-* RA226_ERR -- 
+* PB210_ERR -- Published error value for “PB210”
 
-* PB210 -- 
+* RA228 -- 228Ra content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
-* PB210_ERR -- 
+* RA228_ERR -- Published error value for “RA228”
 
-* RA228 -- 
+* TH228 -- 228Th content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
-* RA228_ERR -- 
+* TH228_ERR -- Published error value for “TH228”
 
-* TH228 -- 
+* TH232 -- 232Th content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
-* TH228_ERR -- 
+* TH232_ERR -- Published error value for “TH232”
 
-* TH232 -- 
+* K40 -- 40K content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
-* TH232_ERR -- 
-
-* K40 -- 
-
-* K40_ERR -- 
+* K40_ERR -- Published error value for “K40”
 
 * ALPH -- 
 
