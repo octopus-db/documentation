@@ -845,11 +845,137 @@ The *arch_osl_DataCore* table stores stores **OSL-related observations** (= smal
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* 
+* SIZE_MIN -- 
 
-* 
+* SIZE_MAX -- 
 
-* 
+* H2O_MEAS -- 
+
+* H2O_USED -- 
+
+* H2O_ERR -- 
+
+* ALIQ_TYPE -- 
+
+* ALIQ_SIZE -- 
+
+* RESCOR -- 
+
+* DOSERECOV -- 
+
+* PH1_TEMP -- 
+
+* PH2_TEMP -- 
+
+* NUM_MEAS -- 
+
+* NUM_ACC -- 
+
+* EQUIVDOSE -- 
+
+* ED_ERR -- 
+
+* ED_INF -- 
+
+* OD -- 
+
+* OD_INF -- 
+
+* U -- 
+
+* U_ERR -- 
+
+* U_MTDID -- 
+
+* TH -- 
+
+* TH_ERR -- 
+
+* TH_MTDID -- 
+
+* K -- 
+
+* K_ERR -- 
+
+* K_MTDID -- 
+
+* U238 -- 
+
+* U238_ERR -- 
+
+* RA226 -- 
+
+* RA226_ERR -- 
+
+* PB210 -- 
+
+* PB210_ERR -- 
+
+* RA228 -- 
+
+* RA228_ERR -- 
+
+* TH228 -- 
+
+* TH228_ERR -- 
+
+* TH232 -- 
+
+* TH232_ERR -- 
+
+* K40 -- 
+
+* K40_ERR -- 
+
+* ALPH -- 
+
+* ALPH_ERR -- 
+
+* BETA -- 
+
+* BETA_ERR -- 
+
+* GAMMA -- 
+
+* GAMMA_ERR -- 
+
+* COSMIC -- 
+
+* COSMIC_ERR -- 
+
+* ALPH_I -- 
+
+* ALPH_I_ERR -- 
+
+* ALPH_I_MTD -- 
+
+* BETA_I -- 
+
+* BETA_I_ERR -- 
+
+* BETA_I_MTD -- 
+
+* DIFF_DOSE -- 
+
+* DOSERATE -- 
+
+* DOSE_ERR -- 
+
+* OSL_AGE -- 
+
+* OSL_RNDERR -- 
+
+* OSL_ERR -- 
+
+* AGE_CI -- 
+
+* FADCOR -- 
+
+* G_VAL -- 
+
+* G_VAL_ERR -- 
+
+* AGE_COMMT -- 
 
 .. note::
 
@@ -873,6 +999,42 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 * LABID -- Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
+
+* 
 
 * 
 
