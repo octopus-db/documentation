@@ -798,6 +798,7 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 * PCT_RE_MTD
 
 * C14_AGE -- Conventional radiocarbon age (CRA), as defined by Stuiver and Polach (1977):
+
              (1) the use of the Libby half-life value of 5568 years (mean life 8033 years);
              (2) the assumption of uniformity in 14C activity throughout the biosphere in the past;
              (3) the use of oxalic acid or a secondary standard as the modern standard;
