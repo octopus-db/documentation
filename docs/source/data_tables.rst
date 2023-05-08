@@ -804,9 +804,9 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
              (4) isotopic fractionation normalization of all sample activities to the base of δ13C = -25.0 per mille (relative to the 13C:12C ratio of PDB standard); and,
              (5) the use of AD 1950 as the base year, with ages given in years before present (BP) (i.e., AD 1950 = 0 BP)
 
-.. Warning::
+.. note::
 
-    This definition may not be met prior to c.1980 and is unlikely to be met prior to 1977. If the database user wishes to use dates from this period, they will need to establish how the radiocarbon age was calculated.
+    The above "C14_AGE" definition may not be met prior to c.1980 and is unlikely to be met prior to 1977. If the database user wishes to use dates from this period, they will need to establish how the radiocarbon age was calculated.
 
 
 * C14_ERRPOS -- Estimated standard error attached to an individual determination, equal to one standard deviation (1σ). Note that occasionally determinations have asymmetrical standard deviations.
