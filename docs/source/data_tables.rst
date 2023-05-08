@@ -824,7 +824,7 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 .. note::
 
-    Fkey fields, i.e., fields sourced from parent tables are not described here, but within the scope of their tables of origin.
+    Fkey fields are decribed within the scope of their tables of origin.
 
 
 ..  _arch_featdatedID:
