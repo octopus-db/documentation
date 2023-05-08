@@ -135,11 +135,11 @@ SITE_COMMT text
 
 * REGION_INT -- Region where the study site is located
 
-* REGION_REG -- Refers to Sahul region. Same as “CNTRY” but needed to accommodate for ‘TSI’
+* REGION_REG -- Refers to Sahul region. Same as “CNTRY” but needed to accommodate for 'TSI'
 
 * DIV_ADMIN -- ISO 3166 code of the administrative region where the study site is located
 
-* DIV_OTHER -- Geographical region in ‘PNG’ and ‘TSI’ where study site is located
+* DIV_OTHER -- Geographical region in 'PNG' and 'TSI' where study site is located
 
 * ISL_NAME -- Name of island where study site is located
 
@@ -171,7 +171,7 @@ SITE_COMMT text
 
 * SITECODEID -- Is fkey. For available values refer to :ref:`global_SiteCode` table
 
-* OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - This field is related to the :ref:`SahulArch` collection, i.e., will not appear in any other collection view [#]_ or flat output table.
+* OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that 'Closed' does not relate to availability or accessibility of information. Note - This field is related to the :ref:`SahulArch` collection, i.e., will not appear in any other collection view [#]_ or flat output table.
 
 * SITE_COMMT -- Free text site comment field
 
@@ -729,73 +729,73 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
    :file: ./csv_tables/arch_c14_DataCore.csv
    :header-rows: 1
 
-* OBSID1 -- A unique, collection-specific identifier
+* OBSID1 -- Unique age identifier provided as part of the compilation. The first part of the identifier (i.e., ARCH####) is linked to “SITEID”, the ID of the site. The second part of the identifier is unique to the database entry and does also include abbreviation given to the method used to produce the age. For method abbreviations see “METHOD”.
 
-* OBSID2
+* OBSID2 -- Original sample identifier (as published). This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample. Samples labelled only by numbers in the literature (e.g. 1, 2, 3 etc) have had a compound prefix -- first three author name letters AND double-digit publication year -- added (e.g. 'Nan87_1' for sample 1 (Nanson 1987)).
 
-* LABID
+* LABID -- Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.
 
-* IGSNID
+* IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* BURNT
+* BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field.
 
-* ARCHSPECIS
+* ARCHSPECIS -- Genus and/ or species, i.e., scientific name of animal or plant used for 14C dating
 
-* ORGPART
+* ORGPART -- Bone element, wood part etc. -- e.g., 'Sapwood', 'Heartwood', 'Twig', 'Ring number', 'Femur' ...
 
-* SINGULAR
+* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together?
 
-* CONSERV
+* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant?
 
-* AGEMTD
+* AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional
 
-* PHYSCLEAN
+* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes').
 
-* SOLVENT1
+* SOLVENT1 -- Was the pretreatment preceded by a solvent extraction?
 
-* YIELD_MG
+* YIELD_MG -- Amount of material after pretreament in mg. If a range was used for a particular sample or (more commonly) all samples, the average for the range given is reported here.
 
-* YIELD_PCT
+* YIELD_PCT -- Amount of material after pretreament in %
 
-* C
+* C -- mg of carbon dated
 
-* C_ERR
+* C_ERR -- Error for measured mg carbon dated
 
-* PCT_C
+* PCT_C -- Measured %C of the pretreated sample
 
-* PCT_C_ERR
+* PCT_C_ERR -- Error for measured %C of the pretreated sample
 
-* PCT_N
+* PCT_N -- Measured %N of the pretreated sample
 
-* PCT_N_ERR
+* PCT_N_ERR -- Error for measured %N of the pretreated sample
 
-* CN_RATIO
+* CN_RATIO -- Measured atomic C:N ratio of the pretreated sample
 
-* CN_ERR
+* CN_ERR -- Error for measured CN value of the pretreated sample
 
-* C13
+* C13 -- Measured δ13C of the pretreated sample. Note that δ13C value on graphite is not included as it is not equivalent to the δ13C on the pretreated material.
 
-* C13_ERR
+* C13_ERR -- Error for measured δ13C of the pretreated sample. Note that δ13C value on graphite is not included as it is not equivalent to the δ13C on the pretreated material.
 
-* O18
+* O18 -- Measured δ 18O of the of the pretreated sample
 
-* O18_ERR
+* O18_ERR -- Error for measured δ 18O of the pretreated sample
 
-* N15
+* N15 -- Measured δ15N of the of the pretreated sample
 
-* N15_ERR
+* N15_ERR -- Error for measured δ15N of the pretreated sample
 
-* S34
+* S34 -- Measured δ34S of the of the pretreated sample
 
-* S34_ERR
+* S34_ERR -- Error for measured δ34S of the of the pretreated sample.
 
-* RECRYST
+* RECRYST -- Is secondary recrystallisation present in the pretreated carbonate sample?
 
-* PCT_RE_VAL
+* PCT_RE_VAL -- Calcite/recrystallised mineral in the pretreated carbonate sample. Stain or microscopy methods used: 998 = presence of calcite/ recrystallization verified, or -991 = absence of calcite/ recrystallization.
 
-* PCT_RE_ERR
+* PCT_RE_ERR -- Error for measured amount of calcite/recrystallised mineral in the pretreated sample. Is -9999.99 even if “PCT_RE_VAL” = 998
 
-* PCT_RE_MTD
+* PCT_RE_MTD -- How was the presence and/or amount of calcite/recrystallisation measured in the pretreated carbonate sample
 
 * C14_AGE -- Conventional radiocarbon age (CRA), as defined by Stuiver and Polach (1977):
 
@@ -825,7 +825,7 @@ The *arch_c14_DataCore* table stores stores **observations** (= smallest data mo
 
 .. note::
 
-    Fkey fields are decribed within the scope of their tables of origin.
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
 
 
 ..  _arch_featdatedID:
