@@ -859,7 +859,7 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
-* ED_PROCABR -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
+* ED_PROCID -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
 
 * RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
@@ -1010,15 +1010,13 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
-* ED_PROCABR -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
+* ED_PROCID -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
 
 * RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* AGEMODELAB -- 
+* PLAT_REG -- Pre-heat plateau region
 
-* PLAT_REG -- 
-
-* AN_TEMP -- 
+* AN_TEMP -- Specific temperature at which analysis is performed
 
 * NUM_MEAS -- Number of aliquots/grains measured for the sample
 
@@ -1026,11 +1024,9 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * ED_ERR -- Published error for the equivalent dose at 1 standard error (1σ)
 
-* ED_ERR -- 
+* ED_SAT -- Equivalent dose (ED) for the saturated age
 
-* ED_SAT -- 
-
-* ED_SATERR -- 
+* ED_SATERR -- Published 1σ error for the saturated age
 
 * U -- Uranium content of the sample
 
@@ -1040,15 +1036,15 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * TH_ERR -- Standard error (1σ) for the thorium content of the sample
 
-* U_TH -- 
+* U_TH -- When U and Th elemental content are reported together, rather than separate U and Th. Reported as radioactive element specific activity
 
-* U_TH_ERR -- 
+* U_TH_ERR -- Published error for “U_TH” specific activity
 
 * K -- Potassium content of the sample. N.B. K not K2O
 
 * K_ERR -- Standard error (1σ) for the potassium content of the sample
 
-* RB -- 
+* RB -- Rubidium (Rb) content
 
 * U238 -- 238U content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
