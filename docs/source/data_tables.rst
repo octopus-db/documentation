@@ -996,47 +996,133 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* 
+* SIZE_MIN -- Reported minimum grain size used for equivalent dose and environmental dose rate determination
 
-* 
+* SIZE_MAX -- Reported maximum grain size used for equivalent dose and environmental dose rate determination
 
-* 
+* H2O_MEAS -- Water content as measured from the sample. “H2O_MEAS” will be -9999.99 for estimated, but not measured water content. For those samples, “H2O_USED” will hold the reported estimated value. If the measured water content is given as <1% in the original publication, then 1.0 was recorded here.
 
-* 
+* H2O_USED -- Water content used for environmental dose rate determination
 
-* 
+* H2O_ERR -- Standard error for “H2O_USED” (1σ)
 
-* 
+* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. A **predefined value set** only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= 'no data')
 
-* 
+* ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
-* 
+* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* 
+* DOSERECOV -- Were dose recovery test results reported in the study? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= 'no data'), or 'NA' (= not applicable)
 
-* 
+* PH1_TEMP -- Preheat temperature applied immediately prior to measurement of either the Natural, Regenerative or Additive dose
 
-* 
+* PH2_TEMP -- Preheat temperature applied immediately prior to measurement of test dose
 
-* 
+* NUM_MEAS -- Number of aliquots/grains measured for the sample
 
-* 
+* NUM_ACC -- Number of aliquots/grains accepted for equivalent dose determination
 
-* 
+* EQUIVDOSE -- Reported equivalent dose in Gy, sometimes referred to as ED, De, palaeodose (P) or burial dose
 
-* 
+* ED_ERR -- Published error for the equivalent dose at 1 standard error (1σ)
 
-* 
+* ED_INF -- Natural signal projected onto the dose saturation plateau of dose response curve (De represented is a minimum value)
 
-* 
+* OD -- Overdispersion value for equivalent dose dataset calculated as per Galbraith et al., (1999)
 
-* 
+* OD_INF -- Overdispersion error value (at 1 standard error, 1σ) for equivalent dose data set calculated as per Galbraith et al., (1999)
 
-* 
+* OD_TYPE -- The unit of measure for “OD” and “OD_ERR” values
 
-* 
+* U -- Uranium content of the sample
 
-* 
+* U_ERR -- Standard error (1σ) for the uranium content of the sample
+
+* TH -- Thorium content of the sample
+
+* TH_ERR -- Standard error (1σ) for the thorium content of the sample
+
+* K -- Potassium content of the sample. N.B. K not K2O
+
+* K_ERR -- Standard error (1σ) for the potassium content of the sample
+
+* U238 -- 238U content from High-Resolution Gamma-ray Spectrometry (HRGS)
+
+* U238_ERR -- Published error value for “U238”
+
+* RA226 -- 226Ra content from High-Resolution Gamma-ray Spectrometry (HRGS)
+
+* RA226_ERR -- Published error value for “RA226”
+
+* PB210 -- 210Pb content from High-Resolution Gamma-ray Spectrometry (HRGS)
+
+* PB210_ERR -- Published error value for “PB210”
+
+* RA228 -- 228Ra content from High-Resolution Gamma-ray Spectrometry (HRGS)
+
+* RA228_ERR -- Published error value for “RA228”
+
+* TH228 -- 228Th content from High-Resolution Gamma-ray Spectrometry (HRGS)
+
+* TH228_ERR -- Published error value for “TH228”
+
+* TH232 -- 232Th content from High-Resolution Gamma-ray Spectrometry (HRGS)
+
+* TH232_ERR -- Published error value for “TH232”
+
+* K40 -- 40K content from High-Resolution Gamma-ray Spectrometry (HRGS)
+
+* K40_ERR -- Published error value for “K40”
+
+* ALPH -- External alpha dose rate (wet)
+
+* ALPH_ERR -- 1 standard error (1σ) for external alpha dose rate
+
+* BETA -- External beta dose rate (wet)
+
+* BETA_ERR -- 1 standard error (1σ) for external beta dose rate
+
+* GAMMA -- External gamma dose rate (wet)
+
+* GAMMA_ERR -- 1 standard error (1σ) for external gamma dose rate
+
+* COSMIC -- Cosmic dose rate (wet)
+
+* COSMIC_ERR -- 1 standard error (1σ) for cosmic dose rate
+
+* ALPH_I -- Internal alpha dose rate (from within grain)
+
+* ALPH_I_ERR -- 1 standard error (1σ) for "ALPH_I"
+
+* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
+
+* BETA_I -- Internal beta dose rate (from within grain)
+
+* BETA_I_ERR -- 1 standard error (1σ) for "BETA_I"
+
+* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
+
+* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+
+* DOSERATE -- Total (wet) environmental dose rate used for age determination
+
+* DOSE_ERR -- Total (wet) environmental dose rate error at 1σ
+
+* OSL_AGE -- Published OSL age
+
+* OSL_RNDERR -- Published Random only “OSL_AGE” error
+
+* OSL_ERR -- Published total “OSL_AGE” error (random + systematic)
+
+* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= 'no data')
+
+* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+
+* G_VAL -- Represents the correcting approach using value of fading rate in feldspars. If reported, express as percent per decade.
+
+* G_VAL_ERR -- Published 1σ error for the “G_VAL”
+
+* AGE_COMMT -- Free text age comment field.
 
 .. note::
 
