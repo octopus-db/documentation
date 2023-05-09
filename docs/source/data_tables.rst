@@ -723,7 +723,7 @@ SahulArch tables
 
 arch_Sample table
 ^^^^^^^^^^^^^^^^^
-The *arch_Sample* table stores SahulArch sample (see :ref:`Semantic_data_mode`) and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate).
+The *arch_Sample* table stores SahulArch sample and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
 
 .. csv-table::
    :file: ./csv_tables/arch_Sample.csv
