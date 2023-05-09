@@ -723,13 +723,34 @@ SahulArch tables
 
 arch_Sample table
 ^^^^^^^^^^^^^^^^^
-'DRAFT' -- The *arch_Sample* table stores stores ...
+`DRAFT`` -- The *arch_Sample* table stores stores ...
 
 .. csv-table::
    :file: ./csv_tables/arch_Sample.csv
    :header-rows: 1
 
+* SMPID -- Sample identifier provided as part of the compilation. The first part of the identifier (i.e., ARCH####) is linked to “SITEID”, the ID of the site. Where it is clear that two or more observations (dates/ rates) have been measured on one sample, they have the same “SMPID” but a different “OBSID1”.
+This also applies across methods, e.g., one sample with an OSL age and an U-series age will have the same “SMPID” but different “OBSID1” (i.e. ARCH####OSL### and ARCH####U###).
 
+* SITEID -- Is fkey. Refers to :ref:`global_SiteMaster`
+
+* FEATDATEID -- For available values refer to :ref:`arch_featdatedID_Fields`
+
+* SQUARE -- Square or trench designation from where the sample is from.
+
+* XU -- Excavation Unit or spit designation from where the sample is from.
+
+* SMPDEPTH -- Depth below the surface (or datum) from which sample was extracted. If the published sample depth was specified as a range, then the median value for that range is reported here.
+
+* SMPX_WGS84 -- WGS84 longitude of site. *Culturally sensitive. Coordinates not to be displayed!*
+
+* SMPY_WGS84 -- WGS84 latitude of site. *Culturally sensitive. Coordinates not to be displayed!*
+
+* OCCUPATION -- Is the dated sample directly related to human activity (e.g. hearth, organic artefact, burial), or was it simply part of a wider archaeological deposit
+
+* CONTEXT -- Was the sample collected from a stratigraphic unit that is associated with human ‘Occupation’ or one that was culturally ‘Sterile’.
+
+* SMP_COMMT -- Free text sample comment field.
 
 
 ..  _arch_c14_DataCore:
