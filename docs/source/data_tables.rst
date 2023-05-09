@@ -723,7 +723,7 @@ SahulArch tables
 
 arch_Sample table
 ^^^^^^^^^^^^^^^^^
-The *arch_Sample* table stores SahulArch samples and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate).
+The *arch_Sample* table stores SahulArch sample (see :ref:`Semantic_data_mode`) and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate).
 
 .. csv-table::
    :file: ./csv_tables/arch_Sample.csv
@@ -747,7 +747,7 @@ The *arch_Sample* table stores SahulArch samples and is, therefore, situated bet
 
 * OCCUPATION -- Is the dated sample directly related to human activity (e.g. hearth, organic artefact, burial), or was it simply part of a wider archaeological deposit. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* CONTEXT -- Was the sample collected from a stratigraphic unit that is associated with human ‘Occupation’ or one that was culturally ‘Sterile’. A **predefined value set** only allows for 'Occupation', 'Sterile', or 'ND' (= 'no data')
+* CONTEXT -- Was the sample collected from a stratigraphic unit that is associated with human 'Occupation' or one that was culturally 'Sterile'. A **predefined value set** only allows for 'Occupation', 'Sterile', or 'ND' (= 'no data')
 
 * SMP_COMMT -- Free text sample comment field.
 
