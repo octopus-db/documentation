@@ -719,6 +719,19 @@ The *crn_studies_boundingbox* table is a **CRN denudation spatial features table
 SahulArch tables
 ~~~~~~~~~~~~~~~~
 
+..  _arch_Sample:
+
+arch_Sample table
+^^^^^^^^^^^^^^^^^
+'DRAFT' -- The *arch_Sample* table stores stores ...
+
+.. csv-table::
+   :file: ./csv_tables/arch_Sample.csv
+   :header-rows: 1
+
+
+
+
 ..  _arch_c14_DataCore:
 
 arch_c14_DataCore table
