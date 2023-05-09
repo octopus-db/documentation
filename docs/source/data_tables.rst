@@ -1014,27 +1014,23 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
-* DOSERECOV -- Were dose recovery test results reported in the study? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= 'no data'), or 'NA' (= not applicable)
+* AGEMODELAB -- 
 
-* PH1_TEMP -- Preheat temperature applied immediately prior to measurement of either the Natural, Regenerative or Additive dose
+* PLAT_REG -- 
 
-* PH2_TEMP -- Preheat temperature applied immediately prior to measurement of test dose
+* AN_TEMP -- 
 
 * NUM_MEAS -- Number of aliquots/grains measured for the sample
-
-* NUM_ACC -- Number of aliquots/grains accepted for equivalent dose determination
 
 * EQUIVDOSE -- Reported equivalent dose in Gy, sometimes referred to as ED, De, palaeodose (P) or burial dose
 
 * ED_ERR -- Published error for the equivalent dose at 1 standard error (1σ)
 
-* ED_INF -- Natural signal projected onto the dose saturation plateau of dose response curve (De represented is a minimum value)
+* ED_ERR -- 
 
-* OD -- Overdispersion value for equivalent dose dataset calculated as per Galbraith et al., (1999)
+* ED_SAT -- 
 
-* OD_INF -- Overdispersion error value (at 1 standard error, 1σ) for equivalent dose data set calculated as per Galbraith et al., (1999)
-
-* OD_TYPE -- The unit of measure for “OD” and “OD_ERR” values
+* ED_SATERR -- 
 
 * U -- Uranium content of the sample
 
@@ -1044,9 +1040,15 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * TH_ERR -- Standard error (1σ) for the thorium content of the sample
 
+* U_TH -- 
+
+* U_TH_ERR -- 
+
 * K -- Potassium content of the sample. N.B. K not K2O
 
 * K_ERR -- Standard error (1σ) for the potassium content of the sample
+
+* RB -- 
 
 * U238 -- 238U content from High-Resolution Gamma-ray Spectrometry (HRGS)
 
@@ -1110,11 +1112,11 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * DOSE_ERR -- Total (wet) environmental dose rate error at 1σ
 
-* OSL_AGE -- Published OSL age
+* TL_AGE -- Published TL age
 
-* OSL_RNDERR -- Published Random only “OSL_AGE” error
+* TL_RNDERR -- Published Random only “TL_AGE” error
 
-* OSL_ERR -- Published total “OSL_AGE” error (random + systematic)
+* TL_ERR -- Published total “TL_AGE” error (random + systematic)
 
 * AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= 'no data')
 
