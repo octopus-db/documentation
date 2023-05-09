@@ -1,0 +1,12 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+SMPID,text,,pkey,TRUE,
+SITEID,text,,fkey,TRUE,:ref:`global_SiteMaster`
+FEATDATEID,int2,,,,:ref:`arch_featdatedID`
+SQUARE,text,,,,
+XU,text,,,,
+SMPDEPTH,"numeric(9, 2)",m,,,
+SMPX_WGS84,"numeric(10, 6)",dec. deg.,,,
+SMPY_WGS84,"numeric(10, 6)",dec. deg.,,,
+OCCUPATION,varchar(3),,,,
+CONTEXT,varchar(10),,,,
+SMP_COMMT,text,,,,
