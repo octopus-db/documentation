@@ -859,6 +859,8 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
+* ED_PROCABR -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
+
 * RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
 * DOSERECOV -- Were dose recovery test results reported in the study? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= 'no data'), or 'NA' (= not applicable)
@@ -1006,9 +1008,9 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * H2O_ERR -- Standard error for “H2O_USED” (1σ)
 
-* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. A **predefined value set** only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= 'no data')
-
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
+
+* ED_PROCABR -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
 
 * RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
 
