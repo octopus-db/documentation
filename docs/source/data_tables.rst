@@ -1491,7 +1491,7 @@ The *expage_points_EPSG3857* table stores spatial features, i.e., points of the 
 .. [#] `Primary key <https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS>`_
 .. [#] `Unique key <https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS>`_
 .. [#] `Foreign key <https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-FK>`_
-.. [#] This self-referencing table is both parent and child at the same time - a table design that was chosen whenever a nested hierarchy needs to be represented.
+.. [#] This self-referencing table is both parent and child at the same time - a table design that was chosen for the representation of nested hierarchies.
 .. [#] PostgreSQL view: `https://www.postgresql.org/docs/current/sql-createview.html <https://www.postgresql.org/docs/current/sql-createview.html>`_
 .. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
