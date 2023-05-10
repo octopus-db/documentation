@@ -1644,6 +1644,46 @@ The *sed-tl_points_EPSG3857* table stores **spatial features**, i.e., points of 
 FosSahul tables
 ~~~~~~~~~~~~~~~
 
+..  _fos_Sample:
+
+fos_Sample table
+^^^^^^^^^^^^^^^^
+The *fos_Sample* table stores FosSahul collection sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
+
+.. csv-table::
+   :file: ./csv_tables/fos_Sample.csv
+   :header-rows: 1
+
+* `to come`
+
+* 
+
+* 
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
+..  _fos_DataCore:
+
+fos_DataCore table
+^^^^^^^^^^^^^^^^^^^^^
+The *fos_DataCore* table stores **observations** (= smallest data model entity) for the :ref:`FosSahul` and is subordinate to the :ref:`fos_Sample`.
+
+.. csv-table::
+   :file: ./csv_tables/fos_DataCore.csv
+   :header-rows: 1
+
+* `to come`
+
+* 
+
+* 
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 fos_TaxRank1_classID
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** name.
