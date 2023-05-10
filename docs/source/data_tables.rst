@@ -1648,13 +1648,13 @@ FosSahul tables
 
 fos_Sample table
 ^^^^^^^^^^^^^^^^
-The *fos_Sample* table stores FosSahul collection sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
+The *fos_Sample* table stores FosSahul collection sample information and is, therefore, situated between the collection-specific :ref:`fos_DataCore` (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
 
 .. csv-table::
    :file: ./csv_tables/fos_Sample.csv
    :header-rows: 1
 
-* `to come`
+`to come`
 
 * 
 
@@ -1674,7 +1674,7 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
    :file: ./csv_tables/fos_DataCore.csv
    :header-rows: 1
 
-* `to come`
+`to come`
 
 * 
 
@@ -1797,13 +1797,13 @@ expage tables
 
 expage_Sample table
 ^^^^^^^^^^^^^^^^^^^
-The *expage_Sample* table stores expage collection sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
+The *expage_Sample* table stores expage collection sample information and is, therefore, situated between the collection-specific :ref:`expage_DataCore` (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
 
 .. csv-table::
    :file: ./csv_tables/expage_Sample.csv
    :header-rows: 1
 
-* `to come`
+`to come`
 
 * 
 
@@ -1823,7 +1823,7 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
    :file: ./csv_tables/expage_DataCore.csv
    :header-rows: 1
 
-* `to come`
+`to come`
 
 * 
 
