@@ -1,0 +1,17 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+SMPID,text,,pkey,TRUE,
+SITEID,text,,,TRUE,:ref:`global_SiteMaster`
+STUDYID,varchar(13),,,TRUE,
+MATERIAL,int2,,fkey,,:ref:`global_GrainSize`
+SIZEMIN,int4,,,,
+SIZEMAX,int4,,,,
+PROJEPSGID,int2,,fkey,,:ref:`crn_projepsgID`
+AREA,"numeric(12, 2)",,,,
+ELEV_AVE,"numeric(6, 2)",,,,
+ELEV_STD,"numeric(6, 2)",,,,
+SLP_AVE,numeric,,,,
+SLP_STD,numeric,,,,
+SMP_DAY,int2,,,,
+SMP_MONTH,int2,,,,
+SMP_YEAR,int2,,,,
+SMP_COMMT,text,,,,

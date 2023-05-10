@@ -667,6 +667,23 @@ Local tables
 CRN tables
 ~~~~~~~~~~
 
+..  _crn_Sample:
+
+crn_Sample table
+^^^^^^^^^^^^^^^^
+The *crn_Sample* table stores CRN collection sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
+
+.. csv-table::
+   :file: ./csv_tables/crn_Sample.csv
+   :header-rows: 1
+
+* 
+
+* 
+
+* 
+
+
 ..  _crn_amsID:
 
 crn_amsID table
