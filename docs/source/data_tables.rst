@@ -1786,5 +1786,6 @@ The *expage_points_EPSG3857* table stores spatial features, i.e., points of the 
 .. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
 .. [#] Digital Elevation Model, i.e., a digital representation of elevation data / terrain
+.. [#] dimensionless
 .. [#] https://epsg.org/
 .. [#] Well Known Text (https://postgis.net/docs/manual-1.4/ch04.html#id417971)
