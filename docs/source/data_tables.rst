@@ -1641,6 +1641,9 @@ The *sed-tl_points_EPSG3857* table stores **spatial features**, i.e., points of 
 
 * OBSID2 -- The original sample identifier (as published), if available
 
+
+..  _FosSahul_tables:
+
 FosSahul tables
 ~~~~~~~~~~~~~~~
 
@@ -1760,11 +1763,17 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
 
-fos_TaxRank1_classID
+
+..  _fos_TaxRank1_classID:
+
+fos_TaxRank1_classID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** name.
 
 ``Table to come``
+
+
+..  _fos_TaxRank2_infraclaID:
 
 fos_TaxRank2_infraclaID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1772,11 +1781,17 @@ The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infracl
 
 ``Table to come``
 
+
+..  _fos_TaxRank3_ordrID:
+
 fos_TaxRank3_ordrID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** name.
 
 ``Table to come``
+
+
+..  _fos_TaxRank4_familyID:
 
 fos_TaxRank4_familyID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -1784,17 +1799,26 @@ The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** 
 
 ``Table to come``
 
+
+..  _fos_TaxRank5_genusID:
+
 fos_TaxRank5_genusID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** name.
 
 ``Table to come``
 
+
+..  _fos_TaxRank6_speciesID:
+
 fos_TaxRank6_speciesID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species** name.
 
 ``Table to come``
+
+
+..  _fos_chemtypeID:
 
 fos_chemtypeID table
 ^^^^^^^^^^^^^^^^^^^^
@@ -1810,6 +1834,9 @@ The *fos_chemtypeID* table stores the **type of chemical pretreatment given to t
 
 * CHEMTYPEAB -- For available values refer to :ref:`fos_chemtypeID_Fields`
 
+
+..  _fos_fosmat1ID:
+
 fos_fosmat1ID table
 ^^^^^^^^^^^^^^^^^^^
 The *fos_fosmat1ID* table stores the **type of dated remain**.
@@ -1823,6 +1850,9 @@ The *fos_fosmat1ID* table stores the **type of dated remain**.
 * FOSMAT1 -- For available values refer to :ref:`fos_fosmat1ID_Fields`
 
 * FOSMAT1ABB -- For available values refer to :ref:`fos_fosmat1ID_Fields`
+
+
+..  _fos_fosmat2ID:
 
 fos_fosmat2ID table
 ^^^^^^^^^^^^^^^^^^^
@@ -1838,6 +1868,9 @@ The *fos_fosmat2ID* table stores the **type of dated material**.
 
 * FOSMAT2ABB -- For available values refer to :ref:`fos_fosmat2ID_Fields`
 
+
+..  _fos_mtdsID:
+
 fos_mtdsID table
 ^^^^^^^^^^^^^^^^
 The *fos_mtdsID* table stores the type of **method used in age determination**.
@@ -1852,6 +1885,9 @@ The *fos_mtdsID* table stores the type of **method used in age determination**.
 
 * FOS_MTDSAB -- For available values refer to :ref:`fos_mtdsID_Fields`
 
+
+..  _fos_polygons_EPSG3857:
+
 fos_polygons_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the FosSahul partner collection (EPSG:900913).
@@ -1865,6 +1901,9 @@ The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of
 * OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
 * OBSID2 -- The original sample identifier (as published), if available
+
+
+..  _expage_tables:
 
 expage tables
 ~~~~~~~~~~~~~
@@ -1908,6 +1947,9 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
+
+..  _expage_points_EPSG3857:
 
 expage_points_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
