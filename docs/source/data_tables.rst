@@ -1656,9 +1656,15 @@ The *fos_Sample* table stores FosSahul collection sample information and is, the
 
 `to come`
 
-* 
+* SMPID -- 
 
-* 
+* STRAT_TAPH -- 
+
+* SPEC_ABUND -- 
+
+* SQUARE_XU -- 
+
+* SMP_COMMT -- 
 
 .. note::
 
@@ -1676,9 +1682,79 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 `to come`
 
-* 
+* OBSID1 -- 
 
-* 
+* OBSID2 -- 
+
+* LABID -- 
+
+* IGSNID -- 
+
+* STATUS -- 
+
+* MEGAFAUNA -- 
+
+* C14_CALIB -- 
+
+* PHYSCLEAN -- 
+
+* CONTAM -- 
+
+* XTR_PROBLEM -- 
+
+* CN_RATIO -- 
+
+* PCT_N -- 
+
+* C14_XRDIFF -- 
+
+* AAR_T_HIST -- 
+
+* AAR_CLOSD -- 
+
+* AAR_UNCERT -- 
+
+* AAR_INCAL -- 
+
+* U_TH_PRE -- 
+
+* U_TH_CLOSD -- 
+
+* U_TH_DCORR -- 
+
+* ESR_I_DR10 -- 
+
+* ESR_GAMMA -- 
+
+* ALIQ_TYPE -- 
+
+* BLEACH_STS -- 
+
+* AGEMD_TRUE -- 
+
+* AGE -- 
+
+* AGE_ERR -- 
+
+* AGE_TYPE -- 
+
+* AGE_CI -- 
+
+* AGE_PREQ -- 
+
+* AGE_Q -- 
+
+* AGE_SUBQ -- 
+
+* AGE_ASSOC1 -- 
+
+* AGE_ASSOC2 -- 
+
+* AGE_PREQ_R -- 
+
+* AGE_Q_R -- 
+
+* AGE_COMMT -- 
 
 .. note::
 

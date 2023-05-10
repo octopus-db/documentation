@@ -1,0 +1,7 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+SMPID,text,,pkey,TRUE,
+SITEID,text,,kkey,TRUE,:ref:`global_SiteMaster`
+STRAT_TAPH,text,,,,
+SPEC_ABUND,text,,,,
+SQUARE_XU,text,,,,
+SMP_COMMT,text,,,,
