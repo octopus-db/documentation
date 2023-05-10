@@ -908,9 +908,9 @@ The *arch_Sample* table stores SahulArch sample information and is, therefore, s
 
 * SMPY_WGS84 -- WGS84 latitude of site. *Culturally sensitive. Coordinates not to be displayed!*
 
-* OCCUPATION -- Is the dated sample directly related to human activity (e.g. hearth, organic artefact, burial), or was it simply part of a wider archaeological deposit. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* OCCUPATION -- Is the dated sample directly related to human activity (e.g. hearth, organic artefact, burial), or was it simply part of a wider archaeological deposit. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
-* CONTEXT -- Was the sample collected from a stratigraphic unit that is associated with human 'Occupation' or one that was culturally 'Sterile'. A **predefined value set** only allows for 'Occupation', 'Sterile', or 'ND' (= 'no data')
+* CONTEXT -- Was the sample collected from a stratigraphic unit that is associated with human 'Occupation' or one that was culturally 'Sterile'. A **predefined value set** only allows for 'Occupation', 'Sterile', or 'ND' (= no data)
 
 * SMP_COMMT -- Free text sample comment field.
 
@@ -933,21 +933,21 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field. A **predefined value set** only allows for 'Yes' (= burnt), 'No' (= not burnt), or 'ND' (= 'no data')
+* BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field. A **predefined value set** only allows for 'Yes' (= burnt), 'No' (= not burnt), or 'ND' (= no data)
 
 * ARCHSPECIS -- Genus and/ or species, i.e., scientific name of animal or plant used for 14C dating
 
 * ORGPART -- Bone element, wood part etc. -- e.g., 'Sapwood', 'Heartwood', 'Twig', 'Ring number', 'Femur' ...
 
-* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? A **predefined value set** only allows for 'Yes', 'No', 'NA' (single entities do not exist, i.e., for example sediment), or 'ND' (= 'no data')
+* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? A **predefined value set** only allows for 'Yes', 'No', 'NA' (single entities do not exist, i.e., for example sediment), or 'ND' (= no data)
 
-* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= 'no data'), or 'NA' (= not applicable)
+* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional. A **predefined value set** only allows for 'AMS' (= Accelerator Mass Spectrometry), 'CONV' (= conventional), or 'ND' (= 'no data')
+* AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional. A **predefined value set** only allows for 'AMS' (= Accelerator Mass Spectrometry), 'CONV' (= conventional), or 'ND' (= no data)
 
-* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
-* SOLVENT1 -- Was the pretreatment preceded by a solvent extraction? A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* SOLVENT1 -- Was the pretreatment preceded by a solvent extraction? A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * YIELD_MG -- Amount of material after pretreament in mg. If a range was used for a particular sample or (more commonly) all samples, the average for the range given is reported here.
 
@@ -985,13 +985,13 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * S34_ERR -- Error for measured δ34S of the of the pretreated sample.
 
-* RECRYST -- Is secondary recrystallisation present in the pretreated carbonate sample? A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* RECRYST -- Is secondary recrystallisation present in the pretreated carbonate sample? A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * PCT_RE_VAL -- Calcite/recrystallised mineral in the pretreated carbonate sample. Stain or microscopy methods used: 998 = presence of calcite/ recrystallization verified, or -991 = absence of calcite/ recrystallization.
 
 * PCT_RE_ERR -- Error for measured amount of calcite/recrystallised mineral in the pretreated sample. Is -9999.99 even if “PCT_RE_VAL” = 998
 
-* PCT_RE_MTD -- How was the presence and/or amount of calcite/recrystallisation measured in the pretreated carbonate sample. A **predefined value set** only allows for 'Stain' (= Fiegl's stain), 'XRD' (= X-ray diffractometry), 'FTIR' (= FT infrared spectroscopy), 'Micro' (= Microscopy), 'Other' (= other), or 'ND' (= 'no data')
+* PCT_RE_MTD -- How was the presence and/or amount of calcite/recrystallisation measured in the pretreated carbonate sample. A **predefined value set** only allows for 'Stain' (= Fiegl's stain), 'XRD' (= X-ray diffractometry), 'FTIR' (= FT infrared spectroscopy), 'Micro' (= Microscopy), 'Other' (= other), or 'ND' (= no data)
 
 * C14_AGE -- Conventional radiocarbon age (CRA), as defined by Stuiver and Polach (1977):
 
@@ -1010,13 +1010,13 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * C14_ERRNEG -- Estimated standard error attached to an individual determination, equal to one standard deviation (1σ). Note that occasionally determinations have asymmetrical standard deviations.
 
-* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * F14C -- Proportion of radiocarbon atoms in the sample compared to that present in the year AD 1950. “F14C” is pMC (percent modern carbon)/100.
 
 * F14C_ERR -- Error for proportion of radiocarbon atoms in the sample compared to that present in the year AD 1950. The error for “F14C” is the error for pMC (percent modern carbon)/100.
 
-* AGE_COMMT -- Free text age comment field.
+* AGE_COMMT -- Free text age comment field
 
 
 .. note::
@@ -1051,15 +1051,15 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * H2O_ERR -- Standard error for “H2O_USED” (1σ)
 
-* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. A **predefined value set** only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= 'no data')
+* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. A **predefined value set** only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= no data)
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
 * ED_PROCID -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
 
-* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
-* DOSERECOV -- Were dose recovery test results reported in the study? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= 'no data'), or 'NA' (= not applicable)
+* DOSERECOV -- Were dose recovery test results reported in the study? A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
 * PH1_TEMP -- Preheat temperature applied immediately prior to measurement of either the Natural, Regenerative or Additive dose
 
@@ -1141,15 +1141,15 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * ALPH_I_ERR -- 1 standard error (1σ) for "ALPH_I"
 
-* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
+* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
 * BETA_I -- Internal beta dose rate (from within grain)
 
 * BETA_I_ERR -- 1 standard error (1σ) for "BETA_I"
 
-* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
+* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
-* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * DOSERATE -- Total (wet) environmental dose rate used for age determination
 
@@ -1161,15 +1161,15 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * OSL_ERR -- Published total “OSL_AGE” error (random + systematic)
 
-* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= 'no data')
+* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= no data)
 
-* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * G_VAL -- Represents the correcting approach using value of fading rate in feldspars. If reported, express as percent per decade.
 
 * G_VAL_ERR -- Published 1σ error for the “G_VAL”
 
-* AGE_COMMT -- Free text age comment field.
+* AGE_COMMT -- Free text age comment field
 
 .. note::
 
@@ -1208,7 +1208,7 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * ED_PROCID -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
 
-* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * PLAT_REG -- Pre-heat plateau region
 
@@ -1290,15 +1290,15 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * ALPH_I_ERR -- 1 standard error (1σ) for "ALPH_I"
 
-* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
+* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
 * BETA_I -- Internal beta dose rate (from within grain)
 
 * BETA_I_ERR -- 1 standard error (1σ) for "BETA_I"
 
-* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= 'no data')
+* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
-* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * DOSERATE -- Total (wet) environmental dose rate used for age determination
 
@@ -1310,15 +1310,15 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * TL_ERR -- Published total “TL_AGE” error (random + systematic)
 
-* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= 'no data')
+* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= no data)
 
-* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= 'no data')
+* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * G_VAL -- Represents the correcting approach using value of fading rate in feldspars. If reported, express as percent per decade.
 
 * G_VAL_ERR -- Published 1σ error for the “G_VAL”
 
-* AGE_COMMT -- Free text age comment field.
+* AGE_COMMT -- Free text age comment field
 
 .. note::
 
@@ -1657,8 +1657,6 @@ The *fos_Sample* table stores FosSahul collection sample information and is, the
    :file: ./csv_tables/fos_Sample.csv
    :header-rows: 1
 
-`to come`
-
 * SMPID -- 
 
 * STRAT_TAPH -- 
@@ -1683,81 +1681,80 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
    :file: ./csv_tables/fos_DataCore.csv
    :header-rows: 1
 
-`to come`
+* OBSID1 -- Unique sample identifier provided as part of the compilation. Serves as back reference to parent FosSahul fork (https://doi.org/10.1038/s41597-019-0267-3), with the prefix 'FOS' and wildcard zero(s) added to the original ID.
 
-* OBSID1 -- 
+* OBSID2 -- Original sample identifier (as published).
+This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample. Samples labelled only by numbers in the literature (e.g., 1, 2, 3 etc) have had a compound prefix -- first three author name letters AND double-digit publication year -- added (e.g. 'Nan87_1' for sample 1 (Nanson 1987)).
 
-* OBSID2 -- 
+* LABID -- Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.
 
-* LABID -- 
+* IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* IGSNID -- 
+* STATUS -- Most updated status. A **predefined value set** only allows for 'Extant', 'Extinct', or 'ND' (= no data)
 
-* STATUS -- 
+* MEGAFAUNA -- 'Yes' if species weight > 44 kg, otherwise 'No', 'ND' for no data
 
-* MEGAFAUNA -- 
+* C14_CALIB -- Whether the published radiocarbon age is calibrated or uncalibrated. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* C14_CALIB -- 
+* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* PHYSCLEAN -- 
+* CONTAM -- Whether the study authors suggest a contaminant may have occurred. A **predefined value set** only allows for 'Likely' (= contamination likely), 'Possible' (= contamination possible), 'No' (= not contaminated), or 'Yes' (= indication for contamination), 'ND' (= no data), or 'NA' (= not applicable)
 
-* CONTAM -- 
+* XTR_PROBLEM -- Whether the study authors reported extraction problems. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
-* XTR_PROBLEM -- 
+* CN_RATIO -- Measured atomic C:N ratio of the pretreated sample
 
-* CN_RATIO -- 
+* PCT_N -- Measured %N of the pretreated sample
 
-* PCT_N -- 
+* C14_XRDIFF -- For corals/shells only: Indicates if X-ray diffraction shows that recrystallisation is insignificant
 
-* C14_XRDIFF -- 
+* AAR_T_HIST -- Thermal history of the sample. Based on the established quality rating criteria (Rodríguez-Rey et al. 2015): is the thermal history of the sample unknown or were materials burnt (i.e., is “AAR_T_HIST” not 'Fine'), then rating will be 'C'. A **predefined value set** only allows for 'Fine', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_T_HIST -- 
+* AAR_CLOSD -- Whether the material has demonstrated closed-system behaviour.A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_CLOSD -- 
+* AAR_UNCERT -- Whether multiple analyses were replicated with low uncertainties. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_UNCERT -- 
+* AAR_INCAL -- Whether reliable calibration was done using independent dating techniques. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_INCAL -- 
+* U_TH_PRE -- Short description of pretreatment
 
-* U_TH_PRE -- 
+* U_TH_CLOSD -- Uranium-series ages for teeth (dentine) and bone: whether closed-system behaviour has been demonstrated by U-series profiling and modelling based on continuous profiles or spot sampling using laser ablation. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* U_TH_CLOSD -- 
+* U_TH_DCORR -- Uranium-series ages for closed-system of no body remains (e.g., speleothems, corals, calcite within bones etc): Whether a correction was made for detrital thorium contamination. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* U_TH_DCORR -- 
+* ESR_I_DR10 -- ESR ages: Whether the internal dose rate is less/ greater 10%. A **predefined value set** only allows for '<10' (= less than 10%), '<10' (= greater than 10%), 'ND' (= no data), or 'NA' (= not applicable)
 
-* ESR_I_DR10 -- 
+* ESR_GAMMA -- ESR ages: Whether the gamma dose rate was measured 'In_situ' or was 'Assumed'. A **predefined value set** only allows for 'In_situ', 'Assumed', 'ND' (= no data), or 'NA' (= not applicable)
 
-* ESR_GAMMA -- 
+* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. A **predefined value set** only allows for 'MA' (= Multi Aliquot), 'SA' (= Single Aliquot), 'SG' (= Single Grain), 'ND' (= no data), or 'NA' (= not applicable)
 
-* ALIQ_TYPE -- 
+* BLEACH_STS -- Luminescence bleaching status. A **predefined value set** only allows for 'Adequately', 'Partially', 'ND' (= no data), or 'NA' (= not applicable)
 
-* BLEACH_STS -- 
+* AGEMD_TRUE -- Luminescence single grain equivalent dose model. Whether the luminescence age can be modelled. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGEMD_TRUE -- 
+* AGE -- Published age
 
-* AGE -- 
+* AGE_ERR -- Published total age error
 
-* AGE_ERR -- 
+* AGE_TYPE -- Temporal quality of published age estimate. A **predefined value set** only allows for 'Min' (= Minimum age), 'Max' (= Maximum age), 'Exact' (= Exact age), 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGE_TYPE -- 
+* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1SD' (= 1 Standard deviation), '2SD' (= 2 Standaerd deviations), or 'ND' (= no data)
 
-* AGE_CI -- 
+* AGE_PREQ -- Quality rating of dating protocol (see Rodríguez-Rey, M. et al. 2015. Quat Geochronol 30. Fig. 1.). A **predefined value set** only allows for 'm*' (= Highest reliability), 'm' (= High reliability), 'B' (= Low reliability), 'C' (= Lowest reliability), or 'ND' (= no data)
 
-* AGE_PREQ -- 
+* AGE_Q -- Reliability rating of fossil age (see Rodríguez-Rey, M. et al. , 2015.). A **predefined value set** only allows for 'A*' (= Highly reliable), 'A' (= Reliable), 'B' (= Unreliable), C (= Highly unreliable), 'ND' (= no data)
 
-* AGE_Q -- 
+* AGE_SUBQ -- Sub-category of “AGE_Q”, if reliable by association (see Rodríguez-Rey, M. et al. , 2015.). A **predefined value set** only allows for 'a' (= above), 'w' (= within), 'b' (= below), 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGE_SUBQ -- 
+* AGE_ASSOC1 -- 'Direct' age estimates have been derived from vertebrate parts of the target species itself. 'Indirect' ages are not based on taget species body parts, but still can be used based on association, i.e., the relationship between the target fossil and the dated structure/ material. A **predefined value set** only allows for 'Direct', 'Indirect', or 'ND' (= no data)
 
-* AGE_ASSOC1 -- 
+* AGE_ASSOC2 -- Applicable if “AGE_ASSOC1” = 'Indirect'. Additional descriptor for the quality of the association between the dated structure/ material and the target specimen. Is NA if “AGE_ASSOC1” = 'Direct'. A **predefined value set** only allows for 'Yes' (= clear association), 'No' (= association not clear), 'Uncertain' (= association uncertain), 'NA' ("AGE_ASSOC1" = 'Direct'), or 'ND' (= no data)
 
-* AGE_ASSOC2 -- 
+* AGE_PREQ_R -- Reason for “AGE_PREQ” value
 
-* AGE_PREQ_R -- 
+* AGE_Q_R -- Reason for “AGE_Q” value
 
-* AGE_Q_R -- 
-
-* AGE_COMMT -- 
+* AGE_COMMT -- Free text age comment field
 
 .. note::
 
