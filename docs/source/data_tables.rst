@@ -1683,8 +1683,7 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 * OBSID1 -- Unique sample identifier provided as part of the compilation. Serves as back reference to parent FosSahul fork (https://doi.org/10.1038/s41597-019-0267-3), with the prefix 'FOS' and wildcard zero(s) added to the original ID.
 
-* OBSID2 -- Original sample identifier (as published).
-This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample. Samples labelled only by numbers in the literature (e.g., 1, 2, 3 etc) have had a compound prefix -- first three author name letters AND double-digit publication year -- added (e.g. 'Nan87_1' for sample 1 (Nanson 1987)).
+* OBSID2 -- Original sample identifier (as published). This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample. Samples labelled only by numbers in the literature (e.g., 1, 2, 3 etc) have had a compound prefix -- first three author name letters AND double-digit publication year -- added (e.g. 'Nan87_1' for sample 1 (Nanson 1987)).
 
 * LABID -- Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.
 
