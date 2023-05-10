@@ -677,11 +677,37 @@ The *crn_Sample* table stores CRN collection sample information and is, therefor
    :file: ./csv_tables/crn_Sample.csv
    :header-rows: 1
 
-* 
+* SMPID -- Unique sample identifier that, first and foremost, serves database operation. CRN SMPIDs have been aggregated using similarities in concatenated roundup(3) “Y_WGS84” AND roundup(3) “X_WGS84” AND "SIZEMIN” AND "SIZEMAX".
 
-* 
+* SITEID -- Unique site identifier that, first and foremost, serves database operation. CRN SITEIDs have been aggregated using similarities in concatenated roundup(3) “Y_WGS84” AND roundup(3) “X_WGS84”, with running alphabetic letter(s) added.
 
-* 
+* STUDYID -- Unique study identifier provided as part of the compilation
+
+* MATERIAL -- Abbreviated type of material sampled
+
+* SIZEMIN -- Minimum grain size sampled
+
+* SIZEMAX -- Maximum grain size sampled
+
+* PROJEPSGID -- EPSG projection code, used as unique identifier, of projected coordinate system used for calculations
+
+* AREA -- Basin area as calculated from projected DEM [#]_
+
+* ELEV_AVE -- Mean elevation of basin as calculated from projected DEM
+
+* ELEV_STD -- Standard deviation of elevation of basin as calculated from projected DEM
+
+* SLP_AVE -- Mean slope gradient of basin as calculated from projected DEM
+
+* SLP_STD -- Standard deviation of slope gradient of basin as calculated from projected DEM
+
+* SMP_DAY -- Sampling day (if published)
+
+* SMP_MONTH -- Sampling month (if published)
+
+* SMP_YEAR -- Sampling year (if published)
+
+* SMP_COMMT -- Free text sample comment field.
 
 
 ..  _crn_amsID:
@@ -1631,5 +1657,6 @@ The *expage_points_EPSG3857* table stores spatial features, i.e., points of the 
 .. [#] PostgreSQL view: `https://www.postgresql.org/docs/current/sql-createview.html <https://www.postgresql.org/docs/current/sql-createview.html>`_
 .. [#] Field descriptions unaltered taken from `https://postgis.net/ <https://postgis.net/>`_
 .. [#] `https://www.ctan.org/pkg/bibtex <https://www.ctan.org/pkg/bibtex>`_
+.. [#] Digital Elevation Model, i.e., a digital representation of elevation data / terrain
 .. [#] https://epsg.org/
 .. [#] Well Known Text (https://postgis.net/docs/manual-1.4/ch04.html#id417971)
