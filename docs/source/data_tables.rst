@@ -1689,7 +1689,7 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* STATUS -- Most updated status. A **predefined value set** only allows for 'Extant', 'Extinct', or 'ND' (= no data)
+* STATUS -- Most updated status. A **predefined value set** only allows for 'Extant', 'Extinct', 'ND' (= no data), or 'NA' (= not applicable)
 
 * MEGAFAUNA -- 'Yes' if species weight > 44 kg, otherwise 'No', 'ND' for no data
 
@@ -1705,11 +1705,11 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 * PCT_N -- Measured %N of the pretreated sample
 
-* C14_XRDIFF -- For corals/shells only: Indicates if X-ray diffraction shows that recrystallisation is insignificant
+* C14_XRDIFF -- For corals/shells only: Indicates if X-ray diffraction shows that recrystallisation is insignificant. A **predefined value set** only allows for 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
 * AAR_T_HIST -- Thermal history of the sample. Based on the established quality rating criteria (Rodríguez-Rey et al. 2015): is the thermal history of the sample unknown or were materials burnt (i.e., is “AAR_T_HIST” not 'Fine'), then rating will be 'C'. A **predefined value set** only allows for 'Fine', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_CLOSD -- Whether the material has demonstrated closed-system behaviour.A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* AAR_CLOSD -- Whether the material has demonstrated closed-system behaviour. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
 * AAR_UNCERT -- Whether multiple analyses were replicated with low uncertainties. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
@@ -1721,7 +1721,7 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 * U_TH_DCORR -- Uranium-series ages for closed-system of no body remains (e.g., speleothems, corals, calcite within bones etc): Whether a correction was made for detrital thorium contamination. A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* ESR_I_DR10 -- ESR ages: Whether the internal dose rate is less/ greater 10%. A **predefined value set** only allows for '<10' (= less than 10%), '<10' (= greater than 10%), 'ND' (= no data), or 'NA' (= not applicable)
+* ESR_I_DR10 -- ESR ages: Whether the internal dose rate is less/ greater 10%. A **predefined value set** only allows for '<10' (= less than 10%), '>10' (= greater than 10%), 'ND' (= no data), or 'NA' (= not applicable)
 
 * ESR_GAMMA -- ESR ages: Whether the gamma dose rate was measured 'In_situ' or was 'Assumed'. A **predefined value set** only allows for 'In_situ', 'Assumed', 'ND' (= no data), or 'NA' (= not applicable)
 
@@ -1737,7 +1737,7 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 * AGE_TYPE -- Temporal quality of published age estimate. A **predefined value set** only allows for 'Min' (= Minimum age), 'Max' (= Maximum age), 'Exact' (= Exact age), 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1SD' (= 1 Standard deviation), '2SD' (= 2 Standaerd deviations), or 'ND' (= no data)
+* AGE_CI -- Published confidence interval on the age estimate. A **predefined value set** only allows for '1SD' (= 1 Standard deviation), '2SD' (= 2 Standard deviations), or 'ND' (= no data)
 
 * AGE_PREQ -- Quality rating of dating protocol (see Rodríguez-Rey, M. et al. 2015. Quat Geochronol 30. Fig. 1.). A **predefined value set** only allows for 'm*' (= Highest reliability), 'm' (= High reliability), 'B' (= Low reliability), 'C' (= Lowest reliability), or 'ND' (= no data)
 
