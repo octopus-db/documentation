@@ -3,14 +3,14 @@ OBSID1, text,,pkey,TRUE,
 SMPID, text,,fkey,TRUE,:ref:`crn_Sample`
 OBSID2, text,,,,
 IGSNID, text,,,,
-DBDOI, text,,fkey,TRUE,:ref:``
+DBDOI, text,,fkey,TRUE,:ref:`global_dbDOI`
 REFDBID1, text,,fkey,TRUE,:ref:`global_RefCore`
 BE10NP, int8,atoms.g^-1 ,,,
 BE10NP_ERR, int8,atoms.g^-1 ,,,
 BE10EP, numeric,mm.kyr^-1 ,,,
 BE10EP_ERR, numeric,mm.kyr^-1 ,,,
 BESTNDID, int2,,fkey,,:ref:`crn_bestndID`
-BEAMSID, int2,,fkey,,:ref:`crn_amsID `
+BEAMSID, int2,,fkey,,:ref:`crn_amsID`
 BE10NC, int8,atoms.g^-1 ,,,
 BE10NC_ERR, int8,atoms.g^-1 ,,,
 BEPROD, numeric,dimless,,,
