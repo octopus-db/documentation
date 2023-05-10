@@ -1793,6 +1793,46 @@ The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of
 expage tables
 ~~~~~~~~~~~~~
 
+..  _expage_Sample:
+
+expage_Sample table
+^^^^^^^^^^^^^^^^^^^
+The *expage_Sample* table stores expage collection sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
+
+.. csv-table::
+   :file: ./csv_tables/expage_Sample.csv
+   :header-rows: 1
+
+* `to come`
+
+* 
+
+* 
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
+..  _expage_DataCore:
+
+expage_DataCore table
+^^^^^^^^^^^^^^^^^^^^^
+The *expage_DataCore* table stores **observations** (= smallest data model entity) for the :ref:`expage` and is subordinate to the :ref:`expage_Sample`.
+
+.. csv-table::
+   :file: ./csv_tables/expage_DataCore.csv
+   :header-rows: 1
+
+* `to come`
+
+* 
+
+* 
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 expage_points_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *expage_points_EPSG3857* table stores spatial features, i.e., points of the expage partner collection (EPSG:900913).
