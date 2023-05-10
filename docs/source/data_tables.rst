@@ -775,7 +775,7 @@ The *crn_al_DataCore* table stores **26Al observations** (= smallest data model 
 
 crn_be_DataCore table
 ^^^^^^^^^^^^^^^^^^^^^
-The *crn_be_DataCore* table stores ...
+The *crn_be_DataCore* table stores **10Be observations** (= smallest data model entity) for the :ref:`CRN` and is subordinate to the :ref:`crn_Sample`.
 
 .. csv-table::
    :file: ./csv_tables/crn_be_DataCore.csv
