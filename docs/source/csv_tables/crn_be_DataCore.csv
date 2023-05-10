@@ -1,0 +1,27 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+OBSID1, text,,pkey,TRUE,
+SMPID, text,,fkey,TRUE,:ref:`crn_Sample`
+OBSID2, text,,,,
+IGSNID, text,,,,
+DBDOI, text,,fkey,TRUE,:ref:``
+REFDBID1, text,,fkey,TRUE,:ref:`global_RefCore`
+BE10NP, int8,atoms.g^-1 ,,,
+BE10NP_ERR, int8,atoms.g^-1 ,,,
+BE10EP, numeric,mm.kyr^-1 ,,,
+BE10EP_ERR, numeric,mm.kyr^-1 ,,,
+BESTNDID, int2,,fkey,,:ref:`crn_bestndID`
+BEAMSID, int2,,fkey,,:ref:`crn_amsID `
+BE10NC, int8,atoms.g^-1 ,,,
+BE10NC_ERR, int8,atoms.g^-1 ,,,
+BEPROD, numeric,dimless,,,
+BETOPO, numeric,dimless,,,
+BESELF, numeric,dimless,,,
+BESNOW, numeric,dimless,,,
+BETOTS, numeric,dimless,,,
+EBE_GCMYR, numeric,g.cm^-2.yr^-1 ,,,
+ERRBE_AMS, numeric,g.cm^-2.yr^-1 ,,,
+ERRBE_MUON, numeric,g.cm^-2.yr^-1 ,,,
+ERRBE_PROD, numeric,g.cm^-2.yr^-1 ,,,
+ERRBE_TOT, numeric,g.cm^-2.yr^-1 ,,,
+EBE_MMKYR, numeric,mm.kyr^-1 ,,,
+EBE_ERR, numeric,mm.kyr^-1 ,,,

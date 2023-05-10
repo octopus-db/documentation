@@ -1,0 +1,27 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+OBSID1, text,,pkey,TRUE,
+SMPID, text,,fkey,TRUE,:ref:`crn_Sample`
+OBSID2, text,,,,
+IGSNID, text,,,,
+DBDOI, text,,fkey,TRUE,:ref:``
+REFDBID1, text,,fkey,TRUE,:ref:`global_RefCore`
+AL26NP, int8,atoms.g^-1 ,,,
+AL26NP_ERR, int8,atoms.g^-1 ,,,
+AL26EP, numeric,mm.kyr^-1 ,,,
+AL26EP_ERR, numeric,mm.kyr^-1 ,,,
+ALSTNDID, int2,,fkey,,:ref:`crn_alstndID`
+ALAMSID, int2,,fkey,,:ref:`crn_amsID `
+AL26NC, int8,atoms.g^-1 ,,,
+AL26NC_ERR, int8,atoms.g^-1 ,,,
+ALPROD, numeric,dimless [#]_,,,
+ALTOPO, numeric,dimless,,,
+ALSELF, numeric,dimless,,,
+ALSNOW, numeric,dimless,,,
+ALTOTS, numeric,dimless,,,
+EAL_GCMYR, numeric,g.cm^-2.yr^-1 ,,,
+ERRAL_AMS, numeric,g.cm^-2.yr^-1 ,,,
+ERRAL_MUON, numeric,g.cm^-2.yr^-1 ,,,
+ERRAL_PROD, numeric,g.cm^-2.yr^-1 ,,,
+ERRAL_TOT, numeric,g.cm^-2.yr^-1 ,,,
+EAL_MMKYR, numeric,mm.kyr^-1 ,,,
+EAL_ERR, numeric,mm.kyr^-1 ,,,

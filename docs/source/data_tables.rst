@@ -710,6 +710,32 @@ The *crn_Sample* table stores CRN collection sample information and is, therefor
 * SMP_COMMT -- Free text sample comment field.
 
 
+..  _crn_al_DataCore:
+
+crn_al_DataCore table
+^^^^^^^^^^^^^^^^^^^^^
+The *crn_al_DataCore* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/crn_al_DataCore.csv
+   :header-rows: 1
+
+* OBSID1 -- 
+
+
+..  _crn_be_DataCore:
+
+crn_be_DataCore table
+^^^^^^^^^^^^^^^^^^^^^
+The *crn_be_DataCore* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/crn_be_DataCore.csv
+   :header-rows: 1
+
+* OBSID1 -- 
+
+
 ..  _crn_amsID:
 
 crn_amsID table
@@ -728,6 +754,7 @@ The *crn_amsID* table stores information about **Acceleration Mass Spectrometer 
 
 * AMSURL -- AMS url
 
+
 ..  _crn_projepsgID:
 
 crn_projepsgID table
@@ -741,6 +768,7 @@ The *crn_projepsgID* table stores **study-specific projection information** (EPS
 * PROJEPSGID -- EPSG [#]_ projection code, used as unique identifier
 
 * PROJECTION -- For available values refer to :ref:`crn_projepsgID_Fields`
+
 
 ..  _crn_studies_boundingbox:
 
