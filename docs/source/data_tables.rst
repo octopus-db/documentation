@@ -420,7 +420,6 @@ global_RefKeyword table
 ``DRAFT`` The *global_RefKeyword* table ...
 
 ----
-----
 
 ..  _Regional_tables:
 
