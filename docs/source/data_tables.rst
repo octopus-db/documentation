@@ -722,6 +722,56 @@ The *crn_al_DataCore* table stores ...
 
 * OBSID1 -- 
 
+* SMPID -- 
+
+* OBSID2 -- 
+
+* IGSNID -- 
+
+* DBDOI -- 
+
+* REFDBID1 -- 
+
+* AL26NP -- 
+
+* AL26NP_ERR -- 
+
+* AL26EP -- 
+
+* AL26EP_ERR -- 
+
+* ALSTNDID -- 
+
+* ALAMSID -- 
+
+* AL26NC -- 
+
+* AL26NC_ERR -- 
+
+* ALPROD -- 
+
+* ALTOPO -- 
+
+* ALSELF -- 
+
+* ALSNOW -- 
+
+* ALTOTS -- 
+
+* EAL_GCMYR -- 
+
+* ERRAL_AMS -- 
+
+* ERRAL_MUON -- 
+
+* ERRAL_PROD -- 
+
+* ERRAL_TOT -- 
+
+* EAL_MMKYR -- 
+
+* EAL_ERR -- 
+
 
 ..  _crn_be_DataCore:
 
@@ -734,6 +784,56 @@ The *crn_be_DataCore* table stores ...
    :header-rows: 1
 
 * OBSID1 -- 
+
+* SMPID -- 
+
+* OBSID2 -- 
+
+* IGSNID -- 
+
+* DBDOI -- 
+
+* REFDBID1 -- 
+
+* BE26NP -- 
+
+* BE26NP_ERR -- 
+
+* BE26EP -- 
+
+* BE26EP_ERR -- 
+
+* BESTNDID -- 
+
+* BEAMSID -- 
+
+* BE26NC -- 
+
+* BE26NC_ERR -- 
+
+* BEPROD -- 
+
+* BETOPO -- 
+
+* BESELF -- 
+
+* BESNOW -- 
+
+* BETOTS -- 
+
+* EBE_GCMYR -- 
+
+* ERRBE_AMS -- 
+
+* ERRBE_MUON -- 
+
+* ERRBE_PROD -- 
+
+* ERRBE_TOT -- 
+
+* EBE_MMKYR -- 
+
+* EBE_ERR -- 
 
 
 ..  _crn_amsID:
