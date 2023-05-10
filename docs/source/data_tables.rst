@@ -710,6 +710,10 @@ The *crn_Sample* table stores CRN collection sample information and is, therefor
 * SMP_COMMT -- Free text sample comment field.
 
 
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 ..  _crn_al_DataCore:
 
 crn_al_DataCore table
@@ -720,58 +724,52 @@ The *crn_al_DataCore* table stores ...
    :file: ./csv_tables/crn_al_DataCore.csv
    :header-rows: 1
 
-* OBSID1 -- 
+* OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
-* SMPID -- 
+* OBSID2 -- Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
-* OBSID2 -- 
+* IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* IGSNID -- 
+* AL26NP -- Published Al-26 concentration
 
-* DBDOI -- 
+* AL26NP_ERR -- Published 1-sigma uncertainty in Al-26 concentration
 
-* REFDBID1 -- 
+* AL26EP -- Published Al-26 denudation rate
 
-* AL26NP -- 
+* AL26EP_ERR -- Published 1-sigma uncertainty in Al-26 denudation rate
 
-* AL26NP_ERR -- 
+* AL26NC -- Al-26 concentration normalised to KNSTD
 
-* AL26EP -- 
+* AL26NC_ERR -- Uncertainty in Al-26 concentration normalised to KNSTD
 
-* AL26EP_ERR -- 
+* ALPROD -- CAIRN average production scaling correction for the basin
 
-* ALSTNDID -- 
+* ALTOPO -- CAIRN average topographic shielding correction for the basin
 
-* ALAMSID -- 
+* ALSELF -- CAIRN average self shielding correction for the basin
 
-* AL26NC -- 
+* ALSNOW -- CAIRN average snow shielding correction for the basin
 
-* AL26NC_ERR -- 
+* ALTOTS -- CAIRN average combined shielding and scaling correction for the basin
 
-* ALPROD -- 
+* EAL_GCMYR -- CAIRN Al-26 denudation rate in mass per unit area
 
-* ALTOPO -- 
+* ERRAL_AMS -- CAIRN Al-26 denudation rate uncertainty at 1-sigma level in mass per unit area derived from AMS uncertainty
 
-* ALSELF -- 
+* ERRAL_MUON -- CAIRN Al-26 denudation rate uncertainty at 1-sigma level in mass per unit area derived from muon uncertainty
 
-* ALSNOW -- 
+* ERRAL_PROD -- CAIRN Al-26 denudation rate uncertainty at 1-sigma level in mass per unit area derived from uncertainty in the production rate
 
-* ALTOTS -- 
+* ERRAL_TOT -- CAIRN Al-26 denudation rate uncertainty at 1-sigma level in mass per unit area that combines all uncertainties
 
-* EAL_GCMYR -- 
+* EAL_MMKYR -- CAIRN Al-26 denudation rate calculated assuming density of of 2650 kg.m^-3
 
-* ERRAL_AMS -- 
+* EAL_ERR -- CAIRN Al-26 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3
 
-* ERRAL_MUON -- 
 
-* ERRAL_PROD -- 
+.. note::
 
-* ERRAL_TOT -- 
-
-* EAL_MMKYR -- 
-
-* EAL_ERR -- 
-
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
 
 ..  _crn_be_DataCore:
 
@@ -783,58 +781,52 @@ The *crn_be_DataCore* table stores ...
    :file: ./csv_tables/crn_be_DataCore.csv
    :header-rows: 1
 
-* OBSID1 -- 
+* OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
-* SMPID -- 
+* OBSID2 -- Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
-* OBSID2 -- 
+* IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* IGSNID -- 
+* BE26NP -- Published Be-10 concentration
 
-* DBDOI -- 
+* BE26NP_ERR -- Published 1-sigma uncertainty in Be-10 concentration
 
-* REFDBID1 -- 
+* BE26EP -- Published Be-10 denudation rate
 
-* BE26NP -- 
+* BE26EP_ERR -- Published 1-sigma uncertainty in Be-10 denudation rate
 
-* BE26NP_ERR -- 
+* BE26NC -- Be-10 concentration normalised to 07KNSTD
 
-* BE26EP -- 
+* BE26NC_ERR -- Uncertainty in Be-10 concentration normalised to 07KNSTD
 
-* BE26EP_ERR -- 
+* BEPROD -- CAIRN average production scaling correction for the basin
 
-* BESTNDID -- 
+* BETOPO -- CAIRN average topographic shielding correction for the basin
 
-* BEAMSID -- 
+* BESELF -- CAIRN average self shielding correction for the basin
 
-* BE26NC -- 
+* BESNOW -- CAIRN average snow shielding correction for the basin
 
-* BE26NC_ERR -- 
+* BETOTS -- CAIRN average combined shielding and scaling correction for the basin
 
-* BEPROD -- 
+* EBE_GCMYR -- CAIRN Be-10 denudation rate in mass per unit area
 
-* BETOPO -- 
+* ERRBE_AMS -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level in mass per unit area derived from AMS uncertainty
 
-* BESELF -- 
+* ERRBE_MUON -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level in mass per unit area derived from muon uncertainty
 
-* BESNOW -- 
+* ERRBE_PROD -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level in mass per unit area derived from uncertainty in the production rate
 
-* BETOTS -- 
+* ERRBE_TOT -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level in mass per unit area that combines all uncertainties
 
-* EBE_GCMYR -- 
+* EBE_MMKYR -- CAIRN Be-10 denudation rate calculated assuming density of 2650 kg.m^-3
 
-* ERRBE_AMS -- 
+* EBE_ERR -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3
 
-* ERRBE_MUON -- 
 
-* ERRBE_PROD -- 
+.. note::
 
-* ERRBE_TOT -- 
-
-* EBE_MMKYR -- 
-
-* EBE_ERR -- 
-
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
 
 ..  _crn_amsID:
 
