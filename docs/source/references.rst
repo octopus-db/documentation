@@ -88,6 +88,8 @@ References
 | 
 | Roberts, Richard G.; Jacobs, Zenobia; Li, Bo; Jankowski, Nathan R.; Cunningham, Alastair C.; Rosenfeld, Anatoly B. (2015). Optical dating in archaeology: thirty years in retrospect and grand challenges for the future. J. Archaeol. Sci., 56, 41--60. DOI: `10.1016/j.jas.2015.02.028 <https://doi.org/10.1016/j.jas.2015.02.028>`_ 
 | 
+| Rodríguez-Rey, Marta; Herrando-Pérez, Salvador; Gillespie, Richard; Jacobs, Zenobia; Saltré, Frédérik; Brook, Barry W.; Prideaux, Gavin J.; Roberts, Richard G.; Cooper, Alan; Alroy, John; Miller, Gifford H.; Bird, Michael I.; Johnson, Christopher N.; Beeton, Nicholas; Turney, Chris S.M.; Bradshaw, Corey J.A. (2015). Criteria for assessing the quality of Middle Pleistocene to Holocene vertebrate fossil ages, 30, Part A, 69--79. DOI: `10.1016/j.quageo.2015.08.002 <https://doi.org/10.1016/j.quageo.2015.08.002>`_
+|
 | Rood, Dylan H.; Brown, Thomas A.; Finkel, Robert C.; Guilderson, Thomas P. (2013). Poisson and non-Poisson uncertainty estimations of 10Be/9Be measurements at LLNL--CAMS. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 294, 426-429. DOI: `10.1016/j.nimb.2012.08.039 <https://doi.org/10.1016/j.nimb.2012.08.039>`_
 | 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022). The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages (v.2) (online). University of Wollongong Australia [data set]. DOI: `10.25900/gpvr-ay04 <https://doi.org/10.25900/gpvr-ay04>`_
