@@ -1647,6 +1647,8 @@ The *sed-tl_points_EPSG3857* table stores **spatial features**, i.e., points of 
 FosSahul tables
 ~~~~~~~~~~~~~~~
 
+The following FosSahul tables solely serve the :ref:`FosSahul`.
+
 ..  _fos_Sample:
 
 fos_Sample table
@@ -1903,6 +1905,8 @@ The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of
 
 expage tables
 ~~~~~~~~~~~~~
+
+The following expage tables solely serve the :ref:`expage`.
 
 ..  _expage_Sample:
 
