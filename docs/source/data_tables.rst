@@ -20,6 +20,8 @@ This section features information about :ref:`Global_lookup_tables` (i.e., index
 Global lookup tables
 ~~~~~~~~~~~~~~~~~~~~
 
+The following tables serve various collections across the entire OCTOPUS database.
+
 ..  _global_varunitID:
 
 global_varunitID table
@@ -667,6 +669,8 @@ Local tables
 CRN tables
 ~~~~~~~~~~
 
+The following tables exclusively serve the :ref:`CRN`.
+
 ..  _crn_Sample:
 
 crn_Sample table
@@ -881,6 +885,8 @@ The *crn_studies_boundingbox* table is a **CRN denudation spatial features table
 
 SahulArch tables
 ~~~~~~~~~~~~~~~~
+
+The following tables exclusively serve the :ref:`SahulArch`.
 
 ..  _arch_Sample:
 
@@ -1505,6 +1511,8 @@ The *arch_tl_polygons_EPSG3857* table stores **spatial features**, i.e., polygon
 SahulSed tables
 ~~~~~~~~~~~~~~~
 
+The following tables exclusively serve the :ref:`SahulSed`.
+
 ..  _sed_depconID:
 
 sed_depconID table
@@ -1647,7 +1655,7 @@ The *sed-tl_points_EPSG3857* table stores **spatial features**, i.e., points of 
 FosSahul tables
 ~~~~~~~~~~~~~~~
 
-The following tables solely serve the :ref:`FosSahul`.
+The following tables exclusively serve the :ref:`FosSahul`.
 
 ..  _fos_Sample:
 
@@ -1906,7 +1914,7 @@ The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of
 expage tables
 ~~~~~~~~~~~~~
 
-The following tables solely serve the :ref:`expage`.
+The following tables exclusively serve the :ref:`expage`.
 
 ..  _expage_Sample:
 
