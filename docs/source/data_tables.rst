@@ -133,21 +133,21 @@ SITE_COMMT text
 
 * METASITEID -- Is fkey. Refer to :ref:`global_MetaSite` table
 
-* CNTRY -- `ISO 3166 Alpha-3 country code <https://www.iso.org/obp/ui/#search>`_
+* CNTRY -- `ISO 3166 Alpha-3 country code <https://www.iso.org/obp/ui/#search>`_. ('ND' = no data)
 
-* REGION_INT -- Region where the study site is located
+* REGION_INT -- Region where the study site is located. ('ND' = no data)
 
-* REGION_REG -- Refers to Sahul region. Same as “CNTRY” but needed to accommodate for 'TSI'
+* REGION_REG -- Refers to Sahul region. Same as “CNTRY” but needed to accommodate for 'TSI'. ('ND' = no data)
 
-* DIV_ADMIN -- ISO 3166 code of the administrative region where the study site is located
+* DIV_ADMIN -- ISO 3166 code of the administrative region where the study site is located. ('ND' = no data)
 
-* DIV_OTHER -- Geographical region in 'PNG' and 'TSI' where study site is located
+* DIV_OTHER -- Geographical region in 'PNG' and 'TSI' where study site is located. ('ND' = no data), ('NA' = not applicable)
 
-* ISL_NAME -- Name of island where study site is located
+* ISL_NAME -- Name of island where study site is located. ('ND' = no data), ('NA' = not applicable)
 
-* LAKE -- Name of lake where study site is located
+* LAKE -- Name of lake where study site is located. ('ND' = no data), ('NA' = not applicable)
 
-* BASIN -- Name of river basin where study site is located
+* BASIN -- Name of river basin where study site is located. ('ND' = no data), ('NA' = not applicable)
 
 * RIVID -- Is fkey. For available values refer to :ref:`global_rivID` table
 
@@ -159,17 +159,17 @@ SITE_COMMT text
 
 * CORDS_ELEV -- Dual field. First part of value refers to source of coordinates (“X_WGS84”, “Y_WGS84”) for the sample site ('INTP', or 'ORIG', or 'ND'). Second part of value refers to “ELEVATION” ('INTP', or 'ORIG', or 'ND'). Nine (9) combinations possible
 
-* ELEVATION -- Elevation above sea level
+* ELEVATION -- Elevation above sea level. ('-9999' = no data)
 
-* SITENAME -- Name of the site
+* SITENAME -- Name of the site. ('ND' = no data), ('NA' = not applicable)
 
-* SITE_SPEC -- Further specifies information given in “SITENAME”
+* SITE_SPEC -- Further specifies information given in “SITENAME”. ('ND' = no data), ('NA' = not applicable)
 
-* ALTNAME1 -- First alternative or additional name of the site (e.g., published under previous name etc.)
+* ALTNAME1 -- First alternative or additional name of the site (e.g., published under previous name etc.). ('NA' = not applicable)
 
-* ALTNAME2 -- Second alternative or additional name of the site
+* ALTNAME2 -- Second alternative or additional name of the site. ('NA' = not applicable)
 
-* ALTNAME3 -- Third alternative or additional name of the site
+* ALTNAME3 -- Third alternative or additional name of the site. ('NA' = not applicable)
 
 * SITECODEID -- Is fkey. For available values refer to :ref:`global_SiteCode` table
 
