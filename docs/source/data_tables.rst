@@ -1657,13 +1657,13 @@ The *fos_Sample* table stores FosSahul collection sample information and is, the
    :file: ./csv_tables/fos_Sample.csv
    :header-rows: 1
 
-* SMPID -- 
+* SMPID -- Unique sample identifier that, first and foremost, serves database operation. FosSahul SMPIDs have been aggregated using similarities in concatenated “X_WGS84” AND “Y_WGS84” AND “SITENAME” AND “OBSID2”.
 
-* STRAT_TAPH -- 
+* STRAT_TAPH -- A **predefined value set** covers wheter stratigraphic ('Strat'), taphonomic ('Taph') or even both ('Both') information are available in source publication ('ND' (= no data), 'NA' (= not applicable)). “REFDOI” references link to secondary literature containing “STRAT_TAPH” information, so for example 'Strat, REFDOI2' would link to secondary stratigraphy linked to “REFDBID2”. 
 
-* SPEC_ABUND -- 
+* SPEC_ABUND -- Wheter relative species abundances are given in source publication. A **predefined value set** only allows for 'No' (= Species abundances unavailable), 'Yes' (= Species abundances available), 'Yes, SupplMat' (= Species abundances available in Supplementary Material of original Publication), 'ND' (= no data), 'NA' (= not applicable)
 
-* SQUARE_XU -- 
+* SQUARE_XU -- Square or trench designation and/ or excavation unit or spit designation from where the sample is from. Recurrent nomenclature abbreviated as described in 'Values' to the left; abbreviations are not upper/ lower case sensitive. **AHD** -- Australian Height Datum, **abv.** -- above, **analyt.** -- analytical, **arch.** -- archaeological, **bel.** -- below, **brec.** -- breccia, **catal.** -- catalogue, **class.** -- classic, **cult.** -- cultural, **dat.** -- datum, **dep.** -- deposit, **excav.** -- excavated/ -ion, **geom.** -- geomorphological, **hozn.** -- horizon, **in.** -- inch(es), **lay.** -- layer, **low.** -- lower, **meas.** -- measured, **mega.** -- megafauna(l), **no.** -- number, **pleist.** -- Pleistocene, **overl.** -- overlying, **rel.** -- relative, **sect.** -- section, **sed.** -- sediment/s, **shelt. - shelter, **sqre.** -- square, **strat.** -- stratigraphic, **strm.** -- stratum, **surf.** -- surface, **trch.** -- trench(es), **underl.** -- underlying, **u.** -- unit, **up.** -- upper
 
 * SMP_COMMT -- 
 
