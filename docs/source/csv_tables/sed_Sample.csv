@@ -1,0 +1,19 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+SMPID,text,,pkey,TRUE,
+SITEID,text,,fkey,TRUE,:ref:`global_SiteMaster`
+SEDTYPE,varchar(3):p,,,,
+GEOTYPEID,int2,,fkey,,:ref:`sed_geotypeID`
+DEPCONID,int2,,fkey,,:ref:`sed_depconID`
+DUNEFIELD,text,,,,
+GEOMMODID,int2,,fkey,,:ref:`sed_geommodID`
+MORPHID,int2,,fkey,,:ref:`sed_morphID`
+DUNTRND,int2,° (degree),,,
+SITETYPEID,int2,,fkey,,:ref:`sed_sitetypeID`
+DEPTHICK,text,m,,,
+SMPDEPTH,"numeric(9, 2)",m,,,
+SED_MATID,int2,,fkey,,:ref:`global_GrainSize`
+FACIESID,int2,,fkey,,:ref:`sed_faciesID`
+LAKETYPEID,int2,,fkey,,:ref:`sed_laketypeID`
+BEACHEI,text,m,,,
+BEACHAHD,text,m,,,
+SMP_COMMT,text,,,,
