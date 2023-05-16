@@ -1926,11 +1926,17 @@ The *expage_Sample* table stores expage collection sample information and is, th
    :file: ./csv_tables/expage_Sample.csv
    :header-rows: 1
 
-`to come`
+* SMPID -- Unique sample identifier that serves database operation
 
-* 
+* THICKNESS -- Sample thickness
 
-* 
+* DENSITY -- Sample density. When information is not provided in original publication, 2.65 g cm-3 is assumed
+
+* SHIELDING -- Topographic / geometric shielding of the sample
+
+* SMP_YR -- Year of sample collection. Generally assumed to be two years before publication if not indicated.
+
+* SMP_COMMT -- Free text sample comment field
 
 .. note::
 
