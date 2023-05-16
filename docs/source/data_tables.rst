@@ -1920,7 +1920,7 @@ The following tables exclusively serve the :ref:`expage`.
 
 expage_Sample table
 ^^^^^^^^^^^^^^^^^^^
-The *expage_Sample* table stores expage collection sample information and is, therefore, situated between the collection-specific :ref:`expage_DataCore` (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
+The *expage_Sample* table stores :ref:`expage` sample information and is, therefore, situated between the collection-specific :ref:`expage_DataCore` (subordinate) and the `global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
 
 .. csv-table::
    :file: ./csv_tables/expage_Sample.csv
