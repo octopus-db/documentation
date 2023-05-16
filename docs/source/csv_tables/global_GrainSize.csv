@@ -2,5 +2,5 @@
 GRNSIZEID,int2,,pkey,TRUE,
 GRNSIZE,text,,ukey,TRUE,
 GRNSIZEABB,varchar(6),,ukey,TRUE,
-GRNSIZEMIN,"numeric(7,4)",mm,,,
-GRNSIZEMAX,"numeric(7,4)",mm,,,
+GRNSIZEMIN,"numeric(7, 4)",mm,,,
+GRNSIZEMAX,"numeric(7, 4)",mm,,,
