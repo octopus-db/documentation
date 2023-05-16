@@ -4,10 +4,10 @@ SMPID, text,,fkey,TRUE,:ref:`expage_Sample`
 OBSID2, text,,,,
 IGSNID, text,,,,
 DBDOI, text,,fkey,TRUE,:ref:`global_dbDOI`
-REFDBID1, text,,fkey,TRUE,:ref:`global_RefCore'
-REFDBID2, text,,fkey,,:ref:`global_RefCore'
-REFDBID3, text,,fkey,,:ref:`global_RefCore'
-REFDBID4, text,,fkey,,:ref:`global_RefCore'
+REFDBID1, text,,fkey,TRUE,:ref:`global_RefCore`
+REFDBID2, text,,fkey,,:ref:`global_RefCore`
+REFDBID3, text,,fkey,,:ref:`global_RefCore`
+REFDBID4, text,,fkey,,:ref:`global_RefCore`
 BE10NP, int8,atoms.g^-1 ,,,
 BE10NP_ERR, int8,atoms.g^-1 ,,,
 BESTNDID, int2,,fkey,,:ref:`crn_bestndID`
