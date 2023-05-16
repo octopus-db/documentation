@@ -1513,6 +1513,37 @@ SahulSed tables
 
 The following tables exclusively serve the :ref:`SahulSed`.
 
+..  _sed_Sample:
+
+sed_Sample table
+^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/sed_Sample.csv
+   :header-rows: 1
+
+* SMPID -- 
+
+* SEDTYPE -- 
+
+* DUNEFIELD -- 
+
+* DUNTRND -- 
+
+* DEPTHICK -- 
+
+* SMPDEPTH -- 
+
+* BEACHEI -- 
+
+* BEACHAHD -- 
+
+* SMP_COMMT -- 
+
+
+
+
+
 ..  _sed_depconID:
 
 sed_depconID table
