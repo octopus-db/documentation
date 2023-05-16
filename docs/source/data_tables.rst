@@ -1978,15 +1978,15 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
 
 * ABE_YR -- Recalculated zero erosion Be-10 exposure age. ('-9999.99' = no data)
 
-* ABE_ERREXT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data)
+* ABE_ERREXT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008 [#]_
 
-* ABE_ERRINT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data)
+* ABE_ERRINT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008
 
 * AAL_YR -- Recalculated zero erosion Al-26 exposure age. ('-9999.99' = no data)
 
-* AAL_ERREXT -- External uncertainty for “AAL_YR”. ('-9999.99' = no data)
+* AAL_ERREXT -- External uncertainty for “AAL_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008
 
-* AAL_ERRINT -- Internal uncertainty for “AAL_YR”. ('-9999.99' = no data)
+* AAL_ERRINT -- Internal uncertainty for “AAL_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008
 
 .. note::
 
@@ -2023,3 +2023,4 @@ The *expage_points_EPSG3857* table stores spatial features, i.e., points of the 
 .. [#] dimensionless
 .. [#] https://epsg.org/
 .. [#] Well Known Text (https://postgis.net/docs/manual-1.4/ch04.html#id417971)
+.. [#] Balco et al. 2008 (https://doi.org/10.1016/j.quageo.2007.12.001)
