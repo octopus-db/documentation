@@ -6,6 +6,8 @@ References
 | 
 | Australian Research Council (2020). Classification Codes—FoR, RFCD, SEO and ANZSIC Codes (online). Accessed 06-03-2023, https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes
 | 
+| Balco, Greg; Stone, John O.; Lifton, Nathaniel A.; Dunai, Tibor (2008). A complete and easily accessible means of calculating surface exposure ages or erosion rates from 10Be and 26Al measurements. Quaternary Geochronology, 3(3), 174--195. DOI: `10.1016/j.quageo.2007.12.001 <https://doi.org/10.1016/j.quageo.2007.12.001>`_
+| 
 | Balco, Greg (2016). 26Al-10Be exposure age/erosion rate calculators: table of Be and Al isotope ratio standardizations (online). Latest update 25-02-2016, accessed 31-03-2023. https://hess.ess.washington.edu/math/docs/al_be_v22/AlBe_standardization_table.pdf
 | 
 | Balco, Greg (2019). Glacier Change and Paleoclimate Applications of Cosmogenic-Nuclide Exposure Dating. Annu. Rev. Earth Pl. Sc., 48, 21--48. DOI: `10.1146/annurev-earth-081619-052609 <https://doi.org/10.1146/annurev-earth-081619-052609>`_

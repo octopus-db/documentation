@@ -1954,39 +1954,39 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
 
 `to come`
 
-* OBSID1 -- 
+* OBSID1 -- Unique age identifier provided as part of the compilation. Serves as back reference to parent expage fork (https://expage.github.io), with running alphabetic letter(s) added to the original “Sample ID”.
 
-* OBSID2 -- 
+* OBSID2 -- Original sample identifier (as published). This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
-* IGSNID -- 
+* IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* BE10NP -- 
+* BE10NP -- Published Be-10 concentration. ('-9999' = no data)
 
-* BE10NP_ERR -- 
+* BE10NP_ERR -- Published 1-sigma uncertainty in Be-10 concentration. ('-9999' = no data)
 
-* BE10AP -- 
+* BE10AP -- Published Be-10 exposure age. ('-9999' = no data)
 
-* BE10AP_ERR -- 
+* BE10AP_ERR -- Published Be-10 exposure age. ('-9999' = no data)
 
-* AL26NP -- 
+* AL26NP -- Published Al-26 concentration. ('-9999' = no data)
 
-* AL26NP_ERR -- 
+* AL26NP_ERR -- Published 1-sigma uncertainty in Al-26 concentration. ('-9999' = no data)
 
-* AL26AP -- 
+* AL26AP -- Published Al-26 exposure age. ('-9999' = no data)
 
-* AL26AP_ERR -- 
+* AL26AP_ERR -- Published Al-26 exposure age. ('-9999' = no data)
 
-* ABE_YR -- 
+* ABE_YR -- Recalculated zero erosion Be-10 exposure age. ('-9999.99' = no data)
 
-* ABE_ERREXT -- 
+* ABE_ERREXT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data)
 
-* ABE_ERRINT -- 
+* ABE_ERRINT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data)
 
-* AAL_YR -- 
+* AAL_YR -- Recalculated zero erosion Al-26 exposure age. ('-9999.99' = no data)
 
-* AAL_ERREXT -- 
+* AAL_ERREXT -- External uncertainty for “AAL_YR”. ('-9999.99' = no data)
 
-* AAL_ERRINT -- 
+* AAL_ERRINT -- Internal uncertainty for “AAL_YR”. ('-9999.99' = no data)
 
 .. note::
 
