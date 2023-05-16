@@ -159,7 +159,7 @@ SITE_COMMT text
 
 * CORDS_ELEV -- Dual field. First part of value refers to source of coordinates (“X_WGS84”, “Y_WGS84”) for the sample site ('INTP', or 'ORIG', or 'ND'). Second part of value refers to “ELEVATION” ('INTP', or 'ORIG', or 'ND'). Nine (9) combinations possible
 
-* ELEVATION -- Elevation above sea level. ('-9999' = no data)
+* ELEVATION -- Elevation above sea level. (-9999 = no data)
 
 * SITENAME -- Name of the site. ('ND' = no data), ('NA' = not applicable)
 
@@ -1960,33 +1960,33 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* BE10NP -- Published Be-10 concentration. ('-9999' = no data)
+* BE10NP -- Published Be-10 concentration. (-9999 = no data)
 
-* BE10NP_ERR -- Published 1-sigma uncertainty in Be-10 concentration. ('-9999' = no data)
+* BE10NP_ERR -- Published 1-sigma uncertainty in Be-10 concentration. (-9999 = no data)
 
-* BE10AP -- Published Be-10 exposure age. ('-9999' = no data)
+* BE10AP -- Published Be-10 exposure age. (-9999 = no data)
 
-* BE10AP_ERR -- Published Be-10 exposure age. ('-9999' = no data)
+* BE10AP_ERR -- Published Be-10 exposure age. (-9999 = no data)
 
-* AL26NP -- Published Al-26 concentration. ('-9999' = no data)
+* AL26NP -- Published Al-26 concentration. (-9999 = no data)
 
-* AL26NP_ERR -- Published 1-sigma uncertainty in Al-26 concentration. ('-9999' = no data)
+* AL26NP_ERR -- Published 1-sigma uncertainty in Al-26 concentration. (-9999 = no data)
 
-* AL26AP -- Published Al-26 exposure age. ('-9999' = no data)
+* AL26AP -- Published Al-26 exposure age. (-9999 = no data)
 
-* AL26AP_ERR -- Published Al-26 exposure age. ('-9999' = no data)
+* AL26AP_ERR -- Published Al-26 exposure age. (-9999 = no data)
 
-* ABE_YR -- Recalculated zero erosion Be-10 exposure age. ('-9999.99' = no data)
+* ABE_YR -- Recalculated zero erosion Be-10 exposure age. (-9999.99 = no data)
 
-* ABE_ERREXT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008 [#]_
+* ABE_ERREXT -- External uncertainty for “ABE_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008 [#]_
 
-* ABE_ERRINT -- External uncertainty for “ABE_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008
+* ABE_ERRINT -- External uncertainty for “ABE_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008
 
-* AAL_YR -- Recalculated zero erosion Al-26 exposure age. ('-9999.99' = no data)
+* AAL_YR -- Recalculated zero erosion Al-26 exposure age. (-9999.99 = no data)
 
-* AAL_ERREXT -- External uncertainty for “AAL_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008
+* AAL_ERREXT -- External uncertainty for “AAL_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008
 
-* AAL_ERRINT -- Internal uncertainty for “AAL_YR”. ('-9999.99' = no data) For detailed information see Balco et al. 2008
+* AAL_ERRINT -- Internal uncertainty for “AAL_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008
 
 .. note::
 
