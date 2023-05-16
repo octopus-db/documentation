@@ -1954,9 +1954,39 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
 
 `to come`
 
-* 
+* OBSID1 -- 
 
-* 
+* OBSID2 -- 
+
+* IGSNID -- 
+
+* BE10NP -- 
+
+* BE10NP_ERR -- 
+
+* BE10AP -- 
+
+* BE10AP_ERR -- 
+
+* AL26NP -- 
+
+* AL26NP_ERR -- 
+
+* AL26AP -- 
+
+* AL26AP_ERR -- 
+
+* ABE_YR -- 
+
+* ABE_ERREXT -- 
+
+* ABE_ERRINT -- 
+
+* AAL_YR -- 
+
+* AAL_ERREXT -- 
+
+* AAL_ERRINT -- 
 
 .. note::
 
