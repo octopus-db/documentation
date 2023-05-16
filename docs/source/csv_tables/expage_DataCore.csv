@@ -1,0 +1,26 @@
+Field,Data type,Unit,Key,Not Null,Parent
+OBSID1, text,,pkey,TRUE,
+SMPID, text,,fkey,TRUE,:ref:`expage_Sample`
+OBSID2, text,,,,
+IGSNID, text,,,,
+DBDOI, text,,fkey,TRUE,:ref:`global_dbDOI`
+REFDBID1, text,,fkey,TRUE,:ref:`global_RefCore'
+REFDBID2, text,,fkey,,:ref:`global_RefCore'
+REFDBID3, text,,fkey,,:ref:`global_RefCore'
+REFDBID4, text,,fkey,,:ref:`global_RefCore'
+BE10NP, int8,atoms.g^-1 ,,,
+BE10NP_ERR, int8,atoms.g^-1 ,,,
+BESTNDID, int2,,fkey,,:ref:`crn_bestndID`
+BE10AP, numeric,kyr,,,
+BE10AP_ERR, numeric,kyr,,,
+AL26NP, int8,atoms.g^-1 ,,,
+AL26NP_ERR, int8,atoms.g^-1 ,,,
+ALSTNDID, int2,,fkey,,:ref:`crn_bestndID`
+AL26AP, numeric,kyr,,,
+AL26AP_ERR, numeric,kyr,,,
+ABE_YR, numeric,kyr,,,
+ABE_ERREXT, numeric,kyr,,,
+ABE_ERRINT, numeric,kyr,,,
+AAL_YR, numeric,kyr,,,
+AAL_ERREXT, numeric,kyr,,,
+AAL_ERRINT, numeric,kyr,,,
