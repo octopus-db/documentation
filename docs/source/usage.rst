@@ -212,7 +212,7 @@ Export Data
 ~~~~~~~~~~~
 The Export Data menu allows you to download data, unfiltered or filtered by any rules applied in the Filter menu to that dataset. Data may be exported in the following formats: Geography Markup Language (GML) version 2 and 3, ESRI Shapefile, JavaScript Object Notation (JSON), Google Earth KML and KMZ. You will be prompted to provide an intended use of data prior to download.
 
-.. note::
+.. attention::
 
    Exported data in the KML and KMZ formats are geographically restricted to the region displayed on screen at the time of export. Zoom in or out prior to export to capture your region of interest. All other export formats include the complete geographic extent of selected data.
 
