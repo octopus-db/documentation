@@ -1555,6 +1555,181 @@ The *sed-osl_DataCore* table stores stores **OSL-related observations** (= small
    :file: ./csv_tables/sed-osl_DataCore.csv
    :header-rows: 1
 
+* OBSID1 -- 
+
+* SMPID -- 
+
+* OBSID2 -- 
+
+* LABID -- 
+
+* IGSNID -- 
+
+* LAB_ORIGID -- 
+
+* METHODID -- 
+
+* DBDOI -- 
+
+* REFDBID1 -- 
+
+* REFDBID2 -- 
+
+* REFDBID3 -- 
+
+* REFDBID4 -- 
+
+* COL_MTDID -- 
+
+* LUM_MATID -- 
+
+* MINERALID -- 
+
+* SIZE_MIN -- 
+
+* SIZE_MAX -- 
+
+* H2O_MEAS -- 
+
+* H2O_USED -- 
+
+* H2O_ERR -- 
+
+* OSL_TYPEID -- 
+
+* ALIQ_TYPE -- 
+
+* ALIQ_SIZE -- 
+
+* ED_PROCID -- 
+
+* RESCOR -- 
+
+* DOSERECOV -- 
+
+* AGEMODELID -- 
+
+* PH1_TEMP -- 
+
+* PH2_TEMP -- 
+
+* NUM_MEAS -- 
+
+* NUM_ACC -- 
+
+* EQUIVDOSE -- 
+
+* ED_ERR -- 
+
+* ED_INF -- 
+
+* OD -- 
+
+* OD_ERR -- 
+
+* OD_TYPE -- 
+
+* U -- 
+
+* U_ERR -- 
+
+* U_MTDID -- 
+
+* TH -- 
+
+* TH_ERR -- 
+
+* TH_MTDID -- 
+
+* K -- 
+
+* K_ERR -- 
+
+* K_MTDID -- 
+
+* U238 -- 
+
+* U238_ERR -- 
+
+* RA226 -- 
+
+* RA226_ERR -- 
+
+* PB210 -- 
+
+* PB210_ERR -- 
+
+* RA228 -- 
+
+* RA228_ERR -- 
+
+* TH228 -- 
+
+* TH228_ERR -- 
+
+* TH232 -- 
+
+* TH232_ERR -- 
+
+* K40 -- 
+
+* K40_ERR -- 
+
+* ALPH -- 
+
+* ALPH_ERR -- 
+
+* ALPH_MTDID -- 
+
+* BETA -- 
+
+* BETA_ERR -- 
+
+* BETA_MTDID -- 
+
+* GAMMA -- 
+
+* GAMMA_ERR -- 
+
+* GMMA_MTDID -- 
+
+* COSMIC -- 
+
+* COSMIC_ERR -- 
+
+* ALPH_I -- 
+
+* ALPH_I_ERR -- 
+
+* ALPH_I_MTD -- 
+
+* BETA_I -- 
+
+* BETA_I_ERR -- 
+
+* BETA_I_MTD -- 
+
+* DIFF_DOSE -- 
+
+* DOSERATE -- 
+
+* DOSE_ERR -- 
+
+* OSL_AGE -- 
+
+* OSL_RNDERR -- 
+
+* OSL_ERR -- 
+
+* AGE_CI -- 
+
+* FADCOR -- 
+
+* G_VAL -- 
+
+* G_VAL_ERR -- 
+
+* AGE_COMMT -- 
 
 .. note::
 
@@ -1572,6 +1747,177 @@ The *sed-tl_DataCore* table stores stores **TL-related observations** (= smalles
    :file: ./csv_tables/sed-tl_DataCore.csv
    :header-rows: 1
 
+* OBSID1 -- 
+
+* SMPID -- 
+
+* OBSID2 -- 
+
+* LABID -- 
+
+* IGSNID -- 
+
+* LAB_ORIGID -- 
+
+* METHODID -- 
+
+* DBDOI -- 
+
+* REFDBID1 -- 
+
+* REFDBID2 -- 
+
+* REFDBID3 -- 
+
+* REFDBID4 -- 
+
+* COL_MTDID -- 
+
+* LUM_MATID -- 
+
+* MINERALID -- 
+
+* SIZE_MIN -- 
+
+* SIZE_MAX -- 
+
+* H2O_MEAS -- 
+
+* H2O_USED -- 
+
+* H2O_ERR -- 
+
+* ALIQ_SIZE -- 
+
+* ED_PROCID -- 
+
+* RESCOR -- 
+
+* AGEMODELID -- 
+
+* PLAT_REG -- 
+
+* AN_TEMP -- 
+
+* NUM_MEAS -- 
+
+* EQUIVDOSE -- 
+
+* ED_ERR -- 
+
+* ED_SAT -- 
+
+* ED_SATERR -- 
+
+* U -- 
+
+* U_ERR -- 
+
+* U_MTDID -- 
+
+* TH -- 
+
+* TH_ERR -- 
+
+* TH_MTDID -- 
+
+* U_TH -- 
+
+* U_TH_ERR -- 
+
+* U_TH_MTDID -- 
+
+* K -- 
+
+* K_ERR -- 
+
+* K_MTDID -- 
+
+* RB -- 
+
+* U238 -- 
+
+* U238_ERR -- 
+
+* RA226 -- 
+
+* RA226_ERR -- 
+
+* PB210 -- 
+
+* PB210_ERR -- 
+
+* RA228 -- 
+
+* RA228_ERR -- 
+
+* TH228 -- 
+
+* TH228_ERR -- 
+
+* TH232 -- 
+
+* TH232_ERR -- 
+
+* K40 -- 
+
+* K40_ERR -- 
+
+* ALPH -- 
+
+* ALPH_ERR -- 
+
+* ALPH_MTDID -- 
+
+* BETA -- 
+
+* BETA_ERR -- 
+
+* BETA_MTDID -- 
+
+* GAMMA -- 
+
+* GAMMA_ERR -- 
+
+* GMMA_MTDID -- 
+
+* COSMIC -- 
+
+* COSMIC_ERR -- 
+
+* ALPH_I -- 
+
+* ALPH_I_ERR -- 
+
+* ALPH_I_MTD -- 
+
+* BETA_I -- 
+
+* BETA_I_ERR -- 
+
+* BETA_I_MTD -- 
+
+* DIFF_DOSE -- 
+
+* DOSERATE -- 
+
+* DOSE_ERR -- 
+
+* TL_AGE -- 
+
+* TL_RNDERR -- 
+
+* TL_ERR -- 
+
+* AGE_CI -- 
+
+* FADCOR -- 
+
+* G_VAL -- 
+
+* G_VAL_ERR -- 
+
+* AGE_COMMT -- 
 
 .. note::
 
