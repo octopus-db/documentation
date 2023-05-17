@@ -1526,19 +1526,52 @@ sed_Sample table
 
 * SEDTYPE -- Sedimentary facies, referring to the main mechanism of transportation and deposition and, therefore, determining OCTOPUS/ SahulSed sub-compilation membership. A **predefined value set** only allows for 'AEN' (= aeolian), 'FLV' (= fluvial), or 'LAC' (= lacustrine)
 
-* DUNEFIELD -- Name of dunefield in which the sample site located. Note -- “DUNEFIELD” field only usable if “SEDTYPE” == 'AEN', i.e., must be NULL for 'FLV' or 'LAC'. ('ND' = no data; NULL = not applicable)
+* DUNEFIELD -- Name of dunefield in which the sample site located. Note -- “DUNEFIELD” field only usable if “SEDTYPE” = 'AEN', i.e., must be NULL for 'FLV' or 'LAC'. ('ND' = no data; NULL = not applicable)
 
-* DUNTRND -- Trend, i.e., orientation of the sampled dune (in degree between 0 and 360). Note -- “DUNTRND” field only usable if “SEDTYPE” == 'AEN', i.e., must be NULL for 'FLV' or 'LAC'. (-9999 = no data; NULL = not applicable)
+* DUNTRND -- Trend, i.e., orientation of the sampled dune (in degree between 0 and 360). Note -- “DUNTRND” field only usable if “SEDTYPE” = 'AEN', i.e., must be NULL for 'FLV' or 'LAC'. (-9999 = no data; NULL = not applicable)
 
 * DEPTHICK -- Total length of the core or height of the outcrop. (-9999 = no data; NULL = not applicable)
 
 * SMPDEPTH -- Depth below the surface (or datum) from which sample was extracted. If the published sample depth was specified as a range, then the median value for that range is reported here. (-9999 = no data; NULL = not applicable)
 
-* BEACHEI -- Height of the sampled beach ridge (if applicable). For beach ridges <1 m, 1 is recorded here. Note -- “BEACHEI” field only usable if “SEDTYPE” == 'LAC', i.e., must be NULL for 'AEN' or 'FLV'. (-9999 = no data; NULL = not applicable)
+* BEACHEI -- Height of the sampled beach ridge (if applicable). For beach ridges <1 m, 1 is recorded here. Note -- “BEACHEI” field only usable if “SEDTYPE” = 'LAC', i.e., must be NULL for 'AEN' or 'FLV'. (-9999 = no data; NULL = not applicable)
 
-* BEACHAHD -- Australian Height Datum of the sampled beach ridge (if applicable). Note -- “BEACHAHD” field only usable if “SEDTYPE” == 'LAC', i.e., must be NULL for 'AEN' or 'FLV'. (-9999 = no data; NULL = not applicable)
+* BEACHAHD -- Australian Height Datum of the sampled beach ridge (if applicable). Note -- “BEACHAHD” field only usable if “SEDTYPE” = 'LAC', i.e., must be NULL for 'AEN' or 'FLV'. (-9999 = no data; NULL = not applicable)
 
 * SMP_COMMT -- Free text sample comment field
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
+..  _sed-osl_DataCore:
+
+sed-osl_DataCore table
+^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/sed-osl_DataCore.csv
+   :header-rows: 1
+
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
+
+..  _sed-tl_DataCore:
+
+sed-tl_DataCore table
+^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/sed-tl_DataCore.csv
+   :header-rows: 1
+
+
+.. note::
+
+    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
 
 
 ..  _sed_depconID:
