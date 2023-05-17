@@ -1557,33 +1557,11 @@ The *sed-osl_DataCore* table stores stores **OSL-related observations** (= small
 
 * OBSID1 -- 
 
-* SMPID -- 
-
 * OBSID2 -- 
 
 * LABID -- 
 
 * IGSNID -- 
-
-* LAB_ORIGID -- 
-
-* METHODID -- 
-
-* DBDOI -- 
-
-* REFDBID1 -- 
-
-* REFDBID2 -- 
-
-* REFDBID3 -- 
-
-* REFDBID4 -- 
-
-* COL_MTDID -- 
-
-* LUM_MATID -- 
-
-* MINERALID -- 
 
 * SIZE_MIN -- 
 
@@ -1595,19 +1573,13 @@ The *sed-osl_DataCore* table stores stores **OSL-related observations** (= small
 
 * H2O_ERR -- 
 
-* OSL_TYPEID -- 
-
 * ALIQ_TYPE -- 
 
 * ALIQ_SIZE -- 
 
-* ED_PROCID -- 
-
 * RESCOR -- 
 
 * DOSERECOV -- 
-
-* AGEMODELID -- 
 
 * PH1_TEMP -- 
 
@@ -1633,19 +1605,13 @@ The *sed-osl_DataCore* table stores stores **OSL-related observations** (= small
 
 * U_ERR -- 
 
-* U_MTDID -- 
-
 * TH -- 
 
 * TH_ERR -- 
 
-* TH_MTDID -- 
-
 * K -- 
 
 * K_ERR -- 
-
-* K_MTDID -- 
 
 * U238 -- 
 
@@ -1679,19 +1645,13 @@ The *sed-osl_DataCore* table stores stores **OSL-related observations** (= small
 
 * ALPH_ERR -- 
 
-* ALPH_MTDID -- 
-
 * BETA -- 
 
 * BETA_ERR -- 
 
-* BETA_MTDID -- 
-
 * GAMMA -- 
 
 * GAMMA_ERR -- 
-
-* GMMA_MTDID -- 
 
 * COSMIC -- 
 
@@ -1749,33 +1709,11 @@ The *sed-tl_DataCore* table stores stores **TL-related observations** (= smalles
 
 * OBSID1 -- 
 
-* SMPID -- 
-
 * OBSID2 -- 
 
 * LABID -- 
 
 * IGSNID -- 
-
-* LAB_ORIGID -- 
-
-* METHODID -- 
-
-* DBDOI -- 
-
-* REFDBID1 -- 
-
-* REFDBID2 -- 
-
-* REFDBID3 -- 
-
-* REFDBID4 -- 
-
-* COL_MTDID -- 
-
-* LUM_MATID -- 
-
-* MINERALID -- 
 
 * SIZE_MIN -- 
 
@@ -1789,11 +1727,7 @@ The *sed-tl_DataCore* table stores stores **TL-related observations** (= smalles
 
 * ALIQ_SIZE -- 
 
-* ED_PROCID -- 
-
 * RESCOR -- 
-
-* AGEMODELID -- 
 
 * PLAT_REG -- 
 
@@ -1813,25 +1747,17 @@ The *sed-tl_DataCore* table stores stores **TL-related observations** (= smalles
 
 * U_ERR -- 
 
-* U_MTDID -- 
-
 * TH -- 
 
 * TH_ERR -- 
-
-* TH_MTDID -- 
 
 * U_TH -- 
 
 * U_TH_ERR -- 
 
-* U_TH_MTDID -- 
-
 * K -- 
 
 * K_ERR -- 
-
-* K_MTDID -- 
 
 * RB -- 
 
@@ -1867,19 +1793,13 @@ The *sed-tl_DataCore* table stores stores **TL-related observations** (= smalles
 
 * ALPH_ERR -- 
 
-* ALPH_MTDID -- 
-
 * BETA -- 
 
 * BETA_ERR -- 
 
-* BETA_MTDID -- 
-
 * GAMMA -- 
 
 * GAMMA_ERR -- 
-
-* GMMA_MTDID -- 
 
 * COSMIC -- 
 
