@@ -7,7 +7,7 @@ OCTOPUS database documentation
 OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its main purpose being the sustainment, upcycling and public provisioning of valuable legacy data that would otherwise be lost to the research community. Beyond research, the promotion and implementation of Indigenous self-management, public training and education are declared OCTOPUS focus target scopes.
 
 
-.. note::
+.. important::
 
    | This documentation refers to the latest OCTOPUS database version, which can only be visited / fetched via OCTOPUS web interface (https://octopusdata.org), or through OCTOPUS Web Feature Services (http://octopusdata.org/geoserver/wfs).
    | Archived, outdated OCTOPUS database versions do exist on Zenodo web repository.
