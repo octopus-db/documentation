@@ -1546,7 +1546,7 @@ sed-osl_DataCore table
 
 The *sed-osl_DataCore* table stores stores **OSL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`SahulSed`, namely the :ref:`The_SahulSed_Aeolian_OSL_collection`, :ref:`The_SahulSed_Fluvial_OSL_collection`, and :ref:`The_SahulSed_Lacustrine_OSL_collection`.
 
-.. tip::
+.. hint::
 
     For information about the structure and fields of the *sed-osl_DataCore* table please refer to the :ref:`arch_osl_DataCore`. Said tables are structural identical.
 
@@ -1558,7 +1558,7 @@ sed-tl_DataCore table
 
 The *sed-tl_DataCore* table stores stores **TL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`SahulSed`, namely the :ref:`The_SahulSed_Aeolian_TL_collection`, :ref:`The_SahulSed_Fluvial_TL_collection`, and :ref:`The_SahulSed_Lacustrine_TL_collection`.
 
-.. tip::
+.. hint::
 
     For information about the structure and fields of the *sed-tl_DataCore* table please refer to the :ref:`arch_tl_DataCore`. Said tables are structural identical.
 
