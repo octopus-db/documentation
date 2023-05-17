@@ -1024,7 +1024,6 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * AGE_COMMT -- Free text age comment field
 
-
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
@@ -1060,8 +1059,6 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 * ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. A **predefined value set** only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= no data)
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
-
-* ED_PROCID -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
 
 * RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
@@ -1211,8 +1208,6 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 * H2O_ERR -- Standard error for “H2O_USED” (1σ)
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
-
-* ED_PROCID -- Abbreviated reported procedure used to determine sample equivalent dose for OSL and TL methods
 
 * RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
 
@@ -1551,149 +1546,9 @@ sed-osl_DataCore table
 
 The *sed-osl_DataCore* table stores stores **OSL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`SahulSed`, namely the :ref:`The_SahulSed_Aeolian_OSL_collection`, :ref:`The_SahulSed_Fluvial_OSL_collection`, and :ref:`The_SahulSed_Lacustrine_OSL_collection`.
 
-.. csv-table::
-   :file: ./csv_tables/sed-osl_DataCore.csv
-   :header-rows: 1
+.. tip::
 
-* OBSID1 -- 
-
-* OBSID2 -- 
-
-* LABID -- 
-
-* IGSNID -- 
-
-* SIZE_MIN -- 
-
-* SIZE_MAX -- 
-
-* H2O_MEAS -- 
-
-* H2O_USED -- 
-
-* H2O_ERR -- 
-
-* ALIQ_TYPE -- 
-
-* ALIQ_SIZE -- 
-
-* RESCOR -- 
-
-* DOSERECOV -- 
-
-* PH1_TEMP -- 
-
-* PH2_TEMP -- 
-
-* NUM_MEAS -- 
-
-* NUM_ACC -- 
-
-* EQUIVDOSE -- 
-
-* ED_ERR -- 
-
-* ED_INF -- 
-
-* OD -- 
-
-* OD_ERR -- 
-
-* OD_TYPE -- 
-
-* U -- 
-
-* U_ERR -- 
-
-* TH -- 
-
-* TH_ERR -- 
-
-* K -- 
-
-* K_ERR -- 
-
-* U238 -- 
-
-* U238_ERR -- 
-
-* RA226 -- 
-
-* RA226_ERR -- 
-
-* PB210 -- 
-
-* PB210_ERR -- 
-
-* RA228 -- 
-
-* RA228_ERR -- 
-
-* TH228 -- 
-
-* TH228_ERR -- 
-
-* TH232 -- 
-
-* TH232_ERR -- 
-
-* K40 -- 
-
-* K40_ERR -- 
-
-* ALPH -- 
-
-* ALPH_ERR -- 
-
-* BETA -- 
-
-* BETA_ERR -- 
-
-* GAMMA -- 
-
-* GAMMA_ERR -- 
-
-* COSMIC -- 
-
-* COSMIC_ERR -- 
-
-* ALPH_I -- 
-
-* ALPH_I_ERR -- 
-
-* ALPH_I_MTD -- 
-
-* BETA_I -- 
-
-* BETA_I_ERR -- 
-
-* BETA_I_MTD -- 
-
-* DIFF_DOSE -- 
-
-* DOSERATE -- 
-
-* DOSE_ERR -- 
-
-* OSL_AGE -- 
-
-* OSL_RNDERR -- 
-
-* OSL_ERR -- 
-
-* AGE_CI -- 
-
-* FADCOR -- 
-
-* G_VAL -- 
-
-* G_VAL_ERR -- 
-
-* AGE_COMMT -- 
-
-.. note::
-
-    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+    For information about the structure and fields of the *sed-osl_DataCore* table please refer to :ref:`arch_osl_DataCore`. Said tables are structural identical!
 
 
 ..  _sed-tl_DataCore:
@@ -1703,145 +1558,9 @@ sed-tl_DataCore table
 
 The *sed-tl_DataCore* table stores stores **TL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`SahulSed`, namely the :ref:`The_SahulSed_Aeolian_TL_collection`, :ref:`The_SahulSed_Fluvial_TL_collection`, and :ref:`The_SahulSed_Lacustrine_TL_collection`.
 
-.. csv-table::
-   :file: ./csv_tables/sed-tl_DataCore.csv
-   :header-rows: 1
+.. tip::
 
-* OBSID1 -- 
-
-* OBSID2 -- 
-
-* LABID -- 
-
-* IGSNID -- 
-
-* SIZE_MIN -- 
-
-* SIZE_MAX -- 
-
-* H2O_MEAS -- 
-
-* H2O_USED -- 
-
-* H2O_ERR -- 
-
-* ALIQ_SIZE -- 
-
-* RESCOR -- 
-
-* PLAT_REG -- 
-
-* AN_TEMP -- 
-
-* NUM_MEAS -- 
-
-* EQUIVDOSE -- 
-
-* ED_ERR -- 
-
-* ED_SAT -- 
-
-* ED_SATERR -- 
-
-* U -- 
-
-* U_ERR -- 
-
-* TH -- 
-
-* TH_ERR -- 
-
-* U_TH -- 
-
-* U_TH_ERR -- 
-
-* K -- 
-
-* K_ERR -- 
-
-* RB -- 
-
-* U238 -- 
-
-* U238_ERR -- 
-
-* RA226 -- 
-
-* RA226_ERR -- 
-
-* PB210 -- 
-
-* PB210_ERR -- 
-
-* RA228 -- 
-
-* RA228_ERR -- 
-
-* TH228 -- 
-
-* TH228_ERR -- 
-
-* TH232 -- 
-
-* TH232_ERR -- 
-
-* K40 -- 
-
-* K40_ERR -- 
-
-* ALPH -- 
-
-* ALPH_ERR -- 
-
-* BETA -- 
-
-* BETA_ERR -- 
-
-* GAMMA -- 
-
-* GAMMA_ERR -- 
-
-* COSMIC -- 
-
-* COSMIC_ERR -- 
-
-* ALPH_I -- 
-
-* ALPH_I_ERR -- 
-
-* ALPH_I_MTD -- 
-
-* BETA_I -- 
-
-* BETA_I_ERR -- 
-
-* BETA_I_MTD -- 
-
-* DIFF_DOSE -- 
-
-* DOSERATE -- 
-
-* DOSE_ERR -- 
-
-* TL_AGE -- 
-
-* TL_RNDERR -- 
-
-* TL_ERR -- 
-
-* AGE_CI -- 
-
-* FADCOR -- 
-
-* G_VAL -- 
-
-* G_VAL_ERR -- 
-
-* AGE_COMMT -- 
-
-.. note::
-
-    Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+    For information about the structure and fields of the *sed-tl_DataCore* table please refer to :ref:`arch_tl_DataCore`. Said tables are structural identical!
 
 
 ..  _sed_depconID:
