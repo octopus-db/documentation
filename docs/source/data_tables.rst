@@ -1548,7 +1548,7 @@ The *sed-osl_DataCore* table stores stores **OSL-related observations** (= small
 
 .. tip::
 
-    For information about the structure and fields of the *sed-osl_DataCore* table please refer to :ref:`arch_osl_DataCore`. Said tables are structural identical!
+    For information about the structure and fields of the *sed-osl_DataCore* table please refer to the :ref:`arch_osl_DataCore`. Said tables are structural identical.
 
 
 ..  _sed-tl_DataCore:
@@ -1560,7 +1560,7 @@ The *sed-tl_DataCore* table stores stores **TL-related observations** (= smalles
 
 .. tip::
 
-    For information about the structure and fields of the *sed-tl_DataCore* table please refer to :ref:`arch_tl_DataCore`. Said tables are structural identical!
+    For information about the structure and fields of the *sed-tl_DataCore* table please refer to the :ref:`arch_tl_DataCore`. Said tables are structural identical.
 
 
 ..  _sed_depconID:
