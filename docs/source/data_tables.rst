@@ -217,7 +217,7 @@ The *global_ibraID* table stores the location code of a site within the relevant
 
 * IBRAREGION -- IBRA region name. For available values refer to :ref:`global_ibraID_Fields`
 
-.. warning::
+.. important::
 
     The global_ibraID table only applies to samples from Australia.
 
@@ -241,7 +241,7 @@ The *global_rivID* table stores the **Geofabric AHGF river name/region code** (h
 
 * RIVDIV -- Geofabric AHGF river division name
 
-.. warning::
+.. important::
 
     The global_rivID table only applies to samples from Australia.
 
