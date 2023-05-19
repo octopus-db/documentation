@@ -2,7 +2,7 @@
 sphinx==5.3.0
 sphinx_rtd_theme==1.1.1
 readthedocs-sphinx-search==0.1.
-git+https://github.com/sphinx-contrib/emojicodes
+# git+https://github.com/sphinx-contrib/emojicodes
 # git+https://github.com/sphinx-contrib/emojicodes/tree/master
 # git+https://github.com/sphinx-contrib/emojicodes/tree/master/sphinxemoji
 # sphinxemoji_source = 'https://unpkg.com/twemoji@latest/dist/twemoji.min.js'
