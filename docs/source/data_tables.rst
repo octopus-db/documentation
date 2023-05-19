@@ -1,7 +1,7 @@
 ============================
 Data tables and their fields
 ============================
-OCTOPUS data tables, using a spatial allegory, can be grouped into a *global*, a *regional*, and a *local* level. While :ref:`Global_tables` can serve any database relation, :ref:`Regional_tables` should be seen as thematic tables matching certain sub-collections. Finally, :ref:`Local_tables` are collection specific tables with a high degree of specialisation compared to the two aforementioned higher-level table groups.
+OCTOPUS data |:ball:|tables, using a spatial allegory, can be grouped into a *global*, a *regional*, and a *local* level. While :ref:`Global_tables` can serve any database relation, :ref:`Regional_tables` should be seen as thematic tables matching certain sub-collections. Finally, :ref:`Local_tables` are collection specific tables with a high degree of specialisation compared to the two aforementioned higher-level table groups.
 
 PostgreSQL data types, constraints, and foreign key principles are comprehensibly described in the PostgreSQL online documentation (https://www.postgresql.org/docs/15/datatype.html). Another excellent, more introductory read is Michael J. Hernandez' *Database design for Mere Mortals - A Hands-On Guide to Relational Database Design*.
 
