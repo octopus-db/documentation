@@ -8,13 +8,13 @@ version = '0.1.0'
 
 # -- General configuration
 extensions = [
-    'sphinxemoji.sphinxemoji',
     'sphinx.ext.duration',
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.intersphinx',
     'sphinx.ext.autosectionlabel',
+#    'sphinxemoji.sphinxemoji',
 ]
 
 intersphinx_mapping = {
