@@ -945,7 +945,8 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * ORGPART -- Bone element, wood part etc. -- e.g., 'Sapwood', 'Heartwood', 'Twig', 'Ring number', 'Femur' ...
 
-* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'NA' (single entities do not exist, i.e., for example sediment), or 'ND' (= no data)
+* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together?
+|:lock:| A **predefined value set** only allows for 'Yes', 'No', 'NA' (single entities do not exist, i.e., for example sediment), or 'ND' (= no data)
 
 * CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
