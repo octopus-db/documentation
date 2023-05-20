@@ -30,7 +30,7 @@ Contents
    output_tables
    parent_tables
    usage
-   |:books:| references
+   references
    resources
    about
 
