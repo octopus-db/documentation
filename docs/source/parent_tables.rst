@@ -52,6 +52,7 @@ global_ibraID fields
    :file: ./csv_tables/global_ibraID_FIELDS.csv
    :header-rows: 1
 
+The latest *global_ibraID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_ibraID__202305221532.csv>`_.
 Detailed information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
 
 .. important::
@@ -67,6 +68,7 @@ global_rivID fields
    :file: ./csv_tables/global_rivID_FIELDS.csv
    :header-rows: 1
 
+The latest *global_rivID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_rivID__202305221533.csv>`_.
 Detailed information about the Australian Hydrological Geospatial Fabric (Geofabric) classification rationale and model can be found at  `http://www.bom.gov.au/water/geofabric/ <http://www.bom.gov.au/water/geofabric/>`_.
 
 .. important::
