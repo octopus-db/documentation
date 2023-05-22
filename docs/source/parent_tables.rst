@@ -1160,9 +1160,7 @@ sed_sitetypeID fields
 fos_TaxRank1_classID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :file: ./csv_tables/fos_TaxRank1_classID_Fields.csv
-   :header-rows: 1
+``The lastest *fos_TaxRank1_classID* table version can be downloaded here``...
 
 
 ..  _fos_TaxRank2_infraclaID_Fields:
@@ -1170,9 +1168,7 @@ fos_TaxRank1_classID fields
 fos_TaxRank2_infraclaID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :file: ./csv_tables/fos_TaxRank2_infraclaID_Fields.csv
-   :header-rows: 1
+``The lastest *fos_TaxRank2_infraclaID* table version can be downloaded here``...
 
 
 ..  _fos_TaxRank3_ordrID_Fields:
@@ -1180,9 +1176,7 @@ fos_TaxRank2_infraclaID fields
 fos_TaxRank3_ordrID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :file: ./csv_tables/fos_TaxRank3_ordrID_Fields.csv
-   :header-rows: 1
+``The lastest *fos_TaxRank3_ordrID* table version can be downloaded here``...
 
 
 ..  _fos_TaxRank4_familyID_Fields:
@@ -1190,18 +1184,15 @@ fos_TaxRank3_ordrID fields
 fos_TaxRank4_familyID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :file: ./csv_tables/fos_TaxRank4_familyID_Fields.csv
-   :header-rows: 1
+``The lastest *fos_TaxRank4_familyID* table version can be downloaded here``...
 
 
 ..  _fos_TaxRank5_genusID_Fields:
 
 fos_TaxRank5_genusID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
-.. csv-table::
-   :file: ./csv_tables/fos_TaxRank5_genusID_Fields.csv
-   :header-rows: 1
+
+``The lastest *fos_TaxRank5_genusID* table version can be downloaded here``...
 
 
 ..  _fos_TaxRank6_speciesID_Fields:
@@ -1209,9 +1200,7 @@ fos_TaxRank5_genusID fields
 fos_TaxRank6_speciesID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :file: ./csv_tables/fos_TaxRank6_speciesID_Fields.csv
-   :header-rows: 1
+``The lastest *fos_TaxRank6_speciesID* table version can be downloaded here``...
 
 
 ..  _fos_chemtypeID_Fields:
@@ -1219,9 +1208,8 @@ fos_TaxRank6_speciesID fields
 fos_chemtypeID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-.. csv-table::
-   :file: ./csv_tables/fos_chemtypeID_FIELDS.csv
-   :header-rows: 1
+``The lastest *fos_TaxRank1_classID* table version can be downloaded here``...
+
 
 ..  _fos_fosmat1ID_Fields:
 
