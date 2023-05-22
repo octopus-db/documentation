@@ -1163,7 +1163,7 @@ fos_TaxRank1_classID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/fos_TaxRank1_classID.csv
+   :file: ./csv_tables/fos_TaxRank1_classID_FIELDS.csv
    :header-rows: 1
 
 
