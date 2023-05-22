@@ -1,5 +1,5 @@
 ﻿Field,Data type,Unit,|:key:|,Not Null,Parent
-V_UNITID,serial4,,p_|:key:| [#]_,|:white_check_mark:|,
-V_UNITABBR,text,,ukey [#]_,|:white_check_mark:|,
+V_UNITID,serial4,,p|_||:key:| [#]_,|:heavy_check_mark:|,
+V_UNITABBR,text,,ukey [#]_,|:heavy_check_mark:|,
 V_UNITNAME,text,,ukey,,
 PARENTID,int2,,fkey [#]_,,V_UNITID
