@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+INFRACLAID,int2,,pkey,TRUE,
+INFRACLASS,text,,ukey,TRUE,

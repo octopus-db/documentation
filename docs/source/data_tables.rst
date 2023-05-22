@@ -1826,7 +1826,9 @@ fos_TaxRank1_classID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** name.
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank1_classID.csv
+   :header-rows: 1
 
 
 ..  _fos_TaxRank2_infraclaID:
@@ -1835,7 +1837,9 @@ fos_TaxRank2_infraclaID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infraclass** name.
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank2_infraclaID.csv
+   :header-rows: 1
 
 
 ..  _fos_TaxRank3_ordrID:
@@ -1844,7 +1848,9 @@ fos_TaxRank3_ordrID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** name.
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank3_ordrID.csv
+   :header-rows: 1
 
 
 ..  _fos_TaxRank4_familyID:
@@ -1853,7 +1859,9 @@ fos_TaxRank4_familyID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** name.
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank4_familyID.csv
+   :header-rows: 1
 
 
 ..  _fos_TaxRank5_genusID:
@@ -1862,7 +1870,9 @@ fos_TaxRank5_genusID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** name.
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank5_genusID.csv
+   :header-rows: 1
 
 
 ..  _fos_TaxRank6_speciesID:
@@ -1871,7 +1881,9 @@ fos_TaxRank6_speciesID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species** name.
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank6_speciesID.csv
+   :header-rows: 1
 
 
 ..  _fos_chemtypeID:

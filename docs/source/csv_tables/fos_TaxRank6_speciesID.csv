@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+SPECIESID,int2,,pkey,TRUE,
+SPECIES,text,,ukey,TRUE,

@@ -1,0 +1,3 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+FAMILYID,int2,,pkey,TRUE,
+FAMILY,text,,ukey,TRUE,
