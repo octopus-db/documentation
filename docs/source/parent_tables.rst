@@ -52,7 +52,7 @@ global_ibraID fields
    :file: ./csv_tables/global_ibraID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_ibraID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_ibraID__202305221532.csv>`_.
+| The latest *global_ibraID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_ibraID__202305221532.csv>`_ |:chipmunk:|
 | Detailed information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
 
 .. important::
