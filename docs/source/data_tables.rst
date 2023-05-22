@@ -32,13 +32,13 @@ The *global_varunitID* table stores **variable units** for those compilations wh
    :file: ./csv_tables/global_varunitID.csv
    :header-rows: 1
 
-* **V_UNITID** -- A unique identifier (auto-incrementing serial integer)
+* V_UNITID -- A unique identifier (auto-incrementing serial integer)
 
-* **V_UNITABBR** -- Unique abbreviation of "V_UNITNAME". For available values refer to :ref:`global_varunitID_Fields`
+* V_UNITABBR -- Unique abbreviation of "V_UNITNAME". For available values refer to :ref:`global_varunitID_Fields`
 
-* **V_UNITNAME** -- Unit name. For available values refer to :ref:`global_varunitID_Fields`
+* V_UNITNAME -- Unit name. For available values refer to :ref:`global_varunitID_Fields`
 
-* **PARENTID** -- Is fkey. Refers to ordinal higher ranking "V_UNITID" [#]_
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "V_UNITID" [#]_
 
 ..  _global_GrainSize:
 
@@ -914,9 +914,9 @@ The *arch_Sample* table stores SahulArch sample information and is, therefore, s
 
 * SMPY_WGS84 -- WGS84 latitude of site. *Culturally sensitive. Coordinates not to be displayed!*
 
-* OCCUPATION -- Is the dated sample directly related to human activity (e.g. hearth, organic artefact, burial), or was it simply part of a wider archaeological deposit. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* OCCUPATION -- Is the dated sample directly related to human activity (e.g. hearth, organic artefact, burial), or was it simply part of a wider archaeological deposit. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
-* CONTEXT -- Was the sample collected from a stratigraphic unit that is associated with human 'Occupation' or one that was culturally 'Sterile'. |:lock:| A **predefined value set** only allows for 'Occupation', 'Sterile', or 'ND' (= no data)
+* CONTEXT -- Was the sample collected from a stratigraphic unit that is associated with human 'Occupation' or one that was culturally 'Sterile'. |:lock:| A *predefined value set* only allows for 'Occupation', 'Sterile', or 'ND' (= no data)
 
 * SMP_COMMT -- Free text sample comment field.
 
@@ -939,21 +939,21 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field. |:lock:| A **predefined value set** only allows for 'Yes' (= burnt), 'No' (= not burnt), or 'ND' (= no data)
+* BURNT -- Whether the material dated was burnt. Note that charcoal = 'Yes'. Calcinated bone -- typically white, whilst burnt bone is black -- is different to burnt bone, and so is listed in “MATERIAL2” field. |:lock:| A *predefined value set* only allows for 'Yes' (= burnt), 'No' (= not burnt), or 'ND' (= no data)
 
 * ARCHSPECIS -- Genus and/ or species, i.e., scientific name of animal or plant used for 14C dating
 
 * ORGPART -- Bone element, wood part etc. -- e.g., 'Sapwood', 'Heartwood', 'Twig', 'Ring number', 'Femur' ...
 
-* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'NA' (single entities do not exist, i.e., for example sediment), or 'ND' (= no data)
+* SINGULAR -- Was a single entity (e.g., a single piece of charcoal, not several pieces found close to each other) dated, or were several pieces bulked together? |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'NA' (single entities do not exist, i.e., for example sediment), or 'ND' (= no data)
 
-* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* CONSERV -- Was the sample conserved? For example, was it glued or soaked in a consolidant? |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional. |:lock:| A **predefined value set** only allows for 'AMS' (= Accelerator Mass Spectrometry), 'CONV' (= conventional), or 'ND' (= no data)
+* AGEMTD -- Measurement method. Conventional includes liquid scintillation and gas proportional. |:lock:| A *predefined value set* only allows for 'AMS' (= Accelerator Mass Spectrometry), 'CONV' (= conventional), or 'ND' (= no data)
 
-* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
-* SOLVENT1 -- Was the pretreatment preceded by a solvent extraction? |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* SOLVENT1 -- Was the pretreatment preceded by a solvent extraction? |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * YIELD_MG -- Amount of material after pretreament in mg. If a range was used for a particular sample or (more commonly) all samples, the average for the range given is reported here.
 
@@ -991,13 +991,13 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * S34_ERR -- Error for measured δ34S of the of the pretreated sample.
 
-* RECRYST -- Is secondary recrystallisation present in the pretreated carbonate sample? |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* RECRYST -- Is secondary recrystallisation present in the pretreated carbonate sample? |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * PCT_RE_VAL -- Calcite/recrystallised mineral in the pretreated carbonate sample. Stain or microscopy methods used: 998 = presence of calcite/ recrystallization verified, or -991 = absence of calcite/ recrystallization.
 
 * PCT_RE_ERR -- Error for measured amount of calcite/recrystallised mineral in the pretreated sample. Is -9999.99 even if “PCT_RE_VAL” = 998
 
-* PCT_RE_MTD -- How was the presence and/or amount of calcite/recrystallisation measured in the pretreated carbonate sample. |:lock:| A **predefined value set** only allows for 'Stain' (= Fiegl's stain), 'XRD' (= X-ray diffractometry), 'FTIR' (= FT infrared spectroscopy), 'Micro' (= Microscopy), 'Other' (= other), or 'ND' (= no data)
+* PCT_RE_MTD -- How was the presence and/or amount of calcite/recrystallisation measured in the pretreated carbonate sample. |:lock:| A *predefined value set* only allows for 'Stain' (= Fiegl's stain), 'XRD' (= X-ray diffractometry), 'FTIR' (= FT infrared spectroscopy), 'Micro' (= Microscopy), 'Other' (= other), or 'ND' (= no data)
 
 * C14_AGE -- Conventional radiocarbon age (CRA), as defined by Stuiver and Polach (1977):
 
@@ -1016,7 +1016,7 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 
 * C14_ERRNEG -- Estimated standard error attached to an individual determination, equal to one standard deviation (1σ). Note that occasionally determinations have asymmetrical standard deviations.
 
-* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* C14_INF -- Is the date infinite (indistinguishable from the laboratory background). This field clarifies the two previous fields, where no data may be misinterpreted as an infinite measurement. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * F14C -- Proportion of radiocarbon atoms in the sample compared to that present in the year AD 1950. “F14C” is pMC (percent modern carbon)/100.
 
@@ -1056,13 +1056,13 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * H2O_ERR -- Standard error for “H2O_USED” (1σ)
 
-* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. |:lock:| A **predefined value set** only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= no data)
+* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. |:lock:| A *predefined value set* only allows for 'SG' (= Single Grain), 'SA' (= Single Aliquot), 'MA' (= Multipe Aliquots), or 'ND' (= no data)
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
-* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
-* DOSERECOV -- Were dose recovery test results reported in the study? |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* DOSERECOV -- Were dose recovery test results reported in the study? |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
 * PH1_TEMP -- Preheat temperature applied immediately prior to measurement of either the Natural, Regenerative or Additive dose
 
@@ -1144,15 +1144,15 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * ALPH_I_ERR -- 1 standard error (1σ) for "ALPH_I"
 
-* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? |:lock:| A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
+* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? |:lock:| A *predefined value set* only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
 * BETA_I -- Internal beta dose rate (from within grain)
 
 * BETA_I_ERR -- 1 standard error (1σ) for "BETA_I"
 
-* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? |:lock:| A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
+* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? |:lock:| A *predefined value set* only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
-* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * DOSERATE -- Total (wet) environmental dose rate used for age determination
 
@@ -1164,9 +1164,9 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 
 * OSL_ERR -- Published total “OSL_AGE” error (random + systematic)
 
-* AGE_CI -- Published confidence interval on the age estimate. |:lock:| A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= no data)
+* AGE_CI -- Published confidence interval on the age estimate. |:lock:| A *predefined value set* only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= no data)
 
-* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * G_VAL -- Represents the correcting approach using value of fading rate in feldspars. If reported, express as percent per decade.
 
@@ -1209,7 +1209,7 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * ALIQ_SIZE -- Reported size of aliquot diameter in mm
 
-* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* RESCOR -- Residual dose correction was applied to the Equivalent Dose, specifically for IRSL, pIRIR, MET-pIRIR, VSL, and TT-OSL. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * PLAT_REG -- Pre-heat plateau region
 
@@ -1291,15 +1291,15 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * ALPH_I_ERR -- 1 standard error (1σ) for "ALPH_I"
 
-* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? |:lock:| A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
+* ALPH_I_MTD -- Was the internal alpha dose rate assumed or measured? |:lock:| A *predefined value set* only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
 * BETA_I -- Internal beta dose rate (from within grain)
 
 * BETA_I_ERR -- 1 standard error (1σ) for "BETA_I"
 
-* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? |:lock:| A **predefined value set** only allows for 'Assumed', 'Measured', or 'ND' (= no data)
+* BETA_I_MTD -- Was the internal beta dose rate assumed or measured? |:lock:| A *predefined value set* only allows for 'Assumed', 'Measured', or 'ND' (= no data)
 
-* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* DIFF_DOSE -- Whether a different and/or additional method, not specified in this compilation was used to determine the dosimetry for this sample. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * DOSERATE -- Total (wet) environmental dose rate used for age determination
 
@@ -1311,9 +1311,9 @@ The *arch_tl_DataCore* table stores stores **TL-related observations** (= smalle
 
 * TL_ERR -- Published total “TL_AGE” error (random + systematic)
 
-* AGE_CI -- Published confidence interval on the age estimate. |:lock:| A **predefined value set** only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= no data)
+* AGE_CI -- Published confidence interval on the age estimate. |:lock:| A *predefined value set* only allows for '1s' (= 1 standard error [1σ]), '2s' (= 2 standard error [2σ]), 'SD' (= Standard Deviation), or 'ND' (= no data)
 
-* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* FADCOR -- “OSL_AGE” was corrected for fading, specifically for IRSL, pIRIR, and MET-pIRIR. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * G_VAL -- Represents the correcting approach using value of fading rate in feldspars. If reported, express as percent per decade.
 
@@ -1519,7 +1519,7 @@ sed_Sample table
 
 * SMPID -- Sample identifier provided as part of the compilation. SahulSed SMPIDs have been aggregated using similarities in concatenated “X_WGS84” AND “Y_WGS84” AND “SITENAME” AND “SMPDEPTH”. Re suffixes -- '_pre' indicates that the matching age is preferred by the authors of the original publication; '_alt' tags alternatives to '_pre' ages; and '.o' indicates the existence of a corresponding TL ('.t') measurement on the same sample.
 
-* SEDTYPE -- Sedimentary facies, referring to the main mechanism of transportation and deposition and, therefore, determining OCTOPUS/ SahulSed sub-compilation membership. |:lock:| A **predefined value set** only allows for 'AEN' (= aeolian), 'FLV' (= fluvial), or 'LAC' (= lacustrine)
+* SEDTYPE -- Sedimentary facies, referring to the main mechanism of transportation and deposition and, therefore, determining OCTOPUS/ SahulSed sub-compilation membership. |:lock:| A *predefined value set* only allows for 'AEN' (= aeolian), 'FLV' (= fluvial), or 'LAC' (= lacustrine)
 
 * DUNEFIELD -- Name of dunefield in which the sample site located. Note -- “DUNEFIELD” field only usable if “SEDTYPE” = 'AEN', i.e., must be NULL for 'FLV' or 'LAC'. ('ND' = no data; NULL = not applicable)
 
@@ -1719,9 +1719,9 @@ The *fos_Sample* table stores FosSahul collection sample information and is, the
 
 * SMPID -- Unique sample identifier that, first and foremost, serves database operation. FosSahul SMPIDs have been aggregated using similarities in concatenated “X_WGS84” AND “Y_WGS84” AND “SITENAME” AND “OBSID2”.
 
-* STRAT_TAPH -- |:lock:| A **predefined value set** covers wheter stratigraphic ('Strat'), taphonomic ('Taph') or even both ('Both') information are available in source publication; 'ND' (= no data), 'NA' (= not applicable). “REFDOI” references link to secondary literature containing “STRAT_TAPH” information, so for example 'Strat, REFDOI2' would refer to secondary stratigraphy linked to “REFDBID2”. 
+* STRAT_TAPH -- |:lock:| A *predefined value set* covers wheter stratigraphic ('Strat'), taphonomic ('Taph') or even both ('Both') information are available in source publication; 'ND' (= no data), 'NA' (= not applicable). “REFDOI” references link to secondary literature containing “STRAT_TAPH” information, so for example 'Strat, REFDOI2' would refer to secondary stratigraphy linked to “REFDBID2”. 
 
-* SPEC_ABUND -- Wheter relative species abundances are given in source publication. |:lock:| A **predefined value set** only allows for 'No' (= Species abundances unavailable), 'Yes' (= Species abundances available), 'Yes, SupplMat' (= Species abundances available in Supplementary Material of original Publication), 'ND' (= no data), 'NA' (= not applicable)
+* SPEC_ABUND -- Wheter relative species abundances are given in source publication. |:lock:| A *predefined value set* only allows for 'No' (= Species abundances unavailable), 'Yes' (= Species abundances available), 'Yes, SupplMat' (= Species abundances available in Supplementary Material of original Publication), 'ND' (= no data), 'NA' (= not applicable)
 
 * SQUARE_XU -- Square or trench designation and/ or excavation unit or spit designation from where the sample is from. Recurrent nomenclature abbreviated as described in 'Values' to the left; abbreviations are not upper/ lower case sensitive. **AHD** -- Australian Height Datum, **abv.** -- above, **analyt.** -- analytical, **arch.** -- archaeological, **bel.** -- below, **brec.** -- breccia, **catal.** -- catalogue, **class.** -- classic, **cult.** -- cultural, **dat.** -- datum, **dep.** -- deposit, **excav.** -- excavated/ -ion, **geom.** -- geomorphological, **hozn.** -- horizon, **in.** -- inch(es), **lay.** -- layer, **low.** -- lower, **meas.** -- measured, **mega.** -- megafauna(l), **no.** -- number, **pleist.** -- Pleistocene, **overl.** -- overlying, **rel.** -- relative, **sect.** -- section, **sed.** -- sediment/s, **shelt.** -- shelter, **sqre.** -- square, **strat.** -- stratigraphic, **strm.** -- stratum, **surf.** -- surface, **trch.** -- trench(es), **underl.** -- underlying, **u.** -- unit, **up.** -- upper
 
@@ -1749,65 +1749,65 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* STATUS -- Most updated status. |:lock:| A **predefined value set** only allows for 'Extant', 'Extinct', 'ND' (= no data), or 'NA' (= not applicable)
+* STATUS -- Most updated status. |:lock:| A *predefined value set* only allows for 'Extant', 'Extinct', 'ND' (= no data), or 'NA' (= not applicable)
 
 * MEGAFAUNA -- 'Yes' if species weight > 44 kg, otherwise 'No', 'ND' for no data
 
-* C14_CALIB -- Whether the published radiocarbon age is calibrated or uncalibrated. |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* C14_CALIB -- Whether the published radiocarbon age is calibrated or uncalibrated. |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* PHYSCLEAN -- Was the sample physically cleaned? For example, was the surface removed from bone (= 'Yes'), were rootlets and sediment removed from charcoal (= 'Yes'). |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* CONTAM -- Whether the study authors suggest a contaminant may have occurred. |:lock:| A **predefined value set** only allows for 'Likely' (= contamination likely), 'Possible' (= contamination possible), 'No' (= not contaminated), or 'Yes' (= indication for contamination), 'ND' (= no data), or 'NA' (= not applicable)
+* CONTAM -- Whether the study authors suggest a contaminant may have occurred. |:lock:| A *predefined value set* only allows for 'Likely' (= contamination likely), 'Possible' (= contamination possible), 'No' (= not contaminated), or 'Yes' (= indication for contamination), 'ND' (= no data), or 'NA' (= not applicable)
 
-* XTR_PROBLEM -- Whether the study authors reported extraction problems. |:lock:| A **predefined value set** only allows for 'Yes', 'No', or 'ND' (= no data)
+* XTR_PROBLEM -- Whether the study authors reported extraction problems. |:lock:| A *predefined value set* only allows for 'Yes', 'No', or 'ND' (= no data)
 
 * CN_RATIO -- Measured atomic C:N ratio of the pretreated sample
 
 * PCT_N -- Measured %N of the pretreated sample
 
-* C14_XRDIFF -- For corals/shells only: Indicates if X-ray diffraction shows that recrystallisation is insignificant. |:lock:| A **predefined value set** only allows for 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* C14_XRDIFF -- For corals/shells only: Indicates if X-ray diffraction shows that recrystallisation is insignificant. |:lock:| A *predefined value set* only allows for 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_T_HIST -- Thermal history of the sample. Based on the established quality rating criteria (Rodríguez-Rey et al. 2015): is the thermal history of the sample unknown or were materials burnt (i.e., is “AAR_T_HIST” not 'Fine'), then rating will be 'C'. |:lock:| A **predefined value set** only allows for 'Fine', 'ND' (= no data), or 'NA' (= not applicable)
+* AAR_T_HIST -- Thermal history of the sample. Based on the established quality rating criteria (Rodríguez-Rey et al. 2015): is the thermal history of the sample unknown or were materials burnt (i.e., is “AAR_T_HIST” not 'Fine'), then rating will be 'C'. |:lock:| A *predefined value set* only allows for 'Fine', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_CLOSD -- Whether the material has demonstrated closed-system behaviour. |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* AAR_CLOSD -- Whether the material has demonstrated closed-system behaviour. |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_UNCERT -- Whether multiple analyses were replicated with low uncertainties. |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* AAR_UNCERT -- Whether multiple analyses were replicated with low uncertainties. |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AAR_INCAL -- Whether reliable calibration was done using independent dating techniques. |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* AAR_INCAL -- Whether reliable calibration was done using independent dating techniques. |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
 * U_TH_PRE -- Short description of pretreatment
 
-* U_TH_CLOSD -- Uranium-series ages for teeth (dentine) and bone: whether closed-system behaviour has been demonstrated by U-series profiling and modelling based on continuous profiles or spot sampling using laser ablation. |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* U_TH_CLOSD -- Uranium-series ages for teeth (dentine) and bone: whether closed-system behaviour has been demonstrated by U-series profiling and modelling based on continuous profiles or spot sampling using laser ablation. |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* U_TH_DCORR -- Uranium-series ages for closed-system of no body remains (e.g., speleothems, corals, calcite within bones etc): Whether a correction was made for detrital thorium contamination. |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* U_TH_DCORR -- Uranium-series ages for closed-system of no body remains (e.g., speleothems, corals, calcite within bones etc): Whether a correction was made for detrital thorium contamination. |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
-* ESR_I_DR10 -- ESR ages: Whether the internal dose rate is less/ greater 10%. |:lock:| A **predefined value set** only allows for '<10' (= less than 10%), '>10' (= greater than 10%), 'ND' (= no data), or 'NA' (= not applicable)
+* ESR_I_DR10 -- ESR ages: Whether the internal dose rate is less/ greater 10%. |:lock:| A *predefined value set* only allows for '<10' (= less than 10%), '>10' (= greater than 10%), 'ND' (= no data), or 'NA' (= not applicable)
 
-* ESR_GAMMA -- ESR ages: Whether the gamma dose rate was measured 'In_situ' or was 'Assumed'. |:lock:| A **predefined value set** only allows for 'In_situ', 'Assumed', 'ND' (= no data), or 'NA' (= not applicable)
+* ESR_GAMMA -- ESR ages: Whether the gamma dose rate was measured 'In_situ' or was 'Assumed'. |:lock:| A *predefined value set* only allows for 'In_situ', 'Assumed', 'ND' (= no data), or 'NA' (= not applicable)
 
-* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. |:lock:| A **predefined value set** only allows for 'MA' (= Multi Aliquot), 'SA' (= Single Aliquot), 'SG' (= Single Grain), 'ND' (= no data), or 'NA' (= not applicable)
+* ALIQ_TYPE -- Reported aliquot type used for equivalent dose determination. |:lock:| A *predefined value set* only allows for 'MA' (= Multi Aliquot), 'SA' (= Single Aliquot), 'SG' (= Single Grain), 'ND' (= no data), or 'NA' (= not applicable)
 
-* BLEACH_STS -- Luminescence bleaching status. |:lock:| A **predefined value set** only allows for 'Adequately', 'Partially', 'ND' (= no data), or 'NA' (= not applicable)
+* BLEACH_STS -- Luminescence bleaching status. |:lock:| A *predefined value set* only allows for 'Adequately', 'Partially', 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGEMD_TRUE -- Luminescence single grain equivalent dose model. Whether the luminescence age can be modelled. |:lock:| A **predefined value set** only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
+* AGEMD_TRUE -- Luminescence single grain equivalent dose model. Whether the luminescence age can be modelled. |:lock:| A *predefined value set* only allows for 'Yes', 'No', 'ND' (= no data), or 'NA' (= not applicable)
 
 * AGE -- Published age
 
 * AGE_ERR -- Published total age error
 
-* AGE_TYPE -- Temporal quality of published age estimate. |:lock:| A **predefined value set** only allows for 'Min' (= Minimum age), 'Max' (= Maximum age), 'Exact' (= Exact age), 'ND' (= no data), or 'NA' (= not applicable)
+* AGE_TYPE -- Temporal quality of published age estimate. |:lock:| A *predefined value set* only allows for 'Min' (= Minimum age), 'Max' (= Maximum age), 'Exact' (= Exact age), 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGE_CI -- Published confidence interval on the age estimate. |:lock:| A **predefined value set** only allows for '1SD' (= 1 Standard deviation), '2SD' (= 2 Standard deviations), or 'ND' (= no data)
+* AGE_CI -- Published confidence interval on the age estimate. |:lock:| A *predefined value set* only allows for '1SD' (= 1 Standard deviation), '2SD' (= 2 Standard deviations), or 'ND' (= no data)
 
-* AGE_PREQ -- Quality rating of dating protocol (see Rodríguez-Rey, M. et al. 2015. Quat Geochronol 30. Fig. 1.). |:lock:| A **predefined value set** only allows for 'm*' (= Highest reliability), 'm' (= High reliability), 'B' (= Low reliability), 'C' (= Lowest reliability), or 'ND' (= no data)
+* AGE_PREQ -- Quality rating of dating protocol (see Rodríguez-Rey, M. et al. 2015. Quat Geochronol 30. Fig. 1.). |:lock:| A *predefined value set* only allows for 'm*' (= Highest reliability), 'm' (= High reliability), 'B' (= Low reliability), 'C' (= Lowest reliability), or 'ND' (= no data)
 
-* AGE_Q -- Reliability rating of fossil age (see Rodríguez-Rey, M. et al. , 2015.). |:lock:| A **predefined value set** only allows for 'A*' (= Highly reliable), 'A' (= Reliable), 'B' (= Unreliable), C (= Highly unreliable), 'ND' (= no data)
+* AGE_Q -- Reliability rating of fossil age (see Rodríguez-Rey, M. et al. , 2015.). |:lock:| A *predefined value set* only allows for 'A*' (= Highly reliable), 'A' (= Reliable), 'B' (= Unreliable), C (= Highly unreliable), 'ND' (= no data)
 
-* AGE_SUBQ -- Sub-category of “AGE_Q”, if reliable by association (see Rodríguez-Rey, M. et al. , 2015.). |:lock:| A **predefined value set** only allows for 'a' (= above), 'w' (= within), 'b' (= below), 'ND' (= no data), or 'NA' (= not applicable)
+* AGE_SUBQ -- Sub-category of “AGE_Q”, if reliable by association (see Rodríguez-Rey, M. et al. , 2015.). |:lock:| A *predefined value set* only allows for 'a' (= above), 'w' (= within), 'b' (= below), 'ND' (= no data), or 'NA' (= not applicable)
 
-* AGE_ASSOC1 -- 'Direct' age estimates have been derived from vertebrate parts of the target species itself. 'Indirect' ages are not based on taget species body parts, but still can be used based on association, i.e., the relationship between the target fossil and the dated structure/ material. |:lock:| A **predefined value set** only allows for 'Direct', 'Indirect', or 'ND' (= no data)
+* AGE_ASSOC1 -- 'Direct' age estimates have been derived from vertebrate parts of the target species itself. 'Indirect' ages are not based on taget species body parts, but still can be used based on association, i.e., the relationship between the target fossil and the dated structure/ material. |:lock:| A *predefined value set* only allows for 'Direct', 'Indirect', or 'ND' (= no data)
 
-* AGE_ASSOC2 -- Applicable if “AGE_ASSOC1” = 'Indirect'. Additional descriptor for the quality of the association between the dated structure/ material and the target specimen. Is NA if “AGE_ASSOC1” = 'Direct'. |:lock:| A **predefined value set** only allows for 'Yes' (= clear association), 'No' (= association not clear), 'Uncertain' (= association uncertain), 'NA' ("AGE_ASSOC1" = 'Direct'), or 'ND' (= no data)
+* AGE_ASSOC2 -- Applicable if “AGE_ASSOC1” = 'Indirect'. Additional descriptor for the quality of the association between the dated structure/ material and the target specimen. Is NA if “AGE_ASSOC1” = 'Direct'. |:lock:| A *predefined value set* only allows for 'Yes' (= clear association), 'No' (= association not clear), 'Uncertain' (= association uncertain), 'NA' ("AGE_ASSOC1" = 'Direct'), or 'ND' (= no data)
 
 * AGE_PREQ_R -- Reason for “AGE_PREQ” value
 
