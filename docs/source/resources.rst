@@ -13,9 +13,8 @@ Resources
 
 | Tutorial videos
 
-* `About OCTOPUS <https://youtu.be/GqRczsI0Us0>`_
+* `About OCTOPUS database <https://youtu.be/GqRczsI0Us0>`_
 
-* `Using OCTOPUS <https://youtu.be/i_z1zzljwAY>`_
+* `Using OCTOPUS web interface <https://youtu.be/i_z1zzljwAY>`_
 
 * `SahulArch collections <https://youtu.be/64_OVjo90nc>`_
-
