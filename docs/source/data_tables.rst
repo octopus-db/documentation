@@ -1832,7 +1832,7 @@ The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** na
 
 * CLASSID -- A unique identifier (auto-incrementing serial integer)
 
-* CLASS -- The most updated **vertebrata class** name
+* CLASS -- The most updated **vertebrata class** name. For available values refer to :ref:`fos_TaxRank1_classID_Fields`
 
 ..  _fos_TaxRank2_infraclaID:
 
@@ -1846,7 +1846,7 @@ The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infracl
 
 * INFRACLAID -- A unique identifier (auto-incrementing serial integer)
 
-* INFRACLASS -- The most updated **vertebrata infraclass** name
+* INFRACLASS -- The most updated **vertebrata infraclass** name. For available values refer to :ref:`fos_TaxRank2_infraclaID_Fields`
 
 ..  _fos_TaxRank3_ordrID:
 
@@ -1860,7 +1860,7 @@ The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** nam
 
 * ORDRID -- A unique identifier (auto-incrementing serial integer)
 
-* ORDR -- The most updated **vertebrata order** name
+* ORDR -- The most updated **vertebrata order** name. For available values refer to :ref:`fos_TaxRank3_ordrID_Fields`
 
 ..  _fos_TaxRank4_familyID:
 
@@ -1874,7 +1874,7 @@ The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** 
 
 * FAMILYID -- A unique identifier (auto-incrementing serial integer)
 
-* FAMILY -- The most updated **vertebrata family** name
+* FAMILY -- The most updated **vertebrata family** name. For available values refer to :ref:`fos_TaxRank4_familyID_Fields`
 
 ..  _fos_TaxRank5_genusID:
 
@@ -1888,7 +1888,7 @@ The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** na
 
 * GENUSID -- A unique identifier (auto-incrementing serial integer)
 
-* GENUS -- The most updated **vertebrata genus** name
+* GENUS -- The most updated **vertebrata genus** name. For available values refer to :ref:`fos_TaxRank5_genusID_Fields`
 
 ..  _fos_TaxRank6_speciesID:
 
@@ -1902,7 +1902,7 @@ The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species*
 
 * SPECIESID -- A unique identifier (auto-incrementing serial integer)
 
-* SPECIES -- The most updated **vertebrata species** name
+* SPECIES -- The most updated **vertebrata species** name. For available values refer to :ref:`fos_TaxRank6_speciesID_Fields`
 
 ..  _fos_chemtypeID:
 
