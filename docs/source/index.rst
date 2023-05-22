@@ -18,8 +18,6 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
 
    This project is under active development.
 
-Contents
---------
 
 .. toctree::
    :hidden:
