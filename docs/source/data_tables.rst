@@ -1799,11 +1799,11 @@ The *fos_DataCore* table stores **observations** (= smallest data model entity) 
 
 * AGE_CI -- Published confidence interval on the age estimate. |:lock:| A *predefined value set* only allows for '1SD' (= 1 Standard deviation), '2SD' (= 2 Standard deviations), or 'ND' (= no data)
 
-* AGE_PREQ -- Quality rating of dating protocol (see Rodríguez-Rey, M. et al. 2015. Quat Geochronol 30. Fig. 1.). |:lock:| A *predefined value set* only allows for 'm*' (= Highest reliability), 'm' (= High reliability), 'B' (= Low reliability), 'C' (= Lowest reliability), or 'ND' (= no data)
+* AGE_PREQ -- Quality rating of dating protocol (see Rodríguez-Rey, M. et al. 2015. Quat Geochronol 30. Fig. 1). |:lock:| A *predefined value set* only allows for 'm*' (= Highest reliability), 'm' (= High reliability), 'B' (= Low reliability), 'C' (= Lowest reliability), or 'ND' (= no data)
 
-* AGE_Q -- Reliability rating of fossil age (see Rodríguez-Rey, M. et al. , 2015.). |:lock:| A *predefined value set* only allows for 'A*' (= Highly reliable), 'A' (= Reliable), 'B' (= Unreliable), C (= Highly unreliable), 'ND' (= no data)
+* AGE_Q -- Reliability rating of fossil age (see Rodríguez-Rey, M. et al. , 2015). |:lock:| A *predefined value set* only allows for 'A*' (= Highly reliable), 'A' (= Reliable), 'B' (= Unreliable), C (= Highly unreliable), 'ND' (= no data)
 
-* AGE_SUBQ -- Sub-category of “AGE_Q”, if reliable by association (see Rodríguez-Rey, M. et al. , 2015.). |:lock:| A *predefined value set* only allows for 'a' (= above), 'w' (= within), 'b' (= below), 'ND' (= no data), or 'NA' (= not applicable)
+* AGE_SUBQ -- Sub-category of “AGE_Q”, if reliable by association (see Rodríguez-Rey, M. et al. , 2015). |:lock:| A *predefined value set* only allows for 'a' (= above), 'w' (= within), 'b' (= below), 'ND' (= no data), or 'NA' (= not applicable)
 
 * AGE_ASSOC1 -- 'Direct' age estimates have been derived from vertebrate parts of the target species itself. 'Indirect' ages are not based on taget species body parts, but still can be used based on association, i.e., the relationship between the target fossil and the dated structure/ material. |:lock:| A *predefined value set* only allows for 'Direct', 'Indirect', or 'ND' (= no data)
 
