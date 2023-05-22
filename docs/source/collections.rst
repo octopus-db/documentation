@@ -1,6 +1,6 @@
-================
-Data collections
-================
+=============================
+|:chipmunk:| Data collections
+=============================
 OCTOPUS database knows two levels of sub-collection integration - :ref:`core collections <Core collections>` and :ref:`partner collections <Partner collections>`. Though, like core collections, being fully integrated into OCTOPUS database, partner collections are not maintained nor officially supported by the OCTOPUS project, meaning that more up to date (albeit less rich in auxiliary data) versions may exist elsewhere.
 
 ..  _Core_collections:
