@@ -1160,7 +1160,7 @@ sed_sitetypeID fields
 fos_TaxRank1_classID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The lastest *fos_TaxRank1_classID* table version can be downloaded here``...
+``The latest *fos_TaxRank1_classID* table version can be downloaded here``...
 
 
 ..  _fos_TaxRank2_infraclaID_Fields:
@@ -1168,7 +1168,7 @@ fos_TaxRank1_classID fields
 fos_TaxRank2_infraclaID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The lastest *fos_TaxRank2_infraclaID* table version can be downloaded here``...
+``The latest *fos_TaxRank2_infraclaID* table version can be downloaded here``...
 
 
 ..  _fos_TaxRank3_ordrID_Fields:
@@ -1176,7 +1176,7 @@ fos_TaxRank2_infraclaID fields
 fos_TaxRank3_ordrID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The lastest *fos_TaxRank3_ordrID* table version can be downloaded here``...
+The latest *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_.
 
 
 ..  _fos_TaxRank4_familyID_Fields:
@@ -1184,7 +1184,7 @@ fos_TaxRank3_ordrID fields
 fos_TaxRank4_familyID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The lastest *fos_TaxRank4_familyID* table version can be downloaded here``...
+The latest *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_.
 
 
 ..  _fos_TaxRank5_genusID_Fields:
@@ -1192,7 +1192,7 @@ fos_TaxRank4_familyID fields
 fos_TaxRank5_genusID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The lastest *fos_TaxRank5_genusID* table version can be downloaded here``...
+The latest *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_.
 
 
 ..  _fos_TaxRank6_speciesID_Fields:
@@ -1200,7 +1200,7 @@ fos_TaxRank5_genusID fields
 fos_TaxRank6_speciesID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The lastest *fos_TaxRank6_speciesID* table version can be downloaded here``...
+The latest *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_.
 
 
 ..  _fos_chemtypeID_Fields:
@@ -1208,8 +1208,9 @@ fos_TaxRank6_speciesID fields
 fos_chemtypeID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-``The lastest *fos_TaxRank1_classID* table version can be downloaded here``...
-
+.. csv-table::
+   :file: ./csv_tables/fos_chemtypeID_FIELDS.csv
+   :header-rows: 1
 
 ..  _fos_fosmat1ID_Fields:
 
