@@ -32,13 +32,13 @@ The *global_varunitID* table stores **variable units** for those compilations wh
    :file: ./csv_tables/global_varunitID.csv
    :header-rows: 1
 
-* V_UNITID -- A unique identifier (auto-incrementing serial integer)
+* **V_UNITID** -- A unique identifier (auto-incrementing serial integer)
 
-* V_UNITABBR -- Unique abbreviation of "V_UNITNAME". For available values refer to :ref:`global_varunitID_Fields`
+* **V_UNITABBR** -- Unique abbreviation of "V_UNITNAME". For available values refer to :ref:`global_varunitID_Fields`
 
-* V_UNITNAME -- Unit name. For available values refer to :ref:`global_varunitID_Fields`
+* **V_UNITNAME** -- Unit name. For available values refer to :ref:`global_varunitID_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinal higher ranking "V_UNITID" [#]_
+* **PARENTID** -- Is fkey. Refers to ordinal higher ranking "V_UNITID" [#]_
 
 ..  _global_GrainSize:
 
