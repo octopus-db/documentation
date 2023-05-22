@@ -22,6 +22,7 @@ Contents
 --------
 
 .. toctree::
+   :hidden:
    :maxdepth: 2
 
    intro
