@@ -1162,7 +1162,9 @@ sed_sitetypeID fields
 fos_TaxRank1_classID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The latest *fos_TaxRank1_classID* table version can be downloaded here``...
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank1_classID.csv
+   :header-rows: 1
 
 
 ..  _fos_TaxRank2_infraclaID_Fields:
@@ -1170,7 +1172,11 @@ fos_TaxRank1_classID fields
 fos_TaxRank2_infraclaID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-``The latest *fos_TaxRank2_infraclaID* table version can be downloaded here``...
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank2_infraclaID_trunc.csv
+   :header-rows: 1
+
+The latest *fos_TaxRank2_infraclaID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank2_infraclaID__202305221536.csv>`_ |:chipmunk:|
 
 
 ..  _fos_TaxRank3_ordrID_Fields:
