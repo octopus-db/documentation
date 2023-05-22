@@ -855,7 +855,7 @@ crn_projepsgID fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/crn_projepsgID_FIELDS.csv
+   :file: ./csv_tables/crn_projepsgID_FIELDS_trunc.csv
    :header-rows: 1
 
 ..  _crn_bestndID_Fields:

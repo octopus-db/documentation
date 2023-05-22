@@ -858,7 +858,7 @@ crn_projepsgID table
 The *crn_projepsgID* table stores **study-specific projection information** (EPSG and human readable), i.e., the particular UTM projected coordinate system used for (re)calculations.
 
 .. csv-table::
-   :file: ./csv_tables/crn_projepsgID_trunc.csv
+   :file: ./csv_tables/crn_projepsgID.csv
    :header-rows: 1
 
 * PROJEPSGID -- EPSG [#]_ projection code, used as unique identifier
