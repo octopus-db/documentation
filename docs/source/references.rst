@@ -1,6 +1,6 @@
-==========
-References
-==========
+====================
+References |:books:|
+====================
 
 | Akcar, Naki; Ivy-Ochs, Susan; Schlüchter, Christian (2008). Application of in-situ produced terrestrial cosmogenic nuclides to archaeology: A schematic review. E&G Quaternary Sci. J., 57, 226--238. DOI: `10.3285/eg.57.1-2.9 <https://doi.org/10.3285/eg.57.1-2.9>`_
 | 
