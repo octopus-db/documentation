@@ -68,7 +68,7 @@ global_rivID fields
    :file: ./csv_tables/global_rivID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_rivID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_rivID__202305221533.csv>`_.
+| The latest *global_rivID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_rivID__202305221533.csv>`_ |:chipmunk:|
 | Detailed information about the Australian Hydrological Geospatial Fabric (Geofabric) classification rationale and model can be found at  `http://www.bom.gov.au/water/geofabric/ <http://www.bom.gov.au/water/geofabric/>`_.
 
 .. important::
@@ -1178,7 +1178,7 @@ fos_TaxRank2_infraclaID fields
 fos_TaxRank3_ordrID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The latest *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_.
+The latest *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_|:chipmunk:|
 
 
 ..  _fos_TaxRank4_familyID_Fields:
@@ -1186,7 +1186,7 @@ The latest *fos_TaxRank3_ordrID* table version can be downloaded `here <https://
 fos_TaxRank4_familyID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The latest *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_.
+The latest *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_ |:chipmunk:|
 
 
 ..  _fos_TaxRank5_genusID_Fields:
@@ -1194,7 +1194,7 @@ The latest *fos_TaxRank4_familyID* table version can be downloaded `here <https:
 fos_TaxRank5_genusID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The latest *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_.
+The latest *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_ |:chipmunk:|
 
 
 ..  _fos_TaxRank6_speciesID_Fields:
@@ -1202,7 +1202,7 @@ The latest *fos_TaxRank5_genusID* table version can be downloaded `here <https:/
 fos_TaxRank6_speciesID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The latest *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_.
+The latest *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_ |:chipmunk:|
 
 
 ..  _fos_chemtypeID_Fields:
