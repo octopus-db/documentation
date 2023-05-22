@@ -1,5 +1,5 @@
 =================
-|:octopus:| About
+About |:octopus:|
 =================
 
 Recommended citation: Munack, Henry [#]_; Rehn, Emma [#]_; Saktura, Wanchese M. [#]_ & Codilean, Alexandru T. [#]_ (2023). OCTOPUS database documentation (online). https://octopus-database.readthedocs.io (accessed DD-MM-YYYY).
