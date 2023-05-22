@@ -1155,6 +1155,65 @@ sed_sitetypeID fields
 
 ----
 
+..  _fos_TaxRank1_classID_Fields:
+
+fos_TaxRank1_classID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank1_classID_Fields.csv
+   :header-rows: 1
+
+
+..  _fos_TaxRank2_infraclaID_Fields:
+
+fos_TaxRank2_infraclaID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank2_infraclaID_Fields.csv
+   :header-rows: 1
+
+
+..  _fos_TaxRank3_ordrID_Fields:
+
+fos_TaxRank3_ordrID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank3_ordrID_Fields.csv
+   :header-rows: 1
+
+
+..  _fos_TaxRank4_familyID_Fields:
+
+fos_TaxRank4_familyID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank4_familyID_Fields.csv
+   :header-rows: 1
+
+
+..  _fos_TaxRank5_genusID_Fields:
+
+fos_TaxRank5_genusID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank5_genusID_Fields.csv
+   :header-rows: 1
+
+
+..  _fos_TaxRank6_speciesID_Fields:
+
+fos_TaxRank6_speciesID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank6_speciesID_Fields.csv
+   :header-rows: 1
+
+
 ..  _fos_chemtypeID_Fields:
 
 fos_chemtypeID fields
