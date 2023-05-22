@@ -858,6 +858,8 @@ crn_projepsgID fields
    :file: ./csv_tables/crn_projepsgID_FIELDS_trunc.csv
    :header-rows: 1
 
+The latest *crn_projepsgID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_projepsgID__202305221534.csv>`_ |:chipmunk:|
+
 ..  _crn_bestndID_Fields:
 
 crn_bestndID fields
