@@ -1178,13 +1178,21 @@ fos_TaxRank2_infraclaID fields
 fos_TaxRank3_ordrID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-The latest *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_|:chipmunk:|
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank3_ordrID_trunc.csv
+   :header-rows: 1
+
+The latest *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_ |:chipmunk:|
 
 
 ..  _fos_TaxRank4_familyID_Fields:
 
 fos_TaxRank4_familyID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank4_familyID_trunc.csv
+   :header-rows: 1
 
 The latest *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_ |:chipmunk:|
 
@@ -1194,6 +1202,10 @@ The latest *fos_TaxRank4_familyID* table version can be downloaded `here <https:
 fos_TaxRank5_genusID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank5_genusID_trunc.csv
+   :header-rows: 1
+
 The latest *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_ |:chipmunk:|
 
 
@@ -1201,6 +1213,10 @@ The latest *fos_TaxRank5_genusID* table version can be downloaded `here <https:/
 
 fos_TaxRank6_speciesID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/fos_TaxRank6_speciesID_trunc.csv
+   :header-rows: 1
 
 The latest *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_ |:chipmunk:|
 
