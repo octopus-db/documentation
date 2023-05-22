@@ -1,4 +1,4 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent
+﻿Field,Data type,Unit,|:key:|,Not Null,Parent
 V_UNITID,serial4,,pkey [#]_,TRUE,
 V_UNITABBR,text,,ukey [#]_,TRUE,
 V_UNITNAME,text,,ukey,,
