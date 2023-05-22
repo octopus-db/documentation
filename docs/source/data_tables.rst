@@ -1830,9 +1830,9 @@ The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** na
    :file: ./csv_tables/fos_TaxRank1_classID.csv
    :header-rows: 1
 
-* CLASSID -- 
+* CLASSID -- A unique identifier (auto-incrementing serial integer)
 
-* CLASS -- 
+* CLASS -- The most updated **vertebrata class** name
 
 ..  _fos_TaxRank2_infraclaID:
 
@@ -1844,9 +1844,9 @@ The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infracl
    :file: ./csv_tables/fos_TaxRank2_infraclaID.csv
    :header-rows: 1
 
-* INFRACLAID -- 
+* INFRACLAID -- A unique identifier (auto-incrementing serial integer)
 
-* INFRACLASS -- 
+* INFRACLASS -- The most updated **vertebrata infraclass** name
 
 ..  _fos_TaxRank3_ordrID:
 
@@ -1858,9 +1858,9 @@ The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** nam
    :file: ./csv_tables/fos_TaxRank3_ordrID.csv
    :header-rows: 1
 
-* ORDRID -- 
+* ORDRID -- A unique identifier (auto-incrementing serial integer)
 
-* ORDR -- 
+* ORDR -- The most updated **vertebrata order** name
 
 ..  _fos_TaxRank4_familyID:
 
@@ -1872,9 +1872,9 @@ The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** 
    :file: ./csv_tables/fos_TaxRank4_familyID.csv
    :header-rows: 1
 
-* FAMILYID -- 
+* FAMILYID -- A unique identifier (auto-incrementing serial integer)
 
-* FAMILY -- 
+* FAMILY -- The most updated **vertebrata family** name
 
 ..  _fos_TaxRank5_genusID:
 
@@ -1886,9 +1886,9 @@ The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** na
    :file: ./csv_tables/fos_TaxRank5_genusID.csv
    :header-rows: 1
 
-* GENUSID -- 
+* GENUSID -- A unique identifier (auto-incrementing serial integer)
 
-* GENUS -- 
+* GENUS -- The most updated **vertebrata genus** name
 
 ..  _fos_TaxRank6_speciesID:
 
@@ -1900,9 +1900,9 @@ The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species*
    :file: ./csv_tables/fos_TaxRank6_speciesID.csv
    :header-rows: 1
 
-* SPECIESID -- 
+* SPECIESID -- A unique identifier (auto-incrementing serial integer)
 
-* SPECIES -- 
+* SPECIES -- The most updated **vertebrata species** name
 
 ..  _fos_chemtypeID:
 
