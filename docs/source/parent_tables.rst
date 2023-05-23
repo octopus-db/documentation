@@ -28,6 +28,8 @@ global_SiteCode fields
    :file: ./csv_tables/global_SiteCode_FIELDS.csv
    :header-rows: 1
 
+| The latest *global_SiteCode* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_SiteCode__202305230906.csv>`_ |:chipmunk:|
+
 .. note::
 
    The dominant attribute of a site will override any other. So, for example, burials in a rockshelter with lots of occupation deposit would be classified as a Rockshelter, not a Cemetery.
