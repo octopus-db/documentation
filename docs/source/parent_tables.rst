@@ -1006,7 +1006,7 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 * IDs 55, 56 -- ASTER standard, equivalent to NIST_27900 and 07KNSTD
 * IDs 57, 58 -- NIST SRM-4325, but with differing assumed isotope ratio
 
-The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/__crn_bestndID__202305230906.csv>`_ |:chipmunk:|
+The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_bestndID__202305230906.csv>`_ |:chipmunk:|
 
 ----
 
