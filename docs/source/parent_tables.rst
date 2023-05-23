@@ -42,7 +42,7 @@ global_biomeID fields
    :header-rows: 1
 
 | Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
-| The latest *global_biomeID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_biomeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _global_ibraID_Fields:
 
@@ -69,7 +69,7 @@ global_rivID fields
    :file: ./csv_tables/global_rivID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *global_rivID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_rivID__202305221533.csv>`_ |:chipmunk:|
+| The latest full *global_rivID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_rivID__202305221533.csv>`_ |:chipmunk:|
 | Detailed information about the Australian Hydrological Geospatial Fabric (Geofabric) classification rationale and model can be found at  `http://www.bom.gov.au/water/geofabric/ <http://www.bom.gov.au/water/geofabric/>`_.
 
 .. important::
@@ -85,7 +85,7 @@ global_varunitID fields
    :file: ./csv_tables/global_varunitID_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_varunitID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_varunitID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
 
 
 ..  _global_Author_Fields:
@@ -97,7 +97,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202305230906.csv>`_ |:chipmunk:|
 
 ..  _global_Journal_Fields:
 
@@ -108,7 +108,7 @@ global_Journal fields
    :file: ./csv_tables/global_Journal_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Journal* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_Journal* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202305230906.csv>`_ |:chipmunk:|
 
 ..  _global_PubType_Fields:
 
@@ -167,7 +167,7 @@ cabah_LabCodes fields
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest *cabah_LabCodes* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_LabCodes__202305230904.csv>`_ |:chipmunk:|
+The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_LabCodes__202305230904.csv>`_ |:chipmunk:|
 
 ..  _cabah_chemprepID_Fields:
 
@@ -1055,7 +1055,7 @@ c14_materia2ID fields
    :file: ./csv_tables/c14_materia2ID_FIELDS.csv
    :header-rows: 1
 
-The latest *c14_materia2ID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia2ID__202305230904.csv>`_ |:chipmunk:|
+The latest *c14_materia2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia2ID__202305230904.csv>`_ |:chipmunk:|
 
 ..  _c14_solvent2ID_Fields:
 
