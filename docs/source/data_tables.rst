@@ -443,9 +443,9 @@ The *cabah_LabCodes* table stores information about the **lab of origin** for a 
 
 * LAB_ORIGID -- A unique identifier (auto-incrementing serial integer)
 
-* LAB_PREFIX -- Lab prefix
+* LAB_PREFIX -- Lab prefix. For available values refer to :ref:`cabah_LabCodes_Fields`
 
-* LAB_FACLTY -- Facility / institution of lab affiliation
+* LAB_FACLTY -- Facility / institution of lab affiliation. For available values refer to :ref:`cabah_LabCodes_Fields`
 
 * CNTRY -- Country of "LAB_FACLTY"
 
