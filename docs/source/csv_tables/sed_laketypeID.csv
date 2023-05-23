@@ -1,4 +1,4 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent
-LAKETYPEID,int2 seq.,,pkey,TRUE,
-LAKETYPE,text,,ukey,TRUE,
-PARENTID,int2,,fkey,,LAKETYPEID
+﻿Field,Data type,Key,Not Null,Parent
+LAKETYPEID,int2 seq.,pkey,TRUE,
+LAKETYPE,text,ukey,TRUE,
+PARENTID,int2,fkey,,LAKETYPEID

@@ -1,5 +1,5 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent
-MATERIA2ID,int2,,pkey,TRUE,
-MATERIAL2,text,,ukey,TRUE,
-PARENTID,int2,,fkey,,MATERIA2ID
-MAT2_DESCR,text,,,,
+﻿Field,Data type,Key,Not Null,Parent
+MATERIA2ID,int2,pkey,TRUE,
+MATERIAL2,text,ukey,TRUE,
+PARENTID,int2,fkey,,MATERIA2ID
+MAT2_DESCR,text,,,

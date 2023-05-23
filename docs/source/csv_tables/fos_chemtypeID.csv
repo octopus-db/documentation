@@ -1,4 +1,4 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent
-CHEMTYPEID,int2 seq.,,pkey,TRUE,
-CHEMTYPE,text,,ukey,TRUE,
-CHEMTYPEAB,text,,ukey,TRUE,
+﻿Field,Data type,Key,Not Null,Parent
+CHEMTYPEID,int2 seq.,pkey,TRUE,
+CHEMTYPE,text,ukey,TRUE,
+CHEMTYPEAB,text,ukey,TRUE,

@@ -1,3 +1,3 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent
-CONTAMID,int2,,pkey,TRUE,
-CONTAM,text,,,TRUE,
+﻿Field,Data type,Key,Not Null,Parent
+CONTAMID,int2,pkey,TRUE,
+CONTAM,text,,TRUE,
