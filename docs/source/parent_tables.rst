@@ -85,6 +85,9 @@ global_varunitID fields
    :file: ./csv_tables/global_varunitID_FIELDS.csv
    :header-rows: 1
 
+| The latest *global_varunitID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
+
+
 ..  _global_PubType_Fields:
 
 global_PubType fields
