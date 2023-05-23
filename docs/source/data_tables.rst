@@ -277,30 +277,30 @@ global_RefCore table
 ^^^^^^^^^^^^^^^^^^^^
 The *global_RefCore* table stores information that allow certain **identification and citation of OCTOPUS collection data sources** according to BibTeX [#]_ referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be *required*, some will be *optional*, and others will be *ignored* by BibTeX. Those three categories are defined in the :ref:`global_PubType_Fields` section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.
 
-=========== =========== ==== ==== ======== ==================
-Field       Data type   Unit Key  Not Null Parent
-=========== =========== ==== ==== ======== ==================
-REFDBID     text             pkey TRUE     
-OAID        varchar(11)      fkey          :ref:`global_Author`
-REFDOI      text                           
-AUTHORS     text                           
-TITLE       text                           
-PUBTYPEID   int2             fkey TRUE     :ref:`global_PubType`
-JOURNALID   int2             fkey          :ref:`global_Journal`
-VOLUME      text                           
-NUMBER      text                           
-PAGES       text                           
-YEAR        int2                  TRUE     
-ADDRESS     text                           
-NOTE        text                           
-URL         text                           
-BOOKTITLE   text                           
-CHAPTER     text                           
-EDITOR      text                           
-PUBLISHER   text                           
-INSTITUTION text                           
-SCHOOL      text                           
-=========== =========== ==== ==== ======== ==================
+=========== =========== ==== ======== ==================
+Field       Data type   Key  Not Null Parent
+=========== =========== ==== ======== ==================
+REFDBID     text        pkey TRUE     
+OAID        varchar(11) fkey          :ref:`global_Author`
+REFDOI      text                      
+AUTHORS     text                      
+TITLE       text                      
+PUBTYPEID   int2        fkey TRUE     :ref:`global_PubType`
+JOURNALID   int2        fkey          :ref:`global_Journal`
+VOLUME      text                      
+NUMBER      text                      
+PAGES       text                      
+YEAR        int2             TRUE     
+ADDRESS     text                      
+NOTE        text                      
+URL         text                      
+BOOKTITLE   text                      
+CHAPTER     text                      
+EDITOR      text                      
+PUBLISHER   text                      
+INSTITUTION text                      
+SCHOOL      text                      
+=========== =========== ==== ======== ==================
 
 * REFDBID -- A unique identifier in the format *Name<colon>YearKeyword* where *Name* is the family name of the first author, *Year* is the publication year, and *Keyword* is a catchy single word from the publication title. No whitespace or special characters are allowed. The keyword must not be numeric. 
 
