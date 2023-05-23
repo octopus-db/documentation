@@ -41,7 +41,8 @@ global_biomeID fields
    :file: ./csv_tables/global_biomeID_FIELDS.csv
    :header-rows: 1
 
-Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
+| The latest full *global_biomeID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
+| Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
 
 ..  _global_ibraID_Fields:
 
