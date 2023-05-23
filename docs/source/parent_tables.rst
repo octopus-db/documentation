@@ -136,6 +136,18 @@ global_PubType fields
 Regional parent tables
 ----------------------
 
+
+..  _cabah_LabCodes_Fields:
+
+cabah_LabCodes fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
+   :header-rows: 1
+
+The latest *cabah_LabCodes* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_LabCodes__202305230904.csv>`_ |:chipmunk:|
+
 ..  _cabah_chemprepID_Fields:
 
 cabah_chemprepID fields
