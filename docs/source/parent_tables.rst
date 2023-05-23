@@ -725,6 +725,8 @@ Values for crn_alstndID."ALSTNDCOMT" field as follows ...
 * IDs 19, 20	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
 * IDs 21, 22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
 
+| The latest *crn_alstndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_alstndID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _crn_amsID_Fields:
 
 crn_amsID fields
@@ -889,6 +891,7 @@ Values for crn_amsID."AMSURL" field as follows ...
 * IDs 33, 34 -- https://tlabs.ac.za
 * IDs 35, 36 -- http://earth.tju.edu.cn/en/
 
+| The latest *crn_amsID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_amsID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _crn_projepsgID_Fields:
 
@@ -1002,6 +1005,8 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 * IDs 53, 54 -- various ANSTO runs, equivalent to 07KNSTD
 * IDs 55, 56 -- ASTER standard, equivalent to NIST_27900 and 07KNSTD
 * IDs 57, 58 -- NIST SRM-4325, but with differing assumed isotope ratio
+
+The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/__crn_bestndID__202305230906.csv>`_ |:chipmunk:|
 
 ----
 
