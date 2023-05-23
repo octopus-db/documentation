@@ -1180,6 +1180,8 @@ sed_laketypeID fields
    :file: ./csv_tables/sed_laketypeID_FIELDS.csv
    :header-rows: 1
 
+| The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/sed_laketypeID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _sed_morphID_Fields:
 
 sed_morphID fields
