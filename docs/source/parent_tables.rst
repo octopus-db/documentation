@@ -136,7 +136,6 @@ global_PubType fields
 Regional parent tables
 ----------------------
 
-
 ..  _cabah_LabCodes_Fields:
 
 cabah_LabCodes fields

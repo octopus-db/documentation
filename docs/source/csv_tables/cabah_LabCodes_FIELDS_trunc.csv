@@ -1,0 +1,6 @@
+LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE
+-9999,Lab_indet.,ND,ND,FALSE,NA,,NA
+1,A,Univ. of Arizona,USA,,C14,,Radiocarbon
+2,AA,NSF-Ariz. AMS Facility,USA,,C14,,Radiocarbon
+3,AAR,Univ. of Aarhus,DNK,,C14,,Radiocarbon
+...,...,...,...,...,...,...,... *truncated* ...
