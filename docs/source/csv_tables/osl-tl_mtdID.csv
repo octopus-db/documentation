@@ -1,4 +1,4 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent
-MTDID,int2 seq.,,pkey,TRUE,
-MTD,text,,ukey,TRUE,
-MTDAB,text,,ukey,TRUE,
+﻿Field,Data type,Key,Not Null,Parent
+MTDID,int2 seq.,pkey,TRUE,
+MTD,text,ukey,TRUE,
+MTDAB,text,ukey,TRUE,

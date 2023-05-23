@@ -1,9 +1,9 @@
-﻿Field,Data type,Unit,Key,Not Null,Parent
-LAB_ORIGID,int2 seq.,,pkey,TRUE,
-LAB_PREFIX,text,,,,
-LAB_FACLTY,text,,,,
-CNTRY,varchar(3),,,,
-LAB_ACTIVE,bool,,,,
-LAB_MTD,varchar(3),,,,
-LAB_URL,text,,,,
-LAB_SOURCE,text,,,,
+﻿Field,Data type,Key,Not Null,Parent
+LAB_ORIGID,int2 seq.,pkey,TRUE,
+LAB_PREFIX,text,,,
+LAB_FACLTY,text,,,
+CNTRY,varchar(3),,,
+LAB_ACTIVE,bool,,,
+LAB_MTD,varchar(3),,,
+LAB_URL,text,,,
+LAB_SOURCE,text,,,
