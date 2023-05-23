@@ -88,6 +88,28 @@ global_varunitID fields
 | The latest *global_varunitID* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
 
 
+..  _global_Author_Fields:
+
+global_Author fields
+~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_Author_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *global_Author* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202305230906.csv>`_ |:chipmunk:|
+
+..  _global_Journal_Fields:
+
+global_Journal fields
+~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_Journal_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *global_Journal* table can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202305230906.csv>`_ |:chipmunk:|
+
 ..  _global_PubType_Fields:
 
 global_PubType fields
