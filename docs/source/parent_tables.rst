@@ -90,6 +90,30 @@ global_varunitID fields
 | The latest *global_varunitID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
 
 
+..  _global_RefCore_Fields:
+
+global_RefCore fields
+~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_RefCore_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *global_RefCore* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefCore__202305230906.csv>`_ |:chipmunk:|
+
+
+..  _global_RefAbstract_Fields:
+
+global_RefAbstract fields
+~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_RefAbstract_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202305230906.csv>`_ |:chipmunk:|
+
+
 ..  _global_Author_Fields:
 
 global_Author fields

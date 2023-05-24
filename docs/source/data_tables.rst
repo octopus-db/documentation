@@ -348,7 +348,7 @@ The *global_RefAbstract* table stores **publication abstracts** for references i
 
 * REFDBID -- Uses same "REFDBID" as :ref:`global_RefCore` table does (because is one-to-one relationship)
 
-* ABSTRACT -- Is publication abstract, if available. Note - Very extensive abstracts have been truncated and marked as *... [_truncated_]* at their end.
+* ABSTRACT -- Is publication abstract, if available. Note - Very extensive abstracts have been truncated and marked as *... [_truncated_]* at their end. For available abstracts refer to :ref:`global_RefAbstract_Fields`
 
 ..  _global_Author:
 
