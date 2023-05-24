@@ -1155,6 +1155,8 @@ osl-tl_mtdID fields
    :file: ./csv_tables/osl-tl_mtdID_FIELDS.csv
    :header-rows: 1
 
+The latest *osl-tl_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mtdID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _osl_typeID_Fields:
 
 osl_typeID fields
