@@ -1117,6 +1117,8 @@ osl-tl_agemodelID fields
    :file: ./csv_tables/osl-tl_agemodelID_FIELDS.csv
    :header-rows: 1
 
+The latest *osl-tl_agemodelID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_agemodelID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _osl-tl_ed_procID_Fields:
 
 osl-tl_ed_procID fields
