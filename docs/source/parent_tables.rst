@@ -222,6 +222,7 @@ cabah_chemprepID fields
 
 * Coll -- Collagen
 
+The latest *cabah_chemprepID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_chemprepID__202305230904.csv>`_ |:chipmunk:|
 
 ..  _cabah_col_mtdID_Fields:
 
@@ -231,6 +232,8 @@ cabah_col_mtdID fields
 .. csv-table::
    :file: ./csv_tables/cabah_col_mtdID_FIELDS.csv
    :header-rows: 1
+
+The latest *cabah_col_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv>`_ |:chipmunk:|
 
 ..  _cabah_methodID_Fields:
 
