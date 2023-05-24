@@ -170,7 +170,7 @@ global_PubType fields
 
 * **online** -- Internet source. *Required fields*: title, url, urldate (in "NOTE" field)
 
-The latest *global_PubType* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202305230906.csv>`_ |:chipmunk:|
+The latest *global_PubType* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
 
 ----
 
