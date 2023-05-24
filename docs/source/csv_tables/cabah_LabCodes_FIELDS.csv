@@ -1,348 +1,348 @@
-LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE,CREATED_AT,UPDATED_AT
--9999,Lab_indet.,ND,ND,FALSE,NA,,NA,2021-11-19 12:11:05.011 +0100,
-1,A,Univ. of Arizona,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-2,AA,NSF-Ariz. AMS Facility,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-3,AAR,Univ. of Aarhus,DNK,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,2022-01-17 10:36:15.769 +0100
-4,AC,Ingeis,ARG,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-5,AECV,Alberta Environmental Center of Vegreville,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-6,AERIK,Atomic Energy Res. Inst.,KOR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-7,ALG,Algiers,DZA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-8,ANAS,Applied Nuclear-Atomic Science (ANAS) Lab.,KOR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-9,ANL,Argonne Nat. Lab.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-10,ANSTO,Australian Nuclear Science & Technology,AUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-11,ANTW,Antwerp,BEL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-12,ANU,Australian National Univ.,AUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-13,ANUA,ANU Accelerator,AUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-14,AU,Univ. of Alaska,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-15,AURIS,Ahmedabad,IND,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-16,B,Bern,CHE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-17,Ba,Bratislava,SVK,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-18,BC,Brooklyn College,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-19,BE,Univ. of Bern,CHE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-20,Beta,Beta Analytic,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-21,BGS,Brock Univ.,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-22,BIOCAMS,Miami,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-23,Birm,Birmingham,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-24,Bln,Berlin,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-25,BM,British Museum,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-26,BONN,Univ. Bonn,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-27,BRAMS,Univ. of Bristol,GBR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-28,BS,Birbal Sahni Inst.,IND,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-29,C,Chicago,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-30,CAMS,Center for AMS,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-31,CAR,"Univ. College, Cardiff",GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-32,CENA,Centro Energia Nuclear na Agricultura,BRA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-33,CG,Inst. of Geology,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-34,CH,Chemistry Lab.,IND,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-35,CN-XX,Chinese Academy of Sciences,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-36,CNA,Centro Nacional de Aceleradores,ESP,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-37,COL,Koln AMS,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-38,CRCA,Cairo,EGY,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-39,CRL,Czech 14C Lab.,CZE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-40,CSIC,"Geochronology Lab., IQFR-CSIC, Madrid",ESP,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-41,CSM,"Cosmochem. Lab., USSR Acad. of Sci.",SUN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-42,CT,"Caltech, Calif. Inst. Tech.",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-43,CU,Charles Univ.,CZE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-44,D,"Dublin, Trinity College",IRL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-45,Dak,Univ. of Dakar,SEN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-46,DAL,Dalhousie Univ.,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-47,DE,"USGS, Denver",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-48,Deb,Debrecen,HUN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-49,DebA,Debrecen (AMS),HUN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-50,DEM,NCSR Demokritos,GRC,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-51,DGC,Dalhousie Geochronology Centre,CAN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-52,DIC,Dicar Corp and Dicarb,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-53,DK,Univ. de Dakar,SEN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-54,DRI,Desert Research Inst.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-55,DSA,"CIRCE, Caserta",ITA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-56,D-AMS,Direct AMS,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-57,ENEA,"ENEA, Bologna",ITA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-58,Erl,Erlangen AMS Facility,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-59,ETH,ETH/AMS Facility,CHE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-60,F,Florence,ITA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-61,Fi,Florence INFN,ITA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-62,Fr,Freiberg,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-63,Fra,Frankfurt,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-64,FSU,Florida State Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-65,FTMC,Vilnius AMS Lab,LTU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-66,FZ,Fortaleza,BRA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-67,G,Gothenburg,SWE,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-68,GaK,Gakushuin Univ.,JPN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-69,Gd,Gliwice,POL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-70,GD,Gdansk,POL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-71,Gif,Gif-sur-Yvette,FRA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-72,Gif A,Gif-sur-Yvette and Orsay,FRA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-73,GIN,Geological Inst.,RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-74,GL,Geochronological Lab.,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-75,GrA,Groningen AMS,NLD,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-76,GrM,Groningen AMS,NLD,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-77,GrN,Groningen,NLD,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-78,GrO,Groningen,NLD,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-79,GSC,Geological Survey,CAN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-80,GU,Scottish Universities Research & Reactor Centre,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-81,GV,"AMS Golden Valley, Novosibirsk",RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-82,GX,Geochron Laboratories,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-83,GXNUAMS,Guangxi Normal Univ. AMS Lab,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-84,H,Heidelberg,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-85,HAM,Hamburg,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-86,HAR,Harwell,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-87,Hd,Heidelberg,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-88,Hel,Helsinki,FIN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-89,Hela,Helsinki AMS,FIN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-90,HIG,Hawaii Inst. of Geophys.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-91,HL,Second Inst. of Oceanography,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-92,HNS,"Hasleton-Nuclear, Palo Alto",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-93,Hv,Hannover,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-94,I,Teledyne Isotopes,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-95,IAA,Inst. of Accelerator Analysis (beta counting),JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-96,IAAA,Inst. of Accelerator Analysis (AMS),JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-97,IAEA,International Atomic Energy Agency,AUT,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-98,IAEA-MEL,Marine Environmental Lab.,MCO,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-99,ICA,International Chemical Analysis,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-100,ICEN,Inst.o Tecnologico e Nuclear,PRT,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-101,IEMAE,Inst. of Evolutionary Morphology & Animal Ecology,RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-102,IF AO,Inst. frangais d'archeologie orientale,EGY,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-103,LAR,Liege State Univ.,BEL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-104,IGAN,Inst. of Geography,RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-105,IGS,Inst. of Geological Sci.,BLR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-106,IGSB,Inst. of Geological Sci.,BLR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-107,IHME,Marzeev Inst. of Hygiene Med. Ecol.,UKR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-108,II,"Isotopes, Inc., Palo Alto",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-109,IMTA,Inst. Mexicano de Tecnologia del Agua,MEX,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-110,IOAN,Inst. of Oceanography,RUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-111,IORAN,Inst. of Oceanology,RUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-112,IRPA,Royal Inst. for Cultural Heritage,BEL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-113,ISGS,Illinois State Geological Survey,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-114,IUACD,Inter Univ. Accelerator Centre,IND,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-115,IVAN,Inst. of Volcanology,UKR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-116,IVIC,Caracas,VEN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-117,IWP,Inst. of Water Problems,RUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-118,JAT,Tono Geoscience Center (JAEA),JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-119,K,Copenhagen,DNK,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-120,KATRI,Korea Apparel Testing,KOR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-121,KEEA,Kyushu Environ. Eval. Assoc. Property Research Inst.,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-122,KGM,Korea Inst. of Geoscience & Mineral Resources (KIGAM),KOR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-123,Kl,Kiel,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-124,KIA,Kiel AMS,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-125,Ki (KIEV),Inst. of Radio-Geochemistry of the Environment,UKR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-126,KIK,Royal Inst. for Cultural Heritage,BEL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-127,KN,Koln,DEU,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-128,KR,Krakow,POL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-129,KRIL,Krasnoyarsk Inst.,RUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-130,KSU,Kyoto Sangyo Univ.,JPN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-131,L,Lamont-Doherty,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-132,LACUFF,Fluminense Federal Univ.,BRA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-133,LAEC,Lebanese Atomic Energy Commission (LAEC),LBN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-134,LE,St. Petersburg,RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-135,LEMA,Lab. de Espectrometria de Masas con Aceleradores,MEX,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-136,LIH,NCSR Demokritos,GRC,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-137,u,Scripps (UCSD) La Jolla,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-138,LTL,Univ. of Lecce,ITA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-139,Lu,Lund,SWE,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-140,LuA,Lund,SWE,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-141,LuS,Lund,SWE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-142,LU,St. Petersburg State Univ.,RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-143,Lv,Louvain-la-Neuve,BEL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-144,Ly,Univ. of Lyon,FRA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-145,LZU,Lanzhou Univ.,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-146,M,Univ. of Michigan,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-147,Ma,Univ. of Winnepeg,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-148,MAG,Quaternary Geology,RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-149,MAMS,Curt-Engelhorn-Zentrum Archaeom.,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-150,MC,Centre Scientifique,MCO,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-151,METU,Middle East Technical Univ.,TUR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-152,MKL,Lab. of Absolute Dating,POL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-153,MTC,Univ. of Tokyo,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-154,N,Nishina Memorial,JPN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-155,NIST,National Inst. of Standards and Technology,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-156,NPL,"National Physical Lab., Middlesex",GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-157,NS,Nova Scotia Research Foundation,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-158,NSRL,INSTAAR - Univ. of Colorado,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-159,NSTF,"Nuclear Science & Technology Facility, State Univ. of New York",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-160,NSW,Univ. of New South Wales,AUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-161,NTU,National Taiwan Univ. Republic of China,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-162,NU,Nihon Univ.,JPN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-163,NUTA,Tandetron AMS Lab,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-164,Ny,"Nancy, Centre de Recherches Radiogeologiques",FRA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-165,NZ,Rafter Radiocarbon Lab,NZL,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-166,NZA,Rafter (AMS),NZL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-167,O,Humble Oil & Refining,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-168,OBDY,ORSTOM Bondy,FRA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-169,OR,Research Center of Radioisotopes,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-170,ORINS,Oak Ridge Inst. of Nuclear Studies,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-171,OS,"National Ocean Sciences, AMS Facility Woods Hole Oceanographic Inst.",USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-172,OWU,Ohio Wesleyan Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-173,OX,"USDA (Oxford, Miss.)",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-174,OxA,Oxford Radiocarbon Accelerator Unit,GBR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-175,OZ,ANSTO-ANTARES,AUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-176,LZ,Umweltforschungszentrum Leipzig-Halle UFZ,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-177,Beta-,Beta Analytics,USA,,C14,,Internet,2021-11-19 12:11:05.011 +0100,
-178,P,Max-Planck-lnstitut Geochron. Lab,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-179,p,Univ. of Pennsylvania,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-180,PAL,Palynosurvery Co.,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-181,Pi,Pisa,ITA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-182,PI,Permafrost Inst.,RUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-183,PIC,Packard,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-184,PITT,Univ. of Pittsburgh,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-185,Poz,Poznan,POL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-186,Pr,Prague,CZE,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-187,PKU,Peking Univ.,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-188,PKUAMS,Peking Univ. AMS lab,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-189,PL,Purdue Rare Isotope Measurement Lab,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-190,PLD,"Paleo Labo. Co., Ltd.",JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-191,PRI,PaleoResearch Inst.,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-192,PRL,Radiocarbon Dating Research Unit,IND,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-193,PRLCH,Physical Research Lab.,IND,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-194,PSU,Penn State Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-195,PSUAMS,Penn State Univ.,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-196,Pta,Pretoria,ZAF,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-197,Q,Cambridge,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-198,QL,Quaternary Isotope Lab.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-199,QC,Queens College,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-200,QU,"Centre de Recherches Canada Minerales, Quebec",CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-201,R,Rome,ITA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-202,RCD,Radiocarbon Dating,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-203,RCMib,Milano Bicocca Univ.,ITA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-204,Rl,"Radiochemistry, Inc.",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-205,RICH,Royal Inst. for Cultural Heritage,BEL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-206,RIDDL,Simon Fraser Univ.,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-207,Riga,Inst. of Science,LVA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-208,RL,"Radiocarbon, Ltd.",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-209,roams,National Inst. for Physics and Nuclear Engineering,ROU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-210,Rome,"Dept, of Earth Sciences, Rome",ITA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-211,RT,Rehovot,ISR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-212,RTK,Rehovot,ISR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-213,RU,Rice Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-214,S,Saskatchewan,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-215,Sa,"Saclay, Gif-sur-Yvette",FRA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-216,Sac,Inst.o Tecnologico Portugal e Nuclear,PRT,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-217,Sac A,Gif sur Yvette (Saclay),FRA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-218,SANU,ANU Canberra,AUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-219,SPb,Herzen State Univ.,RUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-220,SFU,Simon Fraser Univ.,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-221,Sh,Shell Development Co.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-222,SI,Smithsonian Inst.ion,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-223,SL,Sharp Laboratories,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-224,SM,"Mobil Oil Corp., Dallas",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-225,SMU,Southern Methodist Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-226,SNU,Seoul National Univ.,KOR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-227,T,Trondheim,NOR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-228,TB,Tbilisi,GEO,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-229,TBNC,Kaman Instruments,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-230,TEM,Temple Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-231,TF,Tata Inst. of Fundamental Research,IND,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-232,TK,Univ. of Tokyo,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-233,TKA,"Univ. Museum, Univ. of Tokyo",JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-234,TKa,Univ. of Tokyo-AMS,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-235,TKU,Turku,FIN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-236,Tin,Tallinn,EST,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-237,TO,IsoTrace Lab.,CAN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-238,TUBITAK,TUBiTAK National AMS Lab.,TUR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-239,TRa,Trondheim (AMS),NOR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-240,TUa,Trondheim (AMS),NOR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-241,TUNC,Tehran Univ. Nuclear Centre,IRN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-242,Tx,Texas,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-243,u,Uppsala Univ.,SWE,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-244,Ua,Uppsala AMS,SWE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-245,UB,Belfast,GBR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-246,UBA,Belfast,GBR,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-247,UBAR,Univ. of Barcelona,ESP,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-248,UCD,"Univ. College, Dublin",IRL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-249,UCI,"Univ. of California, Irvine",USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-250,UCLA,"Univ. of California, Los Angeles",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-251,UCR,"Univ. of California, Riverside",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-252,UD,Udine,ITA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-253,UGa,Univ. of Georgia,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-254,UGRA,Univ. of Granada,ESP,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-255,UL,Univ. of Laval,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-256,ULA,Univ. of Laval,CAN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-257,UM,Univ. of Miami,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-258,UNAM,National Autonomous Univ. of Mexico,MEX,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-259,UOC,Univ. of Ottawa,CAN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-260,UQ,Univ. of Quebec at Montreal,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-261,URCRM,Ukrainian Research Ctr. for Radiation Medicine,UKR,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-262,URU,Univ. of Uruguay,URY,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-263,USGS,"USGS, Menlo Park",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-264,utc,Utrecht van de Graaff,NLD,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-265,UTCAG,Univ. of Tennessee,USA,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-266,UW,Univ. of Washington,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-267,UZH,Univ. of Zurich,CHE,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-268,V,"Melbourne, Victoria",AUS,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-269,Vs,"Vilnius, Nat. Res. Ctr.",LTU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-270,VERA,Inst. fur Radiumforschung und Kernphysik,AUT,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-271,VRI,Universitat Wien,AUT,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-272,W,"USGS, National Center",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-273,WAT,Univ. of Waterloo,CAN,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-274,WIS,Univ. of Wisconsin,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-275,Wk,Univ. of Waikato,NZL,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-276,WRD,"USGS Washington, D.C.",USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-277,WSU,Washington State Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-278,XLLQ,Xi'an Lab. of China Loess & Quat. Geol.,CHN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-279,X,Whitworth College,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-280,Y,Yale Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-281,Ya,Yale Univ.,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-282,YU,Yamagata Univ.,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-283,Z,Zagreb,HRV,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-284,SUA,Sydney Univ.,AUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-285,J,"Max Planck Inst. for Biogeochemistry, Jena",DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
-286,BSG,Brock Univ.,CAN,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-287,COAH,Inst. of Geology Geophysics and Mineralogy Novosibirsk Russia,RUS,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-288,CRC,Centre de Datation par le RadioCarbone,FRA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-289,CRG,Centre de Recherches Geodynamiques Université Pierre et Marie Curie,FRA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-290,GSY,Radiocarbon Lab. Centre National de la Recherche Scientifique Gif-sur-Yvette (Essonne),FRA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-291,HUR,Hacettepe Univ.,TUR,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-292,JGS,Geological Survey of Japan,JPN,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-293,JUBR,Biren Roy Research Lab.,IND,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-294,Ka,Kopenhagen AMS,DNK,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-295,KAERI,Korean Atomic Energy Research Inst.,KOR,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-296,KCP,National Cultural Property Research Inst.,KOR,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-297,LGQ,Laboratoire de Geologie du Quatemaire Luminy,FRA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-298,LJ,Scripps (UCSD) La Jolla,USA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-299,LOD,Lodz,POL,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-300,LP,"LATYR, La Plata",ARG,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-301,LT,ND,LTU,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-302,ML,Miami,USA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-303,Mo,Verdanski Inst. of Geochemistry Moscow,RUS,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-304,MOC,Archaeological Inst. Czechoslovak Acad. of Sci.,CSK,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-305,MP,Magnolia Petroleum,USA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-306,MRRI,Marine Resources Research Inst.,USA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-307,MSU,Moscow State Univ.,RUS,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-309,RI,Radiochemistry Inc.,ND,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-310,RUL,Radiocarbon Lab. of the Inst. of Archaeology of Leningrad,SUN,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-311,SOAN,Inst. of Geology and Geophysics,RUS,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-312,SR,Harare (Salisbury Rhodesia),ZWE,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-313,SRR,NERC Radiocarbon Lab.,GBR,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-314,St,Stockholm,SWE,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-315,Su,Finland,FIN,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-316,SUERC,Scottish Universities Environmental Research Centre,GBR,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-317,SWA,Swansea,GBR,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-318,Ta,Tartu,FIN,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-319,TAM,Texas A & M Univ.,USA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-320,Tln,Tallinn,EST,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-321,UGAMS,Univ. of Georgia AMS,USA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-322,WHAMS,National Ocean Sciences AMS Facility,USA,,C14,,RadonKiel,2021-11-19 12:11:05.011 +0100,
-323,LLNL,Lawrence Livermore National Lab.,USA,,C14,,Internet,2021-11-19 12:11:05.011 +0100,
-324,ARL,Army Research Laboratory Aberdeen Proving Ground,USA,,C14,,pelletron.com,2021-11-19 12:11:05.011 +0100,2022-07-03 14:47:13.190 +0200
-325,Ad,Prescott Environmental Luminescence Lab. Adelaide,AUS,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-326,UOW,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-327,MQU,Macquaire Univ. Luminescence Dating Facility,AUS,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-328,,Univ. Melbourne Luminescence Dating Facility,AUS,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-329,GU,"Griffith Univ. OSL Dating Laboratory, Australian Rivers Inst.",AUS,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-330,WLL,Victoria Univ. of Wellington Luminescence Dating Facility,NZL,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-331,ANU,ANU Luminescence Dating Laboratory Canberra,AUS,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-332,C-L,Cologne Luminescence Laboratory (CLL),DEU,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-333,EVA,Max Planck Inst. for Evolutionary Anthropology Luminescence Dating Lab. Leipzig,DEU,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-334,L-EVA,Max Planck Inst. for Evolutionary Anthropology Luminescence Dating Lab. Leipzig,DEU,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-335,UW,University of Washington Luminescence Dating Laboratory,USA,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-336,W,"UOW TL Dating Lab. Wollongong, David Price",AUS,,TL,,Internet,2021-11-19 12:11:05.011 +0100,
-337,Ad,Prescott Environmental Luminescence Lab. Adelaide,AUS,,TL,,Internet,2021-11-19 12:11:05.011 +0100,
-338,ALPHA,Alpha Analytic Inc.,USA,,TL,,Internet,2021-11-19 12:11:05.011 +0100,
-339,CABAH,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-340,Shfd,Sheffield Luminescence Lab.,GBR,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-341,CLW,"CSIRO Land and Water, Canberra",AUS,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-342,X,Oxford Luminescence Laboratory,GBR,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-343,Ox,Oxford Luminescence Laboratory,GBR,,OSL,,Internet,2021-11-19 12:11:05.011 +0100,
-345,GXO,Geochron Laboratories,USA,FALSE,C14,,pelletron.com,2022-07-03 14:48:11.462 +0200,2022-07-03 14:50:52.253 +0200
-346,CSIRO,Commonwealth Scientific and Industrial Research Organisation,AUS,,C14,,pelletron.com,2022-07-03 14:55:18.464 +0200,2022-07-03 14:55:18.464 +0200
-347,ANUOD,Australian National University,AUS,,OSL,,Internet,2022-07-03 14:57:19.177 +0200,2022-07-03 14:57:19.177 +0200
-348,GL,University of Gloucestershire,GBR,,OSL,,JQuatSci,2022-07-04 09:59:36.401 +0200,2022-07-04 10:01:04.952 +0200
+LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE
+-9999,Lab_indet.,ND,ND,FALSE,NA,,NA
+1,A,Univ. of Arizona,USA,,C14,,Radiocarbon
+2,AA,NSF-Ariz. AMS Facility,USA,,C14,,Radiocarbon
+3,AAR,Univ. of Aarhus,DNK,,C14,,Radiocarbon
+4,AC,Ingeis,ARG,,C14,,Radiocarbon
+5,AECV,Alberta Environmental Center of Vegreville,CAN,FALSE,C14,,Radiocarbon
+6,AERIK,Atomic Energy Res. Inst.,KOR,FALSE,C14,,Radiocarbon
+7,ALG,Algiers,DZA,FALSE,C14,,Radiocarbon
+8,ANAS,Applied Nuclear-Atomic Science (ANAS) Lab.,KOR,FALSE,C14,,Radiocarbon
+9,ANL,Argonne Nat. Lab.,USA,FALSE,C14,,Radiocarbon
+10,ANSTO,Australian Nuclear Science & Technology,AUS,,C14,,Radiocarbon
+11,ANTW,Antwerp,BEL,FALSE,C14,,Radiocarbon
+12,ANU,Australian National Univ.,AUS,FALSE,C14,,Radiocarbon
+13,ANUA,ANU Accelerator,AUS,,C14,,Radiocarbon
+14,AU,Univ. of Alaska,USA,FALSE,C14,,Radiocarbon
+15,AURIS,Ahmedabad,IND,,C14,,Radiocarbon
+16,B,Bern,CHE,,C14,,Radiocarbon
+17,Ba,Bratislava,SVK,,C14,,Radiocarbon
+18,BC,Brooklyn College,USA,FALSE,C14,,Radiocarbon
+19,BE,Univ. of Bern,CHE,,C14,,Radiocarbon
+20,Beta,Beta Analytic,USA,,C14,,Radiocarbon
+21,BGS,Brock Univ.,CAN,FALSE,C14,,Radiocarbon
+22,BIOCAMS,Miami,USA,FALSE,C14,,Radiocarbon
+23,Birm,Birmingham,GBR,FALSE,C14,,Radiocarbon
+24,Bln,Berlin,DEU,FALSE,C14,,Radiocarbon
+25,BM,British Museum,GBR,FALSE,C14,,Radiocarbon
+26,BONN,Univ. Bonn,DEU,FALSE,C14,,Radiocarbon
+27,BRAMS,Univ. of Bristol,GBR,,C14,,Radiocarbon
+28,BS,Birbal Sahni Inst.,IND,,C14,,Radiocarbon
+29,C,Chicago,USA,FALSE,C14,,Radiocarbon
+30,CAMS,Center for AMS,USA,,C14,,Radiocarbon
+31,CAR,"Univ. College, Cardiff",GBR,FALSE,C14,,Radiocarbon
+32,CENA,Centro Energia Nuclear na Agricultura,BRA,,C14,,Radiocarbon
+33,CG,Inst. of Geology,CHN,,C14,,Radiocarbon
+34,CH,Chemistry Lab.,IND,FALSE,C14,,Radiocarbon
+35,CN-XX,Chinese Academy of Sciences,CHN,,C14,,Radiocarbon
+36,CNA,Centro Nacional de Aceleradores,ESP,,C14,,Radiocarbon
+37,COL,Koln AMS,DEU,,C14,,Radiocarbon
+38,CRCA,Cairo,EGY,FALSE,C14,,Radiocarbon
+39,CRL,Czech 14C Lab.,CZE,,C14,,Radiocarbon
+40,CSIC,"Geochronology Lab., IQFR-CSIC, Madrid",ESP,,C14,,Radiocarbon
+41,CSM,"Cosmochem. Lab., USSR Acad. of Sci.",SUN,FALSE,C14,,Radiocarbon
+42,CT,"Caltech, Calif. Inst. Tech.",USA,FALSE,C14,,Radiocarbon
+43,CU,Charles Univ.,CZE,,C14,,Radiocarbon
+44,D,"Dublin, Trinity College",IRL,FALSE,C14,,Radiocarbon
+45,Dak,Univ. of Dakar,SEN,FALSE,C14,,Radiocarbon
+46,DAL,Dalhousie Univ.,CAN,FALSE,C14,,Radiocarbon
+47,DE,"USGS, Denver",USA,FALSE,C14,,Radiocarbon
+48,Deb,Debrecen,HUN,,C14,,Radiocarbon
+49,DebA,Debrecen (AMS),HUN,,C14,,Radiocarbon
+50,DEM,NCSR Demokritos,GRC,,C14,,Radiocarbon
+51,DGC,Dalhousie Geochronology Centre,CAN,,C14,,Radiocarbon
+52,DIC,Dicar Corp and Dicarb,USA,FALSE,C14,,Radiocarbon
+53,DK,Univ. de Dakar,SEN,,C14,,Radiocarbon
+54,DRI,Desert Research Inst.,USA,FALSE,C14,,Radiocarbon
+55,DSA,"CIRCE, Caserta",ITA,,C14,,Radiocarbon
+56,D-AMS,Direct AMS,USA,,C14,,Radiocarbon
+57,ENEA,"ENEA, Bologna",ITA,,C14,,Radiocarbon
+58,Erl,Erlangen AMS Facility,DEU,FALSE,C14,,Radiocarbon
+59,ETH,ETH/AMS Facility,CHE,,C14,,Radiocarbon
+60,F,Florence,ITA,FALSE,C14,,Radiocarbon
+61,Fi,Florence INFN,ITA,,C14,,Radiocarbon
+62,Fr,Freiberg,DEU,FALSE,C14,,Radiocarbon
+63,Fra,Frankfurt,DEU,FALSE,C14,,Radiocarbon
+64,FSU,Florida State Univ.,USA,FALSE,C14,,Radiocarbon
+65,FTMC,Vilnius AMS Lab,LTU,,C14,,Radiocarbon
+66,FZ,Fortaleza,BRA,,C14,,Radiocarbon
+67,G,Gothenburg,SWE,FALSE,C14,,Radiocarbon
+68,GaK,Gakushuin Univ.,JPN,FALSE,C14,,Radiocarbon
+69,Gd,Gliwice,POL,,C14,,Radiocarbon
+70,GD,Gdansk,POL,FALSE,C14,,Radiocarbon
+71,Gif,Gif-sur-Yvette,FRA,,C14,,Radiocarbon
+72,Gif A,Gif-sur-Yvette and Orsay,FRA,,C14,,Radiocarbon
+73,GIN,Geological Inst.,RUS,,C14,,Radiocarbon
+74,GL,Geochronological Lab.,GBR,FALSE,C14,,Radiocarbon
+75,GrA,Groningen AMS,NLD,FALSE,C14,,Radiocarbon
+76,GrM,Groningen AMS,NLD,,C14,,Radiocarbon
+77,GrN,Groningen,NLD,FALSE,C14,,Radiocarbon
+78,GrO,Groningen,NLD,FALSE,C14,,Radiocarbon
+79,GSC,Geological Survey,CAN,,C14,,Radiocarbon
+80,GU,Scottish Universities Research & Reactor Centre,GBR,FALSE,C14,,Radiocarbon
+81,GV,"AMS Golden Valley, Novosibirsk",RUS,,C14,,Radiocarbon
+82,GX,Geochron Laboratories,USA,,C14,,Radiocarbon
+83,GXNUAMS,Guangxi Normal Univ. AMS Lab,CHN,,C14,,Radiocarbon
+84,H,Heidelberg,DEU,FALSE,C14,,Radiocarbon
+85,HAM,Hamburg,DEU,FALSE,C14,,Radiocarbon
+86,HAR,Harwell,GBR,FALSE,C14,,Radiocarbon
+87,Hd,Heidelberg,DEU,,C14,,Radiocarbon
+88,Hel,Helsinki,FIN,,C14,,Radiocarbon
+89,Hela,Helsinki AMS,FIN,,C14,,Radiocarbon
+90,HIG,Hawaii Inst. of Geophys.,USA,FALSE,C14,,Radiocarbon
+91,HL,Second Inst. of Oceanography,CHN,,C14,,Radiocarbon
+92,HNS,"Hasleton-Nuclear, Palo Alto",USA,FALSE,C14,,Radiocarbon
+93,Hv,Hannover,DEU,FALSE,C14,,Radiocarbon
+94,I,Teledyne Isotopes,USA,FALSE,C14,,Radiocarbon
+95,IAA,Inst. of Accelerator Analysis (beta counting),JPN,,C14,,Radiocarbon
+96,IAAA,Inst. of Accelerator Analysis (AMS),JPN,,C14,,Radiocarbon
+97,IAEA,International Atomic Energy Agency,AUT,FALSE,C14,,Radiocarbon
+98,IAEA-MEL,Marine Environmental Lab.,MCO,,C14,,Radiocarbon
+99,ICA,International Chemical Analysis,USA,,C14,,Radiocarbon
+100,ICEN,Inst.o Tecnologico e Nuclear,PRT,FALSE,C14,,Radiocarbon
+101,IEMAE,Inst. of Evolutionary Morphology & Animal Ecology,RUS,,C14,,Radiocarbon
+102,IF AO,Inst. frangais d'archeologie orientale,EGY,,C14,,Radiocarbon
+103,LAR,Liege State Univ.,BEL,FALSE,C14,,Radiocarbon
+104,IGAN,Inst. of Geography,RUS,,C14,,Radiocarbon
+105,IGS,Inst. of Geological Sci.,BLR,FALSE,C14,,Radiocarbon
+106,IGSB,Inst. of Geological Sci.,BLR,,C14,,Radiocarbon
+107,IHME,Marzeev Inst. of Hygiene Med. Ecol.,UKR,,C14,,Radiocarbon
+108,II,"Isotopes, Inc., Palo Alto",USA,FALSE,C14,,Radiocarbon
+109,IMTA,Inst. Mexicano de Tecnologia del Agua,MEX,,C14,,Radiocarbon
+110,IOAN,Inst. of Oceanography,RUS,FALSE,C14,,Radiocarbon
+111,IORAN,Inst. of Oceanology,RUS,FALSE,C14,,Radiocarbon
+112,IRPA,Royal Inst. for Cultural Heritage,BEL,FALSE,C14,,Radiocarbon
+113,ISGS,Illinois State Geological Survey,USA,,C14,,Radiocarbon
+114,IUACD,Inter Univ. Accelerator Centre,IND,,C14,,Radiocarbon
+115,IVAN,Inst. of Volcanology,UKR,FALSE,C14,,Radiocarbon
+116,IVIC,Caracas,VEN,FALSE,C14,,Radiocarbon
+117,IWP,Inst. of Water Problems,RUS,FALSE,C14,,Radiocarbon
+118,JAT,Tono Geoscience Center (JAEA),JPN,,C14,,Radiocarbon
+119,K,Copenhagen,DNK,FALSE,C14,,Radiocarbon
+120,KATRI,Korea Apparel Testing,KOR,,C14,,Radiocarbon
+121,KEEA,Kyushu Environ. Eval. Assoc. Property Research Inst.,JPN,,C14,,Radiocarbon
+122,KGM,Korea Inst. of Geoscience & Mineral Resources (KIGAM),KOR,,C14,,Radiocarbon
+123,Kl,Kiel,DEU,FALSE,C14,,Radiocarbon
+124,KIA,Kiel AMS,DEU,,C14,,Radiocarbon
+125,Ki (KIEV),Inst. of Radio-Geochemistry of the Environment,UKR,,C14,,Radiocarbon
+126,KIK,Royal Inst. for Cultural Heritage,BEL,FALSE,C14,,Radiocarbon
+127,KN,Koln,DEU,FALSE,C14,,Radiocarbon
+128,KR,Krakow,POL,,C14,,Radiocarbon
+129,KRIL,Krasnoyarsk Inst.,RUS,FALSE,C14,,Radiocarbon
+130,KSU,Kyoto Sangyo Univ.,JPN,FALSE,C14,,Radiocarbon
+131,L,Lamont-Doherty,USA,FALSE,C14,,Radiocarbon
+132,LACUFF,Fluminense Federal Univ.,BRA,,C14,,Radiocarbon
+133,LAEC,Lebanese Atomic Energy Commission (LAEC),LBN,,C14,,Radiocarbon
+134,LE,St. Petersburg,RUS,,C14,,Radiocarbon
+135,LEMA,Lab. de Espectrometria de Masas con Aceleradores,MEX,,C14,,Radiocarbon
+136,LIH,NCSR Demokritos,GRC,,C14,,Radiocarbon
+137,u,Scripps (UCSD) La Jolla,USA,FALSE,C14,,Radiocarbon
+138,LTL,Univ. of Lecce,ITA,,C14,,Radiocarbon
+139,Lu,Lund,SWE,FALSE,C14,,Radiocarbon
+140,LuA,Lund,SWE,FALSE,C14,,Radiocarbon
+141,LuS,Lund,SWE,,C14,,Radiocarbon
+142,LU,St. Petersburg State Univ.,RUS,,C14,,Radiocarbon
+143,Lv,Louvain-la-Neuve,BEL,FALSE,C14,,Radiocarbon
+144,Ly,Univ. of Lyon,FRA,,C14,,Radiocarbon
+145,LZU,Lanzhou Univ.,CHN,,C14,,Radiocarbon
+146,M,Univ. of Michigan,USA,FALSE,C14,,Radiocarbon
+147,Ma,Univ. of Winnepeg,CAN,FALSE,C14,,Radiocarbon
+148,MAG,Quaternary Geology,RUS,,C14,,Radiocarbon
+149,MAMS,Curt-Engelhorn-Zentrum Archaeom.,DEU,,C14,,Radiocarbon
+150,MC,Centre Scientifique,MCO,FALSE,C14,,Radiocarbon
+151,METU,Middle East Technical Univ.,TUR,FALSE,C14,,Radiocarbon
+152,MKL,Lab. of Absolute Dating,POL,,C14,,Radiocarbon
+153,MTC,Univ. of Tokyo,JPN,,C14,,Radiocarbon
+154,N,Nishina Memorial,JPN,FALSE,C14,,Radiocarbon
+155,NIST,National Inst. of Standards and Technology,USA,,C14,,Radiocarbon
+156,NPL,"National Physical Lab., Middlesex",GBR,FALSE,C14,,Radiocarbon
+157,NS,Nova Scotia Research Foundation,CAN,FALSE,C14,,Radiocarbon
+158,NSRL,INSTAAR - Univ. of Colorado,USA,,C14,,Radiocarbon
+159,NSTF,"Nuclear Science & Technology Facility, State Univ. of New York",USA,FALSE,C14,,Radiocarbon
+160,NSW,Univ. of New South Wales,AUS,FALSE,C14,,Radiocarbon
+161,NTU,National Taiwan Univ. Republic of China,CHN,,C14,,Radiocarbon
+162,NU,Nihon Univ.,JPN,FALSE,C14,,Radiocarbon
+163,NUTA,Tandetron AMS Lab,JPN,,C14,,Radiocarbon
+164,Ny,"Nancy, Centre de Recherches Radiogeologiques",FRA,FALSE,C14,,Radiocarbon
+165,NZ,Rafter Radiocarbon Lab,NZL,FALSE,C14,,Radiocarbon
+166,NZA,Rafter (AMS),NZL,,C14,,Radiocarbon
+167,O,Humble Oil & Refining,USA,FALSE,C14,,Radiocarbon
+168,OBDY,ORSTOM Bondy,FRA,FALSE,C14,,Radiocarbon
+169,OR,Research Center of Radioisotopes,JPN,,C14,,Radiocarbon
+170,ORINS,Oak Ridge Inst. of Nuclear Studies,USA,FALSE,C14,,Radiocarbon
+171,OS,"National Ocean Sciences, AMS Facility Woods Hole Oceanographic Inst.",USA,,C14,,Radiocarbon
+172,OWU,Ohio Wesleyan Univ.,USA,FALSE,C14,,Radiocarbon
+173,OX,"USDA (Oxford, Miss.)",USA,FALSE,C14,,Radiocarbon
+174,OxA,Oxford Radiocarbon Accelerator Unit,GBR,,C14,,Radiocarbon
+175,OZ,ANSTO-ANTARES,AUS,,C14,,Radiocarbon
+176,LZ,Umweltforschungszentrum Leipzig-Halle UFZ,DEU,,C14,,Radiocarbon
+177,Beta-,Beta Analytics,USA,,C14,,Internet
+178,P,Max-Planck-lnstitut Geochron. Lab,DEU,,C14,,Radiocarbon
+179,p,Univ. of Pennsylvania,USA,FALSE,C14,,Radiocarbon
+180,PAL,Palynosurvery Co.,JPN,,C14,,Radiocarbon
+181,Pi,Pisa,ITA,FALSE,C14,,Radiocarbon
+182,PI,Permafrost Inst.,RUS,FALSE,C14,,Radiocarbon
+183,PIC,Packard,USA,FALSE,C14,,Radiocarbon
+184,PITT,Univ. of Pittsburgh,USA,FALSE,C14,,Radiocarbon
+185,Poz,Poznan,POL,,C14,,Radiocarbon
+186,Pr,Prague,CZE,FALSE,C14,,Radiocarbon
+187,PKU,Peking Univ.,CHN,,C14,,Radiocarbon
+188,PKUAMS,Peking Univ. AMS lab,CHN,,C14,,Radiocarbon
+189,PL,Purdue Rare Isotope Measurement Lab,USA,,C14,,Radiocarbon
+190,PLD,"Paleo Labo. Co., Ltd.",JPN,,C14,,Radiocarbon
+191,PRI,PaleoResearch Inst.,USA,,C14,,Radiocarbon
+192,PRL,Radiocarbon Dating Research Unit,IND,,C14,,Radiocarbon
+193,PRLCH,Physical Research Lab.,IND,FALSE,C14,,Radiocarbon
+194,PSU,Penn State Univ.,USA,FALSE,C14,,Radiocarbon
+195,PSUAMS,Penn State Univ.,USA,,C14,,Radiocarbon
+196,Pta,Pretoria,ZAF,,C14,,Radiocarbon
+197,Q,Cambridge,GBR,FALSE,C14,,Radiocarbon
+198,QL,Quaternary Isotope Lab.,USA,FALSE,C14,,Radiocarbon
+199,QC,Queens College,USA,FALSE,C14,,Radiocarbon
+200,QU,"Centre de Recherches Canada Minerales, Quebec",CAN,FALSE,C14,,Radiocarbon
+201,R,Rome,ITA,,C14,,Radiocarbon
+202,RCD,Radiocarbon Dating,GBR,FALSE,C14,,Radiocarbon
+203,RCMib,Milano Bicocca Univ.,ITA,,C14,,Radiocarbon
+204,Rl,"Radiochemistry, Inc.",USA,FALSE,C14,,Radiocarbon
+205,RICH,Royal Inst. for Cultural Heritage,BEL,,C14,,Radiocarbon
+206,RIDDL,Simon Fraser Univ.,CAN,FALSE,C14,,Radiocarbon
+207,Riga,Inst. of Science,LVA,FALSE,C14,,Radiocarbon
+208,RL,"Radiocarbon, Ltd.",USA,FALSE,C14,,Radiocarbon
+209,roams,National Inst. for Physics and Nuclear Engineering,ROU,,C14,,Radiocarbon
+210,Rome,"Dept, of Earth Sciences, Rome",ITA,,C14,,Radiocarbon
+211,RT,Rehovot,ISR,,C14,,Radiocarbon
+212,RTK,Rehovot,ISR,,C14,,Radiocarbon
+213,RU,Rice Univ.,USA,FALSE,C14,,Radiocarbon
+214,S,Saskatchewan,CAN,FALSE,C14,,Radiocarbon
+215,Sa,"Saclay, Gif-sur-Yvette",FRA,FALSE,C14,,Radiocarbon
+216,Sac,Inst.o Tecnologico Portugal e Nuclear,PRT,,C14,,Radiocarbon
+217,Sac A,Gif sur Yvette (Saclay),FRA,,C14,,Radiocarbon
+218,SANU,ANU Canberra,AUS,,C14,,Radiocarbon
+219,SPb,Herzen State Univ.,RUS,,C14,,Radiocarbon
+220,SFU,Simon Fraser Univ.,CAN,FALSE,C14,,Radiocarbon
+221,Sh,Shell Development Co.,USA,FALSE,C14,,Radiocarbon
+222,SI,Smithsonian Inst.ion,USA,FALSE,C14,,Radiocarbon
+223,SL,Sharp Laboratories,USA,FALSE,C14,,Radiocarbon
+224,SM,"Mobil Oil Corp., Dallas",USA,FALSE,C14,,Radiocarbon
+225,SMU,Southern Methodist Univ.,USA,FALSE,C14,,Radiocarbon
+226,SNU,Seoul National Univ.,KOR,FALSE,C14,,Radiocarbon
+227,T,Trondheim,NOR,,C14,,Radiocarbon
+228,TB,Tbilisi,GEO,,C14,,Radiocarbon
+229,TBNC,Kaman Instruments,USA,FALSE,C14,,Radiocarbon
+230,TEM,Temple Univ.,USA,FALSE,C14,,Radiocarbon
+231,TF,Tata Inst. of Fundamental Research,IND,FALSE,C14,,Radiocarbon
+232,TK,Univ. of Tokyo,JPN,,C14,,Radiocarbon
+233,TKA,"Univ. Museum, Univ. of Tokyo",JPN,,C14,,Radiocarbon
+234,TKa,Univ. of Tokyo-AMS,JPN,,C14,,Radiocarbon
+235,TKU,Turku,FIN,,C14,,Radiocarbon
+236,Tin,Tallinn,EST,,C14,,Radiocarbon
+237,TO,IsoTrace Lab.,CAN,,C14,,Radiocarbon
+238,TUBITAK,TUBiTAK National AMS Lab.,TUR,,C14,,Radiocarbon
+239,TRa,Trondheim (AMS),NOR,,C14,,Radiocarbon
+240,TUa,Trondheim (AMS),NOR,,C14,,Radiocarbon
+241,TUNC,Tehran Univ. Nuclear Centre,IRN,FALSE,C14,,Radiocarbon
+242,Tx,Texas,USA,FALSE,C14,,Radiocarbon
+243,u,Uppsala Univ.,SWE,FALSE,C14,,Radiocarbon
+244,Ua,Uppsala AMS,SWE,,C14,,Radiocarbon
+245,UB,Belfast,GBR,FALSE,C14,,Radiocarbon
+246,UBA,Belfast,GBR,,C14,,Radiocarbon
+247,UBAR,Univ. of Barcelona,ESP,,C14,,Radiocarbon
+248,UCD,"Univ. College, Dublin",IRL,,C14,,Radiocarbon
+249,UCI,"Univ. of California, Irvine",USA,,C14,,Radiocarbon
+250,UCLA,"Univ. of California, Los Angeles",USA,FALSE,C14,,Radiocarbon
+251,UCR,"Univ. of California, Riverside",USA,FALSE,C14,,Radiocarbon
+252,UD,Udine,ITA,FALSE,C14,,Radiocarbon
+253,UGa,Univ. of Georgia,USA,,C14,,Radiocarbon
+254,UGRA,Univ. of Granada,ESP,,C14,,Radiocarbon
+255,UL,Univ. of Laval,CAN,FALSE,C14,,Radiocarbon
+256,ULA,Univ. of Laval,CAN,,C14,,Radiocarbon
+257,UM,Univ. of Miami,USA,FALSE,C14,,Radiocarbon
+258,UNAM,National Autonomous Univ. of Mexico,MEX,,C14,,Radiocarbon
+259,UOC,Univ. of Ottawa,CAN,,C14,,Radiocarbon
+260,UQ,Univ. of Quebec at Montreal,CAN,FALSE,C14,,Radiocarbon
+261,URCRM,Ukrainian Research Ctr. for Radiation Medicine,UKR,FALSE,C14,,Radiocarbon
+262,URU,Univ. of Uruguay,URY,,C14,,Radiocarbon
+263,USGS,"USGS, Menlo Park",USA,FALSE,C14,,Radiocarbon
+264,utc,Utrecht van de Graaff,NLD,FALSE,C14,,Radiocarbon
+265,UTCAG,Univ. of Tennessee,USA,,C14,,Radiocarbon
+266,UW,Univ. of Washington,USA,FALSE,C14,,Radiocarbon
+267,UZH,Univ. of Zurich,CHE,,C14,,Radiocarbon
+268,V,"Melbourne, Victoria",AUS,FALSE,C14,,Radiocarbon
+269,Vs,"Vilnius, Nat. Res. Ctr.",LTU,,C14,,Radiocarbon
+270,VERA,Inst. fur Radiumforschung und Kernphysik,AUT,,C14,,Radiocarbon
+271,VRI,Universitat Wien,AUT,FALSE,C14,,Radiocarbon
+272,W,"USGS, National Center",USA,FALSE,C14,,Radiocarbon
+273,WAT,Univ. of Waterloo,CAN,FALSE,C14,,Radiocarbon
+274,WIS,Univ. of Wisconsin,USA,FALSE,C14,,Radiocarbon
+275,Wk,Univ. of Waikato,NZL,,C14,,Radiocarbon
+276,WRD,"USGS Washington, D.C.",USA,FALSE,C14,,Radiocarbon
+277,WSU,Washington State Univ.,USA,FALSE,C14,,Radiocarbon
+278,XLLQ,Xi'an Lab. of China Loess & Quat. Geol.,CHN,,C14,,Radiocarbon
+279,X,Whitworth College,USA,FALSE,C14,,Radiocarbon
+280,Y,Yale Univ.,USA,FALSE,C14,,Radiocarbon
+281,Ya,Yale Univ.,USA,FALSE,C14,,Radiocarbon
+282,YU,Yamagata Univ.,JPN,,C14,,Radiocarbon
+283,Z,Zagreb,HRV,,C14,,Radiocarbon
+284,SUA,Sydney Univ.,AUS,,C14,,Radiocarbon
+285,J,"Max Planck Inst. for Biogeochemistry, Jena",DEU,,C14,,Radiocarbon
+286,BSG,Brock Univ.,CAN,,C14,,RadonKiel
+287,COAH,Inst. of Geology Geophysics and Mineralogy Novosibirsk Russia,RUS,,C14,,RadonKiel
+288,CRC,Centre de Datation par le RadioCarbone,FRA,,C14,,RadonKiel
+289,CRG,Centre de Recherches Geodynamiques Université Pierre et Marie Curie,FRA,,C14,,RadonKiel
+290,GSY,Radiocarbon Lab. Centre National de la Recherche Scientifique Gif-sur-Yvette (Essonne),FRA,,C14,,RadonKiel
+291,HUR,Hacettepe Univ.,TUR,,C14,,RadonKiel
+292,JGS,Geological Survey of Japan,JPN,,C14,,RadonKiel
+293,JUBR,Biren Roy Research Lab.,IND,,C14,,RadonKiel
+294,Ka,Kopenhagen AMS,DNK,,C14,,RadonKiel
+295,KAERI,Korean Atomic Energy Research Inst.,KOR,,C14,,RadonKiel
+296,KCP,National Cultural Property Research Inst.,KOR,,C14,,RadonKiel
+297,LGQ,Laboratoire de Geologie du Quatemaire Luminy,FRA,,C14,,RadonKiel
+298,LJ,Scripps (UCSD) La Jolla,USA,,C14,,RadonKiel
+299,LOD,Lodz,POL,,C14,,RadonKiel
+300,LP,"LATYR, La Plata",ARG,,C14,,RadonKiel
+301,LT,ND,LTU,,C14,,RadonKiel
+302,ML,Miami,USA,,C14,,RadonKiel
+303,Mo,Verdanski Inst. of Geochemistry Moscow,RUS,,C14,,RadonKiel
+304,MOC,Archaeological Inst. Czechoslovak Acad. of Sci.,CSK,,C14,,RadonKiel
+305,MP,Magnolia Petroleum,USA,,C14,,RadonKiel
+306,MRRI,Marine Resources Research Inst.,USA,,C14,,RadonKiel
+307,MSU,Moscow State Univ.,RUS,,C14,,RadonKiel
+309,RI,Radiochemistry Inc.,ND,,C14,,RadonKiel
+310,RUL,Radiocarbon Lab. of the Inst. of Archaeology of Leningrad,SUN,,C14,,RadonKiel
+311,SOAN,Inst. of Geology and Geophysics,RUS,,C14,,RadonKiel
+312,SR,Harare (Salisbury Rhodesia),ZWE,,C14,,RadonKiel
+313,SRR,NERC Radiocarbon Lab.,GBR,,C14,,RadonKiel
+314,St,Stockholm,SWE,,C14,,RadonKiel
+315,Su,Finland,FIN,,C14,,RadonKiel
+316,SUERC,Scottish Universities Environmental Research Centre,GBR,,C14,,RadonKiel
+317,SWA,Swansea,GBR,,C14,,RadonKiel
+318,Ta,Tartu,FIN,,C14,,RadonKiel
+319,TAM,Texas A & M Univ.,USA,,C14,,RadonKiel
+320,Tln,Tallinn,EST,,C14,,RadonKiel
+321,UGAMS,Univ. of Georgia AMS,USA,,C14,,RadonKiel
+322,WHAMS,National Ocean Sciences AMS Facility,USA,,C14,,RadonKiel
+323,LLNL,Lawrence Livermore National Lab.,USA,,C14,,Internet
+324,ARL,Army Research Laboratory Aberdeen Proving Ground,USA,,C14,,pelletron.com
+325,Ad,Prescott Environmental Luminescence Lab. Adelaide,AUS,,OSL,,Internet
+326,UOW,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,Internet
+327,MQU,Macquaire Univ. Luminescence Dating Facility,AUS,,OSL,,Internet
+328,,Univ. Melbourne Luminescence Dating Facility,AUS,,OSL,,Internet
+329,GU,"Griffith Univ. OSL Dating Laboratory, Australian Rivers Inst.",AUS,,OSL,,Internet
+330,WLL,Victoria Univ. of Wellington Luminescence Dating Facility,NZL,,OSL,,Internet
+331,ANU,ANU Luminescence Dating Laboratory Canberra,AUS,,OSL,,Internet
+332,C-L,Cologne Luminescence Laboratory (CLL),DEU,,OSL,,Internet
+333,EVA,Max Planck Inst. for Evolutionary Anthropology Luminescence Dating Lab. Leipzig,DEU,,OSL,,Internet
+334,L-EVA,Max Planck Inst. for Evolutionary Anthropology Luminescence Dating Lab. Leipzig,DEU,,OSL,,Internet
+335,UW,University of Washington Luminescence Dating Laboratory,USA,,OSL,,Internet
+336,W,"UOW TL Dating Lab. Wollongong, David Price",AUS,,TL,,Internet
+337,Ad,Prescott Environmental Luminescence Lab. Adelaide,AUS,,TL,,Internet
+338,ALPHA,Alpha Analytic Inc.,USA,,TL,,Internet
+339,CABAH,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,Internet
+340,Shfd,Sheffield Luminescence Lab.,GBR,,OSL,,Internet
+341,CLW,"CSIRO Land and Water, Canberra",AUS,,OSL,,Internet
+342,X,Oxford Luminescence Laboratory,GBR,,OSL,,Internet
+343,Ox,Oxford Luminescence Laboratory,GBR,,OSL,,Internet
+345,GXO,Geochron Laboratories,USA,FALSE,C14,,pelletron.com
+346,CSIRO,Commonwealth Scientific and Industrial Research Organisation,AUS,,C14,,pelletron.com
+347,ANUOD,Australian National University,AUS,,OSL,,Internet
+348,GL,University of Gloucestershire,GBR,,OSL,,JQuatSci

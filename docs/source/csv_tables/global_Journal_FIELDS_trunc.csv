@@ -1,5 +1,5 @@
-JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
-1,Advances in Earth Science,Adv_Earth_Sci,,1001-912X,2021-11-19 12:11:05.011 +0100,
-2,American Journal of Science,Am_J_Sci,0002-9599,1945-452X,2021-11-19 12:11:05.011 +0100,2023-03-27 10:51:35.027 +0200
-3,Basin Research,Basin_Res,0950-091X,1365-2117,2021-11-19 12:11:05.011 +0100,
-...,...,...,...,...,...,... *truncated* ...
+JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN
+1,Advances in Earth Science,Adv_Earth_Sci,,1001-912X
+2,American Journal of Science,Am_J_Sci,0002-9599,1945-452X
+3,Basin Research,Basin_Res,0950-091X,1365-2117
+...,...,...,...,... *truncated* ...
