@@ -1142,6 +1142,8 @@ osl-tl_ed_procID fields
    :file: ./csv_tables/osl-tl_ed_procID_FIELDS.csv
    :header-rows: 1
 
+The latest *osl-tl_ed_procID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_ed_procID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _osl-tl_lum_matID_Fields:
 
 osl-tl_lum_matID fields
@@ -1151,6 +1153,8 @@ osl-tl_lum_matID fields
    :file: ./csv_tables/osl-tl_lum_matID_FIELDS.csv
    :header-rows: 1
 
+The latest *osl-tl_lum_matID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_lum_matID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _osl-tl_mineralID_Fields:
 
 osl-tl_mineralID fields
@@ -1159,6 +1163,8 @@ osl-tl_mineralID fields
 .. csv-table::
    :file: ./csv_tables/osl-tl_mineralID_FIELDS.csv
    :header-rows: 1
+
+The latest *osl-tl_mineralID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mineralID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _osl-tl_mtdID_Fields:
 

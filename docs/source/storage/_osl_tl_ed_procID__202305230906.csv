@@ -1,0 +1,8 @@
+ED_PROCID,ED_PROC,ED_PROCABR,CREATED_AT,UPDATED_AT
+-9999,no data,ND,2021-11-19 12:11:05.011 +0100,
+1,‘Australian Slide’,AS,2021-11-19 12:11:05.011 +0100,
+2,Combined Regenerative and Additive Method,CRAM,2021-11-19 12:11:05.011 +0100,
+3,Multiple Aliquot Additive Dose,MAAD,2021-11-19 12:11:05.011 +0100,
+4,Multiple Aliquot Regenerative Dose,MAR,2021-11-19 12:11:05.011 +0100,
+5,Single Aliquot Regenerative Dose,SAR,2021-11-19 12:11:05.011 +0100,
+6,Single Aliquot Additive Dose,SAAD,2022-07-07 10:23:46.477 +0200,2022-07-07 10:23:52.440 +0200
