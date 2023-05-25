@@ -1074,6 +1074,8 @@ c14_hum_modID fields
    :file: ./csv_tables/c14_hum_modID_FIELDS.csv
    :header-rows: 1
 
+The latest *c14_hum_modID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_hum_modID__202305230904.csv>`_ |:chipmunk:|
+
 ..  _c14_materia1ID_Fields:
 
 c14_materia1ID fields
@@ -1082,6 +1084,8 @@ c14_materia1ID fields
 .. csv-table::
    :file: ./csv_tables/c14_materia1ID_FIELDS.csv
    :header-rows: 1
+
+The latest *c14_materia1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia1ID__202305230904.csv>`_ |:chipmunk:|
 
 ..  _c14_materia2ID_Fields:
 
@@ -1103,6 +1107,8 @@ c14_solvent2ID fields
    :file: ./csv_tables/c14_solvent2ID_FIELDS.csv
    :header-rows: 1
 
+The latest *c14_solvent2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_solvent2ID__202305230904.csv>`_ |:chipmunk:|
+
 ..  _c_mtdID_Fields:
 
 c_mtdID fields
@@ -1111,6 +1117,8 @@ c_mtdID fields
 .. csv-table::
    :file: ./csv_tables/c_mtdID_FIELDS.csv
    :header-rows: 1
+
+The latest *c_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c_mtdID__202305230904.csv>`_ |:chipmunk:|
 
 ----
 
