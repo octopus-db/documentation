@@ -1325,6 +1325,8 @@ fos_fosmat1ID fields
    :file: ./csv_tables/fos_fosmat1ID_FIELDS.csv
    :header-rows: 1
 
+The latest full *fos_fosmat1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat1ID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _fos_fosmat2ID_Fields:
 
 fos_fosmat2ID fields
@@ -1334,6 +1336,7 @@ fos_fosmat2ID fields
    :file: ./csv_tables/fos_fosmat2ID_FIELDS.csv
    :header-rows: 1
 
+The latest full *fos_fosmat2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat2ID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _fos_mtdsID_Fields:
 
@@ -1344,6 +1347,7 @@ fos_mtdsID fields
    :file: ./csv_tables/fos_mtdsID_FIELDS.csv
    :header-rows: 1
 
+The latest full *fos_mtdsID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_mtdsID__202305230906.csv>`_ |:chipmunk:|
 
 .. rubric:: Footnotes
 

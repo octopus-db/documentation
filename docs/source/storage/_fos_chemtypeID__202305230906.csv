@@ -1,4 +1,6 @@
-"CHEMTYPEID","CHEMTYPE","CHEMTYPEAB","CREATED_AT","UPDATED_AT"
+CHEMTYPEID,CHEMTYPE,CHEMTYPEAB,CREATED_AT,UPDATED_AT
+-9999,no data,ND,2021-11-19 12:11:05.011 +0100,
+-9991,not applicable,NA,2021-11-19 12:11:05.011 +0100,
 1,Acid-alkali-acid and decalcification,AAA_decal,2021-11-19 12:11:05.011 +0100,
 2,ABA_BC technique,ABA-BC,2021-11-19 12:11:05.011 +0100,
 3,Acid-base-oxidation stepped combustion,ABOx-SC,2021-11-19 12:11:05.011 +0100,
@@ -17,5 +19,3 @@
 16,Ultrafiltration,Ultra,2021-11-19 12:11:05.011 +0100,
 17,Wash,Wash,2021-11-19 12:11:05.011 +0100,
 18,for other treatment (see attachment),Other,2021-11-19 12:11:05.011 +0100,
--9991,not applicable,NA,2021-11-19 12:11:05.011 +0100,
--9999,no data,ND,2021-11-19 12:11:05.011 +0100,
