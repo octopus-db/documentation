@@ -1041,6 +1041,8 @@ arch_featdatedID fields
    :file: ./csv_tables/arch_featdatedID_FIELDS.csv
    :header-rows: 1
 
+The latest *arch_featdatedID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_arch_featdatedID__202305230904.csv>`_ |:chipmunk:|
+
 ..  _c13_valID_Fields:
 
 c13_valID fields
@@ -1050,6 +1052,8 @@ c13_valID fields
    :file: ./csv_tables/c13_valID_FIELDS.csv
    :header-rows: 1
 
+The latest *c13_valID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c13_valID__202305230904.csv>`_ |:chipmunk:|
+
 ..  _c14_contamID_Fields:
 
 c14_contamID fields
@@ -1058,6 +1062,8 @@ c14_contamID fields
 .. csv-table::
    :file: ./csv_tables/c14_contamID_FIELDS.csv
    :header-rows: 1
+
+The latest *c14_contamID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_contamID__202305230904.csv>`_ |:chipmunk:|
 
 ..  _c14_hum_modID_Fields:
 
