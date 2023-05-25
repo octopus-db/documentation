@@ -1186,6 +1186,8 @@ osl_typeID fields
    :file: ./csv_tables/osl_typeID_FIELDS.csv
    :header-rows: 1
 
+The latest *osl_typeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_typeID__202305230906.csv>`_ |:chipmunk:|
+
 ----
 
 ..  _sed_depconID_Fields:
@@ -1197,6 +1199,8 @@ sed_depconID fields
    :file: ./csv_tables/sed_depconID_FIELDS.csv
    :header-rows: 1
 
+The latest *sed_depconID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_depconID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _sed_faciesID_Fields:
 
 sed_faciesID fields
@@ -1205,6 +1209,8 @@ sed_faciesID fields
 .. csv-table::
    :file: ./csv_tables/sed_faciesID_FIELDS.csv
    :header-rows: 1
+
+The latest *sed_faciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_faciesID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _sed_geommodID_Fields:
 
@@ -1215,6 +1221,8 @@ sed_geommodID fields
    :file: ./csv_tables/sed_geommodID_FIELDS.csv
    :header-rows: 1
 
+The latest *sed_geommodID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geommodID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _sed_geotypeID_Fields:
 
 sed_geotypeID fields
@@ -1223,6 +1231,8 @@ sed_geotypeID fields
 .. csv-table::
    :file: ./csv_tables/sed_geotypeID_FIELDS.csv
    :header-rows: 1
+
+The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geommodID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _sed_laketypeID_Fields:
 
@@ -1233,7 +1243,7 @@ sed_laketypeID fields
    :file: ./csv_tables/sed_laketypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_laketypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _sed_morphID_Fields:
 
@@ -1244,6 +1254,8 @@ sed_morphID fields
    :file: ./csv_tables/sed_morphID_FIELDS.csv
    :header-rows: 1
 
+| The latest *sed_morphID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_morphID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _sed_sitetypeID_Fields:
 
 sed_sitetypeID fields
@@ -1252,6 +1264,8 @@ sed_sitetypeID fields
 .. csv-table::
    :file: ./csv_tables/sed_sitetypeID_FIELDS.csv
    :header-rows: 1
+
+| The latest *sed_sitetypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_sitetypeID__202305230906.csv>`_ |:chipmunk:|
 
 ----
 
