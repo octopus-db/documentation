@@ -1314,6 +1314,8 @@ fos_chemtypeID fields
    :file: ./csv_tables/fos_chemtypeID_FIELDS.csv
    :header-rows: 1
 
+The latest full *fos_chemtypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_chemtypeID__202305230906.csv>`_ |:chipmunk:|
+
 ..  _fos_fosmat1ID_Fields:
 
 fos_fosmat1ID fields
