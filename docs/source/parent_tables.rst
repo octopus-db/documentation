@@ -1232,7 +1232,7 @@ sed_geotypeID fields
    :file: ./csv_tables/sed_geotypeID_FIELDS.csv
    :header-rows: 1
 
-The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geommodID__202305230906.csv>`_ |:chipmunk:|
+The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _sed_laketypeID_Fields:
 
@@ -1243,7 +1243,7 @@ sed_laketypeID fields
    :file: ./csv_tables/sed_laketypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_laketypeID__202305230906.csv>`_ |:chipmunk:|
 
 ..  _sed_morphID_Fields:
 
