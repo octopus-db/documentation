@@ -96,7 +96,7 @@ global_varunitID fields
 global_RefCore fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefCore* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefCore__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_RefCore* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefCore__202306051320.csv>`_ |:chipmunk:|
 
 
 ..  _global_RefAbstract_Fields:
@@ -104,7 +104,7 @@ global_RefCore fields
 global_RefAbstract fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202306051321.csv>`_ |:chipmunk:|
 
 
 ..  _global_Author_Fields:
@@ -116,7 +116,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202306051321.csv>`_ |:chipmunk:|
 
 ..  _global_Journal_Fields:
 
