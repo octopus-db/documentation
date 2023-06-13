@@ -1,7 +1,7 @@
 ﻿Field,Data type,Unit,Key,Not Null,Parent
 SMPID,text,,pkey,TRUE,
-SITEID,text,,fkey,TRUE,:ref_`global_SiteMaster`
-MATERIALID,int2,,fkey,,:ref_`global_GrainSize`
+SITEID,text,,fkey,TRUE,:ref:`global_SiteMaster`
+MATERIALID,int2,,fkey,,:ref:`global_GrainSize`
 THICKNESS,"numeric(7, 4)",cm,,,
 DENSITY,"numeriv(6, 4)",g.cm^-3 ,,,
 SHIELDING,"numeric( 7, 6)",,,,
