@@ -11,6 +11,10 @@ To serve the data collected in the OCTOPUS database as geospatial layers via an 
 CRN output
 ----------
 
+.. csv-table::
+   :file: ./csv_tables/expage_output.csv
+   :header-rows: 1
+
 SahulArch output
 ----------------
 
