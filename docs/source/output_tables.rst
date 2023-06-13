@@ -15,6 +15,9 @@ CRN output
    :file: ./csv_tables/expage_output.csv
    :header-rows: 1
 
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 SahulArch output
 ----------------
