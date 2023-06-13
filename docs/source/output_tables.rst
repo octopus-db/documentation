@@ -170,7 +170,7 @@ CRN output
 |            |             |                   | \`expage_Sample\` |
 |            |             |                   | (es)              |
 +------------+-------------+-------------------+-------------------+
-| SMP_COMMT  |             | \*Latitudes and\  | :ref:             |
+| SMP_COMMT  |             | \*Latitudes and \ | :ref:             |
 |            |             | longitudes based\ | \`expage_Sample\` |
 |            |             | on map figures\   | (es)              |
 |            |             | and Google Earth.\|                   |
