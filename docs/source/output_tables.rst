@@ -170,21 +170,21 @@ CRN output
 |            |             |                   | ` expage_Sample`  |
 |            |             |                   | (es)              |
 +------------+-------------+-------------------+-------------------+
-| SMP_COMMT  |             | *Latitudes and*\  | :ref:             |
-|            |             | longitudes based\ | ` expage_Sample`  |
-|            |             | on map figures\   | (es)              |
-|            |             | and Google Earth.\|                   |
-|            |             | Sample thickness\ |                   |
-|            |             | back-calculated\  |                   |
-|            |             | from depth\       |                   |
-|            |             | correction values\|                   |
-|            |             | in Table 1.\      |                   |
-|            |             | Sampling year\    |                   |
-|            |             | assumed to be\    |                   |
-|            |             | 2012. Group ID\   |                   |
-|            |             | based on\         |                   |
-|            |             | publication\      |                   |
-|            |             | (Table 1).        |                   |
+| SMP_COMMT  |             | *Latitudes and    | :ref:             |
+|            |             | longitudes based  | ` expage_Sample`  |
+|            |             | on map figures    | (es)              |
+|            |             | and Google Earth. |                   |
+|            |             | Sample thickness  |                   |
+|            |             | back-calculated   |                   |
+|            |             | from depth        |                   |
+|            |             | correction values |                   |
+|            |             | in Table 1.       |                   |
+|            |             | Sampling year     |                   |
+|            |             | assumed to be     |                   |
+|            |             | 2012. Group ID    |                   |
+|            |             | based on          |                   |
+|            |             | publication       |                   |
+|            |             | (Table 1).*       |                   |
 +------------+-------------+-------------------+-------------------+
 | BE10NP     | atoms.g^-1  | *141000*          | :ref:`            |
 |            |             |                   | expage_DataCore`  |
