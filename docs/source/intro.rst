@@ -48,6 +48,10 @@ In terms of hierarchy, the OCTOPUS v.2 data model includes four levels: metasite
 
 We illustrate how the above hierarchical semantic data model is implemented in OCTOPUS v.2, using the example of a South Australian shell midden cluster (`Wilson et al., 2012 <https://doi.org/10.1002/j.1834-4453.2012.tb00128.x>`_) (Fig. Sdm1, inset). A cluster of shell middens that share contextual similarities form a metasite -- “Glen Lossie” -- that has a footprint that may be defined by a bounding box. Individual middens belonging to Glen Lossie are considered sites (point geometry) and have unique OCTOPUS site identifiers assigned (Fig. Sdm1, inset). Shell fragments are samples from those midden sites. In the Glen Lossie case, a repeat measurement was done on a shell fragment with the original ID “GLM3-ss14”. As a result, OCTOPUS considers “GLM3-ss14” and “GLM3-ss14(r)” as a single sample with two associated observations, i.e. two separate radiocarbon ages (Obs. IDs ARCH0171C14001 and ARCH0171C14002 respectively; Fig. Sdm1, inset).
 
+.. note::
+
+  The above section is a modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
+
 .. rubric:: Footnotes
 
 .. [#] Catchment-Averaged denudatIon Rates from cosmogenic Nuclides: **CAIRN** https://doi.org/10.5194/esurf-4-655-2016
