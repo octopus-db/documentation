@@ -514,16 +514,29 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 c14_calprogram table
 ^^^^^^^^^^^^^^^^^^^^
-The *c14_calprogram* table ... .
+The c14_calprogram table stores *computer programmes* -- incl. their versions -- that may be used for radiocarbon calibration.
 
 .. csv-table::
    :file: ./csv_tables/c14_calprogram.csv
    :header-rows: 1
 
-* FIELD A -- A unique identifier (auto-incrementing serial integer)
+* CALPROGID -- A unique identifier (auto-incrementing serial integer)
 
-* ...
+* CALPROGRAM -- Program used for C14 calibration
 
+* CALPROGVER -- Calibration programme version
+
+* CALPROGREF -- Calibration programme reference
+
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "METHODID"
+
+* CALPRODATE -- Calibration programme publication date
+
+* CALPRONOTE -- Calibration programme note
+
+.. note::
+
+    Not the individual "CALPROGRAM" and "CALPROGVER", but only their combination forms the ukey.
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
