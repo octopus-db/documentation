@@ -1,0 +1,8 @@
+﻿Field,Data type,Key,Not Null,Parent
+CALPROGID,serieal4,pkey,TRUE,
+CALPROGRAM,text,ukey(1),TRUE,
+CALPROGVER,text,ukey(2),,
+CALPROGREF,text,fkey,,:ref:`global_RefCore`
+PARENTID,int2,fkey,TRUE,CALPROGID
+CALPRODATE,text,,,
+CALPRONOTE,text,,,

@@ -1,0 +1,15 @@
+﻿CALPROGID,CALPROGRAM,CALPROGVER,CALPROGREF,PARENTID,CALPRODATE,CALPRONOTE
+1,Radiocarbon calibration (non-specific),,,1,,
+2,Radiocarbon calibration (Bayesian),,,1,,
+3,Radiocarbon calibration (classic),,,1,,
+4,post-bomb correction,,,1,,
+5,Age-Depth modelling (non-specific),,,5,,
+6,Age-Depth modelling (Bayesian),,,5,,
+7,Age-Depth modelling (classic),,,5,,
+8,BCal,,Buck:1999bcal,2,,
+...,...,...,...,...,...,...
+117,Fairbanks0805 ,,Fairbanks:2005calibration,2,,
+118,OxCal (non-specific),,BronkRamsey:1995oxcal,2,,
+119,OxCal,2.00,,118,,
+...,...,...,...,...,...,...
+193,rplum,rplum 0.3.0,Blaauw:2020rplum,187,23.12.2022,For version details see https://cran.r-project.org/web/packages/rplum/index.html
