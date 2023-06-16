@@ -26,7 +26,7 @@ The following tables serve various collections across the entire OCTOPUS databas
 
 global_varunitID table
 ^^^^^^^^^^^^^^^^^^^^^^
-The *global_varunitID* table stores **variable units** for those compilations whose values involve different units of measurement. Data tables with invariant variable units, however, do not feature explicit units fields. 
+The *global_varunitID* table stores **variable units** for those compilations whose values involve different units of measurement. Data tables with invariant variable units, however, do not feature explicit units fields. *global_varunitID* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/global_varunitID.csv
@@ -76,7 +76,7 @@ global_MetaSite table
 
 global_SiteCode table
 ^^^^^^^^^^^^^^^^^^^^^
-The *global_SiteCode* table stores **site types characterising the dominant attribute of a site**.
+The *global_SiteCode* table stores **site types characterising the dominant attribute of a site**. *global_SiteCode* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/global_SiteCode.csv
@@ -181,7 +181,7 @@ SITE_COMMT text
 
 global_biomeID table
 ^^^^^^^^^^^^^^^^^^^^
-The *global_biomeID* table stores iconic biome types that allow for a coarse characterisation/classifications of sampled sites amongst Earth's major biogeographic units. 
+The *global_biomeID* table stores iconic biome types that allow for a coarse characterisation/classifications of sampled sites amongst Earth's major biogeographic units. *global_biomeID* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/global_biomeID.csv
@@ -477,7 +477,7 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
 
 cabah_col_mtdID table
 ^^^^^^^^^^^^^^^^^^^^^
-The *cabah_col_mtdID* table stores the **sample collection method**.
+The *cabah_col_mtdID* table stores the **sample collection method**. *cabah_col_mtdID* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/cabah_col_mtdID.csv
@@ -493,7 +493,7 @@ The *cabah_col_mtdID* table stores the **sample collection method**.
 
 cabah_methodID table
 ^^^^^^^^^^^^^^^^^^^^
-The *cabah_methodID* table stores the **type of method used in age/rate determination**.
+The *cabah_methodID* table stores the **type of method used in age/rate determination**. *cabah_methodID* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/cabah_methodID.csv
@@ -514,7 +514,7 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 c14_calprogram table
 ^^^^^^^^^^^^^^^^^^^^
-The c14_calprogram table stores *computer programmes* -- incl. their versions -- that may be used for radiocarbon calibration.
+The *c14_calprogram* table stores **computer programmes** -- incl. their versions -- that may be used for radiocarbon calibration. *c14_calprogram* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/c14_calprogram.csv
@@ -528,7 +528,7 @@ The c14_calprogram table stores *computer programmes* -- incl. their versions --
 
 * CALPROGREF -- Calibration programme reference
 
-* PARENTID -- Is fkey. Refers to ordinal higher ranking "METHODID"
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "CALPROGID"
 
 * CALPRODATE -- Calibration programme publication date
 
@@ -536,7 +536,7 @@ The c14_calprogram table stores *computer programmes* -- incl. their versions --
 
 .. note::
 
-    Not the individual "CALPROGRAM" and "CALPROGVER", but only their combination forms the ukey.
+    Not the individual "CALPROGRAM" (ukey1) and "CALPROGVER" (ukey2), but only their combination forms the ukey.
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
@@ -1432,7 +1432,7 @@ The *c14_materia1ID* table stores information about the **type of sample materia
 
 c14_materia2ID table
 ^^^^^^^^^^^^^^^^^^^^
-The *c14_materia2ID* table stores information about the **sub-type of sample material used for 14C dating**.
+The *c14_materia2ID* table stores information about the **sub-type of sample material used for 14C dating**. *c14_materia2ID* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/c14_materia2ID.csv
@@ -1652,7 +1652,7 @@ The *sed_geotypeID* table stores the **geomorphological type of a sampled featur
 
 sed_laketypeID table
 ^^^^^^^^^^^^^^^^^^^^
-The *sed_laketypeID* table stores the **type of (origin of) lake (formation)**.
+The *sed_laketypeID* table stores the **type of (origin of) lake (formation)**. *sed_laketypeID* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/sed_laketypeID.csv
