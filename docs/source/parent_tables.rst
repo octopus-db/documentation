@@ -688,6 +688,16 @@ cabah_methodID fields
 | Classification and selection of methods on the basis of Geyh (2005), and Walker (2005).
 | The latest *cabah_methodID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_methodID__202305230904.csv>`_ |:chipmunk:|
 
+..  _c14_calcurve_Fields:
+
+c14_calcurve fields
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/c14_calcurve_FIELDS.csv
+   :header-rows: 1
+
+| The latest *c14_calcurve_Fields* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_calcurve_202306171029.csv>`_ |:chipmunk:|
 
 ..  _c14_calprogram_Fields:
 

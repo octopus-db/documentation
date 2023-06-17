@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+CALCURVEID,serial4,pkey,TRUE,
+CALCURVE,text,,TRUE,
+CALCURVREF,text,fkey,,:ref:`global_RefCore`
+CALCRVNOTE,text,,,
