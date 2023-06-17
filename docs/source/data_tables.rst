@@ -521,7 +521,11 @@ The *c14_calcurve* table stores **calibration curves** used for radiocarbon age 
 
 * CALCURVEID -- A unique identifier (auto-incrementing serial integer)
 
-* ...
+* CALCURVE -- Calibration curve used for C14 calibration
+
+* CALCURVREF -- Calibration curve reference
+
+* CALCRVNOTE -- Calibration curve note
 
 ..  _c14_calprogram:
 
