@@ -509,6 +509,19 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 * METHODREF -- Basic method literature reference
 
+..  _c14_calcurve:
+
+c14_calcurve table
+^^^^^^^^^^^^^^^^^^
+The *c14_calcurve* table stores **calibration curves** used for radiocarbon age calibration.
+
+.. csv-table::
+   :file: ./csv_tables/c14_calcurve.csv
+   :header-rows: 1
+
+* CALCURVEID -- A unique identifier (auto-incrementing serial integer)
+
+* ...
 
 ..  _c14_calprogram:
 
