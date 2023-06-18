@@ -691,7 +691,7 @@ cabah_methodID fields
 ..  _c14_calcurve_Fields:
 
 c14_calcurve fields
-^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_calcurve_FIELDS.csv
