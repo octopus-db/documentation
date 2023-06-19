@@ -1,8 +1,8 @@
 ﻿Field Name,Unit,Example,Origin (Alias)
 OBSID1,,*S208WTS001*,:ref:`crn_be_DataCore` (cbdc)
 OBSID2,,*PIO*,:ref:`crn_be_DataCore` (cbdc)
-STUDYID,,*S208*,
-CRN_SUBCMP,,*AUS*,
+STUDYID,,*S208*,:ref:`crn_v3_basins_EPSG3857` (cvbe)
+CRN_SUBCMP,,*AUS*,:ref:`crn_v3_basins_EPSG3857` (cvbe)
 IGSNID,,*NA*,:ref:`crn_be_DataCore` (cbdc)
 DBDOI,,*10.25900/mpr9-yn15*,:ref:`global_dbDOI` (gdd)
 DBVERNO,,*2*,:ref:`global_dbDOI` (gdd)
