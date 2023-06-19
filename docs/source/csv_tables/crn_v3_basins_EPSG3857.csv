@@ -1,7 +1,7 @@
 ﻿Field,Data type,Key,Not Null,Parent
 id,int4 seq.,pkey,TRUE,
 geom,geometry*,,,
-OBSID1,text,"pkey, ukey",TRUE,":ref:`crn_be_DataCore`, :ref:`crn_al_DataCore`, "
+OBSID1,text,"pkey, ukey",TRUE,":ref:`crn_be_DataCore`, :ref:`crn_al_DataCore`"
 OBSID2,text,,,
 STUDYID,varchar(5),,,:ref:`crn_studies_boundingbox`
 CRN_SUBCMP,varchar(3),,,
