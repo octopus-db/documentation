@@ -939,7 +939,7 @@ crn_v3_basins_EPSG3857 table
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom -- WKT geometry(multipolygon, 3857)
 
 * OBSID1 -- 
 
@@ -960,7 +960,7 @@ crn_v3_outlets_EPSG3857 table
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- 
+* geom --  WKT geometry(point, 3857)
 
 * OBSID1 -- 
 
