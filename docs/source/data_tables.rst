@@ -928,6 +928,48 @@ The *crn_studies_boundingbox* table is a **CRN denudation spatial features table
 
 * STUDYID -- :ref:`CRN` study ID
 
+..  _crn_v3_basins_EPSG3857:
+
+crn_v3_basins_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/crn_v3_basins_EPSG3857.csv
+   :header-rows: 1
+
+* id -- A unique identifier (auto-incrementing serial integer)
+
+* geom -- 
+
+* OBSID1 -- 
+
+* OBSID2 -- 
+
+* STUDYID -- 
+
+* CRN_SUBCMP -- 
+
+..  _crn_v3_outlets_EPSG3857:
+
+crn_v3_outlets_EPSG3857 table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/crn_v3_outlets_EPSG3857.csv
+   :header-rows: 1
+
+* id -- A unique identifier (auto-incrementing serial integer)
+
+* geom -- 
+
+* OBSID1 -- 
+
+* OBSID2 -- 
+
+* STUDYID -- 
+
+* CRN_SUBCMP -- 
+
 
 SahulArch tables
 ~~~~~~~~~~~~~~~~
