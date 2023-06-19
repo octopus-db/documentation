@@ -12,7 +12,7 @@ CRN output
 ----------
 
 .. csv-table::
-   :file: ./csv_tables/expage_output.csv
+   :file: ./csv_tables/crn_output.csv
    :header-rows: 1
 
 .. tip::
@@ -30,3 +30,11 @@ FosSahul output
 
 expage output
 -------------
+
+.. csv-table::
+   :file: ./csv_tables/expage_output.csv
+   :header-rows: 1
+
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
