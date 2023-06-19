@@ -933,13 +933,15 @@ The *crn_studies_boundingbox* table is a **CRN denudation spatial features table
 crn_v3_basins_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The *crn_v3_basins_EPSG3857* table stores **spatial features**, i.e., multipolygons of the CRN collections (EPSG:900913).
+
 .. csv-table::
    :file: ./csv_tables/crn_v3_basins_EPSG3857.csv
    :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom -- WKT geometry(multipolygon, 3857)
+* geom -- WKT geometry notation (multipolygon, 3857)
 
 * OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
@@ -954,13 +956,15 @@ crn_v3_basins_EPSG3857 table
 crn_v3_outlets_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+The *crn_v3_outlets_EPSG3857* table stores **spatial features**, i.e., points of the CRN collections (EPSG:900913).
+
 .. csv-table::
    :file: ./csv_tables/crn_v3_outlets_EPSG3857.csv
    :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
-* geom --  WKT geometry(point, 3857)
+* geom --  WKT geometry notation (point, 3857)
 
 * OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
@@ -2066,7 +2070,9 @@ fos_polygons_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of the FosSahul partner collection (EPSG:900913).
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/fos_polygons_EPSG3857.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 
@@ -2120,8 +2126,6 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
    :file: ./csv_tables/expage_DataCore.csv
    :header-rows: 1
 
-`to come`
-
 * OBSID1 -- Unique age identifier provided as part of the compilation. Serves as back reference to parent expage fork (https://expage.github.io), with running alphabetic letter(s) added to the original “Sample ID”.
 
 * OBSID2 -- Original sample identifier (as published). This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample.
@@ -2167,7 +2171,9 @@ expage_points_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *expage_points_EPSG3857* table stores spatial features, i.e., points of the expage partner collection (EPSG:900913).
 
-``Table to come``
+.. csv-table::
+   :file: ./csv_tables/expage_points_EPSG3857.csv
+   :header-rows: 1
 
 * id -- A unique identifier (auto-incrementing serial integer)
 

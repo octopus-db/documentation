@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+id,int4 seq.,pkey,TRUE,
+geom,geometry*,,,
+OBSID1,text,"pkey, ukey",TRUE,":ref:`crn_be_DataCore`, :ref:`crn_al_DataCore`, "
+OBSID2,text,,,
