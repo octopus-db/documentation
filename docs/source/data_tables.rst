@@ -941,13 +941,13 @@ crn_v3_basins_EPSG3857 table
 
 * geom -- WKT geometry(multipolygon, 3857)
 
-* OBSID1 -- 
+* OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
-* OBSID2 -- 
+* OBSID2 -- Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
-* STUDYID -- 
+* STUDYID -- Unique study ID
 
-* CRN_SUBCMP -- 
+* CRN_SUBCMP -- CRN subcompilation (Global, Australian, inPrep, XXL)
 
 ..  _crn_v3_outlets_EPSG3857:
 
@@ -962,13 +962,13 @@ crn_v3_outlets_EPSG3857 table
 
 * geom --  WKT geometry(point, 3857)
 
-* OBSID1 -- 
+* OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
-* OBSID2 -- 
+* OBSID2 -- Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
-* STUDYID -- 
+* STUDYID -- Unique study ID
 
-* CRN_SUBCMP -- 
+* CRN_SUBCMP -- CRN subcompilation (Global, Australian, inPrep, XXL)
 
 
 SahulArch tables
