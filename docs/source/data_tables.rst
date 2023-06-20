@@ -426,7 +426,7 @@ The *global_PubType* table stores **publication entry types** according to BibTe
 global_RefKeyword table
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-``DRAFT`` The *global_RefKeyword* table ...
+*global_RefKeyword* is thoroughly boolean and stores compilation membership keywords for observations and is part of OCTOPUS reference system (= REFDBID; one to one).
 
 ..  _global_dbDOI:
 
