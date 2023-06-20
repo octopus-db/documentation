@@ -1,0 +1,6 @@
+﻿Field,Data type,Key,Not Null,Parent
+METASITEID,text,pkey,,
+METANAME,text,,,
+META_WKT84,text,,,
+META_AREA,numeric,,,
+META_COMMT,text,,,

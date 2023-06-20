@@ -70,7 +70,21 @@ Global georeferencing tables
 
 global_MetaSite table
 ^^^^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *global_MetaSite* table ...
+The *blobal_MetaSite* table stores metasite-related information for all compilations. In OCTOPUS data model hierarchy global_MetaSite is superordinate to global_SiteMaster, <collection name>_Sample, and <sub-collection name>_DataCore tables (in this decreasing order). However, whilst the latter three levels can't be NULL, “METASITE” is quasi nullable.
+
+.. csv-table::
+   :file: ./csv_tables/global_MetaSite.csv
+   :header-rows: 1
+
+* METASITEID -- A unique identifier
+
+* METANAME -- Metasite name
+
+* META_WKT84 -- Metasite WKT notation
+
+* META_AREA -- Metasite area
+
+* META_COMMT -- Metasite comment
 
 ..  _global_SiteCode:
 
