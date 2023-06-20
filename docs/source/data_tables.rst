@@ -60,26 +60,6 @@ The *global_GrainSize* table, focusing on granulomety, stores the **type of (sed
 
 * GRNSIZEMAX -- Upper grain size fraction limit, if applicable
 
-..  _global_dbDOI:
-
-global_dbDOI table
-^^^^^^^^^^^^^^^^^^
-*global_dbDOI* is a lookup table that stores information about OCTOPUS (sub-)compilation versions, preferred as digital object identifiers.
-
-.. csv-table::
-   :file: ./csv_tables/global_dbDOI.csv
-   :header-rows: 1
-
-* DBDOI -- Unique identifier (Digital Object Identifier) issued by UOW Library
-
-* DBDOICOMMT -- (sub)Collection comment
-
-* DBVER -- (sub)Collection publication year
-
-* DBVERNO -- (sub)Collection version 
-
-* DBVERNAME -- (sub)Collection name (if applicable)
-
 ..  _Global_georeferencing_tables:
 
 Global georeferencing tables
@@ -447,6 +427,26 @@ global_RefKeyword table
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 ``DRAFT`` The *global_RefKeyword* table ...
+
+..  _global_dbDOI:
+
+global_dbDOI table
+^^^^^^^^^^^^^^^^^^
+*global_dbDOI* is a lookup table that stores information about OCTOPUS (sub-)compilation versions, preferred as digital object identifiers.
+
+.. csv-table::
+   :file: ./csv_tables/global_dbDOI.csv
+   :header-rows: 1
+
+* DBDOI -- Unique identifier (Digital Object Identifier) issued by UOW Library
+
+* DBDOICOMMT -- (sub)Collection comment
+
+* DBVER -- (sub)Collection publication year
+
+* DBVERNO -- (sub)Collection version 
+
+* DBVERNAME -- (sub)Collection name (if applicable)
 
 ----
 
