@@ -213,7 +213,21 @@ The *global_biomeID* table stores iconic biome types that allow for a coarse cha
 
 global_dbDOI table
 ^^^^^^^^^^^^^^^^^^
-``DRAFT`` The *global_dbDOI* table ...
+*global_dbDOI* is a lookup table that stores information about OCTOPUS (sub-)compilation versions in the form of digital object identifiers.
+
+.. csv-table::
+   :file: ./csv_tables/global_dbDOI.csv
+   :header-rows: 1
+
+* DBDOI -- Unique identifier (Digital Object Identifier) issued by UOW Library
+
+* DBDOICOMMT -- (sub)Collection comment
+
+* DBVER -- (sub)Collection publication year
+
+* DBVERNO -- (sub)Collection version 
+
+* DBVERNAME -- (sub)Collection name (if applicable)
 
 ..  _global_ibraID:
 

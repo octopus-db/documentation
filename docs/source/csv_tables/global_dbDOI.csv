@@ -1,0 +1,6 @@
+﻿Field,Data type,Key,Not Null,Parent
+DBDOI,text,pkey,TRUE,
+DBDOICOMMT,text,,,
+DBVER,int2,,,
+DBVERNO,numeric,,,
+DBVERNAME,text,,,
