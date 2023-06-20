@@ -70,7 +70,7 @@ Global georeferencing tables
 
 global_MetaSite table
 ^^^^^^^^^^^^^^^^^^^^^
-The *global_MetaSite* table stores metasite-related information for all compilations. In OCTOPUS data model hierarchy global_MetaSite is superordinate to global_SiteMaster, <collection name>_Sample, and <sub-collection name>_DataCore tables (in this decreasing order). However, whilst the latter three levels can't be NULL, “METASITE” is quasi nullable.
+The *global_MetaSite* table stores metasite-related information for all compilations. Metasite, according to OCTOPUS semantic framework, is a similarity-based cluster of sites. In OCTOPUS data model hierarchy global_MetaSite is superordinate to global_SiteMaster, <collection name>_Sample, and <sub-collection name>_DataCore tables (in this decreasing order). However, whilst the latter three levels can't be NULL, “METASITE” is quasi nullable.
 
 .. csv-table::
    :file: ./csv_tables/global_MetaSite.csv
