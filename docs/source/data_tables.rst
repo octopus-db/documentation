@@ -70,7 +70,7 @@ Global georeferencing tables
 
 global_MetaSite table
 ^^^^^^^^^^^^^^^^^^^^^
-The *global_MetaSite* table stores metasite-related information for all compilations. Metasite, according to OCTOPUS semantic framework, is a similarity-based cluster of sites. In OCTOPUS data model hierarchy global_MetaSite is superordinate to global_SiteMaster, <collection name>_Sample, and <sub-collection name>_DataCore tables (in this decreasing order). However, whilst the latter three levels can't be NULL, “METASITE” is quasi nullable.
+The *global_MetaSite* table stores metasite-related information for all compilations. A 'metasite', according to OCTOPUS semantic framework, is a similarity-based cluster of sites. In OCTOPUS data model hierarchy global_MetaSite is superordinate to global_SiteMaster, <collection name>_Sample, and <sub-collection name>_DataCore tables (in this decreasing order). However, whilst the latter three levels can't be NULL, “METASITE” is quasi nullable.
 
 .. csv-table::
    :file: ./csv_tables/global_MetaSite.csv
@@ -213,7 +213,7 @@ The *global_biomeID* table stores iconic biome types that allow for a coarse cha
 
 global_dbDOI table
 ^^^^^^^^^^^^^^^^^^
-*global_dbDOI* is a lookup table that stores information about OCTOPUS (sub-)compilation versions in the form of digital object identifiers.
+*global_dbDOI* is a lookup table that stores information about OCTOPUS (sub-)compilation versions, preferred as digital object identifiers.
 
 .. csv-table::
    :file: ./csv_tables/global_dbDOI.csv
