@@ -29,6 +29,14 @@ SahulSed output
 FosSahul output
 ---------------
 
+.. csv-table::
+   :file: ./csv_tables/fossahul_output.csv
+   :header-rows: 1
+
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
 expage output
 -------------
 
