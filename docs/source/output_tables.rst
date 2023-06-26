@@ -30,7 +30,7 @@ FosSahul output
 ---------------
 
 .. csv-table::
-   :file: ./csv_tables/fossahul_output.csv
+   :file: ./csv_tables/fos_output.csv
    :header-rows: 1
 
 .. tip::
