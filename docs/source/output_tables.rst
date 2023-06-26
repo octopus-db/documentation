@@ -26,8 +26,8 @@ SahulArch output
 SahulSed output
 ---------------
 
-OSL output
-^^^^^^^^^^
+SahulSed OSL output
+^^^^^^^^^^^^^^^^^^^
 
 .. csv-table::
    :file: ./csv_tables/sed_osl_output.csv
@@ -37,8 +37,8 @@ OSL output
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
-TL output
-^^^^^^^^^
+SahulSed TL output
+^^^^^^^^^^^^^^^^^^
 
 .. csv-table::
    :file: ./csv_tables/sed_tl_output.csv
