@@ -37,6 +37,18 @@ OSL output
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
+TL output
+^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/sed_tl_output.csv
+   :header-rows: 1
+
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
+
 FosSahul output
 ---------------
 
