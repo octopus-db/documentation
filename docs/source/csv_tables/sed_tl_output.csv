@@ -2,7 +2,7 @@
 OBSID1,,*SED_FLV_TL0001*,:ref:`sed-tl_DataCore` (stdc)
 OBSID2,,*W2409*,:ref:`sed-tl_DataCore` (stdc)
 LABID,,*W2409*,:ref:`sed-tl_DataCore` (stdc)
-LAB_FACLTY,,"*UOW TL Dating Lab. Wollongong, David Price*",:ref:`cabah_LabCodes` (clc)
+LAB_FACLTY,,"*UOW TL Dating Lab. Wollongong*",:ref:`cabah_LabCodes` (clc)
 IGSNID,,*NA*,:ref:`sed-tl_DataCore` (stdc)
 DBDOI,,*10.25900/2a76-vw55*,:ref:`global_dbDOI` (gdd)
 DBVERNO,,*2*,:ref:`global_dbDOI` (gdd)
