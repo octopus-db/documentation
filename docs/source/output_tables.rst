@@ -26,6 +26,17 @@ SahulArch output
 SahulSed output
 ---------------
 
+OSL output
+^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/sed_osl_output.csv
+   :header-rows: 1
+
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
 FosSahul output
 ---------------
 
