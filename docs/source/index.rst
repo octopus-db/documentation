@@ -9,7 +9,7 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
 
 .. important::
 
-   | This documentation refers to the latest OCTOPUS database version, which can only be visited / fetched via OCTOPUS web interface (https://octopusdata.org), or through OCTOPUS Web Feature Services (http://octopusdata.org/geoserver/wfs).
+   | This documentation refers to the latest OCTOPUS database version, which can only be visited / fetched via OCTOPUS web interface (https://octopusdata.org), or through `OCTOPUS Web Feature Services <http://geoserver.octopusdata.org/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities>`_.
    | Archived, outdated OCTOPUS database versions do exist on Zenodo web repository.
    | |:warning:| **We do explicitly not recommend the usage of OCTOPUS legacy versions!**
 
