@@ -23,6 +23,40 @@ CRN output
 SahulArch output
 ----------------
 
+SahulArch C14 output
+^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/arch_c14_output.csv
+   :header-rows: 1
+
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
+SahulArch OSL output
+^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/arch_osl_output.csv
+   :header-rows: 1
+
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
+SahulArch TL output
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/arch_tl_output.csv
+   :header-rows: 1
+
+.. tip::
+
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
+
 SahulSed output
 ---------------
 
