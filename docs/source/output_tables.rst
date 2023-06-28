@@ -9,6 +9,8 @@ Output table fields & values
 
   The above section is a modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 
+..  _CRN_output:
+
 CRN output
 ----------
 
@@ -20,8 +22,12 @@ CRN output
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
+..  _SahulArch_output:
+
 SahulArch output
 ----------------
+
+..  _SahulArch_C14_output:
 
 SahulArch C14 output
 ^^^^^^^^^^^^^^^^^^^^
@@ -34,6 +40,8 @@ SahulArch C14 output
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
+..  _SahulArch_OSL_output:
+
 SahulArch OSL output
 ^^^^^^^^^^^^^^^^^^^^
 
@@ -44,6 +52,8 @@ SahulArch OSL output
 .. tip::
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
+..  _SahulArch_TL_output:
 
 SahulArch TL output
 ^^^^^^^^^^^^^^^^^^^
@@ -56,9 +66,12 @@ SahulArch TL output
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
+..  _SahulSed_output:
 
 SahulSed output
 ---------------
+
+..  _SahulSed_OSL_output:
 
 SahulSed OSL output
 ^^^^^^^^^^^^^^^^^^^
@@ -71,6 +84,8 @@ SahulSed OSL output
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
+..  _SahulSed_TL_output:
+
 SahulSed TL output
 ^^^^^^^^^^^^^^^^^^
 
@@ -82,6 +97,7 @@ SahulSed TL output
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
+..  _FosSahul_output:
 
 FosSahul output
 ---------------
@@ -93,6 +109,8 @@ FosSahul output
 .. tip::
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
+..  _expage_output:
 
 expage output
 -------------
