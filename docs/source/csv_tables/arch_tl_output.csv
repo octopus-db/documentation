@@ -2,7 +2,7 @@
 OBSID1,,*ARCH0008TL011*,:ref:`arch_tl_DataCore` (atdc)
 OBSID2,,*PJ2S/50*,:ref:`arch_tl_DataCore` (atdc)
 LABID,,*AdTL89002*,:ref:`arch_tl_DataCore` (atdc)
-LAB_FACLTY,,*Prescott Environmental Luminescence Lab. Adelaide*,:ref:`cabah_LabCodes` (clc)
+LAB_FACLTY,,*Prescott Env. Lum. Lab. Adelaide*,:ref:`cabah_LabCodes` (clc)
 IGSNID,,*NA*,:ref:`arch_tl_DataCore` (atdc)
 DBDOI,,*10.25900/af67-kh16*,:ref:`global_dbDOI` (gdd)
 DBVERNO,,*2.1*,:ref:`global_dbDOI` (gdd)
