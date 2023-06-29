@@ -710,6 +710,7 @@ c14_calcurve fields
    :header-rows: 1
 
 | The latest *c14_calcurve_Fields* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_calcurve_202306171029.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c14_calcurve` variable specs)
 
 ..  _c14_calprogram_Fields:
 
@@ -721,6 +722,7 @@ c14_calprogram fields
    :header-rows: 1
 
 | The latest *c14_calprogram_Fields* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_calprogram_202306161515.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c14_calprogram` variable specs)
 
 ----
 
@@ -781,6 +783,7 @@ Values for crn_alstndID."ALSTNDCOMT" field as follows ...
 * IDs 21, 22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
 
 | The latest *crn_alstndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_alstndID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`crn_alstndID` variable specs)
 
 ..  _crn_amsID_Fields:
 
@@ -947,6 +950,7 @@ Values for crn_amsID."AMSURL" field as follows ...
 * IDs 35, 36 -- http://earth.tju.edu.cn/en/
 
 | The latest *crn_amsID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_amsID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`crn_amsID` variable specs)
 
 ..  _crn_projepsgID_Fields:
 
@@ -957,7 +961,8 @@ crn_projepsgID fields
    :file: ./csv_tables/crn_projepsgID_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest full *crn_projepsgID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_projepsgID__202305221534.csv>`_ |:chipmunk:|
+| The latest full *crn_projepsgID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_projepsgID__202305221534.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`crn_projepsgID` variable specs)
 
 ..  _crn_bestndID_Fields:
 
@@ -1062,6 +1067,7 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 * IDs 57, 58 -- NIST SRM-4325, but with differing assumed isotope ratio
 
 The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_bestndID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`crn_bestndID` variable specs)
 
 ----
 
