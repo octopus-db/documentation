@@ -177,7 +177,7 @@ global_PubType fields
 
 * **online** -- Internet source. *Required fields*: title, url, urldate (in "NOTE" field)
 
-The latest *global_PubType* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_PubType* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_PubType` variable specs)
 
 ----
@@ -196,7 +196,7 @@ cabah_LabCodes fields
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
+| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_LabCodes` variable specs)
 
 ..  _cabah_chemprepID_Fields:
@@ -234,7 +234,7 @@ cabah_chemprepID fields
 
 * Coll -- Collagen
 
-The latest *cabah_chemprepID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_chemprepID__202305230904.csv>`_ |:chipmunk:|
+| The latest *cabah_chemprepID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_chemprepID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_chemprepID` variable specs)
 
 ..  _cabah_col_mtdID_Fields:
@@ -246,7 +246,7 @@ cabah_col_mtdID fields
    :file: ./csv_tables/cabah_col_mtdID_FIELDS.csv
    :header-rows: 1
 
-The latest *cabah_col_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv>`_ |:chipmunk:|
+| The latest *cabah_col_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_col_mtdID` variable specs)
 
 ..  _cabah_methodID_Fields:
@@ -1066,7 +1066,7 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 * IDs 55, 56 -- ASTER standard, equivalent to NIST_27900 and 07KNSTD
 * IDs 57, 58 -- NIST SRM-4325, but with differing assumed isotope ratio
 
-The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_bestndID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_bestndID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`crn_bestndID` variable specs)
 
 ----
