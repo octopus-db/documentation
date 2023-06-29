@@ -12,7 +12,6 @@ Global parent tables
 
 global_GrainSize fields
 ~~~~~~~~~~~~~~~~~~~~~~~
-| (|:back:| to :ref:`global_GrainSize` variable specs)
 
 .. csv-table::
    :file: ./csv_tables/global_GrainSize_FIELDS.csv
@@ -20,6 +19,7 @@ global_GrainSize fields
 
 | The unit for both fields "GRNSIZEMIN" and "GRNSIZEMAX" is *mm*.
 | The latest *global_GrainSize* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_GrainSize__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_GrainSize` variable specs)
 
 ..  _global_SiteCode_Fields:
 
@@ -31,6 +31,7 @@ global_SiteCode fields
    :header-rows: 1
 
 | The latest *global_SiteCode* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_SiteCode__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_SiteCode` variable specs)
 
 .. note::
 
@@ -47,6 +48,7 @@ global_biomeID fields
 
 | Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
 | The latest *global_biomeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_biomeID` variable specs)
 
 ..  _global_ibraID_Fields:
 
