@@ -12,7 +12,7 @@ Global parent tables
 
 global_GrainSize fields
 ~~~~~~~~~~~~~~~~~~~~~~~
-| |:back:| to :ref:`global_GrainSize` variable specs
+| (|:back:| to :ref:`global_GrainSize` variable specs)
 
 .. csv-table::
    :file: ./csv_tables/global_GrainSize_FIELDS.csv
