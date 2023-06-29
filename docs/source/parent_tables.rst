@@ -178,6 +178,7 @@ global_PubType fields
 * **online** -- Internet source. *Required fields*: title, url, urldate (in "NOTE" field)
 
 The latest *global_PubType* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_PubType` variable specs)
 
 ----
 
@@ -196,6 +197,7 @@ cabah_LabCodes fields
    :header-rows: 1
 
 The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_LabCodes` variable specs)
 
 ..  _cabah_chemprepID_Fields:
 
@@ -233,6 +235,7 @@ cabah_chemprepID fields
 * Coll -- Collagen
 
 The latest *cabah_chemprepID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_chemprepID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_chemprepID` variable specs)
 
 ..  _cabah_col_mtdID_Fields:
 
@@ -244,6 +247,7 @@ cabah_col_mtdID fields
    :header-rows: 1
 
 The latest *cabah_col_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_col_mtdID` variable specs)
 
 ..  _cabah_methodID_Fields:
 
@@ -694,6 +698,7 @@ cabah_methodID fields
 
 | Classification and selection of methods on the basis of Geyh (2005), and Walker (2005).
 | The latest *cabah_methodID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_methodID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_methodID` variable specs)
 
 ..  _c14_calcurve_Fields:
 
