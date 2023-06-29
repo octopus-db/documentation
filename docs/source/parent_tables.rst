@@ -61,6 +61,7 @@ global_ibraID fields
 
 | The latest full *global_ibraID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_ibraID__202305221532.csv>`_ |:chipmunk:|
 | Detailed information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
+| (|:back:| to :ref:`global_ibraID` variable specs)
 
 .. important::
 
@@ -77,6 +78,7 @@ global_rivID fields
 
 | The latest full *global_rivID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_rivID__202305221533.csv>`_ |:chipmunk:|
 | Detailed information about the Australian Hydrological Geospatial Fabric (Geofabric) classification rationale and model can be found at  `http://www.bom.gov.au/water/geofabric/ <http://www.bom.gov.au/water/geofabric/>`_.
+| (|:back:| to :ref:`global_rivID` variable specs)
 
 .. important::
 
@@ -92,7 +94,7 @@ global_varunitID fields
    :header-rows: 1
 
 | The latest *global_varunitID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
-
+| (|:back:| to :ref:`global_varunitID` variable specs)
 
 ..  _global_RefCore_Fields:
 
@@ -100,7 +102,7 @@ global_RefCore fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 | The latest *global_RefCore* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefCore__202306121508.csv>`_ |:chipmunk:|
-
+| (|:back:| to :ref:`global_RefCore` variable specs)
 
 ..  _global_RefAbstract_Fields:
 
@@ -108,7 +110,7 @@ global_RefAbstract fields
 ~~~~~~~~~~~~~~~~~~~~~
 
 | The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202306121508.csv>`_ |:chipmunk:|
-
+| (|:back:| to :ref:`global_RefAbstract` variable specs)
 
 ..  _global_Author_Fields:
 
@@ -120,6 +122,7 @@ global_Author fields
    :header-rows: 1
 
 | The latest *global_Author* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202306121508.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_Journal_Fields:
 
@@ -131,6 +134,7 @@ global_Journal fields
    :header-rows: 1
 
 | The latest *global_Journal* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202306121508.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_Journal` variable specs)
 
 ..  _global_PubType_Fields:
 
