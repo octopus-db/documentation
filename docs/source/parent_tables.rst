@@ -17,9 +17,9 @@ global_GrainSize fields
    :file: ./csv_tables/global_GrainSize_FIELDS.csv
    :header-rows: 1
 
-| [Take me :back: to :ref:`global_GrainSize` variable specs]
 | The unit for both fields "GRNSIZEMIN" and "GRNSIZEMAX" is *mm*.
 | The latest *global_GrainSize* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_GrainSize__202305230906.csv>`_ |:chipmunk:|
+| *Take me |:back:| to :ref:`global_GrainSize` variable specs*
 
 ..  _global_SiteCode_Fields:
 
