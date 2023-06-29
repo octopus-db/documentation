@@ -1178,7 +1178,8 @@ osl-tl_agemodelID fields
    :file: ./csv_tables/osl-tl_agemodelID_FIELDS.csv
    :header-rows: 1
 
-The latest *osl-tl_agemodelID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_agemodelID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_agemodelID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_agemodelID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`osl-tl_agemodelID` variable specs)
 
 ..  _osl-tl_ed_procID_Fields:
 
@@ -1189,7 +1190,8 @@ osl-tl_ed_procID fields
    :file: ./csv_tables/osl-tl_ed_procID_FIELDS.csv
    :header-rows: 1
 
-The latest *osl-tl_ed_procID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_ed_procID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_ed_procID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_ed_procID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`osl-tl_ed_procID` variable specs)
 
 ..  _osl-tl_lum_matID_Fields:
 
@@ -1200,7 +1202,8 @@ osl-tl_lum_matID fields
    :file: ./csv_tables/osl-tl_lum_matID_FIELDS.csv
    :header-rows: 1
 
-The latest *osl-tl_lum_matID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_lum_matID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_lum_matID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_lum_matID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`osl-tl_lum_matID` variable specs)
 
 ..  _osl-tl_mineralID_Fields:
 
@@ -1211,7 +1214,8 @@ osl-tl_mineralID fields
    :file: ./csv_tables/osl-tl_mineralID_FIELDS.csv
    :header-rows: 1
 
-The latest *osl-tl_mineralID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mineralID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_mineralID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mineralID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`osl-tl_mineralID` variable specs)
 
 ..  _osl-tl_mtdID_Fields:
 
@@ -1222,7 +1226,8 @@ osl-tl_mtdID fields
    :file: ./csv_tables/osl-tl_mtdID_FIELDS.csv
    :header-rows: 1
 
-The latest *osl-tl_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mtdID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mtdID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`osl-tl_mtdID` variable specs)
 
 ..  _osl_typeID_Fields:
 
@@ -1233,7 +1238,8 @@ osl_typeID fields
    :file: ./csv_tables/osl_typeID_FIELDS.csv
    :header-rows: 1
 
-The latest *osl_typeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_typeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl_typeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_typeID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`osl_typeID` variable specs)
 
 ----
 
@@ -1246,7 +1252,8 @@ sed_depconID fields
    :file: ./csv_tables/sed_depconID_FIELDS.csv
    :header-rows: 1
 
-The latest *sed_depconID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_depconID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_depconID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_depconID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`sed_depconID` variable specs)
 
 ..  _sed_faciesID_Fields:
 
@@ -1257,7 +1264,8 @@ sed_faciesID fields
    :file: ./csv_tables/sed_faciesID_FIELDS.csv
    :header-rows: 1
 
-The latest *sed_faciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_faciesID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_faciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_faciesID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`sed_faciesID` variable specs)
 
 ..  _sed_geommodID_Fields:
 
@@ -1268,7 +1276,8 @@ sed_geommodID fields
    :file: ./csv_tables/sed_geommodID_FIELDS.csv
    :header-rows: 1
 
-The latest *sed_geommodID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geommodID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_geommodID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geommodID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`sed_geommodID` variable specs)
 
 ..  _sed_geotypeID_Fields:
 
@@ -1279,7 +1288,8 @@ sed_geotypeID fields
    :file: ./csv_tables/sed_geotypeID_FIELDS.csv
    :header-rows: 1
 
-The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`sed_geotypeID` variable specs)
 
 ..  _sed_laketypeID_Fields:
 
@@ -1291,6 +1301,7 @@ sed_laketypeID fields
    :header-rows: 1
 
 | The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_laketypeID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`sed_laketypeID` variable specs)
 
 ..  _sed_morphID_Fields:
 
@@ -1302,6 +1313,7 @@ sed_morphID fields
    :header-rows: 1
 
 | The latest *sed_morphID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_morphID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`sed_morphID` variable specs)
 
 ..  _sed_sitetypeID_Fields:
 
@@ -1313,6 +1325,7 @@ sed_sitetypeID fields
    :header-rows: 1
 
 | The latest *sed_sitetypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_sitetypeID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`sed_sitetypeID` variable specs)
 
 ----
 
@@ -1325,6 +1338,7 @@ fos_TaxRank1_classID fields
    :file: ./csv_tables/fos_TaxRank1_classID_FIELDS.csv
    :header-rows: 1
 
+| (|:back:| to :ref:`fos_TaxRank1_classID` variable specs)
 
 ..  _fos_TaxRank2_infraclaID_Fields:
 
@@ -1335,8 +1349,8 @@ fos_TaxRank2_infraclaID fields
    :file: ./csv_tables/fos_TaxRank2_infraclaID_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest full *fos_TaxRank2_infraclaID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank2_infraclaID__202305221536.csv>`_ |:chipmunk:|
-
+| The latest full *fos_TaxRank2_infraclaID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank2_infraclaID__202305221536.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_TaxRank2_infraclaID` variable specs)
 
 ..  _fos_TaxRank3_ordrID_Fields:
 
@@ -1347,8 +1361,8 @@ fos_TaxRank3_ordrID fields
    :file: ./csv_tables/fos_TaxRank3_ordrID_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest full *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_ |:chipmunk:|
-
+| The latest full *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_TaxRank3_ordrID` variable specs)
 
 ..  _fos_TaxRank4_familyID_Fields:
 
@@ -1359,8 +1373,8 @@ fos_TaxRank4_familyID fields
    :file: ./csv_tables/fos_TaxRank4_familyID_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest full *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_ |:chipmunk:|
-
+| The latest full *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_TaxRank4_familyID` variable specs)
 
 ..  _fos_TaxRank5_genusID_Fields:
 
@@ -1371,8 +1385,8 @@ fos_TaxRank5_genusID fields
    :file: ./csv_tables/fos_TaxRank5_genusID_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest full *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_ |:chipmunk:|
-
+| The latest full *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_TaxRank5_genusID` variable specs)
 
 ..  _fos_TaxRank6_speciesID_Fields:
 
@@ -1383,8 +1397,8 @@ fos_TaxRank6_speciesID fields
    :file: ./csv_tables/fos_TaxRank6_speciesID_FIELDS_trunc.csv
    :header-rows: 1
 
-The latest full *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_ |:chipmunk:|
-
+| The latest full *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_TaxRank6_speciesID` variable specs)
 
 ..  _fos_chemtypeID_Fields:
 
@@ -1395,7 +1409,8 @@ fos_chemtypeID fields
    :file: ./csv_tables/fos_chemtypeID_FIELDS.csv
    :header-rows: 1
 
-The latest full *fos_chemtypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_chemtypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_chemtypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_chemtypeID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_chemtypeID` variable specs)
 
 ..  _fos_fosmat1ID_Fields:
 
@@ -1406,7 +1421,8 @@ fos_fosmat1ID fields
    :file: ./csv_tables/fos_fosmat1ID_FIELDS.csv
    :header-rows: 1
 
-The latest full *fos_fosmat1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat1ID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_fosmat1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat1ID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_fosmat1ID` variable specs)
 
 ..  _fos_fosmat2ID_Fields:
 
@@ -1417,7 +1433,8 @@ fos_fosmat2ID fields
    :file: ./csv_tables/fos_fosmat2ID_FIELDS.csv
    :header-rows: 1
 
-The latest full *fos_fosmat2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat2ID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_fosmat2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat2ID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_fosmat2ID` variable specs)
 
 ..  _fos_mtdsID_Fields:
 
@@ -1428,7 +1445,8 @@ fos_mtdsID fields
    :file: ./csv_tables/fos_mtdsID_FIELDS.csv
    :header-rows: 1
 
-The latest full *fos_mtdsID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_mtdsID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_mtdsID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_mtdsID__202305230906.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`fos_mtdsID` variable specs)
 
 .. rubric:: Footnotes
 
