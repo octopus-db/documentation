@@ -1080,7 +1080,8 @@ arch_featdatedID fields
    :file: ./csv_tables/arch_featdatedID_FIELDS.csv
    :header-rows: 1
 
-The latest *arch_featdatedID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_arch_featdatedID__202305230904.csv>`_ |:chipmunk:|
+| The latest *arch_featdatedID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_arch_featdatedID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`arch_featdatedID` variable specs)
 
 ..  _c13_valID_Fields:
 
@@ -1091,7 +1092,8 @@ c13_valID fields
    :file: ./csv_tables/c13_valID_FIELDS.csv
    :header-rows: 1
 
-The latest *c13_valID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c13_valID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c13_valID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c13_valID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c13_valID` variable specs)
 
 ..  _c14_contamID_Fields:
 
@@ -1102,7 +1104,8 @@ c14_contamID fields
    :file: ./csv_tables/c14_contamID_FIELDS.csv
    :header-rows: 1
 
-The latest *c14_contamID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_contamID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_contamID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_contamID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c14_contamID` variable specs)
 
 ..  _c14_hum_modID_Fields:
 
@@ -1113,7 +1116,8 @@ c14_hum_modID fields
    :file: ./csv_tables/c14_hum_modID_FIELDS.csv
    :header-rows: 1
 
-The latest *c14_hum_modID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_hum_modID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_hum_modID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_hum_modID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c14_hum_modID` variable specs)
 
 ..  _c14_materia1ID_Fields:
 
@@ -1124,7 +1128,8 @@ c14_materia1ID fields
    :file: ./csv_tables/c14_materia1ID_FIELDS.csv
    :header-rows: 1
 
-The latest *c14_materia1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia1ID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_materia1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia1ID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c14_materia1ID` variable specs)
 
 ..  _c14_materia2ID_Fields:
 
@@ -1135,7 +1140,8 @@ c14_materia2ID fields
    :file: ./csv_tables/c14_materia2ID_FIELDS.csv
    :header-rows: 1
 
-The latest *c14_materia2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia2ID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_materia2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia2ID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c14_materia2ID` variable specs)
 
 ..  _c14_solvent2ID_Fields:
 
@@ -1146,7 +1152,8 @@ c14_solvent2ID fields
    :file: ./csv_tables/c14_solvent2ID_FIELDS.csv
    :header-rows: 1
 
-The latest *c14_solvent2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_solvent2ID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_solvent2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_solvent2ID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c14_solvent2ID` variable specs)
 
 ..  _c_mtdID_Fields:
 
@@ -1157,7 +1164,8 @@ c_mtdID fields
    :file: ./csv_tables/c_mtdID_FIELDS.csv
    :header-rows: 1
 
-The latest *c_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c_mtdID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c_mtdID__202305230904.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`c_mtdID` variable specs)
 
 ----
 
