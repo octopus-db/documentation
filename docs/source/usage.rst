@@ -201,7 +201,7 @@ Web interface
 -------------
 
 .. image:: ./img/webint_1_Overview.png
-   :width: 450px
+   :width: 660px
 
 | 1 -- :ref:`Layers_menu`
 | 2 -- :ref:`Filter_menu`
@@ -212,8 +212,8 @@ Web interface
 
 ..  _Layers_menu:
 
-Layers
-~~~~~~
+Layers menu
+~~~~~~~~~~~
 The Layers menu allows you to select data to display, organized by collection. Select tick boxes to view data on the display map.
 
 .. image:: ./img/webint_2_Layers.png
@@ -221,8 +221,8 @@ The Layers menu allows you to select data to display, organized by collection. S
 
 ..  _Filter_menu:
 
-Filter
-~~~~~~
+Filter menu
+~~~~~~~~~~~
 The Filter menu allows you to apply filters to data. You must select at least one dataset to view before you can apply filters, and filters are applied to each data collection individually. In the Filter menu, you can download your filter configuration as a .JSON file and import them.
 
 .. image:: ./img/webint_3_Filter.png
@@ -230,8 +230,8 @@ The Filter menu allows you to apply filters to data. You must select at least on
 
 ..  _Export_Data:
 
-Export Data
-~~~~~~~~~~~
+Export Data menu
+~~~~~~~~~~~~~~~~
 The Export Data menu allows you to download data, unfiltered or filtered by any rules applied in the Filter menu to that dataset. Data may be exported in the following formats: Geography Markup Language (GML) version 2 and 3, ESRI Shapefile, JavaScript Object Notation (JSON), Google Earth KML and KMZ. You will be prompted to provide an intended use of data prior to download.
 
 .. image:: ./img/webint_4_Export.png
@@ -243,8 +243,8 @@ The Export Data menu allows you to download data, unfiltered or filtered by any 
 
 ..  _Download_Collection:
 
-Download Collection
-~~~~~~~~~~~~~~~~~~~
+Download Collection menu
+~~~~~~~~~~~~~~~~~~~~~~~~
 The Download Collection menu allows you to request a download of packaged data from the CRN collection. One or more sub-collections from the CRN collection must first be selected in the Layers menu. Hold ``Ctrl`` (or ``cmd`` on Mac) while clicking and dragging to select a region of interest. You will be prompted within the Download Collection menu to provide a name, email address and intended use of data, and tick boxes for data within your selected region.
 
 .. image:: ./img/webint_5_Download.png
@@ -252,8 +252,8 @@ The Download Collection menu allows you to request a download of packaged data f
 
 ..  _Settings_menu:
 
-Settings
-~~~~~~~~
+Settings menu
+~~~~~~~~~~~~~
 The Settings menu allows you to change the displayed base map, enable case-sensitivity for filters, and control clustering of data.
 
 .. image:: ./img/webint_6_Settings.png
@@ -261,8 +261,8 @@ The Settings menu allows you to change the displayed base map, enable case-sensi
 
 ..  _Data_Display:
 
-Data Display
-~~~~~~~~~~~~
+Data Display menu
+~~~~~~~~~~~~~~~~~
 Collection data are displayed on a map (see the Settings menu to change base maps) and default to displaying in clusters. Data circles are colour-coded by collection (e.g. Sahul Archaeology: Radiocarbon collection is orange) and show numbers indicating the count of age determinations represented by that circle. The size of circle clusters is also scaled by the number of age determinations it represents. Clicking on a data circle creates a pop-up containing a subset of summary information about the age determinations it represents. Clicking once anywhere in the window outside of the pop-up will close it.
 
 .. image:: ./img/webint_7_DataDisplay.png
