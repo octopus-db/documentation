@@ -200,6 +200,18 @@ For this example we quickly want to display Australian OSL (Optically Stimulated
 Web interface
 -------------
 
+.. image:: ./img/webint_1_Overview.png
+   :width: 450px
+
+| 1 -- :ref:`Layers_menu`
+| 2 -- :ref:`Filter_menu`
+| 3 -- :ref:`Export_Data`
+| 4 -- :ref:`Download_Collection`
+| 5 -- :ref:`Settings_menu`
+| 6 -- :ref:`Data_display`
+
+..  _Layers_menu:
+
 Layers
 ~~~~~~
 The Layers menu allows you to select data to display, organized by collection. Select tick boxes to view data on the display map.
@@ -207,12 +219,16 @@ The Layers menu allows you to select data to display, organized by collection. S
 .. image:: ./img/webint_2_Layers.png
    :width: 450px
 
+..  _Filter_menu:
+
 Filter
 ~~~~~~
 The Filter menu allows you to apply filters to data. You must select at least one dataset to view before you can apply filters, and filters are applied to each data collection individually. In the Filter menu, you can download your filter configuration as a .JSON file and import them.
 
 .. image:: ./img/webint_3_Filter.png
    :width: 450px
+
+..  _Export_Data:
 
 Export Data
 ~~~~~~~~~~~
@@ -225,6 +241,8 @@ The Export Data menu allows you to download data, unfiltered or filtered by any 
 
    Exported data in the KML and KMZ formats are geographically restricted to the region displayed on screen at the time of export. Zoom in or out prior to export to capture your region of interest. All other export formats include the complete geographic extent of selected data.
 
+..  _Download_Collection:
+
 Download Collection
 ~~~~~~~~~~~~~~~~~~~
 The Download Collection menu allows you to request a download of packaged data from the CRN collection. One or more sub-collections from the CRN collection must first be selected in the Layers menu. Hold ``Ctrl`` (or ``cmd`` on Mac) while clicking and dragging to select a region of interest. You will be prompted within the Download Collection menu to provide a name, email address and intended use of data, and tick boxes for data within your selected region.
@@ -232,12 +250,16 @@ The Download Collection menu allows you to request a download of packaged data f
 .. image:: ./img/webint_5_Download.png
    :width: 450px
 
+..  _Settings_menu:
+
 Settings
 ~~~~~~~~
 The Settings menu allows you to change the displayed base map, enable case-sensitivity for filters, and control clustering of data.
 
 .. image:: ./img/webint_6_Settings.png
    :width: 450px
+
+..  _Data_Display:
 
 Data Display
 ~~~~~~~~~~~~
