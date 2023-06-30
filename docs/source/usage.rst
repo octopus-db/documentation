@@ -203,12 +203,12 @@ Web interface
 .. image:: ./img/webint_1_Overview.png
    :width: 660px
 
-| 1 -- :ref:`Layers_menu`
-| 2 -- :ref:`Filter_menu`
-| 3 -- :ref:`Export_Data`
-| 4 -- :ref:`Download_Collection`
-| 5 -- :ref:`Settings_menu`
-| 6 -- :ref:`Data_display`
+| 1 -- :ref:`Layers_menu` (select data layers)
+| 2 -- :ref:`Filter_menu` (filter selected data layers)
+| 3 -- :ref:`Export_Data` (export selection)
+| 4 -- :ref:`Download_Collection` (download auxiliary CRN zip data)
+| 5 -- :ref:`Settings_menu` (adjust web interface settings)
+| 6 -- :ref:`Data_display` (data representation in a nutshell)
 
 ..  _Layers_menu:
 
