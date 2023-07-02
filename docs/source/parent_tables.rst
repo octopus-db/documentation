@@ -2,7 +2,6 @@
 Parent table fields & values
 ============================
 
-
 ..  _global_parent_tables:
 
 Global parent tables
@@ -107,7 +106,7 @@ global_RefCore fields
 ..  _global_RefAbstract_Fields:
 
 global_RefAbstract fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 | The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202306121508.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
