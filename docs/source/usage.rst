@@ -401,15 +401,32 @@ In this example, we will generate KML files of archaeological, fossil, and sedim
 
 | 1. Navigate to the *Layers* menu
 | 2. Select (by tick boxes) all sub-collections in the *Sahul Sedimentary Archives* and *Sahul Archaeology* collections and select the *FosSahul Database*
+
+.. image:: ./img/webint_23_UseCase3_1.png
+   :width: 450px
+
 | 3. Navigate to the *Filter* menu
 | 4. Click the *Sahul Sedimentary Archives: Fluvial deposits: OSL collection* drop-down menu
+
+.. image:: ./img/webint_24_UseCase3_2.png
+   :width: 450px
+
 | 5. Select *'OSL age (ka)'* from the second drop-down list
 | 6. Click *'Add Rule'*
+
 | 7. In the *'OSL age (ka)'* filter section, select *'<='* (lesser than or equal to) and type *8*
+
+.. image:: ./img/webint_25_UseCase3_3.png
+   :width: 450px
+
 | 8. Click anywhere outside of the text box to confirm
 | 9. Click *'Add Rule'* again
 | 10. In the second *'OSL age (ka)'* filter section, select *'>='* (greater than or equal to) and type *1*
 | 11. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
+ 
+.. image:: ./img/webint_26_UseCase3_4.png
+   :width: 450px
+
 | 12. Click *'Add Rule'*
 | 13. In the *'IBRA-7 bio-region name'* filter section, select *'Cape York Peninsula'*
 | 14. Click outside the text box to confirm
@@ -417,6 +434,10 @@ In this example, we will generate KML files of archaeological, fossil, and sedim
 | 16. For *Sahul Archaeology: Radiocarbon collection*, select *'Age (BP)'*
 | 17. Click *'Add Rule'*
 | 18. Select *'<='* (lesser than or equal to) and type *'8000'*
+
+.. image:: ./img/webint_27_UseCase3_5.png
+   :width: 450px
+
 | 19. Click *'Add Rule'*
 | 20. Select *'>='* (greater than or equal to) and type *'1000'*
 | 21. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
@@ -425,6 +446,10 @@ In this example, we will generate KML files of archaeological, fossil, and sedim
 | 24. Click outside the text box to confirm
 | 25. Navigate to the Export Data menu
 | 26. Select *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* from the first drop-down menu, *'KML'* from the second drop- down menu, and intended research purpose (e.g. *'Research (other)'*) from the third drop-down menu
+
+.. image:: ./img/webint_28_UseCase3_6.png
+   :width: 450px
+
 | 27. Click *Export Layer* and save file
 | 28. Repeat steps 26-27 for each data collection
 
