@@ -297,6 +297,7 @@ In this example, we will prepare a map of Australian archaeological radiocarbon 
 
 5. Choose *'Age (BP)'* from the drop-down menu
 6. Click *Add Rule*
+
 7. Select *'>'* (greater than) from the drop-down menu
 8. Type *'10000'* in the text box
 
@@ -304,6 +305,7 @@ In this example, we will prepare a map of Australian archaeological radiocarbon 
    :width: 450px
 
 9. Click anywhere outside of the text box to confirm
+
 10. Navigate to the *Settings* menu
 11. Change the base map to *Maptiler Positron*
 
