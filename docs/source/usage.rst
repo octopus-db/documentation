@@ -335,11 +335,11 @@ In this example, we will generate a Shapefile of Australian fluvial OSL dates fr
 
 | 7. Select *'>'* (greater than) from the drop-down menu
 | 8. Type *'2000'* in the text box
+| 9. Click anywhere outside of the text box to confirm
 
 .. image:: ./img/webint_14_UseCase2_3.png
    :width: 450px
 
-| 9. Click anywhere outside of the text box to confirm
 | 10. Click *'Add Group'* above this filter
 
 | 11. In the new group that appears below your first filter, change the *'Match Type'* to *'Any'*
