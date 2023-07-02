@@ -22,7 +22,7 @@ WFS data access via QGIS
 .. image:: ./img/wfsQGIS_fig1.png
    :width: 750px
 
-3. Name the new connection (e.g., ‘OCTOPUS’) and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
+3. Name the new connection (e.g., 'OCTOPUS') and insert the link http://geoserver.octopusdata.org/geoserver/wfs in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established
 
 .. image:: ./img/wfsQGIS_fig2.png
    :width: 600px
@@ -47,9 +47,9 @@ Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potential
    :width: 750px
 
 3. To save coordinates, go to the Processing Toolbox pane and select *Vector table > Add X/Y fields to layer*
-4. Input Layer should appear as the generated centroids, and the coordinate system must be kept as default EPSG: 4326 – WGS84
-5. Click Run. This will generate a new layer, Added Fields, in the Layers pane. In the Attribute Table, fields for ‘x’ (longitude) and
-   ‘y’ (latitude) will appear at the end of the table with corresponding coordinates for each point feature
+4. Input Layer should appear as the generated centroids, and the coordinate system must be kept as default EPSG: 4326 -- WGS84
+5. Click Run. This will generate a new layer, Added Fields, in the Layers pane. In the Attribute Table, fields for 'x' (longitude) and
+   'y' (latitude) will appear at the end of the table with corresponding coordinates for each point feature
 
 .. image:: ./img/wfsQGIS_fig5.png
    :width: 750px
@@ -66,9 +66,9 @@ The below demo R script fetches, via WFS, spatial layers including rich attribut
 
     install.packages(c("sf","httr","tidyverse","ows4R","viridis", "mapview", dependencies = TRUE))
 
-and you’ll be all set up.
+and you'll be all set up.
 
-First we’re going to load the required packages
+First we're going to load the required packages
 
 .. code-block:: r
 
@@ -78,14 +78,14 @@ First we’re going to load the required packages
     library(ows4R) # Interface for OGC web-services incl. WFS
     library(viridis) # Predefined colorblind-friendly color scales for R
 
-OK, we’re ready to go now. In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.
+OK, we're ready to go now. In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.
 
 .. code-block:: r
 
     OCTOPUSdata <- "http://geoserver.octopusdata.org/geoserver/wfs" # store url in object
     OCTOPUSdata_client <- WFSClient$new(OCTOPUSdata, serviceVersion = "2.0.0") # connection to db
  
-Let’s see what is there, i.e. show all available layer names and titles
+Let's see what is there, i.e. show all available layer names and titles
  
 .. code-block:: r
 
@@ -118,11 +118,11 @@ The above WFS request should yield the following overview
     20          be10-denude:sahulsed_lacustrine_osl Sahul Sedimentary Archives: Lacustrine OSL
     21           be10-denude:sahulsed_lacustrine_tl  Sahul Sedimentary Archives: Lacustrine TL
 
-**That’s basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. [#]_
+**That's basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. [#]_
 
 Example 1. Australian 10Be-derived catchment-averaged denudation rates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In this example we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e., layer *‘be10-denude:crn_aus_basins’* from the above list)
+In this example we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e., layer *'be10-denude:crn_aus_basins'* from the above list)
 
 .. code-block:: r
 
@@ -284,13 +284,13 @@ Use case #1
 In this example, we will prepare a map of Australian archaeological radiocarbon ages >10,000 BP with a monochrome map and no data point clustering.
 
 1. Navigate to the *Layers* menu
-2. Select *‘Radiocarbon collection’* under the *‘Sahul Archaeology’* subheading
+2. Select *'Radiocarbon collection'* under the *'Sahul Archaeology'* subheading
 3. Navigate to the *Filter* menu
-4. Select the *‘Sahul Archaeology: Radiocarbon collection’* drop-down menu
-5. Choose *‘Age (BP)’* from the drop-down menu
+4. Select the *'Sahul Archaeology: Radiocarbon collection'* drop-down menu
+5. Choose *'Age (BP)'* from the drop-down menu
 6. Click *Add Rule*
-7. Select *‘>’* (greater than) from the drop-down menu
-8. Type *’10000’* in the text box
+7. Select *'>'* (greater than) from the drop-down menu
+8. Type *'10000'* in the text box
 9. Click anywhere outside of the text box to confirm
 10. Navigate to the *Settings* menu
 11. Change the base map to *Maptiler Positron*
@@ -301,34 +301,34 @@ Use case #2
 In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
 
 1. Navigate to the *Layers* menu
-2. Select *‘OSL collection’* under *‘Fluvial deposits’* under *‘Sahul Sedimentary Archives’*
+2. Select *'OSL collection'* under *'Fluvial deposits'* under *'Sahul Sedimentary Archives'*
 3. Navigate to the *Filters* menu
-4. Select the *‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’* drop-down menu. Leave *‘Match Type’* set to *‘All’* (default)
-5. Choose *‘Year’* from the drop-down menu
-6. Click *‘Add Rule’*
-7. Select *‘>’* (greater than) from the drop-down menu
-8. Type *‘2000’* in the text box
+4. Select the *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* drop-down menu. Leave *'Match Type'* set to *'All'* (default)
+5. Choose *'Year'* from the drop-down menu
+6. Click *'Add Rule'*
+7. Select *'>'* (greater than) from the drop-down menu
+8. Type *'2000'* in the text box
 9. Click anywhere outside of the text box to confirm
-10. Click *‘Add Group’* above this filter
-11. In the new group that appears below your first filter, change the *‘Match Type’* to *‘Any’*
-12. Select *‘Type of material used’* from the drop-down list
-13. Click *‘Add Rule’*
-14. Select *‘Sediment’* from the drop-down menu under *‘Type of material used’*
-15. Select *‘Type of mineral used’* from the drop-down list
-16. Click the *‘Add Rule’* button again
-17. Select *‘Quartz’* from the drop-down menu under *‘Type of material used’*
-18. Within the Filter menu, scroll back up to the top of the menu and click *‘Add Group’*
-19. Scroll down to your new group and change *‘Match Type’* to *‘Any’*
-20. Select *‘Sample collection method’* from the drop-down menu
-21. Click *‘Add Rule’*
-22. Leave the default option of *‘Auger’* for *‘Sample collection method’*
-23. Click *‘Add Rule’*
-24. Select *‘Core’* from the second drop-down menu
+10. Click *'Add Group'* above this filter
+11. In the new group that appears below your first filter, change the *'Match Type'* to *'Any'*
+12. Select *'Type of material used'* from the drop-down list
+13. Click *'Add Rule'*
+14. Select *'Sediment'* from the drop-down menu under *'Type of material used'*
+15. Select *'Type of mineral used'* from the drop-down list
+16. Click the *'Add Rule'* button again
+17. Select *'Quartz'* from the drop-down menu under *'Type of material used'*
+18. Within the Filter menu, scroll back up to the top of the menu and click *'Add Group'*
+19. Scroll down to your new group and change *'Match Type'* to *'Any'*
+20. Select *'Sample collection method'* from the drop-down menu
+21. Click *'Add Rule'*
+22. Leave the default option of *'Auger'* for *'Sample collection method'*
+23. Click *'Add Rule'*
+24. Select *'Core'* from the second drop-down menu
 25. Navigate to the *Export Data* menu
-26. Select *‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’* from the first drop-down menu
-27. Leave *‘Shapefile’* (default) in the second drop-down menu
-28. Choose your intended use of the data from the third drop-down menu (e.g. *‘Research (other)’*)
-29. Click *‘Export Layer’*
+26. Select *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* from the first drop-down menu
+27. Leave *'Shapefile'* (default) in the second drop-down menu
+28. Choose your intended use of the data from the third drop-down menu (e.g. *'Research (other)'*)
+29. Click *'Export Layer'*
 
 Use case #3
 ^^^^^^^^^^^
@@ -338,28 +338,28 @@ In this example, we will generate KML files of archaeological, fossil, and sedim
 2. Select (by tick boxes) all sub-collections in the *Sahul Sedimentary Archives* and *Sahul Archaeology* collections and select the *FosSahul Database*
 3. Navigate to the *Filter* menu
 4. Click the *Sahul Sedimentary Archives: Fluvial deposits: OSL collection* drop-down menu
-5. Select *‘OSL age (ka)’* from the second drop-down list
-6. Click *‘Add Rule’*
-7. In the *‘OSL age (ka)’* filter section, select *‘<=’* (lesser than or equal to) and type *8*
+5. Select *'OSL age (ka)'* from the second drop-down list
+6. Click *'Add Rule'*
+7. In the *'OSL age (ka)'* filter section, select *'<='* (lesser than or equal to) and type *8*
 8. Click anywhere outside of the text box to confirm
-9. Click *‘Add Rule’* again
-10. In the second *‘OSL age (ka)’* filter section, select *‘>=’* (greater than or equal to) and type *1*
-11. Select *‘IBRA-7 bio-region name’* from the first filter drop-down menu
-12. Click *‘Add Rule’*
-13. In the *‘IBRA-7 bio-region name’* filter section, select *‘Cape York Peninsula’*
+9. Click *'Add Rule'* again
+10. In the second *'OSL age (ka)'* filter section, select *'>='* (greater than or equal to) and type *1*
+11. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
+12. Click *'Add Rule'*
+13. In the *'IBRA-7 bio-region name'* filter section, select *'Cape York Peninsula'*
 14. Click outside the text box to confirm
-15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify *‘TL age (ka)’* instead of *‘OSL age (ka)’* except for *Sahul Archaeology: Radiocarbon* collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka)
-16. For *Sahul Archaeology: Radiocarbon collection*, select *‘Age (BP)’*
-17. Click *‘Add Rule’*
-18. Select *‘<=’* (lesser than or equal to) and type *’8000’*
-19. Click *‘Add Rule’*
-20. Select *‘>=’* (greater than or equal to) and type *’1000’*
-21. Select *‘IBRA-7 bio-region name’* from the first filter drop-down menu
-22. Click *‘Add Rule’*
-23. In the *‘IBRA-7 bio-region name’* filter section, select *‘Cape York Peninsula’*
+15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify *'TL age (ka)'* instead of *'OSL age (ka)'* except for *Sahul Archaeology: Radiocarbon* collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka))
+16. For *Sahul Archaeology: Radiocarbon collection*, select *'Age (BP)'*
+17. Click *'Add Rule'*
+18. Select *'<='* (lesser than or equal to) and type *'8000'*
+19. Click *'Add Rule'*
+20. Select *'>='* (greater than or equal to) and type *'1000'*
+21. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
+22. Click *'Add Rule'*
+23. In the *'IBRA-7 bio-region name'* filter section, select *'Cape York Peninsula'*
 24. Click outside the text box to confirm
 25. Navigate to the Export Data menu
-26. Select *‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’* from the first drop-down menu, *‘KML’* from the second drop- down menu, and intended research purpose (e.g. *‘Research (other)’*) from the third drop-down menu
+26. Select *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* from the first drop-down menu, *'KML'* from the second drop- down menu, and intended research purpose (e.g. *'Research (other)'*) from the third drop-down menu
 27. Click *Export Layer* and save file
 28. Repeat steps 26-27 for each data collection
 
