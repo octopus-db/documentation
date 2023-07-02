@@ -318,68 +318,115 @@ Use case #2
 ^^^^^^^^^^^
 In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.
 
-1. Navigate to the *Layers* menu
-2. Select *'OSL collection'* under *'Fluvial deposits'* under *'Sahul Sedimentary Archives'*
-3. Navigate to the *Filters* menu
-4. Select the *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* drop-down menu. Leave *'Match Type'* set to *'All'* (default)
-5. Choose *'Year'* from the drop-down menu
-6. Click *'Add Rule'*
-7. Select *'>'* (greater than) from the drop-down menu
-8. Type *'2000'* in the text box
-9. Click anywhere outside of the text box to confirm
-10. Click *'Add Group'* above this filter
-11. In the new group that appears below your first filter, change the *'Match Type'* to *'Any'*
-12. Select *'Type of material used'* from the drop-down list
-13. Click *'Add Rule'*
-14. Select *'Sediment'* from the drop-down menu under *'Type of material used'*
-15. Select *'Type of mineral used'* from the drop-down list
-16. Click the *'Add Rule'* button again
-17. Select *'Quartz'* from the drop-down menu under *'Type of material used'*
-18. Within the Filter menu, scroll back up to the top of the menu and click *'Add Group'*
-19. Scroll down to your new group and change *'Match Type'* to *'Any'*
-20. Select *'Sample collection method'* from the drop-down menu
-21. Click *'Add Rule'*
-22. Leave the default option of *'Auger'* for *'Sample collection method'*
-23. Click *'Add Rule'*
-24. Select *'Core'* from the second drop-down menu
-25. Navigate to the *Export Data* menu
-26. Select *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* from the first drop-down menu
-27. Leave *'Shapefile'* (default) in the second drop-down menu
-28. Choose your intended use of the data from the third drop-down menu (e.g. *'Research (other)'*)
-29. Click *'Export Layer'*
+| 1. Navigate to the *Layers* menu
+| 2. Select *'OSL collection'* under *'Fluvial deposits'* under *'Sahul Sedimentary Archives'*
+
+.. image:: ./img/webint_12_UseCase2_1.png
+   :width: 450px
+
+| 3. Navigate to the *Filters* menu
+| 4. Select the *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* drop-down menu. Leave *'Match Type'* set to *'All'* (default)
+
+.. image:: ./img/webint_13_UseCase2_2.png
+   :width: 450px
+
+| 5. Choose *'Year'* from the drop-down menu
+| 6. Click *'Add Rule'*
+
+| 7. Select *'>'* (greater than) from the drop-down menu
+| 8. Type *'2000'* in the text box
+
+.. image:: ./img/webint_14_UseCase2_3.png
+   :width: 450px
+
+| 9. Click anywhere outside of the text box to confirm
+| 10. Click *'Add Group'* above this filter
+
+| 11. In the new group that appears below your first filter, change the *'Match Type'* to *'Any'*
+| 12. Select *'Type of material used'* from the drop-down list
+
+.. image:: ./img/webint_15_UseCase2_4.png
+   :width: 450px
+
+| 13. Click *'Add Rule'*
+| 14. Select *'Sediment'* from the drop-down menu under *'Type of material used'*
+| 15. Select *'Type of mineral used'* from the drop-down list
+
+.. image:: ./img/webint_16_UseCase2_5.png
+   :width: 450px
+
+| 16. Click the *'Add Rule'* button again
+| 17. Select *'Quartz'* from the drop-down menu under *'Type of material used'*
+
+.. image:: ./img/webint_17_UseCase2_6.png
+   :width: 450px
+
+| 18. Within the Filter menu, scroll back up to the top of the menu and click *'Add Group'*
+
+.. image:: ./img/webint_18_UseCase2_7.png
+   :width: 450px
+
+| 19. Scroll down to your new group and change *'Match Type'* to *'Any'*
+| 20. Select *'Sample collection method'* from the drop-down menu
+
+.. image:: ./img/webint_19_UseCase2_8.png
+   :width: 450px
+
+| 21. Click *'Add Rule'*
+| 22. Leave the default option of *'Auger'* for *'Sample collection method'*
+| 23. Click *'Add Rule'*
+
+.. image:: ./img/webint_20_UseCase2_9.png
+   :width: 450px
+
+
+| 24. Select *'Core'* from the second drop-down menu
+
+.. image:: ./img/webint_21_UseCase2_10.png
+   :width: 450px
+
+| 25. Navigate to the *Export Data* menu
+| 26. Select *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* from the first drop-down menu
+
+.. image:: ./img/webint_22_UseCase2_11.png
+   :width: 450px
+
+| 27. Leave *'Shapefile'* (default) in the second drop-down menu
+| 28. Choose your intended use of the data from the third drop-down menu (e.g. *'Research (other)'*)
+| 29. Click *'Export Layer'*
 
 Use case #3
 ^^^^^^^^^^^
 In this example, we will generate KML files of archaeological, fossil, and sediment age determinations from Cape York Peninsula (IBRA bioregion [#]_) between 1000 and 8000 years old.
 
-1. Navigate to the *Layers* menu
-2. Select (by tick boxes) all sub-collections in the *Sahul Sedimentary Archives* and *Sahul Archaeology* collections and select the *FosSahul Database*
-3. Navigate to the *Filter* menu
-4. Click the *Sahul Sedimentary Archives: Fluvial deposits: OSL collection* drop-down menu
-5. Select *'OSL age (ka)'* from the second drop-down list
-6. Click *'Add Rule'*
-7. In the *'OSL age (ka)'* filter section, select *'<='* (lesser than or equal to) and type *8*
-8. Click anywhere outside of the text box to confirm
-9. Click *'Add Rule'* again
-10. In the second *'OSL age (ka)'* filter section, select *'>='* (greater than or equal to) and type *1*
-11. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
-12. Click *'Add Rule'*
-13. In the *'IBRA-7 bio-region name'* filter section, select *'Cape York Peninsula'*
-14. Click outside the text box to confirm
-15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify *'TL age (ka)'* instead of *'OSL age (ka)'* except for *Sahul Archaeology: Radiocarbon* collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka))
-16. For *Sahul Archaeology: Radiocarbon collection*, select *'Age (BP)'*
-17. Click *'Add Rule'*
-18. Select *'<='* (lesser than or equal to) and type *'8000'*
-19. Click *'Add Rule'*
-20. Select *'>='* (greater than or equal to) and type *'1000'*
-21. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
-22. Click *'Add Rule'*
-23. In the *'IBRA-7 bio-region name'* filter section, select *'Cape York Peninsula'*
-24. Click outside the text box to confirm
-25. Navigate to the Export Data menu
-26. Select *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* from the first drop-down menu, *'KML'* from the second drop- down menu, and intended research purpose (e.g. *'Research (other)'*) from the third drop-down menu
-27. Click *Export Layer* and save file
-28. Repeat steps 26-27 for each data collection
+| 1. Navigate to the *Layers* menu
+| 2. Select (by tick boxes) all sub-collections in the *Sahul Sedimentary Archives* and *Sahul Archaeology* collections and select the *FosSahul Database*
+| 3. Navigate to the *Filter* menu
+| 4. Click the *Sahul Sedimentary Archives: Fluvial deposits: OSL collection* drop-down menu
+| 5. Select *'OSL age (ka)'* from the second drop-down list
+| 6. Click *'Add Rule'*
+| 7. In the *'OSL age (ka)'* filter section, select *'<='* (lesser than or equal to) and type *8*
+| 8. Click anywhere outside of the text box to confirm
+| 9. Click *'Add Rule'* again
+| 10. In the second *'OSL age (ka)'* filter section, select *'>='* (greater than or equal to) and type *1*
+| 11. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
+| 12. Click *'Add Rule'*
+| 13. In the *'IBRA-7 bio-region name'* filter section, select *'Cape York Peninsula'*
+| 14. Click outside the text box to confirm
+| 15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify *'TL age (ka)'* instead of *'OSL age (ka)'* except for *Sahul Archaeology: Radiocarbon* collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka))
+| 16. For *Sahul Archaeology: Radiocarbon collection*, select *'Age (BP)'*
+| 17. Click *'Add Rule'*
+| 18. Select *'<='* (lesser than or equal to) and type *'8000'*
+| 19. Click *'Add Rule'*
+| 20. Select *'>='* (greater than or equal to) and type *'1000'*
+| 21. Select *'IBRA-7 bio-region name'* from the first filter drop-down menu
+| 22. Click *'Add Rule'*
+| 23. In the *'IBRA-7 bio-region name'* filter section, select *'Cape York Peninsula'*
+| 24. Click outside the text box to confirm
+| 25. Navigate to the Export Data menu
+| 26. Select *'Sahul Sedimentary Archives: Fluvial deposits: OSL collection'* from the first drop-down menu, *'KML'* from the second drop- down menu, and intended research purpose (e.g. *'Research (other)'*) from the third drop-down menu
+| 27. Click *Export Layer* and save file
+| 28. Repeat steps 26-27 for each data collection
 
 .. rubric:: Footnotes
 
