@@ -293,12 +293,23 @@ In this example, we will prepare a map of Australian archaeological radiocarbon 
 4. Select the *'Sahul Archaeology: Radiocarbon collection'* drop-down menu
 5. Choose *'Age (BP)'* from the drop-down menu
 6. Click *Add Rule*
+
+.. image:: ./img/webint_9_UseCase1_2.png
+   :width: 350px
+
 7. Select *'>'* (greater than) from the drop-down menu
 8. Type *'10000'* in the text box
 9. Click anywhere outside of the text box to confirm
 10. Navigate to the *Settings* menu
+
+.. image:: ./img/webint_10_UseCase1_3.png
+   :width: 350px
+
 11. Change the base map to *Maptiler Positron*
 12. Turn off the clustering option. You can now use Print Screen or a screen capture tool to save the map as an image
+
+.. image:: ./img/webint_11_UseCase1_4.png
+   :width: 350px
 
 Use case #2
 ^^^^^^^^^^^
