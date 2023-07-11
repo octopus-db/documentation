@@ -302,7 +302,7 @@ In this example, we will prepare a map of Australian archaeological radiocarbon 
 | 8. Type *'10000'* in the text box
 
 .. image:: ./img/webint_10_UseCase1_3.png
-   :width: 450px
+   :width: 400px
 
 | 9. Click anywhere outside of the text box to confirm
 
