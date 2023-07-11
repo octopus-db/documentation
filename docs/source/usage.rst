@@ -287,7 +287,7 @@ In this example, we will prepare a map of Australian archaeological radiocarbon 
 | 2. Select *'Radiocarbon collection'* under the *'Sahul Archaeology'* subheading
 
 .. image:: ./img/webint_8_UseCase1_1.png
-   :width: 450px
+   :width: 500px
 
 | 3. Navigate to the *Filter* menu
 | 4. Select the *'Sahul Archaeology: Radiocarbon collection'* drop-down menu
