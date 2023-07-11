@@ -1,6 +1,6 @@
 # Configuration file for the Sphinx documentation builder.
 # -- Project information
-project = 'OCTOPUS database'
+project = 'OCTOPUS database documentation'
 copyright = '2023, OCTOPUS database (CC BY 4.0)'
 author = 'H. Munack, E. Rehn, W. M. Saktura & A. T. Codilean'
 release = '1.0'
