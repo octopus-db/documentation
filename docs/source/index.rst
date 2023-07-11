@@ -14,11 +14,6 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
    | |:warning:| **We do explicitly not recommend the usage of OCTOPUS legacy versions!**
 
 
-.. note::
-
-   This project is under active development.
-
-
 .. toctree::
    :hidden:
    :maxdepth: 2
