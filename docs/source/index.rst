@@ -33,7 +33,8 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
    resources
    about
 
-| **Acknowledgement**. OCTOPUS database is supported by the Australian Research Council Centre of Excellence for Australian Biodiversity and Heritage (CABAH) [#]_. Funding was also provided by the University of Wollongong [#]_ and the Australian National Data Service (ANDS), now part of the Australian Research Data Commons [#]_.
+| **Acknowledgement**
+| OCTOPUS database is supported by the Australian Research Council Centre of Excellence for Australian Biodiversity and Heritage (CABAH) [#]_. Funding was also provided by the University of Wollongong [#]_ and the Australian National Data Service (ANDS), now part of the Australian Research Data Commons [#]_.
 
 .. image:: ./img/CABAH_UOW_ANDS.png
    :width: 750px
