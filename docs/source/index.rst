@@ -6,7 +6,7 @@ OCTOPUS database documentation
 
 OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its main purpose being the sustainment, upcycling and public provisioning of valuable legacy data that would otherwise be lost to the research community. Beyond research, the promotion and implementation of Indigenous self-management, public training and education are declared OCTOPUS focus target scopes.
 
-The latest OCTOPUS database documentation is available online (https://octopus-database.readthedocs.io/en/latest/), as ``PDF`` https://octopus-database.readthedocs.io/_/downloads/en/latest/pdf/, as ``HTMLZip`` https://octopus-database.readthedocs.io/_/downloads/en/latest/htmlzip/, or as ``Epub`` https://octopus-database.readthedocs.io/_/downloads/en/latest/epub/.
+The latest OCTOPUS database documentation is available ``online`` (https://octopus-database.readthedocs.io/en/latest/), as ``PDF`` https://octopus-database.readthedocs.io/_/downloads/en/latest/pdf/, as ``HTMLZip`` https://octopus-database.readthedocs.io/_/downloads/en/latest/htmlzip/, or as ``Epub`` https://octopus-database.readthedocs.io/_/downloads/en/latest/epub/.
 
 .. important::
 
