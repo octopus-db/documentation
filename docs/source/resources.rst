@@ -3,18 +3,18 @@ Resources
 =========
 
 
-| `https://zenodo.org/communities/octopus-database/ <https://zenodo.org/communities/octopus-database/>`_
+* Zenodo OCTOPUS database community (https://zenodo.org/communities/octopus-database/)
 
-| `Relational database schema and documentation <https://zenodo.org/record/7352807>`_
+* OCTOPUS relational database schema and documentation (https://zenodo.org/record/7352807)
 
-| `https://www.re3data.org/repository/r3d100013702 <https://www.re3data.org/repository/r3d100013702>`_
+* Registry of Research Data Repositories (https://www.re3data.org/repository/r3d100013702)
 
-| `https://epicaustralia.org.au/resource/octopus/ <https://epicaustralia.org.au/resource/octopus/>`_
+* CABAH website (https://epicaustralia.org.au/resource/octopus/)
 
-| Tutorial videos
+Tutorial videos
 
-* `About OCTOPUS database <https://youtu.be/GqRczsI0Us0>`_
+* About OCTOPUS database <https://youtu.be/GqRczsI0Us0>
 
-* `Using OCTOPUS web interface <https://youtu.be/i_z1zzljwAY>`_
+* Using OCTOPUS web interface <https://youtu.be/i_z1zzljwAY>
 
-* `SahulArch collections <https://youtu.be/64_OVjo90nc>`_
+* About SahulArch collections <https://youtu.be/64_OVjo90nc>
