@@ -174,7 +174,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 173,The Quaternary Research (Daiyonki-Kenkyu),Quaternary_Res_Japan,0418-2642,1881-8129,2021-11-19 12:11:05.011 +0100,
 174,Marine Pollution Bulletin,Mar_Pollut_Bull,0025-326X,1879-3363,2021-11-19 12:11:05.011 +0100,
 175,Quaternary,Quaternary,,2571-550X,2021-11-19 12:11:05.011 +0100,
-176,"Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",P_R_Soc_A,1364-5021,1471-2946,2021-11-19 12:11:05.011 +0100,
+176,"Proceedings of the Royal Society of London. Series A, Mathematical, Physical and Engineering Sciences",P_R_Soc_A,1364-5021,1471-2946,2021-11-19 12:11:05.011 +0100,2023-07-22 09:14:40.549 +0200
 177,Pirineos. Revista de Ecología de Montaña,Pirineos,0373-2568,1988-4281,2021-11-19 12:11:05.011 +0100,
 178,Australian Geographical Studies,Aust_Geogr_Stud,0004-9190,1467-8470,2021-11-19 12:11:05.011 +0100,
 179,Current Anthropology,Curr_Anthropol,0011-3204,1537-5382,2021-11-19 12:11:05.011 +0100,
@@ -387,7 +387,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 386,Atti del Reale Istituto Veneto di Scienze Lettero e Art,TBA,,,2022-12-24 12:43:54.752 +0100,
 387,Atti della Societa Italiana di Scienze Naturali e del Museo Civico di Storia Naturale di Milano,TBA,,,2022-12-24 12:43:54.752 +0100,
 388,Australian Entomological Magazine,Aust_Entomol_Mag,0311-1881,,2022-12-24 12:43:54.752 +0100,2023-01-02 13:40:07.146 +0100
-389,Australian Journal of Ecology,TBA,,,2022-12-24 12:43:54.752 +0100,
+389,Australian Journal of Ecology,Aust_J_Ecol,0307-692X,,2022-12-24 12:43:54.752 +0100,2023-07-22 09:18:29.355 +0200
 390,Australasian Journal of Environmental Management,Australas_J_Env_Man,1448-6563,2159-5356,2022-12-24 12:43:54.752 +0100,2023-01-02 13:46:44.659 +0100
 391,Australian Journal of Marine and Freshwater Research,Aust_J_Mar_Fresh_Res,0067-1940,,2022-12-24 12:43:54.752 +0100,2023-01-02 13:48:42.483 +0100
 392,Australian Systematic Botany,Aust_Syst_Bot,1030-1887,1446-5701,2022-12-24 12:43:54.752 +0100,2023-01-02 13:50:37.705 +0100
@@ -845,7 +845,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 844,La Gaceta Geológica,TBA,,,2022-12-24 12:43:54.752 +0100,
 845,La Naturaleza,TBA,,,2022-12-24 12:43:54.752 +0100,
 846,Lake and Reservoir Management,TBA,,,2022-12-24 12:43:54.752 +0100,
-847,Landscape Ecology,TBA,,,2022-12-24 12:43:54.752 +0100,
+847,Landscape Ecology,Landscape_Ecol,0921-2973,1572-9761,2022-12-24 12:43:54.752 +0100,2023-07-22 09:19:45.451 +0200
 848,Latin American Antiquity,TBA,,,2022-12-24 12:43:54.752 +0100,
 849,Latin American Journal of Sedimentology and Basin Analysis,TBA,,,2022-12-24 12:43:54.752 +0100,
 850,Lauterbornia,TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -875,7 +875,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 874,Man in the Northeast,TBA,,,2022-12-24 12:43:54.752 +0100,
 875,Manitoba Archaeological Journal,TBA,,,2022-12-24 12:43:54.752 +0100,
 876,Manitoba Archaeological Quarterly,TBA,,,2022-12-24 12:43:54.752 +0100,
-877,Marine and Freshwater Research,Mar_Fresh_Res,1323-1650,1448-6059,2022-12-24 12:43:54.752 +0100,2023-01-02 14:06:18.697 +0100
+877,Marine and Freshwater Research - NOT VALID - use JOURNALID 87 instead,Mar_Fresh_Res,1323-1650,1448-6059,2022-12-24 12:43:54.752 +0100,2023-07-22 08:39:29.510 +0200
 878,Marine and Petroleum Geology,TBA,,,2022-12-24 12:43:54.752 +0100,
 879,Marine Environmental Research,TBA,,,2022-12-24 12:43:54.752 +0100,
 880,Marine Micropaleontology,TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -1008,7 +1008,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 1007,Oulun Yliopisto Historian Laitos,TBA,,,2022-12-24 12:43:54.752 +0100,
 1008,Oulun Yliopiston Oulangan Biologisen Aseman Monisteita,TBA,,,2022-12-24 12:43:54.752 +0100,
 1009,Pacific Science,TBA,,,2022-12-24 12:43:54.752 +0100,
-1010,PAGES News,TBA,,,2022-12-24 12:43:54.752 +0100,
+1010,PAGES News,PAGES_News,1811-1602,1811-1610,2022-12-24 12:43:54.752 +0100,2023-07-22 09:20:56.014 +0200
 1011,Palaeobotanist,TBA,,,2022-12-24 12:43:54.752 +0100,
 1012,Palaeodiversity,TBA,,,2022-12-24 12:43:54.752 +0100,
 1013,Palaeoecology,TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -1070,7 +1070,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 1069,Plant Biosystems,TBA,,,2022-12-24 12:43:54.752 +0100,
 1070,Plant Systematics and Evolution,TBA,,,2022-12-24 12:43:54.752 +0100,
 1071,Plattform - Zeitschrift des Vereins für Pfahlbau- und Heimatkunde e.V.,TBA,,,2022-12-24 12:43:54.752 +0100,
-1072,PLOS ONE,TBA,,,2022-12-24 12:43:54.752 +0100,
+1072,PLOS ONE - NOT VALID - use JOURNALID 96 instead,TBA,,,2022-12-24 12:43:54.752 +0100,2023-07-22 08:44:14.527 +0200
 1073,Polar Biology,TBA,,,2022-12-24 12:43:54.752 +0100,
 1074,Polarforschung,TBA,,,2022-12-24 12:43:54.752 +0100,
 1075,Polish Botanical Journal,Pol_Bot_J,1641-8190,2084-4352,2022-12-24 12:43:54.752 +0100,2023-01-03 13:06:35.699 +0100
@@ -1103,7 +1103,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 1102,"Proceedings of the National Academy of Sciences, India Section B: Biological Sciences",TBA,,,2022-12-24 12:43:54.752 +0100,
 1103,Proceedings of the North Dakota Academy of Sciences,TBA,,,2022-12-24 12:43:54.752 +0100,
 1104,Proceedings of the Nova Scotian Institute of Science,TBA,,,2022-12-24 12:43:54.752 +0100,
-1105,"Proceedings of the Ocean Drilling Program, Scientific Results",TBA,,,2022-12-24 12:43:54.752 +0100,
+1105,"Proceedings of the Ocean Drilling Program, Scientific Results",P_Ocean_Drill_Prog,0884-5891,1096-7451,2022-12-24 12:43:54.752 +0100,2023-07-22 09:23:00.434 +0200
 1106,Proceedings of the Oklahoma Academy of Science,TBA,,,2022-12-24 12:43:54.752 +0100,
 1107,Proceedings of the Royal Irish Academy,TBA,,,2022-12-24 12:43:54.752 +0100,
 1108,"Proceedings of the Royal Irish Academy. Section B: Biological, Geological, and Chemical Science",TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -1402,3 +1402,13 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 1401,Bayesian Analysis,Bayesian_Stat,,1931-6690,2023-06-07 13:38:09.591 +0200,2023-06-07 13:38:09.591 +0200
 1402,Journal of the Royal Statistical Society Series C: Applied Statistics,J_Roy_Stat_Soc_C-APP,0035-9254,1467-9876,2023-06-07 13:40:33.750 +0200,2023-06-07 13:40:33.750 +0200
 1403,Internet Archaeology,Internet_Archaeol,,1363-5387,2023-06-12 12:57:23.401 +0200,2023-06-12 12:57:23.401 +0200
+1404,"Journal of Agricultural, Biological and Environmental Statistics",J_Agr_Biol_Env_St,1085-7117,1537-2693,2023-06-16 08:52:39.580 +0200,2023-06-16 08:52:39.580 +0200
+1405,Ambio,Ambio,0044-7447,1654-7209,2023-07-22 09:01:07.695 +0200,2023-07-22 09:01:07.695 +0200
+1406,Ecological Management and Restoration,Ecol_Manag_Restor,1442-7001,1839-3330,2023-07-22 09:01:08.152 +0200,2023-07-22 09:11:58.749 +0200
+1407,Environmental Pollution,Environ_Pollut,0364-4936,2639-9288,2023-07-22 09:01:08.477 +0200,2023-07-22 09:12:22.140 +0200
+1408,Fire,Fire,,,2023-07-22 09:01:08.784 +0200,2023-07-22 09:01:08.784 +0200
+1409,Journal of Urban Ecology,J_Urb_Ecol,,2058-5543,2023-07-22 09:01:09.090 +0200,2023-07-22 09:12:58.250 +0200
+1410,"Proceedings of the Royal Society of London. Series B, Biological sciences",P_R_Soc_B,0080-4649,2053-9193,2023-07-22 09:01:09.396 +0200,2023-07-22 09:14:31.613 +0200
+1411,Regional Environmental Change,Reg_Environ_Change,1436-3798,1436-378X,2023-07-22 09:01:09.704 +0200,2023-07-22 09:15:29.733 +0200
+1412,River Research and Applications,River_Res_Appl,1535-1459,1535-1467,2023-07-22 09:01:10.010 +0200,2023-07-22 09:15:50.477 +0200
+1413,Science of the Total Environment,Sci_Total_Environ,0048-9697,1879-1026,2023-07-22 09:01:10.318 +0200,2023-07-22 09:16:17.179 +0200
