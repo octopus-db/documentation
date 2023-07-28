@@ -325,7 +325,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 324,"Annales Littéraires, Série Environnement",TBA,,,2022-12-24 12:43:54.752 +0100,
 325,Annales Zoologici (Warszawa),TBA,,,2022-12-24 12:43:54.752 +0100,
 326,Annales Zoologici Fennici,TBA,,,2022-12-24 12:43:54.752 +0100,
-327,Annals of Botany,TBA,,,2022-12-24 12:43:54.752 +0100,
+327,Annals of Botany,TBA,0305-7364,,2022-12-24 12:43:54.752 +0100,2023-07-27 14:31:28.582 +0200
 328,Annals of the American Association of Geographers,TBA,,,2022-12-24 12:43:54.752 +0100,
 329,Annals of The Carnegie Museum,TBA,,,2022-12-24 12:43:54.752 +0100,
 330,Annals of the Missouri Botanical Garden,TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -377,7 +377,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 376,Archiv für Protistenkunde,TBA,,,2022-12-24 12:43:54.752 +0100,
 377,Archives de la Commission Scientifique du Mexique,TBA,,,2022-12-24 12:43:54.752 +0100,
 378,Arctic,TBA,,,2022-12-24 12:43:54.752 +0100,
-379,Arctic and Alpine Research,TBA,,,2022-12-24 12:43:54.752 +0100,
+379,Arctic and Alpine Research,TBA,0004-0851,2325-5153,2022-12-24 12:43:54.752 +0100,2023-07-27 14:32:45.245 +0200
 380,Arctic Anthropology,TBA,,,2022-12-24 12:43:54.752 +0100,
 381,Arctic Circle,TBA,,,2022-12-24 12:43:54.752 +0100,
 382,Arkansas Archeologist,TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -680,7 +680,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 679,Freshwater Biology,TBA,,,2022-12-24 12:43:54.752 +0100,
 680,Fronteras de Investigación,TBA,,,2022-12-24 12:43:54.752 +0100,
 681,Frontiers in Earth Science,TBA,,,2022-12-24 12:43:54.752 +0100,
-682,Frontiers in Ecology and Evolution,TBA,,,2022-12-24 12:43:54.752 +0100,
+682,Frontiers in Ecology and Evolution,TBA,,2296-701X,2022-12-24 12:43:54.752 +0100,2023-07-27 14:33:21.717 +0200
 683,Frontiers in Forests and Global Change,TBA,,,2022-12-24 12:43:54.752 +0100,
 684,Frontiers in Plant Science,TBA,,,2022-12-24 12:43:54.752 +0100,
 685,Fundamental and applied Limnology,TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -802,7 +802,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 801,Journal of Morphology,J_Morphol,,,2022-12-24 12:43:54.752 +0100,
 802,Journal of Natural History,J_Nat_Hist,,,2022-12-24 12:43:54.752 +0100,
 803,Journal of Northern Studies,J_North_Studies,,,2022-12-24 12:43:54.752 +0100,
-804,Journal of Paleolimnology,J_Paleolimnol,,,2022-12-24 12:43:54.752 +0100,
+804,Journal of Paleolimnology,J_Paleolimnol,0921-2728,1573-0417,2022-12-24 12:43:54.752 +0100,2023-07-27 14:36:26.706 +0200
 805,Journal of Paleontology,J_Paleontol,,,2022-12-24 12:43:54.752 +0100,
 806,Journal of Phycology,J_Phycology,,,2022-12-24 12:43:54.752 +0100,
 807,Journal of Primatology,J_Primatology,,,2022-12-24 12:43:54.752 +0100,
@@ -831,7 +831,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 830,Journal of the Tennessee Academy of Science,J_Tennessee_Acad_Sci,,,2022-12-24 12:43:54.752 +0100,
 831,Journal of the Washington Academy of Sciences,J_Washington_Acad_Sci,,,2022-12-24 12:43:54.752 +0100,
 832,Journal of Vegetation History and Archaeobotany,J_Veg_Hist_Archaeo,,,2022-12-24 12:43:54.752 +0100,
-833,Journal of Vegetation Science,J_Veg_Sci,,,2022-12-24 12:43:54.752 +0100,
+833,Journal of Vegetation Science,J_Veg_Sci,1100-9233,1654-1103,2022-12-24 12:43:54.752 +0100,2023-07-27 14:37:10.381 +0200
 834,Journal of Vertebrate Paleontology,J_Vertebr_Paleontol,0272-4634,1937-2809,2022-12-24 12:43:54.752 +0100,2023-01-02 14:04:28.616 +0100
 835,"Journal of Vertebrate Paleontology, Supplement",J_Vertebr_Paleontol_Supp,,,2022-12-24 12:43:54.752 +0100,
 836,Journal of Volcanology and Geothermal Research,J_Volcanol_Geoth_Res,,,2022-12-24 12:43:54.752 +0100,
@@ -1055,7 +1055,7 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 1054,"Perspectives in Plant Ecology, Evolution and Systematics",TBA,,,2022-12-24 12:43:54.752 +0100,
 1055,Phycologia,TBA,,,2022-12-24 12:43:54.752 +0100,
 1056,Phylogenetics and Evolution,TBA,,,2022-12-24 12:43:54.752 +0100,
-1057,Physical Geography,TBA,,,2022-12-24 12:43:54.752 +0100,
+1057,Physical Geography,TBA,0272-3646,1930-0557,2022-12-24 12:43:54.752 +0100,2023-07-27 14:38:02.634 +0200
 1058,Physics and Chemistry of the Earth,TBA,,,2022-12-24 12:43:54.752 +0100,
 1059,"Physis, Revista de la Sociedad Argentina de Ciencias Naturales",TBA,,,2022-12-24 12:43:54.752 +0100,
 1060,Phytochemistry,TBA,,,2022-12-24 12:43:54.752 +0100,
@@ -1412,3 +1412,5 @@ JOURNALID,JOURNAL,JOURNALABB,PRINT_ISSN,ONLIN_ISSN,CREATED_AT,UPDATED_AT
 1411,Regional Environmental Change,Reg_Environ_Change,1436-3798,1436-378X,2023-07-22 09:01:09.704 +0200,2023-07-22 09:15:29.733 +0200
 1412,River Research and Applications,River_Res_Appl,1535-1459,1535-1467,2023-07-22 09:01:10.010 +0200,2023-07-22 09:15:50.477 +0200
 1413,Science of the Total Environment,Sci_Total_Environ,0048-9697,1879-1026,2023-07-22 09:01:10.318 +0200,2023-07-22 09:16:17.179 +0200
+1414,New Zealand Journal of Ecology,New_Zeal_J_Ecols,0110-6465,1177-7788,2023-07-27 14:41:34.217 +0200,2023-07-27 14:41:34.217 +0200
+1415,Earth and Environmental Science Transactions of the Royal Society of Edinburgh,Earth_Env_Sci_T_R_So,1755-6910,1755-6929,2023-07-27 14:44:48.405 +0200,2023-07-27 14:44:48.405 +0200

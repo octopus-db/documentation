@@ -100,7 +100,7 @@ global_varunitID fields
 global_RefCore fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefCore* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefCore__202307231140.csv>`_ |:chipmunk:|
+| The latest *global_RefCore* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefCore__202307281302.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefCore` variable specs)
 
 ..  _global_RefAbstract_Fields:
@@ -108,7 +108,7 @@ global_RefCore fields
 global_RefAbstract fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202307231140.csv>`_ |:chipmunk:|
+| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202307281303.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
 
 ..  _global_Author_Fields:
@@ -120,7 +120,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202307231141.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202307281303.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_Journal_Fields:
@@ -132,7 +132,7 @@ global_Journal fields
    :file: ./csv_tables/global_Journal_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Journal* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202307231141.csv>`_ |:chipmunk:|
+| The latest *global_Journal* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202307281303.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Journal` variable specs)
 
 ..  _global_PubType_Fields:
