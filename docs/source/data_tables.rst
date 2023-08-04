@@ -2119,7 +2119,7 @@ The following tables exclusively serve the :ref:`expage`.
 
 ..  _expage_Sample:
 
-ExpAge table
+expage_Sample table
 ^^^^^^^^^^^^^^^^^^^
 The *expage_Sample* table stores :ref:`expage` sample information and is, therefore, situated between the collection-specific :ref:`expage_DataCore` (subordinate) and the :ref:`global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
 
@@ -2153,7 +2153,7 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
    :file: ./csv_tables/expage_DataCore.csv
    :header-rows: 1
 
-* OBSID1 -- Unique age identifier provided as part of the compilation. Serves as back reference to parent expage fork (https://expage.github.io), with running alphabetic letter(s) added to the original “Sample ID”.
+* OBSID1 -- Unique age identifier provided as part of the compilation. Serves as back reference to parent ExpAge fork (https://expage.github.io), with running alphabetic letter(s) added to the original “Sample ID”.
 
 * OBSID2 -- Original sample identifier (as published). This is NOT the laboratory code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
