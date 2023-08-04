@@ -2112,14 +2112,14 @@ The *fos_polygons_EPSG3857* table stores **spatial features**, i.e., polygons of
 
 ..  _expage_tables:
 
-expage tables
+ExpAge tables
 ~~~~~~~~~~~~~
 
 The following tables exclusively serve the :ref:`expage`.
 
 ..  _expage_Sample:
 
-expage_Sample table
+ExpAge table
 ^^^^^^^^^^^^^^^^^^^
 The *expage_Sample* table stores :ref:`expage` sample information and is, therefore, situated between the collection-specific :ref:`expage_DataCore` (subordinate) and the :ref:`global_SiteMaster` (superordinate; see :ref:`Semantic_data_model`).
 
@@ -2196,7 +2196,7 @@ The *expage_DataCore* table stores **observations** (= smallest data model entit
 
 expage_points_EPSG3857 table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *expage_points_EPSG3857* table stores spatial features, i.e., points of the expage partner collection (EPSG:900913).
+The *expage_points_EPSG3857* table stores spatial features, i.e., points of the ExpAge partner collection (EPSG:900913).
 
 .. csv-table::
    :file: ./csv_tables/expage_points_EPSG3857.csv
