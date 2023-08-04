@@ -311,7 +311,7 @@ FosSahul collection
 
 ..  _expage:
 
-expage collection
+ExpAge collection
 ~~~~~~~~~~~~~~~~~
 | *A global database of published 10Be and 26Al data from glacial samples*
 | **Publisher, Year**
@@ -325,7 +325,7 @@ expage collection
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
-| Heyman, Jakob (2021) expage -- A global compilation of glacial 10Be and 26Al data. https://expage.github.io (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
+| Heyman, Jakob (2021) ExpAge -- A global compilation of glacial 10Be and 26Al data. https://expage.github.io (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
 | **DOI**
 | not applicable
 |
