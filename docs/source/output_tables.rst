@@ -112,7 +112,7 @@ FosSahul output
 
 ..  _expage_output:
 
-expage output
+ExpAge output
 -------------
 
 .. csv-table::
