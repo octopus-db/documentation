@@ -3,8 +3,8 @@
 OCTOPUS is non-commercial, non-profit, and least restrictively licensed. The main purpose of the database is the sustainment, upcycling and public provisioning of valuable legacy data that would otherwise be lost to the research community. Beyond research, the promotion and implementation of Indigenous self-management, public training and education are declared OCTOPUS focus target scopes.
 
 The OCTOPUS database documentation, so far, was distributed across several internet sources of which the OCTOPUS Zenodo community repository (https://zenodo.org/communities/octopus-database/) stores the majority of information, namely: 
-+ **OCTOPUS Database v.2: Database field description tables** (https://doi.org/10.5281/zenodo.7352827),
-+ **OCTOPUS Database v.2: Relational database schema and documentation** (https://doi.org/10.5281/zenodo.7352807), and
-+ **OCTOPUS Web Feature Service (WFS) and Web Interface User Guides** (https://doi.org/10.5281/zenodo.7063533, https://doi.org/10.5281/zenodo.6469039).
+  **OCTOPUS Database v.2: Database field description tables** (https://doi.org/10.5281/zenodo.7352827),
+  **OCTOPUS Database v.2: Relational database schema and documentation** (https://doi.org/10.5281/zenodo.7352807), and
+  **OCTOPUS Web Feature Service (WFS) and Web Interface User Guides** (https://doi.org/10.5281/zenodo.7063533, https://doi.org/10.5281/zenodo.6469039).
 
 Various **Collection descriptions** exist elsewhere. The above documentation will be transferred to https://readthedocs.org/projects/octopus-database/ because usage will be more convenient for users and Git-based versioning allows for hassle-free and secure database documentation.
