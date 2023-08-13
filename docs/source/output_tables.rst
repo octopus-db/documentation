@@ -48,20 +48,24 @@ CRN ancillary data
 
 'Raster' folder
 ~~~~~~~~~~~~~~~
-* s..._atmospres.bil -- 
-* s..._atmospres.hdr -- 
+* s..._atmospres.bil -- Atmospheric pressure 
+* s..._atmospres.hdr -- s..._atmospres.bil header file
 * s..._d8flowdir.bil -- 
-* s..._d8flowdir.hdr -- 
+* s..._d8flowdir.hdr -- s..._d8flowdir.bil header file
 * s..._demhydro.bil -- 
-* s..._demhydro.hdr -- 
+* s..._demhydro.hdr -- s..._demhydro.bil header file
 * s..._flowacc.bil -- 
-* s..._flowacc.hdr -- 
+* s..._flowacc.hdr -- s..._flowacc.bil header file
 * s..._gradmkm.bil -- 
-* s..._gradmkm.hdr -- 
+* s..._gradmkm.hdr -- s..._gradmkm.bil header file
 * s..._prodscale.bil -- 
-* s..._prodscale.hdr -- 
+* s..._prodscale.hdr -- s..._prodscale.bil header file
 * s..._toposhield.bil -- 
-* s..._toposhield.hdr -- 
+* s..._toposhield.hdr -- s..._toposhield.bil header file
+
+.. note::
+
+  Raster files are provided in .bil (**B**and **I**nterleaved by **L**ine) image encoding format, which cannot be considered an image format itself, but is depended on the accompanying header (.hdr) file meaning that users will always need the pair of files with one and the same filename.
 
 ..  _SahulArch_output:
 
