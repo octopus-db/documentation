@@ -12,7 +12,11 @@ References
 | 
 | Balco, Greg (2019). Glacier Change and Paleoclimate Applications of Cosmogenic-Nuclide Exposure Dating. Annu. Rev. Earth Pl. Sc., 48, 21--48. DOI: `10.1146/annurev-earth-081619-052609 <https://doi.org/10.1146/annurev-earth-081619-052609>`_
 | 
+| ``Braucher 2011``
+| 
 | Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
+| 
+| ``Codilean 2006``
 | 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). OCTOPUS database (v.2). Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
@@ -33,6 +37,8 @@ References
 | Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial TL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/2a76-vw55 <https://doi.org/10.25900/2a76-vw55>`_
 | 
 | Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial OSL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/p5ye-rn35 <https://doi.org/10.25900/p5ye-rn35>`_
+| 
+| ``Compo 2011``
 | 
 | Crabtree, S. A.; White, D. A.; Bradshaw, C. J. A.; Saltré, F.; Williams, A. N.; Beaman, R. J.; Bird, M. I.; Ulm, S. (2021). Landscape rules predict optimal superhighways for the first peopling of Sahul. Nature Human Behaviour, 5, 1303--1313. DOI: `10.1038/s41562-021-01106-8 <https://doi.org/10.1038/s41562-021-01106-8>`_
 | 
@@ -72,6 +78,8 @@ References
 | 
 | Murray, Andrew; Arnold, Lee J.; Buylaert, Jan-Pieter; Guérin, Guillaume; Qin, Jintang; Singhvi, Ashok K.; Smedley, Rachel; Thomsen, Kristina J. (2021). Optically stimulated luminescence dating using quartz. Nat Rev Methods Primers, 1, 72. DOI: `10.1038/s43586-021-00068-5 <https://doi.org/10.1038/s43586-021-00068-5>`_
 | 
+| ``Nishiizumi 2004``
+|
 | Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 258, 403--413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
 | 
 | Obe, Regina O.; Hsu, Leo S. (2021). PostGIS in action (Third Edition). Manning Publications Co., 20 Baldwin Road, PO Box 761, Shelter Island, NY 11964.
@@ -105,6 +113,8 @@ References
 | Schaefer, Joerg M.; Codilean, Alexandru T.; Willenbring, Jane K.; Lu, Zheng-Tian; Keisling, Benjamin; Fülöp, Réka-H.; Val, Pedro (2022). Cosmogenic nuclide techniques. Nat Rev Methods Primers 2, 18. DOI: `10.1038/s43586-022-00096-9 <https://doi.org/10.1038/s43586-022-00096-9>`_
 | 
 | Singhvi, Ashok K.; Porat, Naomi (2008). Impact of luminescence dating on geomorphological and palaeoclimate research in drylands. Boreas, 37, 536--558. DOI: `10.1111/j.1502-3885.2008.00058.x <https://doi.org/10.1111/j.1502-3885.2008.00058.x>`_
+| 
+| ``Stone 2000``
 | 
 | Stuiver, Minze; Polach, Henry A. (1977). Discussion Reporting of 14C Data. Radiocarbon, 19(3), 355--363. DOI: `10.1017/S0033822200003672 <https://doi.org/10.1017/S0033822200003672>`_
 |

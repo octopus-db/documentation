@@ -13,7 +13,7 @@ Output table fields & values
 
 CRN output
 ----------
-| OCTOPUS CRN 10Be and 26Al data have been recalculated so that nuclide concentrations and denudation rates are internally consistent and comparable. These and related data, including concentrations and denudation rates as published, are served as geospatial vector layers (see :ref:`CRN_vector_data`).
+| OCTOPUS CRN 10Be and 26Al data have been recalculated [#]_ so that nuclide concentrations and denudation rates are internally consistent and comparable. These and related data, including concentrations and denudation rates as published, are served as geospatial vector layers (see :ref:`CRN_vector_data`).
 | In addition, OCTOPUS CRN collections also provide :ref:`CRN_ancillary_data` comprising **raster layers**, including a *digital elevation model*, *gradient raster*, *flow direction* and *flow accumulation rasters*, *atmospheric pressure raster*, and *CRN production scaling* and *topographic shielding factor* rasters, as well as a set of **structured input data files** (see :ref:`CSV_folder` subsection) for data recalculation integrity.
 
 ..  _CRN_vector_data:
@@ -48,19 +48,19 @@ CRN ancillary data
 
 'Raster' folder
 ~~~~~~~~~~~~~~~
-* s..._atmospres.bil -- Atmospheric pressure 
+* s..._atmospres.bil -- Atmospheric pressure raster
 * s..._atmospres.hdr -- s..._atmospres.bil header file
-* s..._d8flowdir.bil -- 
+* s..._d8flowdir.bil -- Flow direction raster
 * s..._d8flowdir.hdr -- s..._d8flowdir.bil header file
-* s..._demhydro.bil -- 
+* s..._demhydro.bil -- Digital Elevation Model
 * s..._demhydro.hdr -- s..._demhydro.bil header file
-* s..._flowacc.bil -- 
+* s..._flowacc.bil -- Flow accumulation raster
 * s..._flowacc.hdr -- s..._flowacc.bil header file
-* s..._gradmkm.bil -- 
+* s..._gradmkm.bil -- Slope gradient raster
 * s..._gradmkm.hdr -- s..._gradmkm.bil header file
 * s..._prodscale.bil -- 
 * s..._prodscale.hdr -- s..._prodscale.bil header file
-* s..._toposhield.bil -- 
+* s..._toposhield.bil -- Topographic shielding raster
 * s..._toposhield.hdr -- s..._toposhield.bil header file
 
 .. note::
@@ -171,3 +171,5 @@ ExpAge output
 .. rubric:: Footnotes
 
 .. [#] The deployed version of GeoServer does not accept dynamically generated PostgreSQL virtual tables (knows as “views”); therefore, the generation of static flat data tables was required to serve the purpose of a view. Newer versions of GeoServer, however, accept materialised views, and an upgrade would present a possible improvement in the database by eliminating the need to store duplicate data.
+
+.. [#] 10Be and 26Al concentrations (atoms g-1) were renormalised to the Nishiizumi 2007 10Be AMS standard (Nishiizumi et al., 2007) and to the Nishiizumi 2004 26Al AMS standard (Nishiizumi, 2004) respectively. Basin-wide denudation rates were recalculated with the open-source program CAIRN (Mudd et al., 2016) with the following parameter settings: (i) nuclide production from neutrons and muons was calculated with the approximation of Braucher et al. (2011) using a sea-level and high-latitude total production rate of 4.3 atoms g-1 yr-1 for 10Be and of 31.1 atoms g-1 yr-1 for 26Al; (ii) latitude and altitude scaling factors were calculated using the time-independent Lal--Stone scaling scheme (Stone, 2000) with atmospheric pressure calculated via interpolation from the National Centers for Environmental Prediction NCEP2 reanalysis data (Compo et al., 2011); and (iii) topographic shielding was calculated from the same digital elevation model (DEM) using the method of Codilean (2006). 
