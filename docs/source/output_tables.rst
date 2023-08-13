@@ -20,6 +20,7 @@ CRN output
 
 CRN vector data
 ^^^^^^^^^^^^^^^
+The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system.
 
 .. csv-table::
    :file: ./csv_tables/crn_output.csv
@@ -48,19 +49,21 @@ CRN ancillary data
 
 'Raster' folder
 ~~~~~~~~~~~~~~~
-* s..._atmospres.bil -- Atmospheric pressure raster
+The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package.
+
+* s..._atmospres.bil -- Atmospheric pressure grid (raster)
 * s..._atmospres.hdr -- s..._atmospres.bil header file
-* s..._d8flowdir.bil -- Flow direction raster
+* s..._d8flowdir.bil -- Flow direction grid (raster)
 * s..._d8flowdir.hdr -- s..._d8flowdir.bil header file
-* s..._demhydro.bil -- Digital Elevation Model
+* s..._demhydro.bil -- Digital Elevation Model (raster)
 * s..._demhydro.hdr -- s..._demhydro.bil header file
-* s..._flowacc.bil -- Flow accumulation raster
+* s..._flowacc.bil -- Flow accumulation grid (raster)
 * s..._flowacc.hdr -- s..._flowacc.bil header file
-* s..._gradmkm.bil -- Slope gradient raster
+* s..._gradmkm.bil -- Slope gradient grid (raster)
 * s..._gradmkm.hdr -- s..._gradmkm.bil header file
-* s..._prodscale.bil -- 
+* s..._prodscale.bil -- Cosmogenic nuclide production scaling factor grid (raster)
 * s..._prodscale.hdr -- s..._prodscale.bil header file
-* s..._toposhield.bil -- Topographic shielding raster
+* s..._toposhield.bil -- Topographic shielding grid (raster)
 * s..._toposhield.hdr -- s..._toposhield.bil header file
 
 .. note::
