@@ -13,6 +13,7 @@ Output table fields & values
 
 CRN output
 ----------
+OCTOPUS/CRN 10Be and 26Al data have been recalculated so that nuclide concentrations and denudation rates are internally consistent and comparable. However, the database also includes 10Be and 26Al concentrations and denudation rates as published.
 
 .. csv-table::
    :file: ./csv_tables/crn_output.csv
@@ -21,6 +22,40 @@ CRN output
 .. tip::
 
   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+
+..  _CRN_ancillary_data:
+
+CRN ancillary data
+^^^^^^^^^^^^^^^^^^
+
+..  _CSV_folder:
+
+'CSV' folder
+~~~~~~~~~~~~
+* s..._CRNData.csv
+* s..._CRNRasters.csv
+* s..._CRNResults.csv
+* s..._CRONUSInput.txt
+* s....CRNParam
+
+..  _Raster_folder:
+
+'Raster' folder
+~~~~~~~~~~~~~~~
+* s..._atmospres.bil
+* s..._atmospres.hdr
+* s..._d8flowdir.bil
+* s..._d8flowdir.hdr
+* s..._demhydro.bil
+* s..._demhydro.hdr
+* s..._flowacc.bil
+* s..._flowacc.hdr
+* s..._gradmkm.bil
+* s..._gradmkm.hdr
+* s..._prodscale.bil
+* s..._prodscale.hdr
+* s..._toposhield.bil
+* s..._toposhield.hdr
 
 ..  _SahulArch_output:
 
