@@ -13,7 +13,7 @@ Output table fields & values
 
 CRN output
 ----------
-OCTOPUS/CRN 10Be and 26Al data have been recalculated so that nuclide concentrations and denudation rates are internally consistent and comparable. However, the database also includes 10Be and 26Al concentrations and denudation rates as published.
+OCTOPUS/CRN 10Be and 26Al data have been recalculated so that nuclide concentrations and denudation rates are internally consistent and comparable. In addition to :ref:`CRN_vector_data`, CRN Denudation also incorporates :ref:`CRN_ancillary_data` comprising **raster layers**, including a *digital elevation model*, *gradient raster*, *flow direction* and *flow accumulation rasters*, *atmospheric pressure raster*, and *CRN production scaling* and *topographic shielding factor* rasters, and a set of **structured data files** (see :ref:`_CSV_folder` subsection) for data recalculation integrity.
 
 ..  _CRN_vector_data:
 
