@@ -39,11 +39,11 @@ CRN ancillary data
 
 'CSV' folder
 ~~~~~~~~~~~~
-* s..._CRNData.csv -- 
-* s..._CRNRasters.csv -- 
-* s..._CRNResults.csv -- 
-* s..._CRONUSInput.txt -- 
-* s....CRNParam -- 
+* s..._CRNData.csv -- ``description missing``
+* s..._CRNRasters.csv -- ``description missing``
+* s..._CRNResults.csv -- ``description missing``
+* s..._CRONUSInput.txt -- ``description missing``
+* s....CRNParam -- ``description missing``
 
 ..  _Raster_folder:
 
