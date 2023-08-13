@@ -59,7 +59,7 @@ The raster data uses the WGS84/UTM projected coordinate reference system, UTM zo
 * s..._demhydro.hdr -- *s..._demhydro.bil* header file
 * s..._flowacc.bil -- Flow accumulation grid (raster)
 * s..._flowacc.hdr -- *s..._flowacc.bil* header file
-* s..._gradmkm.bil -- Slope gradient grid (raster)
+* s..._gradmkm.bil -- Topographic (slope) gradient grid (raster)
 * s..._gradmkm.hdr -- *s..._gradmkm.bil* header file
 * s..._prodscale.bil -- Cosmogenic nuclide production scaling factor grid (raster)
 * s..._prodscale.hdr -- *s..._prodscale.bil* header file
