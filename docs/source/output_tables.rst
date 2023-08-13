@@ -15,6 +15,11 @@ CRN output
 ----------
 OCTOPUS/CRN 10Be and 26Al data have been recalculated so that nuclide concentrations and denudation rates are internally consistent and comparable. However, the database also includes 10Be and 26Al concentrations and denudation rates as published.
 
+..  _CRN_vector_data:
+
+CRN vector data
+^^^^^^^^^^^^^^^
+
 .. csv-table::
    :file: ./csv_tables/crn_output.csv
    :header-rows: 1
