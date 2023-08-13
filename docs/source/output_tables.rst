@@ -68,7 +68,7 @@ The raster data uses the WGS84/UTM projected coordinate reference system, UTM zo
 
 .. note::
 
-  Raster files are provided in .bil (**B** and **I** nterleaved by **L** ine) image encoding format, which cannot be considered an image format itself, but is depended on the accompanying header (.hdr) file meaning that users will always need the pair of files with one and the same filename.
+  Raster files are provided in .bil (**B**\ and **I**\ nterleaved by **L**\ ine) image encoding format, which cannot be considered an image format itself, but is depended on the accompanying header (.hdr) file meaning that users will always need the pair of files with one and the same filename.
 
 ..  _SahulArch_output:
 
