@@ -16,7 +16,7 @@ References
 | 
 | Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
 | 
-| ``Codilean 2006``
+| Codilean, Alexandru T. (2006). Calculation of the cosmogenic nuclide production topographic shielding scaling factor for large areas using DEMs. Earth Surf. Proc. Land., 31, 785--794. DOI: `10.1002/esp.1336 <https://doi.org/10.1002/esp.1336>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). OCTOPUS database (v.2). Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
