@@ -7,7 +7,7 @@ Output table fields & values
 
 .. note::
 
-  |:rocket:| The above section is a modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
+  The above section is a modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 
 ..  _CRN_output:
 

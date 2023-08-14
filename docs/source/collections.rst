@@ -16,7 +16,7 @@ CRN collections
 | :ref:`CRN_ancillary_data` includes: digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files (see :ref:`CSV_folder`) for the recalculation of denudation rates using the CAIRN model [#]_. 
 
 .. important::
-   **All CRN denudation rates were recalculated and harmonised** using CAIRN.
+   |:rocket:|  **All CRN denudation rates were recalculated and harmonised** using CAIRN. |:rocket:| 
 
 ..  _CRN_Australia:
 
