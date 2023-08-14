@@ -16,10 +16,10 @@ CRN output
 | OCTOPUS CRN 10Be and 26Al data have been recalculated [#]_ so that nuclide concentrations and denudation rates are internally consistent and comparable. These and related data, including concentrations and denudation rates as published, are served as geospatial vector layers (see :ref:`CRN_vector_data`).
 | In addition, OCTOPUS CRN collections also provide :ref:`CRN_ancillary_data` comprising **raster layers**, including a *digital elevation model*, *gradient raster*, *flow direction* and *flow accumulation rasters*, *atmospheric pressure raster*, and *CRN production scaling* and *topographic shielding factor* rasters, as well as a set of **structured input data files** (see :ref:`CSV_folder` subsection) for the purpose of data recalculation integrity. The idea behind the above is that, since the CAIRN algorithm is automated, users can simply publish a DEM of their study area, CRN data files, and CAIRN input files, and denudation rates should be reproducible. 
 
-..  _CRN_vector_data:
+..  _CRN_vector_spatial_data:
 
-CRN vector data
-^^^^^^^^^^^^^^^
+CRN vector spatial data
+^^^^^^^^^^^^^^^^^^^^^^^
 The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system.
 
 .. csv-table::
