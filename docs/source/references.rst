@@ -14,7 +14,7 @@ References
 | 
 | Braucher, R.; Merchel, S.; Borgomano, J.; Bourles, D. L. (2011). Production of cosmogenic radionuclides at great depth: A multi element approach, Earth Planet. Sc. Lett., 309, 1--9. DOI: `10.1016/j.epsl.2011.06.036 <https://doi.org/10.1016/j.epsl.2011.06.036>`_
 | 
-| Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
+| Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
 | 
 | Codilean, Alexandru T. (2006). Calculation of the cosmogenic nuclide production topographic shielding scaling factor for large areas using DEMs. Earth Surf. Proc. Land., 31, 785--794. DOI: `10.1002/esp.1336 <https://doi.org/10.1002/esp.1336>`_
 | 
@@ -68,7 +68,7 @@ References
 | 
 | Jacobs, Z.; Li, B.; Shunkov, M. V.; Kozlikin, M. B.; Bolikhovskaya, N. S.; Agadjanian, A. K.; Uliyanov, V. A.; Vasiliev, S. K.; O'Gorman, K.; Derevianko, A. P.; Roberts, R. G. (2019). Timing of archaic hominin occupation of Denisova Cave in southern Siberia. Nature, 565, 594--599. DOI: `10.1038/s41586-018-0843-2 <https://doi.org/10.1038/s41586-018-0843-2>`_
 | 
-| King, G.,; Herman, F.; Lambert, R.; Valla, P.; Guralnik, B. (2016). Multi-OSL-thermochronometry of feldspar. Quat. Geochronol., 33, 76--87. DOI: `10.1016/j.quageo.2016.01.004 <https://doi.org/10.1016/j.quageo.2016.01.004>`_
+| King, G.; Herman, F.; Lambert, R.; Valla, P.; Guralnik, B. (2016). Multi-OSL-thermochronometry of feldspar. Quat. Geochronol., 33, 76--87. DOI: `10.1016/j.quageo.2016.01.004 <https://doi.org/10.1016/j.quageo.2016.01.004>`_
 | 
 | Kubik, Peter W.; Christl, Marcus (2010). 10Be and 26Al measurements at the Zurich 6MV Tandem AMS facility. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 268(7--8), 880-883. DOI: `10.1016/j.nimb.2009.10.054 <https://doi.org/10.1016/j.nimb.2009.10.054>`_
 | 
