@@ -12,7 +12,7 @@ References
 | 
 | Balco, Greg (2019). Glacier Change and Paleoclimate Applications of Cosmogenic-Nuclide Exposure Dating. Annu. Rev. Earth Pl. Sc., 48, 21--48. DOI: `10.1146/annurev-earth-081619-052609 <https://doi.org/10.1146/annurev-earth-081619-052609>`_
 | 
-| ``Braucher 2011``
+| Braucher, R.; Merchel, S.; Borgomano, J.; Bourles, D. L. (2011). Production of cosmogenic radionuclides at great depth: A multi element approach, Earth Planet. Sc. Lett., 309, 1--9. DOI: `10.1016/j.epsl.2011.06.036 <https://doi.org/10.1016/j.epsl.2011.06.036>`_
 | 
 | Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
 | 
