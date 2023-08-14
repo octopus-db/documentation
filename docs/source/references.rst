@@ -114,7 +114,7 @@ References
 | 
 | Singhvi, Ashok K.; Porat, Naomi (2008). Impact of luminescence dating on geomorphological and palaeoclimate research in drylands. Boreas, 37, 536--558. DOI: `10.1111/j.1502-3885.2008.00058.x <https://doi.org/10.1111/j.1502-3885.2008.00058.x>`_
 | 
-| ``Stone 2000``
+| Stone, J. O. (2000). Air pressure and cosmogenic isotope production. J. Geophys. Res.-Sol. Ea., 105, 23753--23759. DOI: `10.1029/2000JB900181 <https://doi.org/10.1029/2000JB900181>`_
 | 
 | Stuiver, Minze; Polach, Henry A. (1977). Discussion Reporting of 14C Data. Radiocarbon, 19(3), 355--363. DOI: `10.1017/S0033822200003672 <https://doi.org/10.1017/S0033822200003672>`_
 |
