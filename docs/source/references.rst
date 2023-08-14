@@ -78,7 +78,7 @@ References
 | 
 | Murray, Andrew; Arnold, Lee J.; Buylaert, Jan-Pieter; Guérin, Guillaume; Qin, Jintang; Singhvi, Ashok K.; Smedley, Rachel; Thomsen, Kristina J. (2021). Optically stimulated luminescence dating using quartz. Nat Rev Methods Primers, 1, 72. DOI: `10.1038/s43586-021-00068-5 <https://doi.org/10.1038/s43586-021-00068-5>`_
 | 
-| ``Nishiizumi 2004``
+| Nishiizumi, K. (2004). Preparation of 26Al AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 223, 388--392. DOI: `10.1016/j.nimb.2004.04.075 <https://doi.org/10.1016/j.nimb.2004.04.075>`_
 |
 | Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 258, 403--413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
 | 
