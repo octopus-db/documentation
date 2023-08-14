@@ -38,7 +38,7 @@ References
 | 
 | Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial OSL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/p5ye-rn35 <https://doi.org/10.25900/p5ye-rn35>`_
 | 
-| ``Compo 2011``
+| Compo, G. P.; Whitaker, J. S.; Sardeshmukh, P. D.; Matsui, N.; Allan, R. J.; Yin, X.; Gleason, B. E.; Vose, R. S.; Rutledge, G.; Bessemoulin, P.; Brönnimann, S.; Brunet, M.; Crouthamel, R. I.; Grant, A. N.; Groisman, P. Y.; Jones, P. D.; Kruk, M. C.; Kruger, A. C.; Marshall, G. J.; Maugeri, M.; Mok, H. Y.; Nordli, Ø.; Ross, T. F.; Trigo, R. M.; Wang, X. L.; Woodruff, S. D.; Worley, S. J. (2011). The Twentieth Century Reanalysis Project, Q. J. Roy. Meteor. Soc., 137, 1--28. DOI: `10.1002/qj.776 <https://doi.org/10.1002/qj.776>`_
 | 
 | Crabtree, S. A.; White, D. A.; Bradshaw, C. J. A.; Saltré, F.; Williams, A. N.; Beaman, R. J.; Bird, M. I.; Ulm, S. (2021). Landscape rules predict optimal superhighways for the first peopling of Sahul. Nature Human Behaviour, 5, 1303--1313. DOI: `10.1038/s41562-021-01106-8 <https://doi.org/10.1038/s41562-021-01106-8>`_
 | 
