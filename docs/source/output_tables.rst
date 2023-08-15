@@ -53,13 +53,13 @@ The raster data uses the WGS84/UTM projected coordinate reference system, UTM zo
 
 * s..._\ **atmospres**\ .bil -- An atmospheric pressure raster, showing local atmospheric pressure in hPa calculated based on the NCEP2 climate reanalysis data (`Compo et al., 2011 <https://doi.org/10.1002/qj.776>`_)
 * s..._\ **atmospres**\ .hdr -- *s..._atmospres.bil* header file
-* s..._\ **d8flowdir**\ .bil -- A flow-direction raster calculated using the D8 flow-routing method (``Jenson and Domingue, 1988``)
+* s..._\ **d8flowdir**\ .bil -- A flow-direction raster calculated using the D8 flow-routing method (`Jenson and Domingue, 1988 <https://pubs.er.usgs.gov/publication/70142175>`_)
 * s..._\ **d8flowdir**\ .hdr -- *s..._d8flowdir.bil* header file
 * s..._\ **demhydro**\ .bil -- A hydrologically corrected DEM with elevation values in metres (raster)
 * s..._\ **demhydro**\ .hdr -- *s..._demhydro.bil* header file
 * s..._\ **flowacc**\ .bil -- A flow-accumulation raster calculated with the same D8 method as used for *d8flowdir*
 * s..._\ **flowacc**\ .hdr -- *s..._flowacc.bil* header file
-* s..._\ **gradmkm**\ .bil -- A slope gradient raster calculated using the method described in Horn (``1981``) with units in m km-1
+* s..._\ **gradmkm**\ .bil -- A slope gradient raster calculated using the method described in Horn (`1981 <https://doi.org/10.1109/PROC.1981.11918>`_) with units in m km-1
 * s..._\ **gradmkm**\ .hdr -- *s..._gradmkm.bil* header file
 * s..._\ **prodscale**\ .bil -- A cosmogenic nuclide production scaling raster calculated using the method described in Stone (`Stone, 2000 <https://doi.org/10.1029/2000JB900181>`_)
 * s..._\ **prodscale**\ .hdr -- *s..._prodscale.bil* header file

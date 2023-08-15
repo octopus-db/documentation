@@ -66,7 +66,11 @@ References
 | 
 | Hocknull, S. A.; Lewis, R.; Arnold, L. J.; Pietsch, T.; Joannes-Boyau, R.; Price, G. J.; Moss, P.; Wood, R.; Dosseto, A.; Louys, J.; Olley, J.; Lawrence, R. A. (2020). Extinction of eastern Sahul megafauna coincides with sustained environmental deterioration. Nat. Commun., 11, 2250. DOI: `10.1038/s41467-020-15785-w <https://doi.org/10.1038/s41467-020-15785-w>`_
 | 
+| Horn, B. K. P. (1981). Hill shading and the reflectance map. P. IEEE, 69, 14--47. `10.1109/PROC.1981.11918 <https://doi.org/10.1109/PROC.1981.11918>`_
+|
 | Jacobs, Z.; Li, B.; Shunkov, M. V.; Kozlikin, M. B.; Bolikhovskaya, N. S.; Agadjanian, A. K.; Uliyanov, V. A.; Vasiliev, S. K.; O'Gorman, K.; Derevianko, A. P.; Roberts, R. G. (2019). Timing of archaic hominin occupation of Denisova Cave in southern Siberia. Nature, 565, 594--599. DOI: `10.1038/s41586-018-0843-2 <https://doi.org/10.1038/s41586-018-0843-2>`_
+| 
+| Jenson, S. K.; Domingue, J. O. (1988). Extracting topographic structure from digital elevation data for geographic information system analysis. Photogramm. Eng. Rem. S., 54, 1593--1600.
 | 
 | King, G.; Herman, F.; Lambert, R.; Valla, P.; Guralnik, B. (2016). Multi-OSL-thermochronometry of feldspar. Quat. Geochronol., 33, 76--87. DOI: `10.1016/j.quageo.2016.01.004 <https://doi.org/10.1016/j.quageo.2016.01.004>`_
 | 
