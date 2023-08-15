@@ -39,11 +39,11 @@ CRN ancillary data
 
 'CSV' folder
 ~~~~~~~~~~~~
-* s..._CRNData.csv -- ``description missing``
-* s..._CRNRasters.csv -- ``description missing``
-* s..._CRNResults.csv -- ``description missing``
-* s..._CRONUSInput.txt -- ``description missing``
-* s....CRNParam -- ``description missing``
+* s..._\ **CRNData.csv** -- CAIRN CRN concentrations input file (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
+* s..._\ **CRNRasters.csv** -- Path to raster files (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
+* s..._\ **CRNResults.csv** -- Original CAIRN output (= results)
+* s..._\ **CRONUSInput.txt** -- CAIRN-derived CRONUS copy-and-paste input
+* s...._\ **CRNParam** -- CAIRN input parameter file (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
 
 ..  _Raster_folder:
 
