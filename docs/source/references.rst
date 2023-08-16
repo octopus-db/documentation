@@ -12,7 +12,11 @@ References
 | 
 | Balco, Greg (2019). Glacier Change and Paleoclimate Applications of Cosmogenic-Nuclide Exposure Dating. Annu. Rev. Earth Pl. Sc., 48, 21--48. DOI: `10.1146/annurev-earth-081619-052609 <https://doi.org/10.1146/annurev-earth-081619-052609>`_
 | 
-| Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.,; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
+| Braucher, R.; Merchel, S.; Borgomano, J.; Bourles, D. L. (2011). Production of cosmogenic radionuclides at great depth: A multi element approach, Earth Planet. Sc. Lett., 309, 1--9. DOI: `10.1016/j.epsl.2011.06.036 <https://doi.org/10.1016/j.epsl.2011.06.036>`_
+| 
+| Clarkson, C.; Jacobs, Z.; Marwick, B.; Fullagar, R.; Wallis, L.; Smith, M.; Roberts, R. G.; Hayes, E.; Lowe, K.; Carah, X.; Florin, S. A.; McNeil, J.; Cox, D.; Arnold, L. J.; Hua, Q.; Huntley, J.; Brand, H. E. A.; Manne, T.; Fairbairn, A.; Shulmeister, J.; Lyle, L.; Salinas, M.; Page, M.; Connell, K.; Park, G.; Norman, K.; Murphy, T.; Pardoe, C. (2017). Human occupation of northern Australia by 65,000 years ago. Nature, 547, 306--310. DOI: `10.1038/nature22968 <https://doi.org/10.1038/nature22968>`_
+| 
+| Codilean, Alexandru T. (2006). Calculation of the cosmogenic nuclide production topographic shielding scaling factor for large areas using DEMs. Earth Surf. Proc. Land., 31, 785--794. DOI: `10.1002/esp.1336 <https://doi.org/10.1002/esp.1336>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). OCTOPUS database (v.2). Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
@@ -33,6 +37,8 @@ References
 | Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial TL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/2a76-vw55 <https://doi.org/10.25900/2a76-vw55>`_
 | 
 | Cohen, Timothy J.; Saktura, Wanchese M.; Jansen, John D.; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Fluvial OSL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/p5ye-rn35 <https://doi.org/10.25900/p5ye-rn35>`_
+| 
+| Compo, G. P.; Whitaker, J. S.; Sardeshmukh, P. D.; Matsui, N.; Allan, R. J.; Yin, X.; Gleason, B. E.; Vose, R. S.; Rutledge, G.; Bessemoulin, P.; Brönnimann, S.; Brunet, M.; Crouthamel, R. I.; Grant, A. N.; Groisman, P. Y.; Jones, P. D.; Kruk, M. C.; Kruger, A. C.; Marshall, G. J.; Maugeri, M.; Mok, H. Y.; Nordli, Ø.; Ross, T. F.; Trigo, R. M.; Wang, X. L.; Woodruff, S. D.; Worley, S. J. (2011). The Twentieth Century Reanalysis Project, Q. J. Roy. Meteor. Soc., 137, 1--28. DOI: `10.1002/qj.776 <https://doi.org/10.1002/qj.776>`_
 | 
 | Crabtree, S. A.; White, D. A.; Bradshaw, C. J. A.; Saltré, F.; Williams, A. N.; Beaman, R. J.; Bird, M. I.; Ulm, S. (2021). Landscape rules predict optimal superhighways for the first peopling of Sahul. Nature Human Behaviour, 5, 1303--1313. DOI: `10.1038/s41562-021-01106-8 <https://doi.org/10.1038/s41562-021-01106-8>`_
 | 
@@ -60,9 +66,13 @@ References
 | 
 | Hocknull, S. A.; Lewis, R.; Arnold, L. J.; Pietsch, T.; Joannes-Boyau, R.; Price, G. J.; Moss, P.; Wood, R.; Dosseto, A.; Louys, J.; Olley, J.; Lawrence, R. A. (2020). Extinction of eastern Sahul megafauna coincides with sustained environmental deterioration. Nat. Commun., 11, 2250. DOI: `10.1038/s41467-020-15785-w <https://doi.org/10.1038/s41467-020-15785-w>`_
 | 
+| Horn, B. K. P. (1981). Hill shading and the reflectance map. P. IEEE, 69, 14--47. `10.1109/PROC.1981.11918 <https://doi.org/10.1109/PROC.1981.11918>`_
+|
 | Jacobs, Z.; Li, B.; Shunkov, M. V.; Kozlikin, M. B.; Bolikhovskaya, N. S.; Agadjanian, A. K.; Uliyanov, V. A.; Vasiliev, S. K.; O'Gorman, K.; Derevianko, A. P.; Roberts, R. G. (2019). Timing of archaic hominin occupation of Denisova Cave in southern Siberia. Nature, 565, 594--599. DOI: `10.1038/s41586-018-0843-2 <https://doi.org/10.1038/s41586-018-0843-2>`_
 | 
-| King, G.,; Herman, F.; Lambert, R.; Valla, P.; Guralnik, B. (2016). Multi-OSL-thermochronometry of feldspar. Quat. Geochronol., 33, 76--87. DOI: `10.1016/j.quageo.2016.01.004 <https://doi.org/10.1016/j.quageo.2016.01.004>`_
+| Jenson, S. K.; Domingue, J. O. (1988). Extracting topographic structure from digital elevation data for geographic information system analysis. Photogramm. Eng. Rem. S., 54, 1593--1600.
+| 
+| King, G.; Herman, F.; Lambert, R.; Valla, P.; Guralnik, B. (2016). Multi-OSL-thermochronometry of feldspar. Quat. Geochronol., 33, 76--87. DOI: `10.1016/j.quageo.2016.01.004 <https://doi.org/10.1016/j.quageo.2016.01.004>`_
 | 
 | Kubik, Peter W.; Christl, Marcus (2010). 10Be and 26Al measurements at the Zurich 6MV Tandem AMS facility. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 268(7--8), 880-883. DOI: `10.1016/j.nimb.2009.10.054 <https://doi.org/10.1016/j.nimb.2009.10.054>`_
 | 
@@ -72,6 +82,8 @@ References
 | 
 | Murray, Andrew; Arnold, Lee J.; Buylaert, Jan-Pieter; Guérin, Guillaume; Qin, Jintang; Singhvi, Ashok K.; Smedley, Rachel; Thomsen, Kristina J. (2021). Optically stimulated luminescence dating using quartz. Nat Rev Methods Primers, 1, 72. DOI: `10.1038/s43586-021-00068-5 <https://doi.org/10.1038/s43586-021-00068-5>`_
 | 
+| Nishiizumi, K. (2004). Preparation of 26Al AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 223, 388--392. DOI: `10.1016/j.nimb.2004.04.075 <https://doi.org/10.1016/j.nimb.2004.04.075>`_
+|
 | Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 258, 403--413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
 | 
 | Obe, Regina O.; Hsu, Leo S. (2021). PostGIS in action (Third Edition). Manning Publications Co., 20 Baldwin Road, PO Box 761, Shelter Island, NY 11964.
@@ -105,6 +117,8 @@ References
 | Schaefer, Joerg M.; Codilean, Alexandru T.; Willenbring, Jane K.; Lu, Zheng-Tian; Keisling, Benjamin; Fülöp, Réka-H.; Val, Pedro (2022). Cosmogenic nuclide techniques. Nat Rev Methods Primers 2, 18. DOI: `10.1038/s43586-022-00096-9 <https://doi.org/10.1038/s43586-022-00096-9>`_
 | 
 | Singhvi, Ashok K.; Porat, Naomi (2008). Impact of luminescence dating on geomorphological and palaeoclimate research in drylands. Boreas, 37, 536--558. DOI: `10.1111/j.1502-3885.2008.00058.x <https://doi.org/10.1111/j.1502-3885.2008.00058.x>`_
+| 
+| Stone, J. O. (2000). Air pressure and cosmogenic isotope production. J. Geophys. Res.-Sol. Ea., 105, 23753--23759. DOI: `10.1029/2000JB900181 <https://doi.org/10.1029/2000JB900181>`_
 | 
 | Stuiver, Minze; Polach, Henry A. (1977). Discussion Reporting of 14C Data. Radiocarbon, 19(3), 355--363. DOI: `10.1017/S0033822200003672 <https://doi.org/10.1017/S0033822200003672>`_
 |
