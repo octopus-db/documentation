@@ -2,7 +2,6 @@
 Resources
 =========
 
-
 * Zenodo OCTOPUS database community (https://zenodo.org/communities/octopus-database/)
 
 * OCTOPUS relational database schema (https://zenodo.org/record/7352807)
@@ -11,7 +10,7 @@ Resources
 
 * CABAH website (https://epicaustralia.org.au/resource/octopus/)
 
-* OCTOPUS WFS data access via R / RStudio live example (https://rpubs.com/HenryM/octopus_wfs)
+* WFS data access via R / RStudio live example (https://rpubs.com/HenryM/octopus_wfs)
 
 Tutorial videos
 
