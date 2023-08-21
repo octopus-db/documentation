@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data collections &mdash; OCTOPUS database documentation 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Data tables and their fields" href="data_tables.html" />
+    <link rel="prev" title="Introduction" href="intro.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/logo_lscape.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0.1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data collections</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#core-collections">Core collections</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#crn-collections">CRN collections</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#crn-australia">CRN Australia</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crn-international">CRN International</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crn-large-basins">CRN Large Basins</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#sahularch-collections">SahulArch collections</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahularch-radiocarbon-collection">The SahulArch Radiocarbon collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahularch-osl-collection">The SahulArch OSL collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahularch-tl-collection">The SahulArch TL collection</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#sahulsed-collections">SahulSed collections</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahulsed-aeolian-osl-collection">The SahulSed Aeolian OSL collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahulsed-aeolian-tl-collection">The SahulSed Aeolian TL collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahulsed-fluvial-osl-collection">The SahulSed Fluvial OSL collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahulsed-fluvial-tl-collection">The SahulSed Fluvial TL collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahulsed-lacustrine-osl-collection">The SahulSed Lacustrine OSL collection</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#the-sahulsed-lacustrine-tl-collection">The SahulSed Lacustrine TL collection</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#partner-collections">Partner collections</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#fossahul-collection">FosSahul collection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#expage-collection">ExpAge collection</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="data_tables.html">Data tables and their fields</a></li>
+<li class="toctree-l1"><a class="reference internal" href="output_tables.html">Output table fields &amp; values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parent_tables.html">Parent table fields &amp; values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Data access</a></li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About 🐙</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OCTOPUS database documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Data collections</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/collections.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="data-collections">
+<h1>Data collections<a class="headerlink" href="#data-collections" title="Permalink to this heading"></a></h1>
+<p>OCTOPUS database knows two levels of sub-collection integration - <a class="reference internal" href="#core-collections"><span class="std std-ref">core collections</span></a> and <a class="reference internal" href="#partner-collections"><span class="std std-ref">partner collections</span></a>. Though, like core collections, being fully integrated into OCTOPUS database, partner collections are not maintained nor officially supported by the OCTOPUS project, meaning that more up to date (albeit less rich in auxiliary data) versions may exist elsewhere.</p>
+<div class="section" id="core-collections">
+<span id="id1"></span><h2>Core collections<a class="headerlink" href="#core-collections" title="Permalink to this heading"></a></h2>
+<div class="section" id="crn-collections">
+<span id="crn"></span><h3>CRN collections<a class="headerlink" href="#crn-collections" title="Permalink to this heading"></a></h3>
+<div class="line-block">
+<div class="line">The OCTOPUS CRN branch features collections of published <strong>cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates</strong> inferred from these data.</div>
+<div class="line">The <a class="reference internal" href="output_tables.html#crn-vector-spatial-data"><span class="std std-ref">CRN vector spatial data</span></a> – sample site location (point), basin outline (polygon) –  uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. <a class="reference internal" href="output_tables.html#crn-ancillary-data"><span class="std std-ref">CRN ancillary data</span></a> includes: digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files (see <a class="reference internal" href="output_tables.html#csv-folder"><span class="std std-ref">‘CSV’ folder</span></a>) for the recalculation of denudation rates using the CAIRN model <a class="footnote-reference brackets" href="#id30" id="id2">1</a>.</div>
+</div>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>🍻 <strong>All CRN denudation rates were recalculated and harmonised</strong> using CAIRN.</p>
+</div>
+<div class="section" id="crn-australia">
+<span id="id3"></span><h4>CRN Australia<a class="headerlink" href="#crn-australia" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Australia, 1998-2021</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong> <a class="footnote-reference brackets" href="#id31" id="id4">2</a></div>
+<div class="line">370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Australian collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="http://dx.doi.org/10.25900/mpr9-yn15">http://dx.doi.org/10.25900/mpr9-yn15</a></div>
+</div>
+</div>
+<div class="section" id="crn-international">
+<span id="id5"></span><h4>CRN International<a class="headerlink" href="#crn-international" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Global (excl. Australia), 1995-2021</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="http://dx.doi.org/10.25900/g76f-0h45">http://dx.doi.org/10.25900/g76f-0h45</a></div>
+</div>
+</div>
+<div class="section" id="crn-large-basins">
+<span id="id7"></span><h4>CRN Large Basins<a class="headerlink" href="#crn-large-basins" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A global collection of catchment polygons for extra large river basins for which Be-10 and Al-26 abundances have been published</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Global, 2006-2017</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Large Basins collection. (Online via <a class="reference external" href="https://octopusdata.org">https://octopusdata.org</a>. Accessed DD-MM-YYYY)</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line">not applicable</div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="sahularch-collections">
+<span id="sahularch"></span><h3>SahulArch collections<a class="headerlink" href="#sahularch-collections" title="Permalink to this heading"></a></h3>
+<p>SahulArch is a collection triplet of published <strong>radiometric ages for archaeological records from Sahul</strong>. Sample locations were obfuscated within a radius of 25 km and spatial data includes sample locations as circular polygons. The data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information. For more detailed information refer to <a class="reference external" href="https://doi.org/10.1080/03122417.2022.2159751">Saktura et al. 2023</a>.</p>
+<div class="section" id="the-sahularch-radiocarbon-collection">
+<span id="id9"></span><h4>The SahulArch Radiocarbon collection<a class="headerlink" href="#the-sahularch-radiocarbon-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published radiocarbon ages for archaeological records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1961-2020</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Saktura W.M., Rehn E., Linnenlucke L., Munack H., Wood R., Petchey F., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/gpvr-ay04">https://doi.org/10.25900/gpvr-ay04</a></div>
+</div>
+</div>
+<div class="section" id="the-sahularch-osl-collection">
+<span id="id11"></span><h4>The SahulArch OSL collection<a class="headerlink" href="#the-sahularch-osl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published optically stimulated luminescence (OSL) ages for archaeological records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1990-2022</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Saktura W.M., Rehn E., Munack H., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch OSL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/9y07-4j77">https://doi.org/10.25900/9y07-4j77</a></div>
+</div>
+</div>
+<div class="section" id="the-sahularch-tl-collection">
+<span id="id13"></span><h4>The SahulArch TL collection<a class="headerlink" href="#the-sahularch-tl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published thermoluminescence (TL) ages for archaeological records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), 2022</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1972-2022</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370905 Quaternary environments, 430103 Archaeology of Australia (excl. Aboriginal and Torres Strait Islander)</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Saktura W.M., Rehn E., Munack H., Codilean A.T., Jacobs Z., Williams A., Ulm S., 2022, The SahulArch TL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2).</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/af67-kh16">https://doi.org/10.25900/af67-kh16</a></div>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+<div class="section" id="sahulsed-collections">
+<span id="sahulsed"></span><h3>SahulSed collections<a class="headerlink" href="#sahulsed-collections" title="Permalink to this heading"></a></h3>
+<p>OCTOPUS collection set of published <strong>optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul</strong>. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.</p>
+<div class="section" id="the-sahulsed-aeolian-osl-collection">
+<span id="id15"></span><h4>The SahulSed Aeolian OSL collection<a class="headerlink" href="#the-sahulsed-aeolian-osl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published optically stimulated luminescence (OSL) ages for aeolian sedimentary records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1993-2019</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Cohen T.J., Fu X., Hesse P., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Aeolian OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/5jcw-tn50">https://doi.org/10.25900/5jcw-tn50</a></div>
+</div>
+</div>
+<div class="section" id="the-sahulsed-aeolian-tl-collection">
+<span id="id17"></span><h4>The SahulSed Aeolian TL collection<a class="headerlink" href="#the-sahulsed-aeolian-tl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published thermoluminescence (TL) ages for aeolian sedimentary records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1987-2018</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Cohen T.J., Fu X., Hesse P., Price D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Aeolian TL collection. Sahul-wide database of published sedimentary records with radiometric ages.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/a2k9-kj43">https://doi.org/10.25900/a2k9-kj43</a></div>
+</div>
+</div>
+<div class="section" id="the-sahulsed-fluvial-osl-collection">
+<span id="id19"></span><h4>The SahulSed Fluvial OSL collection<a class="headerlink" href="#the-sahulsed-fluvial-osl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1997-2020</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Cohen T.J., Saktura W.M., Jansen J.D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Fluvial OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/p5ye-rn35">https://doi.org/10.25900/p5ye-rn35</a></div>
+</div>
+</div>
+<div class="section" id="the-sahulsed-fluvial-tl-collection">
+<span id="id21"></span><h4>The SahulSed Fluvial TL collection<a class="headerlink" href="#the-sahulsed-fluvial-tl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published thermoluminescence (TL) ages for fluvial sedimentary records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1986-2020</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Cohen T.J., Saktura W.M., Jansen J.D., Price D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Fluvial TL collection. Sahul-wide database of published sedimentary records with radiometric ages.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/2a76-vw55">https://doi.org/10.25900/2a76-vw55</a></div>
+</div>
+</div>
+<div class="section" id="the-sahulsed-lacustrine-osl-collection">
+<span id="id23"></span><h4>The SahulSed Lacustrine OSL collection<a class="headerlink" href="#the-sahulsed-lacustrine-osl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published optically stimulated luminescence (OSL) ages for lacustrine sedimentary records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1997-2020</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Cohen T.J., Fu X., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Lacustrine OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/6hmv-zz61">https://doi.org/10.25900/6hmv-zz61</a></div>
+</div>
+</div>
+<div class="section" id="the-sahulsed-lacustrine-tl-collection">
+<span id="id25"></span><h4>The SahulSed Lacustrine TL collection<a class="headerlink" href="#the-sahulsed-lacustrine-tl-collection" title="Permalink to this heading"></a></h4>
+<div class="line-block">
+<div class="line"><em>A database of published thermoluminescence (TL) ages for lacustrine sedimentary records from Sahul</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1991-2015</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Cohen T.J., Fu X., Price D., Rui X., Saktura R.B.K., Munack H., Codilean A.T., 2021, OCTOPUS Database v.2: The SahulSed Lacustrine TL collection. Sahul-wide database of published sedimentary records with radiometric ages.</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.25900/32de-mj32">https://doi.org/10.25900/32de-mj32</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="partner-collections">
+<span id="id27"></span><h2>Partner collections<a class="headerlink" href="#partner-collections" title="Permalink to this heading"></a></h2>
+<div class="section" id="fossahul-collection">
+<span id="fossahul"></span><h3>FosSahul collection<a class="headerlink" href="#fossahul-collection" title="Permalink to this heading"></a></h3>
+<div class="line-block">
+<div class="line"><em>A database of quality-rated dates from Late Quaternary non-human vertebrate fossil records published up to 2018</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">OCTOPUS database, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1955-2018</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">310306 Palaecology, 370502 Geochronology, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. (Online via <a class="reference external" href="https://octopusdata.org">https://octopusdata.org</a>. Accessed DD-MM-YYYY)</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line"><a class="reference external" href="https://doi.org/10.1038/s41597-019-0267-3">https://doi.org/10.1038/s41597-019-0267-3</a></div>
+</div>
+</div>
+<div class="section" id="expage-collection">
+<span id="expage"></span><h3>ExpAge collection<a class="headerlink" href="#expage-collection" title="Permalink to this heading"></a></h3>
+<div class="line-block">
+<div class="line"><em>A global database of published 10Be and 26Al data from glacial samples</em></div>
+<div class="line"><strong>Publisher, Year</strong></div>
+<div class="line">OCTOPUS database, 2021</div>
+<div class="line"><strong>Spatial extent, Publication period</strong></div>
+<div class="line">Global, 1989-2020</div>
+<div class="line"><strong>Software Required</strong></div>
+<div class="line">any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see <a class="reference internal" href="usage.html#data-access"><span class="std std-ref">Data access</span></a> section)</div>
+<div class="line"><strong>FoR codes (2020)</strong></div>
+<div class="line">370502 Geochronology, 370902 Glaciology, 370905 Quaternary environments</div>
+<div class="line"><strong>Creative Commons License</strong></div>
+<div class="line">Creative Commons Attribution 4.0 International License (<a class="reference external" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>)</div>
+<div class="line"><strong>Recommended citation</strong></div>
+<div class="line">Heyman, Jakob (2021) ExpAge – A global compilation of glacial 10Be and 26Al data. <a class="reference external" href="https://expage.github.io">https://expage.github.io</a> (Online via <a class="reference external" href="https://octopusdata.org">https://octopusdata.org</a>. Accessed DD-MM-YYYY)</div>
+<div class="line"><strong>DOI</strong></div>
+<div class="line">not applicable</div>
+<div class="line"><br /></div>
+</div>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id30"><span class="brackets"><a class="fn-backref" href="#id2">1</a></span></dt>
+<dd><p><a class="reference external" href="https://github.com/LSDtopotools/LSDTopoTools_CRNBasinwide">https://github.com/LSDtopotools/LSDTopoTools_CRNBasinwide</a></p>
+</dd>
+<dt class="label" id="id31"><span class="brackets"><a class="fn-backref" href="#id4">2</a></span></dt>
+<dd><p><a class="reference external" href="https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes">https://www.arc.gov.au/manage-your-grant/classification-codes-rfcd-seo-and-anzsic-codes</a></p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="intro.html" class="btn btn-neutral float-left" title="Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="data_tables.html" class="btn btn-neutral float-right" title="Data tables and their fields" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, OCTOPUS database (CC BY 4.0).</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

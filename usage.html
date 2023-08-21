@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Data access &mdash; OCTOPUS database documentation 1.0 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="author" title="About these documents" href="about.html" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="References" href="references.html" />
+    <link rel="prev" title="Parent table fields &amp; values" href="parent_tables.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html">
+            <img src="_static/logo_lscape.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0.1
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="collections.html">Data collections</a></li>
+<li class="toctree-l1"><a class="reference internal" href="data_tables.html">Data tables and their fields</a></li>
+<li class="toctree-l1"><a class="reference internal" href="output_tables.html">Output table fields &amp; values</a></li>
+<li class="toctree-l1"><a class="reference internal" href="parent_tables.html">Parent table fields &amp; values</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Data access</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#web-feature-service">Web Feature Service</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#wfs-in-a-nutshell">WFS in a nutshell</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wfs-data-access-via-qgis">WFS data access via QGIS</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#excursus-obtaining-obfuscated-geographical-coordinates-in-qgis">Excursus. Obtaining obfuscated geographical coordinates in QGIS</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#wfs-data-access-via-r-rstudio">WFS data access via R/RStudio</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#example-1-australian-10be-derived-catchment-averaged-denudation-rates">Example 1. Australian 10Be-derived catchment-averaged denudation rates</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#example-2-australian-sedimentary-fluvial-osl-ages">Example 2. Australian sedimentary fluvial OSL ages</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#web-interface">Web interface</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#layers-menu">Layers menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#filter-menu">Filter menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#export-data-menu">Export Data menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#download-collection-menu">Download Collection menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#settings-menu">Settings menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#data-display-menu">Data Display menu</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#example-use-cases">Example use cases</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#use-case-1">Use case #1</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#use-case-2">Use case #2</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#use-case-3">Use case #3</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="references.html">References</a></li>
+<li class="toctree-l1"><a class="reference internal" href="resources.html">Resources</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">About 🐙</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">OCTOPUS database documentation</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a></li>
+      <li class="breadcrumb-item active">Data access</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/usage.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <div class="section" id="data-access">
+<h1>Data access<a class="headerlink" href="#data-access" title="Permalink to this heading"></a></h1>
+<p>OCTOPUS data can be viewed and exported through a bespoke <a class="reference internal" href="#web-interface"><span class="std std-ref">Web interface</span></a> or accessed directly via <a class="reference internal" href="#web-feature-service"><span class="std std-ref">Web Feature Service</span></a> (WFS). The latter allows users to access database content via third party software such as Geographic Information Systems (GIS), or R language. OCTOPUS data is served by GeoServer <a class="footnote-reference brackets" href="#id11" id="id1">1</a>, an open server solution for sharing geospatial data. Unless data from OCTOPUS is explicitly downloaded and locally stored by the user, it will remain cloud-borne, so the user will not have to care about data storage and being up-to-date.</p>
+<div class="section" id="web-feature-service">
+<span id="id2"></span><h2>Web Feature Service<a class="headerlink" href="#web-feature-service" title="Permalink to this heading"></a></h2>
+<p>This user guide and brief demonstration of capabilities outlines how to use WFS through third-party software, specifically <a class="reference external" href="https://qgis.org">QGIS</a> and/or <a class="reference external" href="https://www.r-project.org/">R software</a> environment as these software solutions are free, open-source and highly versatile.</p>
+<div class="section" id="wfs-in-a-nutshell">
+<h3>WFS in a nutshell<a class="headerlink" href="#wfs-in-a-nutshell" title="Permalink to this heading"></a></h3>
+<div class="line-block">
+<div class="line">Geospatial and location information development and standardisation globally is overseen by the Open Geospatial Consortium (OGC) <a class="footnote-reference brackets" href="#id12" id="id3">2</a>. Web Feature Service (WFS) is an OGC interface standard that enables platform independent requests for spatial features across the internet. This is accomplished by Geography Markup Language (GML), an XML derivative. Unlike for WMS (Web Map Service), where immutable map tiles are returned, WFS vector entities can be queried, altered, and spatially analysed.</div>
+<div class="line">WFS functionality knows three basal operations - <code class="docutils literal notranslate"><span class="pre">GetCapabilities</span></code>, <code class="docutils literal notranslate"><span class="pre">DescribeFeatureType</span></code>, and <code class="docutils literal notranslate"><span class="pre">GetFeature</span></code>. Calling <em>GetCapabilities</em> will generate a standardised, human readable meta-dataset that describes a WFS service and its functionality. <em>DescribeFeatureType</em> produces an overview of supported feature types, and <em>GetFeature</em> fetches features including their geometry and attribite values, i.e, variable fields.</div>
+</div>
+</div>
+<div class="section" id="wfs-data-access-via-qgis">
+<h3>WFS data access via QGIS<a class="headerlink" href="#wfs-data-access-via-qgis" title="Permalink to this heading"></a></h3>
+<ol class="arabic simple">
+<li><p>After opening QGIS, start a new project: <em>Project &gt; New</em></p></li>
+<li><p>In the Browser pane, select <em>WFS/OGC API Features &gt; New Connection…</em></p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/wfsQGIS_fig1.png"><img alt="_images/wfsQGIS_fig1.png" src="_images/wfsQGIS_fig1.png" style="width: 750px;" /></a>
+<ol class="arabic simple" start="3">
+<li><p>Name the new connection (e.g., ‘OCTOPUS’) and insert the link <a class="reference external" href="http://geoserver.octopusdata.org/geoserver/wfs">http://geoserver.octopusdata.org/geoserver/wfs</a> in the URL field. Click OK. All available OCTOPUS collections will appear in the Browser pane once a connection is established</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/wfsQGIS_fig2.png"><img alt="_images/wfsQGIS_fig2.png" src="_images/wfsQGIS_fig2.png" style="width: 600px;" /></a>
+<ol class="arabic simple" start="4">
+<li><p>To add a collection of interest, right click on that collection in the Browser pane and select <em>Add Layer to Project</em>. The collection will appear in the Layers pane. Alternatively, click + drag the layer of interest into the Layers pane</p></li>
+<li><p>To locally store a collection, select <em>Export Layer &gt; To File</em></p></li>
+<li><p>Select a file format and specify a file name and save location via the ‘…’ button. Select the coordinate reference system (CRS) of choice; OCTOPUS v.2 collections use EPSG: 3857 (WGS84 Pseudo-Mercator)</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/wfsQGIS_fig3.png"><img alt="_images/wfsQGIS_fig3.png" src="_images/wfsQGIS_fig3.png" style="width: 750px;" /></a>
+<ol class="arabic simple" start="7">
+<li><p>To add a saved shapefile to the project, navigate to the <em>main menu &gt; Layer &gt; Add Layer &gt; Add Vector Layer</em>. Selecting the .shp, .dbf or .shx file (of the six separate files that constitute the shapefile) will open the collection in the Layers pane</p></li>
+</ol>
+<div class="section" id="excursus-obtaining-obfuscated-geographical-coordinates-in-qgis">
+<h4>Excursus. Obtaining obfuscated geographical coordinates in QGIS<a class="headerlink" href="#excursus-obtaining-obfuscated-geographical-coordinates-in-qgis" title="Permalink to this heading"></a></h4>
+<p>Sites belonging to OCTOPUS data collections SahulArch and FosSahul are potentially culturally sensitive. As a result, coordinates have been obfuscated for these collections using a 25-km radius randomising algorithm. These former point data are represented by polygons now and coordinates are not pushed with the attribute table, or the .csv file if the collection is exported. Follow these steps to obtain obfuscated coordinates (keeping in mind the uncertainty introduced by obfuscation) for these collections by calculating polygon centroid points:</p>
+<ol class="arabic simple">
+<li><p>Navigate to the <em>main menu &gt; Vector &gt; Geometry Tools &gt; Centroids</em>…</p></li>
+<li><p>Select the collection of interest as the Input Layer, and click Run</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/wfsQGIS_fig4.png"><img alt="_images/wfsQGIS_fig4.png" src="_images/wfsQGIS_fig4.png" style="width: 750px;" /></a>
+<ol class="arabic simple" start="3">
+<li><p>To save coordinates, go to the Processing Toolbox pane and select <em>Vector table &gt; Add X/Y fields to layer</em></p></li>
+<li><p>Input Layer should appear as the generated centroids, and the coordinate system must be kept as default EPSG: 4326 – WGS84</p></li>
+<li><p>Click Run. This will generate a new layer, Added Fields, in the Layers pane. In the Attribute Table, fields for ‘x’ (longitude) and
+‘y’ (latitude) will appear at the end of the table with corresponding coordinates for each point feature</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/wfsQGIS_fig5.png"><img alt="_images/wfsQGIS_fig5.png" src="_images/wfsQGIS_fig5.png" style="width: 750px;" /></a>
+</div>
+</div>
+<div class="section" id="wfs-data-access-via-r-rstudio">
+<h3>WFS data access via R/RStudio<a class="headerlink" href="#wfs-data-access-via-r-rstudio" title="Permalink to this heading"></a></h3>
+<p>The below demo R script fetches, via WFS, spatial layers including rich attribute data from OCTOPUS database and generates a scatter plot and an interactive map representation, respectively.</p>
+<div class="admonition important">
+<p class="admonition-title">Important</p>
+<p>The script requires the below packages. If not installed on your machine yet, run</p>
+</div>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">install.packages</span><span class="p">(</span><span class="nf">c</span><span class="p">(</span><span class="s">&quot;sf&quot;</span><span class="p">,</span><span class="s">&quot;httr&quot;</span><span class="p">,</span><span class="s">&quot;tidyverse&quot;</span><span class="p">,</span><span class="s">&quot;ows4R&quot;</span><span class="p">,</span><span class="s">&quot;viridis&quot;</span><span class="p">,</span><span class="w"> </span><span class="s">&quot;mapview&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">dependencies</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">))</span>
+</pre></div>
+</div>
+<p>and you’ll be all set up.</p>
+<p>First we’re going to load the required packages</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">sf</span><span class="p">)</span><span class="w"> </span><span class="c1"># Simple features support (sf = standardized way to encode spatial vector data)</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">httr</span><span class="p">)</span><span class="w"> </span><span class="c1"># Generic web-service package for working with HTTP</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">tidyverse</span><span class="p">)</span><span class="w"> </span><span class="c1"># Workhorse collection of R packages for data sciences</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">ows4R</span><span class="p">)</span><span class="w"> </span><span class="c1"># Interface for OGC web-services incl. WFS</span>
+<span class="nf">library</span><span class="p">(</span><span class="n">viridis</span><span class="p">)</span><span class="w"> </span><span class="c1"># Predefined colorblind-friendly color scales for R</span>
+</pre></div>
+</div>
+<p>OK, we’re ready to go now. In the following we store the OCTOPUS WFS URL in an object. Then, using the latter, we establish a connection to OCTOPUS database.</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">OCTOPUSdata</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="s">&quot;http://geoserver.octopusdata.org/geoserver/wfs&quot;</span><span class="w"> </span><span class="c1"># store url in object</span>
+<span class="n">OCTOPUSdata_client</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">WFSClient</span><span class="o">$</span><span class="nf">new</span><span class="p">(</span><span class="n">OCTOPUSdata</span><span class="p">,</span><span class="w"> </span><span class="n">serviceVersion</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;2.0.0&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1"># connection to db</span>
+</pre></div>
+</div>
+<p>Let’s see what is there, i.e. show all available layer names and titles</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">OCTOPUSdata_client</span><span class="o">$</span><span class="nf">getFeatureTypes</span><span class="p">(</span><span class="n">pretty</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w"> </span><span class="c1"># show available layers and titles</span>
+</pre></div>
+</div>
+<p>The above WFS request should yield the following overview</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="w">                                           </span><span class="n">name</span><span class="w">                                      </span><span class="n">title</span>
+<span class="m">1</span><span class="w">                    </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_aus_basins</span><span class="w">    </span><span class="n">CRN</span><span class="w"> </span><span class="n">Australian</span><span class="w"> </span><span class="n">collection</span><span class="o">:</span><span class="w"> </span><span class="n">River</span><span class="w"> </span><span class="n">basins</span>
+<span class="m">2</span><span class="w">                   </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_aus_outlets</span><span class="w">    </span><span class="n">CRN</span><span class="w"> </span><span class="n">Australian</span><span class="w"> </span><span class="n">collection</span><span class="o">:</span><span class="w"> </span><span class="n">Sample</span><span class="w"> </span><span class="n">sites</span>
+<span class="m">3</span><span class="w">                    </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_int_basins</span><span class="w">        </span><span class="n">CRN</span><span class="w"> </span><span class="n">Global</span><span class="w"> </span><span class="n">collection</span><span class="o">:</span><span class="w"> </span><span class="n">River</span><span class="w"> </span><span class="n">basins</span>
+<span class="m">4</span><span class="w">                   </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_int_outlets</span><span class="w">        </span><span class="n">CRN</span><span class="w"> </span><span class="n">Global</span><span class="w"> </span><span class="n">collection</span><span class="o">:</span><span class="w"> </span><span class="n">Sample</span><span class="w"> </span><span class="n">sites</span>
+<span class="m">5</span><span class="w">                    </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_xxl_basins</span><span class="w">             </span><span class="n">CRN</span><span class="w"> </span><span class="n">Large</span><span class="w"> </span><span class="n">basins</span><span class="o">:</span><span class="w"> </span><span class="n">River</span><span class="w"> </span><span class="n">basins</span>
+<span class="m">6</span><span class="w">                   </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_xxl_outlets</span><span class="w">             </span><span class="n">CRN</span><span class="w"> </span><span class="n">Large</span><span class="w"> </span><span class="n">basins</span><span class="o">:</span><span class="w"> </span><span class="n">Sample</span><span class="w"> </span><span class="n">sites</span>
+<span class="m">7</span><span class="w">                 </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_inprep_basins</span><span class="w">     </span><span class="n">CRN</span><span class="w"> </span><span class="nf">UOW </span><span class="p">(</span><span class="n">in</span><span class="w"> </span><span class="n">preparation</span><span class="p">)</span><span class="o">:</span><span class="w"> </span><span class="n">River</span><span class="w"> </span><span class="n">basins</span>
+<span class="m">8</span><span class="w">                </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">crn_inprep_outlets</span><span class="w">     </span><span class="n">CRN</span><span class="w"> </span><span class="nf">UOW </span><span class="p">(</span><span class="n">in</span><span class="w"> </span><span class="n">preparation</span><span class="p">)</span><span class="o">:</span><span class="w"> </span><span class="n">Sample</span><span class="w"> </span><span class="n">sites</span>
+<span class="m">9</span><span class="w">                      </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">publications</span><span class="w">                   </span><span class="n">CRN</span><span class="w"> </span><span class="n">basin</span><span class="w"> </span><span class="n">bounding</span><span class="w"> </span><span class="n">boxes</span>
+<span class="m">10</span><span class="w">                            </span><span class="n">opengeo</span><span class="o">:</span><span class="n">countries</span><span class="w">                     </span><span class="n">Countries</span><span class="w"> </span><span class="n">of</span><span class="w"> </span><span class="n">the</span><span class="w"> </span><span class="n">World</span>
+<span class="m">11</span><span class="w">                           </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">expage</span><span class="w">                            </span><span class="n">ExpAge</span><span class="w"> </span><span class="n">Database</span>
+<span class="m">12</span><span class="w"> </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">fossahul_webmercator_nrand_25000</span><span class="w">                          </span><span class="n">FosSahul</span><span class="w"> </span><span class="n">Database</span>
+<span class="m">13</span><span class="w">                    </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahularch_osl</span><span class="w">          </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Archaeology</span><span class="o">:</span><span class="w"> </span><span class="n">OSL</span><span class="w"> </span><span class="n">collection</span>
+<span class="m">14</span><span class="w">                    </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahularch_c14</span><span class="w">  </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Archaeology</span><span class="o">:</span><span class="w"> </span><span class="n">Radiocarbon</span><span class="w"> </span><span class="n">collection</span>
+<span class="m">15</span><span class="w">                     </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahularch_tl</span><span class="w">           </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Archaeology</span><span class="o">:</span><span class="w"> </span><span class="n">TL</span><span class="w"> </span><span class="n">collection</span>
+<span class="m">16</span><span class="w">             </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahulsed_aeolian_osl</span><span class="w">    </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Sedimentary</span><span class="w"> </span><span class="n">Archives</span><span class="o">:</span><span class="w"> </span><span class="n">Aeolian</span><span class="w"> </span><span class="n">OSL</span>
+<span class="m">17</span><span class="w">              </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahulsed_aeolian_tl</span><span class="w">     </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Sedimentary</span><span class="w"> </span><span class="n">Archives</span><span class="o">:</span><span class="w"> </span><span class="n">Aeolian</span><span class="w"> </span><span class="n">TL</span>
+<span class="m">18</span><span class="w">             </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahulsed_fluvial_osl</span><span class="w">    </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Sedimentary</span><span class="w"> </span><span class="n">Archives</span><span class="o">:</span><span class="w"> </span><span class="n">Fluvial</span><span class="w"> </span><span class="n">OSL</span>
+<span class="m">19</span><span class="w">              </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahulsed_fluvial_tl</span><span class="w">     </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Sedimentary</span><span class="w"> </span><span class="n">Archives</span><span class="o">:</span><span class="w"> </span><span class="n">Fluvial</span><span class="w"> </span><span class="n">TL</span>
+<span class="m">20</span><span class="w">          </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahulsed_lacustrine_osl</span><span class="w"> </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Sedimentary</span><span class="w"> </span><span class="n">Archives</span><span class="o">:</span><span class="w"> </span><span class="n">Lacustrine</span><span class="w"> </span><span class="n">OSL</span>
+<span class="m">21</span><span class="w">           </span><span class="n">be10</span><span class="o">-</span><span class="n">denude</span><span class="o">:</span><span class="n">sahulsed_lacustrine_tl</span><span class="w">  </span><span class="n">Sahul</span><span class="w"> </span><span class="n">Sedimentary</span><span class="w"> </span><span class="n">Archives</span><span class="o">:</span><span class="w"> </span><span class="n">Lacustrine</span><span class="w"> </span><span class="n">TL</span>
+</pre></div>
+</div>
+<p><strong>That’s basically it.</strong> Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. <a class="footnote-reference brackets" href="#id13" id="id4">3</a></p>
+<div class="section" id="example-1-australian-10be-derived-catchment-averaged-denudation-rates">
+<h4>Example 1. Australian 10Be-derived catchment-averaged denudation rates<a class="headerlink" href="#example-1-australian-10be-derived-catchment-averaged-denudation-rates" title="Permalink to this heading"></a></h4>
+<p>In this example we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e., layer <em>‘be10-denude:crn_aus_basins’</em> from the above list)</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">parse_url</span><span class="p">(</span><span class="n">OCTOPUSdata</span><span class="p">)</span><span class="w"> </span><span class="c1"># parse URL into list</span>
+<span class="n">url</span><span class="o">$</span><span class="n">query</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">list</span><span class="p">(</span><span class="n">service</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;wfs&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="n">version</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;2.0.0&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="n">request</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;GetFeature&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="n">typename</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;be10-denude:crn_aus_basins&quot;</span><span class="p">,</span>
+<span class="w">                  </span><span class="n">srsName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;EPSG:900913&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1"># set parameters for url$query</span>
+
+<span class="n">request</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">build_url</span><span class="p">(</span><span class="n">url</span><span class="p">)</span><span class="w"> </span><span class="c1"># build a request URL from &#39;url&#39; list</span>
+<span class="n">CRN_AUS_basins</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">read_sf</span><span class="p">(</span><span class="n">request</span><span class="p">)</span><span class="w"> </span><span class="c1"># read simple features using &#39;request&#39; URL. Takes few secs...</span>
+</pre></div>
+</div>
+<p>Now that we have the data available, we define our plot parameters. We want to plot denudation rate (“EBE_MMKYR”) over average slope gradient (“SLP_AVE”) and call the plot (last line)</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">myPlot</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">ggplot</span><span class="p">(</span><span class="n">CRN_AUS_basins</span><span class="p">,</span><span class="w"> </span><span class="nf">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">SLP_AVE</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="o">=</span><span class="n">EBE_MMKYR</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># plot denudation rate over average slope</span>
+<span class="nf">geom_errorbar</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">ymin</span><span class="o">=</span><span class="p">(</span><span class="n">EBE_MMKYR</span><span class="o">-</span><span class="n">EBE_ERR</span><span class="p">),</span><span class="w"> </span><span class="n">ymax</span><span class="o">=</span><span class="p">(</span><span class="n">EBE_MMKYR</span><span class="o">+</span><span class="n">EBE_ERR</span><span class="p">)),</span><span class="w"> </span><span class="n">linewidth</span><span class="o">=</span><span class="m">0.3</span><span class="p">,</span><span class="w"> </span><span class="n">colour</span><span class="o">=</span><span class="s">&quot;gray80&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># visualise errors</span>
+<span class="nf">geom_point</span><span class="p">(</span><span class="nf">aes</span><span class="p">(</span><span class="n">size</span><span class="o">=</span><span class="n">AREA</span><span class="p">,</span><span class="w"> </span><span class="n">color</span><span class="o">=</span><span class="n">ELEV_AVE</span><span class="p">),</span><span class="w"> </span><span class="n">alpha</span><span class="o">=</span><span class="n">.</span><span class="m">5</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># scale pts. to &quot;AREA&quot;, colour pts. to &quot;ELEV_AVE&quot;</span>
+<span class="nf">scale_color_viridis</span><span class="p">(</span><span class="n">option</span><span class="o">=</span><span class="s">&quot;C&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">direction</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">-1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># use &#39;viridis&#39; colour scale</span>
+<span class="nf">scale_size_continuous</span><span class="p">(</span><span class="n">range</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="m">10</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># define point size range for better visibility</span>
+<span class="nf">xlab</span><span class="p">(</span><span class="s">&quot;Slope gradient [m km^-1]&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nf">ylab</span><span class="p">(</span><span class="s">&quot;Denudation rate [mm kyr^-1]&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># set labels for x and y axes</span>
+<span class="nf">ggtitle</span><span class="p">(</span><span class="s">&quot;Australian 10Be catchment-avg. denudation rates&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># make title</span>
+<span class="nf">theme</span><span class="p">(</span><span class="n">plot.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">element_text</span><span class="p">(</span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">18</span><span class="p">,</span><span class="w"> </span><span class="n">face</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;bold&quot;</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># title settings</span>
+<span class="nf">labs</span><span class="p">(</span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Catchment \narea [km^2]&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">colour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Average \ncatchment \nelevation [m]&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1"># re-label legend</span>
+<span class="n">myPlot</span><span class="w"> </span><span class="c1"># call plot</span>
+</pre></div>
+</div>
+<div class="figure align-default" id="id16">
+<a class="reference internal image-reference" href="_images/AUSdenudation.png"><img alt="AUS 10Be catchment-averaged denudation rates" src="_images/AUSdenudation.png" style="width: 750px;" /></a>
+<p class="caption"><span class="caption-text">Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient</span><a class="headerlink" href="#id16" title="Permalink to this image"></a></p>
+</div>
+</div>
+<div class="section" id="example-2-australian-sedimentary-fluvial-osl-ages">
+<h4>Example 2. Australian sedimentary fluvial OSL ages<a class="headerlink" href="#example-2-australian-sedimentary-fluvial-osl-ages" title="Permalink to this heading"></a></h4>
+<p>For this example we quickly want to display Australian OSL (Optically Stimulated Luminescence) ages on a base map.</p>
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="nf">library</span><span class="p">(</span><span class="n">mapview</span><span class="p">)</span><span class="w"> </span><span class="c1"># Provides functions for quick visualisation of spatial data</span>
+<span class="nf">mapviewOptions</span><span class="p">(</span><span class="n">fgb</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">FALSE</span><span class="p">)</span>
+<span class="n">url2</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">parse_url</span><span class="p">(</span><span class="n">OCTOPUSdata</span><span class="p">)</span><span class="w"> </span><span class="c1"># parse URL into list</span>
+<span class="n">url2</span><span class="o">$</span><span class="n">query</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">list</span><span class="p">(</span><span class="n">service</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;wfs&quot;</span><span class="p">,</span>
+<span class="w">                   </span><span class="n">version</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;2.0.0&quot;</span><span class="p">,</span>
+<span class="w">                   </span><span class="n">request</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;GetFeature&quot;</span><span class="p">,</span>
+<span class="w">                   </span><span class="n">typename</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;be10-denude:sahulsed_fluvial_osl&quot;</span><span class="p">,</span>
+<span class="w">                   </span><span class="n">srsName</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;EPSG:900913&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1"># set parameters for url$query</span>
+
+<span class="n">request2</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">build_url</span><span class="p">(</span><span class="n">url2</span><span class="p">)</span><span class="w"> </span><span class="c1"># build request URL from &#39;url&#39; list</span>
+<span class="n">SahulSed.FLV.OSL</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">read_sf</span><span class="p">(</span><span class="n">request2</span><span class="p">)</span><span class="w"> </span><span class="c1"># read simple features using &#39;request&#39; URL. Takes few secs...</span>
+<span class="n">SahulSed.FLV.OSL</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">st_set_crs</span><span class="p">(</span><span class="n">SahulSed.FLV.OSL</span><span class="p">,</span><span class="w"> </span><span class="m">900913</span><span class="p">)</span><span class="w"> </span><span class="c1"># Set Coordinate Reference System</span>
+<span class="n">SahulSed.FLV.OSL</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">st_transform</span><span class="p">(</span><span class="n">SahulSed.FLV.OSL</span><span class="p">,</span>
+<span class="w">        </span><span class="n">crs</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;+proj=longlat +datum=WGS84&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1"># Transform geometry to geographic coordinates, WGS84</span>
+<span class="nf">mapview</span><span class="p">(</span><span class="n">SahulSed.FLV.OSL</span><span class="p">,</span><span class="w"> </span><span class="n">xcol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;X_WGS84&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">ycol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Y_WGS84&quot;</span><span class="p">,</span>
+<span class="w">        </span><span class="n">zcol</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;OSL_AGE&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">at</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">seq</span><span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="w"> </span><span class="m">350</span><span class="p">,</span><span class="w"> </span><span class="m">50</span><span class="p">),</span><span class="w"> </span><span class="n">alpha</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">.</span><span class="m">25</span><span class="p">,</span><span class="w"> </span><span class="c1"># set range (0 to 350 ka) and bins (50 ka)</span>
+<span class="w">        </span><span class="n">alpha.regions</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0.1</span><span class="p">,</span><span class="w"> </span><span class="n">legend</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="kc">TRUE</span><span class="p">)</span><span class="w"> </span><span class="c1"># Display on map using &quot;mapview&quot; package</span>
+</pre></div>
+</div>
+<div class="figure align-default" id="id17">
+<a class="reference internal image-reference" href="_images/AUS_sedflvOSL.png"><img alt="AUS sedimentary fluvial OSL ages" src="_images/AUS_sedflvOSL.png" style="width: 750px;" /></a>
+<p class="caption"><span class="caption-text">Plot 2. Australian sedimentary fluvial OSL ages</span><a class="headerlink" href="#id17" title="Permalink to this image"></a></p>
+</div>
+<p><strong>All done!</strong></p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>Thanks to the very slick ‘Mapview’ <a class="footnote-reference brackets" href="#id14" id="id5">4</a> functionality, points of the original output map are mouse-over sensitive and can be queried in depth by clicking. Further, the map is scalable and you can choose between a decent selection of base map layers. Try it yourself in R or have a look at a fully functional copy of the above script on <a class="reference external" href="https://rpubs.com/HenryM/octopus_wfs">RPubs</a>!</p>
+</div>
+<hr class="docutils" />
+</div>
+</div>
+</div>
+<div class="section" id="web-interface">
+<span id="id6"></span><h2>Web interface<a class="headerlink" href="#web-interface" title="Permalink to this heading"></a></h2>
+<a class="reference internal image-reference" href="_images/webint_1_Overview.png"><img alt="_images/webint_1_Overview.png" src="_images/webint_1_Overview.png" style="width: 660px;" /></a>
+<div class="line-block">
+<div class="line">1 – <a class="reference internal" href="#layers-menu"><span class="std std-ref">Layers menu</span></a> (select data layers)</div>
+<div class="line">2 – <a class="reference internal" href="#filter-menu"><span class="std std-ref">Filter menu</span></a> (filter selected data layers)</div>
+<div class="line">3 – <a class="reference internal" href="#export-data"><span class="std std-ref">Export Data menu</span></a> (export selection)</div>
+<div class="line">4 – <a class="reference internal" href="#download-collection"><span class="std std-ref">Download Collection menu</span></a> (download auxiliary CRN zip data)</div>
+<div class="line">5 – <a class="reference internal" href="#settings-menu"><span class="std std-ref">Settings menu</span></a> (adjust web interface settings)</div>
+<div class="line">6 – <a class="reference internal" href="#data-display"><span class="std std-ref">Data Display menu</span></a> (data representation in a nutshell)</div>
+</div>
+<div class="section" id="layers-menu">
+<span id="id7"></span><h3>Layers menu<a class="headerlink" href="#layers-menu" title="Permalink to this heading"></a></h3>
+<p>The Layers menu allows you to select data to display, organized by collection. Select tick boxes to view data on the display map.</p>
+<a class="reference internal image-reference" href="_images/webint_2_Layers.png"><img alt="_images/webint_2_Layers.png" src="_images/webint_2_Layers.png" style="width: 450px;" /></a>
+</div>
+<div class="section" id="filter-menu">
+<span id="id8"></span><h3>Filter menu<a class="headerlink" href="#filter-menu" title="Permalink to this heading"></a></h3>
+<p>The Filter menu allows you to apply filters to data. You must select at least one dataset to view before you can apply filters, and filters are applied to each data collection individually. In the Filter menu, you can download your filter configuration as a .JSON file and import them.</p>
+<a class="reference internal image-reference" href="_images/webint_3_Filter.png"><img alt="_images/webint_3_Filter.png" src="_images/webint_3_Filter.png" style="width: 450px;" /></a>
+</div>
+<div class="section" id="export-data-menu">
+<span id="export-data"></span><h3>Export Data menu<a class="headerlink" href="#export-data-menu" title="Permalink to this heading"></a></h3>
+<p>The Export Data menu allows you to download data, unfiltered or filtered by any rules applied in the Filter menu to that dataset. Data may be exported in the following formats: Geography Markup Language (GML) version 2 and 3, ESRI Shapefile, JavaScript Object Notation (JSON), Google Earth KML and KMZ. You will be prompted to provide an intended use of data prior to download.</p>
+<a class="reference internal image-reference" href="_images/webint_4_Export.png"><img alt="_images/webint_4_Export.png" src="_images/webint_4_Export.png" style="width: 450px;" /></a>
+<div class="admonition attention">
+<p class="admonition-title">Attention</p>
+<p>Exported data in the KML and KMZ formats are geographically restricted to the region displayed on screen at the time of export. Zoom in or out prior to export to capture your region of interest. All other export formats include the complete geographic extent of selected data.</p>
+</div>
+</div>
+<div class="section" id="download-collection-menu">
+<span id="download-collection"></span><h3>Download Collection menu<a class="headerlink" href="#download-collection-menu" title="Permalink to this heading"></a></h3>
+<p>The Download Collection menu allows you to request a download of packaged data from the CRN collection. One or more sub-collections from the CRN collection must first be selected in the Layers menu. Hold <code class="docutils literal notranslate"><span class="pre">Ctrl</span></code> (or <code class="docutils literal notranslate"><span class="pre">cmd</span></code> on Mac) while clicking and dragging to select a region of interest. You will be prompted within the Download Collection menu to provide a name, email address and intended use of data, and tick boxes for data within your selected region.</p>
+<a class="reference internal image-reference" href="_images/webint_5_Download.png"><img alt="_images/webint_5_Download.png" src="_images/webint_5_Download.png" style="width: 450px;" /></a>
+</div>
+<div class="section" id="settings-menu">
+<span id="id9"></span><h3>Settings menu<a class="headerlink" href="#settings-menu" title="Permalink to this heading"></a></h3>
+<p>The Settings menu allows you to change the displayed base map, enable case-sensitivity for filters, and control clustering of data.</p>
+<a class="reference internal image-reference" href="_images/webint_6_Settings.png"><img alt="_images/webint_6_Settings.png" src="_images/webint_6_Settings.png" style="width: 450px;" /></a>
+</div>
+<div class="section" id="data-display-menu">
+<span id="data-display"></span><h3>Data Display menu<a class="headerlink" href="#data-display-menu" title="Permalink to this heading"></a></h3>
+<p>Collection data are displayed on a map (see the Settings menu to change base maps) and default to displaying in clusters. Data circles are colour-coded by collection (e.g. Sahul Archaeology: Radiocarbon collection is orange) and show numbers indicating the count of age determinations represented by that circle. The size of circle clusters is also scaled by the number of age determinations it represents. Clicking on a data circle creates a pop-up containing a subset of summary information about the age determinations it represents. Clicking once anywhere in the window outside of the pop-up will close it.</p>
+<a class="reference internal image-reference" href="_images/webint_7_DataDisplay.png"><img alt="_images/webint_7_DataDisplay.png" src="_images/webint_7_DataDisplay.png" style="width: 660px;" /></a>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>OCTOPUS web interface does not display full data records. To download full data, use the Export Data menu.</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>SahulArch and FosSahul data points are randomly obfuscated within 25km.</p>
+</div>
+</div>
+<div class="section" id="example-use-cases">
+<h3>Example use cases<a class="headerlink" href="#example-use-cases" title="Permalink to this heading"></a></h3>
+<div class="section" id="use-case-1">
+<h4>Use case #1<a class="headerlink" href="#use-case-1" title="Permalink to this heading"></a></h4>
+<p>In this example, we will prepare a map of Australian archaeological radiocarbon ages &gt;10,000 BP with a monochrome map and no data point clustering.</p>
+<div class="line-block">
+<div class="line">1. Navigate to the <em>Layers</em> menu</div>
+<div class="line">2. Select <em>‘Radiocarbon collection’</em> under the <em>‘Sahul Archaeology’</em> subheading</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_8_UseCase1_1.png"><img alt="_images/webint_8_UseCase1_1.png" src="_images/webint_8_UseCase1_1.png" style="width: 550px;" /></a>
+<div class="line-block">
+<div class="line">3. Navigate to the <em>Filter</em> menu</div>
+<div class="line">4. Select the <em>‘Sahul Archaeology: Radiocarbon collection’</em> drop-down menu</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_9_UseCase1_2.png"><img alt="_images/webint_9_UseCase1_2.png" src="_images/webint_9_UseCase1_2.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">5. Choose <em>‘Age (BP)’</em> from the drop-down menu</div>
+<div class="line">6. Click <em>Add Rule</em></div>
+</div>
+<div class="line-block">
+<div class="line">7. Select <em>‘&gt;’</em> (greater than) from the drop-down menu</div>
+<div class="line">8. Type <em>‘10000’</em> in the text box</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_10_UseCase1_3.png"><img alt="_images/webint_10_UseCase1_3.png" src="_images/webint_10_UseCase1_3.png" style="width: 400px;" /></a>
+<div class="line-block">
+<div class="line">9. Click anywhere outside of the text box to confirm</div>
+</div>
+<div class="line-block">
+<div class="line">10. Navigate to the <em>Settings</em> menu</div>
+<div class="line">11. Change the base map to <em>Maptiler Positron</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_11_UseCase1_4.png"><img alt="_images/webint_11_UseCase1_4.png" src="_images/webint_11_UseCase1_4.png" style="width: 700px;" /></a>
+<div class="line-block">
+<div class="line">12. Turn off the clustering option. You can now use Print Screen or a screen capture tool to save the map as an image</div>
+</div>
+</div>
+<div class="section" id="use-case-2">
+<h4>Use case #2<a class="headerlink" href="#use-case-2" title="Permalink to this heading"></a></h4>
+<p>In this example, we will generate a Shapefile of Australian fluvial OSL dates from publications newer than the year 2000, derived from sediments or dating quartz, collected by core or by auger.</p>
+<div class="line-block">
+<div class="line">1. Navigate to the <em>Layers</em> menu</div>
+<div class="line">2. Select <em>‘OSL collection’</em> under <em>‘Fluvial deposits’</em> under <em>‘Sahul Sedimentary Archives’</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_12_UseCase2_1.png"><img alt="_images/webint_12_UseCase2_1.png" src="_images/webint_12_UseCase2_1.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">3. Navigate to the <em>Filters</em> menu</div>
+<div class="line">4. Select the <em>‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’</em> drop-down menu. Leave <em>‘Match Type’</em> set to <em>‘All’</em> (default)</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_13_UseCase2_2.png"><img alt="_images/webint_13_UseCase2_2.png" src="_images/webint_13_UseCase2_2.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">5. Choose <em>‘Year’</em> from the drop-down menu</div>
+<div class="line">6. Click <em>‘Add Rule’</em></div>
+</div>
+<div class="line-block">
+<div class="line">7. Select <em>‘&gt;’</em> (greater than) from the drop-down menu</div>
+<div class="line">8. Type <em>‘2000’</em> in the text box</div>
+<div class="line">9. Click anywhere outside of the text box to confirm</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_14_UseCase2_3.png"><img alt="_images/webint_14_UseCase2_3.png" src="_images/webint_14_UseCase2_3.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">10. Click <em>‘Add Group’</em> above this filter</div>
+</div>
+<div class="line-block">
+<div class="line">11. In the new group that appears below your first filter, change the <em>‘Match Type’</em> to <em>‘Any’</em></div>
+<div class="line">12. Select <em>‘Type of material used’</em> from the drop-down list</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_15_UseCase2_4.png"><img alt="_images/webint_15_UseCase2_4.png" src="_images/webint_15_UseCase2_4.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">13. Click <em>‘Add Rule’</em></div>
+<div class="line">14. Select <em>‘Sediment’</em> from the drop-down menu under <em>‘Type of material used’</em></div>
+<div class="line">15. Select <em>‘Type of mineral used’</em> from the drop-down list</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_16_UseCase2_5.png"><img alt="_images/webint_16_UseCase2_5.png" src="_images/webint_16_UseCase2_5.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">16. Click the <em>‘Add Rule’</em> button again</div>
+<div class="line">17. Select <em>‘Quartz’</em> from the drop-down menu under <em>‘Type of material used’</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_17_UseCase2_6.png"><img alt="_images/webint_17_UseCase2_6.png" src="_images/webint_17_UseCase2_6.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">18. Within the Filter menu, scroll back up to the top of the menu and click <em>‘Add Group’</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_18_UseCase2_7.png"><img alt="_images/webint_18_UseCase2_7.png" src="_images/webint_18_UseCase2_7.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">19. Scroll down to your new group and change <em>‘Match Type’</em> to <em>‘Any’</em></div>
+<div class="line">20. Select <em>‘Sample collection method’</em> from the drop-down menu</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_19_UseCase2_8.png"><img alt="_images/webint_19_UseCase2_8.png" src="_images/webint_19_UseCase2_8.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">21. Click <em>‘Add Rule’</em></div>
+<div class="line">22. Leave the default option of <em>‘Auger’</em> for <em>‘Sample collection method’</em></div>
+<div class="line">23. Click <em>‘Add Rule’</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_20_UseCase2_9.png"><img alt="_images/webint_20_UseCase2_9.png" src="_images/webint_20_UseCase2_9.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">24. Select <em>‘Core’</em> from the second drop-down menu</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_21_UseCase2_10.png"><img alt="_images/webint_21_UseCase2_10.png" src="_images/webint_21_UseCase2_10.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">25. Navigate to the <em>Export Data</em> menu</div>
+<div class="line">26. Select <em>‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’</em> from the first drop-down menu</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_22_UseCase2_11.png"><img alt="_images/webint_22_UseCase2_11.png" src="_images/webint_22_UseCase2_11.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">27. Leave <em>‘Shapefile’</em> (default) in the second drop-down menu</div>
+<div class="line">28. Choose your intended use of the data from the third drop-down menu (e.g. <em>‘Research (other)’</em>)</div>
+<div class="line">29. Click <em>‘Export Layer’</em></div>
+</div>
+</div>
+<div class="section" id="use-case-3">
+<h4>Use case #3<a class="headerlink" href="#use-case-3" title="Permalink to this heading"></a></h4>
+<p>In this example, we will generate KML files of archaeological, fossil, and sediment age determinations from Cape York Peninsula (IBRA bioregion <a class="footnote-reference brackets" href="#id15" id="id10">5</a>) between 1000 and 8000 years old.</p>
+<div class="line-block">
+<div class="line">1. Navigate to the <em>Layers</em> menu</div>
+<div class="line">2. Select (by tick boxes) all sub-collections in the <em>Sahul Sedimentary Archives</em> and <em>Sahul Archaeology</em> collections and select the <em>FosSahul Database</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_23_UseCase3_1.png"><img alt="_images/webint_23_UseCase3_1.png" src="_images/webint_23_UseCase3_1.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">3. Navigate to the <em>Filter</em> menu</div>
+<div class="line">4. Click the <em>Sahul Sedimentary Archives: Fluvial deposits: OSL collection</em> drop-down menu</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_24_UseCase3_2.png"><img alt="_images/webint_24_UseCase3_2.png" src="_images/webint_24_UseCase3_2.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">5. Select <em>‘OSL age (ka)’</em> from the second drop-down list</div>
+<div class="line">6. Click <em>‘Add Rule’</em></div>
+</div>
+<div class="line-block">
+<div class="line">7. In the <em>‘OSL age (ka)’</em> filter section, select <em>‘&lt;=’</em> (lesser than or equal to) and type <em>8</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_25_UseCase3_3.png"><img alt="_images/webint_25_UseCase3_3.png" src="_images/webint_25_UseCase3_3.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">8. Click anywhere outside of the text box to confirm</div>
+<div class="line">9. Click <em>‘Add Rule’</em> again</div>
+<div class="line">10. In the second <em>‘OSL age (ka)’</em> filter section, select <em>‘&gt;=’</em> (greater than or equal to) and type <em>1</em></div>
+<div class="line">11. Select <em>‘IBRA-7 bio-region name’</em> from the first filter drop-down menu</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_26_UseCase3_4.png"><img alt="_images/webint_26_UseCase3_4.png" src="_images/webint_26_UseCase3_4.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">12. Click <em>‘Add Rule’</em></div>
+<div class="line">13. In the <em>‘IBRA-7 bio-region name’</em> filter section, select <em>‘Cape York Peninsula’</em></div>
+<div class="line">14. Click outside the text box to confirm</div>
+<div class="line">15. Repeat steps 4 to 11 for all remaining data collections (note that some will specify <em>‘TL age (ka)’</em> instead of <em>‘OSL age (ka)’</em> except for <em>Sahul Archaeology: Radiocarbon</em> collection as SahulArch radiocarbon ages are listed in years BP not thousand years (ka))</div>
+<div class="line">16. For <em>Sahul Archaeology: Radiocarbon collection</em>, select <em>‘Age (BP)’</em></div>
+<div class="line">17. Click <em>‘Add Rule’</em></div>
+<div class="line">18. Select <em>‘&lt;=’</em> (lesser than or equal to) and type <em>‘8000’</em></div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_27_UseCase3_5.png"><img alt="_images/webint_27_UseCase3_5.png" src="_images/webint_27_UseCase3_5.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">19. Click <em>‘Add Rule’</em></div>
+<div class="line">20. Select <em>‘&gt;=’</em> (greater than or equal to) and type <em>‘1000’</em></div>
+<div class="line">21. Select <em>‘IBRA-7 bio-region name’</em> from the first filter drop-down menu</div>
+<div class="line">22. Click <em>‘Add Rule’</em></div>
+<div class="line">23. In the <em>‘IBRA-7 bio-region name’</em> filter section, select <em>‘Cape York Peninsula’</em></div>
+<div class="line">24. Click outside the text box to confirm</div>
+<div class="line">25. Navigate to the Export Data menu</div>
+<div class="line">26. Select <em>‘Sahul Sedimentary Archives: Fluvial deposits: OSL collection’</em> from the first drop-down menu, <em>‘KML’</em> from the second drop- down menu, and intended research purpose (e.g. <em>‘Research (other)’</em>) from the third drop-down menu</div>
+</div>
+<a class="reference internal image-reference" href="_images/webint_28_UseCase3_6.png"><img alt="_images/webint_28_UseCase3_6.png" src="_images/webint_28_UseCase3_6.png" style="width: 450px;" /></a>
+<div class="line-block">
+<div class="line">27. Click <em>Export Layer</em> and save file</div>
+<div class="line">28. Repeat steps 26-27 for each data collection</div>
+</div>
+<p class="rubric">Footnotes</p>
+<dl class="footnote brackets">
+<dt class="label" id="id11"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p><a class="reference external" href="http://geoserver.octopusdata.org/">http://geoserver.octopusdata.org/</a></p>
+</dd>
+<dt class="label" id="id12"><span class="brackets"><a class="fn-backref" href="#id3">2</a></span></dt>
+<dd><p><a class="reference external" href="https://www.ogc.org">https://www.ogc.org</a></p>
+</dd>
+<dt class="label" id="id13"><span class="brackets"><a class="fn-backref" href="#id4">3</a></span></dt>
+<dd><p>A full description of OCTOPUS database and its collections can be found in a dedicated <a class="reference external" href="https://doi.org/10.5194/essd-14-3695-2022">Earth Systems Science Data</a> publication.</p>
+</dd>
+<dt class="label" id="id14"><span class="brackets"><a class="fn-backref" href="#id5">4</a></span></dt>
+<dd><p><a class="reference external" href="https://r-spatial.github.io/mapview/">https://r-spatial.github.io/mapview/</a></p>
+</dd>
+<dt class="label" id="id15"><span class="brackets"><a class="fn-backref" href="#id10">5</a></span></dt>
+<dd><p><a class="reference external" href="https://www.dcceew.gov.au/environment/land/nrs/science/ibra">https://www.dcceew.gov.au/environment/land/nrs/science/ibra</a></p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="parent_tables.html" class="btn btn-neutral float-left" title="Parent table fields &amp; values" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="references.html" class="btn btn-neutral float-right" title="References" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, OCTOPUS database (CC BY 4.0).</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
