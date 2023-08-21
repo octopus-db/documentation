@@ -20,15 +20,13 @@ CRN output
 
 CRN vector spatial data
 ^^^^^^^^^^^^^^^^^^^^^^^
-The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system.
+The vector spatial data uses the WGS84 / Pseudo-Mercator (EPSG: 3857) projected coordinate reference system.
 
 .. csv-table::
    :file: ./csv_tables/crn_output.csv
    :header-rows: 1
 
-.. tip::
-
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _CRN_ancillary_data:
 
@@ -85,9 +83,7 @@ SahulArch C14 output
    :file: ./csv_tables/arch_c14_output.csv
    :header-rows: 1
 
-.. tip::
-
-For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulArch_OSL_output:
 
@@ -98,9 +94,7 @@ SahulArch OSL output
    :file: ./csv_tables/arch_osl_output.csv
    :header-rows: 1
 
-.. tip::
-
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulArch_TL_output:
 
@@ -111,9 +105,7 @@ SahulArch TL output
    :file: ./csv_tables/arch_tl_output.csv
    :header-rows: 1
 
-.. tip::
-
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulSed_output:
 
@@ -129,9 +121,7 @@ SahulSed OSL output
    :file: ./csv_tables/sed_osl_output.csv
    :header-rows: 1
 
-.. tip::
-
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulSed_TL_output:
 
@@ -142,9 +132,7 @@ SahulSed TL output
    :file: ./csv_tables/sed_tl_output.csv
    :header-rows: 1
 
-.. tip::
-
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _FosSahul_output:
 
@@ -155,9 +143,7 @@ FosSahul output
    :file: ./csv_tables/fos_output.csv
    :header-rows: 1
 
-.. tip::
-
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _expage_output:
 
@@ -168,9 +154,7 @@ ExpAge output
    :file: ./csv_tables/expage_output.csv
    :header-rows: 1
 
-.. tip::
-
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 .. rubric:: Footnotes
 
