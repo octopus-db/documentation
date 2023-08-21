@@ -28,7 +28,7 @@ The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected co
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _CRN_ancillary_data:
 
@@ -86,7 +86,7 @@ SahulArch C14 output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulArch_OSL_output:
 
@@ -99,7 +99,7 @@ SahulArch OSL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulArch_TL_output:
 
@@ -112,7 +112,7 @@ SahulArch TL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulSed_output:
 
@@ -130,7 +130,7 @@ SahulSed OSL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulSed_TL_output:
 
@@ -143,7 +143,7 @@ SahulSed TL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _FosSahul_output:
 
@@ -156,7 +156,7 @@ FosSahul output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _expage_output:
 
@@ -169,7 +169,7 @@ ExpAge output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
+  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 .. rubric:: Footnotes
 
