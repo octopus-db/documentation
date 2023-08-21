@@ -2,6 +2,7 @@
 Resources
 =========
 
+
 * Zenodo OCTOPUS database community (https://zenodo.org/communities/octopus-database/)
 
 * OCTOPUS relational database schema (https://octopus-db.github.io/schema/)
