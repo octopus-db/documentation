@@ -5,9 +5,7 @@ Output table fields & values
 | To serve OCTOPUS database collections as geospatial layers via an interactive map :ref:`Web_interface` and to allow for data manipulation via the :ref:`Web_Feature_Service` protocol, data sub-collections are served to GeoServer as a flat data tables, which are described in detail below [#]_.
 | When downloading data from OCTOPUS, users are presented with point or polygon geospatial data files with associated attribute tables. Direct connections to the PostgreSQL/PostGIS database are possible upon request. Munack and Codilean (`2022 <https://doi.org/10.5281/zenodo.7352807>`_) provide a complete documentation of the relational database, including a detailed database model diagram and searchable HTML documentation generated using SchemaSpy (https://schemaspy.org, last access: 04 May 2023).
 
-.. note::
-
-  The above section is a modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
+.. note:: The above section is a modified version of Section 3 from `Codilean et al. 2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 
 ..  _CRN_output:
 
@@ -66,8 +64,8 @@ The raster data uses the WGS84/UTM projected coordinate reference system, UTM zo
 * s..._\ **toposhield**\ .hdr -- *s..._toposhield.bil* header file
 
 .. note::
-
-  Raster files are provided in .bil (**B**\ and **I**\ nterleaved by **L**\ ine) image encoding format, which cannot be considered an image format itself, but is depended on the accompanying header (.hdr) file meaning that users will always need the pair of files with one and the same filename.
+   
+   Raster files are provided in .bil (**B**\ and **I**\ nterleaved by **L**\ ine) image encoding format, which cannot be considered an image format itself, but is depended on the accompanying header (.hdr) file meaning that users will always need the pair of files with one and the same filename.
 
 ..  _SahulArch_output:
 
@@ -83,7 +81,9 @@ SahulArch C14 output
    :file: ./csv_tables/arch_c14_output.csv
    :header-rows: 1
 
-.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip::
+   
+   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulArch_OSL_output:
 
@@ -94,7 +94,9 @@ SahulArch OSL output
    :file: ./csv_tables/arch_osl_output.csv
    :header-rows: 1
 
-.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip::
+   
+   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulArch_TL_output:
 
@@ -105,7 +107,9 @@ SahulArch TL output
    :file: ./csv_tables/arch_tl_output.csv
    :header-rows: 1
 
-.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip::
+   
+   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulSed_output:
 
@@ -121,7 +125,9 @@ SahulSed OSL output
    :file: ./csv_tables/sed_osl_output.csv
    :header-rows: 1
 
-.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip::
+   
+   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _SahulSed_TL_output:
 
@@ -132,7 +138,9 @@ SahulSed TL output
    :file: ./csv_tables/sed_tl_output.csv
    :header-rows: 1
 
-.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip::
+   
+   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _FosSahul_output:
 
@@ -143,7 +151,9 @@ FosSahul output
    :file: ./csv_tables/fos_output.csv
    :header-rows: 1
 
-.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip::
+   
+   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 ..  _expage_output:
 
@@ -154,7 +164,9 @@ ExpAge output
    :file: ./csv_tables/expage_output.csv
    :header-rows: 1
 
-.. tip:: For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+.. tip::
+   
+   For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
 .. rubric:: Footnotes
 
