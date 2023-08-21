@@ -28,7 +28,7 @@ The vector spatial data uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected co
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 ..  _CRN_ancillary_data:
 
@@ -39,11 +39,11 @@ CRN ancillary data
 
 'CSV' folder
 ~~~~~~~~~~~~
-* s..._\ **CRNData.csv**\ -- CAIRN CRN concentrations input file (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
-* s..._\ **CRNRasters.csv**\ -- Path to raster files (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
-* s..._\ **CRNResults.csv**\ -- Original CAIRN output (= results)
-* s..._\ **CRONUSInput.txt**\ -- CAIRN-derived CRONUS copy-and-paste input
-* s...._\ **CRNParam**\ -- CAIRN input parameter file (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
+* s..._\ **CRNData.csv** -- CAIRN CRN concentrations input file (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
+* s..._\ **CRNRasters.csv** -- Path to raster files (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
+* s..._\ **CRNResults.csv** -- Original CAIRN output (= results)
+* s..._\ **CRONUSInput.txt** -- CAIRN-derived CRONUS copy-and-paste input
+* s...._\ **CRNParam** -- CAIRN input parameter file (see `LSDTopoTools documentation <https://lsdtopotools.github.io/LSDTT_documentation/>`_)
 
 ..  _Raster_folder:
 
@@ -86,7 +86,7 @@ SahulArch C14 output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 ..  _SahulArch_OSL_output:
 
@@ -99,7 +99,7 @@ SahulArch OSL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 ..  _SahulArch_TL_output:
 
@@ -112,7 +112,7 @@ SahulArch TL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 ..  _SahulSed_output:
 
@@ -130,7 +130,7 @@ SahulSed OSL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 ..  _SahulSed_TL_output:
 
@@ -143,7 +143,7 @@ SahulSed TL output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 ..  _FosSahul_output:
 
@@ -156,7 +156,7 @@ FosSahul output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 ..  _expage_output:
 
@@ -169,12 +169,11 @@ ExpAge output
 
 .. tip::
 
-  For detailed field / variable descriptions follow the links given under "Origin (Alias)".
+  For detailed field / variable descriptions follow the links given under ''Origin (Alias)''.
 
 .. rubric:: Footnotes
 
-.. [#] The deployed version of GeoServer does not accept dynamically generated PostgreSQL virtual tables (knows as “views”); therefore, the generation of static flat data tables was required to serve the purpose of a view. Newer versions of GeoServer, however, accept materialised views, and an upgrade would present a possible improvement in the database by eliminating the need to store duplicate data.
+.. [#] The deployed version of GeoServer does not accept dynamically generated PostgreSQL virtual tables (knows as ''views''); therefore, the generation of static flat data tables was required to serve the purpose of a view. Newer versions of GeoServer, however, accept materialised views, and an upgrade would present a possible improvement in the database by eliminating the need to store duplicate data.
 
-..
-    to do: review ref links and revise references!!!
+
 .. [#] 10Be and 26Al concentrations (atoms g-1) were renormalised to the Nishiizumi 2007 10Be AMS standard (`Nishiizumi et al., 2007 <https://doi.org/10.1016/j.nimb.2007.01.297>`_) and to the Nishiizumi 2004 26Al AMS standard (`Nishiizumi, 2004 <https://doi.org/10.1016/j.nimb.2004.04.075>`_) respectively. Basin-wide denudation rates were recalculated with the open-source program CAIRN (`Mudd et al., 2016 <https://doi.org/10.5194/esurf-4-655-2016>`_) with the following parameter settings: (i) nuclide production from neutrons and muons was calculated with the approximation of Braucher et al. (`2011 <https://doi.org/10.1016/j.epsl.2011.06.036>`_) using a sea-level and high-latitude total production rate of 4.3 atoms g-1 yr-1 for 10Be and of 31.1 atoms g-1 yr-1 for 26Al; (ii) latitude and altitude scaling factors were calculated using the time-independent Lal--Stone scaling scheme (`Stone, 2000 <https://doi.org/10.1029/2000JB900181>`_) with atmospheric pressure calculated via interpolation from the National Centers for Environmental Prediction NCEP2 reanalysis data (`Compo et al., 2011 <https://doi.org/10.1002/qj.776>`_); and (iii) topographic shielding was calculated from the same digital elevation model (DEM) using the method of Codilean (`2006 <https://doi.org/10.1002/esp.1336>`_). 
