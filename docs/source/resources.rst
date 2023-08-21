@@ -4,7 +4,7 @@ Resources
 
 * Zenodo OCTOPUS database community (https://zenodo.org/communities/octopus-database/)
 
-* OCTOPUS relational database schema (https://zenodo.org/record/7352807)
+* OCTOPUS relational database schema (https://octopus-db.github.io/schema/)
 
 * Registry of Research Data Repositories (https://www.re3data.org/repository/r3d100013702)
 
