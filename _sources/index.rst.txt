@@ -46,7 +46,7 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
 
 .. rubric:: Footnotes
 
-.. [#] `For the best user experience, we recommend the usage of Google Chrome or Firefox browsers.``
+.. [#] For the best user experience, we recommend the usage of Google Chrome or Firefox browsers.
 .. [#] `https://epicaustralia.org.au <https://epicaustralia.org.au>`_
 .. [#] `https://www.uow.edu.au <https://www.uow.edu.au>`_
 .. [#] `https://ardc.edu.au <https://ardc.edu.au>`_
