@@ -745,7 +745,7 @@ CRN tables
 The following tables exclusively serve the :ref:`CRN`.
 
 
-..  _crn_Sample:
+.. _crn_Sample:
 
 crn_Sample table
 ^^^^^^^^^^^^^^^^
