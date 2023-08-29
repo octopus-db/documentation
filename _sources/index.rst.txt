@@ -15,7 +15,7 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
 
 .. important::
 
-   | This documentation refers to the latest OCTOPUS database version, which can only be visited / fetched via OCTOPUS web interface (https://octopusdata.org), or through `OCTOPUS Web Feature Services <http://geoserver.octopusdata.org/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities>`_.
+   | This documentation [#]_ refers to the latest OCTOPUS database version, which can only be visited / fetched via OCTOPUS web interface (https://octopusdata.org), or through `OCTOPUS Web Feature Services <http://geoserver.octopusdata.org/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities>`_.
    | Archived, outdated OCTOPUS database versions do exist on Zenodo web repository.
    | |:warning:| **We do explicitly not recommend the usage of OCTOPUS legacy versions!**
 
@@ -46,6 +46,7 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
 
 .. rubric:: Footnotes
 
+.. [#] `For the best user experience, we recommend the usage of Google Chrome or Firefox browsers.``
 .. [#] `https://epicaustralia.org.au <https://epicaustralia.org.au>`_
 .. [#] `https://www.uow.edu.au <https://www.uow.edu.au>`_
 .. [#] `https://ardc.edu.au <https://ardc.edu.au>`_
