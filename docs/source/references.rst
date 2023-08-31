@@ -79,6 +79,10 @@ References
 | Mudd, Simon M.; Harel, Marie-Alice; Hurst, Martin D.; Grieve, Stuart W. D.; Marrero, Shasta M. (2016). The CAIRN method: automated, reproducible calculation of catchment-averaged denudation rates from cosmogenic nuclide concentrations. Earth Surf. Dynam., 4, 655--674. DOI: `10.5194/esurf-4-655-2016 <https://doi.org/10.5194/esurf-4-655-2016>`_
 | 
 | Munack, Henry; Codilean, Alexandru T. (2022). OCTOPUS Database v.2: Relational database schema and documentation (v.2). Zenodo [data set] (online). DOI: `10.5281/zenodo.5874855 <https://doi.org/10.5281/zenodo.5874855>`_
+|
+| Munack, Henry; Rehn, Emma; Saktura, Wanchese M.; Codilean, Alexandru T.(2023). OCTOPUS database documentation (online). https://octopus-db.github.io/documentation (accessed 31-08-2023).
+|
+| Munack, Henry; Codilean, Alexandru T.(2023). OCTOPUS database schema (online). https://octopus-db.github.io/schema (accessed 31-08-2023).
 | 
 | Murray, Andrew; Arnold, Lee J.; Buylaert, Jan-Pieter; Guérin, Guillaume; Qin, Jintang; Singhvi, Ashok K.; Smedley, Rachel; Thomsen, Kristina J. (2021). Optically stimulated luminescence dating using quartz. Nat Rev Methods Primers, 1, 72. DOI: `10.1038/s43586-021-00068-5 <https://doi.org/10.1038/s43586-021-00068-5>`_
 | 
