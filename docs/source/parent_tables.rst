@@ -17,7 +17,7 @@ global_GrainSize fields
    :header-rows: 1
 
 | The unit for both fields "GRNSIZEMIN" and "GRNSIZEMAX" is *mm*.
-| The latest *global_GrainSize* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_GrainSize__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_GrainSize* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_GrainSize__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_GrainSize` variable specs)
 
 ..  _global_SiteCode_Fields:
@@ -29,7 +29,7 @@ global_SiteCode fields
    :file: ./csv_tables/global_SiteCode_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_SiteCode* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_SiteCode__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_SiteCode* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_SiteCode__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_SiteCode` variable specs)
 
 .. note::
@@ -46,7 +46,7 @@ global_biomeID fields
    :header-rows: 1
 
 | Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
-| The latest *global_biomeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_biomeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_biomeID` variable specs)
 
 ..  _global_ibraID_Fields:
@@ -58,7 +58,7 @@ global_ibraID fields
    :file: ./csv_tables/global_ibraID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *global_ibraID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_ibraID__202305221532.csv>`_ |:chipmunk:|
+| The latest full *global_ibraID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_ibraID__202305221532.csv>`_ |:chipmunk:|
 | Detailed information about Australia's bioregions classification rationale and model can be found at `https://www.dcceew.gov.au/environment/land/nrs/science/ibra <https://www.dcceew.gov.au/environment/land/nrs/science/ibra>`_.
 | (|:back:| to :ref:`global_ibraID` variable specs)
 
@@ -75,7 +75,7 @@ global_rivID fields
    :file: ./csv_tables/global_rivID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *global_rivID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_rivID__202305221533.csv>`_ |:chipmunk:|
+| The latest full *global_rivID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_rivID__202305221533.csv>`_ |:chipmunk:|
 | Detailed information about the Australian Hydrological Geospatial Fabric (Geofabric) classification rationale and model can be found at  `http://www.bom.gov.au/water/geofabric/ <http://www.bom.gov.au/water/geofabric/>`_.
 | (|:back:| to :ref:`global_rivID` variable specs)
 
@@ -92,7 +92,7 @@ global_varunitID fields
    :file: ./csv_tables/global_varunitID_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_varunitID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_varunitID` variable specs)
 
 ..  _global_RefCore_Fields:
@@ -100,7 +100,7 @@ global_varunitID fields
 global_RefCore fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefCore* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefCore__202307281302.csv>`_ |:chipmunk:|
+| The latest *global_RefCore* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202307281302.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefCore` variable specs)
 
 ..  _global_RefAbstract_Fields:
@@ -108,7 +108,7 @@ global_RefCore fields
 global_RefAbstract fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_RefAbstract__202307281303.csv>`_ |:chipmunk:|
+| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202307281303.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
 
 ..  _global_Author_Fields:
@@ -120,7 +120,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Author__202307281303.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202307281303.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_Journal_Fields:
@@ -132,7 +132,7 @@ global_Journal fields
    :file: ./csv_tables/global_Journal_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Journal* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_Journal__202307281303.csv>`_ |:chipmunk:|
+| The latest *global_Journal* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Journal__202307281303.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Journal` variable specs)
 
 ..  _global_PubType_Fields:
@@ -176,7 +176,7 @@ global_PubType fields
 
 * **online** -- Internet source. *Required fields*: title, url, urldate (in "NOTE" field)
 
-| The latest *global_PubType* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_PubType* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_PubType` variable specs)
 
 ----
@@ -195,7 +195,7 @@ cabah_LabCodes fields
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
+| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_LabCodes` variable specs)
 
 ..  _cabah_chemprepID_Fields:
@@ -233,7 +233,7 @@ cabah_chemprepID fields
 
 * Coll -- Collagen
 
-| The latest *cabah_chemprepID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_chemprepID__202305230904.csv>`_ |:chipmunk:|
+| The latest *cabah_chemprepID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_chemprepID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_chemprepID` variable specs)
 
 ..  _cabah_col_mtdID_Fields:
@@ -245,7 +245,7 @@ cabah_col_mtdID fields
    :file: ./csv_tables/cabah_col_mtdID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_col_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv>`_ |:chipmunk:|
+| The latest *cabah_col_mtdID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_col_mtdID` variable specs)
 
 ..  _cabah_methodID_Fields:
@@ -696,7 +696,7 @@ cabah_methodID fields
 +----------+----------------+------------+----------+----------------+
 
 | Classification and selection of methods on the basis of Geyh (2005), and Walker (2005).
-| The latest *cabah_methodID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_cabah_methodID__202305230904.csv>`_ |:chipmunk:|
+| The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_methodID` variable specs)
 
 ..  _c14_calcurve_Fields:
@@ -708,7 +708,7 @@ c14_calcurve fields
    :file: ./csv_tables/c14_calcurve_FIELDS.csv
    :header-rows: 1
 
-| The latest *c14_calcurve_Fields* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_calcurve_202306171029.csv>`_ |:chipmunk:|
+| The latest *c14_calcurve_Fields* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_calcurve_202306171029.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_calcurve` variable specs)
 
 ..  _c14_calprogram_Fields:
@@ -720,7 +720,7 @@ c14_calprogram fields
    :file: ./csv_tables/c14_calprogram_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *c14_calprogram_Fields* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_calprogram_202306161515.csv>`_ |:chipmunk:|
+| The latest *c14_calprogram_Fields* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_calprogram_202306161515.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_calprogram` variable specs)
 
 ----
@@ -781,7 +781,7 @@ Values for crn_alstndID."ALSTNDCOMT" field as follows ...
 * IDs 19, 20	-- ETH-Zurich standard used prior to 1 Apr 2010, Kubik and Christl, 2010
 * IDs 21, 22 -- ETH-Zurich standard, equivalent to KNSTD, effective 1 Apr 2010, Kubik and Christl, 2010
 
-| The latest *crn_alstndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_alstndID__202305230906.csv>`_ |:chipmunk:|
+| The latest *crn_alstndID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_crn_alstndID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`crn_alstndID` variable specs)
 
 ..  _crn_amsID_Fields:
@@ -948,7 +948,7 @@ Values for crn_amsID."AMSURL" field as follows ...
 * IDs 33, 34 -- https://tlabs.ac.za
 * IDs 35, 36 -- http://earth.tju.edu.cn/en/
 
-| The latest *crn_amsID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_amsID__202305230906.csv>`_ |:chipmunk:|
+| The latest *crn_amsID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_crn_amsID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`crn_amsID` variable specs)
 
 ..  _crn_projepsgID_Fields:
@@ -960,7 +960,7 @@ crn_projepsgID fields
    :file: ./csv_tables/crn_projepsgID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *crn_projepsgID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_projepsgID__202305221534.csv>`_ |:chipmunk:|
+| The latest full *crn_projepsgID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_crn_projepsgID__202305221534.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`crn_projepsgID` variable specs)
 
 ..  _crn_bestndID_Fields:
@@ -1065,7 +1065,7 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 * IDs 55, 56 -- ASTER standard, equivalent to NIST_27900 and 07KNSTD
 * IDs 57, 58 -- NIST SRM-4325, but with differing assumed isotope ratio
 
-| The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_crn_bestndID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *crn_bestndID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_crn_bestndID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`crn_bestndID` variable specs)
 
 ----
@@ -1079,7 +1079,7 @@ arch_featdatedID fields
    :file: ./csv_tables/arch_featdatedID_FIELDS.csv
    :header-rows: 1
 
-| The latest *arch_featdatedID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_arch_featdatedID__202305230904.csv>`_ |:chipmunk:|
+| The latest *arch_featdatedID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_arch_featdatedID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`arch_featdatedID` variable specs)
 
 ..  _c13_valID_Fields:
@@ -1091,7 +1091,7 @@ c13_valID fields
    :file: ./csv_tables/c13_valID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c13_valID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c13_valID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c13_valID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c13_valID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c13_valID` variable specs)
 
 ..  _c14_contamID_Fields:
@@ -1103,7 +1103,7 @@ c14_contamID fields
    :file: ./csv_tables/c14_contamID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c14_contamID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_contamID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_contamID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_contamID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_contamID` variable specs)
 
 ..  _c14_hum_modID_Fields:
@@ -1115,7 +1115,7 @@ c14_hum_modID fields
    :file: ./csv_tables/c14_hum_modID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c14_hum_modID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_hum_modID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_hum_modID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_hum_modID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_hum_modID` variable specs)
 
 ..  _c14_materia1ID_Fields:
@@ -1127,7 +1127,7 @@ c14_materia1ID fields
    :file: ./csv_tables/c14_materia1ID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c14_materia1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia1ID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_materia1ID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_materia1ID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_materia1ID` variable specs)
 
 ..  _c14_materia2ID_Fields:
@@ -1139,7 +1139,7 @@ c14_materia2ID fields
    :file: ./csv_tables/c14_materia2ID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c14_materia2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_materia2ID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_materia2ID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_materia2ID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_materia2ID` variable specs)
 
 ..  _c14_solvent2ID_Fields:
@@ -1151,7 +1151,7 @@ c14_solvent2ID fields
    :file: ./csv_tables/c14_solvent2ID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c14_solvent2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c14_solvent2ID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_solvent2ID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_solvent2ID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_solvent2ID` variable specs)
 
 ..  _c_mtdID_Fields:
@@ -1163,7 +1163,7 @@ c_mtdID fields
    :file: ./csv_tables/c_mtdID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_c_mtdID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c_mtdID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c_mtdID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c_mtdID` variable specs)
 
 ----
@@ -1177,7 +1177,7 @@ osl-tl_agemodelID fields
    :file: ./csv_tables/osl-tl_agemodelID_FIELDS.csv
    :header-rows: 1
 
-| The latest *osl-tl_agemodelID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_agemodelID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_agemodelID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_tl_agemodelID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`osl-tl_agemodelID` variable specs)
 
 ..  _osl-tl_ed_procID_Fields:
@@ -1189,7 +1189,7 @@ osl-tl_ed_procID fields
    :file: ./csv_tables/osl-tl_ed_procID_FIELDS.csv
    :header-rows: 1
 
-| The latest *osl-tl_ed_procID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_ed_procID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_ed_procID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_tl_ed_procID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`osl-tl_ed_procID` variable specs)
 
 ..  _osl-tl_lum_matID_Fields:
@@ -1201,7 +1201,7 @@ osl-tl_lum_matID fields
    :file: ./csv_tables/osl-tl_lum_matID_FIELDS.csv
    :header-rows: 1
 
-| The latest *osl-tl_lum_matID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_lum_matID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_lum_matID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_tl_lum_matID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`osl-tl_lum_matID` variable specs)
 
 ..  _osl-tl_mineralID_Fields:
@@ -1213,7 +1213,7 @@ osl-tl_mineralID fields
    :file: ./csv_tables/osl-tl_mineralID_FIELDS.csv
    :header-rows: 1
 
-| The latest *osl-tl_mineralID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mineralID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_mineralID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_tl_mineralID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`osl-tl_mineralID` variable specs)
 
 ..  _osl-tl_mtdID_Fields:
@@ -1225,7 +1225,7 @@ osl-tl_mtdID fields
    :file: ./csv_tables/osl-tl_mtdID_FIELDS.csv
    :header-rows: 1
 
-| The latest *osl-tl_mtdID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_tl_mtdID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_mtdID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_tl_mtdID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`osl-tl_mtdID` variable specs)
 
 ..  _osl_typeID_Fields:
@@ -1237,7 +1237,7 @@ osl_typeID fields
    :file: ./csv_tables/osl_typeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *osl_typeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_osl_typeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl_typeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_typeID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`osl_typeID` variable specs)
 
 ----
@@ -1251,7 +1251,7 @@ sed_depconID fields
    :file: ./csv_tables/sed_depconID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_depconID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_depconID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_depconID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_depconID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_depconID` variable specs)
 
 ..  _sed_faciesID_Fields:
@@ -1263,7 +1263,7 @@ sed_faciesID fields
    :file: ./csv_tables/sed_faciesID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_faciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_faciesID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_faciesID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_faciesID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_faciesID` variable specs)
 
 ..  _sed_geommodID_Fields:
@@ -1275,7 +1275,7 @@ sed_geommodID fields
    :file: ./csv_tables/sed_geommodID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_geommodID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geommodID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_geommodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_geommodID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_geommodID` variable specs)
 
 ..  _sed_geotypeID_Fields:
@@ -1287,7 +1287,7 @@ sed_geotypeID fields
    :file: ./csv_tables/sed_geotypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_geotypeID` variable specs)
 
 ..  _sed_laketypeID_Fields:
@@ -1299,7 +1299,7 @@ sed_laketypeID fields
    :file: ./csv_tables/sed_laketypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_laketypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_laketypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_laketypeID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_laketypeID` variable specs)
 
 ..  _sed_morphID_Fields:
@@ -1311,7 +1311,7 @@ sed_morphID fields
    :file: ./csv_tables/sed_morphID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_morphID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_morphID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_morphID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_morphID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_morphID` variable specs)
 
 ..  _sed_sitetypeID_Fields:
@@ -1323,7 +1323,7 @@ sed_sitetypeID fields
    :file: ./csv_tables/sed_sitetypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_sitetypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_sed_sitetypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_sitetypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_sitetypeID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_sitetypeID` variable specs)
 
 ----
@@ -1348,7 +1348,7 @@ fos_TaxRank2_infraclaID fields
    :file: ./csv_tables/fos_TaxRank2_infraclaID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *fos_TaxRank2_infraclaID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank2_infraclaID__202305221536.csv>`_ |:chipmunk:|
+| The latest full *fos_TaxRank2_infraclaID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_TaxRank2_infraclaID__202305221536.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_TaxRank2_infraclaID` variable specs)
 
 ..  _fos_TaxRank3_ordrID_Fields:
@@ -1360,7 +1360,7 @@ fos_TaxRank3_ordrID fields
    :file: ./csv_tables/fos_TaxRank3_ordrID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_ |:chipmunk:|
+| The latest full *fos_TaxRank3_ordrID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_TaxRank3_ordrID__202305221536.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_TaxRank3_ordrID` variable specs)
 
 ..  _fos_TaxRank4_familyID_Fields:
@@ -1372,7 +1372,7 @@ fos_TaxRank4_familyID fields
    :file: ./csv_tables/fos_TaxRank4_familyID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_ |:chipmunk:|
+| The latest full *fos_TaxRank4_familyID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_TaxRank4_familyID__202305221535.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_TaxRank4_familyID` variable specs)
 
 ..  _fos_TaxRank5_genusID_Fields:
@@ -1384,7 +1384,7 @@ fos_TaxRank5_genusID fields
    :file: ./csv_tables/fos_TaxRank5_genusID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_ |:chipmunk:|
+| The latest full *fos_TaxRank5_genusID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_TaxRank5_genusID__202305221535.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_TaxRank5_genusID` variable specs)
 
 ..  _fos_TaxRank6_speciesID_Fields:
@@ -1396,7 +1396,7 @@ fos_TaxRank6_speciesID fields
    :file: ./csv_tables/fos_TaxRank6_speciesID_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest full *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_ |:chipmunk:|
+| The latest full *fos_TaxRank6_speciesID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_TaxRank6_speciesID__202305221535.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_TaxRank6_speciesID` variable specs)
 
 ..  _fos_chemtypeID_Fields:
@@ -1408,7 +1408,7 @@ fos_chemtypeID fields
    :file: ./csv_tables/fos_chemtypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest full *fos_chemtypeID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_chemtypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_chemtypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_chemtypeID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_chemtypeID` variable specs)
 
 ..  _fos_fosmat1ID_Fields:
@@ -1420,7 +1420,7 @@ fos_fosmat1ID fields
    :file: ./csv_tables/fos_fosmat1ID_FIELDS.csv
    :header-rows: 1
 
-| The latest full *fos_fosmat1ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat1ID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_fosmat1ID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_fosmat1ID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_fosmat1ID` variable specs)
 
 ..  _fos_fosmat2ID_Fields:
@@ -1432,7 +1432,7 @@ fos_fosmat2ID fields
    :file: ./csv_tables/fos_fosmat2ID_FIELDS.csv
    :header-rows: 1
 
-| The latest full *fos_fosmat2ID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_fosmat2ID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_fosmat2ID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_fosmat2ID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_fosmat2ID` variable specs)
 
 ..  _fos_mtdsID_Fields:
@@ -1444,7 +1444,7 @@ fos_mtdsID fields
    :file: ./csv_tables/fos_mtdsID_FIELDS.csv
    :header-rows: 1
 
-| The latest full *fos_mtdsID* table version can be downloaded `here <https://github.com/hmunack/OCTOPUS/blob/main/docs/source/storage/_fos_mtdsID__202305230906.csv>`_ |:chipmunk:|
+| The latest full *fos_mtdsID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_fos_mtdsID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`fos_mtdsID` variable specs)
 
 .. rubric:: Footnotes
