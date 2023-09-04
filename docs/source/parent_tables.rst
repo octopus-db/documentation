@@ -100,7 +100,7 @@ global_varunitID fields
 global_RefCore fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefCore* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202307281302.csv>`_ |:chipmunk:|
+| The latest *global_RefCore* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202309031630.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefCore` variable specs)
 
 ..  _global_RefAbstract_Fields:
@@ -108,7 +108,7 @@ global_RefCore fields
 global_RefAbstract fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202307281303.csv>`_ |:chipmunk:|
+| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202309031457.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
 
 ..  _global_Author_Fields:
@@ -120,7 +120,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202307281303.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202309031457.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_Journal_Fields:
@@ -720,7 +720,7 @@ c14_calprogram fields
    :file: ./csv_tables/c14_calprogram_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *c14_calprogram_Fields* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_calprogram_202306161515.csv>`_ |:chipmunk:|
+| The latest *c14_calprogram_Fields* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_calprogram_202308291201.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_calprogram` variable specs)
 
 ----
