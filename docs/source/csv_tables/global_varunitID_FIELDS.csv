@@ -82,9 +82,9 @@
 81,mg,milligram,6
 82,µg,microgram,6
 83,ng,nanogram,6
-84,°C,degree Celsius,7
-85,K,kelvin,7
-86,°F,degree Fahrenheit,7
+84,°C,degree Celsius,8
+85,K,kelvin,8
+86,°F,degree Fahrenheit,8
 87,kyr,year * 1000,7
 88,yr,year,7
 89,mos,month,7
