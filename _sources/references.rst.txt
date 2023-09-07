@@ -66,8 +66,8 @@ References
 | 
 | Hocknull, S. A.; Lewis, R.; Arnold, L. J.; Pietsch, T.; Joannes-Boyau, R.; Price, G. J.; Moss, P.; Wood, R.; Dosseto, A.; Louys, J.; Olley, J.; Lawrence, R. A. (2020). Extinction of eastern Sahul megafauna coincides with sustained environmental deterioration. Nat. Commun., 11, 2250. DOI: `10.1038/s41467-020-15785-w <https://doi.org/10.1038/s41467-020-15785-w>`_
 | 
-| Holt, K.A.; Bennett, K.D. (2014). Principles and methods for automated palynology. New Phytologist, 203, 735-742. `10.1111/nph.12848 <https://doi.org/10.1111/nph.12848>`_
-| 
+.. | Holt, K.A.; Bennett, K.D. (2014). Principles and methods for automated palynology. New Phytologist, 203, 735-742. `10.1111/nph.12848 <https://doi.org/10.1111/nph.12848>`_
+.. | 
 | Horn, B. K. P. (1981). Hill shading and the reflectance map. P. IEEE, 69, 14--47. `10.1109/PROC.1981.11918 <https://doi.org/10.1109/PROC.1981.11918>`_
 | 
 | Jacobs, Z.; Li, B.; Shunkov, M. V.; Kozlikin, M. B.; Bolikhovskaya, N. S.; Agadjanian, A. K.; Uliyanov, V. A.; Vasiliev, S. K.; O'Gorman, K.; Derevianko, A. P.; Roberts, R. G. (2019). Timing of archaic hominin occupation of Denisova Cave in southern Siberia. Nature, 565, 594--599. DOI: `10.1038/s41586-018-0843-2 <https://doi.org/10.1038/s41586-018-0843-2>`_
@@ -110,6 +110,8 @@ References
 | 
 | Rood, Dylan H.; Brown, Thomas A.; Finkel, Robert C.; Guilderson, Thomas P. (2013). Poisson and non-Poisson uncertainty estimations of 10Be/9Be measurements at LLNL--CAMS. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 294, 426-429. DOI: `10.1016/j.nimb.2012.08.039 <https://doi.org/10.1016/j.nimb.2012.08.039>`_
 | 
+| Rowe, Cassandra; Fraser, Rebecca; Harrison, Sandy; Dodson, John (2007). The QUAVIDA synergy: quaternary fire, vegetation and climate change in Australasia. Quaternary International, 167-168 (Suppl.), No. 0489. p. 355. DOI: `10.1016/j.quaint.2007.04.001 <https://doi.org/10.1016/j.quaint.2007.04.001>`_
+| 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022). The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages (v.2) (online). University of Wollongong Australia [data set]. DOI: `10.25900/gpvr-ay04 <https://doi.org/10.25900/gpvr-ay04>`_
 | 
 | Saktura, Wanchese M.; Rehn, Emma; Munack, Henry; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022). The SahulArch OSL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2) (online). University of Wollongong Australia [data set]. DOI: `10.25900/9y07-4j77 <https://doi.org/10.25900/9y07-4j77>`_ 
@@ -137,5 +139,7 @@ References
 | Williams, John W.; Grimm, Eric C.; Blois, Jessica L.; Charles, Donald F.; Davis, Edward B.; Goring, Simon J.; Graham, Russell W.; Smith, Alison J.; Anderson, Michael; Arroyo-Cabrales, Joaquin; Ashworth, Allan C.; Betancourt, Julio L.; Bills, Brian W.; Booth, Robert K.; Buckland, Philip I.; Curry, B. Brandon; Giesecke, Thomas; Jackson, Stephen T.; Latorre, Claudio; Nichols, Jonathan (2018). The Neotoma Paleoecology Database, a multiproxy, international, community-curated data resource. Quaternary Research, 89(1), 156-177. DOI: `10.1017/qua.2017.105 <https://doi.org/10.1017/qua.2017.105>`_
 | 
 | Wilson, Christopher; Fallon, Steward; Trevorrow, Tom (2012). New radiocarbon ages for the Lower Murray River, South Australia. Archaeol. Ocean., 47, 157-160. DOI: `10.1002/j.1834-4453.2012.tb00128.x <https://doi.org/10.1002/j.1834-4453.2012.tb00128.x>`_
+| 
+| Winkler, Marjorie Green (1985). Charcoal analysis for paleoenvironmental interpretation: A chemical assay. Quaternary Research, 23(3), 313--326. DOI: `10.1016/0033-5894(85)90038-9 <https://doi.org/10.1016/0033-5894(85)90038-9>`_
 | 
 | Zilhão, J.; Angelucci, D. E.; Igreja, M. A.; Arnold, L. J.; Badal, E.; Callapez, P.; Cardoso, J. L.; d'Errico, F.; Daura, J.; Demuro, M.; Deschamps, M.; Dupont, C.; Gabriel, S.; Hoffmann, D. L.; Legoinha, P.; Matias, H.; Soares, A. M. M.; Nabais, M.; Portela, P.; Queffelec, A.; Rodrigues, F.; Souto, P. (2020). Last Interglacial Iberian Neandertals as fisher-hunter-gatherers. Science, 367, eaaz7943. DOI: `10.1126/science.aaz7943 <https://doi.org/10.1126/science.aaz7943>`_
