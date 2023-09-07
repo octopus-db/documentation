@@ -125,7 +125,9 @@ References
 | Stuiver, Minze; Polach, Henry A. (1977). Discussion Reporting of 14C Data. Radiocarbon, 19(3), 355--363. DOI: `10.1017/S0033822200003672 <https://doi.org/10.1017/S0033822200003672>`_
 |
 | The PostgreSQL Global Development Group (2023). PostgreSQL: The World's Most Advanced Open Source Relational Database. Accessed 29-04-2023, https://www.postgresql.org
-| 
+|
+| Verardo, David J.; Froelich, Philip N.; McIntyre, Andrew (1990). Determination of organic carbon and nitrogen in marine sediments using the Carlo Erba NA-1500 analyzer. Deep Sea Research Part A. Oceanographic Research Papers, 37(1), 157-165. DOI: `10.1016/0198-0149(90)90034-S <https://doi.org/10.1016/0198-0149(90)90034-S>`_
+|
 | Walker, Mike (2005). Quaternary Dating Methods. John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex PO19 8SQ, England.
 | 
 | Wickham, Hadley; Averick, Mara; Bryan, Jennifer; Chang, Winston; D'Agostino McGowan, Lucy; François, Romain; Grolemund, Garrett; Hayes, Alex; Henry, Lionel; Hester, Jim; Kuhn, Max; Pedersen, Thomas Lin; Miller, Evan; Bache, Stephan Milton; Müller, Kirill; Ooms, Jeroen; Robinson, David; Seidel, Dana Paige; Spinu, Vitalie; Takahashi, Kohske; Vaughan, Davis; Wilke, Claus; Woo, Kara; Yutani, Hiroaki (2019). Welcome to the Tidyverse. Journal of Open Source Software, 4(43), 1686. DOI: `10.21105/joss.01686 <https://doi.org/10.21105/joss.01686>`_
