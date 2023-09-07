@@ -66,8 +66,10 @@ References
 | 
 | Hocknull, S. A.; Lewis, R.; Arnold, L. J.; Pietsch, T.; Joannes-Boyau, R.; Price, G. J.; Moss, P.; Wood, R.; Dosseto, A.; Louys, J.; Olley, J.; Lawrence, R. A. (2020). Extinction of eastern Sahul megafauna coincides with sustained environmental deterioration. Nat. Commun., 11, 2250. DOI: `10.1038/s41467-020-15785-w <https://doi.org/10.1038/s41467-020-15785-w>`_
 | 
+| Holt, K.A.; Bennett, K.D. (2014). Principles and methods for automated palynology. New Phytologist, 203, 735-742. `10.1111/nph.12848 <https://doi.org/10.1111/nph.12848>`_
+| 
 | Horn, B. K. P. (1981). Hill shading and the reflectance map. P. IEEE, 69, 14--47. `10.1109/PROC.1981.11918 <https://doi.org/10.1109/PROC.1981.11918>`_
-|
+| 
 | Jacobs, Z.; Li, B.; Shunkov, M. V.; Kozlikin, M. B.; Bolikhovskaya, N. S.; Agadjanian, A. K.; Uliyanov, V. A.; Vasiliev, S. K.; O'Gorman, K.; Derevianko, A. P.; Roberts, R. G. (2019). Timing of archaic hominin occupation of Denisova Cave in southern Siberia. Nature, 565, 594--599. DOI: `10.1038/s41586-018-0843-2 <https://doi.org/10.1038/s41586-018-0843-2>`_
 | 
 | Jenson, S. K.; Domingue, J. O. (1988). Extracting topographic structure from digital elevation data for geographic information system analysis. Photogramm. Eng. Rem. S., 54, 1593--1600.
@@ -85,7 +87,7 @@ References
 | Murray, Andrew; Arnold, Lee J.; Buylaert, Jan-Pieter; Guérin, Guillaume; Qin, Jintang; Singhvi, Ashok K.; Smedley, Rachel; Thomsen, Kristina J. (2021). Optically stimulated luminescence dating using quartz. Nat Rev Methods Primers, 1, 72. DOI: `10.1038/s43586-021-00068-5 <https://doi.org/10.1038/s43586-021-00068-5>`_
 | 
 | Nishiizumi, K. (2004). Preparation of 26Al AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 223, 388--392. DOI: `10.1016/j.nimb.2004.04.075 <https://doi.org/10.1016/j.nimb.2004.04.075>`_
-|
+| 
 | Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 258, 403--413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
 | 
 | Obe, Regina O.; Hsu, Leo S. (2021). PostGIS in action (Third Edition). Manning Publications Co., 20 Baldwin Road, PO Box 761, Shelter Island, NY 11964.
@@ -105,7 +107,7 @@ References
 | Roberts, Richard G.; Jacobs, Zenobia; Li, Bo; Jankowski, Nathan R.; Cunningham, Alastair C.; Rosenfeld, Anatoly B. (2015). Optical dating in archaeology: thirty years in retrospect and grand challenges for the future. J. Archaeol. Sci., 56, 41--60. DOI: `10.1016/j.jas.2015.02.028 <https://doi.org/10.1016/j.jas.2015.02.028>`_ 
 | 
 | Rodríguez-Rey, Marta; Herrando-Pérez, Salvador; Gillespie, Richard; Jacobs, Zenobia; Saltré, Frédérik; Brook, Barry W.; Prideaux, Gavin J.; Roberts, Richard G.; Cooper, Alan; Alroy, John; Miller, Gifford H.; Bird, Michael I.; Johnson, Christopher N.; Beeton, Nicholas; Turney, Chris S.M.; Bradshaw, Corey J.A. (2015). Criteria for assessing the quality of Middle Pleistocene to Holocene vertebrate fossil ages. Quaternary Geochronology, 30(A), 69--79. DOI: `10.1016/j.quageo.2015.08.002 <https://doi.org/10.1016/j.quageo.2015.08.002>`_
-|
+| 
 | Rood, Dylan H.; Brown, Thomas A.; Finkel, Robert C.; Guilderson, Thomas P. (2013). Poisson and non-Poisson uncertainty estimations of 10Be/9Be measurements at LLNL--CAMS. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 294, 426-429. DOI: `10.1016/j.nimb.2012.08.039 <https://doi.org/10.1016/j.nimb.2012.08.039>`_
 | 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022). The SahulArch Radiocarbon collection. Sahul-wide database of published archaeological records with radiometric ages (v.2) (online). University of Wollongong Australia [data set]. DOI: `10.25900/gpvr-ay04 <https://doi.org/10.25900/gpvr-ay04>`_
@@ -123,9 +125,9 @@ References
 | Stone, J. O. (2000). Air pressure and cosmogenic isotope production. J. Geophys. Res.-Sol. Ea., 105, 23753--23759. DOI: `10.1029/2000JB900181 <https://doi.org/10.1029/2000JB900181>`_
 | 
 | Stuiver, Minze; Polach, Henry A. (1977). Discussion Reporting of 14C Data. Radiocarbon, 19(3), 355--363. DOI: `10.1017/S0033822200003672 <https://doi.org/10.1017/S0033822200003672>`_
-|
+| 
 | The PostgreSQL Global Development Group (2023). PostgreSQL: The World's Most Advanced Open Source Relational Database. Accessed 29-04-2023, https://www.postgresql.org
-|
+| 
 | Verardo, David J.; Froelich, Philip N.; McIntyre, Andrew (1990). Determination of organic carbon and nitrogen in marine sediments using the Carlo Erba NA-1500 analyzer. Deep Sea Research Part A. Oceanographic Research Papers, 37(1), 157-165. DOI: `10.1016/0198-0149(90)90034-S <https://doi.org/10.1016/0198-0149(90)90034-S>`_
 |
 | Walker, Mike (2005). Quaternary Dating Methods. John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex PO19 8SQ, England.
