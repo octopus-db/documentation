@@ -80,6 +80,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#regional-tables">Regional tables</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#non-cosmogenics-tables">Non-Cosmogenics tables</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-labcodes-table">cabah_LabCodes table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cabah-charmethodid-table">cabah_charmethodID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-chemprepid-table">cabah_chemprepID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-col-mtdid-table">cabah_col_mtdID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-methodid-table">cabah_methodID table</a></li>
@@ -1560,6 +1561,59 @@
 <li><p>LAB_MTD – Lab method (C14, OSL, TL)</p></li>
 <li><p>LAB_URL – Lab url</p></li>
 <li><p>LAB_SOURCE – Source of information stored in a certain tuple. Major yources are ‘Radiocarbon’ (<a class="reference external" href="https://doi.org/10.1017/S0033822200038923">https://doi.org/10.1017/S0033822200038923</a>) and ‘RadonKiel’ (<a class="reference external" href="https://radon.ufg.uni-kiel.de/labs">https://radon.ufg.uni-kiel.de/labs</a>).</p></li>
+</ul>
+</div>
+<div class="section" id="cabah-charmethodid-table">
+<span id="cabah-charmethodid"></span><h4>cabah_charmethodID table<a class="headerlink" href="#cabah-charmethodid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>cabah_charmethodID</em> is a lookup table for charcoal-related compilations, i.e., SahulCHAR. This table stores the <strong>method of charcoal quantification</strong>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CHARMTDID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CHARMETHOD</p></td>
+<td><p>text</p></td>
+<td><p>ukey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>CHARMTDDSC</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CHARMTDREF</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>CHARMTDID – A unique identifier (auto-incrementing serial integer)</p></li>
+<li><p>CHARMETHOD – Unique method name. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-charmethodid-fields"><span class="std std-ref">cabah_charmethodID fields</span></a></p></li>
+<li><p>CHARMTDDSC – “CHARMETHOD” description. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-charmethodid-fields"><span class="std std-ref">cabah_charmethodID fields</span></a></p></li>
+<li><p>CHARMTDREF – “CHARMETHOD” reference. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-charmethodid-fields"><span class="std std-ref">cabah_charmethodID fields</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="cabah-chemprepid-table">
