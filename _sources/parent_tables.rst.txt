@@ -92,7 +92,7 @@ global_varunitID fields
    :file: ./csv_tables/global_varunitID_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202309051446.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_varunitID` variable specs)
 
 ..  _global_RefCore_Fields:
@@ -1139,7 +1139,7 @@ c14_materia2ID fields
    :file: ./csv_tables/c14_materia2ID_FIELDS.csv
    :header-rows: 1
 
-| The latest *c14_materia2ID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_materia2ID__202305230904.csv>`_ |:chipmunk:|
+| The latest *c14_materia2ID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_materia2ID__202309051133.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_materia2ID` variable specs)
 
 ..  _c14_solvent2ID_Fields:
