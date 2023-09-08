@@ -520,6 +520,24 @@ The *cabah_LabCodes* table stores information about the **lab of origin** for a 
 
 * LAB_SOURCE -- Source of information stored in a certain tuple. Major yources are 'Radiocarbon' (https://doi.org/10.1017/S0033822200038923) and 'RadonKiel' (https://radon.ufg.uni-kiel.de/labs).
 
+..  _cabah_charmethodID:
+
+cabah_charmethodID table
+^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_charmethodID* is a lookup table for charcoal-related compilations, i.e., SahulCHAR. This table stores the **method of charcoal quantification**.
+
+.. csv-table::
+   :file: ./csv_tables/cabah_charmethodID.csv
+   :header-rows: 1
+
+* CHARMTDID -- A unique identifier (auto-incrementing serial integer)
+
+* CHARMETHOD -- Unique method name. For available values refer to :ref:`cabah_charmethodID_Fields`
+
+* CHARMTDDSC -- "CHARMETHOD" description. For available values refer to :ref:`cabah_charmethodID_Fields`
+
+* CHARMTDREF -- "CHARMETHOD" reference. For available values refer to :ref:`cabah_charmethodID_Fields`
+
 ..  _cabah_chemprepID:
 
 cabah_chemprepID table
