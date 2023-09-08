@@ -1,4 +1,4 @@
-﻿MATERIA2ID,MATERIAL2,PARENTID,MAT2_DESCR
+MATERIA2ID,MATERIAL2,PARENTID,MAT2_DESCR
 -9999,ND,-9999,
 1,Bark,39,
 2,Beeswax,40,
@@ -56,4 +56,6 @@
 54,Dispersed NaOH insoluble fraction (humic materials),52,
 55,Archaeological artefact (indet.),52,
 56,Charcoal,56,
+57,Carbonate (indet.),51,
+58,Sand,30,
 99,Other,99,
