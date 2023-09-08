@@ -52,6 +52,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-varunitid-table">global_varunitID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-grainsize-table">global_GrainSize table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-datasourceid-table">global_datasourceID table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#global-agetypeid-table">global_agetypeID table</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#global-georeferencing-tables">Global georeferencing tables</a><ul>
@@ -388,8 +389,61 @@
 <ul class="simple">
 <li><p>DATASRCID – A unique identifier (auto-incrementing serial integer)</p></li>
 <li><p>DATASOURCE – Unique data source name. For available values refer to <a class="reference internal" href="parent_tables.html#global-datasourceid-fields"><span class="std std-ref">global_datasourceID fields</span></a></p></li>
-<li><p>DATASRCDSC – Data source description. For available values refer to <a class="reference internal" href="parent_tables.html#global-datasourceid-fields"><span class="std std-ref">global_datasourceID fields</span></a></p></li>
-<li><p>DATASRCREF – Data source reference. For available values refer to <a class="reference internal" href="parent_tables.html#global-datasourceid-fields"><span class="std std-ref">global_datasourceID fields</span></a></p></li>
+<li><p>DATASRCDSC – “DATASOURCE” description. For available values refer to <a class="reference internal" href="parent_tables.html#global-datasourceid-fields"><span class="std std-ref">global_datasourceID fields</span></a></p></li>
+<li><p>DATASRCREF – “DATASOURCE” reference. For available values refer to <a class="reference internal" href="parent_tables.html#global-datasourceid-fields"><span class="std std-ref">global_datasourceID fields</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="global-agetypeid-table">
+<span id="global-agetypeid"></span><h4>global_agetypeID table<a class="headerlink" href="#global-agetypeid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>global_agetypeID</em> table stores the <strong>type of time unit</strong> used for sample age specification.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>AGETYPEID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AGETYPE</p></td>
+<td><p>text</p></td>
+<td><p>ukey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>AGETDESCR</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AGETCOMMT</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>AGETYPEID – A unique identifier (auto-incrementing serial integer)</p></li>
+<li><p>AGETYPE – Unique age type name. For available values refer to <a class="reference internal" href="parent_tables.html#global-agetypeid-fields"><span class="std std-ref">global_agetypeID fields</span></a></p></li>
+<li><p>AGETDESCR – “AGETYPE” description. For available values refer to <a class="reference internal" href="parent_tables.html#global-agetypeid-fields"><span class="std std-ref">global_agetypeID fields</span></a></p></li>
+<li><p>AGETCOMMT – “AGETYPE” reference. For available values refer to <a class="reference internal" href="parent_tables.html#global-agetypeid-fields"><span class="std std-ref">global_agetypeID fields</span></a></p></li>
 </ul>
 </div>
 </div>

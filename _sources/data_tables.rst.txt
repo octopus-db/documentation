@@ -74,9 +74,27 @@ The *global_datasourceID* table stores the **way that data / information have be
 
 * DATASOURCE -- Unique data source name. For available values refer to :ref:`global_datasourceID_Fields`
 
-* DATASRCDSC -- Data source description. For available values refer to :ref:`global_datasourceID_Fields`
+* DATASRCDSC -- "DATASOURCE" description. For available values refer to :ref:`global_datasourceID_Fields`
 
-* DATASRCREF -- Data source reference. For available values refer to :ref:`global_datasourceID_Fields`
+* DATASRCREF -- "DATASOURCE" reference. For available values refer to :ref:`global_datasourceID_Fields`
+
+..  _global_agetypeID:
+
+global_agetypeID table
+^^^^^^^^^^^^^^^^^^^^^^
+The *global_agetypeID* table stores the **type of time unit** used for sample age specification.
+
+.. csv-table::
+   :file: ./csv_tables/global_agetypeID.csv
+   :header-rows: 1
+
+* AGETYPEID -- A unique identifier (auto-incrementing serial integer)
+
+* AGETYPE -- Unique age type name. For available values refer to :ref:`global_agetypeID_Fields`
+
+* AGETDESCR -- "AGETYPE" description. For available values refer to :ref:`global_agetypeID_Fields`
+
+* AGETCOMMT -- "AGETYPE" reference. For available values refer to :ref:`global_agetypeID_Fields`
 
 ..  _Global_georeferencing_tables:
 
