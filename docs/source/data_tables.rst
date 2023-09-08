@@ -60,6 +60,24 @@ The *global_GrainSize* table, focusing on granulomety, stores the **type of (sed
 
 * GRNSIZEMAX -- Upper grain size fraction limit, if applicable
 
+..  _global_datasourceID:
+
+global_datasourceID table
+^^^^^^^^^^^^^^^^^^^^^^
+The *global_datasourceID* table stores the **way that data / information have been gathered** for database integration.
+
+.. csv-table::
+   :file: ./csv_tables/global_datasourceID.csv
+   :header-rows: 1
+
+* DATASRCID -- A unique identifier (auto-incrementing serial integer)
+
+* DATASOURCE -- Unique data source name. For available values refer to :ref:`global_datasourceID_Fields`
+
+* DATASRCDSC -- Data source description. For available values refer to :ref:`global_datasourceID_Fields`
+
+* DATASRCREF -- Data source reference. For available values refer to :ref:`global_datasourceID_Fields`
+
 ..  _Global_georeferencing_tables:
 
 Global georeferencing tables
