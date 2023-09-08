@@ -7,7 +7,7 @@ CHARMTDID,CHARMETHOD,CHARMTDDSC,CHARMTDREF
 5,Hydrogen pyrolysis,,
 6,Heavy liquid separation,,
 7,Thin slides,Soil micromorphology,
-8,Winkler method,Gravimetric chemical assay,"Winkler, M. G. (1985). DOI: 10.1016/0033-5894(85)90038-9"
+8,Winkler method,Gravimetric chemical assay,"Winkler, M. G. (1985). DOI: https://doi.org/10.1016/0033-5894(85)90038-9"
 9,Cumulative probability (95%),95% confidence interval,
-10,Gas chromatography,Acidification of sample using gas chromatography to measure elemental carbon,Verardo et al. (1990). DOI: 10.1016/0198-0149(90)90034-S
+10,Gas chromatography,Acidification of sample using gas chromatography to measure elemental carbon,Verardo et al. (1990). DOI: https://doi.org/10.1016/0198-0149(90)90034-S
 11,Other,,

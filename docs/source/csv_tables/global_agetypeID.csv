@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+AGETYPEID,serial4,pkey,TRUE,
+AGETYPE,text,ukey,TRUE,
+AGETDESCR,text,,,
+AGETCOMMT,text,,,

@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+DATASRCID,serial4,pkey,TRUE,
+DATASOURCE,text,ukey,TRUE,
+DATASRCDSC,text,,,
+DATASRCREF,text,,,

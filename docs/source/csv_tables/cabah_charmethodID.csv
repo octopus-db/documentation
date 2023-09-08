@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+CHARMTDID,serial4,pkey,TRUE,
+CHARMETHOD,text,ukey,TRUE,
+CHARMTDDSC,text,,,
+CHARMTDREF,text,,,
