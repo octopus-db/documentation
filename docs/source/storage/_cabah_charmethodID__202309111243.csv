@@ -1,0 +1,13 @@
+CHARMTDID,CHARMETHOD,CHARMTDDSC,CHARMTDREF,CREATED_AT,UPDATED_AT
+-9999,ND,no data,,2023-09-07 16:31:25.224 +0200,2023-09-07 16:31:25.224 +0200
+1,Hand picked,Hand picked charcoal from soil samples,,2023-09-07 16:30:58.753 +0200,
+2,Sieved,Charcoal isolated by sieving soil samples,Millspaugh & Whitlock (1995). DOI: 10.1177/095968369500500303,2023-09-07 16:30:58.753 +0200,2023-09-11 10:39:18.520 +0200
+3,Pollen slide,Charcoal quantified during pollen analysis,,2023-09-07 16:30:58.753 +0200,2023-09-11 10:39:39.336 +0200
+4,"Sieved, imaging software",Charcoal separated by sieving soil samples and quantified using imaging software,,2023-09-07 16:30:58.753 +0200,2023-09-11 10:40:13.911 +0200
+5,Hydrogen pyrolysis,Isolation of pyrogenic carbon using hydrogen pyrolysis,Wurster et al. (2012). DOI: 10.1002/rcm.6397,2023-09-07 16:30:58.753 +0200,2023-09-11 10:40:43.467 +0200
+6,Heavy liquid separation,Charcoal isolated by density separation using heavy liquid,Turner et al. (2004) https://trove.nla.gov.au/work/33952115,2023-09-07 16:30:58.753 +0200,2023-09-11 10:42:08.849 +0200
+7,Thin slides,Soil micromorphology,,2023-09-07 16:30:58.753 +0200,
+8,Winkler method,Gravimetric chemical assay,"Winkler, M. G. (1985). DOI: 10.1016/0033-5894(85)90038-9",2023-09-07 16:30:58.753 +0200,
+9,Cumulative probability (95%),95% confidence interval,,2023-09-07 16:30:58.753 +0200,
+10,Gas chromatography,Acidification of sample using gas chromatography to measure elemental carbon,Verardo et al. (1990). DOI: 10.1016/0198-0149(90)90034-S,2023-09-07 16:30:58.753 +0200,
+11,Other,,,2023-09-07 16:30:58.753 +0200,

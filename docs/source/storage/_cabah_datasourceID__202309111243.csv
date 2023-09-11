@@ -1,0 +1,8 @@
+DATASRCID,DATASOURCE,DATASRCDSC,DATASRCREF,CREATED_AT,UPDATED_AT
+-9999,ND,no data,,2023-09-11 10:35:30.259 +0200,2023-09-11 10:35:30.259 +0200
+1,Author,Author provided data,,2023-09-11 10:33:58.002 +0200,
+2,Digitised,Data digitised from diagram using software,,2023-09-11 10:33:58.002 +0200,2023-09-11 10:38:03.251 +0200
+3,QUAVIDA,,Rowe et al. (2007). DOI: https://doi.org/10.1016/j.quaint.2007.04.001,2023-09-11 10:33:58.002 +0200,
+4,Paleofire database,Digitised data sourced from the Global Paleofire Database or Neotoma Paleoecology Database,,2023-09-11 10:33:58.002 +0200,2023-09-11 10:37:26.293 +0200
+5,Optical approximation,,,2023-09-11 10:33:58.002 +0200,2023-09-11 10:37:15.126 +0200
+6,Other,,,2023-09-11 10:33:58.002 +0200,

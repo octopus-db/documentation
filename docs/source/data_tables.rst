@@ -60,42 +60,6 @@ The *global_GrainSize* table, focusing on granulomety, stores the **type of (sed
 
 * GRNSIZEMAX -- Upper grain size fraction limit, if applicable
 
-..  _global_datasourceID:
-
-global_datasourceID table
-^^^^^^^^^^^^^^^^^^^^^^
-The *global_datasourceID* table stores the **way that data / information have been gathered** for database integration.
-
-.. csv-table::
-   :file: ./csv_tables/global_datasourceID.csv
-   :header-rows: 1
-
-* DATASRCID -- A unique identifier (auto-incrementing serial integer)
-
-* DATASOURCE -- Unique data source name. For available values refer to :ref:`global_datasourceID_Fields`
-
-* DATASRCDSC -- "DATASOURCE" description. For available values refer to :ref:`global_datasourceID_Fields`
-
-* DATASRCREF -- "DATASOURCE" reference. For available values refer to :ref:`global_datasourceID_Fields`
-
-..  _global_agetypeID:
-
-global_agetypeID table
-^^^^^^^^^^^^^^^^^^^^^^
-The *global_agetypeID* table stores the **type of time unit** used for sample age specification.
-
-.. csv-table::
-   :file: ./csv_tables/global_agetypeID.csv
-   :header-rows: 1
-
-* AGETYPEID -- A unique identifier (auto-incrementing serial integer)
-
-* AGETYPE -- Unique age type name. For available values refer to :ref:`global_agetypeID_Fields`
-
-* AGETDESCR -- "AGETYPE" description. For available values refer to :ref:`global_agetypeID_Fields`
-
-* AGETCOMMT -- "AGETYPE" reference. For available values refer to :ref:`global_agetypeID_Fields`
-
 ..  _Global_georeferencing_tables:
 
 Global georeferencing tables
@@ -520,6 +484,24 @@ The *cabah_LabCodes* table stores information about the **lab of origin** for a 
 
 * LAB_SOURCE -- Source of information stored in a certain tuple. Major yources are 'Radiocarbon' (https://doi.org/10.1017/S0033822200038923) and 'RadonKiel' (https://radon.ufg.uni-kiel.de/labs).
 
+..  _cabah_agetypeID:
+
+cabah_agetypeID table
+^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_agetypeID* table stores the **type of time unit** used for sample age specification.
+
+.. csv-table::
+   :file: ./csv_tables/cabah_agetypeID.csv
+   :header-rows: 1
+
+* AGETYPEID -- A unique identifier (auto-incrementing serial integer)
+
+* AGETYPE -- Unique age type name. For available values refer to :ref:`cabah_agetypeID_Fields`
+
+* AGETDESCR -- "AGETYPE" description. For available values refer to :ref:`cabah_agetypeID_Fields`
+
+* AGETCOMMT -- "AGETYPE" reference. For available values refer to :ref:`cabah_agetypeID_Fields`
+
 ..  _cabah_charmethodID:
 
 cabah_charmethodID table
@@ -569,6 +551,24 @@ The *cabah_col_mtdID* table stores the **sample collection method**. *cabah_col_
 * COL_MTD -- For available values refer to :ref:`cabah_col_mtdID_Fields`
 
 * PARENTID -- Is fkey. Refers to ordinal higher ranking “COL_MTDID”
+
+..  _cabah_datasourceID:
+
+cabah_datasourceID table
+^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_datasourceID* table stores the **way that data / information have been gathered** for database integration.
+
+.. csv-table::
+   :file: ./csv_tables/cabah_datasourceID.csv
+   :header-rows: 1
+
+* DATASRCID -- A unique identifier (auto-incrementing serial integer)
+
+* DATASOURCE -- Unique data source name. For available values refer to :ref:`cabah_datasourceID_Fields`
+
+* DATASRCDSC -- "DATASOURCE" description. For available values refer to :ref:`cabah_datasourceID_Fields`
+
+* DATASRCREF -- "DATASOURCE" reference. For available values refer to :ref:`cabah_datasourceID_Fields`
 
 ..  _cabah_methodID:
 
