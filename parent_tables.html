@@ -52,9 +52,7 @@
 <li class="toctree-l2"><a class="reference internal" href="#global-parent-tables">Global parent tables</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#global-grainsize-fields">global_GrainSize fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-sitecode-fields">global_SiteCode fields</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#global-agetypeid-fields">global_agetypeID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-biomeid-fields">global_biomeID fields</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#global-datasourceid-fields">global_datasourceID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-ibraid-fields">global_ibraID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-rivid-fields">global_rivID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-varunitid-fields">global_varunitID fields</a></li>
@@ -67,9 +65,11 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#regional-parent-tables">Regional parent tables</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-labcodes-fields">cabah_LabCodes fields</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cabah-agetypeid-fields">cabah_agetypeID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-charmethodid-fields">cabah_charmethodID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-chemprepid-fields">cabah_chemprepID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-col-mtdid-fields">cabah_col_mtdID fields</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cabah-datasourceid-fields">cabah_datasourceID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-methodid-fields">cabah_methodID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#c14-calcurve-fields">c14_calcurve fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#c14-calprogram-fields">c14_calprogram fields</a></li>
@@ -748,15 +748,8 @@
 <p>The dominant attribute of a site will override any other. So, for example, burials in a rockshelter with lots of occupation deposit would be classified as a Rockshelter, not a Cemetery.</p>
 </div>
 </div>
-<div class="section" id="global-agetypeid-fields">
-<span id="id5"></span><h3>global_agetypeID fields<a class="headerlink" href="#global-agetypeid-fields" title="Permalink to this heading"></a></h3>
-<div class="line-block">
-<div class="line">The latest <em>global_agetypeID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_agetypeID__202309071816.csv">here</a> 🐿️</div>
-<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-agetypeid"><span class="std std-ref">global_agetypeID table</span></a> variable specs)</div>
-</div>
-</div>
 <div class="section" id="global-biomeid-fields">
-<span id="id7"></span><h3>global_biomeID fields<a class="headerlink" href="#global-biomeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id5"></span><h3>global_biomeID fields<a class="headerlink" href="#global-biomeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -1090,20 +1083,13 @@
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD <a class="footnote-reference brackets" href="#id147" id="id8">1</a>.</div>
+<div class="line">Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD <a class="footnote-reference brackets" href="#id147" id="id6">1</a>.</div>
 <div class="line">The latest <em>global_biomeID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_biomeID__202305230906.csv">here</a> 🐿️</div>
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-biomeid"><span class="std std-ref">global_biomeID table</span></a> variable specs)</div>
 </div>
 </div>
-<div class="section" id="global-datasourceid-fields">
-<span id="id10"></span><h3>global_datasourceID fields<a class="headerlink" href="#global-datasourceid-fields" title="Permalink to this heading"></a></h3>
-<div class="line-block">
-<div class="line">The latest <em>global_datasourceID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_datasourceID__202309071815.csv">here</a> 🐿️</div>
-<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-datasourceid"><span class="std std-ref">global_datasourceID table</span></a> variable specs)</div>
-</div>
-</div>
 <div class="section" id="global-ibraid-fields">
-<span id="id12"></span><h3>global_ibraID fields<a class="headerlink" href="#global-ibraid-fields" title="Permalink to this heading"></a></h3>
+<span id="id8"></span><h3>global_ibraID fields<a class="headerlink" href="#global-ibraid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -1150,7 +1136,7 @@
 </div>
 </div>
 <div class="section" id="global-rivid-fields">
-<span id="id14"></span><h3>global_rivID fields<a class="headerlink" href="#global-rivid-fields" title="Permalink to this heading"></a></h3>
+<span id="id10"></span><h3>global_rivID fields<a class="headerlink" href="#global-rivid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -1211,7 +1197,7 @@
 </div>
 </div>
 <div class="section" id="global-varunitid-fields">
-<span id="id16"></span><h3>global_varunitID fields<a class="headerlink" href="#global-varunitid-fields" title="Permalink to this heading"></a></h3>
+<span id="id12"></span><h3>global_varunitID fields<a class="headerlink" href="#global-varunitid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -2130,21 +2116,21 @@
 </div>
 </div>
 <div class="section" id="global-refcore-fields">
-<span id="id18"></span><h3>global_RefCore fields<a class="headerlink" href="#global-refcore-fields" title="Permalink to this heading"></a></h3>
+<span id="id14"></span><h3>global_RefCore fields<a class="headerlink" href="#global-refcore-fields" title="Permalink to this heading"></a></h3>
 <div class="line-block">
 <div class="line">The latest <em>global_RefCore</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202309031630.csv">here</a> 🐿️</div>
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-refcore"><span class="std std-ref">global_RefCore table</span></a> variable specs)</div>
 </div>
 </div>
 <div class="section" id="global-refabstract-fields">
-<span id="id20"></span><h3>global_RefAbstract fields<a class="headerlink" href="#global-refabstract-fields" title="Permalink to this heading"></a></h3>
+<span id="id16"></span><h3>global_RefAbstract fields<a class="headerlink" href="#global-refabstract-fields" title="Permalink to this heading"></a></h3>
 <div class="line-block">
 <div class="line">The latest <em>global_RefAbstract</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202309031457.csv">here</a> 🐿️</div>
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-refabstract"><span class="std std-ref">global_RefAbstract table</span></a> variable specs)</div>
 </div>
 </div>
 <div class="section" id="global-author-fields">
-<span id="id22"></span><h3>global_Author fields<a class="headerlink" href="#global-author-fields" title="Permalink to this heading"></a></h3>
+<span id="id18"></span><h3>global_Author fields<a class="headerlink" href="#global-author-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 10%" />
@@ -2239,7 +2225,7 @@
 </div>
 </div>
 <div class="section" id="global-journal-fields">
-<span id="id24"></span><h3>global_Journal fields<a class="headerlink" href="#global-journal-fields" title="Permalink to this heading"></a></h3>
+<span id="id20"></span><h3>global_Journal fields<a class="headerlink" href="#global-journal-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2289,7 +2275,7 @@
 </div>
 </div>
 <div class="section" id="global-pubtype-fields">
-<span id="id26"></span><h3>global_PubType fields<a class="headerlink" href="#global-pubtype-fields" title="Permalink to this heading"></a></h3>
+<span id="id22"></span><h3>global_PubType fields<a class="headerlink" href="#global-pubtype-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -2352,7 +2338,7 @@
 </tbody>
 </table>
 <ul class="simple">
-<li><p><strong>article</strong> <a class="footnote-reference brackets" href="#id148" id="id27">2</a> – An article from a journal or magazine. <em>Required fields</em>: author, title, journal, year. <em>Optional fields</em>: volume, number, pages, month, note.</p></li>
+<li><p><strong>article</strong> <a class="footnote-reference brackets" href="#id148" id="id23">2</a> – An article from a journal or magazine. <em>Required fields</em>: author, title, journal, year. <em>Optional fields</em>: volume, number, pages, month, note.</p></li>
 <li><p><strong>book</strong> – A book with an explicit publisher. <em>Required fields</em>: author or editor, title, publisher, year. <em>Optional fields</em>: volume or number, series, address, edition, month, note.</p></li>
 <li><p><strong>booklet</strong> – A work that is printed and bound, but without a named publisher or sponsoring institution. <em>Required field</em>: title. <em>Optional fields</em>: author, howpublished, address, month, year, note.</p></li>
 <li><p><strong>conference</strong> – The same as inproceedings, included for Scribe compatibility.</p></li>
@@ -2377,9 +2363,9 @@
 </div>
 </div>
 <div class="section" id="regional-parent-tables">
-<span id="id29"></span><h2>Regional parent tables<a class="headerlink" href="#regional-parent-tables" title="Permalink to this heading"></a></h2>
+<span id="id25"></span><h2>Regional parent tables<a class="headerlink" href="#regional-parent-tables" title="Permalink to this heading"></a></h2>
 <div class="section" id="cabah-labcodes-fields">
-<span id="id30"></span><h3>cabah_LabCodes fields<a class="headerlink" href="#cabah-labcodes-fields" title="Permalink to this heading"></a></h3>
+<span id="id26"></span><h3>cabah_LabCodes fields<a class="headerlink" href="#cabah-labcodes-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 13%" />
@@ -2455,8 +2441,82 @@
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#cabah-labcodes"><span class="std std-ref">cabah_LabCodes table</span></a> variable specs)</div>
 </div>
 </div>
+<div class="section" id="cabah-agetypeid-fields">
+<span id="id28"></span><h3>cabah_agetypeID fields<a class="headerlink" href="#cabah-agetypeid-fields" title="Permalink to this heading"></a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>AGETYPEID</p></th>
+<th class="head"><p>AGETYPE</p></th>
+<th class="head"><p>AGETDESCR</p></th>
+<th class="head"><p>AGETCOMMT</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>-9999</p></td>
+<td><p>ND</p></td>
+<td><p>no data</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Years BP</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>Calendar years BP</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>Calendar years AD/BC</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>Varve years BP</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Radiocarbon years BP</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>Direct calibration</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>Calibrated years BP</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>Calibrated by synth. coord.</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>Calibrated radiocarbon years BP</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">The latest <em>cabah_agetypeID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_agetypeID__202309111243.csv">here</a> 🐿️</div>
+<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#cabah-agetypeid"><span class="std std-ref">cabah_agetypeID table</span></a> variable specs)</div>
+</div>
+</div>
 <div class="section" id="cabah-charmethodid-fields">
-<span id="id32"></span><h3>cabah_charmethodID fields<a class="headerlink" href="#cabah-charmethodid-fields" title="Permalink to this heading"></a></h3>
+<span id="id30"></span><h3>cabah_charmethodID fields<a class="headerlink" href="#cabah-charmethodid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -2535,12 +2595,12 @@
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">The latest <em>cabah_charmethodID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_charmethodID__202309071831.csv">here</a> 🐿️</div>
+<div class="line">The latest <em>cabah_charmethodID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_charmethodID__202309111243.csv">here</a> 🐿️</div>
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#cabah-charmethodid"><span class="std std-ref">cabah_charmethodID table</span></a> variable specs)</div>
 </div>
 </div>
 <div class="section" id="cabah-chemprepid-fields">
-<span id="id34"></span><h3>cabah_chemprepID fields<a class="headerlink" href="#cabah-chemprepid-fields" title="Permalink to this heading"></a></h3>
+<span id="id32"></span><h3>cabah_chemprepID fields<a class="headerlink" href="#cabah-chemprepid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -2725,7 +2785,7 @@
 </div>
 </div>
 <div class="section" id="cabah-col-mtdid-fields">
-<span id="id36"></span><h3>cabah_col_mtdID fields<a class="headerlink" href="#cabah-col-mtdid-fields" title="Permalink to this heading"></a></h3>
+<span id="id34"></span><h3>cabah_col_mtdID fields<a class="headerlink" href="#cabah-col-mtdid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -2848,6 +2908,65 @@
 <div class="line-block">
 <div class="line">The latest <em>cabah_col_mtdID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv">here</a> 🐿️</div>
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#cabah-col-mtdid"><span class="std std-ref">cabah_col_mtdID table</span></a> variable specs)</div>
+</div>
+</div>
+<div class="section" id="cabah-datasourceid-fields">
+<span id="id36"></span><h3>cabah_datasourceID fields<a class="headerlink" href="#cabah-datasourceid-fields" title="Permalink to this heading"></a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>DATASRCID</p></th>
+<th class="head"><p>DATASOURCE</p></th>
+<th class="head"><p>DATASRCDSC</p></th>
+<th class="head"><p>DATASRCREF</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>-9999</p></td>
+<td><p>ND</p></td>
+<td><p>no data</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>Author</p></td>
+<td><p>Author provided data</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>Digitised</p></td>
+<td><p>Data digitised from diagram using software</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>QUAVIDA</p></td>
+<td></td>
+<td><p>Rowe et al. (2007). DOI: <a class="reference external" href="https://doi.org/10.1016/j.quaint.2007.04.001">https://doi.org/10.1016/j.quaint.2007.04.001</a></p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>Paleofire database</p></td>
+<td><p>Digitised data sourced from the Global Paleofire Database or Neotoma Paleoecology Database</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>Optical approximation</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>Other</p></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">The latest <em>cabah_datasourceID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202309111243.csv">here</a> 🐿️</div>
+<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a> variable specs)</div>
 </div>
 </div>
 <div class="section" id="cabah-methodid-fields">
@@ -7324,10 +7443,10 @@ University (CHN)</p></td>
 </div>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="id147"><span class="brackets"><a class="fn-backref" href="#id8">1</a></span></dt>
+<dt class="label" id="id147"><span class="brackets"><a class="fn-backref" href="#id6">1</a></span></dt>
 <dd><p>Global Palaeofire Database (<a class="reference external" href="https://www.paleofire.org">https://www.paleofire.org</a>)</p>
 </dd>
-<dt class="label" id="id148"><span class="brackets"><a class="fn-backref" href="#id27">2</a></span></dt>
+<dt class="label" id="id148"><span class="brackets"><a class="fn-backref" href="#id23">2</a></span></dt>
 <dd><p>Entry type descriptions taken from <a class="reference external" href="http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/">http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/</a></p>
 </dd>
 <dt class="label" id="id149"><span class="brackets"><a class="fn-backref" href="#id39">3</a></span></dt>

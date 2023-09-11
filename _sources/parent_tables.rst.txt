@@ -36,18 +36,6 @@ global_SiteCode fields
 
    The dominant attribute of a site will override any other. So, for example, burials in a rockshelter with lots of occupation deposit would be classified as a Rockshelter, not a Cemetery.
 
-..  _global_agetypeID_Fields:
-
-global_agetypeID fields
-~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :file: ./csv_tables/global_agetypeID_FIELDS.csv
-   :header-rows: 1
-
-| The latest *global_agetypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_agetypeID__202309071816.csv>`_ |:chipmunk:|
-| (|:back:| to :ref:`global_agetypeID` variable specs)
-
 ..  _global_biomeID_Fields:
 
 global_biomeID fields
@@ -60,18 +48,6 @@ global_biomeID fields
 | Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
 | The latest *global_biomeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_biomeID` variable specs)
-
-..  _global_datasourceID_Fields:
-
-global_datasourceID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :file: ./csv_tables/global_datasourceID_FIELDS.csv
-   :header-rows: 1
-
-| The latest *global_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_datasourceID__202309071815.csv>`_ |:chipmunk:|
-| (|:back:| to :ref:`global_datasourceID` variable specs)
 
 ..  _global_ibraID_Fields:
 
@@ -222,6 +198,18 @@ cabah_LabCodes fields
 | The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_LabCodes` variable specs)
 
+..  _cabah_agetypeID_Fields:
+
+cabah_agetypeID fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_agetypeID_FIELDS.csv
+   :header-rows: 1
+
+| The latest *cabah_agetypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_agetypeID__202309111243.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_agetypeID` variable specs)
+
 ..  _cabah_charmethodID_Fields:
 
 cabah_charmethodID fields
@@ -231,7 +219,7 @@ cabah_charmethodID fields
    :file: ./csv_tables/cabah_charmethodID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_charmethodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_charmethodID__202309071831.csv>`_ |:chipmunk:|
+| The latest *cabah_charmethodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_charmethodID__202309111243.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_charmethodID` variable specs)
 
 ..  _cabah_chemprepID_Fields:
@@ -283,6 +271,18 @@ cabah_col_mtdID fields
 
 | The latest *cabah_col_mtdID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_col_mtdID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_col_mtdID` variable specs)
+
+..  _cabah_datasourceID_Fields:
+
+cabah_datasourceID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_datasourceID_FIELDS.csv
+   :header-rows: 1
+
+| The latest *cabah_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202309111243.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_datasourceID` variable specs)
 
 ..  _cabah_methodID_Fields:
 
