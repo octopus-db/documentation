@@ -78,6 +78,8 @@ References
 | 
 | Kubik, Peter W.; Christl, Marcus (2010). 10Be and 26Al measurements at the Zurich 6MV Tandem AMS facility. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 268(7--8), 880-883. DOI: `10.1016/j.nimb.2009.10.054 <https://doi.org/10.1016/j.nimb.2009.10.054>`_
 | 
+| Millspaugh, S. H.; Whitlock, C. (1995). A 750-year fire history based on lake sediment records in central Yellowstone National Park, USA. The Holocene, 5(3), 283--292. DOI: `10.1177/095968369500500303 <https://doi.org/10.1177/095968369500500303>`_
+| 
 | Mudd, Simon M.; Harel, Marie-Alice; Hurst, Martin D.; Grieve, Stuart W. D.; Marrero, Shasta M. (2016). The CAIRN method: automated, reproducible calculation of catchment-averaged denudation rates from cosmogenic nuclide concentrations. Earth Surf. Dynam., 4, 655--674. DOI: `10.5194/esurf-4-655-2016 <https://doi.org/10.5194/esurf-4-655-2016>`_
 |
 | Munack, Henry; Rehn, Emma; Saktura, Wanchese M.; Codilean, Alexandru T.(2023). OCTOPUS database documentation (online). https://octopus-db.github.io/documentation (accessed 31-08-2023).
@@ -130,6 +132,8 @@ References
 | 
 | The PostgreSQL Global Development Group (2023). PostgreSQL: The World's Most Advanced Open Source Relational Database. Accessed 29-04-2023, https://www.postgresql.org
 | 
+| Turner, R.; Kelly, A.; Roberts, N. (2004). A critical assessment and experimental comparison of microscopic charcoal extraction methods (10 p.). In: Charcoals from the past : cultural and palaeoenvironmental implications : proceedings of the third international meeting of anthracology, Cavallino, Lecce (Italy), June 28th - July 1st 2004 / edited by Girolamo Fiorentino, Donatella Magri. TROVE link: https://trove.nla.gov.au/work/33952115
+| 
 | Verardo, David J.; Froelich, Philip N.; McIntyre, Andrew (1990). Determination of organic carbon and nitrogen in marine sediments using the Carlo Erba NA-1500 analyzer. Deep Sea Research Part A. Oceanographic Research Papers, 37(1), 157-165. DOI: `10.1016/0198-0149(90)90034-S <https://doi.org/10.1016/0198-0149(90)90034-S>`_
 |
 | Walker, Mike (2005). Quaternary Dating Methods. John Wiley & Sons Ltd, The Atrium, Southern Gate, Chichester, West Sussex PO19 8SQ, England.
@@ -141,5 +145,7 @@ References
 | Wilson, Christopher; Fallon, Steward; Trevorrow, Tom (2012). New radiocarbon ages for the Lower Murray River, South Australia. Archaeol. Ocean., 47, 157-160. DOI: `10.1002/j.1834-4453.2012.tb00128.x <https://doi.org/10.1002/j.1834-4453.2012.tb00128.x>`_
 | 
 | Winkler, Marjorie Green (1985). Charcoal analysis for paleoenvironmental interpretation: A chemical assay. Quaternary Research, 23(3), 313--326. DOI: `10.1016/0033-5894(85)90038-9 <https://doi.org/10.1016/0033-5894(85)90038-9>`_
+| 
+| Wurster, C.M.; Lloyd, J.; Goodrick, I.; Saiz, G.; Bird, M.I. (2012). Quantifying the abundance and stable isotope composition of pyrogenic carbon using hydrogen pyrolysis. Rapid Commun. Mass Spectrom., 26, 2690-2696. DOI: `10.1002/rcm.6397 <https://doi.org/10.1002/rcm.6397>`_
 | 
 | Zilhão, J.; Angelucci, D. E.; Igreja, M. A.; Arnold, L. J.; Badal, E.; Callapez, P.; Cardoso, J. L.; d'Errico, F.; Daura, J.; Demuro, M.; Deschamps, M.; Dupont, C.; Gabriel, S.; Hoffmann, D. L.; Legoinha, P.; Matias, H.; Soares, A. M. M.; Nabais, M.; Portela, P.; Queffelec, A.; Rodrigues, F.; Souto, P. (2020). Last Interglacial Iberian Neandertals as fisher-hunter-gatherers. Science, 367, eaaz7943. DOI: `10.1126/science.aaz7943 <https://doi.org/10.1126/science.aaz7943>`_
