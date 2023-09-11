@@ -1,0 +1,8 @@
+DATASRCID,DATASOURCE,DATASRCDSC,DATASRCREF
+-9999,ND,no data,
+1,Author,Author provided data,
+2,Digitised,Data digitised from diagram using software,
+3,QUAVIDA,,Rowe et al. (2007). DOI: https://doi.org/10.1016/j.quaint.2007.04.001
+4,Paleofire database,Digitised data sourced from the Global Paleofire Database or Neotoma Paleoecology Database,
+5,Optical approximation,,
+6,Other,,
