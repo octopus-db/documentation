@@ -48,6 +48,8 @@ References
 | 
 | Galbraith, R.F.; Roberts, R.G.; Laslett, G.M.; Yoshida, H.; Olley, J.M. (1999). Optical Dating of Single and Multiple Grains of Quartz from Jinmium Rock Shelter, Northern Australia: Part I, Experimental Design and Statistical Models. Archaeometry, 41, 339--364. DOI: `10.1111/j.1475-4754.1999.tb00987.x <https://doi.org/10.1111/j.1475-4754.1999.tb00987.x>`_
 | 
+| Global Paleofire Database (online). Accessed 11-09-2023. https://www.paleofire.org
+| 
 | Geyh, Mebus A. (2005). Handbuch der physikalischen und chemischen Altersbestimmung (in German). Wissenschaftliche Buchgesellschaft, Darmstadt.
 | 
 | Granger, D. E.; Lifton, N. A.; Willenbring, J. K. (2013). A cosmic trip: 25 years of cosmogenic nuclides in geology. Geol. Soc. Am. Bull., 125, 1379--1402. DOI: `10.1130/B30774.1 <https://doi.org/10.1130/B30774.1>`_
@@ -88,6 +90,8 @@ References
 | 
 | Murray, Andrew; Arnold, Lee J.; Buylaert, Jan-Pieter; Guérin, Guillaume; Qin, Jintang; Singhvi, Ashok K.; Smedley, Rachel; Thomsen, Kristina J. (2021). Optically stimulated luminescence dating using quartz. Nat Rev Methods Primers, 1, 72. DOI: `10.1038/s43586-021-00068-5 <https://doi.org/10.1038/s43586-021-00068-5>`_
 | 
+| Neotoma database (online). Accessed 11-09-2023. https://www.neotomadb.org
+| 
 | Nishiizumi, K. (2004). Preparation of 26Al AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 223, 388--392. DOI: `10.1016/j.nimb.2004.04.075 <https://doi.org/10.1016/j.nimb.2004.04.075>`_
 | 
 | Nishiizumi, K.; Imamura, M.; Caffee, M. W.; Southon, J. R.; Finkel, R. C.; Mcaninch, J. (2007). Absolute calibration of 10Be AMS standards. Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, 258, 403--413. DOI: `10.1016/j.nimb.2007.01.297 <https://doi.org/10.1016/j.nimb.2007.01.297>`_
@@ -121,6 +125,8 @@ References
 | Saktura, Wanchese M.; Rehn, Emma; Munack, Henry; Codilean, Alexandru T.; Jacobs, Zenobia; Williams, Alan; Ulm, Sean (2022). The SahulArch TL collection. Sahul-wide database of published archaeological records with radiometric ages (v.2) (online). University of Wollongong Australia [data set]. DOI: `10.25900/af67-kh16 <https://doi.org/10.25900/af67-kh16>`_
 | 
 | Saktura, Wanchese M.; Rehn, Emma; Linnenlucke, Lauren; Munack, Henry; Wood, Rachel; Petchey, Fiona; Codilean, Alexandru T.; Jacobs, Zenobia; Cohen, Tim J.; Williams, Alan N.; Ulm, Sean (2023). SahulArch: A geochronological database for the archaeology of Sahul. Australian Archaeology. DOI: `10.1080/03122417.2022.2159751 <https://doi.org/10.1080/03122417.2022.2159751>`_
+| 
+| SchemaSpy software (online). Accessed 11-09-2023. https://schemaspy.org
 | 
 | Schaefer, Joerg M.; Codilean, Alexandru T.; Willenbring, Jane K.; Lu, Zheng-Tian; Keisling, Benjamin; Fülöp, Réka-H.; Val, Pedro (2022). Cosmogenic nuclide techniques. Nat Rev Methods Primers 2, 18. DOI: `10.1038/s43586-022-00096-9 <https://doi.org/10.1038/s43586-022-00096-9>`_
 | 
