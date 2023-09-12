@@ -1,9 +1,10 @@
 # The OCTOPUS database online documentation
 
-This is a comprehensive documentation of the **OCTOPUS database** (https://octopusdata.org) infrastructure and data collections. For the best user experience, we recommend the usage of Google Chrome or Firefox browsers.
+This is a comprehensive documentation of the **OCTOPUS database** (https://octopusdata.org) infrastructure and data collections. For the best user experience, we recommend viewing these pages using Google Chrome or Firefox.
 
 <img width="1223" alt="Screen Shot 2023-09-12 at 2 12 05 pm" src="https://github.com/octopus-db/documentation/assets/21254372/68a73d03-4590-4168-8558-d9c8d1ff207a">
 
+## About the database
 
 OCTOPUS is an Open Geospatial Consortium (OGC) compliant web-enabled database that allows users to visualise, query, and download cosmogenic 10Be and 26Al, luminescence, and radiocarbon ages and denudation rates associated with erosional landscapes, Quaternary depositional landforms and archaeological records, along with associated geospatial (vector and raster) data layers.
 
