@@ -1,0 +1,7 @@
+FLOWTYPEID,FLOWTYPE,FLOWTYPDCR
+-9999,ND,no data
+1,inflow,inflow only
+2,outflow,outflow only
+3,open,in and out flow
+4,closed,no inflow or outflow
+5,unclear,unclear

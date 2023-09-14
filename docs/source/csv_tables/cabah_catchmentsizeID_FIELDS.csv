@@ -1,0 +1,5 @@
+CATCHSZEID,CATCHMSIZE,CATCHMAREA
+-9999,ND,no data
+1,L,>500 km^2 (large)
+2,M,10.1-500 km^2 (medium)
+3,S,10 km^2 (small)

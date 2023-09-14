@@ -1,0 +1,4 @@
+﻿Field,Data type,Key,Not Null,Parent
+BASINSZEID,serial4,pkey,TRUE,
+BASINSIZE,varchar(3):p,ukey,TRUE,
+BASINAREA,text,,,

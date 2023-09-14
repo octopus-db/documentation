@@ -1,0 +1,7 @@
+FLOWTYPEID,FLOWTYPE,FLOWTYPDCR,CREATED_AT,UPDATED_AT
+-9999,ND,no data,2023-09-14 11:24:29.954 +0200,2023-09-14 11:24:29.954 +0200
+1,inflow,inflow only,2023-09-14 11:24:04.450 +0200,
+2,outflow,outflow only,2023-09-14 11:24:04.450 +0200,
+3,open,in and out flow,2023-09-14 11:24:04.450 +0200,
+4,closed,no inflow or outflow,2023-09-14 11:24:04.450 +0200,
+5,unclear,unclear,2023-09-14 11:24:04.450 +0200,

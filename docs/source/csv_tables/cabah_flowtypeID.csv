@@ -1,0 +1,4 @@
+﻿Field,Data type,Key,Not Null,Parent
+FLOWTYPEID,serial4,pkey,TRUE,
+FLOWTYPE,varchar(7):p,ukey,TRUE,
+FLOWTYPDCR,text,,,

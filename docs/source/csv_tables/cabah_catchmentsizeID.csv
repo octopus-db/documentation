@@ -1,0 +1,4 @@
+﻿Field,Data type,Key,Not Null,Parent
+CATCHSZEID,serial4,pkey,TRUE,
+CATCHMSIZE,varchar(3):p,ukey,TRUE,
+CATCHMAREA,text,,,
