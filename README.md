@@ -2,7 +2,7 @@
 
 This is a comprehensive documentation of the **OCTOPUS database** (https://octopusdata.org) infrastructure and data collections. For the best user experience, we recommend viewing these pages using Google Chrome or Firefox.
 
-<img width="1223" alt="Screen Shot 2023-09-12 at 2 12 05 pm" src="https://github.com/octopus-db/documentation/assets/21254372/68a73d03-4590-4168-8558-d9c8d1ff207a">
+<img width="1223" alt="Screen Shot 2023-09-14 at 4 49 56 pm" src="https://github.com/octopus-db/documentation/assets/21254372/c93d4019-5188-47a8-a683-49398fd66ea8">
 
 ## About the database
 
