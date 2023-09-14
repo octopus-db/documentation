@@ -502,6 +502,38 @@ The *cabah_agetypeID* table stores the **type of time unit** used for sample age
 
 * AGETCOMMT -- "AGETYPE" reference. For available values refer to :ref:`cabah_agetypeID_Fields`
 
+..  _cabah_basinsizeID:
+
+cabah_basinsizeID table
+^^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_basinsizeID* table, according to the Global Paleofire Database (https://www.paleofire.org/) template, stores arbitrary **water body area classes** (basin = water body itself).
+
+.. csv-table::
+   :file: ./csv_tables/cabah_basinsizeID.csv
+   :header-rows: 1
+
+* BASINSZEID -- A unique identifier (auto-incrementing serial integer)
+
+* BASINSIZE -- Unique basin size class abbreviation. For available values refer to :ref:`cabah_basinsizeID_Fields`
+
+* BASINAREA -- "BASINSIZE" description. For available values refer to :ref:`cabah_basinsizeID_Fields`
+
+..  _cabah_catchmentsizeID:
+
+cabah_catchmentsizeID table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_catchmentsizeID* table, according to the Global Paleofire Database (https://www.paleofire.org/) template, stores arbitrary **catchment area classes** (catchment = area contributing to a certain basin).
+
+.. csv-table::
+   :file: ./csv_tables/cabah_catchmentsizeID.csv
+   :header-rows: 1
+
+* CATCHSZEID -- A unique identifier (auto-incrementing serial integer)
+
+* CATCHMSIZE -- Unique catchment size class abbreviation. For available values refer to :ref:`cabah_catchmentsizeID_Fields`
+
+* CATCHMAREA -- "CATCHSZEID" description. For available values refer to :ref:`cabah_catchmentsizeID_Fields`
+
 ..  _cabah_charmethodID:
 
 cabah_charmethodID table
@@ -569,6 +601,40 @@ The *cabah_datasourceID* table stores the **way that data / information have bee
 * DATASRCDSC -- "DATASOURCE" description. For available values refer to :ref:`cabah_datasourceID_Fields`
 
 * DATASRCREF -- "DATASOURCE" reference. For available values refer to :ref:`cabah_datasourceID_Fields`
+
+..  _cabah_depositID:
+
+cabah_depositID table
+^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_depositID* table stores the **type of deposit sampled**.
+
+.. csv-table::
+   :file: ./csv_tables/cabah_depositID.csv
+   :header-rows: 1
+
+* DEPOSITID -- A unique identifier (auto-incrementing serial integer)
+
+* DEPOSIT -- Unique deposit abbreviation. For available values refer to :ref:`cabah_depositID_Fields`
+
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "DEPOSITID"
+
+* DEPOSITDSC -- "DEPOSITID" description. For available values refer to :ref:`cabah_depositID_Fields`
+
+..  _cabah_flowtypeID:
+
+cabah_flowtypeID table
+^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_flowtypeID* table, according to the Global Paleofire Database (https://www.paleofire.org/) template, stores arbitrary **catchment area classes** (catchment = area contributing to a certain basin).
+
+.. csv-table::
+   :file: ./csv_tables/cabah_flowtypeID.csv
+   :header-rows: 1
+
+* FLOWTYPEID -- A unique identifier (auto-incrementing serial integer)
+
+* FLOWTYPE -- Unique flow type abbreviation. For available values refer to :ref:`cabah_flowtypeID_Fields`
+
+* FLOWTYPDCR -- "FLOWTYPEID" description. For available values refer to :ref:`cabah_flowtypeID_Fields`
 
 ..  _cabah_methodID:
 
