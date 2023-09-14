@@ -219,7 +219,7 @@ cabah_basinsizeID fields
    :file: ./csv_tables/cabah_basinsizeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_basinsizeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_basinsizeID__202309141320>`_ |:chipmunk:|
+| The latest *cabah_basinsizeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_basinsizeID__202309141320.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_basinsizeID` variable specs)
 
 ..  _cabah_catchmentsizeID_Fields:
@@ -231,7 +231,7 @@ cabah_catchmentsizeID fields
    :file: ./csv_tables/cabah_catchmentsizeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_catchmentsizeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_catchmentsizeID__202309141321>`_ |:chipmunk:|
+| The latest *cabah_catchmentsizeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_catchmentsizeID__202309141321.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_catchmentsizeID` variable specs)
 
 ..  _cabah_charmethodID_Fields:
@@ -317,7 +317,7 @@ cabah_depositID fields
    :file: ./csv_tables/cabah_depositID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202309131357>`_ |:chipmunk:|
+| The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202309131357.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_depositID` variable specs)
 
 ..  _cabah_flowtypeID_Fields:
@@ -329,7 +329,7 @@ cabah_flowtypeID fields
    :file: ./csv_tables/cabah_flowtypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_flowtypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_flowtypeID__202309141324>`_ |:chipmunk:|
+| The latest *cabah_flowtypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_flowtypeID__202309141324.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_flowtypeID` variable specs)
 
 ..  _cabah_methodID_Fields:
