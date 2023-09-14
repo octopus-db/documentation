@@ -537,7 +537,7 @@ The *cabah_catchmentsizeID* table, according to the Global Paleofire Database (h
 ..  _cabah_charmethodID:
 
 cabah_charmethodID table
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 The *cabah_charmethodID* is a lookup table for charcoal-related compilations, i.e., SahulCHAR. This table stores the **method of charcoal quantification**.
 
 .. csv-table::
@@ -587,7 +587,7 @@ The *cabah_col_mtdID* table stores the **sample collection method**. *cabah_col_
 ..  _cabah_datasourceID:
 
 cabah_datasourceID table
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^
 The *cabah_datasourceID* table stores the **way that data / information have been gathered** for database integration.
 
 .. csv-table::
@@ -605,7 +605,7 @@ The *cabah_datasourceID* table stores the **way that data / information have bee
 ..  _cabah_depositID:
 
 cabah_depositID table
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 The *cabah_depositID* table stores the **type of deposit sampled**.
 
 .. csv-table::
@@ -1421,7 +1421,7 @@ The *arch_osl_DataCore* table stores **OSL-related observations** (= smallest da
 ..  _arch_tl_DataCore:
 
 arch_tl_DataCore table
-^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^
 The *arch_tl_DataCore* table stores stores **TL-related observations** (= smallest data model entity), i.e., ages and their associated unique lab-derived data for the :ref:`The_SahulArch_TL_collection`.
 
 .. csv-table::
@@ -1973,7 +1973,7 @@ The *fos_Sample* table stores FosSahul collection sample information and is, the
 ..  _fos_DataCore:
 
 fos_DataCore table
-^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^
 The *fos_DataCore* table stores **observations** (= smallest data model entity) for the :ref:`FosSahul` and is subordinate to the :ref:`fos_Sample`.
 
 .. csv-table::
