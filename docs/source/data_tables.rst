@@ -624,7 +624,7 @@ The *cabah_depositID* table stores the **type of deposit sampled**.
 
 cabah_flowtypeID table
 ^^^^^^^^^^^^^^^^^^^^^^
-The *cabah_flowtypeID* table, according to the Global Paleofire Database (https://www.paleofire.org/) template, stores arbitrary **catchment area classes** (catchment = area contributing to a certain basin).
+The *cabah_flowtypeID* table, according to the Global Paleofire Database (https://www.paleofire.org/) template, stores **flow type descriptors** for water bodies.
 
 .. csv-table::
    :file: ./csv_tables/cabah_flowtypeID.csv
