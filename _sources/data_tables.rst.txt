@@ -606,7 +606,7 @@ The *cabah_datasourceID* table stores the **way that data / information have bee
 
 cabah_depositID table
 ^^^^^^^^^^^^^^^^^^^^^
-The *cabah_depositID* table stores the **type of deposit sampled**.
+The *cabah_depositID* table stores the **type of deposit sampled**. *cabah_depositID* is a self-referencing table.
 
 .. csv-table::
    :file: ./csv_tables/cabah_depositID.csv
