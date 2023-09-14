@@ -17,7 +17,7 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
 
    | This documentation [#]_ refers to the latest version of the OCTOPUS database. This can be accessed via the OCTOPUS web interface (https://octopusdata.org), or via the `Web Feature Services (WFS) <http://geoserver.octopusdata.org/geoserver/ows?service=wfs&version=2.0.0&request=GetCapabilities>`_ running on the OCTOPUS GeoServer. Past versions of the OCTOPUS data collections have been archived on the Zenodo web repository to comply with DOI (Digital Object Identifier) requirements.
    |
-   | |:warning:| **Past versions of data collections are deprecated and we explicitly do not recommend using these!**
+   | |:warning:| **Past versions of data collections are deprecated and we recommend against using these!**
 
 
 .. toctree::
@@ -36,9 +36,7 @@ OCTOPUS is non-commercial, non-profit, and least restrictively licensed with its
 
 | **Acknowledgements**
 | The OCTOPUS database is supported by the Australian Research Council Centre of Excellence for Australian Biodiversity and Heritage (CABAH) [#]_. Funding was also provided by the University of Wollongong [#]_ and the Australian National Data Service (ANDS), now part of the Australian Research Data Commons [#]_.
-|
 | Selection and composition of attribute fields for the individual sub-collections is the collective effort of expert panels, whose contributing individuals are named in the :ref:`Data collections` section. Shaping and maintaining OCTOPUS v.2 benefited from the liberal knowledge transfer and advice of Jessica Blois, Simon Goring, Eric C. Grimm, and John W. (Jack) Williams (in alphabetic order). Finally, we thank Richard G. Roberts, Julie Matarczyk, and Nathan Wright for discussions and their support of the OCTOPUS project.
-|
 | We acknowledge the Traditional Custodians of the lands on which we have worked as well as their continued spiritual and cultural connection to Country.
 
 .. image:: ./img/CABAH_UOW_ANDS.png
