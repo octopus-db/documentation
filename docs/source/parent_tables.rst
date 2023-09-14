@@ -114,7 +114,7 @@ global_RefAbstract fields
 ..  _global_Author_Fields:
 
 global_Author fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
@@ -189,7 +189,7 @@ Regional parent tables
 ..  _cabah_LabCodes_Fields:
 
 cabah_LabCodes fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
@@ -201,7 +201,7 @@ cabah_LabCodes fields
 ..  _cabah_agetypeID_Fields:
 
 cabah_agetypeID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_agetypeID_FIELDS.csv
@@ -299,7 +299,7 @@ cabah_col_mtdID fields
 ..  _cabah_datasourceID_Fields:
 
 cabah_datasourceID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_datasourceID_FIELDS.csv
@@ -335,7 +335,7 @@ cabah_flowtypeID fields
 ..  _cabah_methodID_Fields:
 
 cabah_methodID fields
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 +----------+----------------+------------+----------+----------------+
 | METHODID | METHOD         | METHODABBR | PARENTID | METHODREF      |
