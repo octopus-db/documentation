@@ -1807,6 +1807,49 @@
 <div class="section" id="cabah-depositid-table">
 <span id="cabah-depositid"></span><h4>cabah_depositID table<a class="headerlink" href="#cabah-depositid-table" title="Permalink to this heading"></a></h4>
 <p>The <em>cabah_depositID</em> table stores the <strong>type of deposit sampled</strong>. <em>cabah_depositID</em> is a self-referencing table.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>DEPOSITID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>DEPOSIT</p></td>
+<td><p>text</p></td>
+<td><p>ukey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PARENTID</p></td>
+<td><p>int(2)</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p>DEPOSITID</p></td>
+</tr>
+<tr class="row-odd"><td><p>DEPOSITDSC</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <ul class="simple">
 <li><p>DEPOSITID – A unique identifier (auto-incrementing serial integer)</p></li>
 <li><p>DEPOSIT – Unique deposit abbreviation. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-depositid-fields"><span class="std std-ref">cabah_depositID fields</span></a></p></li>
