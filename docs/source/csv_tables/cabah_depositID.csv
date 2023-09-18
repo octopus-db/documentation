@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+DEPOSITID,serial4,pkey,TRUE,
+DEPOSIT,text,ukey,TRUE,
+PARENTID,int(2),fkey,,DEPOSITID
+DEPOSITDSC,text,,,
