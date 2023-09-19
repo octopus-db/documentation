@@ -316,7 +316,7 @@ FosSahul collection
 
 ExpAge collection
 ~~~~~~~~~~~~~~~~~
-| *A global database of published 10Be and 26Al data from glacial samples*
+| *A global database of published Be-10 and Al-26 data from glacial samples*
 | **Publisher, Year**
 | OCTOPUS database, 2021
 | **Spatial extent, Publication period**
@@ -328,7 +328,7 @@ ExpAge collection
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
 | **Recommended citation**
-| Heyman, Jakob (2021) ExpAge -- A global compilation of glacial 10Be and 26Al data. https://expage.github.io (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
+| Heyman, Jakob (2021) ExpAge -- A global compilation of glacial Be-10 and Al-26 data. https://expage.github.io (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
 | **DOI**
 | not applicable
 |
