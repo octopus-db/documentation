@@ -57,7 +57,7 @@
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#wfs-data-access-via-r-rstudio">WFS data access via R/RStudio</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#example-1-australian-10be-derived-catchment-averaged-denudation-rates">Example 1. Australian 10Be-derived catchment-averaged denudation rates</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#example-1-australian-be-10-derived-catchment-averaged-denudation-rates">Example 1. Australian Be-10-derived catchment-averaged denudation rates</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#example-2-australian-sedimentary-fluvial-osl-ages">Example 2. Australian sedimentary fluvial OSL ages</a></li>
 </ul>
 </li>
@@ -213,9 +213,9 @@
 </pre></div>
 </div>
 <p><strong>That’s basically it.</strong> Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. <a class="footnote-reference brackets" href="#id13" id="id4">3</a></p>
-<div class="section" id="example-1-australian-10be-derived-catchment-averaged-denudation-rates">
-<h4>Example 1. Australian 10Be-derived catchment-averaged denudation rates<a class="headerlink" href="#example-1-australian-10be-derived-catchment-averaged-denudation-rates" title="Permalink to this heading"></a></h4>
-<p>In this example we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e., layer <em>‘be10-denude:crn_aus_basins’</em> from the above list)</p>
+<div class="section" id="example-1-australian-be-10-derived-catchment-averaged-denudation-rates">
+<h4>Example 1. Australian Be-10-derived catchment-averaged denudation rates<a class="headerlink" href="#example-1-australian-be-10-derived-catchment-averaged-denudation-rates" title="Permalink to this heading"></a></h4>
+<p>In this example we fetch and plot Australian catchment-averaged Be-10 denudation rates (i.e., layer <em>‘be10-denude:crn_aus_basins’</em> from the above list)</p>
 <div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="n">url</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">parse_url</span><span class="p">(</span><span class="n">OCTOPUSdata</span><span class="p">)</span><span class="w"> </span><span class="c1"># parse URL into list</span>
 <span class="n">url</span><span class="o">$</span><span class="n">query</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="nf">list</span><span class="p">(</span><span class="n">service</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;wfs&quot;</span><span class="p">,</span>
 <span class="w">                  </span><span class="n">version</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;2.0.0&quot;</span><span class="p">,</span>
@@ -234,15 +234,15 @@
 <span class="nf">scale_color_viridis</span><span class="p">(</span><span class="n">option</span><span class="o">=</span><span class="s">&quot;C&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">direction</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">-1</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># use &#39;viridis&#39; colour scale</span>
 <span class="nf">scale_size_continuous</span><span class="p">(</span><span class="n">range</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">c</span><span class="p">(</span><span class="m">2</span><span class="p">,</span><span class="w"> </span><span class="m">10</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># define point size range for better visibility</span>
 <span class="nf">xlab</span><span class="p">(</span><span class="s">&quot;Slope gradient [m km^-1]&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="nf">ylab</span><span class="p">(</span><span class="s">&quot;Denudation rate [mm kyr^-1]&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># set labels for x and y axes</span>
-<span class="nf">ggtitle</span><span class="p">(</span><span class="s">&quot;Australian 10Be catchment-avg. denudation rates&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># make title</span>
+<span class="nf">ggtitle</span><span class="p">(</span><span class="s">&quot;Australian Be-10 catchment-avg. denudation rates&quot;</span><span class="p">)</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># make title</span>
 <span class="nf">theme</span><span class="p">(</span><span class="n">plot.title</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="nf">element_text</span><span class="p">(</span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">18</span><span class="p">,</span><span class="w"> </span><span class="n">face</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;bold&quot;</span><span class="p">))</span><span class="w"> </span><span class="o">+</span><span class="w"> </span><span class="c1"># title settings</span>
 <span class="nf">labs</span><span class="p">(</span><span class="n">size</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Catchment \narea [km^2]&quot;</span><span class="p">,</span><span class="w"> </span><span class="n">colour</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&quot;Average \ncatchment \nelevation [m]&quot;</span><span class="p">)</span><span class="w"> </span><span class="c1"># re-label legend</span>
 <span class="n">myPlot</span><span class="w"> </span><span class="c1"># call plot</span>
 </pre></div>
 </div>
 <div class="figure align-default" id="id16">
-<a class="reference internal image-reference" href="_images/AUSdenudation.png"><img alt="AUS 10Be catchment-averaged denudation rates" src="_images/AUSdenudation.png" style="width: 750px;" /></a>
-<p class="caption"><span class="caption-text">Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient</span><a class="headerlink" href="#id16" title="Permalink to this image"></a></p>
+<a class="reference internal image-reference" href="_images/AUSdenudation.png"><img alt="AUS Be-10 catchment-averaged denudation rates" src="_images/AUSdenudation.png" style="width: 750px;" /></a>
+<p class="caption"><span class="caption-text">Plot 1. Australian Be-10-derived catchment-averaged denudation rates against average slope gradient</span><a class="headerlink" href="#id16" title="Permalink to this image"></a></p>
 </div>
 </div>
 <div class="section" id="example-2-australian-sedimentary-fluvial-osl-ages">

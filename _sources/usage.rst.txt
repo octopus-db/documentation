@@ -120,9 +120,9 @@ The above WFS request should yield the following overview
 
 **That's basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. [#]_
 
-Example 1. Australian 10Be-derived catchment-averaged denudation rates
+Example 1. Australian Be-10-derived catchment-averaged denudation rates
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-In this example we fetch and plot Australian catchment-averaged 10Be denudation rates (i.e., layer *'be10-denude:crn_aus_basins'* from the above list)
+In this example we fetch and plot Australian catchment-averaged Be-10 denudation rates (i.e., layer *'be10-denude:crn_aus_basins'* from the above list)
 
 .. code-block:: r
 
@@ -146,16 +146,16 @@ Now that we have the data available, we define our plot parameters. We want to p
     scale_color_viridis(option="C", direction = -1) + # use 'viridis' colour scale
     scale_size_continuous(range = c(2, 10)) + # define point size range for better visibility
     xlab("Slope gradient [m km^-1]") + ylab("Denudation rate [mm kyr^-1]") + # set labels for x and y axes
-    ggtitle("Australian 10Be catchment-avg. denudation rates") + # make title
+    ggtitle("Australian Be-10 catchment-avg. denudation rates") + # make title
     theme(plot.title = element_text(size = 18, face = "bold")) + # title settings
     labs(size = "Catchment \narea [km^2]", colour = "Average \ncatchment \nelevation [m]") # re-label legend
     myPlot # call plot
 
 .. figure:: ./img/AUSdenudation.png
-   :alt: AUS 10Be catchment-averaged denudation rates
+   :alt: AUS Be-10 catchment-averaged denudation rates
    :width: 750px
    
-   Plot 1. Australian 10Be-derived catchment-averaged denudation rates against average slope gradient
+   Plot 1. Australian Be-10-derived catchment-averaged denudation rates against average slope gradient
 
 Example 2. Australian sedimentary fluvial OSL ages
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

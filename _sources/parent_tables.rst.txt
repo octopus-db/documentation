@@ -435,7 +435,7 @@ cabah_methodID fields
 |          |                |            |          | Experimental   |
 |          |                |            |          | proposal on    |
 |          |                |            |          | search for     |
-|          |                |            |          | 26Al induced   |
+|          |                |            |          | Al-26 induced   |
 |          |                |            |          | by cosmic-ray  |
 |          |                |            |          | myons in       |
 |          |                |            |          | terrestrial    |
@@ -1126,7 +1126,7 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 * IDs 9, 10	-- S130 and S142, Nishiizumi e al., 2007, equivalent to 07KNSTD
 * IDs 11, 12	-- S145, Nishiizumi e al., 2007, equivalent to 07KNSTD
 * IDs 13, 14 -- S109, Nishiizumi e al., 2007, measured in Cologne, equivalent to 07KNSTD
-* IDs 15, 16	-- Nishiizumi standards assuming old 10Be half life
+* IDs 15, 16	-- Nishiizumi standards assuming old Be-10 half life
 * IDs 17, 18	-- S154, primary LLNL standard (01-5-4), Rood et al., 2013
 * IDs 19, 20	-- LLNL-CAMS in-house standard, cf. Balco, 2016
 * IDs 21, 22 -- LLNL-CAMS in-house standard, cf. Balco, 2016
