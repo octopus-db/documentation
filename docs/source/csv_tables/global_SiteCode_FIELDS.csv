@@ -1,4 +1,4 @@
-﻿SITECODEID,SITECODE,PARENTID,SITEDESCR
+SITECODEID,SITECODE,PARENTID,SITEDESCR
 -9999,no data,-9999,
 1,Stone artefact deposit,15,
 2,Burial (animal),15,
@@ -73,3 +73,8 @@
 71,Midden (animal),33,
 72,Roost,33,
 73,Owl roost,72,
+74,Volcanic lake,56,
+75,Salt lake,56,
+76,Salt lake (permanent),75,
+77,Salt lake (temporary),75,
+78,Coastal fen,29,
