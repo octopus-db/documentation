@@ -1,4 +1,4 @@
-﻿COL_MTDID,COL_MTD,PARENTID
+COL_MTDID,COL_MTD,PARENTID
 -9999,ND,-9999
 1,Auger,1
 2,Block,2
@@ -25,3 +25,17 @@
 23,Reineck box corer,22
 24,USNEL box corer,22
 25,Grab sample amalgamated,10
+26,Colinvaux-Vohnout piston corer,19
+27,Dachnowski corer,3
+28,Eijkelkamp corer,3
+29,Freeze corer,3
+30,Glew gravity corer,17
+31,Hiller peat corer,3
+32,Kullenberg piston corer,19
+33,Livingstone piston corer,19
+34,PVC tube,6
+35,Square rod piston corer,19
+36,Streif-Livingstone piston corer,33
+37,Usinger piston corer,19
+38,Vallentyne piston corer,33
+39,Wright square-rod piston corer,35
