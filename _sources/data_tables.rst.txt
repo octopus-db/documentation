@@ -663,7 +663,7 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 cabah_unittypeID table
 ^^^^^^^^^^^^^^^^^^^^^^
-The *cabah_unittypeID* table according to Neotoma's IPPD template, stores **collection unit types**. *cabah_unittypeID* is a lookup table for compilations that involve collection units, i.e., SahulCHAR.
+The *cabah_unittypeID* table, according to Neotoma's IPPD template, stores **collection unit types**. *cabah_unittypeID* is a lookup table for compilations that involve collection units, i.e., SahulCHAR.
 
 .. csv-table::
    :file: ./csv_tables/cabah_unittypeID.csv
