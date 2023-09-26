@@ -154,6 +154,6 @@ dmypy.json
 cython_debug/
 
 # Apple stuff
-*/.DS_Store
+**/.DS_Store
 
 # End of https://www.toptal.com/developers/gitignore/api/python,jupyternotebooks
