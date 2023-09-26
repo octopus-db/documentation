@@ -783,6 +783,18 @@ cabah_methodID fields
 | The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_methodID` variable specs)
 
+..  _cabah_unittypeID_Fields:
+
+cabah_unittypeID fields
+~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_unittypeID_FIELDS.csv
+   :header-rows: 1
+
+| The latest *cabah_unittypeID_Fields* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_unittypeID__202309261519.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_unittypeID` variable specs)
+
 ..  _c14_calcurve_Fields:
 
 c14_calcurve fields
