@@ -487,7 +487,7 @@ The *cabah_LabCodes* table stores information about the **lab of origin** for a 
 ..  _cabah_agetypeID:
 
 cabah_agetypeID table
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 The *cabah_agetypeID* table stores the **type of time unit** used for sample age specification.
 
 .. csv-table::

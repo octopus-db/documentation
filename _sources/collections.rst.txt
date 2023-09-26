@@ -63,7 +63,7 @@ CRN International
 ..  _CRN_Large_Basins:
 
 CRN Large Basins
-"""""""""""""""""
+""""""""""""""""
 | *A global collection of catchment polygons for extra large river basins for which Be-10 and Al-26 abundances have been published*
 | **Publisher, Year**
 | University of Wollongong, 2021

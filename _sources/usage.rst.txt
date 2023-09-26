@@ -121,7 +121,7 @@ The above WFS request should yield the following overview
 **That's basically it.** Talking to the database via WFS takes three short lines of code. Everything below this line does not deal with data access anymore, but with data presentation. [#]_
 
 Example 1. Australian Be-10-derived catchment-averaged denudation rates
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 In this example we fetch and plot Australian catchment-averaged Be-10 denudation rates (i.e., layer *'be10-denude:crn_aus_basins'* from the above list)
 
 .. code-block:: r
