@@ -1,0 +1,16 @@
+UNITTYPEID,UNITTYPE,UNITTDESCR
+-9999,ND,no data
+1,Animal midden,
+2,Artefact,"an object made by a human being, typically one of cultural or historical interest (Oxford Languages)"
+3,Collection piece,a collection / museum piece
+4,Composite,any composite unit as for instance a dip-net water sample
+5,Core,the product of a coring (not boring!) process
+6,Excavation,
+7,Outcrop,a rock formation that is visible on the surface (Oxford Languages)
+8,Plot,"a method of abundance estimation, mainly used in ecology"
+9,Road cut,
+10,Section,
+11,Shell midden,(aka 'shell mound') an archaeological feature consisting mainly of mollusc shells
+12,Surface float,
+13,Trap,
+14,Other,

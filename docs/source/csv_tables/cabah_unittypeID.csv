@@ -1,0 +1,4 @@
+﻿Field,Data type,Key,Not Null,Parent
+UNITTYPEID,serial4,pkey,TRUE,
+UNITTYPE,text,ukey,TRUE,
+UNITTDESCR,text,,,
