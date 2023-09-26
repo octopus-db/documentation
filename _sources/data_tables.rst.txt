@@ -140,6 +140,7 @@ ALTNAME3   text
 SITECODEID int2                       fkey          :ref:`global_SiteCode`
 OPENCLOSED varchar(6)                              
 SITE_COMMT text                                    
+BIOMEID    int4                       fkey          :ref:`global_biomeID`
 ========== ============== =========== ==== ======== ======================
 
 * SITEID -- A unique site identifier provided as part of the compilation
@@ -189,6 +190,8 @@ SITE_COMMT text
 * OPENCLOSED -- This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that 'Closed' does not relate to availability or accessibility of information. Note - This field is related to the :ref:`SahulArch` collection, i.e., will not appear in any other collection view [#]_ or flat output table.
 
 * SITE_COMMT -- Free text site comment field
+
+* BIOMEID -- Is fkey. For available values refer to :ref:`global_biomeID` table
 
 ..  _global_biomeID:
 
