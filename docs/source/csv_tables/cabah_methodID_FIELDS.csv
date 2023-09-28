@@ -1,7 +1,7 @@
 METHODID,METHOD,METHODABBR,PARENTID,METHODREF
 -9999,not applicable,NA,-9999,
 1,Amino Acid Racemization,AAR,63,"Hare, P .E. & Abelson, P .H. (1968). Racemization of amino acids in fossil shells. Carnegie Institution of Washington Yearbook, 66, 516--528."
-2,Radiocarbon Dating,C14,14,"Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947) [#]_
+2,Radiocarbon Dating,C14,14,"Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947) [#]_"
 3,Cation Ratio Dating,CRD,3,Dorn (1983) [#]_
 4,Electron Spin Resonance,ESR,47,"Zeller, E.J.; Levy, P.W.; & Mattern, P.L. (1967). Geologic dating by electron spin resonance. International Atomic Energy Agency (IAEA)."
 5,Oxidisable Carbon Ratio,OCR,5,Frink (1996) [#]_
