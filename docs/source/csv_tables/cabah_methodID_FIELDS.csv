@@ -1,0 +1,94 @@
+METHODID,METHOD,METHODABBR,PARENTID,METHODREF
+-9999,not applicable,NA,-9999,
+1,Amino Acid Racemization,AAR,63,"Hare, P .E. & Abelson, P .H. (1968). Racemization of amino acids in fossil shells. Carnegie Institution of Washington Yearbook, 66, 516--528."
+2,Radiocarbon Dating,C14,14,"Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947) [#]_
+3,Cation Ratio Dating,CRD,3,Dorn (1983) [#]_
+4,Electron Spin Resonance,ESR,47,"Zeller, E.J.; Levy, P.W.; & Mattern, P.L. (1967). Geologic dating by electron spin resonance. International Atomic Energy Agency (IAEA)."
+5,Oxidisable Carbon Ratio,OCR,5,Frink (1996) [#]_
+6,Optically Stimulated Luminescence,OSL,47,"Huntley, Godfrey-Smith & Thewalt (1985) [#]_"
+7,Thermoluminescence,TL,47,"Daniels, Boyd & Saunders (1953) [#]_"
+8,Uranium-Series,U,42,
+9,Closed-system U-Series and ESR model,CSU-ESR,83,
+10,Stratigraphic correlation,Strat,68,
+11,Coupled U-ESR model,U-ESR,83,
+12,Chronometric dating (non-specific),ChronMet,12,
+13,Radiometric dating (non-specific),RadioMet,12,
+14,Cosmogenic Radionuclides,CRN,13,
+15,C13 date,C13,2,
+16,C14 date (uncorrected),C14-uncorr,2,
+17,C14 date (corrected),C14-corr,2,
+18,Tritium/Helium,3H/3He,14,Kaufmann & Libby (1954) [#]_
+19,Beryllium-10,Be-10,14,Arnold (1956) [#]_
+20,Aluminium-26,Al-26,14,"Tanaka, S.; Sakamoto, K. & Tschuchimoto, M. (1964). Experimental proposal on search for 26Al induced by cosmic-ray myons in terrestrial rocks. Inst. Nuclear Study, Univ. Tokyo, INS-19."
+21,Silicon-32,Si-32,14,"Lal, Goldberg & Koide (1960) [#]_"
+22,Chlorine-36,Cl-36,14,Davis & Schaeffer (1955) [#]_
+23,Argon-39,Ar-39,14,Loosli & Oeschger (1968) [#]_
+24,Calcium-41,Ca-41,14,Raisbeck & Yiou (1979) [#]_
+25,Manganese-53,Mg-53,14,Wilkinson & Sheline (1955) [#]_
+26,Krypton-81,Kr-81,14,Marti (1967) [#]_
+27,Iodine-129,I-129,14,"Takagi, Hampel & Kirsten (1974) [#]_"
+28,Radionuclide dating,RN,13,
+29,Radionuclides (long-lived),RN-long,28,
+30,Argon-Isotope dating (non-specific),Ar,29,
+31,40K/40Ar,K/Ar,30,Smits & Gentner (1950) [#]_
+32,39Ar(K)/40Ar,Ar/Ar,30,"Sigurgeirsson, Thorbjörn (1962). Dating recent basalt by the potassium argon method. (in Icelandic) Rept. Physical Laboratory of the Univ. Iceland, p. 9"
+33,87Rb/Sr87,Rb/Sr,29,"Hahn, Strassmann & Walling (1937) [#]_"
+34,147Sm/143Nd,Sm/Nd,29,"Lugmair, G. W. (1974). Sm-Nd ages: a new dating method. Meteoritics, 9, 369."
+35,176Lu/176Hf,Lu/Hf,29,"Herr, Merz, Eberhardt & Signer (1958) [#]_"
+36,187Re/187Os,Re/Os,29,Herr & Merz (1955) [#]_
+37,U/Th/Pb (non-specific),U/Th/Pb,29,Holmes (1911) [#]_
+38,207Pb/206Pb,Pb/Pb,29,"Houtermans, F. G. (1946). The isotope ratios in natural lead and the age of uranium. Naturwissenschaften, 33, 185--186."
+39,Radionuclides (short-lived),RN-short,28,
+40,Lead-210,210Pb,39,"Goldberg, E. D. (1963). Geochronology with 210Pb. In: Radioactive Dating, I.A.E.A., Vienna: 121--131."
+41,Caesium-137,137Cs,39,Williams (1995) [#]_
+42,Parent daughter disequilibrium,PD-Disequ,13,
+43,230Th/U,Th/U,8,"Barnes, Lang & Potratz (1956) [#]_"
+44,234U/238U,U/U,8,Thurber (1962) [#]_
+45,230Th_exc,Th_exc,42,"Petterson, H. (1937). Das Verhaltnis Thorium zu Uran in dem Gestein und im Meer. (in German) Anz. Akad. Wiss. Wien Math. Naturwiss. Kl. 127."
+46,210Pb (free),210Pb_free,42,"Goldberg, F. D. (1963). Geochronology with lead-210. In: Radioactive Dating, 121--131, IAEA Wien."
+47,Radiation exposure (non-specific),RadEx,13,
+48,Luminescence (non-specific),LUM,47,
+49,Infrared Photoluminescence,IR-PL,47,"Prasad, Poolton, Kook & Jain (2017) [#]_"
+50,Infrared Radiofluorescence,IR-RF,47,"Trautmann, Krbetschek, Dietrich & Stolz (1998) [#]_"
+51,Infrared Stimulated Luminescence,IRSL,47,"Hütt, Jaek & Tchonka (1988) [#]_"
+52,Alpha-recoil track dating,ART,47,Huang & Walker (1967) [#]_
+53,(Uranium+Thorium)/Helium,(U+Th)/He,47,Fanale & Schaeffer (1965) [#]_
+54,Fission track,FT,47,Price & Walker (1962) [#]_
+55,Banded records (non-specific),Banded,12,
+56,Dendrochronology,Dendro,55,
+57,Varve chronology,Varve,55,
+58,Annual layers in glacier ice,Ice,55,
+59,Lichenometry,Lichen,55,
+60,Speleothem bands,Speleo,55,
+61,Coral bands,Coral,55,
+62,Mollusc bands,Mollusc,55,
+63,Relative dating method (non-specific),RelDat,63,
+64,Rock surface weathering,RSurf,63,
+65,Obsidian hydration dating,Obsid,63,Friedman & Smith (1960) [#]_
+66,Pedogenesis,Pedogen,63,
+67,Relative dating of fossile bone,FUn,63,"Oakley, K. (1949). The fluorine-dating method. Yearbook of Physical Anthropology, 5, 44."
+68,Age equivalence (non-specific),AgeEquiv,68,
+69,Oxygen isotope chronostratigraphy,Oxygen,68,Emiliani (1954) [#]_
+70,Tephrochronology,Tephra,68,"Thorarinsson, Sigurdur (1944). Tefrokronologiska studier på Island : Þjórsárdalur och dess förödelse. Thesis (doctoral). Stockholms Högskola. 217 pp"
+71,European settlement horizon,Horizon,68,
+72,Known fire,Fire,68,
+73,Magnetostratigraphy (non-specific),Magnet,68,
+74,Archaeomagnetic dating,A-Magnet,73,Harold (1960) [#]_
+75,Geomagnetic dating,G-Magnet,73,"Thellier, E. (1938). Sur l'aimantation des terres cuites et ses applications géophysiques. Ann. Inst. Phys. Globe, 16, pp. 157--302"
+76,Palaeomagnetic dating,P-Magnet,73,"Irving, E. (1964). Paleomagnetism and its application to geological and geophysical problems. John Wiley & Sons, Inc, New York."
+77,Palaeosol,Psol,68,"Catt, J. A. (1986). Soils and Quaternary geology: a handbook for field scientists. 267 pp."
+78,Marker horizon,Marker,68,
+79,Fossil assemblage,Fossil,78,
+80,Pollen correlation,Pollen,68,
+81,Top of core,Core-hi,68,
+82,Bottom of core,Core-lo,68,
+83,Method combination (non-specific),Combi,83,
+84,Statistical approach (non-specific),Stats,84,
+85,Estimated,Estimate,84,
+86,Extrapolation,Extrap,84,
+87,Interpolation,Interp,84,
+88,Measurement technique,MeasApp,88,
+89,Liquid Scintillation Counting (non-specific),LSC,88,"Birks, J.B. (1964). The Theory and Practice of Scintillation Counting. Pergammon Press, Oxford, UK."
+90,Cherenkov Counting,LSC-C,88,Rengan (1983) [#]_
+91,Accelerator Mass  Spectrometry (non-specific),AMS,88,Fifield (1999) [#]_
+92,SHRIMP,SHRIMP,88,
