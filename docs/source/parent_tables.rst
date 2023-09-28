@@ -341,7 +341,7 @@ cabah_methodID fields
    :file: ./csv_tables/cabah_methodID_FIELDS.csv
    :header-rows: 1
 
-| Classification and selection of methods on the basis of Geyh (2005), and Walker (2005).
+| Classification and selection of methods on the basis of Geyh (2005) and Walker (2005).
 | The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_methodID` variable specs)
 
