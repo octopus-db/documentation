@@ -177,7 +177,7 @@ LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE,CRE
 175,OZ,ANSTO-ANTARES,AUS,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
 176,LZ,Umweltforschungszentrum Leipzig-Halle UFZ,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
 177,Beta-,Beta Analytics,USA,,C14,,Internet,2021-11-19 12:11:05.011 +0100,
-178,P,Max-Planck-lnstitut Geochron. Lab,DEU,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
+178,P,Max-Planck-lnstitut Geochron. Lab,DEU,,"C14, Lead-210",,"Radiocarbon, modified",2021-11-19 12:11:05.011 +0100,2023-09-29 07:49:43.481 +0200
 179,p,Univ. of Pennsylvania,USA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
 180,PAL,Palynosurvery Co.,JPN,,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
 181,Pi,Pisa,ITA,FALSE,C14,,Radiocarbon,2021-11-19 12:11:05.011 +0100,
@@ -346,3 +346,5 @@ LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE,CRE
 346,CSIRO,Commonwealth Scientific and Industrial Research Organisation,AUS,,C14,,pelletron.com,2022-07-03 14:55:18.464 +0200,2022-07-03 14:55:18.464 +0200
 347,ANUOD,Australian National University,AUS,,OSL,,Internet,2022-07-03 14:57:19.177 +0200,2022-07-03 14:57:19.177 +0200
 348,GL,University of Gloucestershire,GBR,,OSL,,JQuatSci,2022-07-04 09:59:36.401 +0200,2022-07-04 10:01:04.952 +0200
+349,UNSW,"Mark Wainwright Analytical Centre, UNSW Sydney",AUS,TRUE,C14,https://www.analytical.unsw.edu.au/facilities/sseau/radiocarbon-laboratory,Internet,2023-09-29 07:53:37.529 +0200,2023-09-29 07:53:37.529 +0200
+350,USU,Utah State University Luminescence Lab,USA,TRUE,OSL,https://www.usu.edu/geo/osl/,Internet,2023-09-29 07:56:30.150 +0200,2023-09-29 07:56:30.150 +0200
