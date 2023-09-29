@@ -195,7 +195,7 @@ cabah_LabCodes fields
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
+| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_LabCodes__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_LabCodes` variable specs)
 
 ..  _cabah_agetypeID_Fields:
