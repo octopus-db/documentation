@@ -79,7 +79,7 @@ The *global_MetaSite* table stores metasite-related information for all compilat
 
 * METANAME -- Metasite name
 
-* META_WKT84 -- Metasite WKT notation
+* META_WKT -- Metasite WKT notation
 
 * META_AREA -- Metasite area
 
