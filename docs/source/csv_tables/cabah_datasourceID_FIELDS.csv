@@ -2,7 +2,9 @@ DATASRCID,DATASOURCE,DATASRCDSC,DATASRCREF
 -9999,ND,no data,
 1,Author,Author provided data,
 2,Digitised,Data digitised from diagram using software,
-3,QUAVIDA,,Rowe et al. (2007). DOI: https://doi.org/10.1016/j.quaint.2007.04.001
+3,QUAVIDA,"The QUAVIDA synergy: quaternary fire, vegetation and climate change in Australasia",Rowe et al. (2007). DOI: https://doi.org/10.1016/j.quaint.2007.04.001
 4,Paleofire database,Digitised data sourced from the Global Paleofire Database or Neotoma Paleoecology Database,
 5,Optical approximation,,
 6,Other,,
+7,AHGF [BOM],Data fetched from Australian Hydrological Geospatial Fabric (Geofabric) [Bureau of Meteorology],http://www.opengis.net/wfs/2.0 http://geofabric.bom.gov.au:80/simplefeatures/schemas/wfs/2.0/wfs.xsd
+8,neotoma_IPPD,Neotoma db constituent Indo-Pacific Pollen Database,https://www.neotomadb.org/data/constituent-databases

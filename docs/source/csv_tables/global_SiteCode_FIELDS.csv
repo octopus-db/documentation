@@ -78,3 +78,6 @@ SITECODEID,SITECODE,PARENTID,SITEDESCR
 76,Salt lake (permanent),75,
 77,Salt lake (temporary),75,
 78,Coastal fen,29,
+79,Swamp,22,use if not otherwise specified by the authors
+80,Spring,22,
+81,Tarn,56,

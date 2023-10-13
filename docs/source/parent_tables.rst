@@ -29,7 +29,7 @@ global_SiteCode fields
    :file: ./csv_tables/global_SiteCode_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_SiteCode* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_SiteCode__202309251226.csv>`_ |:chipmunk:|
+| The latest *global_SiteCode* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_SiteCode__202310121336.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_SiteCode` variable specs)
 
 .. note::
@@ -305,7 +305,7 @@ cabah_datasourceID fields
    :file: ./csv_tables/cabah_datasourceID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202309111243.csv>`_ |:chipmunk:|
+| The latest *cabah_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202310101116.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_datasourceID` variable specs)
 
 ..  _cabah_depositID_Fields:
