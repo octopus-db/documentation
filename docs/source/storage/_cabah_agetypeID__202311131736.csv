@@ -1,0 +1,12 @@
+AGETYPEID,AGETYPE,AGETDESCR,AGETCOMMT,CREATED_AT,UPDATED_AT
+-9999,ND,no data,,2023-09-11 18:34:49.753 +1000,2023-09-11 18:34:49.753 +1000
+1,Years BP,,,2023-09-11 18:33:00.690 +1000,
+2,Calendar years BP,,,2023-09-11 18:33:00.690 +1000,
+3,Calendar years AD/BC,,,2023-09-11 18:33:00.690 +1000,
+4,Varve years BP,,,2023-09-11 18:33:00.690 +1000,
+5,Radiocarbon years BP,,,2023-09-11 18:33:00.690 +1000,
+6,Direct calibration,,,2023-09-11 18:33:00.690 +1000,
+7,Calibrated years BP,,,2023-09-11 18:33:00.690 +1000,
+8,Calibrated by synth. coord.,,,2023-09-11 18:33:00.690 +1000,
+9,Calibrated radiocarbon years BP,,,2023-09-11 18:33:00.690 +1000,
+10,Other,AGETYPE not specified in parent table,,2023-11-13 06:36:28.663 +1100,2023-11-13 06:36:28.663 +1100

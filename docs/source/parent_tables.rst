@@ -207,7 +207,7 @@ cabah_agetypeID fields
    :file: ./csv_tables/cabah_agetypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_agetypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_agetypeID__202309111243.csv>`_ |:chipmunk:|
+| The latest *cabah_agetypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_agetypeID__202311131736.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_agetypeID` variable specs)
 
 ..  _cabah_basinsizeID_Fields:
