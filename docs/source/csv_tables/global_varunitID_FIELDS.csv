@@ -83,9 +83,9 @@ V_UNITID,V_UNITABBR,V_UNITNAME,PARENTID
 81,mg,milligram,6
 82,µg,microgram,6
 83,ng,nanogram,6
-84,°C,degree Celsius,7
-85,K,kelvin,7
-86,°F,degree Fahrenheit,7
+84,°C,degree Celsius,8
+85,K,kelvin,8
+86,°F,degree Fahrenheit,8
 87,kyr,year * 1000,7
 88,yr,year,7
 89,mos,month,7
@@ -175,6 +175,18 @@ V_UNITID,V_UNITABBR,V_UNITNAME,PARENTID
 173,% dry weight,,15
 174,% of pollen sum,,15
 175,% of tot org,% of total organic fraction,15
-176,C:P ratio,,38
-177,area:pollen ratio,,38
+176,C:P,C:P ratio,38
+177,area:pollen,area:pollen ratio,38
 178,% BC,% BC,15
+180,other,other,180
+181,ordinal,ordinal scale,2
+182,char:Lycopodium,char:Lycopodium ratio,38
+183,pts(1k grns/g),point count(1000 grains per gram),17
+184,cm^2/cm^2/yr,,15
+185,frags/g/yr,,39
+186,cm^2/g,,15
+187,area/ml,,15
+188,cm^2/cm^3,,15
+189,mm^2/cm^3,,15
+190,mm^2/cm^2/yr,,15
+191,mm^2/g,,15
