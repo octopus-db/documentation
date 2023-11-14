@@ -92,7 +92,7 @@ global_varunitID fields
    :file: ./csv_tables/global_varunitID_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202309051446.csv>`_ |:chipmunk:|
+| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202311141556.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_varunitID` variable specs)
 
 ..  _global_RefCore_Fields:
