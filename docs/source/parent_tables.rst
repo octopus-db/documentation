@@ -317,7 +317,7 @@ cabah_depositID fields
    :file: ./csv_tables/cabah_depositID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202309131357.csv>`_ |:chipmunk:|
+| The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202311151744.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_depositID` variable specs)
 
 ..  _cabah_flowtypeID_Fields:
