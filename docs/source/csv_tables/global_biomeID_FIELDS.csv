@@ -1,4 +1,4 @@
-﻿BIOMEID,BIOMETYPE,PARENTID,BIOMEDESCR
+BIOMEID,BIOMETYPE,PARENTID,BIOMEDESCR
 -9999,no data,-9999,no data
 1,Terrestrial,1,
 2,Aquatic,2,
@@ -62,3 +62,5 @@
 60,Low-alpine tundra,58,
 61,Subalpine (montane) woodland,56,
 63,Barren,1,
+64,Subtropical heathland,1,
+65,Buttongrass moorland,1,
