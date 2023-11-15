@@ -81,3 +81,7 @@ SITECODEID,SITECODE,PARENTID,SITEDESCR
 79,Swamp,22,use if not otherwise specified by the authors
 80,Spring,22,
 81,Tarn,56,
+82,Lacustrine (Drained lake),28,
+83,Lacustrine (Fluvial origin),28,
+84,Lacustrine (Glacial origin),28,
+85,Lacustrine (Tectonic origin),28,
