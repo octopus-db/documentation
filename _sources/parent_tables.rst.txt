@@ -46,7 +46,7 @@ global_biomeID fields
    :header-rows: 1
 
 | Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD [#]_.
-| The latest *global_biomeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_biomeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *global_biomeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_biomeID__202311151526.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_biomeID` variable specs)
 
 ..  _global_ibraID_Fields:
