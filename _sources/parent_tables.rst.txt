@@ -29,7 +29,7 @@ global_SiteCode fields
    :file: ./csv_tables/global_SiteCode_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_SiteCode* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_SiteCode__202310121336.csv>`_ |:chipmunk:|
+| The latest *global_SiteCode* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_SiteCode__202311151304.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_SiteCode` variable specs)
 
 .. note::
