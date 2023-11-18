@@ -11,8 +11,8 @@ LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE
 9,ANL,Argonne Nat. Lab.,USA,FALSE,C14,,Radiocarbon
 10,ANSTO,Australian Nuclear Science & Technology,AUS,,C14,,Radiocarbon
 11,ANTW,Antwerp,BEL,FALSE,C14,,Radiocarbon
-12,ANU,Australian National Univ.,AUS,FALSE,C14,,Radiocarbon
-13,ANUA,ANU Accelerator,AUS,,C14,,Radiocarbon
+12,ANU,"Australian National Univ., 1965--2003, gas proportional counting",AUS,FALSE,C14,,HM: Internet
+13,ANUA,"ANU Accelerator, 2002-2012, 14 UD Pelletron accelerator",AUS,,C14,,HM: Internet
 14,AU,Univ. of Alaska,USA,FALSE,C14,,Radiocarbon
 15,AURIS,Ahmedabad,IND,,C14,,Radiocarbon
 16,B,Bern,CHE,,C14,,Radiocarbon
@@ -176,8 +176,8 @@ LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE
 174,OxA,Oxford Radiocarbon Accelerator Unit,GBR,,C14,,Radiocarbon
 175,OZ,ANSTO-ANTARES,AUS,,C14,,Radiocarbon
 176,LZ,Umweltforschungszentrum Leipzig-Halle UFZ,DEU,,C14,,Radiocarbon
-177,Beta-,Beta Analytics,USA,,C14,,Internet
-178,P,Max-Planck-lnstitut Geochron. Lab,DEU,,C14,,Radiocarbon
+177,Beta-,Beta Analytics,USA,,C14,,HM: Internet
+178,P,Max-Planck-lnstitut Geochron. Lab,DEU,,"C14, Lead-210",,"Radiocarbon, modified"
 179,p,Univ. of Pennsylvania,USA,FALSE,C14,,Radiocarbon
 180,PAL,Palynosurvery Co.,JPN,,C14,,Radiocarbon
 181,Pi,Pisa,ITA,FALSE,C14,,Radiocarbon
@@ -263,7 +263,7 @@ LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE
 261,URCRM,Ukrainian Research Ctr. for Radiation Medicine,UKR,FALSE,C14,,Radiocarbon
 262,URU,Univ. of Uruguay,URY,,C14,,Radiocarbon
 263,USGS,"USGS, Menlo Park",USA,FALSE,C14,,Radiocarbon
-264,utc,Utrecht van de Graaff,NLD,FALSE,C14,,Radiocarbon
+264,UtC,Utrecht van de Graaff,NLD,,,https://web.science.uu.nl/ams/,HM: Internet
 265,UTCAG,Univ. of Tennessee,USA,,C14,,Radiocarbon
 266,UW,Univ. of Washington,USA,FALSE,C14,,Radiocarbon
 267,UZH,Univ. of Zurich,CHE,,C14,,Radiocarbon
@@ -321,28 +321,33 @@ LAB_ORIGID,LAB_PREFIX,LAB_FACLTY,CNTRY,LAB_ACTIVE,LAB_MTD,LAB_URL,LAB_SOURCE
 320,Tln,Tallinn,EST,,C14,,RadonKiel
 321,UGAMS,Univ. of Georgia AMS,USA,,C14,,RadonKiel
 322,WHAMS,National Ocean Sciences AMS Facility,USA,,C14,,RadonKiel
-323,LLNL,Lawrence Livermore National Lab.,USA,,C14,,Internet
+323,LLNL,Lawrence Livermore National Lab.,USA,,C14,,HM: Internet
 324,ARL,Army Research Laboratory Aberdeen Proving Ground,USA,,C14,,pelletron.com
-325,Ad,Prescott Environmental Luminescence Lab. Adelaide,AUS,,OSL,,Internet
-326,UOW,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,Internet
-327,MQU,Macquaire Univ. Luminescence Dating Facility,AUS,,OSL,,Internet
-328,,Univ. Melbourne Luminescence Dating Facility,AUS,,OSL,,Internet
-329,GU,"Griffith Univ. OSL Dating Laboratory, Australian Rivers Inst.",AUS,,OSL,,Internet
-330,WLL,Victoria Univ. of Wellington Luminescence Dating Facility,NZL,,OSL,,Internet
-331,ANU,ANU Luminescence Dating Laboratory Canberra,AUS,,OSL,,Internet
-332,C-L,Cologne Luminescence Laboratory (CLL),DEU,,OSL,,Internet
-333,EVA,Max Planck Inst. for Evolutionary Anthropology Luminescence Dating Lab. Leipzig,DEU,,OSL,,Internet
-334,L-EVA,Max Planck Inst. for Evolutionary Anthropology Luminescence Dating Lab. Leipzig,DEU,,OSL,,Internet
-335,UW,University of Washington Luminescence Dating Laboratory,USA,,OSL,,Internet
-336,W,"UOW TL Dating Lab. Wollongong, David Price",AUS,,TL,,Internet
-337,Ad,Prescott Environmental Luminescence Lab. Adelaide,AUS,,TL,,Internet
-338,ALPHA,Alpha Analytic Inc.,USA,,TL,,Internet
-339,CABAH,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,Internet
-340,Shfd,Sheffield Luminescence Lab.,GBR,,OSL,,Internet
-341,CLW,"CSIRO Land and Water, Canberra",AUS,,OSL,,Internet
-342,X,Oxford Luminescence Laboratory,GBR,,OSL,,Internet
-343,Ox,Oxford Luminescence Laboratory,GBR,,OSL,,Internet
+325,Ad,Prescott Environmental Lum. Lab. Adelaide,AUS,,OSL,,HM: Internet
+326,UOW,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,HM: Internet
+327,MQU,Macquaire Univ. Lum. Dating Facility,AUS,,OSL,,HM: Internet
+328,,Univ. Melbourne Lum. Dating Facility,AUS,,OSL,,HM: Internet
+329,GU,"Griffith Univ. OSL Dating Laboratory, Australian Rivers Inst.",AUS,,OSL,,HM: Internet
+330,WLL,Victoria Univ. of Wellington Lum. Dating Facility,NZL,,OSL,,HM: Internet
+331,ANU,ANU Lum. Dating Laboratory Canberra,AUS,,OSL,,HM: Internet
+332,C-L,Cologne Lum. Laboratory (CLL),DEU,,OSL,,HM: Internet
+333,EVA,Max Planck Inst. for Evolutionary Anthropology Lum. Dating Lab. Leipzig,DEU,,OSL,,HM: Internet
+334,L-EVA,Max Planck Inst. for Evolutionary Anthropology Lum. Dating Lab. Leipzig,DEU,,OSL,,HM: Internet
+335,UW,University of Washington Lum.Dating Laboratory,USA,,OSL,,HM: Internet
+336,W,"UOW TL Dating Lab. Wollongong, David Price",AUS,,TL,,HM: Internet
+337,Ad,Prescott Environmental Lum. Lab. Adelaide,AUS,,TL,,HM: Internet
+338,ALPHA,Alpha Analytic Inc.,USA,,TL,,HM: Internet
+339,CABAH,UOW OSL Dating Lab. Wollongong,AUS,TRUE,OSL,,HM: Internet
+340,Shfd,Sheffield Lum. Lab.,GBR,,OSL,,HM: Internet
+341,CLW,"CSIRO Land and Water, Canberra",AUS,,OSL,,HM: Internet
+342,X,Oxford Lum. Lab.,GBR,,OSL,,HM: Internet
+343,Ox,Oxford Lum. Lab.,GBR,,OSL,,HM: Internet
 345,GXO,Geochron Laboratories,USA,FALSE,C14,,pelletron.com
 346,CSIRO,Commonwealth Scientific and Industrial Research Organisation,AUS,,C14,,pelletron.com
-347,ANUOD,Australian National University,AUS,,OSL,,Internet
+347,ANUOD,Australian National University,AUS,,OSL,,HM: Internet
 348,GL,University of Gloucestershire,GBR,,OSL,,JQuatSci
+349,UNSW,"Mark Wainwright Analytical Centre, UNSW Sydney",AUS,TRUE,C14,https://www.analytical.unsw.edu.au/facilities/sseau/radiocarbon-laboratory,HM: Internet
+350,USU,Utah State University Lum. Lab,USA,TRUE,OSL,https://www.usu.edu/geo/osl/,HM: Internet
+351,KCCAMS,"W. M. Keck Carbon Cycle Accelerator Mass Spectrometer Facility, UC Irvine",USA,TRUE,C14,https://sites.ps.uci.edu/kccams/,HM: Internet
+352,S-ANU,"Australian National Univ., EC Single Stage AMS ",AUS,TRUE,C14,https://earthsciences.anu.edu.au/research/facilities/accelerator-mass-spectrometer,HM: Internet
+353,YAUT,"Atmosphere and Ocean Research Institute, Univ. of Tokyo",JPN,,C14,https://www.aori.u-tokyo.ac.jp/english/,HM: Internet

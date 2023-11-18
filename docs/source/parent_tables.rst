@@ -100,7 +100,7 @@ global_varunitID fields
 global_RefCore fields
 ~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefCore* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202309031630.csv>`_ |:chipmunk:|
+| The latest *global_RefCore* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202311181512.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefCore` variable specs)
 
 ..  _global_RefAbstract_Fields:
@@ -108,7 +108,7 @@ global_RefCore fields
 global_RefAbstract fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202309031457.csv>`_ |:chipmunk:|
+| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202311171636.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
 
 ..  _global_Author_Fields:
@@ -120,7 +120,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202309031457.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202311171658>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_Journal_Fields:
@@ -132,7 +132,7 @@ global_Journal fields
    :file: ./csv_tables/global_Journal_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Journal* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Journal__202307281303.csv>`_ |:chipmunk:|
+| The latest *global_Journal* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Journal__202311171501.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Journal` variable specs)
 
 ..  _global_PubType_Fields:
@@ -195,7 +195,7 @@ cabah_LabCodes fields
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_LabCodes__202309291005.csv>`_ |:chipmunk:|
+| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_LabCodes__202311161258.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_LabCodes` variable specs)
 
 ..  _cabah_agetypeID_Fields:
