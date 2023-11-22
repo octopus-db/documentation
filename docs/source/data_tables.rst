@@ -153,9 +153,9 @@ BIOMEID    int4                       fkey          :ref:`global_biomeID`
 
 * REGION_REG -- Refers to Sahul region. Same as “CNTRY” but needed to accommodate for 'TSI'. ('ND' = no data)
 
-* DIV_ADMIN -- ISO 3166 code of the administrative region where the study site is located. ('ND' = no data)
+* DIV_ADMIN -- ISO 3166 code of the administrative region where the study site is located. ('ND' = no data). *Geospatial source files have been stored in the non-public part of OCTOPUS database documentation, but will be made available upon request.*
 
-* DIV_OTHER -- Geographical region in 'PNG' and 'TSI' where study site is located. ('ND' = no data), ('NA' = not applicable)
+* DIV_OTHER -- Geographical region in 'PNG' and 'TSI' where study site is located. ('ND' = no data), ('NA' = not applicable). *Geospatial source files have been stored in the non-public part of OCTOPUS database documentation, but will be made available upon request.*
 
 * ISL_NAME -- Name of island where study site is located. ('ND' = no data), ('NA' = not applicable)
 
