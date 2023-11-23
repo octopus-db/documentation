@@ -399,14 +399,35 @@
 <td></td>
 <td></td>
 </tr>
+<tr class="row-odd"><td><p>META_DESCR</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>FEATURESRC</p></td>
+<td><p>smallint</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>FEATURETYP</p></td>
+<td><p>smallint</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-sitecode"><span class="std std-ref">global_SiteCode table</span></a></p></td>
+</tr>
 </tbody>
 </table>
 <ul class="simple">
 <li><p>METASITEID – A unique identifier</p></li>
 <li><p>METANAME – Metasite name</p></li>
-<li><p>META_WKT – Metasite WKT notation</p></li>
-<li><p>META_AREA – Metasite area</p></li>
+<li><p>META_WKT – Metasite WKT notation describing a bounding box</p></li>
+<li><p>META_AREA – Metasite area, i.e., area of the bounding box</p></li>
 <li><p>META_COMMT – Metasite comment</p></li>
+<li><p>META_DESCR – Metasite description</p></li>
+<li><p>FEATURESRC – Source of the feature that is represented by a bounding box for the sake of plainness. For available values refer to <a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a></p></li>
+<li><p>FEATURETYP – If the ‘metasite’ is related to a natural (e.g. lake) or anthropogenic feature (e.g. quarry): type of the feature, if meaningful and available. For available values refer to <a class="reference internal" href="#global-sitecode"><span class="std std-ref">global_SiteCode table</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="global-sitecode-table">
