@@ -4,3 +4,6 @@ METANAME,text,,,
 META_WKT,text,,,
 META_AREA,numeric,,,
 META_COMMT,text,,,
+META_DESCR,text,,,
+FEATURESRC,smallint,fkey,,:ref:`cabah_datasourceID`
+FEATURETYP,smallint,fkey,,:ref:`global_SiteCode`

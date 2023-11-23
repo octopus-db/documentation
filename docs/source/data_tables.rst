@@ -79,11 +79,17 @@ The *global_MetaSite* table stores metasite-related information for all compilat
 
 * METANAME -- Metasite name
 
-* META_WKT -- Metasite WKT notation
+* META_WKT -- Metasite WKT notation describing a bounding box
 
-* META_AREA -- Metasite area
+* META_AREA -- Metasite area, i.e., area of the bounding box
 
 * META_COMMT -- Metasite comment
+
+* META_DESCR -- Metasite description
+
+* FEATURESRC -- Source of the feature that is represented by a bounding box for the sake of plainness. For available values refer to :ref:`cabah_datasourceID`
+
+* FEATURETYP -- If the 'metasite' is related to a natural (e.g. lake) or anthropogenic feature (e.g. quarry): type of the feature, if meaningful and available. For available values refer to :ref:`global_SiteCode`
 
 ..  _global_SiteCode:
 
