@@ -1,0 +1,14 @@
+﻿Field,Data type,Key,Not Null,Parent
+UNITID,serial4,pkey,TRUE,
+SITEID,text,fkey,TRUE,:ref:`global_SiteMaster`
+UNITNAME,text,,,
+UNITHANDLE,varchar(10),ukey,,
+UNITTYPEID,smallint,fkey,,:ref:`cabah_unittypeID`
+COLLECTID,smallint,fkey,,:ref:`cabah_col_mtdID`
+DEPOSITID,smallint,fkey,,:ref:`cabah_depositID`
+COLLDATE,text,,,
+WATERDEPTH,,,,
+NEO_HANDLE,varchar(10),ukey,,
+UNIT_COMMT,text,,,
+COLL_SPEC,text,,,
+UNIT_DESCR,text,,,
