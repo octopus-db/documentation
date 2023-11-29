@@ -199,6 +199,42 @@ BIOMEID    int4                       fkey          :ref:`global_biomeID`
 
 * BIOMEID -- Is fkey. For available values refer to :ref:`global_biomeID` table
 
+..  _global_UnitMaster:
+
+global_UnitMaster table
+^^^^^^^^^^^^^^^^^^^^^^^
+The *global_UnitMaster* table stores **collection-unit related information for all compilations**. Collection units are defined in the :ref:`cabah_unittypeID` table. In OCTOPUS data model hierarchy *global_UnitMaster* is situated between the collection-specific sample tables (subordinate) and the g:ref:`global_SiteMaster` table (superordinate); (= SITEID). The *global_UnitMaster* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
+
+.. csv-table::
+   :file: ./csv_tables/global_UnitMaster.csv
+   :header-rows: 1
+
+* UNITID -- Unique identifier (serial integer)
+
+* SITEID -- Is fkey. Refer to :ref:`global_SiteMaster` table
+
+* UNITNAME -- Name of the site
+
+* UNITHANDLE -- Code name for the Collection Unit. This code may be up to 10 characters, but an effort is made to keep these to 8 characters or less. Data are frequently distributed by Collection Unit, and the Handle is used for file names. (description from (and rationale according to) neotoma database)
+
+* UNITTYPEID -- Is fkey. For available values refer to :ref:`cabah_unittypeID` table
+
+* COLLECTID -- Is fkey. For available values refer to :ref:`cabah_col_mtdID` table
+
+* DEPOSITID -- Is fkey. For available values refer to :ref:`cabah_depositID` table
+
+* COLLDATE -- Is unit collection date, if reported, at the highest possible dd/mm/yyyy level.
+
+* WATERDEPTH -- Water depth. (-9999 = no data)
+
+* NEO_HANDLE -- See "UNITHANDLE", but derived from neotoma database (for units that exist in both databases). Neotoma handle must not be overwritten!
+
+* UNIT_COMMT -- Free text site comment field
+
+* COLL_SPEC -- Stores collection process specifics (if applicable)
+
+* UNIT_DESCR -- Stores collection-unit related specifics (if applicable)
+
 ..  _global_biomeID:
 
 global_biomeID table

@@ -57,6 +57,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-metasite-table">global_MetaSite table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-sitecode-table">global_SiteCode table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-sitemaster-table">global_SiteMaster table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#global-unitmaster-table">global_UnitMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-biomeid-table">global_biomeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-ibraid-table">global_ibraID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-rivid-table">global_rivID table</a></li>
@@ -714,6 +715,122 @@
 <li><p>BIOMEID – Is fkey. For available values refer to <a class="reference internal" href="#global-biomeid"><span class="std std-ref">global_biomeID table</span></a> table</p></li>
 </ul>
 </div>
+<div class="section" id="global-unitmaster-table">
+<span id="global-unitmaster"></span><h4>global_UnitMaster table<a class="headerlink" href="#global-unitmaster-table" title="Permalink to this heading"></a></h4>
+<p>The <em>global_UnitMaster</em> table stores <strong>collection-unit related information for all compilations</strong>. Collection units are defined in the <a class="reference internal" href="#cabah-unittypeid"><span class="std std-ref">cabah_unittypeID table</span></a> table. In OCTOPUS data model hierarchy <em>global_UnitMaster</em> is situated between the collection-specific sample tables (subordinate) and the g:ref:<cite>global_SiteMaster</cite> table (superordinate); (= SITEID). The <em>global_UnitMaster</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>UNITID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SITEID</p></td>
+<td><p>text</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-sitemaster"><span class="std std-ref">global_SiteMaster table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>UNITNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>UNITHANDLE</p></td>
+<td><p>varchar(10)</p></td>
+<td><p>ukey</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>UNITTYPEID</p></td>
+<td><p>smallint</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-unittypeid"><span class="std std-ref">cabah_unittypeID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>COLLECTID</p></td>
+<td><p>smallint</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-col-mtdid"><span class="std std-ref">cabah_col_mtdID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>DEPOSITID</p></td>
+<td><p>smallint</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-depositid"><span class="std std-ref">cabah_depositID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>COLLDATE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>WATERDEPTH</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>NEO_HANDLE</p></td>
+<td><p>varchar(10)</p></td>
+<td><p>ukey</p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>UNIT_COMMT</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>COLL_SPEC</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>UNIT_DESCR</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>UNITID – Unique identifier (serial integer)</p></li>
+<li><p>SITEID – Is fkey. Refer to <a class="reference internal" href="#global-sitemaster"><span class="std std-ref">global_SiteMaster table</span></a> table</p></li>
+<li><p>UNITNAME – Name of the site</p></li>
+<li><p>UNITHANDLE – Code name for the Collection Unit. This code may be up to 10 characters, but an effort is made to keep these to 8 characters or less. Data are frequently distributed by Collection Unit, and the Handle is used for file names. (description from (and rationale according to) neotoma database)</p></li>
+<li><p>UNITTYPEID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-unittypeid"><span class="std std-ref">cabah_unittypeID table</span></a> table</p></li>
+<li><p>COLLECTID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-col-mtdid"><span class="std std-ref">cabah_col_mtdID table</span></a> table</p></li>
+<li><p>DEPOSITID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-depositid"><span class="std std-ref">cabah_depositID table</span></a> table</p></li>
+<li><p>COLLDATE – Is unit collection date, if reported, at the highest possible dd/mm/yyyy level.</p></li>
+<li><p>WATERDEPTH – Water depth. (-9999 = no data)</p></li>
+<li><p>NEO_HANDLE – See “UNITHANDLE”, but derived from neotoma database (for units that exist in both databases). Neotoma handle must not be overwritten!</p></li>
+<li><p>UNIT_COMMT – Free text site comment field</p></li>
+<li><p>COLL_SPEC – Stores collection process specifics (if applicable)</p></li>
+<li><p>UNIT_DESCR – Stores collection-unit related specifics (if applicable)</p></li>
+</ul>
+</div>
 <div class="section" id="global-biomeid-table">
 <span id="global-biomeid"></span><h4>global_biomeID table<a class="headerlink" href="#global-biomeid-table" title="Permalink to this heading"></a></h4>
 <p>The <em>global_biomeID</em> table stores iconic biome types that allow for a coarse characterisation/classifications of sampled sites amongst Earth’s major biogeographic units. <em>global_biomeID</em> is a self-referencing table.</p>
@@ -762,7 +879,7 @@
 </table>
 <ul class="simple">
 <li><p>BIOMEID – Unique identifier (serial integer)</p></li>
-<li><p>BIOMETYPE – Name of biome. For available values refer to <a class="reference internal" href="parent_tables.html#global-biomeid-fields"><span class="std std-ref">global_biomeID fields</span></a></p></li>
+<li><p>BIOMETYPE – Name of biome. For available values refer to <span class="xref std std-ref">global_biomeID_Fields</span></p></li>
 <li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “BIOMEID”</p></li>
 <li><p>BIOMEDESCR – A concise description of “BIOMETYPE”</p></li>
 </ul>
