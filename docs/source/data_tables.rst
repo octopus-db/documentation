@@ -203,7 +203,7 @@ BIOMEID    int4                       fkey          :ref:`global_biomeID`
 
 global_UnitMaster table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *global_UnitMaster* table stores **collection-unit related information for all compilations**. Collection units are defined in the :ref:`cabah_unittypeID` table. In OCTOPUS data model hierarchy *global_UnitMaster* is situated between the collection-specific sample tables (subordinate) and the g:ref:`global_SiteMaster` table (superordinate); (= SITEID). The *global_UnitMaster* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
+The *global_UnitMaster* table stores **collection-unit related information for all compilations**. Collection units are defined in the :ref:`cabah_unittypeID` table. In OCTOPUS data model hierarchy *global_UnitMaster* is situated between the collection-specific sample tables (subordinate) and the :ref:`global_SiteMaster` table (superordinate); (= SITEID). The *global_UnitMaster* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
 
 .. csv-table::
    :file: ./csv_tables/global_UnitMaster.csv
