@@ -225,7 +225,7 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 
 * COLLDATE -- Is unit collection date, if reported, at the highest possible dd/mm/yyyy level.
 
-* WATERDEPTH -- Water depth. (-9999 = no data)
+* WATERDEPTH -- Water depth. (-9999.99 = no data)
 
 * NEO_HANDLE -- See "UNITHANDLE", but derived from neotoma database (for units that exist in both databases). Neotoma handle must not be overwritten!
 
