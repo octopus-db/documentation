@@ -717,18 +717,20 @@
 </div>
 <div class="section" id="global-unitmaster-table">
 <span id="global-unitmaster"></span><h4>global_UnitMaster table<a class="headerlink" href="#global-unitmaster-table" title="Permalink to this heading"></a></h4>
-<p>The <em>global_UnitMaster</em> table stores <strong>collection-unit related information for all compilations</strong>. Collection units are defined in the <a class="reference internal" href="#cabah-unittypeid"><span class="std std-ref">cabah_unittypeID table</span></a> table. In OCTOPUS data model hierarchy <em>global_UnitMaster</em> is situated between the collection-specific sample tables (subordinate) and the g:ref:<cite>global_SiteMaster</cite> table (superordinate); (= SITEID). The <em>global_UnitMaster</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
+<p>The <em>global_UnitMaster</em> table stores <strong>collection-unit related information for all compilations</strong>. Collection units are defined in the <a class="reference internal" href="#cabah-unittypeid"><span class="std std-ref">cabah_unittypeID table</span></a> table. In OCTOPUS data model hierarchy <em>global_UnitMaster</em> is situated between the collection-specific sample tables (subordinate) and the <a class="reference internal" href="#global-sitemaster"><span class="std std-ref">global_SiteMaster table</span></a> table (superordinate); (= SITEID). The <em>global_UnitMaster</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
 <table class="docutils align-default">
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>Field</p></th>
 <th class="head"><p>Data type</p></th>
+<th class="head"><p>Unit</p></th>
 <th class="head"><p>Key</p></th>
 <th class="head"><p>Not Null</p></th>
 <th class="head"><p>Parent</p></th>
@@ -737,12 +739,14 @@
 <tbody>
 <tr class="row-even"><td><p>UNITID</p></td>
 <td><p>serial4</p></td>
+<td></td>
 <td><p>pkey</p></td>
 <td><p>TRUE</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>SITEID</p></td>
 <td><p>text</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td><p>TRUE</p></td>
 <td><p><a class="reference internal" href="#global-sitemaster"><span class="std std-ref">global_SiteMaster table</span></a></p></td>
@@ -752,27 +756,32 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>UNITHANDLE</p></td>
 <td><p>varchar(10)</p></td>
+<td></td>
 <td><p>ukey</p></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>UNITTYPEID</p></td>
 <td><p>smallint</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-unittypeid"><span class="std std-ref">cabah_unittypeID table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>COLLECTID</p></td>
 <td><p>smallint</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-col-mtdid"><span class="std std-ref">cabah_col_mtdID table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>DEPOSITID</p></td>
 <td><p>smallint</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-depositid"><span class="std std-ref">cabah_depositID table</span></a></p></td>
@@ -782,15 +791,18 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>WATERDEPTH</p></td>
-<td></td>
+<td><p>numeric</p></td>
+<td><p>m</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>NEO_HANDLE</p></td>
 <td><p>varchar(10)</p></td>
+<td></td>
 <td><p>ukey</p></td>
 <td></td>
 <td></td>
@@ -800,15 +812,18 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-odd"><td><p>COLL_SPEC</p></td>
 <td><p>text</p></td>
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>UNIT_DESCR</p></td>
 <td><p>text</p></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
