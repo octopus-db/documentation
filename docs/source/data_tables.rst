@@ -119,35 +119,9 @@ The *global_SiteMaster* table stores an information set that enables **georefere
 
     Site coordinates for both SahulArch and FosSahul collections, for cultural reasons, were obfuscated within a radius of 25 km. Spatial data for those collections includes sample locations as circular polygons.
 
-========== ============== =========== ==== ======== ======================
-Field      Data type      Unit        Key  Not Null Parent
-========== ============== =========== ==== ======== ======================
-SITEID     text                       pkey TRUE     
-METASITEID text                       fkey          :ref:`global_MetaSite`
-CNTRY      varchar(3)                      TRUE     
-REGION_INT text                                    
-REGION_REG varchar(3)                              
-DIV_ADMIN  varchar(7)                              
-DIV_OTHER  text                                    
-ISL_NAME   text                                    
-LAKE       text                                    
-BASIN      text                                    
-RIVID      int2                       fkey          :ref:`global_rivID`
-IBRAID     int2                       fkey          :ref:`global_ibraID`
-X_WGS84    numeric(10, 6) decimal deg               
-Y_WGS84    numeric(10, 6) decimal deg               
-CORDS_ELEV varchar(9)                      TRUE     
-ELEVATION  numeric(6, 2)  m                 
-SITENAME   text                                    
-SITE_SPEC  text                                    
-ALTNAME1   text                                    
-ALTNAME2   text                                    
-ALTNAME3   text                                    
-SITECODEID int2                       fkey          :ref:`global_SiteCode`
-OPENCLOSED varchar(6)                              
-SITE_COMMT text                                    
-BIOMEID    int4                       fkey          :ref:`global_biomeID`
-========== ============== =========== ==== ======== ======================
+.. csv-table::
+   :file: ./csv_tables/global_SiteMaster.csv
+   :header-rows: 1
 
 * SITEID -- A unique site identifier provided as part of the compilation
 
