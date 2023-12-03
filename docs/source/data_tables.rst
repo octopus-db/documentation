@@ -173,6 +173,16 @@ The *global_SiteMaster* table stores an information set that enables **georefere
 
 * BIOMEID -- Is fkey. For available values refer to :ref:`global_biomeID` table
 
+* CATCHSZEID -- Is fkey. For available values refer to :ref:`cabah_catchmentsizeID` table
+
+* BASINSZEID -- Is fkey. For available values refer to :ref:`cabah_basinsizeID` table
+
+* FLOWTYPEID -- Is fkey. For available values refer to :ref:`cabah_flowtypeID` table
+
+* NEO_SITEID -- Is the corresponding neotoma/IPPD site ID, if applicable.
+
+* SITE_COMMT -- Free text site description field that, where applicable, stores neotoma/IPPD site descriptions.
+
 ..  _global_UnitMaster:
 
 global_UnitMaster table
