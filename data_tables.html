@@ -140,6 +140,11 @@
 <li class="toctree-l4"><a class="reference internal" href="#arch-tl-polygons-epsg3857-table">arch_tl_polygons_EPSG3857 table</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="#sahulchar-tables">SahulChar tables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#char-sample-table">char_Sample table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#char-datacore-table">char_DataCore table</a></li>
+</ul>
+</li>
 <li class="toctree-l3"><a class="reference internal" href="#sahulsed-tables">SahulSed tables</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#sed-sample-table">sed_Sample table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#sed-osl-datacore-table">sed-osl_DataCore table</a></li>
@@ -6252,6 +6257,24 @@
 <li><p>geom – WKT geometry notation</p></li>
 <li><p>OBSID1 – A unique identifier and one-to-one reference to a certain observation</p></li>
 <li><p>OBSID2 – The original sample identifier (as published), if available</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="sahulchar-tables">
+<h3>SahulChar tables<a class="headerlink" href="#sahulchar-tables" title="Permalink to this heading"></a></h3>
+<p>The following tables exclusively serve the <a class="reference internal" href="collections.html#sahulchar"><span class="std std-ref">SahulChar collection</span></a>.</p>
+<div class="section" id="char-sample-table">
+<span id="char-sample"></span><h4>char_Sample table<a class="headerlink" href="#char-sample-table" title="Permalink to this heading"></a></h4>
+<p>The <em>char_Sample</em> table stores SahulChar sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the <a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a> (superordinate; see <a class="reference internal" href="intro.html#semantic-data-model"><span class="std std-ref">Semantic data model</span></a>).</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TABLE</span> <span class="pre">INFORMATION</span> <span class="pre">--</span> <span class="pre">to</span> <span class="pre">come</span> <span class="pre">...</span></code></p></li>
+</ul>
+</div>
+<div class="section" id="char-datacore-table">
+<span id="char-datacore"></span><h4>char_DataCore table<a class="headerlink" href="#char-datacore-table" title="Permalink to this heading"></a></h4>
+<p>The <em>char_DataCore</em> table stores stores <strong>charcoal / black carbon-related observations</strong> (= smallest data model entity), i.e., ages, counts and their associated unique lab-derived data for the <a class="reference internal" href="collections.html#sahulchar"><span class="std std-ref">SahulChar collection</span></a>.</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">TABLE</span> <span class="pre">INFORMATION</span> <span class="pre">--</span> <span class="pre">to</span> <span class="pre">come</span> <span class="pre">...</span></code></p></li>
 </ul>
 </div>
 </div>
