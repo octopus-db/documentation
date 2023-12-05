@@ -153,6 +153,14 @@ The SahulArch TL collection
 
 ----
 
+..  _SahulChar:
+
+SahulChar collection
+~~~~~~~~~~~~~~~~~~~~
+SahulChar is a collection of published **Charcoal / Black Carbon counts and ages from Sahul**. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
+
+----
+
 ..  _SahulSed:
 
 SahulSed collections
