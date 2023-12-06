@@ -1798,6 +1798,10 @@ char_Sample table
 ^^^^^^^^^^^^^^^^^
 The *char_Sample* table stores SahulChar sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the :ref:`global_UnitMaster` (superordinate; see :ref:`Semantic_data_model`).
 
+.. csv-table::
+   :file: ./csv_tables/char_Sample.csv
+   :header-rows: 1
+
 * ``TABLE INFORMATION -- to come ...``
 
 ..  _char_DataCore:
@@ -1805,6 +1809,10 @@ The *char_Sample* table stores SahulChar sample information and is, therefore, s
 char_DataCore table
 ^^^^^^^^^^^^^^^^^^^
 The *char_DataCore* table stores stores **charcoal / black carbon-related observations** (= smallest data model entity), i.e., ages, counts and their associated unique lab-derived data for the :ref:`SahulChar`.
+
+.. csv-table::
+   :file: ./csv_tables/char_DataCore.csv
+   :header-rows: 1
 
 * ``TABLE INFORMATION -- to come ...``
 

@@ -6266,6 +6266,62 @@
 <div class="section" id="char-sample-table">
 <span id="char-sample"></span><h4>char_Sample table<a class="headerlink" href="#char-sample-table" title="Permalink to this heading"></a></h4>
 <p>The <em>char_Sample</em> table stores SahulChar sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the <a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a> (superordinate; see <a class="reference internal" href="intro.html#semantic-data-model"><span class="std std-ref">Semantic data model</span></a>).</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Unit</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SMPID</p></td>
+<td><p>serial4</p></td>
+<td></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>UNITID</p></td>
+<td><p>int4</p></td>
+<td></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>SMPNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SMPDEPTH</p></td>
+<td><p>numeric</p></td>
+<td><p>m</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>SMPCOMMT</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">TABLE</span> <span class="pre">INFORMATION</span> <span class="pre">--</span> <span class="pre">to</span> <span class="pre">come</span> <span class="pre">...</span></code></p></li>
 </ul>
@@ -6273,6 +6329,187 @@
 <div class="section" id="char-datacore-table">
 <span id="char-datacore"></span><h4>char_DataCore table<a class="headerlink" href="#char-datacore-table" title="Permalink to this heading"></a></h4>
 <p>The <em>char_DataCore</em> table stores stores <strong>charcoal / black carbon-related observations</strong> (= smallest data model entity), i.e., ages, counts and their associated unique lab-derived data for the <a class="reference internal" href="collections.html#sahulchar"><span class="std std-ref">SahulChar collection</span></a>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>OBSID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SMPID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#char-sample"><span class="std std-ref">char_Sample table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>OBSNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>LABID</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>LAB_ORIGID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-labcodes"><span class="std std-ref">cabah_LabCodes table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>WHATAMI</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>AGE</p></td>
+<td><p>numeric(12, 2)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AGE_ERROR</p></td>
+<td><p>numeric(12, 2)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>AGETYPEID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-agetypeid"><span class="std std-ref">cabah_agetypeID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>AGE_SPEC</p></td>
+<td><p>varchar(12)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>METHODID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-methodid"><span class="std std-ref">cabah_methodID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>MATERIA2ID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#c14-materia2id"><span class="std std-ref">c14_materia2ID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>EST_AGE</p></td>
+<td><p>numeric(12, 2)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CALCURVEID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#c14-calcurve"><span class="std std-ref">c14_calcurve table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>CALPROGID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#c14-calprogram"><span class="std std-ref">c14_calprogram table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>CHARCOUNTS</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>CHARMTDID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-charmethodid"><span class="std std-ref">cabah_charmethodID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>CHARMEASID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>CHARMAX</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CHARMIN</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>CHARSIZEID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>THICKNESS</p></td>
+<td><p>numeric(8, 2)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>DATASRCID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>REF1</p></td>
+<td><p>text</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>REF2</p></td>
+<td><p>text</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>REF3</p></td>
+<td><p>text</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>CHARCOMMT</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">TABLE</span> <span class="pre">INFORMATION</span> <span class="pre">--</span> <span class="pre">to</span> <span class="pre">come</span> <span class="pre">...</span></code></p></li>
 </ul>
