@@ -1,0 +1,6 @@
+﻿Field,Data type,Unit,Key,Not Null,Parent
+SMPID,serial4,,pkey,TRUE,
+UNITID,int4,,fkey,TRUE,:ref:`global_UnitMaster`
+SMPNAME,text,,,TRUE,
+SMPDEPTH,numeric,m,,,
+SMPCOMMT,text,,,,
