@@ -1834,37 +1834,37 @@ The *char_DataCore* table stores stores **charcoal / black carbon-related observ
 
 * WHATAMI -- What am I - *counts* or *age*? Is fkey. Refer to :ref:`global_varunitID` table
 
-* AGE -- Age value\*
+* AGE -- Age value\* (two decimals; see below note)
 
-* AGE_ERROR -- 
+* AGE_ERROR -- Age error value (two decimals)
 
 * AGETYPEID -- Is fkey. Refer to :ref:`cabah_agetypeID` table
 
-* AGE_SPEC -- 
+* AGE_SPEC -- Specifies if "AGE" should be considered a minimum / maximum age (if applicable)
 
 * METHODID -- Is fkey. Refer to :ref:`cabah_methodID` table
 
 * MATERIA2ID -- Is fkey. Refer to :ref:`c14_materia2ID` table
 
-* EST_AGE -- 
+* EST_AGE -- Estimated, i.e., modelled age
 
 * CALCURVEID -- Is fkey. Refer to :ref:`c14_calcurve` table
 
 * CALPROGID -- Is fkey. Refer to :ref:`c14_calprogram` table
 
-* CHARCOUNTS -- 
+* CHARCOUNTS -- Charcoal or black carbon count
 
 * CHARMTDID -- Is fkey. Refer to :ref:`cabah_charmethodID` table
 
 * CHARMEASID -- Is fkey. Refer to :ref:`global_varunitID` table
 
-* CHARMAX -- 
+* CHARMAX -- Maximum particle size
 
-* CHARMIN -- 
+* CHARMIN -- Minimum particle size
 
 * CHARSIZEID -- Is fkey. Refer to :ref:`global_varunitID` table
 
-* THICKNESS -- 
+* THICKNESS -- Sample thickness (cm)
 
 * DATASRCID -- Is fkey. Refer to :ref:`cabah_datasourceID` table
 
