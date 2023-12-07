@@ -1872,7 +1872,7 @@ The *char_DataCore* table stores stores **charcoal / black carbon-related observ
 
 .. note::
 
-   \* :nerd: Re "AGE" -- Preference was given to uncalibrated rather than calibrated radiocarbon ages where possible, to allow for recalibration with future calibration curve updates. Ages reported in calendar years BC/AD or BCE/CE were converted to 'years BP' prior to entry or entered as AGE_UNIT = 'other' if conversion is not possible. Ages generated from dating methods that are measured as years prior to sample collection and do not require calibration, such as lead-210 or optically stimulated luminescence, were converted to 'years BP' prior to entry where possible or entered as AGE_UNIT = 'other'.
+   \* |:nerd:| Re "AGE" -- Preference was given to uncalibrated rather than calibrated radiocarbon ages where possible, to allow for recalibration with future calibration curve updates. Ages reported in calendar years BC/AD or BCE/CE were converted to 'years BP' prior to entry or entered as AGE_UNIT = 'other' if conversion is not possible. Ages generated from dating methods that are measured as years prior to sample collection and do not require calibration, such as lead-210 or optically stimulated luminescence, were converted to 'years BP' prior to entry where possible or entered as AGE_UNIT = 'other'.
 
 
 SahulSed tables
