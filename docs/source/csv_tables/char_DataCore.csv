@@ -5,8 +5,8 @@ OBSNAME,text,,,TRUE,
 LABID,text,,,,
 LAB_ORIGID,int2,,fkey,,:ref:`cabah_LabCodes`
 WHATAMI,int2,,fkey,TRUE,:ref:`global_varunitID`
-AGE\*,"numeric(12, 2)",set by AGETYPEID,,,
-AGE_ERROR,"numeric(12, 2)",set by AGETYPEID,,,
+AGE\*,"numeric(12, 2)",see AGETYPEID,,,
+AGE_ERROR,"numeric(12, 2)",see AGETYPEID,,,
 AGETYPEID,int2,,fkey,,:ref:`cabah_agetypeID`
 AGE_SPEC,varchar(12),,,,
 METHODID,int2,,fkey,,:ref:`cabah_methodID`
@@ -17,8 +17,8 @@ CALPROGID,int2,,fkey,,:ref:`c14_calprogram`
 CHARCOUNTS,numeric,,,,
 CHARMTDID,int2,,fkey,,:ref:`cabah_charmethodID`
 CHARMEASID,int2,,fkey,,:ref:`global_varunitID`
-CHARMAX,numeric,set by CHARSIZEID,,,
-CHARMIN,numeric,set by CHARSIZEID,,,
+CHARMAX,numeric,see CHARSIZEID,,,
+CHARMIN,numeric,see CHARSIZEID,,,
 CHARSIZEID,int2,,fkey,,:ref:`global_varunitID`
 THICKNESS,"numeric(8, 2)",cm,,,
 DATASRCID,int2,,fkey,,:ref:`cabah_datasourceID`
