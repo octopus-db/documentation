@@ -6335,15 +6335,17 @@
 <p>The <em>char_DataCore</em> table stores stores <strong>charcoal / black carbon-related observations</strong> (= smallest data model entity), i.e., ages, counts and their associated unique lab-derived data for the <a class="reference internal" href="collections.html#sahulchar"><span class="std std-ref">SahulChar collection</span></a>.</p>
 <table class="docutils align-default">
 <colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
 </colgroup>
 <thead>
 <tr class="row-odd"><th class="head"><p>Field</p></th>
 <th class="head"><p>Data type</p></th>
+<th class="head"><p>Unit</p></th>
 <th class="head"><p>Key</p></th>
 <th class="head"><p>Not Null</p></th>
 <th class="head"><p>Parent</p></th>
@@ -6352,18 +6354,21 @@
 <tbody>
 <tr class="row-even"><td><p>OBSID</p></td>
 <td><p>serial4</p></td>
+<td></td>
 <td><p>pkey</p></td>
 <td><p>TRUE</p></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>SMPID</p></td>
 <td><p>int4</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td><p>TRUE</p></td>
 <td><p><a class="reference internal" href="#char-sample"><span class="std std-ref">char_Sample table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>OBSNAME</p></td>
 <td><p>text</p></td>
+<td></td>
 <td></td>
 <td><p>TRUE</p></td>
 <td></td>
@@ -6373,33 +6378,39 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>LAB_ORIGID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-labcodes"><span class="std std-ref">cabah_LabCodes table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>WHATAMI</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td><p>TRUE</p></td>
 <td><p><a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a></p></td>
 </tr>
-<tr class="row-even"><td><p>AGE</p></td>
+<tr class="row-even"><td><p>AGE*</p></td>
 <td><p>numeric(12, 2)</p></td>
+<td><p>set by AGETYPEID</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>AGE_ERROR</p></td>
 <td><p>numeric(12, 2)</p></td>
+<td><p>set by AGETYPEID</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>AGETYPEID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-agetypeid"><span class="std std-ref">cabah_agetypeID table</span></a></p></td>
@@ -6409,33 +6420,39 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>METHODID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-methodid"><span class="std std-ref">cabah_methodID table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>MATERIA2ID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#c14-materia2id"><span class="std std-ref">c14_materia2ID table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>EST_AGE</p></td>
 <td><p>numeric(12, 2)</p></td>
+<td><p>years BP</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>CALCURVEID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#c14-calcurve"><span class="std std-ref">c14_calcurve table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>CALPROGID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#c14-calprogram"><span class="std std-ref">c14_calprogram table</span></a></p></td>
@@ -6445,69 +6462,81 @@
 <td></td>
 <td></td>
 <td></td>
+<td></td>
 </tr>
 <tr class="row-even"><td><p>CHARMTDID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-charmethodid"><span class="std std-ref">cabah_charmethodID table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>CHARMEASID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>CHARMAX</p></td>
 <td><p>numeric</p></td>
+<td><p>set by CHARSIZEID</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-odd"><td><p>CHARMIN</p></td>
 <td><p>numeric</p></td>
+<td><p>set by CHARSIZEID</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>CHARSIZEID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>THICKNESS</p></td>
 <td><p>numeric(8, 2)</p></td>
+<td><p>cm</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
 <tr class="row-even"><td><p>DATASRCID</p></td>
 <td><p>int2</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>REF1</p></td>
 <td><p>text</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td><p>TRUE</p></td>
 <td><p><a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>REF2</p></td>
 <td><p>text</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>REF3</p></td>
 <td><p>text</p></td>
+<td></td>
 <td><p>fkey</p></td>
 <td></td>
 <td><p><a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>CHARCOMMT</p></td>
 <td><p>text</p></td>
+<td></td>
 <td></td>
 <td></td>
 <td></td>
@@ -6521,22 +6550,22 @@
 <li><p>LABID – Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.</p></li>
 <li><p>LAB_ORIGID – Is fkey. Refer to <a class="reference internal" href="#cabah-labcodes"><span class="std std-ref">cabah_LabCodes table</span></a> table</p></li>
 <li><p>WHATAMI – What am I - <em>counts</em> or <em>age</em>? Is fkey. Refer to <a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a> table</p></li>
-<li><p>AGE – Age value*</p></li>
-<li><p>AGE_ERROR –</p></li>
+<li><p>AGE – Age value* (two decimals; see below note)</p></li>
+<li><p>AGE_ERROR – Age error value (two decimals)</p></li>
 <li><p>AGETYPEID – Is fkey. Refer to <a class="reference internal" href="#cabah-agetypeid"><span class="std std-ref">cabah_agetypeID table</span></a> table</p></li>
-<li><p>AGE_SPEC –</p></li>
+<li><p>AGE_SPEC – Specifies if “AGE” should be considered a minimum / maximum age (if applicable)</p></li>
 <li><p>METHODID – Is fkey. Refer to <a class="reference internal" href="#cabah-methodid"><span class="std std-ref">cabah_methodID table</span></a> table</p></li>
 <li><p>MATERIA2ID – Is fkey. Refer to <a class="reference internal" href="#c14-materia2id"><span class="std std-ref">c14_materia2ID table</span></a> table</p></li>
-<li><p>EST_AGE –</p></li>
+<li><p>EST_AGE – Estimated, i.e., modelled age</p></li>
 <li><p>CALCURVEID – Is fkey. Refer to <a class="reference internal" href="#c14-calcurve"><span class="std std-ref">c14_calcurve table</span></a> table</p></li>
 <li><p>CALPROGID – Is fkey. Refer to <a class="reference internal" href="#c14-calprogram"><span class="std std-ref">c14_calprogram table</span></a> table</p></li>
-<li><p>CHARCOUNTS –</p></li>
+<li><p>CHARCOUNTS – Charcoal or black carbon count</p></li>
 <li><p>CHARMTDID – Is fkey. Refer to <a class="reference internal" href="#cabah-charmethodid"><span class="std std-ref">cabah_charmethodID table</span></a> table</p></li>
 <li><p>CHARMEASID – Is fkey. Refer to <a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a> table</p></li>
-<li><p>CHARMAX –</p></li>
-<li><p>CHARMIN –</p></li>
+<li><p>CHARMAX – Maximum particle size</p></li>
+<li><p>CHARMIN – Minimum particle size</p></li>
 <li><p>CHARSIZEID – Is fkey. Refer to <a class="reference internal" href="#global-varunitid"><span class="std std-ref">global_varunitID table</span></a> table</p></li>
-<li><p>THICKNESS –</p></li>
+<li><p>THICKNESS – Sample thickness (cm)</p></li>
 <li><p>DATASRCID – Is fkey. Refer to <a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a> table</p></li>
 <li><p>CHARCOMMT – Free text observation comment field</p></li>
 </ul>
