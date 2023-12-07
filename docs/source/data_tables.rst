@@ -1842,7 +1842,7 @@ The *char_DataCore* table stores **charcoal / black carbon-related observations*
 
 * AGETYPEID -- Is fkey. Refer to :ref:`cabah_agetypeID` table
 
-* AGE_SPEC -- Specifies if "AGE" should be considered a minimum / maximum age (if applicable)
+* AGE_SPEC -- Specifies if "AGE" should be considered a minimum / maximum age (if applicable). |:lock:| A *predefined value set* only allows for 'minimum age' or 'maximum age'
 
 * METHODID -- Is fkey. Refer to :ref:`cabah_methodID` table
 
