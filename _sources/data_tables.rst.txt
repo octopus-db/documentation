@@ -1787,6 +1787,8 @@ The *arch_tl_polygons_EPSG3857* table stores **spatial features**, i.e., polygon
 
 * OBSID2 -- The original sample identifier (as published), if available
 
+----
+
 SahulChar tables
 ~~~~~~~~~~~~~~~~
 
@@ -1796,7 +1798,7 @@ The following tables exclusively serve the :ref:`SahulChar`.
 
 char_Sample table
 ^^^^^^^^^^^^^^^^^
-The *char_Sample* table stores SahulChar sample information and is, therefore, situated between the collection-specific DataCore tables (subordinate) and the :ref:`global_UnitMaster` (superordinate; see :ref:`Semantic_data_model`).
+The *char_Sample* table stores SahulChar sample information and is, therefore, situated between the :ref:`char_DataCore` (subordinate) and the :ref:`global_UnitMaster` (superordinate; see :ref:`Semantic_data_model`).
 
 .. csv-table::
    :file: ./csv_tables/char_Sample.csv
@@ -1816,7 +1818,7 @@ The *char_Sample* table stores SahulChar sample information and is, therefore, s
 
 char_DataCore table
 ^^^^^^^^^^^^^^^^^^^
-The *char_DataCore* table stores stores **charcoal / black carbon-related observations** (= smallest data model entity), i.e., ages, counts and their associated unique lab-derived data for the :ref:`SahulChar`.
+The *char_DataCore* table stores **charcoal / black carbon-related observations** (= smallest data model entity), i.e., ages, counts and their associated lab-derived metrics / values for the :ref:`SahulChar`.
 
 .. csv-table::
    :file: ./csv_tables/char_DataCore.csv
