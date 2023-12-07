@@ -4,7 +4,7 @@ SMPID,int4,fkey,TRUE,:ref:`char_Sample`
 OBSNAME,text,,TRUE,
 LABID,text,,,
 LAB_ORIGID,int2,fkey,,:ref:`cabah_LabCodes`
-WHATAMI,int2,fkey,,:ref:`global_varunitID`
+WHATAMI,int2,fkey,TRUE,:ref:`global_varunitID`
 AGE,"numeric(12, 2)",,,
 AGE_ERROR,"numeric(12, 2)",,,
 AGETYPEID,int2,fkey,,:ref:`cabah_agetypeID`
@@ -22,7 +22,7 @@ CHARMIN,numeric,,,
 CHARSIZEID,int2,fkey,,:ref:`global_varunitID`
 THICKNESS,"numeric(8, 2)",,,
 DATASRCID,int2,fkey,,:ref:`cabah_datasourceID`
-REF1,text,fkey,,:ref:`global_RefCore`
+REF1,text,fkey,TRUE,:ref:`global_RefCore`
 REF2,text,fkey,,:ref:`global_RefCore`
 REF3,text,fkey,,:ref:`global_RefCore`
 CHARCOMMT,text,,,

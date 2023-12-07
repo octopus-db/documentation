@@ -1802,7 +1802,15 @@ The *char_Sample* table stores SahulChar sample information and is, therefore, s
    :file: ./csv_tables/char_Sample.csv
    :header-rows: 1
 
-* ``TABLE INFORMATION -- to come ...``
+* SMPID -- A unique identifier (auto-incrementing serial integer)
+
+* UNITID -- Is fkey. Refer to :ref:`global_UnitMaster` table
+
+* SMPNAME -- A human readable sample name in the form CONCAT('UNITNAME', 'SMPDEPTH')
+
+* SMPDEPTH -- Sample depth (m, two decimals)
+
+* SMPCOMMT -- Free text sample comment field 
 
 ..  _char_DataCore:
 
@@ -1814,7 +1822,58 @@ The *char_DataCore* table stores stores **charcoal / black carbon-related observ
    :file: ./csv_tables/char_DataCore.csv
    :header-rows: 1
 
-* ``TABLE INFORMATION -- to come ...``
+* OBSID -- A unique identifier (auto-incrementing serial integer)
+
+* SMPID -- Is fkey. Refer to :ref:`char_Sample` table
+
+* OBSNAME -- A human readable observation name in the form CONCAT('SMPNAME', '_charn_n') for *count observations* resp. CONCAT('SMPNAME', '_SMPDEPTH_age') for *ages*
+
+* LABID -- Unique lab code assigned by the lab where age was determined. For radiocarbon (and for many luminescence) labs, the first part of the lab code refers to the determining facility.
+
+* LAB_ORIGID -- Is fkey. Refer to :ref:`cabah_LabCodes` table
+
+* WHATAMI -- What am I - *counts* or *age*? Is fkey. Refer to :ref:`global_varunitID` table
+
+* AGE -- Age value\*
+
+* AGE_ERROR -- 
+
+* AGETYPEID -- Is fkey. Refer to :ref:`cabah_agetypeID` table
+
+* AGE_SPEC -- 
+
+* METHODID -- Is fkey. Refer to :ref:`cabah_methodID` table
+
+* MATERIA2ID -- Is fkey. Refer to :ref:`c14_materia2ID` table
+
+* EST_AGE -- 
+
+* CALCURVEID -- Is fkey. Refer to :ref:`c14_calcurve` table
+
+* CALPROGID -- Is fkey. Refer to :ref:`c14_calprogram` table
+
+* CHARCOUNTS -- 
+
+* CHARMTDID -- Is fkey. Refer to :ref:`cabah_charmethodID` table
+
+* CHARMEASID -- Is fkey. Refer to :ref:`global_varunitID` table
+
+* CHARMAX -- 
+
+* CHARMIN -- 
+
+* CHARSIZEID -- Is fkey. Refer to :ref:`global_varunitID` table
+
+* THICKNESS -- 
+
+* DATASRCID -- Is fkey. Refer to :ref:`cabah_datasourceID` table
+
+* CHARCOMMT -- Free text observation comment field 
+
+.. note::
+
+   \* :nerd: Re "AGE" -- Preference was given to uncalibrated rather than calibrated radiocarbon ages where possible, to allow for recalibration with future calibration curve updates. Ages reported in calendar years BC/AD or BCE/CE were converted to 'years BP' prior to entry or entered as AGE_UNIT = 'other' if conversion is not possible. Ages generated from dating methods that are measured as years prior to sample collection and do not require calibration, such as lead-210 or optically stimulated luminescence, were converted to 'years BP' prior to entry where possible or entered as AGE_UNIT = 'other'.
+
 
 SahulSed tables
 ~~~~~~~~~~~~~~~
