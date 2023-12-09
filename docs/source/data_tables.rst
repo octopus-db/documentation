@@ -217,8 +217,6 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 
 * COLL_SPEC -- Stores collection process specifics (if applicable)
 
-* UNIT_DESCR -- Stores collection-unit related specifics (if applicable)
-
 ..  _global_biomeID:
 
 global_biomeID table
