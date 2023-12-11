@@ -175,9 +175,9 @@ V_UNITID,V_UNITABBR,V_UNITNAME,PARENTID
 173,% dry weight,,15
 174,% of pollen sum,,15
 175,% of tot org,% of total organic fraction,15
-176,C:P,C:P ratio,38
+176,C:P,charcoal:pollen ratio,38
 177,area:pollen,area:pollen ratio,38
-178,% BC,% BC,15
+178,% BC,% black carbon,15
 180,other,other,180
 181,ordinal,ordinal scale,2
 182,char:Lycopodium,char:Lycopodium ratio,38
