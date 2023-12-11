@@ -14,18 +14,18 @@ A brief OCTOPUS database history
 ..  _db-history_2023:
 2023
 ^^^^
-* OCTOPUS GitHub organization launched (https://github.com/octopus-db)
+* GitHub organization launched (https://github.com/octopus-db)
 
-* OCTOPUS online documentation published (octopus-db.github.io/documentation/)
+* Online documentation published (https://octopus-db.github.io/documentation/)
 
-* OCTOPUS interactive database schema published (octopus-db.github.io/schema/)
+* Interactive database schema published (https://octopus-db.github.io/schema/)
 
 * Database model altered so it can cope with multiple data from one and the same collection unit, e.g. a core (see :ref:`global_UnitMaster`)
 
 ..  _db-history_2022:
 2022
 ^^^^
-* OCTOPUS Zenodo community launched (https://zenodo.org/communities/octopus-database)
+* Zenodo community launched (https://zenodo.org/communities/octopus-database)
 
 * Major update on :ref:`SahulArch` (`descriptive publication <https://doi.org/10.1080/03122417.2022.2159751>`_)
 
