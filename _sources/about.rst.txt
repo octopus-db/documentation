@@ -20,6 +20,8 @@ A brief OCTOPUS database history
 
 * OCTOPUS interactive database schema published (octopus-db.github.io/schema/)
 
+* Database model altered so it can cope with multiple data from one and the same collection unit, e.g. a core (see :ref:`global_UnitMaster`)
+
 ..  _db-history_2022:
 2022
 ^^^^
