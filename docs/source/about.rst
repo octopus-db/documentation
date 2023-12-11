@@ -20,19 +20,24 @@ A brief OCTOPUS database history
 
 * OCTOPUS interactive database schema published (octopus-db.github.io/schema/)
 
-* Major update of :ref:`SahulArch` (`descriptive publication <https://doi.org/10.1080/03122417.2022.2159751>`_)
-
 ..  _db-history_2022:
 2022
 ^^^^
+* OCTOPUS Zenodo community launched (https://zenodo.org/communities/octopus-database)
 
+* Major update on :ref:`SahulArch` (`descriptive publication <https://doi.org/10.1080/03122417.2022.2159751>`_)
 
 ..  _db-history_2021:
 2021
 ^^^^
+* OCTOPUS version v.2 deployed
 
+.. csv-table::
+   :file: ./csv_tables/octopus_v2.csv
+   :header-rows: 1
 
 ..  _db-history_2020:
+
 2020
 ^^^^
 
@@ -50,7 +55,7 @@ A brief OCTOPUS database history
 ..  _db-history_2017:
 2017
 ^^^^
-* OCTOPUS version v.1 released
+* OCTOPUS version v.1 deployed
 
 .. csv-table::
    :file: ./csv_tables/octopus_v1.csv
