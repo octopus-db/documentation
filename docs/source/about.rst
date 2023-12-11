@@ -8,6 +8,58 @@ Except where otherwise noted, content on this site is licensed under a Creative 
 
 To provide feedback about the data collections, to contribute, or to request more information, please contact *octopus-database(at)googlegroups.com*.
 
+A brief OCTOPUS database history
+--------------------------------
+
+..  _db-history_2023:
+2023
+^^^^
+* OCTOPUS GitHub organization launched (https://github.com/octopus-db)
+
+* OCTOPUS online documentation published (octopus-db.github.io/documentation/)
+
+* OCTOPUS interactive database schema published (octopus-db.github.io/schema/)
+
+* Major update of :ref:`SahulArch` (`descriptive publication <https://doi.org/10.1080/03122417.2022.2159751>`_)
+
+..  _db-history_2022:
+2022
+^^^^
+
+
+..  _db-history_2021:
+2021
+^^^^
+
+
+..  _db-history_2020:
+2020
+^^^^
+
+
+..  _db-history_2019:
+2019
+^^^^
+
+
+..  _db-history_2018:
+2018
+^^^^
+
+
+..  _db-history_2017:
+2017
+^^^^
+* OCTOPUS version v.1 released
+
+.. csv-table::
+   :file: ./csv_tables/octopus_v1.csv
+   :header-rows: 1
+
+..  _db-history_2016:
+2016
+^^^^
+
 .. rubric:: Footnotes
 
 .. [#] University of Wollongong, ORCID `0000-0002-3750-9674 <https://orcid.org/0000-0002-3750-9674>`_
