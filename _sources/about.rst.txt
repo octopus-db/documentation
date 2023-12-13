@@ -8,6 +8,8 @@ Except where otherwise noted, content on this site is licensed under a Creative 
 
 To provide feedback about the data collections, to contribute, or to request more information, please contact *octopus-database(at)googlegroups.com*.
 
+----
+
 A brief OCTOPUS database history
 --------------------------------
 
