@@ -10,8 +10,8 @@ Core collections
 
 ..  _CRN:
 
-CRN collections |:boom:|
-~~~~~~~~~~~~~~~~~~~~~~~
+CRN collections |:sparkles:|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 | The OCTOPUS CRN branch features collections of published **cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates** inferred from these data.
 | The :ref:`CRN_vector_spatial_data` -- sample site location (point), basin outline (polygon) --  uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. :ref:`CRN_ancillary_data` includes: digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files (see :ref:`CSV_folder`) for the recalculation of denudation rates using the CAIRN model [#]_. 
 
@@ -163,8 +163,8 @@ SahulChar is a collection of published **Charcoal / Black Carbon counts and ages
 
 ..  _SahulSed:
 
-SahulSed collections
-~~~~~~~~~~~~~~~~~~~~
+SahulSed collections |:cake:|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 OCTOPUS collection set of published **optically stimulated luminescence (OSL) ages for fluvial sedimentary records from Sahul**. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
 
 
@@ -301,8 +301,8 @@ Partner collections
 
 ..  _FosSahul:
 
-FosSahul collection
-~~~~~~~~~~~~~~~~~~~
+FosSahul collection |:sloth:|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 | *A database of quality-rated dates from Late Quaternary non-human vertebrate fossil records published up to 2018*
 | **Publisher, Year**
 | OCTOPUS database, 2021
@@ -322,8 +322,8 @@ FosSahul collection
 
 ..  _expage:
 
-ExpAge collection
-~~~~~~~~~~~~~~~~~
+ExpAge collection |:boom:|
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 | *A global database of published Be-10 and Al-26 data from glacial samples*
 | **Publisher, Year**
 | OCTOPUS database, 2021
