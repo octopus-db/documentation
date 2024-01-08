@@ -45,7 +45,7 @@ global_UnitMaster fields
    :file: ./csv_tables/global_UnitMaster_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_UnitMaster* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_UnitMaster__202312131505.csv>`_ |:chipmunk:|
+| The latest *global_UnitMaster* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_UnitMaster__202401081148.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_UnitMaster` variable specs)
 
 ..  _global_biomeID_Fields:
@@ -132,7 +132,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202311171658>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202312191749.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_Journal_Fields:
