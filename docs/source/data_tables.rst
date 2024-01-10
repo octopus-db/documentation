@@ -209,13 +209,19 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 
 * COLLDATE -- Is unit collection date, if reported, at the highest possible dd/mm/yyyy level.
 
-* WATERDEPTH -- Water depth. (-9999.99 = no data)
+* WATERDEPTH -- Water depth in m. (-9999.99 = no data)
 
-* NEO_HANDLE -- See "UNITHANDLE", but derived from neotoma database (for units that exist in both databases). Neotoma handle must not be overwritten!
+* NEO_HANDLE -- See "UNITHANDLE", but derived from Neotoma database
 
 * UNIT_COMMT -- Free text site comment field
 
 * COLL_SPEC -- Stores collection process specifics (if applicable)
+
+* IS_CHAR -- Is this collection unit part of the SahulChar collection?
+
+* IS_IPPD -- Is this collection unit part of the IPPD collection?
+
+* IS_NEOTOMA -- Is this collection unit part of Neotoma db?
 
 ..  _global_biomeID:
 
