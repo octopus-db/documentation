@@ -866,6 +866,27 @@
 <td></td>
 <td></td>
 </tr>
+<tr class="row-even"><td><p>IS:CHAR</p></td>
+<td><p>boolean</p></td>
+<td></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>IS_IPPD</p></td>
+<td><p>boolean</p></td>
+<td></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>IS_NEOTOMA</p></td>
+<td><p>boolean</p></td>
+<td></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <ul class="simple">
@@ -877,10 +898,13 @@
 <li><p>COLLECTID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-col-mtdid"><span class="std std-ref">cabah_col_mtdID table</span></a> table</p></li>
 <li><p>DEPOSITID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-depositid"><span class="std std-ref">cabah_depositID table</span></a> table</p></li>
 <li><p>COLLDATE – Is unit collection date, if reported, at the highest possible dd/mm/yyyy level.</p></li>
-<li><p>WATERDEPTH – Water depth. (-9999.99 = no data)</p></li>
-<li><p>NEO_HANDLE – See “UNITHANDLE”, but derived from neotoma database (for units that exist in both databases). Neotoma handle must not be overwritten!</p></li>
+<li><p>WATERDEPTH – Water depth in m. (-9999.99 = no data)</p></li>
+<li><p>NEO_HANDLE – See “UNITHANDLE”, but derived from Neotoma database</p></li>
 <li><p>UNIT_COMMT – Free text site comment field</p></li>
 <li><p>COLL_SPEC – Stores collection process specifics (if applicable)</p></li>
+<li><p>IS_CHAR – Is this collection unit part of the SahulChar collection?</p></li>
+<li><p>IS_IPPD – Is this collection unit part of the IPPD collection?</p></li>
+<li><p>IS_NEOTOMA – Is this collection unit part of Neotoma db?</p></li>
 </ul>
 </div>
 <div class="section" id="global-biomeid-table">
