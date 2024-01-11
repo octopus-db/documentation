@@ -223,6 +223,8 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 
 * IS_NEOTOMA -- Is this collection unit part of Neotoma db?
 
+* UNIT_REF -- Primary collection unit reference. Is fkey. For available values refer to :ref:`global_RefCore` table
+
 ..  _global_biomeID:
 
 global_biomeID table
