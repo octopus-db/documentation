@@ -14,3 +14,4 @@ COLL_SPEC,text,,,,
 IS_CHAR,boolean,,,TRUE,
 IS_IPPD,boolean,,,TRUE,
 IS_NEOTOMA,boolean,,,TRUE,
+UNIT_REF,text,,fkey,TRUE,:ref:`global_RefCore`
