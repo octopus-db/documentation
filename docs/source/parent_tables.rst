@@ -409,7 +409,7 @@ crn_alstndID fields
 ======== ====== ================== ====== ==========
 ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
 ======== ====== ================== ====== ==========
--9999    NA     NA                 0      
+-9999    NA     NA                        
 1        ZAL94  AL09               0.9134 1.19E-09
 2        ZAL94  AL09-Assumed       0.9134 1.19E-09
 3        KNSTD  KN-4-2             1      3.096E-11
@@ -434,7 +434,7 @@ ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
 22       ZAL94  ZAL94-Assumed      0.9134 5.26E-10
 23       ZAL94N ZAL94N             1      4.9E-10
 24       ZAL94N ZAL94N-Assumed     1      4.9E-10
-25       ND     ND                 0      
+25       ND     ND                        
 ======== ====== ================== ====== ==========
 
 Values for crn_alstndID."ALSTNDCOMT" field as follows ...
@@ -641,7 +641,7 @@ crn_bestndID fields
 ======== ============== ====================== ====== ==========
 BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
 ======== ============== ====================== ====== ==========
--9999    NA             NA                     0      
+-9999    NA             NA                            
 1        07KNSTD        07KNSTD                1      
 2        07KNSTD        07KNSTD-Assumed        1      
 3        07KNSTD        07KNSTD3110            1      2.85E-12
@@ -700,7 +700,7 @@ BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
 56       07KNSTD        STD-11-Assumed         1      1.191E-11
 57       NIST_30500     NIST_30500             0.9124 3.05E-11
 58       NIST_30500     NIST_30500-Assumed     0.9124 3.05E-11
-59       ND             ND                     0      
+59       ND             ND                            
 ======== ============== ====================== ====== ==========
 
 Values for crn_bestndID."BESTNDCOMT" as follows ...
