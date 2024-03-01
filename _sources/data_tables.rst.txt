@@ -153,7 +153,7 @@ The *global_SiteMaster* table stores an information set that enables **georefere
 
 * CORDS_ELEV -- Dual field. First part of value refers to source of coordinates (“X_WGS84”, “Y_WGS84”) for the sample site ('INTP', or 'ORIG', or 'ND'). Second part of value refers to “ELEVATION” ('INTP', or 'ORIG', or 'ND'). Nine (9) combinations possible
 
-* ELEVATION -- Elevation above sea level. (-9999 = no data)
+* ELEVATION -- Elevation above sea level. (-9999.99 = no data)
 
 * SITENAME -- Name of the site. ('ND' = no data), ('NA' = not applicable)
 
