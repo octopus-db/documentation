@@ -64,3 +64,13 @@ BIOMEID,BIOMETYPE,PARENTID,BIOMEDESCR
 63,Barren,1,
 64,Subtropical heathland,1,
 65,Buttongrass moorland,1,
+66,Desert and Xeric Shrublands,51,see Olson:2001ecoregions
+67,Tropical and Subtropical Moist Broadleaf Forest,6,see Olson:2001ecoregions
+68,"Tropical and Subtropical Grasslands, Savannas, and Shrublands ",15,see Olson:2001ecoregions
+69,Tropical and Subtropical Dry Broadleaf Forests,9,see Olson:2001ecoregions
+70,Montane Grasslands,56,see Olson:2001ecoregions
+71,Temperate Broadleaf and Mixed Forests,21,see Olson:2001ecoregions
+72,"Mediterranean Forests, Woodlands, and Shrubs",48,see Olson:2001ecoregions
+73,"Temperate Grasslands, Savannas, and Shrublands",17,see Olson:2001ecoregions
+74,Mangroves,3,see Olson:2001ecoregions
+75,Subantarctic Island Tundra,1,see Olson:2001ecoregions
