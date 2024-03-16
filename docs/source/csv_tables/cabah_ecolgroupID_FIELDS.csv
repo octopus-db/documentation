@@ -1,0 +1,195 @@
+ECOGROUPID,ECOLGROUP,ECOGRPHNDL,ECOGRPSRC
+-9999,no data,ND,
+1,Acari,ACAR,10
+2,Accipitriformes,ACCI,10
+3,Acipenseriformes,ACIP,10
+4,Acritarchs,ACRI,10
+5,Actinopterygii,ACTI,10
+6,Anion,AION,10
+7,Algae,ALGA,10
+8,Alkane,ALKA,10
+9,Alkane2,ALKN,10
+10,Amiiformes,AMII,10
+11,Amphibia,AMPH,10
+12,Anachronic,ANAC,10
+13,Angiospermae,ANGI,10
+14,Anguilliformes,ANGU,10
+15,Undifferentiated animals,ANIM,10
+16,Annelida,ANNL,10
+17,Anseriformes,ANSE,10
+18,Anura,ANUR,10
+19,Apodiformes,APOD,10
+20,Aquatic Bryophytes,AQBR,10
+21,Aquatic Vascular Plants,AQVP,10
+22,Undifferentiated Arthropods,ARTH,10
+23,Artiodactyla,ARTI,10
+24,Atheriniformes,ATHE,10
+25,Aulopiformes,AULO,10
+26,Aves,AVES,10
+27,Barnacles,BARN,10
+28,Batrachoidiformes,BATR,10
+29,Beloniformes,BELO,10
+30,Biometric measurements,BIOM,10
+31,Blattodea,BLAT,10
+32,Benthic,BNTH,10
+33,Brachiopoda,BRAC,10
+34,Bryozoa,BRYZ,10
+35,Bivalves,BVLV,10
+36,Caprimulgiformes,CAPR,10
+37,Carbon,CARB,10
+38,Cariamiformes,CARI,10
+39,Carnivora,CARN,10
+40,Caudata,CAUD,10
+41,Cetacea,CETA,10
+42,Charcoal,CHAR,10
+43,Chemical compound,CHEM,10
+44,Chimaeriformes,CHIM,10
+45,Chiroptera,CHIR,10
+46,Chitons,CHIT,10
+47,Charadriiformes,CHRD,10
+48,Chromista,CHRM,10
+49,Chironomidae,CHRN,10
+50,Chemical substance,CHSU,10
+51,Ciconiiformes,CICO,10
+52,Cingulata,CING,10
+53,Cladocera,CLAD,10
+54,Clupeiformes,CLUP,10
+55,Cnidaria,CNID,10
+56,Coleoptera,COLE,10
+57,Columbiformes,COLU,10
+58,Copepods,COPE,10
+59,Coraciiformes,CORA,10
+60,Cosmopolitan,COSM,10
+61,Crocodilia,CROC,10
+62,Undifferentiated Crustaceans,CRUS,10
+63,Cuculiformes,CUCU,10
+64,Cyprinodontiformes,CYPD,10
+65,Cypriniformes,CYPR,10
+66,Dermaptera,DERM,10
+67,Diatoms,DIAT,10
+68,Dictyoptera,DICT,10
+69,Didelphimorphia,DIDE,10
+70,Dinoflagellates,DINO,10
+71,Diptera,DIPT,10
+72,Undifferentiated Echinoderms,ECHN,10
+73,Environmental Sedimentary DNA,EDNA,10
+74,Element,ELEM,10
+75,Element ratio,ELRO,10
+76,Embryophyta,EMBR,10
+77,Esociformes,ESOC,10
+78,Eudicotyledoneae,EUDI,10
+79,Eukaryota,EUKA,10
+80,Even Alkanes,EVAL,10
+81,Falconiformes,FALC,10
+82,Fish,FISH,10
+83,Flatworms,FLWO,10
+84,Foraminifera,FORM,10
+85,Freshwater,FRES,10
+86,Fungi,FUNG,10
+87,Gadiformes,GADI,10
+88,Galliformes,GALL,10
+89,Gasterosteiformes,GAST,10
+90,Gaviiformes,GAVI,10
+91,Branched GDGT,GDGB,10
+92,Isoprenoidal GDGT,GDGI,10
+93,Glycerol Dialkyl Glycerol Tetraether,GDGT,10
+94,Gastropods,GPOD,10
+95,Groundwater,GRDW,10
+96,Gruiformes,GRUI,10
+97,Hemiptera,HEMI,10
+98,Reptiles and Amphibians,HERP,10
+99,Hiodontiformes,HIOD,10
+100,Hymenoptera,HYME,10
+101,Undifferentiated insect,INSE,10
+102,Interstitial,INTR,10
+103,Undifferentiated invertebrates,INVE,10
+104,Inorganic compound,IORG,10
+105,Isotope,ITOP,10
+106,Laboratory analyses,LABO,10
+107,Lagomorpha,LAGO,10
+108,Lamniformes,LAMN,10
+109,Lepidoptera,LEPI,10
+110,Lepisosteiformes,LEPS,10
+111,Litopterna,LITP,10
+112,Leaf Wax Alkanes,LWAL,10
+113,Mammalian rank above order,MAMM,10
+114,Mangroves,MANG,10
+115,Marine,MARI,10
+116,Megaloptera,MEGA,10
+117,Mineral,MNRL,10
+118,Undifferentiated mollusk,MOLL,10
+119,nektobenthic,NEKB,10
+120,Nektonic,NEKT,10
+121,Nematodes,NEMA,10
+122,Neuroptera,NEUR,10
+123,Nektobenthonic,NKBE,10
+124,Notoungulata,NOTO,10
+125,Undifferentiated ostracodes,OCOD,10
+126,Odonata,ODON,10
+127,Organic compound,ORGC,10
+128,Orthoptera,ORTH,10
+129,Osmeriformes,OSME,10
+130,Other/Algal/Bacterial Alkanes,OTAL,10
+131,Palms,PALM,10
+132,Passeriformes,PASS,10
+133,Pan-Coniferae,PCON,10
+134,Pelecaniformes,PELC,10
+135,Perciformes,PERC,10
+136,Phasmida,PHAS,10
+137,Phoenicopteriformes,PHOE,10
+138,Physical measurements,PHYS,10
+139,Phytoliths,PHYT,10
+140,Piciformes,PICI,10
+141,Pilosa,PILO,10
+142,Plecoptera,PLEC,10
+143,Pleuronectiformes,PLEU,10
+144,Plant,PLNT,10
+145,Loss-on-ignition,PLOI,10
+146,Paleomagnetic,PMAG,10
+147,Podicipediformes,PODI,10
+148,Prasinophyte,PRAS,10
+149,Primates,PRIM,10
+150,Proboscidea,PROB,10
+151,Procellariiformes,PROC,10
+152,Prokaryota,PROK,10
+153,Undifferentiated protists,PROT,10
+154,Perissodactyla,PRSS,10
+155,Undifferentiated protozoa,PRTZ,10
+156,Physical sedimentological,PSED,10
+157,Psittaciformes,PSIT,10
+158,Psocodea,PSOC,10
+159,Pteridophyta,PTER,10
+160,Phthiraptera,PTHT,10
+161,Rajiformes,RAJI,10
+162,Rodentia,RODE,10
+163,Undifferentiated rotifers,ROTI,10
+164,Salmoniformes,SALM,10
+165,Scorpaeniformes,SCOR,10
+166,Spermatophyte rank or clade above order,SEED,10
+167,Serpentes,SERP,10
+168,Silicoflagellates,SILC,10
+169,Siluriformes,SILI,10
+170,Siphonaptera,SIPH,10
+171,Sirenia,SIRE,10
+172,Soricomorpha,SORI,10
+173,Sponges,SPNG,10
+174,Squaliformes,SQUA,10
+175,Strigiformes,STRG,10
+176,Succulents,SUCC,10
+177,Suliformes,SULI,10
+178,Testate amoebae,TEAM,10
+179,Testudines,TEST,10
+180,Tetraodontiformes,TETR,10
+181,Trichoptera,TRIC,10
+182,Trees and Shrubs,TRSH,10
+183,Undifferentiated pollen,UDPO,10
+184,Unknown and Indeterminable Palynomorphs,UNID,10
+185,Unionoida,UNIO,10
+186,Unknown and Indeterminable Plant Macrofossils,UNPM,10
+187,Upland Bryophytes,UPBR,10
+188,Upland Herbs,UPHE,10
+189,Sea urchins,URCH,10
+190,Terrestrial Vascular Cryptogams,VACR,10
+191,Vascular plants,VASC,10
+192,Undifferentiated vertebrates,VERT,10
+193,Water chemistry,WCHM,10

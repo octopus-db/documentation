@@ -1,11 +1,12 @@
-DATASRCID,DATASOURCE,DATASRCDSC,DATASRCREF,CREATED_AT,UPDATED_AT
--9999,ND,no data,,2023-09-11 18:35:30.259 +1000,2023-09-11 18:35:30.259 +1000
-1,Author,Author provided data,,2023-09-11 18:33:58.002 +1000,
-2,Digitised,Data digitised from diagram using software,,2023-09-11 18:33:58.002 +1000,2023-09-11 18:38:03.251 +1000
-3,QUAVIDA,"The QUAVIDA synergy: quaternary fire, vegetation and climate change in Australasia",Rowe et al. (2007). DOI: https://doi.org/10.1016/j.quaint.2007.04.001,2023-09-11 18:33:58.002 +1000,2023-10-10 18:15:58.030 +1100
-4,Paleofire database,Digitised data sourced from the Global Paleofire Database or Neotoma Paleoecology Database,,2023-09-11 18:33:58.002 +1000,2023-09-11 18:37:26.293 +1000
-5,Optical approximation,,,2023-09-11 18:33:58.002 +1000,2023-09-11 18:37:15.126 +1000
-6,Other,,,2023-09-11 18:33:58.002 +1000,
-7,AHGF [BOM],Data fetched from Australian Hydrological Geospatial Fabric (Geofabric) [Bureau of Meteorology],http://www.opengis.net/wfs/2.0 http://geofabric.bom.gov.au:80/simplefeatures/schemas/wfs/2.0/wfs.xsd,2023-10-10 18:03:08.621 +1100,2023-10-10 18:05:42.416 +1100
-8,neotoma_IPPD,Neotoma db constituent Indo-Pacific Pollen Database,https://www.neotomadb.org/data/constituent-databases,2023-10-10 18:15:00.524 +1100,2023-10-10 18:16:21.560 +1100
-9,OCTOPUS,Feature created by OCTOPUS database,https://github.com/orgs/octopus-db/,2023-11-21 00:34:20.178 +1100,2023-11-21 00:34:20.178 +1100
+DATASRCID,DATASOURCE,DATASRCDSC,DATASRCREF
+-9999,ND,no data,
+1,Author,Author provided data,
+2,Digitised,Data digitised from diagram using software,
+3,QUAVIDA,"The QUAVIDA synergy: quaternary fire, vegetation and climate change in Australasia",Rowe et al. (2007). DOI: https://doi.org/10.1016/j.quaint.2007.04.001
+4,Paleofire database,Digitised data sourced from the Global Paleofire Database or Neotoma Paleoecology Database,
+5,Optical approximation,,
+6,Other,,
+7,AHGF [BOM],Data fetched from Australian Hydrological Geospatial Fabric (Geofabric) [Bureau of Meteorology],http://www.opengis.net/wfs/2.0 http://geofabric.bom.gov.au:80/simplefeatures/schemas/wfs/2.0/wfs.xsd
+8,neotoma_IPPD,Neotoma db constituent Indo-Pacific Pollen Database,https://www.neotomadb.org/data/constituent-databases
+9,OCTOPUS,Feature created by OCTOPUS database,https://github.com/orgs/octopus-db/
+10,Neotoma,Neotoma database,https://www.neotomadb.org/

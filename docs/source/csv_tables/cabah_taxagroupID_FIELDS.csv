@@ -1,0 +1,57 @@
+TAXAGRPID,TAXAGROUP,TXAGRPHDLE,TXAGRPSRC
+-9999,no data,ND,
+1,Acritarchs,ACR,10
+2,Algae,ALG,10
+3,Ambiguous names,AMB,10
+4,Annelids,ANL,10
+5,Animals undiff.,ANM,10
+6,Aquatic parameters,AQU,10
+7,Arthropods undiff.,ART,10
+8,Birds,AVE,10
+9,Biometric variables,BIM,10
+10,Brachiopods,BRC,10
+11,Bryophytes,BRY,10
+12,Bryozoa,BRZ,10
+13,Organic carbon,CAR,10
+14,Chemical substance,CHM,10
+15,Chromista,CHO,10
+16,Charcoal,CHR,10
+17,Cnidaria,CNI,10
+18,Crustaceans undiff.,CRU,10
+19,Diatoms,DIA,10
+20,Dinoflagellates,DIN,10
+21,Sedimentary ancient DNA,DNA,10
+22,Echinoderms,ECH,10
+23,Eukaryota,EUK,10
+24,Flatworms,FLT,10
+25,Foraminifera,FOR,10
+26,Fish,FSH,10
+27,Fungi,FUN,10
+28,Geochemistry,GCH,10
+29,Reptiles and amphibians,HRP,10
+30,Insects,INS,10
+31,Invertebrates undiff.,INV,10
+32,Stable isotopes,ISO,10
+33,Laboratory analyses,LAB,10
+34,Loss-on-ignition,LOI,10
+35,Paleomagnetics,MAG,10
+36,Mammals,MAM,10
+37,Macroinvertebrates,MIV,10
+38,Molluscs,MOL,10
+39,Nematodes,NEM,10
+40,Ostracode,OST,10
+41,Phytolith,PHT,10
+42,Physical variables,PHY,10
+43,Plants undiff.,PLA,10
+44,Prokaryota,PRK,10
+45,Protista undiff.,PRO,10
+46,Protozoa,PRZ,10
+47,Rotifers,ROT,10
+48,Physical sedimentology,SED,10
+49,Silicoflagellates,SIL,10
+50,Sponges,SPO,10
+51,Testate amoebae,TES,10
+52,Unidentified palynomorphs,UPA,10
+53,Vertebrates undiff.,VER,10
+54,Vascular plants,VPL,10
+55,Water chemistry,WCH,10

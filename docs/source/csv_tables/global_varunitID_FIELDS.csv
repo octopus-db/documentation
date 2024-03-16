@@ -1,7 +1,7 @@
 V_UNITID,V_UNITABBR,V_UNITNAME,PARENTID
 -9999,ND,no data,-9999
-1,quant,quantity,1
-2,qual,quality,2
+1,quantity,quantity,1
+2,quality,quality,2
 3,length,lenght (indet.),1
 4,area,area (indet.),1
 5,volume,volume (indet.),1
@@ -175,12 +175,12 @@ V_UNITID,V_UNITABBR,V_UNITNAME,PARENTID
 173,% dry weight,,15
 174,% of pollen sum,,15
 175,% of tot org,% of total organic fraction,15
-176,C:P,charcoal:pollen ratio,38
+176,charcoal:pollen ratio,charcoal:pollen ratio,38
 177,area:pollen,area:pollen ratio,38
-178,% BC,% black carbon,15
+178,% black carbon,% black carbon,15
 180,other,other,180
 181,ordinal,ordinal scale,2
-182,char:Lycopodium,char:Lycopodium ratio,38
+182,charcoal:Lycopodium ratio,charcoal:Lycopodium ratio,38
 183,pts(1k grns/g),point count(1000 grains per gram),17
 184,cm^2/cm^2/yr,,15
 185,frags/g/yr,,39
@@ -191,3 +191,5 @@ V_UNITID,V_UNITABBR,V_UNITNAME,PARENTID
 190,mm^2/cm^2/yr,,15
 191,mm^2/g,,15
 193,age,age,193
+194,n/ml,number per ml,9
+195,% dig,percent digitised,45
