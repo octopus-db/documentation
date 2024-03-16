@@ -104,7 +104,7 @@ global_varunitID fields
    :file: ./csv_tables/global_varunitID_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202312131505.csv>`_ |:chipmunk:|
+| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202403141212.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_varunitID` variable specs)
 
 ..  _global_RefCore_Fields:
@@ -317,7 +317,7 @@ cabah_datasourceID fields
    :file: ./csv_tables/cabah_datasourceID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202311211134.csv>`_ |:chipmunk:|
+| The latest *cabah_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202403120935.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_datasourceID` variable specs)
 
 ..  _cabah_depositID_Fields:
