@@ -659,7 +659,7 @@ The *cabah_depositID* table stores the **type of deposit sampled**. *cabah_depos
 
 cabah_ecolgroupID table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *cabah_ecolgroupID* is a Neotoma-derived lookup table serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups), stores **ecological groups** that facilitate subsequent data handling … *Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing taxa*
+The *cabah_ecolgroupID* table is a Neotoma-derived lookup table that serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups), stores **ecological groups** that facilitate subsequent data handling … *Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing taxa* …
 
 .. csv-table::
    :file: ./csv_tables/cabah_ecolgroupID.csv
@@ -673,6 +673,21 @@ The *cabah_ecolgroupID* is a Neotoma-derived lookup table serves compilations de
 
 * ECOGRPSRC -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
 
+..  _cabah_elementtypeID:
+
+cabah_elementtypeID table
+^^^^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_elementtypeID* table is a Neotoma-derived lookup table that serves compilations dealing with taxa, e.g. IPPD. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements), stores **variable elements** … *The element, part, or organ of the taxon identified. For plants, these include pollen, spores, and various macrofossil organs, such as «seed», «twig», «cone», and «cone bract»* …
+
+.. csv-table::
+   :file: ./csv_tables/cabah_elementtypeID.csv
+   :header-rows: 1
+
+* ELEMTYPEID -- A unique identifier (auto-incrementing serial integer)
+
+* ELEMENTYPE -- Name of element type. For available values refer to :ref:`cabah_elementtypeID_Fields`
+
+* ELMTSOURCE -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
 
 ..  _cabah_flowtypeID:
 

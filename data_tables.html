@@ -88,6 +88,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#cabah-datasourceid-table">cabah_datasourceID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-depositid-table">cabah_depositID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-ecolgroupid-table">cabah_ecolgroupID table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cabah-elementtypeid-table">cabah_elementtypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-flowtypeid-table">cabah_flowtypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-methodid-table">cabah_methodID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-unittypeid-table">cabah_unittypeID table</a></li>
@@ -2091,7 +2092,7 @@
 </div>
 <div class="section" id="cabah-ecolgroupid-table">
 <span id="cabah-ecolgroupid"></span><h4>cabah_ecolgroupID table<a class="headerlink" href="#cabah-ecolgroupid-table" title="Permalink to this heading"></a></h4>
-<p>The <em>cabah_ecolgroupID</em> is a Neotoma-derived lookup table serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups</a>), stores <strong>ecological groups</strong> that facilitate subsequent data handling … <em>Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing taxa</em></p>
+<p>The <em>cabah_ecolgroupID</em> table is a Neotoma-derived lookup table that serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups</a>), stores <strong>ecological groups</strong> that facilitate subsequent data handling … <em>Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing taxa</em> …</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2140,6 +2141,52 @@
 <li><p>ECOLGROUP – Name of ecological group. For available values refer to <span class="xref std std-ref">cabah_ecolgroupID_Fields</span></p></li>
 <li><p>ECOGRPHNDL – Four(4)-char ecological group handle (capitals, unique). For available values refer to <span class="xref std std-ref">cabah_ecolgroupID_Fields</span></p></li>
 <li><p>ECOGRPSRC – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="cabah-elementtypeid-table">
+<span id="cabah-elementtypeid"></span><h4>cabah_elementtypeID table<a class="headerlink" href="#cabah-elementtypeid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>cabah_elementtypeID</em> table is a Neotoma-derived lookup table that serves compilations dealing with taxa, e.g. IPPD. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements</a>), stores <strong>variable elements</strong> … <em>The element, part, or organ of the taxon identified. For plants, these include pollen, spores, and various macrofossil organs, such as «seed», «twig», «cone», and «cone bract»</em> …</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ELEMTYPEID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ELEMENTYPE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>ELMTSOURCE</p></td>
+<td><p>text</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>ELEMTYPEID – A unique identifier (auto-incrementing serial integer)</p></li>
+<li><p>ELEMENTYPE – Name of element type. For available values refer to <span class="xref std std-ref">cabah_elementtypeID_Fields</span></p></li>
+<li><p>ELMTSOURCE – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="cabah-flowtypeid-table">
