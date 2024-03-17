@@ -95,6 +95,8 @@ global_rivID fields
 
    The *global_rivID* table only applies to samples from Australia.
 
+..  _global_datasettypeID_Fields:
+
 global_datasettypeID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -342,6 +344,8 @@ cabah_depositID fields
 | The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202311151744.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_depositID` variable specs)
 
+..  _cabah_ecolgroupID_Fields:
+
 cabah_ecolgroupID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -351,6 +355,8 @@ cabah_ecolgroupID fields
 
 | The latest *cabah_ecolgroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_ecolgroupID__202403151250.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_ecolgroupID` variable specs)
+
+..  _cabah_elementtypeID_Fields:
 
 cabah_elementtypeID fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -386,6 +392,8 @@ cabah_methodID fields
 | Classification and selection of methods on the basis of Geyh (2005) and Walker (2005).
 | The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202311211545.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_methodID` variable specs)
+
+..  _cabah_taxagroupID_Fields:
 
 cabah_taxagroupID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
