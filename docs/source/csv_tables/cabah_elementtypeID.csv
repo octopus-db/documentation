@@ -1,0 +1,4 @@
+﻿Field,Data type,Key,Not Null,Parent
+ELEMTYPEID,serial4,pkey,TRUE,
+ELEMENTYPE,text,,TRUE,
+ELMTSOURCE,text,fkey,,:ref:`cabah_datasourceID_Fields`

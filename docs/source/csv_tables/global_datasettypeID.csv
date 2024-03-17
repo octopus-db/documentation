@@ -1,0 +1,4 @@
+﻿Field,Data type,Key,Not Null,Parent
+DSETTYPEID,serial4,pkey,TRUE,
+DSETTYPE,text,,TRUE,
+DSTYPNOTE,text,,,

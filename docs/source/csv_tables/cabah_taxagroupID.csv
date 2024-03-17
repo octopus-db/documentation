@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+TAXAGRPID,serial4,pkey,TRUE,
+TAXAGROUP,text,,TRUE,
+TXAGRPHDLE,varchar(3):p,ukey,TRUE,
+TXAGRPSRC,int2,fkey,,:ref:`cabah_datasourceID_Fields`
