@@ -10,7 +10,7 @@ Global parent tables
 ..  _global_GrainSize_Fields:
 
 global_GrainSize fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_GrainSize_FIELDS.csv
@@ -23,7 +23,7 @@ global_GrainSize fields
 ..  _global_SiteCode_Fields:
 
 global_SiteCode fields
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_SiteCode_FIELDS.csv
@@ -39,7 +39,7 @@ global_SiteCode fields
 ..  _global_biomeID_Fields:
 
 global_UnitMaster fields
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_UnitMaster_FIELDS_trunc.csv
@@ -51,7 +51,7 @@ global_UnitMaster fields
 ..  _global_biomeID_Fields:
 
 global_biomeID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_biomeID_FIELDS.csv
@@ -64,7 +64,7 @@ global_biomeID fields
 ..  _global_ibraID_Fields:
 
 global_ibraID fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_ibraID_FIELDS_trunc.csv
@@ -78,10 +78,10 @@ global_ibraID fields
 
    The *global_ibraID* table only applies to samples from Australia.
 
-..  _global_rivID_Fields:
+..  _global_rividID_Fields:
 
 global_rivID fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_rivID_FIELDS_trunc.csv
@@ -95,10 +95,20 @@ global_rivID fields
 
    The *global_rivID* table only applies to samples from Australia.
 
+global_datasettypeID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_datasettypeID_FIELDS.csv
+   :header-rows: 1
+
+| The latest *global_datasettypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_datasettypeID__202403121134.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_datasettypeID` variable specs)
+
 ..  _global_varunitID_Fields:
 
 global_varunitID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_varunitID_FIELDS.csv
@@ -110,7 +120,7 @@ global_varunitID fields
 ..  _global_RefCore_Fields:
 
 global_RefCore fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 | The latest *global_RefCore* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202403111606.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefCore` variable specs)
@@ -118,7 +128,7 @@ global_RefCore fields
 ..  _global_RefAbstract_Fields:
 
 global_RefAbstract fields
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 | The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202403010933.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
@@ -126,7 +136,7 @@ global_RefAbstract fields
 ..  _global_Author_Fields:
 
 global_Author fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
@@ -138,7 +148,7 @@ global_Author fields
 ..  _global_Journal_Fields:
 
 global_Journal fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_Journal_FIELDS_trunc.csv
@@ -150,7 +160,7 @@ global_Journal fields
 ..  _global_PubType_Fields:
 
 global_PubType fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/global_PubType_FIELDS.csv
@@ -201,7 +211,7 @@ Regional parent tables
 ..  _cabah_LabCodes_Fields:
 
 cabah_LabCodes fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
@@ -213,7 +223,7 @@ cabah_LabCodes fields
 ..  _cabah_agetypeID_Fields:
 
 cabah_agetypeID fields
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_agetypeID_FIELDS.csv
@@ -225,7 +235,7 @@ cabah_agetypeID fields
 ..  _cabah_basinsizeID_Fields:
 
 cabah_basinsizeID fields
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_basinsizeID_FIELDS.csv
@@ -237,7 +247,7 @@ cabah_basinsizeID fields
 ..  _cabah_catchmentsizeID_Fields:
 
 cabah_catchmentsizeID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_catchmentsizeID_FIELDS.csv
@@ -249,7 +259,7 @@ cabah_catchmentsizeID fields
 ..  _cabah_charmethodID_Fields:
 
 cabah_charmethodID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_charmethodID_FIELDS.csv
@@ -261,7 +271,7 @@ cabah_charmethodID fields
 ..  _cabah_chemprepID_Fields:
 
 cabah_chemprepID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_chemprepID_FIELDS.csv
@@ -299,7 +309,7 @@ cabah_chemprepID fields
 ..  _cabah_col_mtdID_Fields:
 
 cabah_col_mtdID fields
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_col_mtdID_FIELDS.csv
@@ -311,7 +321,7 @@ cabah_col_mtdID fields
 ..  _cabah_datasourceID_Fields:
 
 cabah_datasourceID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_datasourceID_FIELDS.csv
@@ -323,7 +333,7 @@ cabah_datasourceID fields
 ..  _cabah_depositID_Fields:
 
 cabah_depositID fields
-~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_depositID_FIELDS.csv
@@ -332,10 +342,30 @@ cabah_depositID fields
 | The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202311151744.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_depositID` variable specs)
 
+cabah_ecolgroupID fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_ecolgroupID_FIELDS.csv
+   :header-rows: 1
+
+| The latest *cabah_ecolgroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_ecolgroupID__202403151250.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_ecolgroupID` variable specs)
+
+cabah_elementtypeID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_elementtypeID_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *cabah_elementtypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_elementtypeID__202403151250.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_elementtypeID` variable specs)
+
 ..  _cabah_flowtypeID_Fields:
 
 cabah_flowtypeID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_flowtypeID_FIELDS.csv
@@ -347,7 +377,7 @@ cabah_flowtypeID fields
 ..  _cabah_methodID_Fields:
 
 cabah_methodID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_methodID_FIELDS.csv
@@ -357,10 +387,20 @@ cabah_methodID fields
 | The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202311211545.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_methodID` variable specs)
 
+cabah_taxagroupID fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_taxagroupID_FIELDS.csv
+   :header-rows: 1
+
+| The latest *cabah_taxagroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_taxagroupID__202403151250.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_taxagroupID` variable specs)
+
 ..  _cabah_unittypeID_Fields:
 
 cabah_unittypeID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/cabah_unittypeID_FIELDS.csv
@@ -372,7 +412,7 @@ cabah_unittypeID fields
 ..  _c14_calcurve_Fields:
 
 c14_calcurve fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_calcurve_FIELDS.csv
@@ -384,7 +424,7 @@ c14_calcurve fields
 ..  _c14_calprogram_Fields:
 
 c14_calprogram fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_calprogram_FIELDS_trunc.csv
@@ -404,7 +444,7 @@ Local parent tables
 ..  _crn_alstndID_Fields:
 
 crn_alstndID fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 ======== ====== ================== ====== ==========
 ALSTNDID ALSTND ALSTND_PUB         ALCORR ALSTNDRTIO
@@ -457,7 +497,7 @@ Values for crn_alstndID."ALSTNDCOMT" field as follows ...
 ..  _crn_amsID_Fields:
 
 crn_amsID fields
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 +-------+------------------------+-----------------------------+
 | AMSID | AMS                    | AMSORG                      |
@@ -624,7 +664,7 @@ Values for crn_amsID."AMSURL" field as follows ...
 ..  _crn_projepsgID_Fields:
 
 crn_projepsgID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/crn_projepsgID_FIELDS_trunc.csv
@@ -636,7 +676,7 @@ crn_projepsgID fields
 ..  _crn_bestndID_Fields:
 
 crn_bestndID fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 ======== ============== ====================== ====== ==========
 BESTNDID BESTND         BESTND_PUB             BECORR BESTNDRTIO
@@ -743,7 +783,7 @@ Values for crn_bestndID."BESTNDCOMT" as follows ...
 ..  _arch_featdatedID_Fields:
 
 arch_featdatedID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/arch_featdatedID_FIELDS.csv
@@ -755,7 +795,7 @@ arch_featdatedID fields
 ..  _c13_valID_Fields:
 
 c13_valID fields
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c13_valID_FIELDS.csv
@@ -767,7 +807,7 @@ c13_valID fields
 ..  _c14_contamID_Fields:
 
 c14_contamID fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_contamID_FIELDS.csv
@@ -779,7 +819,7 @@ c14_contamID fields
 ..  _c14_hum_modID_Fields:
 
 c14_hum_modID fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_hum_modID_FIELDS.csv
@@ -791,7 +831,7 @@ c14_hum_modID fields
 ..  _c14_materia1ID_Fields:
 
 c14_materia1ID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_materia1ID_FIELDS.csv
@@ -803,7 +843,7 @@ c14_materia1ID fields
 ..  _c14_materia2ID_Fields:
 
 c14_materia2ID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_materia2ID_FIELDS.csv
@@ -815,7 +855,7 @@ c14_materia2ID fields
 ..  _c14_solvent2ID_Fields:
 
 c14_solvent2ID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c14_solvent2ID_FIELDS.csv
@@ -827,7 +867,7 @@ c14_solvent2ID fields
 ..  _c_mtdID_Fields:
 
 c_mtdID fields
-~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/c_mtdID_FIELDS.csv
@@ -841,7 +881,7 @@ c_mtdID fields
 ..  _osl-tl_agemodelID_Fields:
 
 osl-tl_agemodelID fields
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_agemodelID_FIELDS.csv
@@ -853,7 +893,7 @@ osl-tl_agemodelID fields
 ..  _osl-tl_ed_procID_Fields:
 
 osl-tl_ed_procID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_ed_procID_FIELDS.csv
@@ -865,7 +905,7 @@ osl-tl_ed_procID fields
 ..  _osl-tl_lum_matID_Fields:
 
 osl-tl_lum_matID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_lum_matID_FIELDS.csv
@@ -877,7 +917,7 @@ osl-tl_lum_matID fields
 ..  _osl-tl_mineralID_Fields:
 
 osl-tl_mineralID fields
-~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_mineralID_FIELDS.csv
@@ -889,7 +929,7 @@ osl-tl_mineralID fields
 ..  _osl-tl_mtdID_Fields:
 
 osl-tl_mtdID fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/osl-tl_mtdID_FIELDS.csv
@@ -901,7 +941,7 @@ osl-tl_mtdID fields
 ..  _osl_typeID_Fields:
 
 osl_typeID fields
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/osl_typeID_FIELDS.csv
@@ -915,7 +955,7 @@ osl_typeID fields
 ..  _sed_depconID_Fields:
 
 sed_depconID fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/sed_depconID_FIELDS.csv
@@ -927,7 +967,7 @@ sed_depconID fields
 ..  _sed_faciesID_Fields:
 
 sed_faciesID fields
-~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/sed_faciesID_FIELDS.csv
@@ -939,7 +979,7 @@ sed_faciesID fields
 ..  _sed_geommodID_Fields:
 
 sed_geommodID fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/sed_geommodID_FIELDS.csv
@@ -951,7 +991,7 @@ sed_geommodID fields
 ..  _sed_geotypeID_Fields:
 
 sed_geotypeID fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/sed_geotypeID_FIELDS.csv
@@ -963,7 +1003,7 @@ sed_geotypeID fields
 ..  _sed_laketypeID_Fields:
 
 sed_laketypeID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/sed_laketypeID_FIELDS.csv
@@ -975,7 +1015,7 @@ sed_laketypeID fields
 ..  _sed_morphID_Fields:
 
 sed_morphID fields
-~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/sed_morphID_FIELDS.csv
@@ -987,7 +1027,7 @@ sed_morphID fields
 ..  _sed_sitetypeID_Fields:
 
 sed_sitetypeID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/sed_sitetypeID_FIELDS.csv
@@ -1001,7 +1041,7 @@ sed_sitetypeID fields
 ..  _fos_TaxRank1_classID_Fields:
 
 fos_TaxRank1_classID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_TaxRank1_classID_FIELDS.csv
@@ -1012,7 +1052,7 @@ fos_TaxRank1_classID fields
 ..  _fos_TaxRank2_infraclaID_Fields:
 
 fos_TaxRank2_infraclaID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_TaxRank2_infraclaID_FIELDS_trunc.csv
@@ -1024,7 +1064,7 @@ fos_TaxRank2_infraclaID fields
 ..  _fos_TaxRank3_ordrID_Fields:
 
 fos_TaxRank3_ordrID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_TaxRank3_ordrID_FIELDS_trunc.csv
@@ -1036,7 +1076,7 @@ fos_TaxRank3_ordrID fields
 ..  _fos_TaxRank4_familyID_Fields:
 
 fos_TaxRank4_familyID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_TaxRank4_familyID_FIELDS_trunc.csv
@@ -1048,7 +1088,7 @@ fos_TaxRank4_familyID fields
 ..  _fos_TaxRank5_genusID_Fields:
 
 fos_TaxRank5_genusID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_TaxRank5_genusID_FIELDS_trunc.csv
@@ -1060,7 +1100,7 @@ fos_TaxRank5_genusID fields
 ..  _fos_TaxRank6_speciesID_Fields:
 
 fos_TaxRank6_speciesID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_TaxRank6_speciesID_FIELDS_trunc.csv
@@ -1072,7 +1112,7 @@ fos_TaxRank6_speciesID fields
 ..  _fos_chemtypeID_Fields:
 
 fos_chemtypeID fields
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_chemtypeID_FIELDS.csv
@@ -1084,7 +1124,7 @@ fos_chemtypeID fields
 ..  _fos_fosmat1ID_Fields:
 
 fos_fosmat1ID fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_fosmat1ID_FIELDS.csv
@@ -1096,7 +1136,7 @@ fos_fosmat1ID fields
 ..  _fos_fosmat2ID_Fields:
 
 fos_fosmat2ID fields
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_fosmat2ID_FIELDS.csv
@@ -1108,7 +1148,7 @@ fos_fosmat2ID fields
 ..  _fos_mtdsID_Fields:
 
 fos_mtdsID fields
-~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/fos_mtdsID_FIELDS.csv
