@@ -87,6 +87,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#cabah-col-mtdid-table">cabah_col_mtdID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-datasourceid-table">cabah_datasourceID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-depositid-table">cabah_depositID table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cabah-ecolgroupid-table">cabah_ecolgroupID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-flowtypeid-table">cabah_flowtypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-methodid-table">cabah_methodID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-unittypeid-table">cabah_unittypeID table</a></li>
@@ -2086,6 +2087,16 @@
 <li><p>DEPOSIT – Unique deposit abbreviation. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-depositid-fields"><span class="std std-ref">cabah_depositID fields</span></a></p></li>
 <li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “DEPOSITID”</p></li>
 <li><p>DEPOSITDSC – “DEPOSITID” description. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-depositid-fields"><span class="std std-ref">cabah_depositID fields</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="cabah-ecolgroupid-table">
+<span id="cabah-ecolgroupid"></span><h4>cabah_ecolgroupID table<a class="headerlink" href="#cabah-ecolgroupid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>cabah_ecolgroupID</em> is a Neotoma-derived lookup table serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups</a>), stores <strong>ecological groups</strong> that facilitate subsequent data handling … _Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing <a href="#id30"><span class="problematic" id="id31">taxa_</span></a></p>
+<ul class="simple">
+<li><p>ECOGROUPID – A unique identifier (auto-incrementing serial integer)</p></li>
+<li><p>ECOLGROUP – Name of ecological group. For available values refer to <span class="xref std std-ref">cabah_ecolgroupID_Fields</span></p></li>
+<li><p>ECOGRPHNDL – Four(4)-char ecological group handle (capitals, unique). For available values refer to <span class="xref std std-ref">cabah_ecolgroupID_Fields</span></p></li>
+<li><p>ECOGRPSRC – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="cabah-flowtypeid-table">
