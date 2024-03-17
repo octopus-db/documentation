@@ -61,6 +61,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-biomeid-table">global_biomeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-ibraid-table">global_ibraID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-rivid-table">global_rivID table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#global-datasettypeid-table">global_datasettypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#spatial-ref-sys-table">spatial_ref_sys table</a></li>
 </ul>
 </li>
@@ -1084,6 +1085,52 @@
 <p class="admonition-title">Important</p>
 <p>The global_rivID table only applies to samples from Australia.</p>
 </div>
+</div>
+<div class="section" id="global-datasettypeid-table">
+<span id="global-datasettypeid"></span><h4>global_datasettypeID table<a class="headerlink" href="#global-datasettypeid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>global_datasettypeID</em> table stores <strong>dataset types</strong>, e.g., pollen. To facilitate data migration where necessary, table structure, primary keys and content resemble Neotoma’s datasettypes table.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>DSETTYPEID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>DSETTYPE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>DSTYPNOTE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>DSETTYPEID – A unique identifier (auto-incrementing serial integer)</p></li>
+<li><p>DSETTYPE – Name of dataset type. For available values refer to <span class="xref std std-ref">global_datasettypeID_Fields</span></p></li>
+<li><p>DSTYPNOTE – Free text dataset note field</p></li>
+</ul>
 </div>
 <div class="section" id="spatial-ref-sys-table">
 <span id="spatial-ref-sys"></span><h4>spatial_ref_sys table<a class="headerlink" href="#spatial-ref-sys-table" title="Permalink to this heading"></a></h4>
@@ -2184,8 +2231,9 @@
 </tr>
 </tbody>
 </table>
+<p>DSETTYPEIDDSETTYPEID
+* ELEMTYPEID – A unique identifier (auto-incrementing serial integer)</p>
 <ul class="simple">
-<li><p>ELEMTYPEID – A unique identifier (auto-incrementing serial integer)</p></li>
 <li><p>ELEMENTYPE – Name of element type. For available values refer to <span class="xref std std-ref">cabah_elementtypeID_Fields</span></p></li>
 <li><p>ELMTSOURCE – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></li>
 </ul>
@@ -2346,7 +2394,7 @@
 <li><p>TAXAGRPID – A unique identifier (auto-incrementing serial integer)</p></li>
 <li><p>TAXAGROUP – Name of taxa group. For available values refer to <span class="xref std std-ref">cabah_taxagroupID_Fields</span></p></li>
 <li><p>TXAGRPHDLE – Three(3)-char taxa group handle (capitals, unique). For available values refer to <span class="xref std std-ref">cabah_taxagroupID_Fields</span></p></li>
-<li><p>ELMTSOURCE – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></li>
+<li><p>TXAGRPSRC – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="cabah-unittypeid-table">

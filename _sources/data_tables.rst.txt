@@ -287,6 +287,22 @@ The *global_rivID* table stores the **Geofabric AHGF river name/region code** (h
 
     The global_rivID table only applies to samples from Australia.
 
+..  _global_datasettypeID:
+
+global_datasettypeID table
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *global_datasettypeID* table stores **dataset types**, e.g., pollen. To facilitate data migration where necessary, table structure, primary keys and content resemble Neotoma’s datasettypes table.
+
+.. csv-table::
+   :file: ./csv_tables/global_datasettypeID.csv
+   :header-rows: 1
+
+* DSETTYPEID -- A unique identifier (auto-incrementing serial integer)
+
+* DSETTYPE -- Name of dataset type. For available values refer to :ref:`global_datasettypeID_Fields`
+
+* DSTYPNOTE -- Free text dataset note field
+
 ..  _spatial_ref_sys:
 
 spatial_ref_sys table
@@ -682,7 +698,7 @@ The *cabah_elementtypeID* table is a Neotoma-derived lookup table that serves co
 .. csv-table::
    :file: ./csv_tables/cabah_elementtypeID.csv
    :header-rows: 1
-
+DSETTYPEIDDSETTYPEID
 * ELEMTYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * ELEMENTYPE -- Name of element type. For available values refer to :ref:`cabah_elementtypeID_Fields`
@@ -741,7 +757,7 @@ The *cabah_taxagroupID* table is a Neotoma-derived lookup table for compilations
 
 * TXAGRPHDLE -- Three(3)-char taxa group handle (capitals, unique). For available values refer to :ref:`cabah_taxagroupID_Fields`
 
-* ELMTSOURCE -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
+* TXAGRPSRC -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
 
 ..  _cabah_unittypeID:
 
