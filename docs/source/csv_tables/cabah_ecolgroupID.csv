@@ -1,0 +1,5 @@
+﻿Field,Data type,Key,Not Null,Parent
+ECOGROUPID,serial4,pkey,TRUE,
+ECOLGROUP,text,,TRUE,
+ECOGRPHNDL,varchar(4):p,ukey,TRUE,
+ECOGRPSRC,text,fkey,,ref:`cabah_datasourceID_Fields`
