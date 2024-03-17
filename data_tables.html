@@ -2091,7 +2091,50 @@
 </div>
 <div class="section" id="cabah-ecolgroupid-table">
 <span id="cabah-ecolgroupid"></span><h4>cabah_ecolgroupID table<a class="headerlink" href="#cabah-ecolgroupid-table" title="Permalink to this heading"></a></h4>
-<p>The <em>cabah_ecolgroupID</em> is a Neotoma-derived lookup table serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups</a>), stores <strong>ecological groups</strong> that facilitate subsequent data handling … _Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing <a href="#id30"><span class="problematic" id="id31">taxa_</span></a></p>
+<p>The <em>cabah_ecolgroupID</em> is a Neotoma-derived lookup table serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups</a>), stores <strong>ecological groups</strong> that facilitate subsequent data handling … <em>Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing taxa</em></p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ECOGROUPID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ECOLGROUP</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>ECOGRPHNDL</p></td>
+<td><p>varchar(4):p</p></td>
+<td><p>ukey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ECOGRPSRC</p></td>
+<td><p>text</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p>ref:<cite>cabah_datasourceID_Fields</cite></p></td>
+</tr>
+</tbody>
+</table>
 <ul class="simple">
 <li><p>ECOGROUPID – A unique identifier (auto-incrementing serial integer)</p></li>
 <li><p>ECOLGROUP – Name of ecological group. For available values refer to <span class="xref std std-ref">cabah_ecolgroupID_Fields</span></p></li>
