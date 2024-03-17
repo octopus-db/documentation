@@ -655,6 +655,25 @@ The *cabah_depositID* table stores the **type of deposit sampled**. *cabah_depos
 
 * DEPOSITDSC -- "DEPOSITID" description. For available values refer to :ref:`cabah_depositID_Fields`
 
+..  _cabah_ecolgroupID:
+
+cabah_ecolgroupID table
+^^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_ecolgroupID* is a Neotoma-derived lookup table serves compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#ecolgroups), stores **ecological groups** that facilitate subsequent data handling … _Taxa are assigned to Sets of Ecological Groups. A taxon may be assigned to more than one Set of Ecological Groups, representing different schemes for organizing taxa_
+
+.. csv-table::
+   :file: ./csv_tables/cabah_ecolgroupID.csv
+   :header-rows: 1
+
+* ECOGROUPID -- A unique identifier (auto-incrementing serial integer)
+
+* ECOLGROUP -- Name of ecological group. For available values refer to :ref:`cabah_ecolgroupID_Fields`
+
+* ECOGRPHNDL -- Four(4)-char ecological group handle (capitals, unique). For available values refer to :ref:`cabah_ecolgroupID_Fields`
+
+* ECOGRPSRC -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
+
+
 ..  _cabah_flowtypeID:
 
 cabah_flowtypeID table
