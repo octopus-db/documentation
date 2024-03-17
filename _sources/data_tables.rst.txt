@@ -725,6 +725,24 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 * METHODREF -- Basic method literature reference
 
+..  _cabah_taxagroupID:
+
+cabah_taxagroupID table
+^^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_taxagroupID* table is a Neotoma-derived lookup table for compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa), stores **taxa groups** … *The TaxaGroupID facilitates rapid extraction of taxa groups that are typically grouped together for analysis. Some of these groups contain taxa in different classes or phyla* …
+
+.. csv-table::
+   :file: ./csv_tables/cabah_taxagroupID.csv
+   :header-rows: 1
+
+* TAXAGRPID -- A unique identifier (auto-incrementing serial integer)
+
+* TAXAGROUP -- Name of taxa group. For available values refer to :ref:`cabah_taxagroupID_Fields`
+
+* TXAGRPHDLE -- Three(3)-char taxa group handle (capitals, unique). For available values refer to :ref:`cabah_taxagroupID_Fields`
+
+* ELMTSOURCE -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
+
 ..  _cabah_unittypeID:
 
 cabah_unittypeID table

@@ -91,6 +91,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#cabah-elementtypeid-table">cabah_elementtypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-flowtypeid-table">cabah_flowtypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-methodid-table">cabah_methodID table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cabah-taxagroupid-table">cabah_taxagroupID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-unittypeid-table">cabah_unittypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#c14-calcurve-table">c14_calcurve table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#c14-calprogram-table">c14_calprogram table</a></li>
@@ -2293,6 +2294,59 @@
 <li><p>METHODABBR – For available values refer to <a class="reference internal" href="parent_tables.html#cabah-methodid-fields"><span class="std std-ref">cabah_methodID fields</span></a></p></li>
 <li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “METHODID”</p></li>
 <li><p>METHODREF – Basic method literature reference</p></li>
+</ul>
+</div>
+<div class="section" id="cabah-taxagroupid-table">
+<span id="cabah-taxagroupid"></span><h4>cabah_taxagroupID table<a class="headerlink" href="#cabah-taxagroupid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>cabah_taxagroupID</em> table is a Neotoma-derived lookup table for compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa</a>), stores <strong>taxa groups</strong> … <em>The TaxaGroupID facilitates rapid extraction of taxa groups that are typically grouped together for analysis. Some of these groups contain taxa in different classes or phyla</em> …</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>TAXAGRPID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXAGROUP</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>TXAGRPHDLE</p></td>
+<td><p>varchar(3):p</p></td>
+<td><p>ukey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TXAGRPSRC</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>TAXAGRPID – A unique identifier (auto-incrementing serial integer)</p></li>
+<li><p>TAXAGROUP – Name of taxa group. For available values refer to <span class="xref std std-ref">cabah_taxagroupID_Fields</span></p></li>
+<li><p>TXAGRPHDLE – Three(3)-char taxa group handle (capitals, unique). For available values refer to <span class="xref std std-ref">cabah_taxagroupID_Fields</span></p></li>
+<li><p>ELMTSOURCE – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="cabah-unittypeid-table">
