@@ -898,6 +898,13 @@
 <td><p>TRUE</p></td>
 <td><p><a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a></p></td>
 </tr>
+<tr class="row-even"><td><p>NEO_UNITID</p></td>
+<td><p>int4</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <ul class="simple">
@@ -917,6 +924,7 @@
 <li><p>IS_IPPD – Is this collection unit part of the IPPD collection?</p></li>
 <li><p>IS_NEOTOMA – Is this collection unit part of Neotoma db?</p></li>
 <li><p>UNIT_REF – Primary collection unit reference. Is fkey. For available values refer to <a class="reference internal" href="#global-refcore"><span class="std std-ref">global_RefCore table</span></a> table</p></li>
+<li><p>NEO_UNITID – Is Neotoma collection unit ID, serving inter-db data migration, connectivity and integrity (must never be altered nor removed)</p></li>
 </ul>
 </div>
 <div class="section" id="global-biomeid-table">
