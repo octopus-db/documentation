@@ -225,6 +225,8 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 
 * UNIT_REF -- Primary collection unit reference. Is fkey. For available values refer to :ref:`global_RefCore` table
 
+* NEO_UNITID -- Is Neotoma collection unit ID, serving inter-db data migration, connectivity and integrity (must never be altered nor removed)
+
 ..  _global_biomeID:
 
 global_biomeID table
