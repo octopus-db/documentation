@@ -13,6 +13,15 @@ To provide feedback about the data collections, to contribute, or to request mor
 A brief OCTOPUS database history
 --------------------------------
 
+..  _db-history_2024:
+2024
+^^^^
+* Major update on :ref:`CRN`
+
+* SahulChar release
+
+* IPPD release 
+
 ..  _db-history_2023:
 2023
 ^^^^
