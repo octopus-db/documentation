@@ -79,6 +79,7 @@
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#regional-tables">Regional tables</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#non-cosmogenics-tables">Non-Cosmogenics tables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cabah-analysisunit-table">cabah_AnalysisUnit table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-labcodes-table">cabah_LabCodes table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-agetypeid-table">cabah_agetypeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#cabah-basinsizeid-table">cabah_basinsizeID table</a></li>
@@ -1668,6 +1669,94 @@
 <span id="id9"></span><h2>Regional tables<a class="headerlink" href="#regional-tables" title="Permalink to this heading"></a></h2>
 <div class="section" id="non-cosmogenics-tables">
 <h3>Non-Cosmogenics tables<a class="headerlink" href="#non-cosmogenics-tables" title="Permalink to this heading"></a></h3>
+<div class="section" id="cabah-analysisunit-table">
+<span id="cabah-analysisunit"></span><h4>cabah_AnalysisUnit table<a class="headerlink" href="#cabah-analysisunit-table" title="Permalink to this heading"></a></h4>
+<p><em>cabah_AnalysisUnit</em> is a Neotoma-derived table for compilations dealing with analysis units, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#analysisunits">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#analysisunits</a>), stores <em>analysis units</em>, i.e., depth increments / bins that are considered analytical entities. Prior to db intake, this table has been filtered so it stores OCTOPUS relevant analysis units only. IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ANLYSUNTID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>NEO_UNITID</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td><p><span class="xref std std-ref">global_UnitMaster_Fields</span></p></td>
+</tr>
+<tr class="row-even"><td><p>AUIT_NAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AUIT_DEPTH</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td><p><a class="reference internal" href="parent_tables.html#cabah-depositid-fields"><span class="std std-ref">cabah_depositID fields</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>AUIT_THICK</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>FACIESID</p></td>
+<td><p>int2</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>AUIT_MIXED</p></td>
+<td><p>boolean</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AUIT_ISGN</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>AUIT_NOTES</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>ANLYSUNTID – Is the original Neotoma <em>analysisunitid</em> (= arbitrary identifier)</p></li>
+<li><p>NEO_UNITID – Is the original Neotoma <em>collectionunitid</em></p></li>
+<li><p>AUIT_NAME – Is the analysis unit name (if available)</p></li>
+<li><p>AUIT_DEPTH – ‘Optional depth of the Analysis Unit in cm. Depths are typically designated for Analysis Units from cores and for Analysis Units excavated in arbitrary (e.g. 10 cm) levels. Depths are normally the midpoints of arbitrary levels. For example, for a level excavated from 10 to 20 cm or for a core section from 10 to 15 cm, the depth is 15. Designating depths as midpoints and thicknesses facilitates calculation of ages from age models that utilize single midpoint depths for Analysis Units rather than top and bottom depths. Of course, top and bottom depths can be calculated from midpoint depths and thicknesses. For many microfossil core samples, only the midpoint depths are known or published; the diameter or width of the sampling device is often not given.’ (Neotoma db documentation; 29-04-2024)</p></li>
+<li><p>AUIT_THICK – ‘Optional thickness of the Analysis Unit in cm. For many microfossil core samples, the depths are treated as points, and the thicknesses are not given in the publications, although 0.5 to 1.0 cm would be typical.’ (Neotoma db documentation; 29-04-2024)</p></li>
+<li><p>FACIESID – Sedimentary facies of the Analysis Unit</p></li>
+<li><p>AUIT_MIXED – ‘Indicates whether specimens in the Analysis Unit are of mixed ages, for example Pleistocene fossils occurring with late Holocene fossils. Although Analysis Units may be mixed, samples from the Analysis Unit may not be, for example individually radiocarbon dated specimens.’ (Neotoma db documentation; 29-04-2024)</p></li>
+<li><p>AUIT_ISGN – Is the International Geo Sample Number (if applicable)</p></li>
+<li><p>AUIT_NOTES – Analysis unit notes</p></li>
+</ul>
+</div>
 <div class="section" id="cabah-labcodes-table">
 <span id="cabah-labcodes"></span><h4>cabah_LabCodes table<a class="headerlink" href="#cabah-labcodes-table" title="Permalink to this heading"></a></h4>
 <p>The <em>cabah_LabCodes</em> table stores information about the <strong>lab of origin</strong> for a certain C14 or luminescence observation, i.e., measurement. The labs have been identified automatically by their distinct labcode prefixes</p>

@@ -511,6 +511,35 @@ Regional tables
 Non-Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~~~~~
 
+..  _cabah_AnalysisUnit:
+
+cabah_AnalysisUnit table
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+*cabah_AnalysisUnit* is a Neotoma-derived table for compilations dealing with analysis units, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#analysisunits), stores *analysis units*, i.e., depth increments / bins that are considered analytical entities. Prior to db intake, this table has been filtered so it stores OCTOPUS relevant analysis units only. IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.
+
+.. csv-table::
+   :file: ./csv_tables/cabah_AnalysisUnit.csv
+   :header-rows: 1
+
+* ANLYSUNTID -- Is the original Neotoma *analysisunitid* (= arbitrary identifier)
+
+* NEO_UNITID -- Is the original Neotoma *collectionunitid*
+
+* AUIT_NAME -- Is the analysis unit name (if available)
+
+* AUIT_DEPTH -- 'Optional depth of the Analysis Unit in cm. Depths are typically designated for Analysis Units from cores and for Analysis Units excavated in arbitrary (e.g. 10 cm) levels. Depths are normally the midpoints of arbitrary levels. For example, for a level excavated from 10 to 20 cm or for a core section from 10 to 15 cm, the depth is 15. Designating depths as midpoints and thicknesses facilitates calculation of ages from age models that utilize single midpoint depths for Analysis Units rather than top and bottom depths. Of course, top and bottom depths can be calculated from midpoint depths and thicknesses. For many microfossil core samples, only the midpoint depths are known or published; the diameter or width of the sampling device is often not given.' (Neotoma db documentation; 29-04-2024)
+
+* AUIT_THICK -- 'Optional thickness of the Analysis Unit in cm. For many microfossil core samples, the depths are treated as points, and the thicknesses are not given in the publications, although 0.5 to 1.0 cm would be typical.' (Neotoma db documentation; 29-04-2024)
+
+* FACIESID -- Sedimentary facies of the Analysis Unit
+
+* AUIT_MIXED -- 'Indicates whether specimens in the Analysis Unit are of mixed ages, for example Pleistocene fossils occurring with late Holocene fossils. Although Analysis Units may be mixed, samples from the Analysis Unit may not be, for example individually radiocarbon dated specimens.' (Neotoma db documentation; 29-04-2024)
+
+* AUIT_ISGN -- Is the International Geo Sample Number (if applicable)
+
+* AUIT_NOTES -- Analysis unit notes
+
 ..  _cabah_LabCodes:
 
 cabah_LabCodes table
