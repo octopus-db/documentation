@@ -36,7 +36,7 @@ global_SiteCode fields
 
    The dominant attribute of a site will override any other. So, for example, burials in a rockshelter with lots of occupation deposit would be classified as a Rockshelter, not a Cemetery.
 
-..  _global_biomeID_Fields:
+..  _global_UnitMaster_Fields:
 
 global_UnitMaster fields
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -217,6 +217,18 @@ global_PubType fields
 
 Regional parent tables
 ----------------------
+
+..  _cabah_AnalysisUnit_Fields:
+
+cabah_AnalysisUnit fields
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_AnalysisUnit_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *cabah_AnalysisUnit* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_AnalysisUnit__202404291637.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_AnalysisUnit` variable specs)
 
 ..  _cabah_LabCodes_Fields:
 
