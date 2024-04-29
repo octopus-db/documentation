@@ -161,6 +161,14 @@ SahulChar is a collection of published **Charcoal / Black Carbon counts and ages
 
 ----
 
+..  _IPPD:
+
+Indo-Pacific Pollen Database -- IPPD |:desert_island:|
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Indo-Pacific Pollen Database is a collection of ... `description to come`... . Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
+
+----
+
 ..  _SahulSed:
 
 SahulSed collections |:cake:|
