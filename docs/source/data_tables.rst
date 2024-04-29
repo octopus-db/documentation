@@ -564,7 +564,7 @@ The *cabah_LabCodes* table stores information about the **lab of origin** for a 
 
 * LAB_URL -- Lab url
 
-* LAB_SOURCE -- Source of information stored in a certain tuple. Major yources are 'Radiocarbon' (https://doi.org/10.1017/S0033822200038923) and 'RadonKiel' (https://radon.ufg.uni-kiel.de/labs).
+* LAB_SOURCE -- Source of information stored in a certain tuple. Major sources are 'Radiocarbon' (https://doi.org/10.1017/S0033822200038923) and 'RadonKiel' (https://radon.ufg.uni-kiel.de/labs).
 
 ..  _cabah_agetypeID:
 
