@@ -691,22 +691,6 @@ The *cabah_ecolgroupID* table is a Neotoma-derived lookup table that serves comp
 
 * ECOGRPSRC -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
 
-..  _cabah_elementtypeID:
-
-cabah_elementtypeID table
-^^^^^^^^^^^^^^^^^^^^^^^^^
-The *cabah_elementtypeID* table is a Neotoma-derived lookup table that serves compilations dealing with taxa, e.g. IPPD. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements), stores **variable elements** … *The element, part, or organ of the taxon identified. For plants, these include pollen, spores, and various macrofossil organs, such as «seed», «twig», «cone», and «cone bract»* …
-
-.. csv-table::
-   :file: ./csv_tables/cabah_elementtypeID.csv
-   :header-rows: 1
-DSETTYPEIDDSETTYPEID
-* ELEMTYPEID -- A unique identifier (auto-incrementing serial integer)
-
-* ELEMENTYPE -- Name of element type. For available values refer to :ref:`cabah_elementtypeID_Fields`
-
-* ELMTSOURCE -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
-
 ..  _cabah_flowtypeID:
 
 cabah_flowtypeID table
