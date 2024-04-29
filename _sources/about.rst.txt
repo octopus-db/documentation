@@ -20,7 +20,7 @@ A brief OCTOPUS database history
 
 * :ref:`SahulChar` release
 
-* :ref:`IPPD`` release 
+* :ref:`IPPD` release 
 
 ..  _db-history_2023:
 2023
