@@ -124,6 +124,10 @@ global_varunitID fields
 global_RefCore fields
 ~~~~~~~~~~~~~~~~~~~~
 
+.. csv-table::
+   :file: ./csv_tables/global_RefCore_FIELDS_trunc.csv
+   :header-rows: 1
+
 | The latest *global_RefCore* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefCore__202404291344.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefCore` variable specs)
 
@@ -131,6 +135,10 @@ global_RefCore fields
 
 global_RefAbstract fields
 ~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_RefAbstract_FIELDS_trunc.csv
+   :header-rows: 1
 
 | The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202404291344.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
