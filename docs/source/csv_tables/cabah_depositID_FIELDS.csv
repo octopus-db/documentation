@@ -1,17 +1,17 @@
 DEPOSITID,DEPOSIT,PARENTID,DEPOSITDSC
 -9999,ND,-9999,no data
-1,Sedimentary (non-specific),1,"Sedimentary deposit, regardless of origin / genesis"
-2,"Sedimentary, clastic",1,
-3,"Sedimentary, chemical",1,
-4,"Sedimentary, biogenic",1,
-5,"Sedimentary, residual",1,
+1,Sedimentary (non-specific),1,Sedimentary deposit, regardless of origin / genesis
+2,Sedimentary, clastic,1,
+3,Sedimentary, chemical,1,
+4,Sedimentary, biogenic,1,
+5,Sedimentary, residual,1,
 6,Aeolian origin (non-specific),1,
 7,Fluvial origin (non-specific),1,
 8,Lacustrine origin (non-specific),1,Equals 'Limnic'
 9,Marine origin (non-specific),1,
 10,Glacial origin (non-specific),1,
 11,Pyroclastic origin ( non-specific),1,
-12,Gravitational origin (non-specific),1,"Primarily gravitational origin, other processes may be involved"
+12,Gravitational origin (non-specific),1,Primarily gravitational origin, other processes may be involved
 13,Mass wasting origin,12,
 14,Landslip origin,13,
 15,Landslide origin,13,
@@ -26,7 +26,7 @@ DEPOSITID,DEPOSIT,PARENTID,DEPOSITDSC
 24,Animal origin (non-specific),23,
 25,Animal midden (non-specific),25,
 26,Plant origin (non-specific),23,
-27,Composite deposit (non-specific),27,"Composite refers to classification / terminology, not to material composition"
+27,Composite deposit (non-specific),27,Composite refers to classification / terminology, not to material composition
 28,Alluvial (non-specific),7,
 29,Archaeological (non-specific),29,
 30,Chemical precipitates (non-specific),3,
@@ -59,12 +59,12 @@ DEPOSITID,DEPOSIT,PARENTID,DEPOSITDSC
 57,Point Bar,7,
 58,Talus cone,12,
 59,Terrace (non-specific),59,
-60,"Terrace, fluvial",7,
-61,"Terrace, Kame",10,
-62,"Terrace, marine",9,
-63,"Terrace, lacustrine",8,
-64,"Terrace, structural",59,Formed by differential erosion in layered rocks
-65,"Terrace, travertine",66,
+60,Terrace, fluvial,7,
+61,Terrace, Kame,10,
+62,Terrace, marine,9,
+63,Terrace, lacustrine,8,
+64,Terrace, structural,59,Formed by differential erosion in layered rocks
+65,Terrace, travertine,66,
 66,Travertine,30,
 67,Tufa,30,
 68,Chaotic deposit (non-specific),2,
@@ -94,8 +94,8 @@ DEPOSITID,DEPOSIT,PARENTID,DEPOSITDSC
 92,Fibric peat,90,
 93,Silty peat,90,
 94,Detrital Peat,90,
-95,"Peat, sedge",90,
-96,"Peat, tephra",90,
+95,Peat, sedge,90,
+96,Peat, tephra,90,
 97,Organic Detritus,90,
 98,Sand (non-specific),2,
 99,Cross-bedded sand,98,
@@ -116,3 +116,5 @@ DEPOSITID,DEPOSIT,PARENTID,DEPOSITDSC
 114,Bulk deposit (non-specific),114,
 115,Coastal origin (non-specific),1,
 116,Buried organic sediment,23,
+117,Sapropel, tephra,27,
+118,Mudstone,2,

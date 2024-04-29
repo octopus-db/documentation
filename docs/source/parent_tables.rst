@@ -152,7 +152,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202403151320.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202404291443.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_Journal_Fields:
@@ -349,7 +349,7 @@ cabah_depositID fields
    :file: ./csv_tables/cabah_depositID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202311151744.csv>`_ |:chipmunk:|
+| The latest *cabah_depositID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_depositID__202404291442.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_depositID` variable specs)
 
 ..  _cabah_ecolgroupID_Fields:
@@ -398,7 +398,7 @@ cabah_methodID fields
    :header-rows: 1
 
 | Classification and selection of methods on the basis of Geyh (2005) and Walker (2005).
-| The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202311211545.csv>`_ |:chipmunk:|
+| The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202404291443.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_methodID` variable specs)
 
 ..  _cabah_taxagroupID_Fields:
