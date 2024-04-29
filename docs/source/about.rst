@@ -18,9 +18,9 @@ A brief OCTOPUS database history
 ^^^^
 * Major update on :ref:`CRN`
 
-* SahulChar release
+* :ref:`SahulChar` release
 
-* IPPD release 
+* :ref:`IPPD`` release 
 
 ..  _db-history_2023:
 2023
