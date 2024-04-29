@@ -53,7 +53,7 @@
 <li class="toctree-l3"><a class="reference internal" href="#global-grainsize-fields">global_GrainSize fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-sitecode-fields">global_SiteCode fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-unitmaster-fields">global_UnitMaster fields</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#id6">global_biomeID fields</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#global-biomeid-fields">global_biomeID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-ibraid-fields">global_ibraID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-rivid-fields">global_rivID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#global-datasettypeid-fields">global_datasettypeID fields</a></li>
@@ -66,6 +66,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#regional-parent-tables">Regional parent tables</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cabah-analysisunit-fields">cabah_AnalysisUnit fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-labcodes-fields">cabah_LabCodes fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-agetypeid-fields">cabah_agetypeID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#cabah-basinsizeid-fields">cabah_basinsizeID fields</a></li>
@@ -823,7 +824,7 @@
 </div>
 </div>
 <div class="section" id="global-unitmaster-fields">
-<span id="global-biomeid-fields"></span><h3>global_UnitMaster fields<a class="headerlink" href="#global-unitmaster-fields" title="Permalink to this heading"></a></h3>
+<span id="id5"></span><h3>global_UnitMaster fields<a class="headerlink" href="#global-unitmaster-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 6%" />
@@ -944,8 +945,8 @@
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a> variable specs)</div>
 </div>
 </div>
-<div class="section" id="id6">
-<span id="id7"></span><h3>global_biomeID fields<a class="headerlink" href="#id6" title="Permalink to this heading"></a></h3>
+<div class="section" id="global-biomeid-fields">
+<span id="id7"></span><h3>global_biomeID fields<a class="headerlink" href="#global-biomeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -1339,7 +1340,7 @@
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD <a class="footnote-reference brackets" href="#id131" id="id8">1</a>.</div>
+<div class="line">Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD <a class="footnote-reference brackets" href="#id133" id="id8">1</a>.</div>
 <div class="line">The latest <em>global_biomeID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_biomeID__202403010934.csv">here</a> 🐿️</div>
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-biomeid"><span class="std std-ref">global_biomeID table</span></a> variable specs)</div>
 </div>
@@ -3014,7 +3015,7 @@
 </tbody>
 </table>
 <ul class="simple">
-<li><p><strong>article</strong> <a class="footnote-reference brackets" href="#id132" id="id26">2</a> – An article from a journal or magazine. <em>Required fields</em>: author, title, journal, year. <em>Optional fields</em>: volume, number, pages, month, note.</p></li>
+<li><p><strong>article</strong> <a class="footnote-reference brackets" href="#id134" id="id26">2</a> – An article from a journal or magazine. <em>Required fields</em>: author, title, journal, year. <em>Optional fields</em>: volume, number, pages, month, note.</p></li>
 <li><p><strong>book</strong> – A book with an explicit publisher. <em>Required fields</em>: author or editor, title, publisher, year. <em>Optional fields</em>: volume or number, series, address, edition, month, note.</p></li>
 <li><p><strong>booklet</strong> – A work that is printed and bound, but without a named publisher or sponsoring institution. <em>Required field</em>: title. <em>Optional fields</em>: author, howpublished, address, month, year, note.</p></li>
 <li><p><strong>conference</strong> – The same as inproceedings, included for Scribe compatibility.</p></li>
@@ -3040,8 +3041,122 @@
 </div>
 <div class="section" id="regional-parent-tables">
 <span id="id28"></span><h2>Regional parent tables<a class="headerlink" href="#regional-parent-tables" title="Permalink to this heading"></a></h2>
+<div class="section" id="cabah-analysisunit-fields">
+<span id="id29"></span><h3>cabah_AnalysisUnit fields<a class="headerlink" href="#cabah-analysisunit-fields" title="Permalink to this heading"></a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ANLYSUNTID</p></th>
+<th class="head"><p>NEO_UNITID</p></th>
+<th class="head"><p>AUIT_NAME</p></th>
+<th class="head"><p>AUIT_DEPTH</p></th>
+<th class="head"><p>AUIT_THICK</p></th>
+<th class="head"><p>FACIESID</p></th>
+<th class="head"><p>AUIT_MIXED</p></th>
+<th class="head"><p>AUIT_ISGN</p></th>
+<th class="head"><p>AUIT_NOTES</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2638</p></td>
+<td><p>247</p></td>
+<td></td>
+<td><p>2.1</p></td>
+<td><p>1</p></td>
+<td><p>NA</p></td>
+<td><p>FALSE</p></td>
+<td><p>NA</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>2639</p></td>
+<td><p>247</p></td>
+<td></td>
+<td><p>2.65</p></td>
+<td><p>1</p></td>
+<td><p>NA</p></td>
+<td><p>FALSE</p></td>
+<td><p>NA</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>2640</p></td>
+<td><p>247</p></td>
+<td></td>
+<td><p>3.21</p></td>
+<td><p>1</p></td>
+<td><p>NA</p></td>
+<td><p>FALSE</p></td>
+<td><p>NA</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>2641</p></td>
+<td><p>247</p></td>
+<td></td>
+<td><p>3.78</p></td>
+<td><p>1</p></td>
+<td><p>NA</p></td>
+<td><p>FALSE</p></td>
+<td><p>NA</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>2642</p></td>
+<td><p>247</p></td>
+<td></td>
+<td><p>3.8</p></td>
+<td><p>1</p></td>
+<td><p>NA</p></td>
+<td><p>FALSE</p></td>
+<td><p>NA</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>2643</p></td>
+<td><p>247</p></td>
+<td></td>
+<td><p>4.24</p></td>
+<td><p>1</p></td>
+<td><p>NA</p></td>
+<td><p>FALSE</p></td>
+<td><p>NA</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>491771</p></td>
+<td><p>42152</p></td>
+<td></td>
+<td><p>664</p></td>
+<td><p>1</p></td>
+<td><p>NA</p></td>
+<td><p>FALSE</p></td>
+<td><p>NA</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">The latest <em>cabah_AnalysisUnit</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_AnalysisUnit__202404291637.csv">here</a> 🐿️</div>
+<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#cabah-analysisunit"><span class="std std-ref">cabah_AnalysisUnit table</span></a> variable specs)</div>
+</div>
+</div>
 <div class="section" id="cabah-labcodes-fields">
-<span id="id29"></span><h3>cabah_LabCodes fields<a class="headerlink" href="#cabah-labcodes-fields" title="Permalink to this heading"></a></h3>
+<span id="id31"></span><h3>cabah_LabCodes fields<a class="headerlink" href="#cabah-labcodes-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 13%" />
@@ -3118,7 +3233,7 @@
 </div>
 </div>
 <div class="section" id="cabah-agetypeid-fields">
-<span id="id31"></span><h3>cabah_agetypeID fields<a class="headerlink" href="#cabah-agetypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id33"></span><h3>cabah_agetypeID fields<a class="headerlink" href="#cabah-agetypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -3197,7 +3312,7 @@
 </div>
 </div>
 <div class="section" id="cabah-basinsizeid-fields">
-<span id="id33"></span><h3>cabah_basinsizeID fields<a class="headerlink" href="#cabah-basinsizeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id35"></span><h3>cabah_basinsizeID fields<a class="headerlink" href="#cabah-basinsizeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -3243,7 +3358,7 @@
 </div>
 </div>
 <div class="section" id="cabah-catchmentsizeid-fields">
-<span id="id35"></span><h3>cabah_catchmentsizeID fields<a class="headerlink" href="#cabah-catchmentsizeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id37"></span><h3>cabah_catchmentsizeID fields<a class="headerlink" href="#cabah-catchmentsizeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -3281,7 +3396,7 @@
 </div>
 </div>
 <div class="section" id="cabah-charmethodid-fields">
-<span id="id37"></span><h3>cabah_charmethodID fields<a class="headerlink" href="#cabah-charmethodid-fields" title="Permalink to this heading"></a></h3>
+<span id="id39"></span><h3>cabah_charmethodID fields<a class="headerlink" href="#cabah-charmethodid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -3365,7 +3480,7 @@
 </div>
 </div>
 <div class="section" id="cabah-chemprepid-fields">
-<span id="id39"></span><h3>cabah_chemprepID fields<a class="headerlink" href="#cabah-chemprepid-fields" title="Permalink to this heading"></a></h3>
+<span id="id41"></span><h3>cabah_chemprepID fields<a class="headerlink" href="#cabah-chemprepid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -3550,7 +3665,7 @@
 </div>
 </div>
 <div class="section" id="cabah-col-mtdid-fields">
-<span id="id41"></span><h3>cabah_col_mtdID fields<a class="headerlink" href="#cabah-col-mtdid-fields" title="Permalink to this heading"></a></h3>
+<span id="id43"></span><h3>cabah_col_mtdID fields<a class="headerlink" href="#cabah-col-mtdid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -3748,7 +3863,7 @@
 </div>
 </div>
 <div class="section" id="cabah-datasourceid-fields">
-<span id="id43"></span><h3>cabah_datasourceID fields<a class="headerlink" href="#cabah-datasourceid-fields" title="Permalink to this heading"></a></h3>
+<span id="id45"></span><h3>cabah_datasourceID fields<a class="headerlink" href="#cabah-datasourceid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -3827,7 +3942,7 @@
 </div>
 </div>
 <div class="section" id="cabah-depositid-fields">
-<span id="id45"></span><h3>cabah_depositID fields<a class="headerlink" href="#cabah-depositid-fields" title="Permalink to this heading"></a></h3>
+<span id="id47"></span><h3>cabah_depositID fields<a class="headerlink" href="#cabah-depositid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 17%" />
@@ -4688,7 +4803,7 @@
 </div>
 </div>
 <div class="section" id="cabah-ecolgroupid-fields">
-<span id="id47"></span><h3>cabah_ecolgroupID fields<a class="headerlink" href="#cabah-ecolgroupid-fields" title="Permalink to this heading"></a></h3>
+<span id="id49"></span><h3>cabah_ecolgroupID fields<a class="headerlink" href="#cabah-ecolgroupid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -5682,7 +5797,7 @@
 </div>
 </div>
 <div class="section" id="cabah-flowtypeid-fields">
-<span id="id49"></span><h3>cabah_flowtypeID fields<a class="headerlink" href="#cabah-flowtypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id51"></span><h3>cabah_flowtypeID fields<a class="headerlink" href="#cabah-flowtypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -5728,7 +5843,7 @@
 </div>
 </div>
 <div class="section" id="cabah-methodid-fields">
-<span id="id51"></span><h3>cabah_methodID fields<a class="headerlink" href="#cabah-methodid-fields" title="Permalink to this heading"></a></h3>
+<span id="id53"></span><h3>cabah_methodID fields<a class="headerlink" href="#cabah-methodid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 14%" />
@@ -6583,7 +6698,7 @@
 </div>
 </div>
 <div class="section" id="cabah-taxagroupid-fields">
-<span id="id53"></span><h3>cabah_taxagroupID fields<a class="headerlink" href="#cabah-taxagroupid-fields" title="Permalink to this heading"></a></h3>
+<span id="id55"></span><h3>cabah_taxagroupID fields<a class="headerlink" href="#cabah-taxagroupid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -6887,7 +7002,7 @@
 </div>
 </div>
 <div class="section" id="cabah-unittypeid-fields">
-<span id="id55"></span><h3>cabah_unittypeID fields<a class="headerlink" href="#cabah-unittypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id57"></span><h3>cabah_unittypeID fields<a class="headerlink" href="#cabah-unittypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -6973,7 +7088,7 @@
 </div>
 </div>
 <div class="section" id="c14-calcurve-fields">
-<span id="id57"></span><h3>c14_calcurve fields<a class="headerlink" href="#c14-calcurve-fields" title="Permalink to this heading"></a></h3>
+<span id="id59"></span><h3>c14_calcurve fields<a class="headerlink" href="#c14-calcurve-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -7097,7 +7212,7 @@
 </div>
 </div>
 <div class="section" id="c14-calprogram-fields">
-<span id="id59"></span><h3>c14_calprogram fields<a class="headerlink" href="#c14-calprogram-fields" title="Permalink to this heading"></a></h3>
+<span id="id61"></span><h3>c14_calprogram fields<a class="headerlink" href="#c14-calprogram-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 14%" />
@@ -7241,9 +7356,9 @@
 </div>
 </div>
 <div class="section" id="local-parent-tables">
-<span id="id61"></span><h2>Local parent tables<a class="headerlink" href="#local-parent-tables" title="Permalink to this heading"></a></h2>
+<span id="id63"></span><h2>Local parent tables<a class="headerlink" href="#local-parent-tables" title="Permalink to this heading"></a></h2>
 <div class="section" id="crn-alstndid-fields">
-<span id="id62"></span><h3>crn_alstndID fields<a class="headerlink" href="#crn-alstndid-fields" title="Permalink to this heading"></a></h3>
+<span id="id64"></span><h3>crn_alstndID fields<a class="headerlink" href="#crn-alstndid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 17%" />
@@ -7439,7 +7554,7 @@
 </div>
 </div>
 <div class="section" id="crn-amsid-fields">
-<span id="id64"></span><h3>crn_amsID fields<a class="headerlink" href="#crn-amsid-fields" title="Permalink to this heading"></a></h3>
+<span id="id66"></span><h3>crn_amsID fields<a class="headerlink" href="#crn-amsid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 12%" />
@@ -7690,7 +7805,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="crn-projepsgid-fields">
-<span id="id66"></span><h3>crn_projepsgID fields<a class="headerlink" href="#crn-projepsgid-fields" title="Permalink to this heading"></a></h3>
+<span id="id68"></span><h3>crn_projepsgID fields<a class="headerlink" href="#crn-projepsgid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -7731,7 +7846,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="crn-bestndid-fields">
-<span id="id68"></span><h3>crn_bestndID fields<a class="headerlink" href="#crn-bestndid-fields" title="Permalink to this heading"></a></h3>
+<span id="id70"></span><h3>crn_bestndID fields<a class="headerlink" href="#crn-bestndid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 13%" />
@@ -8150,7 +8265,7 @@ University (CHN)</p></td>
 <hr class="docutils" />
 </div>
 <div class="section" id="arch-featdatedid-fields">
-<span id="id70"></span><h3>arch_featdatedID fields<a class="headerlink" href="#arch-featdatedid-fields" title="Permalink to this heading"></a></h3>
+<span id="id72"></span><h3>arch_featdatedID fields<a class="headerlink" href="#arch-featdatedid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -8194,7 +8309,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="c13-valid-fields">
-<span id="id72"></span><h3>c13_valID fields<a class="headerlink" href="#c13-valid-fields" title="Permalink to this heading"></a></h3>
+<span id="id74"></span><h3>c13_valID fields<a class="headerlink" href="#c13-valid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -8226,7 +8341,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="c14-contamid-fields">
-<span id="id74"></span><h3>c14_contamID fields<a class="headerlink" href="#c14-contamid-fields" title="Permalink to this heading"></a></h3>
+<span id="id76"></span><h3>c14_contamID fields<a class="headerlink" href="#c14-contamid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -8267,7 +8382,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="c14-hum-modid-fields">
-<span id="id76"></span><h3>c14_hum_modID fields<a class="headerlink" href="#c14-hum-modid-fields" title="Permalink to this heading"></a></h3>
+<span id="id78"></span><h3>c14_hum_modID fields<a class="headerlink" href="#c14-hum-modid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -8323,7 +8438,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="c14-materia1id-fields">
-<span id="id78"></span><h3>c14_materia1ID fields<a class="headerlink" href="#c14-materia1id-fields" title="Permalink to this heading"></a></h3>
+<span id="id80"></span><h3>c14_materia1ID fields<a class="headerlink" href="#c14-materia1id-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8389,7 +8504,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="c14-materia2id-fields">
-<span id="id80"></span><h3>c14_materia2ID fields<a class="headerlink" href="#c14-materia2id-fields" title="Permalink to this heading"></a></h3>
+<span id="id82"></span><h3>c14_materia2ID fields<a class="headerlink" href="#c14-materia2id-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -8713,7 +8828,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="c14-solvent2id-fields">
-<span id="id82"></span><h3>c14_solvent2ID fields<a class="headerlink" href="#c14-solvent2id-fields" title="Permalink to this heading"></a></h3>
+<span id="id84"></span><h3>c14_solvent2ID fields<a class="headerlink" href="#c14-solvent2id-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8775,7 +8890,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="c-mtdid-fields">
-<span id="id84"></span><h3>c_mtdID fields<a class="headerlink" href="#c-mtdid-fields" title="Permalink to this heading"></a></h3>
+<span id="id86"></span><h3>c_mtdID fields<a class="headerlink" href="#c-mtdid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8822,7 +8937,7 @@ University (CHN)</p></td>
 <hr class="docutils" />
 </div>
 <div class="section" id="osl-tl-agemodelid-fields">
-<span id="id86"></span><h3>osl-tl_agemodelID fields<a class="headerlink" href="#osl-tl-agemodelid-fields" title="Permalink to this heading"></a></h3>
+<span id="id88"></span><h3>osl-tl_agemodelID fields<a class="headerlink" href="#osl-tl-agemodelid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8904,7 +9019,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-ed-procid-fields">
-<span id="id88"></span><h3>osl-tl_ed_procID fields<a class="headerlink" href="#osl-tl-ed-procid-fields" title="Permalink to this heading"></a></h3>
+<span id="id90"></span><h3>osl-tl_ed_procID fields<a class="headerlink" href="#osl-tl-ed-procid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8954,7 +9069,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-lum-matid-fields">
-<span id="id90"></span><h3>osl-tl_lum_matID fields<a class="headerlink" href="#osl-tl-lum-matid-fields" title="Permalink to this heading"></a></h3>
+<span id="id92"></span><h3>osl-tl_lum_matID fields<a class="headerlink" href="#osl-tl-lum-matid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9004,7 +9119,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-mineralid-fields">
-<span id="id92"></span><h3>osl-tl_mineralID fields<a class="headerlink" href="#osl-tl-mineralid-fields" title="Permalink to this heading"></a></h3>
+<span id="id94"></span><h3>osl-tl_mineralID fields<a class="headerlink" href="#osl-tl-mineralid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9050,7 +9165,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-mtdid-fields">
-<span id="id94"></span><h3>osl-tl_mtdID fields<a class="headerlink" href="#osl-tl-mtdid-fields" title="Permalink to this heading"></a></h3>
+<span id="id96"></span><h3>osl-tl_mtdID fields<a class="headerlink" href="#osl-tl-mtdid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9204,7 +9319,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-typeid-fields">
-<span id="id96"></span><h3>osl_typeID fields<a class="headerlink" href="#osl-typeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id98"></span><h3>osl_typeID fields<a class="headerlink" href="#osl-typeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9259,7 +9374,7 @@ University (CHN)</p></td>
 <hr class="docutils" />
 </div>
 <div class="section" id="sed-depconid-fields">
-<span id="id98"></span><h3>sed_depconID fields<a class="headerlink" href="#sed-depconid-fields" title="Permalink to this heading"></a></h3>
+<span id="id100"></span><h3>sed_depconID fields<a class="headerlink" href="#sed-depconid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9297,7 +9412,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-faciesid-fields">
-<span id="id100"></span><h3>sed_faciesID fields<a class="headerlink" href="#sed-faciesid-fields" title="Permalink to this heading"></a></h3>
+<span id="id102"></span><h3>sed_faciesID fields<a class="headerlink" href="#sed-faciesid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9347,7 +9462,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-geommodid-fields">
-<span id="id102"></span><h3>sed_geommodID fields<a class="headerlink" href="#sed-geommodid-fields" title="Permalink to this heading"></a></h3>
+<span id="id104"></span><h3>sed_geommodID fields<a class="headerlink" href="#sed-geommodid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9391,7 +9506,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-geotypeid-fields">
-<span id="id104"></span><h3>sed_geotypeID fields<a class="headerlink" href="#sed-geotypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id106"></span><h3>sed_geotypeID fields<a class="headerlink" href="#sed-geotypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9459,7 +9574,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-laketypeid-fields">
-<span id="id106"></span><h3>sed_laketypeID fields<a class="headerlink" href="#sed-laketypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id108"></span><h3>sed_laketypeID fields<a class="headerlink" href="#sed-laketypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9713,7 +9828,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-morphid-fields">
-<span id="id108"></span><h3>sed_morphID fields<a class="headerlink" href="#sed-morphid-fields" title="Permalink to this heading"></a></h3>
+<span id="id110"></span><h3>sed_morphID fields<a class="headerlink" href="#sed-morphid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9772,7 +9887,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-sitetypeid-fields">
-<span id="id110"></span><h3>sed_sitetypeID fields<a class="headerlink" href="#sed-sitetypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id112"></span><h3>sed_sitetypeID fields<a class="headerlink" href="#sed-sitetypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9811,7 +9926,7 @@ University (CHN)</p></td>
 <hr class="docutils" />
 </div>
 <div class="section" id="fos-taxrank1-classid-fields">
-<span id="id112"></span><h3>fos_TaxRank1_classID fields<a class="headerlink" href="#fos-taxrank1-classid-fields" title="Permalink to this heading"></a></h3>
+<span id="id114"></span><h3>fos_TaxRank1_classID fields<a class="headerlink" href="#fos-taxrank1-classid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9854,7 +9969,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank2-infraclaid-fields">
-<span id="id113"></span><h3>fos_TaxRank2_infraclaID fields<a class="headerlink" href="#fos-taxrank2-infraclaid-fields" title="Permalink to this heading"></a></h3>
+<span id="id115"></span><h3>fos_TaxRank2_infraclaID fields<a class="headerlink" href="#fos-taxrank2-infraclaid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9892,7 +10007,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank3-ordrid-fields">
-<span id="id115"></span><h3>fos_TaxRank3_ordrID fields<a class="headerlink" href="#fos-taxrank3-ordrid-fields" title="Permalink to this heading"></a></h3>
+<span id="id117"></span><h3>fos_TaxRank3_ordrID fields<a class="headerlink" href="#fos-taxrank3-ordrid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9930,7 +10045,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank4-familyid-fields">
-<span id="id117"></span><h3>fos_TaxRank4_familyID fields<a class="headerlink" href="#fos-taxrank4-familyid-fields" title="Permalink to this heading"></a></h3>
+<span id="id119"></span><h3>fos_TaxRank4_familyID fields<a class="headerlink" href="#fos-taxrank4-familyid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9968,7 +10083,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank5-genusid-fields">
-<span id="id119"></span><h3>fos_TaxRank5_genusID fields<a class="headerlink" href="#fos-taxrank5-genusid-fields" title="Permalink to this heading"></a></h3>
+<span id="id121"></span><h3>fos_TaxRank5_genusID fields<a class="headerlink" href="#fos-taxrank5-genusid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -10006,7 +10121,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank6-speciesid-fields">
-<span id="id121"></span><h3>fos_TaxRank6_speciesID fields<a class="headerlink" href="#fos-taxrank6-speciesid-fields" title="Permalink to this heading"></a></h3>
+<span id="id123"></span><h3>fos_TaxRank6_speciesID fields<a class="headerlink" href="#fos-taxrank6-speciesid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -10044,7 +10159,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-chemtypeid-fields">
-<span id="id123"></span><h3>fos_chemtypeID fields<a class="headerlink" href="#fos-chemtypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id125"></span><h3>fos_chemtypeID fields<a class="headerlink" href="#fos-chemtypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10146,7 +10261,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-fosmat1id-fields">
-<span id="id125"></span><h3>fos_fosmat1ID fields<a class="headerlink" href="#fos-fosmat1id-fields" title="Permalink to this heading"></a></h3>
+<span id="id127"></span><h3>fos_fosmat1ID fields<a class="headerlink" href="#fos-fosmat1id-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10316,7 +10431,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-fosmat2id-fields">
-<span id="id127"></span><h3>fos_fosmat2ID fields<a class="headerlink" href="#fos-fosmat2id-fields" title="Permalink to this heading"></a></h3>
+<span id="id129"></span><h3>fos_fosmat2ID fields<a class="headerlink" href="#fos-fosmat2id-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10526,7 +10641,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-mtdsid-fields">
-<span id="id129"></span><h3>fos_mtdsID fields<a class="headerlink" href="#fos-mtdsid-fields" title="Permalink to this heading"></a></h3>
+<span id="id131"></span><h3>fos_mtdsID fields<a class="headerlink" href="#fos-mtdsid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10588,109 +10703,109 @@ University (CHN)</p></td>
 </div>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="id131"><span class="brackets"><a class="fn-backref" href="#id8">1</a></span></dt>
+<dt class="label" id="id133"><span class="brackets"><a class="fn-backref" href="#id8">1</a></span></dt>
 <dd><p>Global Palaeofire Database (<a class="reference external" href="https://www.paleofire.org">https://www.paleofire.org</a>)</p>
 </dd>
-<dt class="label" id="id132"><span class="brackets"><a class="fn-backref" href="#id26">2</a></span></dt>
+<dt class="label" id="id134"><span class="brackets"><a class="fn-backref" href="#id26">2</a></span></dt>
 <dd><p>Entry type descriptions taken from <a class="reference external" href="http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/">http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/</a></p>
 </dd>
-<dt class="label" id="id133"><span class="brackets">3</span></dt>
+<dt class="label" id="id135"><span class="brackets">3</span></dt>
 <dd><p>Anderson, Libby, Weinhouse, Reid, Kirshenbaum &amp; Grosse (1947) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRev.72.931">10.1103/PhysRev.72.931</a></p>
 </dd>
-<dt class="label" id="id134"><span class="brackets">4</span></dt>
+<dt class="label" id="id136"><span class="brackets">4</span></dt>
 <dd><p>Dorn (1983) DOI: <a class="reference external" href="https://doi.org/10.1016/0033-5894(83)90065-0">10.1016/0033-5894(83)90065-0</a></p>
 </dd>
-<dt class="label" id="id136"><span class="brackets">5</span></dt>
+<dt class="label" id="id138"><span class="brackets">5</span></dt>
 <dd><p>Frink (1996) DOI: <a class="reference external" href="https://doi.org/10.2136/sssaspecpub44.c6">10.2136/sssaspecpub44.c6</a></p>
 </dd>
-<dt class="label" id="id137"><span class="brackets">6</span></dt>
+<dt class="label" id="id139"><span class="brackets">6</span></dt>
 <dd><p>Huntley, Godfrey-Smith &amp; Thewalt (1985) DOI: <a class="reference external" href="https://doi.org/10.1038/313105a0">10.1038/313105a0</a></p>
 </dd>
-<dt class="label" id="id138"><span class="brackets">7</span></dt>
+<dt class="label" id="id140"><span class="brackets">7</span></dt>
 <dd><p>Daniels, Boyd &amp; Saunders (1953) DOI: <a class="reference external" href="https://doi.org/10.1126/science.117.3040.343">10.1126/science.117.3040.343</a></p>
 </dd>
-<dt class="label" id="id139"><span class="brackets">8</span></dt>
+<dt class="label" id="id141"><span class="brackets">8</span></dt>
 <dd><p>Kaufmann &amp; Libby (1954) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRev.93.1337">10.1103/PhysRev.93.1337</a></p>
 </dd>
-<dt class="label" id="id140"><span class="brackets">9</span></dt>
+<dt class="label" id="id142"><span class="brackets">9</span></dt>
 <dd><p>Arnold (1956) DOI: <a class="reference external" href="https://doi.org/10.1126/science.124.3222.584">10.1126/science.124.3222.584</a></p>
 </dd>
-<dt class="label" id="id141"><span class="brackets">10</span></dt>
+<dt class="label" id="id143"><span class="brackets">10</span></dt>
 <dd><p>Lal, Goldberg &amp; Koide (1960) DOI: <a class="reference external" href="https://doi.org/10.1126/science.131.3397.332">10.1126/science.131.3397.332</a></p>
 </dd>
-<dt class="label" id="id142"><span class="brackets">11</span></dt>
+<dt class="label" id="id144"><span class="brackets">11</span></dt>
 <dd><p>Davis &amp; Schaeffer (1955) DOI: <a class="reference external" href="https://doi.org/10.1111/j.1749-6632.1955.tb35368.x">10.1111/j.1749-6632.1955.tb35368.x</a></p>
 </dd>
-<dt class="label" id="id143"><span class="brackets">12</span></dt>
+<dt class="label" id="id145"><span class="brackets">12</span></dt>
 <dd><p>Loosli &amp; Oeschger (1968) DOI: <a class="reference external" href="https://doi.org/10.1016/S0012-821X(68)80039-1">10.1016/S0012-821X(68)80039-1</a></p>
 </dd>
-<dt class="label" id="id144"><span class="brackets">13</span></dt>
+<dt class="label" id="id146"><span class="brackets">13</span></dt>
 <dd><p>Raisbeck &amp; Yiou (1979) DOI: <a class="reference external" href="https://doi.org/10.1038/277042a0">10.1038/277042a0</a></p>
 </dd>
-<dt class="label" id="id146"><span class="brackets">14</span></dt>
+<dt class="label" id="id148"><span class="brackets">14</span></dt>
 <dd><p>Wilkinson &amp; Sheline (1955) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRev.99.752">10.1103/PhysRev.99.752</a></p>
 </dd>
-<dt class="label" id="id147"><span class="brackets">15</span></dt>
+<dt class="label" id="id149"><span class="brackets">15</span></dt>
 <dd><p>Marti (1967) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRevLett.18.264">10.1103/PhysRevLett.18.264</a></p>
 </dd>
-<dt class="label" id="id148"><span class="brackets">16</span></dt>
+<dt class="label" id="id150"><span class="brackets">16</span></dt>
 <dd><p>Takagi, Hampel &amp; Kirsten (1974) DOI: <a class="reference external" href="https://doi.org/10.1016/0012-821X(74)90019-3">10.1016/0012-821X(74)90019-3</a></p>
 </dd>
-<dt class="label" id="id149"><span class="brackets">17</span></dt>
+<dt class="label" id="id151"><span class="brackets">17</span></dt>
 <dd><p>Smits &amp; Gentner (1950) DOI: <a class="reference external" href="https://doi.org/10.1016/0016-7037(50)90005-6">10.1016/0016-7037(50)90005-6</a></p>
 </dd>
-<dt class="label" id="id151"><span class="brackets">18</span></dt>
+<dt class="label" id="id153"><span class="brackets">18</span></dt>
 <dd><p>Hahn, Strassmann &amp; Walling (1937) DOI: <a class="reference external" href="https://doi.org/10.1007/BF01492269">10.1007/BF01492269</a></p>
 </dd>
-<dt class="label" id="id152"><span class="brackets">19</span></dt>
+<dt class="label" id="id154"><span class="brackets">19</span></dt>
 <dd><p>Herr, Merz, Eberhardt &amp; Signer (1958) DOI: <a class="reference external" href="https://doi.org/10.1515/zna-1958-0404">10.1515/zna-1958-0404</a></p>
 </dd>
-<dt class="label" id="id153"><span class="brackets">20</span></dt>
+<dt class="label" id="id155"><span class="brackets">20</span></dt>
 <dd><p>Herr &amp; Merz (1955) DOI: <a class="reference external" href="https://doi.org/10.1515/zna-1955-0804">10.1515/zna-1955-0804</a></p>
 </dd>
-<dt class="label" id="id154"><span class="brackets">21</span></dt>
+<dt class="label" id="id156"><span class="brackets">21</span></dt>
 <dd><p>Holmes (1911) DOI: <a class="reference external" href="https://doi.org/10.1098/rspa.1911.0036">10.1098/rspa.1911.0036</a></p>
 </dd>
-<dt class="label" id="id155"><span class="brackets">22</span></dt>
+<dt class="label" id="id157"><span class="brackets">22</span></dt>
 <dd><p>Williams (1995) DOI: <a class="reference external" href="https://doi.org/10.1007/BF00768738">10.1007/BF00768738</a></p>
 </dd>
-<dt class="label" id="id156"><span class="brackets">23</span></dt>
+<dt class="label" id="id158"><span class="brackets">23</span></dt>
 <dd><p>Barnes, Lang &amp; Potratz (1956) DOI: <a class="reference external" href="https://doi.org/10.1126/science.124.3213.175.b">10.1126/science.124.3213.175.b</a></p>
 </dd>
-<dt class="label" id="id157"><span class="brackets">24</span></dt>
+<dt class="label" id="id159"><span class="brackets">24</span></dt>
 <dd><p>Thurber (1962) DOI: <a class="reference external" href="https://doi.org/10.1029/JZ067i011p04518">10.1029/JZ067i011p04518</a></p>
 </dd>
-<dt class="label" id="id158"><span class="brackets">25</span></dt>
+<dt class="label" id="id160"><span class="brackets">25</span></dt>
 <dd><p>Prasad, Poolton, Kook &amp; Jain (2017) DOI: <a class="reference external" href="https://doi.org/10.1038/s41598-017-10174-8">10.1038/s41598-017-10174-8</a></p>
 </dd>
-<dt class="label" id="id159"><span class="brackets">26</span></dt>
+<dt class="label" id="id161"><span class="brackets">26</span></dt>
 <dd><p>Trautmann, Krbetschek, Dietrich &amp; Stolz (1998) DOI: <a class="reference external" href="https://doi.org/10.1016/S1350-4487(98)00012-2">10.1016/S1350-4487(98)00012-2</a></p>
 </dd>
-<dt class="label" id="id160"><span class="brackets">27</span></dt>
+<dt class="label" id="id162"><span class="brackets">27</span></dt>
 <dd><p>Hütt, Jaek &amp; Tchonka (1988) DOI: <a class="reference external" href="https://doi.org/10.1016/0277-3791(88)90033-9">10.1016/0277-3791(88)90033-9</a></p>
 </dd>
-<dt class="label" id="id162"><span class="brackets">28</span></dt>
+<dt class="label" id="id164"><span class="brackets">28</span></dt>
 <dd><p>Huang &amp; Walker (1967) DOI: <a class="reference external" href="https://doi.org/10.1126/science.155.3766.1103">10.1126/science.155.3766.1103</a></p>
 </dd>
-<dt class="label" id="id163"><span class="brackets">29</span></dt>
+<dt class="label" id="id165"><span class="brackets">29</span></dt>
 <dd><p>Fanale &amp; Schaeffer (1965) DOI: <a class="reference external" href="https://doi.org/10.1126/science.149.3681.312">10.1126/science.149.3681.312</a></p>
 </dd>
-<dt class="label" id="id164"><span class="brackets">30</span></dt>
+<dt class="label" id="id166"><span class="brackets">30</span></dt>
 <dd><p>Price &amp; Walker (1962) DOI: <a class="reference external" href="https://doi.org/10.1038/196732a0">10.1038/196732a0</a></p>
 </dd>
-<dt class="label" id="id166"><span class="brackets">31</span></dt>
+<dt class="label" id="id168"><span class="brackets">31</span></dt>
 <dd><p>Friedman &amp; Smith (1960) DOI: <a class="reference external" href="https://doi.org/10.2307/276634">10.2307/276634</a></p>
 </dd>
-<dt class="label" id="id168"><span class="brackets">32</span></dt>
+<dt class="label" id="id170"><span class="brackets">32</span></dt>
 <dd><p>Emiliani (1954) DOI: <a class="reference external" href="https://doi.org/10.1126/science.119.3103.853">10.1126/science.119.3103.853</a></p>
 </dd>
-<dt class="label" id="id169"><span class="brackets">33</span></dt>
+<dt class="label" id="id171"><span class="brackets">33</span></dt>
 <dd><p>Harold (1960) DOI: <a class="reference external" href="https://doi.org/10.1111/j.1475-4754.1960.tb00518.x">10.1111/j.1475-4754.1960.tb00518.x</a></p>
 </dd>
-<dt class="label" id="id170"><span class="brackets">34</span></dt>
+<dt class="label" id="id172"><span class="brackets">34</span></dt>
 <dd><p>Rengan (1983) DOI: <a class="reference external" href="https://doi.org/10.1021%2Fed060p682">10.1021%2Fed060p682</a></p>
 </dd>
-<dt class="label" id="id171"><span class="brackets">35</span></dt>
+<dt class="label" id="id173"><span class="brackets">35</span></dt>
 <dd><p>Fifield (1999) DOI: <a class="reference external" href="https://doi.org/10.1088/0034-4885/62/8/202">10.1088/0034-4885/62/8/202</a></p>
 </dd>
 </dl>
