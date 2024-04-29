@@ -1,104 +1,104 @@
-METHODID,METHOD,METHODABBR,PARENTID,METHODREF
--9999,not applicable,NA,-9999,
-1,Amino Acid Racemization,AAR,63,Hare, P .E. & Abelson, P .H. (1968). Racemization of amino acids in fossil shells. Carnegie Institution of Washington Yearbook, 66, 516--528.
-2,Radiocarbon Dating,C14,14,Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947), https://doi.org/10.1103/PhysRev.72.931
-3,Cation Ratio Dating,CRD,3,Dorn (1983), https://doi.org/10.1016/0033-5894(83)90065-0
-4,Electron Spin Resonance,ESR,47,Zeller, E.J.; Levy, P.W.; & Mattern, P.L. (1967). Geologic dating by electron spin resonance. International Atomic Energy Agency (IAEA).
-5,Oxidisable Carbon Ratio,OCR,5,Frink (1996), https://doi.org/10.2136/sssaspecpub44.c6
-6,Optically Stimulated Luminescence,OSL,48,Huntley, Godfrey-Smith & Thewalt (1985), https://doi.org/10.1038/313105a0 
-7,Thermoluminescence,TL,48,Daniels, Boyd & Saunders (1953), https://doi.org/10.1126/science.117.3040.343
-8,Uranium-Series,U,42,
-9,Closed-system U-Series and ESR model,CSU-ESR,83,
-10,Stratigraphic correlation,Strat,68,
-11,Coupled U-ESR model,U-ESR,83,
-12,Chronometric dating (non-specific),ChronMet,12,
-13,Radiometric dating (non-specific),RadioMet,12,
-14,Cosmogenic Radionuclides,CRN,13,
-15,C13 date,C13,2,
-16,C14 date (uncorrected),C14-uncorr,2,
-17,C14 date (corrected),C14-corr,2,
-18,Tritium/Helium,3H/3He,14,Kaufmann & Libby (1954), https://doi.org/10.1103/PhysRev.93.1337
-19,Beryllium-10,Be-10,14,Arnold (1956), https://doi.org/10.1126/science.124.3222.584
-20,Aluminium-26,Al-26,14,Tanaka, S.; Sakamoto, K. & Tschuchimoto, M. (1964). Experimental proposal on search for 26Al induced by cosmic-ray myons in terrestrial rocks. Inst. Nuclear Study, Univ. Tokyo, INS-19.
-21,Silicon-32,Si-32,14,Lal, Goldberg & Koide (1960), https://doi.org/10.1126/science.131.3397.332
-22,Chlorine-36,Cl-36,14,Davis & Schaeffer (1955), https://doi.org/10.1111/j.1749-6632.1955.tb35368.x
-23,Argon-39,Ar-39,14,Loosli & Oeschger (1968), https://doi.org/10.1016/S0012-821X(68)80039-1
-24,Calcium-41,Ca-41,14,Raisbeck & Yiou (1979), https://doi.org/10.1038/277042a0
-25,Manganese-53,Mg-53,14,Wilkinson & Sheline (1955), https://doi.org/10.1103/PhysRev.99.752
-26,Krypton-81,Kr-81,14,Marti (1967), https://doi.org/10.1103/PhysRevLett.18.264
-27,Iodine-129,I-129,14,Takagi, Hampel & Kirsten (1974), https://doi.org/10.1016/0012-821X(74)90019-3
-28,Radionuclide dating,RN,13,
-29,Radionuclides (long-lived),RN-long,28,
-30,Argon-Isotope dating (non-specific),Ar,29,
-31,40K/40Ar,K/Ar,30,Smits & Gentner (1950), https://doi.org/10.1016/0016-7037(50)90005-6
-32,39Ar(K)/40Ar,Ar/Ar,30,Sigurgeirsson, Thorbjörn (1962). Dating recent basalt by the potassium argon method. (in Icelandic) Rept. Physical Laboratory of the Univ. Iceland, p. 9
-33,87Rb/Sr87,Rb/Sr,29,Hahn, Strassmann & Walling (1937), https://doi.org/10.1007/BF01492269
-34,147Sm/143Nd,Sm/Nd,29,Lugmair, G. W. (1974). Sm-Nd ages: a new dating method. Meteoritics, 9, 369.
-35,176Lu/176Hf,Lu/Hf,29,Herr, Merz, Eberhardt & Signer (1958), https://doi.org/10.1515/zna-1958-0404
-36,187Re/187Os,Re/Os,29,Herr & Merz (1955), https://doi.org/10.1515/zna-1955-0804
-37,U/Th/Pb (non-specific),U/Th/Pb,29,Holmes (1911),  https://doi.org/10.1098/rspa.1911.0036
-38,207Pb/206Pb,Pb/Pb,29,Houtermans, F. G. (1946). The isotope ratios in natural lead and the age of uranium. Naturwissenschaften, 33, 185--186.
-39,Radionuclides (short-lived),RN-short,28,
-40,Lead-210,210Pb,39,Goldberg, E. D. (1963). Geochronology with 210Pb. In: Radioactive Dating, I.A.E.A., Vienna: 121--131.
-41,Caesium-137,137Cs,39,Williams (1995), https://doi.org/10.1007/BF00768738
-42,Parent daughter disequilibrium,PD-Disequ,13,
-43,230Th/U,Th/U,8,Barnes, Lang & Potratz (1956), https://doi.org/10.1126/science.124.3213.175.b
-44,234U/238U,U/U,8,Thurber (1962), https://doi.org/10.1029/JZ067i011p04518
-45,230Th_exc,Th_exc,42,Petterson, H. (1937). Das Verhaltnis Thorium zu Uran in dem Gestein und im Meer. (in German) Anz. Akad. Wiss. Wien Math. Naturwiss. Kl. 127.
-46,210Pb (free),210Pb_free,42,Goldberg, F. D. (1963). Geochronology with lead-210. In: Radioactive Dating, 121--131, IAEA Wien.
-47,Radiation exposure (non-specific),RadEx,13,
-48,Luminescence (non-specific),LUM,47,
-49,Infrared Photoluminescence,IR-PL,48,Prasad, Poolton, Kook & Jain (2017), https://doi.org/10.1038/s41598-017-10174-8
-50,Infrared Radiofluorescence,IR-RF,48,Trautmann, Krbetschek, Dietrich & Stolz (1998), https://doi.org/10.1016/S1350-4487(98)00012-2
-51,Infrared Stimulated Luminescence,IRSL,48,Hütt, Jaek & Tchonka (1988), https://doi.org/10.1016/0277-3791(88)90033-9
-52,Alpha-recoil track dating,ART,47,Huang & Walker (1967), https://doi.org/10.1126/science.155.3766.1103
-53,(Uranium+Thorium)/Helium,(U+Th)/He,47,Fanale & Schaeffer (1965), https://doi.org/10.1126/science.149.3681.312
-54,Fission track,FT,47,Price & Walker (1962), https://doi.org/10.1038/196732a0
-55,Banded records (non-specific),Banded,12,
-56,Dendrochronology,Dendro,55,
-57,Varve chronology,Varve,55,
-58,Annual layers in glacier ice,Ice,55,
-59,Lichenometry,Lichen,55,
-60,Speleothem bands,Speleo,55,
-61,Coral bands,Coral,55,
-62,Mollusc bands,Mollusc,55,
-63,Relative dating method (non-specific),RelDat,63,
-64,Rock surface weathering,RockSurf,63,
-65,Obsidian hydration dating,Obsid,63,Friedman & Smith (1960), https://doi.org/10.2307/276634
-66,Pedogenesis,Pedogen,63,
-67,Relative dating of fossile bone,FUn,63,Oakley, K. (1949). The fluorine-dating method. Yearbook of Physical Anthropology, 5, 44.
-68,Age equivalence (non-specific),AgeEquiv,68,
-69,Oxygen isotope chronostratigraphy,Oxygen,68,Emiliani (1954), https://doi.org/10.1126/science.119.3103.853
-70,Tephrochronology,Tephra,68,Thorarinsson, Sigurdur (1944). Tefrokronologiska studier på Island : Þjórsárdalur och dess förödelse. Thesis (doctoral). Stockholms Högskola. 217 pp
-71,European settlement horizon,Horizon,68,
-72,Known fire,Fire,68,
-73,Magnetostratigraphy (non-specific),Magnet,68,
-74,Archaeomagnetic dating,A-Magnet,73,Harold (1960), https://doi.org/10.1111/j.1475-4754.1960.tb00518.x
-75,Geomagnetic dating,G-Magnet,73,Thellier, E. (1938). Sur l'aimantation des terres cuites et ses applications géophysiques. Ann. Inst. Phys. Globe, 16, pp. 157--302
-76,Palaeomagnetic dating,P-Magnet,73,Irving, E. (1964). Paleomagnetism and its application to geological and geophysical problems. John Wiley & Sons, Inc, New York.
-77,Palaeosol,Palaeosol,68,Catt, J. A. (1986). Soils and Quaternary geology: a handbook for field scientists. 267 pp.
-78,Marker horizon,Marker,68,
-79,Fossil assemblage,Fossil,78,
-80,Pollen correlation,Pollen,68,
-81,Top of core,Core-hi,68,
-82,Bottom of core,Core-lo,68,
-83,Method combination (non-specific),Combi,83,
-84,Statistical approach (non-specific),Stats,84,
-85,Estimated,Estimate,84,
-86,Extrapolation,Extrap,84,
-87,Interpolation,Interp,84,
-88,Measurement technique,MeasApp,88,
-89,Liquid Scintillation Counting (non-specific),LSC,88,Birks, J.B. (1964). The Theory and Practice of Scintillation Counting. Pergammon Press, Oxford, UK.
-90,Cherenkov Counting,LSC-C,88,Rengan (1983), https://doi.org/10.1021%2Fed060p682
-91,Accelerator Mass  Spectrometry (non-specific),AMS,88,Fifield (1999), https://doi.org/10.1088/0034-4885/62/8/202
-92,SHRIMP,SHRIMP,88,
-93,Blue light stimulated luminescence,BLSL,6,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-94,Green light stimulated luminescence,GLSL,6,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-95,Violet stimulated luminescence,VSL,6,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-96,Thermally transferred optically stimulated luminescence,TT-OSL,6,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-97,Pulsed optically stimulated luminescence,POSL,6,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-98,Post-infrared infrared,pIRIR,48,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-99,Multiple elevated temperature post-infrared infrared,MET-pIRIR,48,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-100,Red thermoluminescence,Red-TL,48,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-101,Isothermal thermoluminescence,ITL,48,Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p.
-102,Protactinium-231,231Pa,13,Geyh, Mebus A. (2005). Handbuch der physikalischen und chemischen Altersbestimmung. Wissenschaftliche Buchgesellschaft, Darmstadt. (GERMAN)
+"METHODID","METHOD","METHODABBR","CREATED_AT","UPDATED_AT","PARENTID","METHODREF"
+-9999,not applicable,NA,2021-11-19 12:11:05.011 +0100,2023-04-02 11:49:39.699 +0200,-9999,
+3,Cation Ratio Dating,CRD,2021-11-19 12:11:05.011 +0100,2023-04-02 11:50:44.202 +0200,3,"Dorn (1983), https://doi.org/10.1016/0033-5894(83)90065-0"
+4,Electron Spin Resonance,ESR,2021-11-19 12:11:05.011 +0100,2023-04-02 11:50:51.147 +0200,47,"Zeller, E.J.; Levy, P.W.; & Mattern, P.L. (1967). Geologic dating by electron spin resonance. International Atomic Energy Agency (IAEA)."
+5,Oxidisable Carbon Ratio,OCR,2021-11-19 12:11:05.011 +0100,2023-04-02 11:50:58.184 +0200,5,"Frink (1996), https://doi.org/10.2136/sssaspecpub44.c6"
+7,Thermoluminescence,TL,2021-11-19 12:11:05.011 +0100,2023-11-20 18:42:20.558 +0100,48,"Daniels, Boyd & Saunders (1953), https://doi.org/10.1126/science.117.3040.343"
+49,Infrared Photoluminescence,IR-PL,2023-04-02 11:47:19.314 +0200,2023-11-20 18:42:20.567 +0100,48,"Prasad, Poolton, Kook & Jain (2017), https://doi.org/10.1038/s41598-017-10174-8"
+6,Optically Stimulated Luminescence,OSL,2021-11-19 12:11:05.011 +0100,2023-11-20 18:42:20.547 +0100,48,"Huntley, Godfrey-Smith & Thewalt (1985), https://doi.org/10.1038/313105a0 "
+51,Infrared Stimulated Luminescence,IRSL,2023-04-02 11:47:19.314 +0200,2023-11-20 18:42:20.577 +0100,48,"Hütt, Jaek & Tchonka (1988), https://doi.org/10.1016/0277-3791(88)90033-9"
+8,Uranium-Series,U,2021-11-19 12:11:05.011 +0100,2023-04-02 11:49:42.285 +0200,42,
+9,Closed-system U-Series and ESR model,CSU-ESR,2021-11-19 12:11:05.011 +0100,2023-04-02 11:49:42.586 +0200,83,
+10,Stratigraphic correlation,Strat,2021-11-19 12:11:05.011 +0100,2023-04-02 11:49:42.888 +0200,68,
+11,Coupled U-ESR model,U-ESR,2021-11-19 12:11:05.011 +0100,2023-04-02 11:49:43.190 +0200,83,
+1,Amino Acid Racemization,AAR,2021-11-19 12:11:05.011 +0100,2023-04-02 11:50:30.986 +0200,63,"Hare, P .E. & Abelson, P .H. (1968). Racemization of amino acids in fossil shells. Carnegie Institution of Washington Yearbook, 66, 516--528."
+2,Radiocarbon Dating,C14,2021-11-19 12:11:05.011 +0100,2023-04-02 11:50:37.899 +0200,14,"Anderson, Libby, Weinhouse, Reid, Kirshenbaum & Grosse (1947), https://doi.org/10.1103/PhysRev.72.931"
+50,Infrared Radiofluorescence,IR-RF,2023-04-02 11:47:19.314 +0200,2023-11-20 18:43:06.155 +0100,48,"Trautmann, Krbetschek, Dietrich & Stolz (1998), https://doi.org/10.1016/S1350-4487(98)00012-2"
+12,Chronometric dating (non-specific),ChronMet,2023-04-02 11:47:19.314 +0200,,12,
+13,Radiometric dating (non-specific),RadioMet,2023-04-02 11:47:19.314 +0200,,12,
+14,Cosmogenic Radionuclides,CRN,2023-04-02 11:47:19.314 +0200,,13,
+15,C13 date,C13,2023-04-02 11:47:19.314 +0200,,2,
+16,C14 date (uncorrected),C14-uncorr,2023-04-02 11:47:19.314 +0200,,2,
+17,C14 date (corrected),C14-corr,2023-04-02 11:47:19.314 +0200,,2,
+18,Tritium/Helium,"3H/3He",2023-04-02 11:47:19.314 +0200,,14,"Kaufmann & Libby (1954), https://doi.org/10.1103/PhysRev.93.1337"
+19,Beryllium-10,Be-10,2023-04-02 11:47:19.314 +0200,,14,"Arnold (1956), https://doi.org/10.1126/science.124.3222.584"
+20,Aluminium-26,Al-26,2023-04-02 11:47:19.314 +0200,,14,"Tanaka, S.; Sakamoto, K. & Tschuchimoto, M. (1964). Experimental proposal on search for 26Al induced by cosmic-ray myons in terrestrial rocks. Inst. Nuclear Study, Univ. Tokyo, INS-19."
+21,Silicon-32,Si-32,2023-04-02 11:47:19.314 +0200,,14,"Lal, Goldberg & Koide (1960), https://doi.org/10.1126/science.131.3397.332"
+22,Chlorine-36,Cl-36,2023-04-02 11:47:19.314 +0200,,14,"Davis & Schaeffer (1955), https://doi.org/10.1111/j.1749-6632.1955.tb35368.x"
+23,Argon-39,Ar-39,2023-04-02 11:47:19.314 +0200,,14,"Loosli & Oeschger (1968), https://doi.org/10.1016/S0012-821X(68)80039-1"
+24,Calcium-41,Ca-41,2023-04-02 11:47:19.314 +0200,,14,"Raisbeck & Yiou (1979), https://doi.org/10.1038/277042a0"
+25,Manganese-53,Mg-53,2023-04-02 11:47:19.314 +0200,,14,"Wilkinson & Sheline (1955), https://doi.org/10.1103/PhysRev.99.752"
+26,Krypton-81,Kr-81,2023-04-02 11:47:19.314 +0200,,14,"Marti (1967), https://doi.org/10.1103/PhysRevLett.18.264"
+27,Iodine-129,I-129,2023-04-02 11:47:19.314 +0200,,14,"Takagi, Hampel & Kirsten (1974), https://doi.org/10.1016/0012-821X(74)90019-3"
+28,Radionuclide dating,RN,2023-04-02 11:47:19.314 +0200,,13,
+29,Radionuclides (long-lived),RN-long,2023-04-02 11:47:19.314 +0200,,28,
+30,Argon-Isotope dating (non-specific),Ar,2023-04-02 11:47:19.314 +0200,,29,
+31,"40K/40Ar",K/Ar,2023-04-02 11:47:19.314 +0200,,30,"Smits & Gentner (1950), https://doi.org/10.1016/0016-7037(50)90005-6"
+32,"39Ar(K)/40Ar",Ar/Ar,2023-04-02 11:47:19.314 +0200,,30,"Sigurgeirsson, Thorbjörn (1962). Dating recent basalt by the potassium argon method. (in Icelandic) Rept. Physical Laboratory of the Univ. Iceland, p. 9"
+33,"87Rb/Sr87",Rb/Sr,2023-04-02 11:47:19.314 +0200,,29,"Hahn, Strassmann & Walling (1937), https://doi.org/10.1007/BF01492269"
+34,"147Sm/143Nd",Sm/Nd,2023-04-02 11:47:19.314 +0200,,29,"Lugmair, G. W. (1974). Sm-Nd ages: a new dating method. Meteoritics, 9, 369."
+35,"176Lu/176Hf",Lu/Hf,2023-04-02 11:47:19.314 +0200,,29,"Herr, Merz, Eberhardt & Signer (1958), https://doi.org/10.1515/zna-1958-0404"
+36,"187Re/187Os",Re/Os,2023-04-02 11:47:19.314 +0200,,29,"Herr & Merz (1955), https://doi.org/10.1515/zna-1955-0804"
+37,U/Th/Pb (non-specific),U/Th/Pb,2023-04-02 11:47:19.314 +0200,,29,"Holmes (1911),  https://doi.org/10.1098/rspa.1911.0036"
+38,"207Pb/206Pb",Pb/Pb,2023-04-02 11:47:19.314 +0200,,29,"Houtermans, F. G. (1946). The isotope ratios in natural lead and the age of uranium. Naturwissenschaften, 33, 185--186."
+39,Radionuclides (short-lived),RN-short,2023-04-02 11:47:19.314 +0200,,28,
+40,Lead-210,"210Pb",2023-04-02 11:47:19.314 +0200,,39,"Goldberg, E. D. (1963). Geochronology with 210Pb. In: Radioactive Dating, I.A.E.A., Vienna: 121--131."
+41,Caesium-137,"137Cs",2023-04-02 11:47:19.314 +0200,,39,"Williams (1995), https://doi.org/10.1007/BF00768738"
+42,Parent daughter disequilibrium,PD-Disequ,2023-04-02 11:47:19.314 +0200,,13,
+43,"230Th/U",Th/U,2023-04-02 11:47:19.314 +0200,,8,"Barnes, Lang & Potratz (1956), https://doi.org/10.1126/science.124.3213.175.b"
+44,"234U/238U",U/U,2023-04-02 11:47:19.314 +0200,,8,"Thurber (1962), https://doi.org/10.1029/JZ067i011p04518"
+45,"230Th_exc",Th_exc,2023-04-02 11:47:19.314 +0200,,42,"Petterson, H. (1937). Das Verhaltnis Thorium zu Uran in dem Gestein und im Meer. (in German) Anz. Akad. Wiss. Wien Math. Naturwiss. Kl. 127."
+46,"210Pb (free)","210Pb_free",2023-04-02 11:47:19.314 +0200,,42,"Goldberg, F. D. (1963). Geochronology with lead-210. In: Radioactive Dating, 121--131, IAEA Wien."
+47,Radiation exposure (non-specific),RadEx,2023-04-02 11:47:19.314 +0200,,13,
+48,Luminescence (non-specific),LUM,2023-04-02 11:47:19.314 +0200,,47,
+52,Alpha-recoil track dating,ART,2023-04-02 11:47:19.314 +0200,,47,"Huang & Walker (1967), https://doi.org/10.1126/science.155.3766.1103"
+53,(Uranium+Thorium)/Helium,(U+Th)/He,2023-04-02 11:47:19.314 +0200,,47,"Fanale & Schaeffer (1965), https://doi.org/10.1126/science.149.3681.312"
+54,Fission track,FT,2023-04-02 11:47:19.314 +0200,,47,"Price & Walker (1962), https://doi.org/10.1038/196732a0"
+55,Banded records (non-specific),Banded,2023-04-02 11:47:19.314 +0200,,12,
+56,Dendrochronology,Dendro,2023-04-02 11:47:19.314 +0200,,55,
+57,Varve chronology,Varve,2023-04-02 11:47:19.314 +0200,,55,
+58,Annual layers in glacier ice,Ice,2023-04-02 11:47:19.314 +0200,,55,
+59,Lichenometry,Lichen,2023-04-02 11:47:19.314 +0200,,55,
+60,Speleothem bands,Speleo,2023-04-02 11:47:19.314 +0200,,55,
+61,Coral bands,Coral,2023-04-02 11:47:19.314 +0200,,55,
+62,Mollusc bands,Mollusc,2023-04-02 11:47:19.314 +0200,,55,
+63,Relative dating method (non-specific),RelDat,2023-04-02 11:47:19.314 +0200,,63,
+65,Obsidian hydration dating,Obsid,2023-04-02 11:47:19.314 +0200,,63,"Friedman & Smith (1960), https://doi.org/10.2307/276634"
+66,Pedogenesis,Pedogen,2023-04-02 11:47:19.314 +0200,,63,
+67,Relative dating of fossile bone,FUn,2023-04-02 11:47:19.314 +0200,,63,"Oakley, K. (1949). The fluorine-dating method. Yearbook of Physical Anthropology, 5, 44."
+68,Age equivalence (non-specific),AgeEquiv,2023-04-02 11:47:19.314 +0200,,68,
+69,Oxygen isotope chronostratigraphy,Oxygen,2023-04-02 11:47:19.314 +0200,,68,"Emiliani (1954), https://doi.org/10.1126/science.119.3103.853"
+70,Tephrochronology,Tephra,2023-04-02 11:47:19.314 +0200,,68,"Thorarinsson, Sigurdur (1944). Tefrokronologiska studier på Island : Þjórsárdalur och dess förödelse. Thesis (doctoral). Stockholms Högskola. 217 pp"
+71,European settlement horizon,Horizon,2023-04-02 11:47:19.314 +0200,,68,
+72,Known fire,Fire,2023-04-02 11:47:19.314 +0200,,68,
+73,Magnetostratigraphy (non-specific),Magnet,2023-04-02 11:47:19.314 +0200,,68,
+74,Archaeomagnetic dating,A-Magnet,2023-04-02 11:47:19.314 +0200,,73,"Harold (1960), https://doi.org/10.1111/j.1475-4754.1960.tb00518.x"
+75,Geomagnetic dating,G-Magnet,2023-04-02 11:47:19.314 +0200,,73,"Thellier, E. (1938). Sur l'aimantation des terres cuites et ses applications géophysiques. Ann. Inst. Phys. Globe, 16, pp. 157--302"
+76,Palaeomagnetic dating,P-Magnet,2023-04-02 11:47:19.314 +0200,,73,"Irving, E. (1964). Paleomagnetism and its application to geological and geophysical problems. John Wiley & Sons, Inc, New York."
+78,Marker horizon,Marker,2023-04-02 11:47:19.314 +0200,,68,
+79,Fossil assemblage,Fossil,2023-04-02 11:47:19.314 +0200,,78,
+80,Pollen correlation,Pollen,2023-04-02 11:47:19.314 +0200,,68,
+81,Top of core,Core-hi,2023-04-02 11:47:19.314 +0200,,68,
+82,Bottom of core,Core-lo,2023-04-02 11:47:19.314 +0200,,68,
+83,Method combination (non-specific),Combi,2023-04-02 11:47:19.314 +0200,,83,
+84,Statistical approach (non-specific),Stats,2023-04-02 11:47:19.314 +0200,,84,
+85,Estimated,Estimate,2023-04-02 11:47:19.314 +0200,,84,
+86,Extrapolation,Extrap,2023-04-02 11:47:19.314 +0200,,84,
+87,Interpolation,Interp,2023-04-02 11:47:19.314 +0200,,84,
+88,Measurement technique,MeasApp,2023-04-02 11:47:19.314 +0200,,88,
+89,Liquid Scintillation Counting (non-specific),LSC,2023-04-02 11:47:19.314 +0200,,88,"Birks, J.B. (1964). The Theory and Practice of Scintillation Counting. Pergammon Press, Oxford, UK."
+90,Cherenkov Counting,LSC-C,2023-04-02 11:47:19.314 +0200,,88,"Rengan (1983), https://doi.org/10.1021%2Fed060p682"
+91,Accelerator Mass  Spectrometry (non-specific),AMS,2023-04-02 11:47:19.314 +0200,,88,"Fifield (1999), https://doi.org/10.1088/0034-4885/62/8/202"
+92,SHRIMP,SHRIMP,2023-04-02 11:47:19.314 +0200,,88,
+93,Blue light stimulated luminescence,BLSL,2023-11-20 18:33:34.117 +0100,2023-11-20 18:33:34.117 +0100,6,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+94,Green light stimulated luminescence,GLSL,2023-11-20 18:34:18.791 +0100,2023-11-20 18:34:18.791 +0100,6,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+95,Violet stimulated luminescence,VSL,2023-11-20 18:34:50.678 +0100,2023-11-20 18:34:50.678 +0100,6,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+96,Thermally transferred optically stimulated luminescence,TT-OSL,2023-11-20 18:35:57.700 +0100,2023-11-20 18:35:57.700 +0100,6,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+97,Pulsed optically stimulated luminescence,POSL,2023-11-20 18:36:33.700 +0100,2023-11-20 18:36:33.700 +0100,6,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+64,Rock surface weathering,RockSurf,2023-04-02 11:47:19.314 +0200,2023-12-08 14:20:29.172 +0100,63,
+77,Palaeosol,Palaeosol,2023-04-02 11:47:19.314 +0200,2023-12-08 14:20:50.088 +0100,68,"Catt, J. A. (1986). Soils and Quaternary geology: a handbook for field scientists. 267 pp."
+98,Post-infrared infrared,pIRIR,2023-11-20 18:39:03.729 +0100,2023-11-20 18:42:20.586 +0100,48,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+99,Multiple elevated temperature post-infrared infrared,MET-pIRIR,2023-11-20 18:39:44.684 +0100,2023-11-20 18:42:20.595 +0100,48,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+100,Red thermoluminescence,Red-TL,2023-11-20 18:44:09.529 +0100,2023-11-20 18:44:54.865 +0100,48,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+101,Isothermal thermoluminescence,ITL,2023-11-20 18:44:47.002 +0100,2023-11-20 18:44:54.876 +0100,48,"Jacobs, Z.; Saktura, W. M.; Li, Bo (2022). Optical dating - Theory, Methods and Applications. Practical guide for the user. ARC Centre of Excellence for Australian Biodiversity and Heritage, 135 p."
+102,Protactinium-231,"231Pa",2024-03-18 16:45:16.171 +0100,2024-03-18 16:47:25.497 +0100,13,"Geyh, Mebus A. (2005). Handbuch der physikalischen und chemischen Altersbestimmung. Wissenschaftliche Buchgesellschaft, Darmstadt. (GERMAN)"
