@@ -1,43 +1,43 @@
-DSETTYPEID,DSETTYPE,DSTYPNOTE
--9999,no data,
-1,geochronologic,
-2,loss-on-ignition,
-3,pollen,
-4,plant macrofossil,
-5,vertebrate fauna,
-6,macroinvertebrate,
-7,pollen surface sample,
-8,insect,
-9,ostracode,
-10,water chemistry,
-11,diatom,
-12,ostracode surface sample,
-13,diatom surface sample,
-14,geochemistry,
-15,physical sedimentology,
-16,charcoal,
-17,testate amoebae,
-18,X-ray fluorescence (XRF),
-19,X-ray diffraction (XRD),
-20,energy dispersive X-ray spectroscopy (EDS/EDX),
-21,biomarker,
-22,modern plant biomarker,
-23,phytolith,
-24,specimen stable isotope,
-25,paleomagnetic,
-26,biochemistry,
-27,modern biochemistry,
-28,organic carbon,
-29,insect modern,
-30,chironomid,
-31,stable isotope,
-32,testate amoebae surface sample,
-33,charcoal surface sample,
-34,cladocera,
-35,diatom top-bottom,
-36,microcharcoal,
-37,macrocharcoal,
-38,pollen trap,
-39,dinoflagellates,
-40,sedimentary DNA,
-41,diatom bottom sample,
+"DSETTYPEID","DSETTYPE","DSTYPNOTE"
+-9999,"no data",NA
+1,"geochronologic",NA
+2,"loss-on-ignition",NA
+3,"pollen",NA
+4,"plant macrofossil",NA
+5,"vertebrate fauna",NA
+6,"macroinvertebrate",NA
+7,"pollen surface sample",NA
+8,"insect",NA
+9,"ostracode",NA
+10,"water chemistry",NA
+11,"diatom",NA
+12,"ostracode surface sample",NA
+13,"diatom surface sample",NA
+14,"geochemistry",NA
+15,"physical sedimentology",NA
+16,"charcoal",NA
+17,"testate amoebae",NA
+18,"X-ray fluorescence (XRF)",NA
+19,"X-ray diffraction (XRD)",NA
+20,"energy dispersive X-ray spectroscopy (EDS/EDX)",NA
+21,"biomarker",NA
+22,"modern plant biomarker",NA
+23,"phytolith",NA
+24,"specimen stable isotope",NA
+25,"paleomagnetic",NA
+26,"biochemistry",NA
+27,"modern biochemistry",NA
+28,"organic carbon",NA
+29,"insect modern",NA
+30,"chironomid",NA
+31,"stable isotope",NA
+32,"testate amoebae surface sample",NA
+33,"charcoal surface sample",NA
+34,"cladocera",NA
+35,"diatom top-bottom",NA
+36,"microcharcoal",NA
+37,"macrocharcoal",NA
+38,"pollen trap",NA
+39,"dinoflagellates",NA
+40,"sedimentary DNA",NA
+41,"diatom bottom sample",NA

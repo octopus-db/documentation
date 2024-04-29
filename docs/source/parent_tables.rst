@@ -104,7 +104,7 @@ global_datasettypeID fields
    :file: ./csv_tables/global_datasettypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_datasettypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_datasettypeID__202403121134.csv>`_ |:chipmunk:|
+| The latest *global_datasettypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_datasettypeID__202404291534.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_datasettypeID` variable specs)
 
 ..  _global_varunitID_Fields:
@@ -116,7 +116,7 @@ global_varunitID fields
    :file: ./csv_tables/global_varunitID_FIELDS.csv
    :header-rows: 1
 
-| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202403141212.csv>`_ |:chipmunk:|
+| The latest *global_varunitID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_varunitID__202404291534.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_varunitID` variable specs)
 
 ..  _global_RefCore_Fields:
@@ -337,7 +337,7 @@ cabah_datasourceID fields
    :file: ./csv_tables/cabah_datasourceID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202403120935.csv>`_ |:chipmunk:|
+| The latest *cabah_datasourceID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_datasourceID__202404291530.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_datasourceID` variable specs)
 
 ..  _cabah_depositID_Fields:
@@ -361,20 +361,8 @@ cabah_ecolgroupID fields
    :file: ./csv_tables/cabah_ecolgroupID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_ecolgroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_ecolgroupID__202403151250.csv>`_ |:chipmunk:|
+| The latest *cabah_ecolgroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_ecolgroupID__202404291534.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_ecolgroupID` variable specs)
-
-..  _cabah_elementtypeID_Fields:
-
-cabah_elementtypeID fields
-~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. csv-table::
-   :file: ./csv_tables/cabah_elementtypeID_FIELDS_trunc.csv
-   :header-rows: 1
-
-| The latest *cabah_elementtypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_elementtypeID__202403151250.csv>`_ |:chipmunk:|
-| (|:back:| to :ref:`cabah_elementtypeID` variable specs)
 
 ..  _cabah_flowtypeID_Fields:
 
@@ -410,7 +398,7 @@ cabah_taxagroupID fields
    :file: ./csv_tables/cabah_taxagroupID_FIELDS.csv
    :header-rows: 1
 
-| The latest *cabah_taxagroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_taxagroupID__202403151250.csv>`_ |:chipmunk:|
+| The latest *cabah_taxagroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_taxagroupID__202404291531.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_taxagroupID` variable specs)
 
 ..  _cabah_unittypeID_Fields:
