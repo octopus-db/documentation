@@ -1,0 +1,10 @@
+﻿Field,Data type,Key,Not Null,Parent
+ANLYSUNTID,int4,pkey,TRUE,
+NEO_UNITID,text,,TRUE,:ref:`global_UnitMaster_Fields`
+AUIT_NAME,text,,,
+AUIT_DEPTH,numeric,,,:ref:`cabah_depositID_Fields`
+AUIT_THICK,numeric,,,
+FACIESID,int2,,,
+AUIT_MIXED,boolean,,,
+AUIT_ISGN,text,,,
+AUIT_NOTES,text,,,
