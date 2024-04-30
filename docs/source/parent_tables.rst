@@ -449,6 +449,126 @@ c14_calprogram fields
 | The latest *c14_calprogram_Fields* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_c14_calprogram_202308291201.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`c14_calprogram` variable specs)
 
+..  _neo_chronologies_Fields:
+
+neo_chronologies fields
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_chronologies_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_chronologies* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_chronologies__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_chronologies` variable specs)
+
+..  _neo_contacts_Fields:
+
+neo_contacts fields
+~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_contacts_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_contacts* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_contacts__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_contacts` variable specs)
+
+..  _neo_elementmaturities_Fields:
+
+neo_elementmaturities fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementmaturities_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_elementmaturities* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_elementmaturities__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_elementmaturities` variable specs)
+
+..  _neo_elementportions_Fields:
+
+neo_elementportions fields
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementportions_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_elementportions* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_elementportions__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_elementportions` variable specs)
+
+..  _neo_elementsymmetries_Fields:
+
+neo_elementsymmetries fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementsymmetries_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_elementsymmetries* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_elementsymmetries__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_elementsymmetries` variable specs)
+
+..  _neo_elementtypes_Fields:
+
+neo_elementtypes fields
+~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementtypes_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_elementtypes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_elementtypes__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_elementtypes` variable specs)
+
+..  _neo_keywords_Fields:
+
+neo_keywords fields
+~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_keywords_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_keywords* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_keywords__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_keywords` variable specs)
+
+..  _neo_variablecontexts_Fields:
+
+neo_variablecontexts fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_variablecontexts_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_variablecontexts* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_variablecontexts__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_variablecontexts` variable specs)
+
+..  _neo_variableelements_Fields:
+
+neo_variableelements fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_variableelements_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_variableelements* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_variableelements__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_variableelements` variable specs)
+
+..  _neo_variableunits_Fields:
+
+neo_variableunits fields
+~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/neo_variableunits_FIELDS.csv
+   :header-rows: 1
+
+| The latest *neo_variableunits* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_variableunits__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`neo_variableunits` variable specs)
+
 ----
 
 
