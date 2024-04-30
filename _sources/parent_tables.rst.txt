@@ -370,7 +370,7 @@ cabah_ecolgroupID fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/cabah_ecolgroupID_FIELDS.csv
+   :file: ./csv_tables/cabah_ecolgroupID_FIELDS_trunc.csv
    :header-rows: 1
 
 | The latest *cabah_ecolgroupID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_ecolgroupID__202404291534.csv>`_ |:chipmunk:|
