@@ -455,7 +455,7 @@ neo_chronologies fields
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/neo_chronologies_FIELDS.csv
+   :file: ./csv_tables/neo_chronologies_FIELDS_trunc.csv
    :header-rows: 1
 
 | The latest *neo_chronologies* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_chronologies__202404301200.csv>`_ |:chipmunk:|
@@ -467,7 +467,7 @@ neo_contacts fields
 ~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/neo_contacts_FIELDS.csv
+   :file: ./csv_tables/neo_contacts_FIELDS_trunc.csv
    :header-rows: 1
 
 | The latest *neo_contacts* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_contacts__202404301200.csv>`_ |:chipmunk:|
@@ -515,7 +515,7 @@ neo_elementtypes fields
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/neo_elementtypes_FIELDS.csv
+   :file: ./csv_tables/neo_elementtypes_FIELDS_trunc.csv
    :header-rows: 1
 
 | The latest *neo_elementtypes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_elementtypes__202404301200.csv>`_ |:chipmunk:|
@@ -539,7 +539,7 @@ neo_variablecontexts fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/neo_variablecontexts_FIELDS.csv
+   :file: ./csv_tables/neo_variablecontexts_FIELDS_trunc.csv
    :header-rows: 1
 
 | The latest *neo_variablecontexts* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_variablecontexts__202404301200.csv>`_ |:chipmunk:|
@@ -551,7 +551,7 @@ neo_variableelements fields
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/neo_variableelements_FIELDS.csv
+   :file: ./csv_tables/neo_variableelements_FIELDS_trunc.csv
    :header-rows: 1
 
 | The latest *neo_variableelements* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_variableelements__202404301200.csv>`_ |:chipmunk:|
@@ -563,7 +563,7 @@ neo_variableunits fields
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
-   :file: ./csv_tables/neo_variableunits_FIELDS.csv
+   :file: ./csv_tables/neo_variableunits_FIELDS_trunc.csv
    :header-rows: 1
 
 | The latest *neo_variableunits* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_neo_variableunits__202404301200.csv>`_ |:chipmunk:|
