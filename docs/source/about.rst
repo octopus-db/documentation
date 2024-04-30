@@ -16,11 +16,11 @@ A brief OCTOPUS database history
 ..  _db-history_2024:
 2024
 ^^^^
-* Major update on :ref:`CRN`
+* Major update on :ref:`CRN` (soon)
 
-* :ref:`SahulChar` release
+* :ref:`SahulChar` release (soon)
 
-* :ref:`IPPD` release 
+* :ref:`IPPD` release (soon)
 
 ..  _db-history_2023:
 2023
