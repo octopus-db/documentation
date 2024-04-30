@@ -155,6 +155,18 @@ global_Author fields
 | The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202404291520.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
+..  _global_DataSetMaster_Fields:
+
+global_DataSetMaster fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_DataSetMaster_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *global_DataSetMaster* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_DataSetMaster__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_DataSetMaster` variable specs)
+
 ..  _global_Journal_Fields:
 
 global_Journal fields
@@ -328,6 +340,18 @@ cabah_chemprepID fields
 | The latest *cabah_chemprepID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_chemprepID__202305230904.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_chemprepID` variable specs)
 
+..  _cabah_chroncontroltypeID_Fields:
+
+cabah_chroncontroltypeID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_chroncontroltypeID_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *cabah_chroncontroltypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_chroncontroltypeID__202404301159.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_chroncontroltypeID` variable specs)
+
 ..  _cabah_col_mtdID_Fields:
 
 cabah_col_mtdID fields
@@ -400,6 +424,18 @@ cabah_methodID fields
 | Classification and selection of methods on the basis of Geyh (2005) and Walker (2005).
 | The latest *cabah_methodID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_methodID__202404291506.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_methodID` variable specs)
+
+..  _cabah_taxaID_Fields:
+
+cabah_taxaID fields
+~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/cabah_taxaID_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *cabah_taxaID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_taxaID__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`cabah_taxaID` variable specs)
 
 ..  _cabah_taxagroupID_Fields:
 
