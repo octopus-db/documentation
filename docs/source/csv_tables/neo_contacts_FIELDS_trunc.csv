@@ -1,0 +1,6 @@
+CONTACTID,ALIASID,CONTACTNAM,CSTATUSID,FAMILYNAME,PHONE,FAX,EMAIL,URL,ADDRESS,LEADINITIA,GIVENNAMES,TITLE,SUFFIX,NOTES,OAID
+1,1,International Organization for Standardization,4,International Organization for Standardization,+41 22 749 02 22,+41 22 749 01 55,countrycodes@iso.org,http://www.iso.org/,"ISO 3166 Maintenance Agency, Case postale 56, CH-1211 Genève 20, SWITZERLAND",,,,,,NA
+2,2,United States Central Intelligence Agency,4,United States Central Intelligence Agency,703-482-0623,703-482-1739,,http://www.cia.gov/cia/publications/factbook/,"Office of Public Affairs, Washington, DC 20505, USA",,,,,,NA
+3,3,"Ahearn, P. J.",1,Ahearn,,,,,,P.J.,P. J.,,,,NA
+...,...,...,...,...,...,...,...,...,...,...,...,...,...,...,...
+19524,19524,"Sloan, Anna C.",1,Sloan,,,asloan3@uoregon.edu,,"Department of Anthropology, University of Oregon, Eugene, OR, United States",A.C.,Anna C.,,,,NA

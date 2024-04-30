@@ -1,0 +1,6 @@
+CHRONLGYID,NEO_UNITID,AGETYPEID,CONTACTID,IS_DEFAULT,CHRONNAME,PREPDATE,AGEMODEL,AGEYOUNG,AGEOLD,CHRONNOTE,UNITID
+1,7,5,44,TRUE,NAPD 1,13.05.94,LERP,-30,6490,"Chron uses surface date (-30 BP), Ambrosia-rise (110 BP), and 2 radiocarbon dates.",NA
+2,8,5,44,FALSE,NAPD 1,28.08.97,LERP,-40,5240,"Chron uses top (-40 BP), 5 cultural pollen stratigraphic dates, 4 radiocarbon dates adjusted by -1200 yrs for dead carbon, and 3 unadjusted radiocarbon dates. See Cole and Liu (1994) for explanation.",NA
+4,11,5,118,TRUE,PALE preferred,19.12.96,LERP,1000,8820,,NA
+...,...,...,...,...,...,...,...,...,...,...,...
+41129,42152,2,16519,TRUE,rbacon,22.05.23,rbacon,-70,7700,0 #d.min664 #d.max1 #d.by0 #depths.file #slump10 #acc.mean1.5 #acc.shape0.5 #mem.mean10 #mem.strengthNA #boundaryNA #hiatus.depths10000 #hiatus.max10000 #hiatus.max0 #BCAD1 #cc0 #postbombIntCal20 #cc1Marine20 #cc2SHCal20 #cc3ConstCal #cc4cm #depth.unit0 #normal3 #t.a4 #t.b0 #delta.R0 #d.STD0.95 #probyr#age.unit,NA
