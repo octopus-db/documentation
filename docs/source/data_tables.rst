@@ -40,6 +40,7 @@ The *global_varunitID* table stores **variable units** for those compilations wh
 
 * PARENTID -- Is fkey. Refers to ordinal higher ranking "V_UNITID" [#]_
 
+
 ..  _global_GrainSize:
 
 global_GrainSize table
@@ -59,6 +60,7 @@ The *global_GrainSize* table, focusing on granulomety, stores the **type of (sed
 * GRNSIZEMIN -- Lower grainsize fraction limit, if applicable
 
 * GRNSIZEMAX -- Upper grain size fraction limit, if applicable
+
 
 ..  _Global_georeferencing_tables:
 
@@ -91,6 +93,7 @@ The *global_MetaSite* table stores metasite-related information for all compilat
 
 * FEATURETYP -- If the 'metasite' is related to a natural (e.g. lake) or anthropogenic feature (e.g. quarry): type of the feature, if meaningful and available. For available values refer to :ref:`global_SiteCode`
 
+
 ..  _global_SiteCode:
 
 global_SiteCode table
@@ -108,6 +111,7 @@ The *global_SiteCode* table stores **site types characterising the dominant attr
 * PARENTID -- Is fkey. Refers to ordinal higher ranking "SITECODEID"
 
 * SITEDESCR -- A concise description of “SITECODE”
+
 
 ..  _global_SiteMaster:
 
@@ -183,6 +187,7 @@ The *global_SiteMaster* table stores an information set that enables **georefere
 
 * SITE_COMMT -- Free text site description field that, where applicable, stores neotoma/IPPD site descriptions.
 
+
 ..  _global_UnitMaster:
 
 global_UnitMaster table
@@ -227,6 +232,7 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 
 * NEO_UNITID -- Is Neotoma collection unit ID, serving inter-db data migration, connectivity and integrity (must never be altered nor removed)
 
+
 ..  _global_biomeID:
 
 global_biomeID table
@@ -244,6 +250,7 @@ The *global_biomeID* table stores iconic biome types that allow for a coarse cha
 * PARENTID -- Is fkey. Refers to ordinal higher ranking "BIOMEID"
 
 * BIOMEDESCR -- A concise description of "BIOMETYPE"
+
 
 ..  _global_ibraID:
 
@@ -264,6 +271,7 @@ The *global_ibraID* table stores the location code of a site within the relevant
 .. important::
 
     The global_ibraID table only applies to samples from Australia.
+
 
 ..  _global_rivID:
 
@@ -289,6 +297,7 @@ The *global_rivID* table stores the **Geofabric AHGF river name/region code** (h
 
     The global_rivID table only applies to samples from Australia.
 
+
 ..  _global_datasettypeID:
 
 global_datasettypeID table
@@ -304,6 +313,7 @@ The *global_datasettypeID* table stores **dataset types**, e.g., pollen. To faci
 * DSETTYPE -- Name of dataset type. For available values refer to :ref:`global_datasettypeID_Fields`
 
 * DSTYPNOTE -- Free text dataset note field
+
 
 ..  _spatial_ref_sys:
 
@@ -396,6 +406,7 @@ SCHOOL      text
 
 * SCHOOL -- Name of school where thesis was written
 
+
 ..  _global_RefAbstract:
 
 global_RefAbstract table
@@ -409,6 +420,7 @@ The *global_RefAbstract* table stores **publication abstracts** for references i
 * REFDBID -- Uses same "REFDBID" as :ref:`global_RefCore` table does (because is one-to-one relationship)
 
 * ABSTRACT -- Is publication abstract, if available. Note - Very extensive abstracts have been truncated and marked as *... [_truncated_]* at their end. For available abstracts refer to :ref:`global_RefAbstract_Fields`
+
 
 ..  _global_Author:
 
@@ -440,11 +452,18 @@ The *global_Author* table stores information about **publication (first) authors
 
 * URL_DATE -- Date of "AUTH_URL" visit. Only applicable if "AUTH_URL" is not *NULL*
 
+
 ..  _global_DataSetMaster:
 
 global_DataSetMaster table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *global_DataSetMaster* table stores ...
 
+.. csv-table::
+   :file: ./csv_tables/global_DataSetMaster.csv
+   :header-rows: 1
+
+* 
 
 ..  _global_Journal:
 
@@ -466,6 +485,7 @@ The *global_Journal* table stores information about **peer-reviewed scientific j
 
 * ONLIN_ISSN -- Online ISSN according to https://portal.issn.org
 
+
 ..  _global_PubType:
 
 global_PubType table
@@ -480,12 +500,14 @@ The *global_PubType* table stores **publication entry types** according to BibTe
 
 * PUBTYPE -- For available values refer to :ref:`global_PubType_Fields`
 
+
 ..  _global_RefKeyword:
 
 global_RefKeyword table
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 *global_RefKeyword* is thoroughly boolean and stores compilation membership keywords for observations and is part of OCTOPUS reference system (= REFDBID; one to one).
+
 
 ..  _global_dbDOI:
 
@@ -546,6 +568,7 @@ cabah_AnalysisUnit table
 
 * AUIT_NOTES -- Analysis unit notes
 
+
 ..  _cabah_LabCodes:
 
 cabah_LabCodes table
@@ -572,6 +595,7 @@ The *cabah_LabCodes* table stores information about the **lab of origin** for a 
 
 * LAB_SOURCE -- Source of information stored in a certain tuple. Major sources are 'Radiocarbon' (https://doi.org/10.1017/S0033822200038923) and 'RadonKiel' (https://radon.ufg.uni-kiel.de/labs).
 
+
 ..  _cabah_agetypeID:
 
 cabah_agetypeID table
@@ -590,6 +614,7 @@ The *cabah_agetypeID* table stores the **type of time unit** used for sample age
 
 * AGETCOMMT -- "AGETYPE" reference. For available values refer to :ref:`cabah_agetypeID_Fields`
 
+
 ..  _cabah_basinsizeID:
 
 cabah_basinsizeID table
@@ -606,6 +631,7 @@ The *cabah_basinsizeID* table, according to the Global Paleofire Database (https
 
 * BASINAREA -- "BASINSIZE" description. For available values refer to :ref:`cabah_basinsizeID_Fields`
 
+
 ..  _cabah_catchmentsizeID:
 
 cabah_catchmentsizeID table
@@ -621,6 +647,7 @@ The *cabah_catchmentsizeID* table, according to the Global Paleofire Database (h
 * CATCHMSIZE -- Unique catchment size class abbreviation. For available values refer to :ref:`cabah_catchmentsizeID_Fields`
 
 * CATCHMAREA -- "CATCHSZEID" description. For available values refer to :ref:`cabah_catchmentsizeID_Fields`
+
 
 ..  _cabah_charmethodID:
 
@@ -640,6 +667,7 @@ The *cabah_charmethodID* is a lookup table for charcoal-related compilations, i.
 
 * CHARMTDREF -- "CHARMETHOD" reference. For available values refer to :ref:`cabah_charmethodID_Fields`
 
+
 ..  _cabah_chemprepID:
 
 cabah_chemprepID table
@@ -656,11 +684,18 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
 
 * CHEMPREPAB -- For available values refer to :ref:`cabah_chemprepID_Fields`
 
+
 ..  _cabah_chroncontroltypeID:
 
 cabah_chroncontroltypeID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *cabah_chroncontroltypeID* table stores ...
 
+.. csv-table::
+   :file: ./csv_tables/cabah_chroncontroltypeID.csv
+   :header-rows: 1
+
+* 
 
 ..  _cabah_col_mtdID:
 
@@ -677,6 +712,7 @@ The *cabah_col_mtdID* table stores the **sample collection method**. *cabah_col_
 * COL_MTD -- For available values refer to :ref:`cabah_col_mtdID_Fields`
 
 * PARENTID -- Is fkey. Refers to ordinal higher ranking “COL_MTDID”
+
 
 ..  _cabah_datasourceID:
 
@@ -696,6 +732,7 @@ The *cabah_datasourceID* table stores the **way that data / information have bee
 
 * DATASRCREF -- "DATASOURCE" reference. For available values refer to :ref:`cabah_datasourceID_Fields`
 
+
 ..  _cabah_depositID:
 
 cabah_depositID table
@@ -713,6 +750,7 @@ The *cabah_depositID* table stores the **type of deposit sampled**. *cabah_depos
 * PARENTID -- Is fkey. Refers to ordinal higher ranking "DEPOSITID"
 
 * DEPOSITDSC -- "DEPOSITID" description. For available values refer to :ref:`cabah_depositID_Fields`
+
 
 ..  _cabah_ecolgroupID:
 
@@ -732,6 +770,7 @@ The *cabah_ecolgroupID* table is a Neotoma-derived lookup table that serves comp
 
 * ECOGRPSRC -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
 
+
 ..  _cabah_flowtypeID:
 
 cabah_flowtypeID table
@@ -747,6 +786,7 @@ The *cabah_flowtypeID* table, according to the Global Paleofire Database (https:
 * FLOWTYPE -- Unique flow type abbreviation. For available values refer to :ref:`cabah_flowtypeID_Fields`
 
 * FLOWTYPDCR -- "FLOWTYPEID" description. For available values refer to :ref:`cabah_flowtypeID_Fields`
+
 
 ..  _cabah_methodID:
 
@@ -768,10 +808,18 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 * METHODREF -- Basic method literature reference
 
+
 ..  _cabah_taxaID:
 
 cabah_taxaID table
 ^^^^^^^^^^^^^^^^^^
+The *cabah_taxaID* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/cabah_taxaID.csv
+   :header-rows: 1
+
+* 
 
 ..  _cabah_taxagroupID:
 
@@ -791,6 +839,7 @@ The *cabah_taxagroupID* table is a Neotoma-derived lookup table for compilations
 
 * TXAGRPSRC -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields`
 
+
 ..  _cabah_unittypeID:
 
 cabah_unittypeID table
@@ -806,6 +855,7 @@ The *cabah_unittypeID* table, according to Neotoma's IPPD template, stores **col
 * UNITTYPE -- For available values refer to :ref:`cabah_unittypeID_Fields`
 
 * UNITTDESCR -- "UNITTYPE" description. For available values refer to :ref:`cabah_unittypeID_Fields`
+
 
 ..  _c14_calcurve:
 
@@ -824,6 +874,7 @@ The *c14_calcurve* table stores **calibration curves** used for radiocarbon age 
 * CALCURVREF -- Calibration curve reference
 
 * CALCRVNOTE -- Calibration curve note
+
 
 ..  _c14_calprogram:
 
@@ -853,59 +904,135 @@ The *c14_calprogram* table stores **computer programmes** -- incl. their version
 
     Not the individual "CALPROGRAM" (ukey1) and "CALPROGVER" (ukey2), but only their combination forms the ukey.
 
+
 Neotoma tables (*neo_*)
 ~~~~~~~~~~~~~~~~~~~~~
 Tables featuring the *neo_* suffix in their name have been migrated from the Neotoma db ecosystem to OCTOPUS database. *neo_* tables serve those collections that first went into Neotoma db before becoming part of OCTOPUS, as for instance **IPPD** (the latter as an effort of the Centre of Excellence for Australian Biodiversity and Heritage -- CABAH). Due to datamodel differences between Neotoma and OCTOPUS databases, migrating those unaltered *neo_* tables became a necessity. To maintain connectivity to Neotoma, primary table keys -- i.e., unique IDs that allow for definite identification of a certain tuple -- were kept and must not be altered.
+
 
 ..  _neo_chronologies:
 
 neo_chronologies table
 ^^^^^^^^^^^^^^^^^^^^^^
+The *neo_chronologies* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_chronologies.csv
+   :header-rows: 1
+
+* 
 
 ..  _neo_contacts:
 
 neo_contacts table
 ^^^^^^^^^^^^^^^^^^
+The *neo_contacts* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_contacts.csv
+   :header-rows: 1
+
+* 
+
 
 ..  _neo_elementmaturities:
 
 neo_elementmaturities table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *neo_elementmaturities* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementmaturities.csv
+   :header-rows: 1
+
+* 
+
 
 ..  _neo_elementportions:
 
 neo_elementportions table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+The *neo_elementportions* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementportions.csv
+   :header-rows: 1
+
+* 
+
 
 ..  _neo_elementsymmetries:
 
 neo_elementsymmetries table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *neo_elementsymmetries* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementsymmetries.csv
+   :header-rows: 1
+
+* 
+
 
 ..  _neo_elementtypes:
 
 neo_elementtypes table
 ^^^^^^^^^^^^^^^^^^^^^^
+The *neo_elementtypes* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_elementtypes.csv
+   :header-rows: 1
+
+* 
 
 ..  _neo_keywords:
 
 neo_keywords table
 ^^^^^^^^^^^^^^^^^^
+The *neo_keywords* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_keywords.csv
+   :header-rows: 1
+
+* 
 
 ..  _neo_variablecontexts:
 
 neo_variablecontexts table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *neo_variablecontexts* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_variablecontexts.csv
+   :header-rows: 1
+
+* 
 
 ..  _neo_variableelements:
 
 neo_variableelements table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *neo_variableelements* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_variableelements.csv
+   :header-rows: 1
+
+* 
 
 ..  _neo_variableunits:
 
 neo_variableunits table
 ^^^^^^^^^^^^^^^^^^^^^^^
+The *neo_variableunits* table stores ...
+
+.. csv-table::
+   :file: ./csv_tables/neo_variableunits.csv
+   :header-rows: 1
+
+* 
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
@@ -933,6 +1060,7 @@ The *crn_alstndID* table stores **Al standards, correction factors, ratios and r
 * ALSTNDCOMT -- Al standard comment
 
 For available values refer to :ref:`crn_alstndID_Fields`
+
 
 ..  _crn_bestndID:
 
@@ -977,6 +1105,7 @@ The *osl-tl_agemodelID* table stores the **model used to combine individual equi
 
 * AGEMODELAB -- Unique abbreviation of "AGEMODEL". For available values refer to :ref:`osl-tl_agemodelID_Fields`
 
+
 ..  _osl-tl_ed_procID:
 
 osl-tl_ed_procID table
@@ -992,6 +1121,7 @@ The *osl-tl_ed_procID* table stores the **reported procedure used to determine s
 * ED_PROC -- For available values refer to :ref:`osl-tl_ed_procID_Fields`
 
 * ED_PROCABR -- Unique abbreviation of "ED_PROC". For available values refer to :ref:`osl-tl_ed_procID_Fields`
+
 
 ..  _osl-tl_lum_matID:
 
@@ -1009,6 +1139,7 @@ The *osl-tl_lum_matID* table stores the **type of sample material used for OSL a
 
 * LUM_MATABB -- Unique abbreviation of "LUM_MAT". For available values refer to :ref:`osl-tl_lum_matID_Fields`
 
+
 ..  _osl-tl_mineralID:
 
 osl-tl_mineralID table
@@ -1025,6 +1156,7 @@ The *osl-tl_mineralID* table stores the **type of mineral used for equivalent do
 
 * MINERALABB -- Unique abbreviation of "MINERAL". For available values refer to :ref:`osl-tl_mineralID_Fields`
 
+
 ..  _osl-tl_mtdID:
 
 osl-tl_mtdID table
@@ -1040,6 +1172,7 @@ The *osl-tl_mtdID* table stores the **method used to determine a certain element
 * MTD -- For available values refer to :ref:`osl-tl_mtdID_Fields`
 
 * MTDAB -- Unique abbreviation of "MTDAB". For available values refer to :ref:`osl-tl_mtdID_Fields`
+
 
 ..  _osl_typeID:
 
@@ -1111,10 +1244,10 @@ The *crn_Sample* table stores CRN collection sample information and is, therefor
 
 * SMP_COMMT -- Free text sample comment field.
 
-
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 
 ..  _crn_al_DataCore:
 
@@ -1168,10 +1301,10 @@ The *crn_al_DataCore* table stores **Al-26 observations** (= smallest data model
 
 * EAL_ERR -- CAIRN Al-26 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3
 
-
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 
 ..  _crn_be_DataCore:
 
@@ -1225,10 +1358,10 @@ The *crn_be_DataCore* table stores **Be-10 observations** (= smallest data model
 
 * EBE_ERR -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3
 
-
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 
 ..  _crn_amsID:
 
@@ -1280,6 +1413,7 @@ The *crn_studies_boundingbox* table is a **CRN denudation spatial features table
 
 * STUDYID -- :ref:`CRN` study ID
 
+
 ..  _crn_v3_basins_EPSG3857:
 
 crn_v3_basins_EPSG3857 table
@@ -1302,6 +1436,7 @@ The *crn_v3_basins_EPSG3857* table stores **spatial features**, i.e., multipolyg
 * STUDYID -- Unique study ID
 
 * CRN_SUBCMP -- CRN subcompilation (Global, Australian, inPrep, XXL)
+
 
 ..  _crn_v3_outlets_EPSG3857:
 
@@ -1471,6 +1606,7 @@ The *arch_c14_DataCore* table stores stores **C14-related observations** (= smal
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 
 ..  _arch_osl_DataCore:
 
@@ -1784,6 +1920,7 @@ The *arch_featdatedID* table stores information about **specific features dated*
 
 * FEATDATED -- For available values refer to :ref:`arch_featdatedID_Fields`
 
+
 ..  _c13_valID:
 
 c13_valID table
@@ -1797,6 +1934,7 @@ The *c13_valID* table stores information whether **delta13C was measured or assu
 * C13_VALID -- A unique identifier (auto-incrementing serial integer)
 
 * C13_VAL -- For available values refer to :ref:`c13_valID_Fields`
+
 
 ..  _c14_contamID:
 
@@ -1813,6 +1951,7 @@ The *c14_contamID* table stores information about **specific contaminants that m
 
 * CONTAM -- For available values refer to :ref:`c14_contamID_Fields`
 
+
 ..  _c14_hum_modID:
 
 c14_hum_modID table
@@ -1826,6 +1965,7 @@ The *c14_hum_modID* table stores information about **indications of human modifi
 * HUM_MODID -- A unique identifier (auto-incrementing serial integer)
 
 * HUM_MOD -- For available values refer to :ref:`c14_hum_modID_Fields`
+
 
 ..  _c14_materia1ID:
 
@@ -1842,6 +1982,7 @@ The *c14_materia1ID* table stores information about the **type of sample materia
 * MATERIAL1 -- For available values refer to :ref:`c14_materia1ID_Fields`
 
 * MATERIA1AB -- For available values refer to :ref:`c14_materia1ID_Fields`
+
 
 ..  _c14_materia2ID:
 
@@ -1861,6 +2002,7 @@ The *c14_materia2ID* table stores information about the **sub-type of sample mat
 
 * MAT2_DESCR -- A concise description of "MATERIAL2"
 
+
 ..  _c14_solvent2ID:
 
 c14_solvent2ID table
@@ -1877,6 +2019,7 @@ The *c14_solvent2ID* table stores the **solvent used** for C14 sample processing
 
 * SOLVENT2AB -- For available values refer to :ref:`c14_solvent2ID_Fields`
 
+
 ..  _c_mtdID:
 
 c_mtdID table
@@ -1892,6 +2035,7 @@ The *c_mtdID* table stores the **method used to determine an element abundance/ 
 * C_MTD -- For available values refer to :ref:`c_mtdID_Fields`
 
 * C_MTDAB -- For available values refer to :ref:`c_mtdID_Fields`
+
 
 ..  _arch_c14_polygons_EPSG3857:
 
@@ -1911,6 +2055,7 @@ The *arch_c14_polygons_EPSG3857* table stores **spatial features**, i.e., polygo
 
 * OBSID2 -- The original sample identifier (as published), if available
 
+
 ..  _arch_osl_polygons_EPSG3857:
 
 arch_osl_polygons_EPSG3857 table
@@ -1928,6 +2073,7 @@ The *arch_osl_polygons_EPSG3857* table stores **spatial features**, i.e., polygo
 * OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
 * OBSID2 -- The original sample identifier (as published), if available
+
 
 ..  _arch_tl_polygons_EPSG3857:
 
@@ -1973,6 +2119,7 @@ The *char_Sample* table stores SahulChar sample information and is, therefore, s
 * SMPDEPTH -- Sample depth (m, two decimals)
 
 * SMPCOMMT -- Free text sample comment field 
+
 
 ..  _char_DataCore:
 
@@ -2073,6 +2220,7 @@ sed_Sample table
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
 
+
 ..  _sed-osl_DataCore:
 
 sed-osl_DataCore table
@@ -2111,6 +2259,7 @@ The *sed_depconID* table stores the **deposition context of a sampled feature**.
 
 * DEPCON -- For available values refer to :ref:`sed_depconID_Fields`
 
+
 ..  _sed_faciesID:
 
 sed_faciesID table
@@ -2124,6 +2273,7 @@ The *sed_faciesID* table stores the **type of sedimentological facies**.
 * FACIESID -- A unique identifier (auto-incrementing serial integer)
 
 * FACIES -- For available values refer to :ref:`sed_faciesID_Fields`
+
 
 ..  _sed_geommodID:
 
@@ -2139,6 +2289,7 @@ The *sed_geommodID* table stores the **geomorphic modifier of a sampled feature*
 
 * GEOMMOD -- For available values refer to :ref:`sed_geommodID_Fields`
 
+
 ..  _sed_geotypeID:
 
 sed_geotypeID table
@@ -2152,6 +2303,7 @@ The *sed_geotypeID* table stores the **geomorphological type of a sampled featur
 * GEOTYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * GEOTYPE -- For available values refer to :ref:`sed_geotypeID_Fields`
+
 
 ..  _sed_laketypeID:
 
@@ -2169,6 +2321,7 @@ The *sed_laketypeID* table stores the **type of (origin of) lake (formation)**. 
 
 * PARENTID -- Is fkey. Refers to ordinal higher ranking "LAKETYPEID"
 
+
 ..  _sed_morphID:
 
 sed_morphID table
@@ -2183,6 +2336,7 @@ The *sed_morphID* table stores the **morphology of a sampled feature**.
 
 * MORPH -- For available values refer to :ref:`sed_morphID_Fields`
 
+
 ..  _sed_sitetypeID:
 
 sed_sitetypeID table
@@ -2196,6 +2350,7 @@ The *sed_sitetypeID* table stores the **type of the site from which samples were
 * SITETYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * SITETYPE -- For available values refer to :ref:`sed_sitetypeID_Fields`
+
 
 ..  _sed-osl_points_EPSG3857:
 
@@ -2214,6 +2369,7 @@ The *sed-osl_points_EPSG3857* table stores **spatial features**, i.e., points of
 * OBSID1 -- A unique identifier and one-to-one reference to a certain observation
 
 * OBSID2 -- The original sample identifier (as published), if available
+
 
 ..  _sed-tl_points_EPSG3857:
 
@@ -2264,6 +2420,7 @@ The *fos_Sample* table stores FosSahul collection sample information and is, the
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 
 ..  _fos_DataCore:
 
@@ -2368,6 +2525,7 @@ The *fos_TaxRank1_classID* table stores the most updated **vertebrata class** na
 
 * CLASS -- The most updated **vertebrata class** name. For available values refer to :ref:`fos_TaxRank1_classID_Fields`
 
+
 ..  _fos_TaxRank2_infraclaID:
 
 fos_TaxRank2_infraclaID table
@@ -2381,6 +2539,7 @@ The *fos_TaxRank2_infraclaID* table stores the most updated **vertebrata infracl
 * INFRACLAID -- A unique identifier (auto-incrementing serial integer)
 
 * INFRACLASS -- The most updated **vertebrata infraclass** name. For available values refer to :ref:`fos_TaxRank2_infraclaID_Fields`
+
 
 ..  _fos_TaxRank3_ordrID:
 
@@ -2396,6 +2555,7 @@ The *fos_TaxRank3_ordrID* table stores the most updated **vertebrata order** nam
 
 * ORDR -- The most updated **vertebrata order** name. For available values refer to :ref:`fos_TaxRank3_ordrID_Fields`
 
+
 ..  _fos_TaxRank4_familyID:
 
 fos_TaxRank4_familyID table
@@ -2409,6 +2569,7 @@ The *fos_TaxRank4_familyID* table stores the most updated **vertebrata family** 
 * FAMILYID -- A unique identifier (auto-incrementing serial integer)
 
 * FAMILY -- The most updated **vertebrata family** name. For available values refer to :ref:`fos_TaxRank4_familyID_Fields`
+
 
 ..  _fos_TaxRank5_genusID:
 
@@ -2424,6 +2585,7 @@ The *fos_TaxRank5_genusID* table stores the most updated **vertebrata genus** na
 
 * GENUS -- The most updated **vertebrata genus** name. For available values refer to :ref:`fos_TaxRank5_genusID_Fields`
 
+
 ..  _fos_TaxRank6_speciesID:
 
 fos_TaxRank6_speciesID table
@@ -2437,6 +2599,7 @@ The *fos_TaxRank6_speciesID* table stores the most updated **vertebrata species*
 * SPECIESID -- A unique identifier (auto-incrementing serial integer)
 
 * SPECIES -- The most updated **vertebrata species** name. For available values refer to :ref:`fos_TaxRank6_speciesID_Fields`
+
 
 ..  _fos_chemtypeID:
 
@@ -2557,6 +2720,7 @@ The *expage_Sample* table stores :ref:`expage` sample information and is, theref
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
+
 
 ..  _expage_DataCore:
 
