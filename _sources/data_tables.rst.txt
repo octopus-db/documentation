@@ -1024,7 +1024,7 @@ The *neo_keywords* table is a Neotoma lookup table of **Keywords** referenced by
 
 neo_variablecontexts table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable Contexts** (i.e., depositional contexts). This table is referenced by the *ippd_variables* table. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variablecontexts)
+The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable Contexts** (i.e., depositional contexts). This table is referenced by the :ref:`ippd_variable`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variablecontexts)
 
 .. csv-table::
    :file: ./csv_tables/neo_variablecontexts.csv
@@ -1036,7 +1036,7 @@ The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable 
 
 neo_variableelements table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable Elements**. This table is referenced by the *ippd_variables* table. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements)
+The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable Elements**. This table is referenced by the :ref:`ippd_variable`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements)
 
 .. csv-table::
    :file: ./csv_tables/neo_variableelements.csv
@@ -1048,7 +1048,7 @@ The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable 
 
 neo_variableunits table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variableunits* table is a Neotoma lookup table of **Variable Units**. This table is referenced by the *ippd_variables* table. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableunits)
+The *neo_variableunits* table is a Neotoma lookup table of **Variable Units**. This table is referenced by the :ref:`ippd_variable`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableunits)
 
 .. csv-table::
    :file: ./csv_tables/neo_variableunits.csv
