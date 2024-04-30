@@ -233,6 +233,19 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 * NEO_UNITID -- Is Neotoma collection unit ID, serving inter-db data migration, connectivity and integrity (must never be altered nor removed)
 
 
+..  _global_DataSetMaster:
+
+global_DataSetMaster table
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *global_DataSetMaster* table is the global master table that stores **dataset related information for all relevant compilations**. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the *cabah_datasettypeID* table. In OCTOPUS data model hierarchy *global_DataSetID* is situated between the collection-specific sample tables (subordinate) and the *global_UnitMaster* table (superordinate); (= UNITID). *global_DataSetID* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
+
+.. csv-table::
+   :file: ./csv_tables/global_DataSetMaster.csv
+   :header-rows: 1
+
+* 
+
+
 ..  _global_biomeID:
 
 global_biomeID table
@@ -452,18 +465,6 @@ The *global_Author* table stores information about **publication (first) authors
 
 * URL_DATE -- Date of "AUTH_URL" visit. Only applicable if "AUTH_URL" is not *NULL*
 
-
-..  _global_DataSetMaster:
-
-global_DataSetMaster table
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *global_DataSetMaster* table is the global master table that stores **dataset related information for all relevant compilations**. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the *cabah_datasettypeID* table. In OCTOPUS data model hierarchy *global_DataSetID* is situated between the collection-specific sample tables (subordinate) and the *global_UnitMaster* table (superordinate); (= UNITID). *global_DataSetID* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
-
-.. csv-table::
-   :file: ./csv_tables/global_DataSetMaster.csv
-   :header-rows: 1
-
-* 
 
 ..  _global_Journal:
 
@@ -813,7 +814,7 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 cabah_taxaID table
 ^^^^^^^^^^^^^^^^^^
-The *cabah_taxaID* table is a Neotoma-derived taxa table for compilations dealing with taxa, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa), stores **taxa**  [...] IMPORTANT NOTE: Primary key (and, with the exception of "TAXAGRPID", the other IDs too) have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these IDs stay untouched.
+The *cabah_taxaID* table is a Neotoma-derived taxa table for compilations dealing with taxa, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa), stores **taxa**. IMPORTANT NOTE: Primary key (and, with the exception of "TAXAGRPID", the other IDs too) have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these IDs stay untouched.
 
 .. csv-table::
    :file: ./csv_tables/cabah_taxaID.csv
@@ -914,7 +915,7 @@ Tables featuring the *neo_* suffix in their name have been migrated from the Neo
 
 neo_chronologies table
 ^^^^^^^^^^^^^^^^^^^^^^
-The *neo_chronologies* is a Neotoma table for compilations dealing with chronologies, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies), stores *chronology data*. [...] _A Chronology refers to an explicit chronology assigned to a Collection Unit. A Chronology has Chronology Controls, the actual age-depth control points, which are stored in the ChronControls table. A Chronology is also based on an Age Model, which may be a numerical method that fits a curve to a set of age-depth control points or may simply be individually dated Analysis Units._ IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.
+The *neo_chronologies* is a Neotoma table for compilations dealing with chronologies, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies), stores *chronology data*. [...] _A Chronology refers to an explicit chronology assigned to a Collection Unit. A Chronology has Chronology Controls, the actual age-depth control points, which are stored in the ChronControls table. A Chronology is also based on an Age Model, which may be a numerical method that fits a curve to a set of age-depth control points or may simply be individually dated Analysis Units. IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.
 
 .. csv-table::
    :file: ./csv_tables/neo_chronologies.csv
