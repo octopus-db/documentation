@@ -905,9 +905,71 @@ The *c14_calprogram* table stores **computer programmes** -- incl. their version
 
     Not the individual "CALPROGRAM" (ukey1) and "CALPROGVER" (ukey2), but only their combination forms the ukey.
 
+..  _IPPD_tables:
+
+IPPD tables (*neo_*)
+~~~~~~~~~~~~~~~~~~~~
+
+..  _ippd_DataCore:
+
+ippd_DataCore table
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/ippd_DataCore.csv
+   :header-rows: 1
+
+*
+
+..  _ippd_Sample:
+
+ippd_Sample table
+^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/ippd_Sample.csv
+   :header-rows: 1
+
+*
+
+..  _ippd_sampleages:
+
+ippd_sampleages table
+^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/ippd_sampleages.csv
+   :header-rows: 1
+
+*
+
+..  _ippd_samplekeywords:
+
+ippd_samplekeywords table
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+   :file: ./csv_tables/ippd_samplekeywords.csv
+   :header-rows: 1
+
+*
+
+..  _ippd_variables:
+
+ippd_variables table
+^^^^^^^^^^^^^^^^^^^^
+*ippd_variables* is an IPPD-specific Neotoma table that lists **Variables**, which always consist of a *Taxon* AND *Units* of measurement. Variables can also have *Elements*, *Contexts*, and *Modifications*. Thus, the same taxon with different measurement units (e.g. present/absent, NISP, MNI) are different Variables. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variables)
+
+.. csv-table::
+   :file: ./csv_tables/ippd_variables.csv
+   :header-rows: 1
+
+*
+
+..  _Neotoma_tables:
 
 Neotoma tables (*neo_*)
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
 Tables featuring the *neo_* suffix in their name have been migrated from the Neotoma db ecosystem to OCTOPUS database. *neo_* tables serve those collections that first went into Neotoma db before becoming part of OCTOPUS, as for instance **IPPD** (the latter as an effort of the Centre of Excellence for Australian Biodiversity and Heritage -- CABAH). Due to datamodel differences between Neotoma and OCTOPUS databases, migrating those unaltered *neo_* tables became a necessity. To maintain connectivity to Neotoma, primary table keys -- i.e., unique IDs that allow for definite identification of a certain tuple -- were kept and must not be altered.
 
 
@@ -1025,7 +1087,7 @@ The *neo_keywords* table is a Neotoma lookup table of **Keywords** referenced by
 
 neo_variablecontexts table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable Contexts** (i.e., depositional contexts). This table is referenced by the :ref:`ippd_variable`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variablecontexts)
+The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable Contexts** (i.e., depositional contexts). This table is referenced by the :ref:`ippd_variables`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variablecontexts)
 
 .. csv-table::
    :file: ./csv_tables/neo_variablecontexts.csv
@@ -1037,7 +1099,7 @@ The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable 
 
 neo_variableelements table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable Elements**. This table is referenced by the :ref:`ippd_variable`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements)
+The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable Elements**. This table is referenced by the :ref:`ippd_variables`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements)
 
 .. csv-table::
    :file: ./csv_tables/neo_variableelements.csv
@@ -1049,7 +1111,7 @@ The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable 
 
 neo_variableunits table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variableunits* table is a Neotoma lookup table of **Variable Units**. This table is referenced by the :ref:`ippd_variable`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableunits)
+The *neo_variableunits* table is a Neotoma lookup table of **Variable Units**. This table is referenced by the :ref:`ippd_variables`. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableunits)
 
 .. csv-table::
    :file: ./csv_tables/neo_variableunits.csv
