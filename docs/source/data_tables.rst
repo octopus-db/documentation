@@ -825,7 +825,7 @@ The *cabah_taxaID* table is a Neotoma-derived taxa table for compilations dealin
 
 cabah_taxagroupID table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *cabah_taxagroupID* table is a Neotoma-derived lookup table for compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa), stores **taxa groups** … *The TaxaGroupID facilitates rapid extraction of taxa groups that are typically grouped together for analysis. Some of these groups contain taxa in different classes or phyla* …
+The *cabah_taxagroupID* table is a Neotoma-derived lookup table for compilations dealing with taxa, e.g. IPPD. This table, according Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa), stores **taxa groups** [...] *The TaxaGroupID facilitates rapid extraction of taxa groups that are typically grouped together for analysis. Some of these groups contain taxa in different classes or phyla* …
 
 .. csv-table::
    :file: ./csv_tables/cabah_taxagroupID.csv
@@ -961,7 +961,7 @@ The *neo_contacts* table is a Neotoma lookup table for compilations involving Ne
 
 neo_elementmaturities table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementmaturities* table is a Neotoma lookup lookup table of **Element maturities**. This table is referenced by the *neo_variableelements* table.
+The *neo_elementmaturities* table is a Neotoma lookup lookup table of **Element maturities**. This table is referenced by the :ref:`neo_variableelements`.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementmaturities.csv
@@ -974,7 +974,7 @@ The *neo_elementmaturities* table is a Neotoma lookup lookup table of **Element 
 
 neo_elementportions table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementportions* table is a Neotoma lookup lookup table of **Element proportions**. This table is referenced by the *neo_variableelements* table.
+The *neo_elementportions* table is a Neotoma lookup lookup table of **Element proportions**. This table is referenced by the :ref:`neo_variableelements`.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementportions.csv
@@ -987,7 +987,7 @@ The *neo_elementportions* table is a Neotoma lookup lookup table of **Element pr
 
 neo_elementsymmetries table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementsymmetries* table is a Neotoma lookup lookup table of **Element symmetries**. This table is referenced by the *neo_variableelements* table.
+The *neo_elementsymmetries* table is a Neotoma lookup lookup table of **Element symmetries**. This table is referenced by the :ref:`neo_variableelements`.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementsymmetries.csv
@@ -1000,7 +1000,7 @@ The *neo_elementsymmetries* table is a Neotoma lookup lookup table of **Element 
 
 neo_elementtypes table
 ^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementtypes* table is a Neotoma lookup lookup table of **Element types**. This table is refrences by the *neo_variableelements* table.
+The *neo_elementtypes* table is a Neotoma lookup lookup table of **Element types**. This table is refrences by the :ref:`neo_variableelements`.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementtypes.csv
