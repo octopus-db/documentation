@@ -836,6 +836,12 @@ The *c14_calprogram* table stores **computer programmes** -- incl. their version
 
     Not the individual "CALPROGRAM" (ukey1) and "CALPROGVER" (ukey2), but only their combination forms the ukey.
 
+Neotoma tables (neo_)
+~~~~~~~~~~~~~~~~~~~~~
+Tables featuring the *neo_* suffix in their name have been migrated from the Neotoma db ecosystem to OCTOPUS database. *neo_* tables serve those collections that first went into Neotoma db before becoming part of OCTOPUS, as for instance **IPPD** (as an effort of the Centre of Excellence for Australian Biodiversity and Heritage -- CABAH). Due to datamodel differences between Neotoma and OCTOPUS databases, migrating some unaltered *neo_* tables became a necessity. To maintain connectivity to Neotoma, primary table keys -- i.e., those unique IDs that allow for definite identification of a certain tuple -- were kept and must never be altered.
+
+* TABLES TO COME ...
+
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
 

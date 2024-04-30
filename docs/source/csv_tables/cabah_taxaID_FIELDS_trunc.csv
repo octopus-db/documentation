@@ -1,0 +1,13 @@
+"TAXONID","TAXONCODE","TAXONNAME","AUTHOR","TAXONVALID","PARENTID","TAXEXTINCT","TAXAGRPID","NEOTXPUBID","NEOVALORID","VALIDDATE","TAXONNOTE"
+1,"Abi","Abies","Miller, 1754","true",329,"false",54,299,44,"2017-04-21",""
+2,"Acy","Acalypha","Linnaeus, 1753","true",42557,"false",54,300,15382,"2020-10-30",""
+3,"Ace.sa-t","Acer saccharum-type","Marshall, 1785","true",338,"false",54,300,44,"2012-03-21",""
+4,"Ace.ne","Acer negundo","Linnaeus, 1753","true",338,"false",54,300,44,"2016-03-13",""
+5,"Ace.pe","Acer pensylvanicum","Linnaeus, 1753","true",338,"false",54,300,44,"2012-03-21",""
+6,"Ace.ru","Acer rubrum","Linnaeus, 1753","true",338,"false",54,300,44,"2016-03-13",""
+7,"Ace.sc-t","Acer saccharinum-type","Linnaeus, 1753","true",338,"false",54,300,44,"2012-03-21",""
+8,"Ace.sm","Acer spicatum","Lamarck, 1786","true",338,"false",54,300,44,"2012-03-21",""
+9,"Ace.ud","Acer undiff.","Linnaeus, 1753","true",338,"false",54,300,44,"2012-03-21",""
+10,"Adi","Adiantum","Linnaeus, 1753","true",1625,"false",54,9777,44,"2017-06-11",""
+...,...,...,...,...,...,...,...,...,...,...,...
+52469,"Uln.cf.da","Ulnaria cf. danica","","true",24595,"false",19,19547,16530,"2024-03-21",""

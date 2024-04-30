@@ -1,0 +1,13 @@
+"CCONTRLID","CCONTRLTYP","PARENTID","METHODID"
+1,"Core top",45,81
+2,"Radiocarbon",44,2
+3,"Tephra",35,70
+4,"Radiocarbon, average of two or more dates",2,NA
+5,"Other dating methods",5,NA
+6,"Biostratigraphic, pollen",38,NA
+7,"Guess",5,NA
+8,"Sediment stratigraphic",45,NA
+9,"Relative time scale",9,NA
+10,"Lead-210",44,40
+...,...,...,...
+117,"Radiocarbon, modern fraction (F14C)",44,NA
