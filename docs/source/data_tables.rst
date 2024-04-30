@@ -457,7 +457,7 @@ The *global_Author* table stores information about **publication (first) authors
 
 global_DataSetMaster table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *global_DataSetMaster* table stores ...
+The *global_DataSetMaster* table is the global master table that stores **dataset related information for all relevant compilations**. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the *cabah_datasettypeID* table. In OCTOPUS data model hierarchy *global_DataSetID* is situated between the collection-specific sample tables (subordinate) and the *global_UnitMaster* table (superordinate); (= UNITID). *global_DataSetID* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
 
 .. csv-table::
    :file: ./csv_tables/global_DataSetMaster.csv
@@ -689,7 +689,7 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
 
 cabah_chroncontroltypeID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *cabah_chroncontroltypeID* table stores ...
+The *cabah_chroncontroltypeID* table is a Neotoma-derived table for compilations dealing with chronologies, e.g. IPPD. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes), stores **chronology control types**.
 
 .. csv-table::
    :file: ./csv_tables/cabah_chroncontroltypeID.csv
@@ -813,7 +813,7 @@ The *cabah_methodID* table stores the **type of method used in age/rate determin
 
 cabah_taxaID table
 ^^^^^^^^^^^^^^^^^^
-The *cabah_taxaID* table stores ...
+The *cabah_taxaID* table is a Neotoma-derived taxa table for compilations dealing with taxa, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa), stores **taxa**  [...] IMPORTANT NOTE: Primary key (and, with the exception of "TAXAGRPID", the other IDs too) have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these IDs stay untouched.
 
 .. csv-table::
    :file: ./csv_tables/cabah_taxaID.csv
@@ -914,19 +914,41 @@ Tables featuring the *neo_* suffix in their name have been migrated from the Neo
 
 neo_chronologies table
 ^^^^^^^^^^^^^^^^^^^^^^
-The *neo_chronologies* table stores ...
+The *neo_chronologies* is a Neotoma table for compilations dealing with chronologies, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies), stores *chronology data*. [...] _A Chronology refers to an explicit chronology assigned to a Collection Unit. A Chronology has Chronology Controls, the actual age-depth control points, which are stored in the ChronControls table. A Chronology is also based on an Age Model, which may be a numerical method that fits a curve to a set of age-depth control points or may simply be individually dated Analysis Units._ IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.
 
 .. csv-table::
    :file: ./csv_tables/neo_chronologies.csv
    :header-rows: 1
 
-* 
+* CHRONLGYID -- Is the original Neotoma *chronologyid*
+
+* NEO_UNITID -- Is the original Neotoma *collectionunitid*
+
+* AGETYPEID -- Is an fkey to public."cabah_agetype" table. IMPORTANT: values have been changed to match OCTOPUS db
+
+* CONTACTID -- Is original Neotoma *contactid*
+
+* IS_DEFAULT -- If TRUE, then chronology is the default chronology
+
+* CHRONNAME -- Is chronology name, if available
+
+* PREPDATE -- 
+
+* AGEMODEL -- 
+
+* AGEYOUNG -- 
+
+* AGEOLD -- 
+
+* CHRONNOTE -- Chronology related note, if applicable
+
+* UNITID -- 
 
 ..  _neo_contacts:
 
 neo_contacts table
 ^^^^^^^^^^^^^^^^^^
-The *neo_contacts* table stores ...
+The *neo_contacts* table is a Neotoma lookup table for compilations involving Neotoma contacts, e.g. **IPPD**. This table stores *contacts* of both individuals and legal entities. To preserve table usability down the database pipeline, primary key values have NOT been altered and MUST BE always identical with those from the Neotoma original.
 
 .. csv-table::
    :file: ./csv_tables/neo_contacts.csv
@@ -939,7 +961,7 @@ The *neo_contacts* table stores ...
 
 neo_elementmaturities table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementmaturities* table stores ...
+The *neo_elementmaturities* table is a Neotoma lookup lookup table of **Element maturities**. This table is referenced by the *neo_variableelements* table.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementmaturities.csv
@@ -952,7 +974,7 @@ The *neo_elementmaturities* table stores ...
 
 neo_elementportions table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementportions* table stores ...
+The *neo_elementportions* table is a Neotoma lookup lookup table of **Element proportions**. This table is referenced by the *neo_variableelements* table.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementportions.csv
@@ -965,7 +987,7 @@ The *neo_elementportions* table stores ...
 
 neo_elementsymmetries table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementsymmetries* table stores ...
+The *neo_elementsymmetries* table is a Neotoma lookup lookup table of **Element symmetries**. This table is referenced by the *neo_variableelements* table.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementsymmetries.csv
@@ -978,7 +1000,7 @@ The *neo_elementsymmetries* table stores ...
 
 neo_elementtypes table
 ^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementtypes* table stores ...
+The *neo_elementtypes* table is a Neotoma lookup lookup table of **Element types**. This table is refrences by the *neo_variableelements* table.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementtypes.csv
@@ -990,7 +1012,7 @@ The *neo_elementtypes* table stores ...
 
 neo_keywords table
 ^^^^^^^^^^^^^^^^^^
-The *neo_keywords* table stores ...
+The *neo_keywords* table is a Neotoma lookup table of **Keywords** referenced by the *SampleKeywords* table. The table provides a means to identify samples sharing a common attribute. For example, the keyword «modern sample» identifies modern surface samples in the database. These samples include individual surface samples, as well as core tops. Although not implemented, a «pre-European settlement» keyword would be a means to identify samples just predating European settlement. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#keywords)
 
 .. csv-table::
    :file: ./csv_tables/neo_keywords.csv
@@ -1002,7 +1024,7 @@ The *neo_keywords* table stores ...
 
 neo_variablecontexts table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variablecontexts* table stores ...
+The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable Contexts** (i.e., depositional contexts). This table is referenced by the *ippd_variables* table. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variablecontexts)
 
 .. csv-table::
    :file: ./csv_tables/neo_variablecontexts.csv
@@ -1014,7 +1036,7 @@ The *neo_variablecontexts* table stores ...
 
 neo_variableelements table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variableelements* table stores ...
+The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable Elements**. This table is referenced by the *ippd_variables* table. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements)
 
 .. csv-table::
    :file: ./csv_tables/neo_variableelements.csv
@@ -1026,7 +1048,7 @@ The *neo_variableelements* table stores ...
 
 neo_variableunits table
 ^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_variableunits* table stores ...
+The *neo_variableunits* table is a Neotoma lookup table of **Variable Units**. This table is referenced by the *ippd_variables* table. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableunits)
 
 .. csv-table::
    :file: ./csv_tables/neo_variableunits.csv
