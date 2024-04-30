@@ -1517,7 +1517,7 @@
 </div>
 <div class="section" id="global-datasetmaster-table">
 <span id="global-datasetmaster"></span><h4>global_DataSetMaster table<a class="headerlink" href="#global-datasetmaster-table" title="Permalink to this heading"></a></h4>
-<p>The <em>global_DataSetMaster</em> table stores …</p>
+<p>The <em>global_DataSetMaster</em> table is the global master table that stores <strong>dataset related information for all relevant compilations</strong>. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the <em>cabah_datasettypeID</em> table. In OCTOPUS data model hierarchy <em>global_DataSetID</em> is situated between the collection-specific sample tables (subordinate) and the <em>global_UnitMaster</em> table (superordinate); (= UNITID). <em>global_DataSetID</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2132,7 +2132,7 @@
 </div>
 <div class="section" id="cabah-chroncontroltypeid-table">
 <span id="cabah-chroncontroltypeid"></span><h4>cabah_chroncontroltypeID table<a class="headerlink" href="#cabah-chroncontroltypeid-table" title="Permalink to this heading"></a></h4>
-<p>The <em>cabah_chroncontroltypeID</em> table stores …</p>
+<p>The <em>cabah_chroncontroltypeID</em> table is a Neotoma-derived table for compilations dealing with chronologies, e.g. IPPD. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes">https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes</a>), stores <strong>chronology control types</strong>.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2475,7 +2475,7 @@
 </div>
 <div class="section" id="cabah-taxaid-table">
 <span id="cabah-taxaid"></span><h4>cabah_taxaID table<a class="headerlink" href="#cabah-taxaid-table" title="Permalink to this heading"></a></h4>
-<p>The <em>cabah_taxaID</em> table stores …</p>
+<p>The <em>cabah_taxaID</em> table is a Neotoma-derived taxa table for compilations dealing with taxa, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa</a>), stores <strong>taxa</strong>  […] IMPORTANT NOTE: Primary key (and, with the exception of “TAXAGRPID”, the other IDs too) have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these IDs stay untouched.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2741,7 +2741,7 @@
 <p>Tables featuring the <em>neo_</em> suffix in their name have been migrated from the Neotoma db ecosystem to OCTOPUS database. <em>neo_</em> tables serve those collections that first went into Neotoma db before becoming part of OCTOPUS, as for instance <strong>IPPD</strong> (the latter as an effort of the Centre of Excellence for Australian Biodiversity and Heritage – CABAH). Due to datamodel differences between Neotoma and OCTOPUS databases, migrating those unaltered <em>neo_</em> tables became a necessity. To maintain connectivity to Neotoma, primary table keys – i.e., unique IDs that allow for definite identification of a certain tuple – were kept and must not be altered.</p>
 <div class="section" id="neo-chronologies-table">
 <span id="neo-chronologies"></span><h4>neo_chronologies table<a class="headerlink" href="#neo-chronologies-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_chronologies</em> table stores …</p>
+<p>The <em>neo_chronologies</em> is a Neotoma table for compilations dealing with chronologies, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies">https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies</a>), stores <em>chronology data</em>. […] _A Chronology refers to an explicit chronology assigned to a Collection Unit. A Chronology has Chronology Controls, the actual age-depth control points, which are stored in the ChronControls table. A Chronology is also based on an Age Model, which may be a numerical method that fits a curve to a set of age-depth control points or may simply be individually dated Analysis Units._ IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2768,12 +2768,23 @@
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>CHRONLGYID – Is the original Neotoma <em>chronologyid</em></p></li>
+<li><p>NEO_UNITID – Is the original Neotoma <em>collectionunitid</em></p></li>
+<li><p>AGETYPEID – Is an fkey to public.”cabah_agetype” table. IMPORTANT: values have been changed to match OCTOPUS db</p></li>
+<li><p>CONTACTID – Is original Neotoma <em>contactid</em></p></li>
+<li><p>IS_DEFAULT – If TRUE, then chronology is the default chronology</p></li>
+<li><p>CHRONNAME – Is chronology name, if available</p></li>
+<li><p>PREPDATE –</p></li>
+<li><p>AGEMODEL –</p></li>
+<li><p>AGEYOUNG –</p></li>
+<li><p>AGEOLD –</p></li>
+<li><p>CHRONNOTE – Chronology related note, if applicable</p></li>
+<li><p>UNITID –</p></li>
 </ul>
 </div>
 <div class="section" id="neo-contacts-table">
 <span id="neo-contacts"></span><h4>neo_contacts table<a class="headerlink" href="#neo-contacts-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_contacts</em> table stores …</p>
+<p>The <em>neo_contacts</em> table is a Neotoma lookup table for compilations involving Neotoma contacts, e.g. <strong>IPPD</strong>. This table stores <em>contacts</em> of both individuals and legal entities. To preserve table usability down the database pipeline, primary key values have NOT been altered and MUST BE always identical with those from the Neotoma original.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2805,7 +2816,7 @@
 </div>
 <div class="section" id="neo-elementmaturities-table">
 <span id="neo-elementmaturities"></span><h4>neo_elementmaturities table<a class="headerlink" href="#neo-elementmaturities-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_elementmaturities</em> table stores …</p>
+<p>The <em>neo_elementmaturities</em> table is a Neotoma lookup lookup table of <strong>Element maturities</strong>. This table is referenced by the <em>neo_variableelements</em> table.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2837,7 +2848,7 @@
 </div>
 <div class="section" id="neo-elementportions-table">
 <span id="neo-elementportions"></span><h4>neo_elementportions table<a class="headerlink" href="#neo-elementportions-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_elementportions</em> table stores …</p>
+<p>The <em>neo_elementportions</em> table is a Neotoma lookup lookup table of <strong>Element proportions</strong>. This table is referenced by the <em>neo_variableelements</em> table.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2869,7 +2880,7 @@
 </div>
 <div class="section" id="neo-elementsymmetries-table">
 <span id="neo-elementsymmetries"></span><h4>neo_elementsymmetries table<a class="headerlink" href="#neo-elementsymmetries-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_elementsymmetries</em> table stores …</p>
+<p>The <em>neo_elementsymmetries</em> table is a Neotoma lookup lookup table of <strong>Element symmetries</strong>. This table is referenced by the <em>neo_variableelements</em> table.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2901,7 +2912,7 @@
 </div>
 <div class="section" id="neo-elementtypes-table">
 <span id="neo-elementtypes"></span><h4>neo_elementtypes table<a class="headerlink" href="#neo-elementtypes-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_elementtypes</em> table stores …</p>
+<p>The <em>neo_elementtypes</em> table is a Neotoma lookup lookup table of <strong>Element types</strong>. This table is refrences by the <em>neo_variableelements</em> table.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2933,7 +2944,7 @@
 </div>
 <div class="section" id="neo-keywords-table">
 <span id="neo-keywords"></span><h4>neo_keywords table<a class="headerlink" href="#neo-keywords-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_keywords</em> table stores …</p>
+<p>The <em>neo_keywords</em> table is a Neotoma lookup table of <strong>Keywords</strong> referenced by the <em>SampleKeywords</em> table. The table provides a means to identify samples sharing a common attribute. For example, the keyword «modern sample» identifies modern surface samples in the database. These samples include individual surface samples, as well as core tops. Although not implemented, a «pre-European settlement» keyword would be a means to identify samples just predating European settlement. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#keywords">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#keywords</a>)</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2965,7 +2976,7 @@
 </div>
 <div class="section" id="neo-variablecontexts-table">
 <span id="neo-variablecontexts"></span><h4>neo_variablecontexts table<a class="headerlink" href="#neo-variablecontexts-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_variablecontexts</em> table stores …</p>
+<p>The <em>neo_variablecontexts</em> table is a Neotoma lookup lookup table of <strong>Variable Contexts</strong> (i.e., depositional contexts). This table is referenced by the <em>ippd_variables</em> table. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variablecontexts">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variablecontexts</a>)</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2997,7 +3008,7 @@
 </div>
 <div class="section" id="neo-variableelements-table">
 <span id="neo-variableelements"></span><h4>neo_variableelements table<a class="headerlink" href="#neo-variableelements-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_variableelements</em> table stores …</p>
+<p>The <em>neo_variableelements</em> table is a Neotoma lookup lookup table of <strong>Variable Elements</strong>. This table is referenced by the <em>ippd_variables</em> table. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableelements</a>)</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -3029,7 +3040,7 @@
 </div>
 <div class="section" id="neo-variableunits-table">
 <span id="neo-variableunits"></span><h4>neo_variableunits table<a class="headerlink" href="#neo-variableunits-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_variableunits</em> table stores …</p>
+<p>The <em>neo_variableunits</em> table is a Neotoma lookup table of <strong>Variable Units</strong>. This table is referenced by the <em>ippd_variables</em> table. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableunits">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variableunits</a>)</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
