@@ -58,6 +58,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-sitecode-table">global_SiteCode table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-sitemaster-table">global_SiteMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-unitmaster-table">global_UnitMaster table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#global-datasetmaster-table">global_DataSetMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-biomeid-table">global_biomeID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-ibraid-table">global_ibraID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-rivid-table">global_rivID table</a></li>
@@ -69,7 +70,6 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-refcore-table">global_RefCore table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-refabstract-table">global_RefAbstract table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-author-table">global_Author table</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#global-datasetmaster-table">global_DataSetMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-journal-table">global_Journal table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-pubtype-table">global_PubType table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-refkeyword-table">global_RefKeyword table</a></li>
@@ -943,6 +943,38 @@
 <li><p>NEO_UNITID – Is Neotoma collection unit ID, serving inter-db data migration, connectivity and integrity (must never be altered nor removed)</p></li>
 </ul>
 </div>
+<div class="section" id="global-datasetmaster-table">
+<span id="global-datasetmaster"></span><h4>global_DataSetMaster table<a class="headerlink" href="#global-datasetmaster-table" title="Permalink to this heading"></a></h4>
+<p>The <em>global_DataSetMaster</em> table is the global master table that stores <strong>dataset related information for all relevant compilations</strong>. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the <em>cabah_datasettypeID</em> table. In OCTOPUS data model hierarchy <em>global_DataSetID</em> is situated between the collection-specific sample tables (subordinate) and the <em>global_UnitMaster</em> table (superordinate); (= UNITID). <em>global_DataSetID</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li></li>
+</ul>
+</div>
 <div class="section" id="global-biomeid-table">
 <span id="global-biomeid"></span><h4>global_biomeID table<a class="headerlink" href="#global-biomeid-table" title="Permalink to this heading"></a></h4>
 <p>The <em>global_biomeID</em> table stores iconic biome types that allow for a coarse characterisation/classifications of sampled sites amongst Earth’s major biogeographic units. <em>global_biomeID</em> is a self-referencing table.</p>
@@ -1513,38 +1545,6 @@
 <li><p>AUTH_COMMT – Free text comment field</p></li>
 <li><p>AUTH_URL – URL field. Only used if “AUTH” is a corporation</p></li>
 <li><p>URL_DATE – Date of “AUTH_URL” visit. Only applicable if “AUTH_URL” is not <em>NULL</em></p></li>
-</ul>
-</div>
-<div class="section" id="global-datasetmaster-table">
-<span id="global-datasetmaster"></span><h4>global_DataSetMaster table<a class="headerlink" href="#global-datasetmaster-table" title="Permalink to this heading"></a></h4>
-<p>The <em>global_DataSetMaster</em> table is the global master table that stores <strong>dataset related information for all relevant compilations</strong>. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the <em>cabah_datasettypeID</em> table. In OCTOPUS data model hierarchy <em>global_DataSetID</em> is situated between the collection-specific sample tables (subordinate) and the <em>global_UnitMaster</em> table (superordinate); (= UNITID). <em>global_DataSetID</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-</tr>
-</tbody>
-</table>
-<ul class="simple">
-<li></li>
 </ul>
 </div>
 <div class="section" id="global-journal-table">
@@ -2475,7 +2475,7 @@
 </div>
 <div class="section" id="cabah-taxaid-table">
 <span id="cabah-taxaid"></span><h4>cabah_taxaID table<a class="headerlink" href="#cabah-taxaid-table" title="Permalink to this heading"></a></h4>
-<p>The <em>cabah_taxaID</em> table is a Neotoma-derived taxa table for compilations dealing with taxa, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa</a>), stores <strong>taxa</strong>  […] IMPORTANT NOTE: Primary key (and, with the exception of “TAXAGRPID”, the other IDs too) have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these IDs stay untouched.</p>
+<p>The <em>cabah_taxaID</em> table is a Neotoma-derived taxa table for compilations dealing with taxa, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa</a>), stores <strong>taxa</strong>. IMPORTANT NOTE: Primary key (and, with the exception of “TAXAGRPID”, the other IDs too) have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these IDs stay untouched.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2741,7 +2741,7 @@
 <p>Tables featuring the <em>neo_</em> suffix in their name have been migrated from the Neotoma db ecosystem to OCTOPUS database. <em>neo_</em> tables serve those collections that first went into Neotoma db before becoming part of OCTOPUS, as for instance <strong>IPPD</strong> (the latter as an effort of the Centre of Excellence for Australian Biodiversity and Heritage – CABAH). Due to datamodel differences between Neotoma and OCTOPUS databases, migrating those unaltered <em>neo_</em> tables became a necessity. To maintain connectivity to Neotoma, primary table keys – i.e., unique IDs that allow for definite identification of a certain tuple – were kept and must not be altered.</p>
 <div class="section" id="neo-chronologies-table">
 <span id="neo-chronologies"></span><h4>neo_chronologies table<a class="headerlink" href="#neo-chronologies-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_chronologies</em> is a Neotoma table for compilations dealing with chronologies, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies">https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies</a>), stores <em>chronology data</em>. […] _A Chronology refers to an explicit chronology assigned to a Collection Unit. A Chronology has Chronology Controls, the actual age-depth control points, which are stored in the ChronControls table. A Chronology is also based on an Age Model, which may be a numerical method that fits a curve to a set of age-depth control points or may simply be individually dated Analysis Units._ IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.</p>
+<p>The <em>neo_chronologies</em> is a Neotoma table for compilations dealing with chronologies, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies">https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chronologies</a>), stores <em>chronology data</em>. […] _A Chronology refers to an explicit chronology assigned to a Collection Unit. A Chronology has Chronology Controls, the actual age-depth control points, which are stored in the ChronControls table. A Chronology is also based on an Age Model, which may be a numerical method that fits a curve to a set of age-depth control points or may simply be individually dated Analysis Units. IMPORTANT NOTE: The primary key values have been migrated unaltered from Neotoma. Therefore, database relations will only work (and be updatable from the Neotoma source) if these ID stays untouched.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
