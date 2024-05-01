@@ -907,13 +907,15 @@ The *c14_calprogram* table stores **computer programmes** -- incl. their version
 
 ..  _IPPD_tables:
 
-IPPD tables (*neo_*)
-~~~~~~~~~~~~~~~~~~~~
+IPPD tables
+~~~~~~~~~~~
 
 ..  _ippd_DataCore:
 
 ippd_DataCore table
 ^^^^^^^^^^^^^^^^^^^
+
+The *ippd_DataCore* table ...
 
 .. csv-table::
    :file: ./csv_tables/ippd_DataCore.csv
@@ -925,6 +927,7 @@ ippd_DataCore table
 
 ippd_Sample table
 ^^^^^^^^^^^^^^^^^
+The *ippd_Sample* table ...
 
 .. csv-table::
    :file: ./csv_tables/ippd_Sample.csv
@@ -936,6 +939,7 @@ ippd_Sample table
 
 ippd_sampleages table
 ^^^^^^^^^^^^^^^^^^^^^
+The *ippd_sampleages* table ...
 
 .. csv-table::
    :file: ./csv_tables/ippd_sampleages.csv
@@ -947,6 +951,7 @@ ippd_sampleages table
 
 ippd_samplekeywords table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
+The *ippd_samplekeywords* table ...
 
 .. csv-table::
    :file: ./csv_tables/ippd_samplekeywords.csv
