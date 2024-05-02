@@ -3157,7 +3157,7 @@
 <td><p>int4</p></td>
 <td><p>pkey1/2</p></td>
 <td><p>TRUE</p></td>
-<td><p><span class="xref std std-ref">cabah_Sample</span></p></td>
+<td><p><a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></td>
 </tr>
 <tr class="row-odd"><td><p>KEYWORDID</p></td>
 <td><p>int2</p></td>
@@ -3196,16 +3196,44 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>VARIABLEID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXONID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>VARELEMTID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-variableelements"><span class="std std-ref">neo_variableelements table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>VARUNITID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-variableunits"><span class="std std-ref">neo_variableunits table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>VARCONTXID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><span class="xref std std-ref">neo_variablecontext</span></p></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>VARIABLEID – Is the original Neotoma <em>variableid</em></p></li>
+<li><p>TAXONID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-taxaid-fields"><span class="std std-ref">cabah_taxaID fields</span></a></p></li>
+<li><p>VARELEMTID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variableelements-fields"><span class="std std-ref">neo_variableelements fields</span></a></p></li>
+<li><p>VARUNITID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variableunits-fields"><span class="std std-ref">neo_variableunits fields</span></a></p></li>
+<li><p>VARCONTXID – Is fkey. For available values refer to <span class="xref std std-ref">neo_variablecontext_Fields</span></p></li>
 </ul>
 </div>
 </div>
