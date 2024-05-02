@@ -243,7 +243,25 @@ The *global_DataSetMaster* table is the global master table that stores **datase
    :file: ./csv_tables/global_DataSetMaster.csv
    :header-rows: 1
 
-* 
+* DATASETID -- Unique identifier (serial integer)
+
+* UNITID -- Is fkey. For available values refer to :ref:`global_UnitMaster` table.
+
+* DSETTYPEID -- Is fkey. For available values refer to :ref:`global_datasettypeID` table.
+
+* NEODSETID -- Is matching Neotoma dataset ID
+
+* NEODSETDOI -- Is matching Neotoma dataset DOI
+
+* DSETNAME -- Is dataset name
+
+* DSETSOURCE -- Is fkey. For available values refer to :ref:`cabah_datasourceID` table.
+
+* DSETAGEOLD -- Is oldest dataset age
+
+* DSETAGEYNG -- Is youngest dataset age
+
+* DSETNOTE -- Is dataset note
 
 
 ..  _global_biomeID:

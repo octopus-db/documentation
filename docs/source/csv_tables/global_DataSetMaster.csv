@@ -1,2 +1,11 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+DATASETID,serial4,pkey,TRUE,
+UNITID,int4,fkey,TRUE,:ref:`global_UnitMaster`
+DSETTYPEID,int2,fkey,TRUE,:ref:`global_datasettypeID`
+NEODSETID,int4,,,
+NEODSETDOI,text,,,
+DSETNAME,text,,,
+DSETSOURCE,int4,fkey,,:ref:`cabah_datasourceID`
+DSETAGEOLD,numeric,,,
+DSETAGEYNG,numeric,,,
+DSETNOTE,text,,,
