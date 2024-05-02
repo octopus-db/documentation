@@ -1,2 +1,5 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+DATAID,int4,pkey,TRUE,
+SAMPLEID,int4,fkey,TRUE,:ref:`ippd_Sample`
+VARIABLEID,int4,fkey,TRUE,:ref:`ippd_variables`
+VALUE,numeric,,,
