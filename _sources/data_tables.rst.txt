@@ -979,17 +979,39 @@ The *ippd_DataCore* table is an IPPD-specific Neotoma table where each occurrenc
 
 * VALUE -- Is the value of the variable
 
+
 ..  _ippd_Sample:
 
 ippd_Sample table
 ^^^^^^^^^^^^^^^^^
-The *ippd_Sample* table ...
+The *ippd_Sample* table is an IPPD-specific Neotoma table that stores samples. In Neotoma's data model, *Samples* belong to *Analysis Units*, which belong to *Collection Units*, which belong to *Sites*. However, *Samples* also belong to a *Dataset*, and the Dataset determines the type of sample. Thus, there could be two different samples from the same Analysis Unit, one belonging to a pollen dataset, the other to a plant macrofossil dataset. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples)
 
 .. csv-table::
    :file: ./csv_tables/ippd_Sample.csv
    :header-rows: 1
 
-*
+* SAMPLEID -- Arbitrary identifier. Is original Neotoma *sampleid*
+
+* ANLYSUNTID -- Arbitrary identifier. Is original Neotoma *analysisunitid*. Is fkey to :ref:`cabah_AnalysisUnit_Fields`
+
+* NEODSETID -- Arbitrary identifier. Is "NEODSETID", i.e., the original Neotoma *datasetid*. Is fkey to :ref:`global_DataSetMaster_Fields`
+
+* SMPNAME -- Is sample name, if avaiable
+
+* ANLYSDATE -- Is date of analysis, if available
+
+* LABNUMBER -- Is lab number, if provided
+
+* PREPMETHOD -- Is preparation method free text field
+
+* SMPNOTE -- Is sample note, if applicable
+
+* SMPDATE -- Is date of sampling, if provided
+
+* TAXONID -- Is fkey to :ref:`cabah_taxaID_Fields`
+
+* DATASETID -- Is fkey to :ref:`global_DataSetMaster_Fields`
+
 
 ..  _ippd_sampleages:
 

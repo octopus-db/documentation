@@ -2966,7 +2966,7 @@
 </div>
 <div class="section" id="ippd-sample-table">
 <span id="ippd-sample"></span><h4>ippd_Sample table<a class="headerlink" href="#ippd-sample-table" title="Permalink to this heading"></a></h4>
-<p>The <em>ippd_Sample</em> table …</p>
+<p>The <em>ippd_Sample</em> table is an IPPD-specific Neotoma table that stores samples. In Neotoma’s data model, <em>Samples</em> belong to <em>Analysis Units</em>, which belong to <em>Collection Units</em>, which belong to <em>Sites</em>. However, <em>Samples</em> also belong to a <em>Dataset</em>, and the Dataset determines the type of sample. Thus, there could be two different samples from the same Analysis Unit, one belonging to a pollen dataset, the other to a plant macrofossil dataset. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples</a>)</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2984,16 +2984,86 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>SAMPLEID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ANLYSUNTID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#cabah-analysisunit"><span class="std std-ref">cabah_AnalysisUnit table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>NEODSETID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>SMPNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>ANLYSDATE</p></td>
+<td><p>varchar(10)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>LABNUMBER</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PREPMETHOD</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SMPNOTE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>SMPDATE</p></td>
+<td><p>varchar(10)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXONID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>DATASETID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>SAMPLEID – Arbitrary identifier. Is original Neotoma <em>sampleid</em></p></li>
+<li><p>ANLYSUNTID – Arbitrary identifier. Is original Neotoma <em>analysisunitid</em>. Is fkey to <a class="reference internal" href="parent_tables.html#cabah-analysisunit-fields"><span class="std std-ref">cabah_AnalysisUnit fields</span></a></p></li>
+<li><p>NEODSETID – Arbitrary identifier. Is “NEODSETID”, i.e., the original Neotoma <em>datasetid</em>. Is fkey to <a class="reference internal" href="parent_tables.html#global-datasetmaster-fields"><span class="std std-ref">global_DataSetMaster fields</span></a></p></li>
+<li><p>SMPNAME – Is sample name, if avaiable</p></li>
+<li><p>ANLYSDATE – Is date of analysis, if available</p></li>
+<li><p>LABNUMBER – Is lab number, if provided</p></li>
+<li><p>PREPMETHOD – Is preparation method free text field</p></li>
+<li><p>SMPNOTE – Is sample note, if applicable</p></li>
+<li><p>SMPDATE – Is date of sampling, if provided</p></li>
+<li><p>TAXONID – Is fkey to <a class="reference internal" href="parent_tables.html#cabah-taxaid-fields"><span class="std std-ref">cabah_taxaID fields</span></a></p></li>
+<li><p>DATASETID – Is fkey to <a class="reference internal" href="parent_tables.html#global-datasetmaster-fields"><span class="std std-ref">global_DataSetMaster fields</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="ippd-sampleages-table">
