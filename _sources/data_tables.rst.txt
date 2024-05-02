@@ -238,6 +238,7 @@ The *global_UnitMaster* table stores **collection-unit related information for a
 global_DataSetMaster table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 The *global_DataSetMaster* table is the global master table that stores **dataset related information for all relevant compilations**. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the *cabah_datasettypeID* table. In OCTOPUS data model hierarchy *global_DataSetID* is situated between the collection-specific sample tables (subordinate) and the *global_UnitMaster* table (superordinate); (= UNITID).
+
 .. csv-table::
    :file: ./csv_tables/global_DataSetMaster.csv
    :header-rows: 1
