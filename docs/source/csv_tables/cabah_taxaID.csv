@@ -1,2 +1,13 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+TAXONID,int4,pkey,TRUE,
+TAXONCODE,text,,TRUE,
+TAXONNAME,text,,TRUE,
+AUTHOR,text,,,
+TAXONVALID,boolean,,TRUE,
+PARENTID,int4,fkey,,TAXONID
+TAXEXTINCT,boolean,,TRUE,
+TAXAGRPID,int4,fkey,TRUE,:ref:`cabah_taxagroupID`
+NEOTXPUBID,int4,,,
+NEOVALORID,int4,fkey,,:ref:`neo_contacts`
+VALIDDATE,text,,,
+TAXONNOTE,text,,,
