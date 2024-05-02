@@ -101,7 +101,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#c14-calprogram-table">c14_calprogram table</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#ippd-tables-neo">IPPD tables (<em>neo_</em>)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ippd-tables">IPPD tables</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#ippd-datacore-table">ippd_DataCore table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#ippd-sample-table">ippd_Sample table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#ippd-sampleages-table">ippd_sampleages table</a></li>
@@ -310,7 +310,7 @@
 <li><p>V_UNITID – A unique identifier (auto-incrementing serial integer)</p></li>
 <li><p>V_UNITABBR – Unique abbreviation of “V_UNITNAME”. For available values refer to <a class="reference internal" href="parent_tables.html#global-varunitid-fields"><span class="std std-ref">global_varunitID fields</span></a></p></li>
 <li><p>V_UNITNAME – Unit name. For available values refer to <a class="reference internal" href="parent_tables.html#global-varunitid-fields"><span class="std std-ref">global_varunitID fields</span></a></p></li>
-<li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “V_UNITID” <a class="footnote-reference brackets" href="#id18" id="id3">1</a></p></li>
+<li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “V_UNITID” <a class="footnote-reference brackets" href="#id19" id="id3">1</a></p></li>
 </ul>
 </div>
 <div class="section" id="global-grainsize-table">
@@ -778,7 +778,7 @@
 <li><p>ALTNAME2 – Second alternative or additional name of the site. (‘NA’ = not applicable)</p></li>
 <li><p>ALTNAME3 – Third alternative or additional name of the site. (‘NA’ = not applicable)</p></li>
 <li><p>SITECODEID – Is fkey. For available values refer to <a class="reference internal" href="#global-sitecode"><span class="std std-ref">global_SiteCode table</span></a> table</p></li>
-<li><p>OPENCLOSED – This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - This field is related to the <a class="reference internal" href="collections.html#sahularch"><span class="std std-ref">SahulArch collections 🔍</span></a> collection, i.e., will not appear in any other collection view <a class="footnote-reference brackets" href="#id19" id="id5">2</a> or flat output table.</p></li>
+<li><p>OPENCLOSED – This field records whether the site was closed (i.e., a rockshelter, cave or other enclosed site) or open (i.e., an artefact scatter, midden on a beach etc.), and is used in the application of taphonomic techniques in time-series analysis. Please note that ‘Closed’ does not relate to availability or accessibility of information. Note - This field is related to the <a class="reference internal" href="collections.html#sahularch"><span class="std std-ref">SahulArch collections 🔍</span></a> collection, i.e., will not appear in any other collection view <a class="footnote-reference brackets" href="#id20" id="id5">2</a> or flat output table.</p></li>
 <li><p>SITE_COMMT – Free text site comment field</p></li>
 <li><p>BIOMEID – Is fkey. For available values refer to <a class="reference internal" href="#global-biomeid"><span class="std std-ref">global_biomeID table</span></a> table</p></li>
 <li><p>CATCHSZEID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-catchmentsizeid"><span class="std std-ref">cabah_catchmentsizeID table</span></a> table</p></li>
@@ -971,16 +971,79 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>DATASETID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>UNITID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>DSETTYPEID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-datasettypeid"><span class="std std-ref">global_datasettypeID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>NEODSETID</p></td>
+<td><p>int4</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>NEODSETDOI</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>DSETNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>DSETSOURCE</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>DSETAGEOLD</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>DSETAGEYNG</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>DSETNOTE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>DATASETID – Unique identifier (serial integer)</p></li>
+<li><p>UNITID – Is fkey. For available values refer to <a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a> table.</p></li>
+<li><p>DSETTYPEID – Is fkey. For available values refer to <a class="reference internal" href="#global-datasettypeid"><span class="std std-ref">global_datasettypeID table</span></a> table.</p></li>
+<li><p>NEODSETID – Is matching Neotoma dataset ID</p></li>
+<li><p>NEODSETDOI – Is matching Neotoma dataset DOI</p></li>
+<li><p>DSETNAME – Is dataset name</p></li>
+<li><p>DSETSOURCE – Is fkey. For available values refer to <a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a> table.</p></li>
+<li><p>DSETAGEOLD – Is oldest dataset age</p></li>
+<li><p>DSETAGEYNG – Is youngest dataset age</p></li>
+<li><p>DSETNOTE – Is dataset note</p></li>
 </ul>
 </div>
 <div class="section" id="global-biomeid-table">
@@ -1249,7 +1312,7 @@
 </tbody>
 </table>
 <ul class="simple">
-<li><p>srid <a class="footnote-reference brackets" href="#id20" id="id6">3</a>  – An integer value that uniquely identifies the Spatial Referencing System (SRS) within the database</p></li>
+<li><p>srid <a class="footnote-reference brackets" href="#id21" id="id6">3</a>  – An integer value that uniquely identifies the Spatial Referencing System (SRS) within the database</p></li>
 <li><p>auth_name – The name of the standard or standards body that is being cited for this reference system. For example, “EPSG” would be a valid AUTH_NAME</p></li>
 <li><p>auth_srid – The ID of the Spatial Reference System as defined by the Authority cited in the AUTH_NAME. In the case of EPSG, this is where the EPSG projection code would go.</p></li>
 <li><p>srtext – The Well-Known Text representation of the Spatial Reference System</p></li>
@@ -1261,7 +1324,7 @@
 <span id="id7"></span><h3>Global references tables<a class="headerlink" href="#global-references-tables" title="Permalink to this heading"></a></h3>
 <div class="section" id="global-refcore-table">
 <span id="global-refcore"></span><h4>global_RefCore table<a class="headerlink" href="#global-refcore-table" title="Permalink to this heading"></a></h4>
-<p>The <em>global_RefCore</em> table stores information that allow certain <strong>identification and citation of OCTOPUS collection data sources</strong> according to BibTeX <a class="footnote-reference brackets" href="#id21" id="id8">4</a> referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be <em>required</em>, some will be <em>optional</em>, and others will be <em>ignored</em> by BibTeX. Those three categories are defined in the <a class="reference internal" href="parent_tables.html#global-pubtype-fields"><span class="std std-ref">global_PubType fields</span></a> section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.</p>
+<p>The <em>global_RefCore</em> table stores information that allow certain <strong>identification and citation of OCTOPUS collection data sources</strong> according to BibTeX <a class="footnote-reference brackets" href="#id22" id="id8">4</a> referencing standards. In this context, different reference entry types require different minimum information standards, i.e., combinations of fields of which some will be <em>required</em>, some will be <em>optional</em>, and others will be <em>ignored</em> by BibTeX. Those three categories are defined in the <a class="reference internal" href="parent_tables.html#global-pubtype-fields"><span class="std std-ref">global_PubType fields</span></a> section. OCTOPUS database will always seeks to provide information beyond the minimum requirements, though with sense of proportion. As a result, for instance, language will never be captured for English publications because it is considered the communication standard.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2744,10 +2807,11 @@
 </div>
 </div>
 </div>
-<div class="section" id="ippd-tables-neo">
-<span id="ippd-tables"></span><h3>IPPD tables (<em>neo_</em>)<a class="headerlink" href="#ippd-tables-neo" title="Permalink to this heading"></a></h3>
+<div class="section" id="ippd-tables">
+<span id="id10"></span><h3>IPPD tables<a class="headerlink" href="#ippd-tables" title="Permalink to this heading"></a></h3>
 <div class="section" id="ippd-datacore-table">
 <span id="ippd-datacore"></span><h4>ippd_DataCore table<a class="headerlink" href="#ippd-datacore-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_DataCore</em> table …</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2779,6 +2843,7 @@
 </div>
 <div class="section" id="ippd-sample-table">
 <span id="ippd-sample"></span><h4>ippd_Sample table<a class="headerlink" href="#ippd-sample-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_Sample</em> table …</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2810,6 +2875,7 @@
 </div>
 <div class="section" id="ippd-sampleages-table">
 <span id="ippd-sampleages"></span><h4>ippd_sampleages table<a class="headerlink" href="#ippd-sampleages-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_sampleages</em> table …</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2841,6 +2907,7 @@
 </div>
 <div class="section" id="ippd-samplekeywords-table">
 <span id="ippd-samplekeywords"></span><h4>ippd_samplekeywords table<a class="headerlink" href="#ippd-samplekeywords-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_samplekeywords</em> table …</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -3664,7 +3731,7 @@
 </div>
 </div>
 <div class="section" id="local-tables">
-<span id="id10"></span><h2>Local tables<a class="headerlink" href="#local-tables" title="Permalink to this heading"></a></h2>
+<span id="id11"></span><h2>Local tables<a class="headerlink" href="#local-tables" title="Permalink to this heading"></a></h2>
 <div class="section" id="crn-tables">
 <h3>CRN tables<a class="headerlink" href="#crn-tables" title="Permalink to this heading"></a></h3>
 <p>The following tables exclusively serve the <a class="reference internal" href="collections.html#crn"><span class="std std-ref">CRN collections 🍻</span></a>.</p>
@@ -3812,7 +3879,7 @@
 <li><p>SIZEMIN – Minimum grain size sampled</p></li>
 <li><p>SIZEMAX – Maximum grain size sampled</p></li>
 <li><p>PROJEPSGID – EPSG projection code, used as unique identifier, of projected coordinate system used for calculations</p></li>
-<li><p>AREA – Basin area as calculated from projected DEM <a class="footnote-reference brackets" href="#id22" id="id11">5</a></p></li>
+<li><p>AREA – Basin area as calculated from projected DEM <a class="footnote-reference brackets" href="#id23" id="id12">5</a></p></li>
 <li><p>ELEV_AVE – Mean elevation of basin as calculated from projected DEM</p></li>
 <li><p>ELEV_STD – Standard deviation of elevation of basin as calculated from projected DEM</p></li>
 <li><p>SLP_AVE – Mean slope gradient of basin as calculated from projected DEM</p></li>
@@ -3949,7 +4016,7 @@
 </tr>
 <tr class="row-even"><td><p>ALPROD</p></td>
 <td><p>numeric</p></td>
-<td><p>dimless <a class="footnote-reference brackets" href="#id23" id="id12">6</a></p></td>
+<td><p>dimless <a class="footnote-reference brackets" href="#id24" id="id13">6</a></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -4383,7 +4450,7 @@
 </tbody>
 </table>
 <ul class="simple">
-<li><p>PROJEPSGID – EPSG <a class="footnote-reference brackets" href="#id24" id="id13">7</a> projection code, used as unique identifier</p></li>
+<li><p>PROJEPSGID – EPSG <a class="footnote-reference brackets" href="#id25" id="id14">7</a> projection code, used as unique identifier</p></li>
 <li><p>PROJECTION – For available values refer to <a class="reference internal" href="parent_tables.html#crn-projepsgid-fields"><span class="std std-ref">crn_projepsgID fields</span></a></p></li>
 </ul>
 </div>
@@ -4429,7 +4496,7 @@
 </table>
 <ul class="simple">
 <li><p>id – A unique identifier (auto-incrementing serial integer)</p></li>
-<li><p>geom – WKT <a class="footnote-reference brackets" href="#id25" id="id14">8</a> notation of bounding box geometry</p></li>
+<li><p>geom – WKT <a class="footnote-reference brackets" href="#id26" id="id15">8</a> notation of bounding box geometry</p></li>
 <li><p>STUDYID – <a class="reference internal" href="collections.html#crn"><span class="std std-ref">CRN collections 🍻</span></a> study ID</p></li>
 </ul>
 </div>
@@ -8038,7 +8105,7 @@
 </div>
 </div>
 <div class="section" id="fossahul-tables">
-<span id="id15"></span><h3>FosSahul tables<a class="headerlink" href="#fossahul-tables" title="Permalink to this heading"></a></h3>
+<span id="id16"></span><h3>FosSahul tables<a class="headerlink" href="#fossahul-tables" title="Permalink to this heading"></a></h3>
 <p>The following tables exclusively serve the <a class="reference internal" href="collections.html#fossahul"><span class="std std-ref">FosSahul collection 🦥</span></a>.</p>
 <div class="section" id="fos-sample-table">
 <span id="fos-sample"></span><h4>fos_Sample table<a class="headerlink" href="#fos-sample-table" title="Permalink to this heading"></a></h4>
@@ -9043,7 +9110,7 @@
 </div>
 </div>
 <div class="section" id="expage-tables">
-<span id="id16"></span><h3>ExpAge tables<a class="headerlink" href="#expage-tables" title="Permalink to this heading"></a></h3>
+<span id="id17"></span><h3>ExpAge tables<a class="headerlink" href="#expage-tables" title="Permalink to this heading"></a></h3>
 <p>The following tables exclusively serve the <a class="reference internal" href="collections.html#expage"><span class="std std-ref">ExpAge collection 💥</span></a>.</p>
 <div class="section" id="expage-sample-table">
 <span id="expage-sample"></span><h4>expage_Sample table<a class="headerlink" href="#expage-sample-table" title="Permalink to this heading"></a></h4>
@@ -9350,7 +9417,7 @@
 <li><p>AL26AP – Published Al-26 exposure age. (-9999 = no data)</p></li>
 <li><p>AL26AP_ERR – Published Al-26 exposure age. (-9999 = no data)</p></li>
 <li><p>ABE_YR – Recalculated zero erosion Be-10 exposure age. (-9999.99 = no data)</p></li>
-<li><p>ABE_ERREXT – External uncertainty for “ABE_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008 <a class="footnote-reference brackets" href="#id26" id="id17">9</a></p></li>
+<li><p>ABE_ERREXT – External uncertainty for “ABE_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008 <a class="footnote-reference brackets" href="#id27" id="id18">9</a></p></li>
 <li><p>ABE_ERRINT – External uncertainty for “ABE_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008</p></li>
 <li><p>AAL_YR – Recalculated zero erosion Al-26 exposure age. (-9999.99 = no data)</p></li>
 <li><p>AAL_ERREXT – External uncertainty for “AAL_YR”. (-9999.99 = no data) For detailed information see Balco et al. 2008</p></li>
@@ -9415,40 +9482,40 @@
 </ul>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="id18"><span class="brackets"><a class="fn-backref" href="#id3">1</a></span></dt>
+<dt class="label" id="id19"><span class="brackets"><a class="fn-backref" href="#id3">1</a></span></dt>
 <dd><p><a class="reference external" href="https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS">Primary key</a></p>
 </dd>
-<dt class="label" id="id19"><span class="brackets"><a class="fn-backref" href="#id5">2</a></span></dt>
+<dt class="label" id="id20"><span class="brackets"><a class="fn-backref" href="#id5">2</a></span></dt>
 <dd><p><a class="reference external" href="https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-UNIQUE-CONSTRAINTS">Unique key</a></p>
 </dd>
-<dt class="label" id="id20"><span class="brackets"><a class="fn-backref" href="#id6">3</a></span></dt>
+<dt class="label" id="id21"><span class="brackets"><a class="fn-backref" href="#id6">3</a></span></dt>
 <dd><p><a class="reference external" href="https://www.postgresql.org/docs/15/ddl-constraints.html#DDL-CONSTRAINTS-FK">Foreign key</a></p>
 </dd>
-<dt class="label" id="id21"><span class="brackets"><a class="fn-backref" href="#id8">4</a></span></dt>
+<dt class="label" id="id22"><span class="brackets"><a class="fn-backref" href="#id8">4</a></span></dt>
 <dd><p>This self-referencing table is both parent and child at the same time - a table design that was chosen for the representation of nested hierarchies.</p>
 </dd>
-<dt class="label" id="id22"><span class="brackets"><a class="fn-backref" href="#id11">5</a></span></dt>
+<dt class="label" id="id23"><span class="brackets"><a class="fn-backref" href="#id12">5</a></span></dt>
 <dd><p>PostgreSQL view: <a class="reference external" href="https://www.postgresql.org/docs/current/sql-createview.html">https://www.postgresql.org/docs/current/sql-createview.html</a></p>
 </dd>
-<dt class="label" id="id23"><span class="brackets"><a class="fn-backref" href="#id12">6</a></span></dt>
+<dt class="label" id="id24"><span class="brackets"><a class="fn-backref" href="#id13">6</a></span></dt>
 <dd><p>Field descriptions unaltered taken from <a class="reference external" href="https://postgis.net/">https://postgis.net/</a></p>
 </dd>
-<dt class="label" id="id24"><span class="brackets"><a class="fn-backref" href="#id13">7</a></span></dt>
+<dt class="label" id="id25"><span class="brackets"><a class="fn-backref" href="#id14">7</a></span></dt>
 <dd><p><a class="reference external" href="https://www.ctan.org/pkg/bibtex">https://www.ctan.org/pkg/bibtex</a></p>
 </dd>
-<dt class="label" id="id25"><span class="brackets"><a class="fn-backref" href="#id14">8</a></span></dt>
+<dt class="label" id="id26"><span class="brackets"><a class="fn-backref" href="#id15">8</a></span></dt>
 <dd><p>Digital Elevation Model, i.e., a digital representation of elevation data / terrain</p>
 </dd>
-<dt class="label" id="id26"><span class="brackets"><a class="fn-backref" href="#id17">9</a></span></dt>
+<dt class="label" id="id27"><span class="brackets"><a class="fn-backref" href="#id18">9</a></span></dt>
 <dd><p>dimensionless</p>
 </dd>
-<dt class="label" id="id27"><span class="brackets">10</span></dt>
+<dt class="label" id="id28"><span class="brackets">10</span></dt>
 <dd><p><a class="reference external" href="https://epsg.org/">https://epsg.org/</a></p>
 </dd>
-<dt class="label" id="id28"><span class="brackets">11</span></dt>
+<dt class="label" id="id29"><span class="brackets">11</span></dt>
 <dd><p>Well Known Text (<a class="reference external" href="https://postgis.net/docs/manual-1.4/ch04.html#id417971">https://postgis.net/docs/manual-1.4/ch04.html#id417971</a>)</p>
 </dd>
-<dt class="label" id="id29"><span class="brackets">12</span></dt>
+<dt class="label" id="id30"><span class="brackets">12</span></dt>
 <dd><p>Balco et al. 2008 (<a class="reference external" href="https://doi.org/10.1016/j.quageo.2007.12.001">https://doi.org/10.1016/j.quageo.2007.12.001</a>)</p>
 </dd>
 </dl>
