@@ -1,2 +1,12 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+SAMPLEID,int4,pkey,TRUE,
+ANLYSUNTID,int4,fkey,TRUE,:ref:`cabah_AnalysisUnit`
+NEODSETID,int4,fkey,TRUE,:ref:`global_DataSetMaster`
+SMPNAME,text,,,
+ANLYSDATE,varchar(10),,,
+LABNUMBER,text,,,
+PREPMETHOD,text,,,
+SMPNOTE,text,,,
+SMPDATE,varchar(10),,,
+TAXONID,int4,fkey,,:ref:`cabah_taxaID`
+DATASETID,int4,fkey,TRUE,:ref:`global_DataSetMaster`
