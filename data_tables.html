@@ -3054,16 +3054,16 @@
 </table>
 <ul class="simple">
 <li><p>SAMPLEID – Arbitrary identifier. Is original Neotoma <em>sampleid</em></p></li>
-<li><p>ANLYSUNTID – Arbitrary identifier. Is original Neotoma <em>analysisunitid</em>. Is fkey to <a class="reference internal" href="parent_tables.html#cabah-analysisunit-fields"><span class="std std-ref">cabah_AnalysisUnit fields</span></a></p></li>
-<li><p>NEODSETID – Arbitrary identifier. Is “NEODSETID”, i.e., the original Neotoma <em>datasetid</em>. Is fkey to <a class="reference internal" href="parent_tables.html#global-datasetmaster-fields"><span class="std std-ref">global_DataSetMaster fields</span></a></p></li>
+<li><p>ANLYSUNTID – Arbitrary identifier. Is original Neotoma <em>analysisunitid</em>. Is fkey to <a class="reference internal" href="#cabah-analysisunit"><span class="std std-ref">cabah_AnalysisUnit table</span></a></p></li>
+<li><p>NEODSETID – Arbitrary identifier. Is “NEODSETID”, i.e., the original Neotoma <em>datasetid</em>. Is fkey to <a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></li>
 <li><p>SMPNAME – Is sample name, if avaiable</p></li>
 <li><p>ANLYSDATE – Is date of analysis, if available</p></li>
 <li><p>LABNUMBER – Is lab number, if provided</p></li>
 <li><p>PREPMETHOD – Is preparation method free text field</p></li>
 <li><p>SMPNOTE – Is sample note, if applicable</p></li>
 <li><p>SMPDATE – Is date of sampling, if provided</p></li>
-<li><p>TAXONID – Is fkey to <a class="reference internal" href="parent_tables.html#cabah-taxaid-fields"><span class="std std-ref">cabah_taxaID fields</span></a></p></li>
-<li><p>DATASETID – Is fkey to <a class="reference internal" href="parent_tables.html#global-datasetmaster-fields"><span class="std std-ref">global_DataSetMaster fields</span></a></p></li>
+<li><p>TAXONID – Is fkey to <a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></li>
+<li><p>DATASETID – Is fkey to <a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="ippd-sampleages-table">
@@ -3086,16 +3086,51 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>SMPAGEID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SAMPLEID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#ippd-sampleages"><span class="std std-ref">ippd_sampleages table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>CHRONLGYID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#neo-chronologies"><span class="std std-ref">neo_chronologies table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>AGE</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>AGEYOUNGER</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AGEOLDER</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>SMPAGEID – Arbitrary identifier. Is original Neotoma <em>sampleageid</em></p></li>
+<li><p>SAMPLEID – Arbitrary identifier. Is original Neotoma <em>sampleid</em> (and links to <a class="reference internal" href="#ippd-sampleages"><span class="std std-ref">ippd_sampleages table</span></a>)</p></li>
+<li><p>CHRONLGYID – Arbitrary identifier. Is original Neotoma <em>chronologyid</em> (and links to <a class="reference internal" href="#neo-chronologies"><span class="std std-ref">neo_chronologies table</span></a>)</p></li>
+<li><p>AGE – Is the age of the sample</p></li>
+<li><p>AGEYOUNGER – Is the younger error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned</p></li>
+<li><p>AGEOLDER – Is the older error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned</p></li>
 </ul>
 </div>
 <div class="section" id="ippd-samplekeywords-table">
@@ -3206,7 +3241,7 @@
 <li><p>AGEYOUNG –</p></li>
 <li><p>AGEOLD –</p></li>
 <li><p>CHRONNOTE – Chronology related note, if applicable</p></li>
-<li><p>UNITID –</p></li>
+<li><p>UNITID – Is fkey. For values refer to <a class="reference internal" href="parent_tables.html#global-unitmaster-fields"><span class="std std-ref">global_UnitMaster fields</span></a> table.</p></li>
 </ul>
 </div>
 <div class="section" id="neo-contacts-table">
