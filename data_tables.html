@@ -1035,12 +1035,12 @@
 </table>
 <ul class="simple">
 <li><p>DATASETID – Unique identifier (serial integer)</p></li>
-<li><p>UNITID – Is fkey. For available values refer to <a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a> table.</p></li>
-<li><p>DSETTYPEID – Is fkey. For available values refer to <a class="reference internal" href="#global-datasettypeid"><span class="std std-ref">global_datasettypeID table</span></a> table.</p></li>
+<li><p>UNITID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#global-unitmaster-fields"><span class="std std-ref">global_UnitMaster fields</span></a> table.</p></li>
+<li><p>DSETTYPEID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#global-datasettypeid-fields"><span class="std std-ref">global_datasettypeID fields</span></a> table.</p></li>
 <li><p>NEODSETID – Is matching Neotoma dataset ID</p></li>
 <li><p>NEODSETDOI – Is matching Neotoma dataset DOI</p></li>
 <li><p>DSETNAME – Is dataset name</p></li>
-<li><p>DSETSOURCE – Is fkey. For available values refer to <a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a> table.</p></li>
+<li><p>DSETSOURCE – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-datasourceid-fields"><span class="std std-ref">cabah_datasourceID fields</span></a> table.</p></li>
 <li><p>DSETAGEOLD – Is oldest dataset age</p></li>
 <li><p>DSETAGEYNG – Is youngest dataset age</p></li>
 <li><p>DSETNOTE – Is dataset note</p></li>
@@ -2207,7 +2207,7 @@
 </div>
 <div class="section" id="cabah-chroncontroltypeid-table">
 <span id="cabah-chroncontroltypeid"></span><h4>cabah_chroncontroltypeID table<a class="headerlink" href="#cabah-chroncontroltypeid-table" title="Permalink to this heading"></a></h4>
-<p>The <em>cabah_chroncontroltypeID</em> table is a Neotoma-derived table for compilations dealing with chronologies, e.g. IPPD. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes">https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes</a>), stores <strong>chronology control types</strong>.</p>
+<p>The <em>cabah_chroncontroltypeID</em> table is a Neotoma-derived table for compilations dealing with chronologies, e.g. <strong>IPPD</strong>. This table, according to Neotoma db (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes">https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes</a>), stores <strong>chronology control types</strong>.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2255,7 +2255,7 @@
 <li><p>CCONTRLID – Is the original Neotoma <em>chroncontroltypeid</em></p></li>
 <li><p>CCONTRLTYP – Is the type of chronology control</p></li>
 <li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “CCONTRLID”</p></li>
-<li><p>METHODID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-methodid"><span class="std std-ref">cabah_methodID table</span></a></p></li>
+<li><p>METHODID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-methodid-fields"><span class="std std-ref">cabah_methodID fields</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="cabah-col-mtdid-table">
@@ -2671,9 +2671,9 @@
 <li><p>TAXONVALID – Boolean (True/False) variable</p></li>
 <li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “TAXONID”</p></li>
 <li><p>TAXEXTINCT – Boolean (True/False) variable. The value is True if the taxon is extinct, False if extant. (Neotoma)</p></li>
-<li><p>TAXAGRPID – Is fkey. For avaiable values refer to <a class="reference internal" href="#cabah-taxagroupid"><span class="std std-ref">cabah_taxagroupID table</span></a> table</p></li>
+<li><p>TAXAGRPID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#cabah-taxagroupid-fields"><span class="std std-ref">cabah_taxagroupID fields</span></a> table</p></li>
 <li><p>NEOTXPUBID – Neotoma publication identification number. In Neotoma, this field links to the publications table. In OCTOPUS, however, it does NOT.</p></li>
-<li><p>NEOVALORID – Is fkey. For avaiable values refer to <a class="reference internal" href="#neo-contacts"><span class="std std-ref">neo_contacts table</span></a> table</p></li>
+<li><p>NEOVALORID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-contacts-fields"><span class="std std-ref">neo_contacts fields</span></a> table</p></li>
 <li><p>VALIDDATE – Date of taxon validation</p></li>
 <li><p>TAXONNOTE – Taxon notes</p></li>
 </ul>
@@ -2913,7 +2913,7 @@
 <span id="id10"></span><h3>IPPD tables<a class="headerlink" href="#ippd-tables" title="Permalink to this heading"></a></h3>
 <div class="section" id="ippd-datacore-table">
 <span id="ippd-datacore"></span><h4>ippd_DataCore table<a class="headerlink" href="#ippd-datacore-table" title="Permalink to this heading"></a></h4>
-<p>The <em>ippd_DataCore</em> table …</p>
+<p>The <em>ippd_DataCore</em> table is an IPPD-specific Neotoma table where each occurrence of a Variable in a sample comprises a record in the Data table. “data” is the primary table in Neotoma’s data model. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data</a>)</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -2931,16 +2931,37 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>DATAID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SAMPLEID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>VARIABLEID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#ippd-variables"><span class="std std-ref">ippd_variables table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>VALUE</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>DATAID – Arbitrary identifier. Is original Neotoma <em>dataid</em></p></li>
+<li><p>SAMPLEID – Is fkey. For available values refer to <span class="xref std std-ref">ippd_Sample_Fields</span> table.</p></li>
+<li><p>VARIABLEID – Is fkey. For available values refer to <span class="xref std std-ref">ippd_variables_Fields</span> table.</p></li>
+<li><p>VALUE – Is the value of the variable</p></li>
 </ul>
 </div>
 <div class="section" id="ippd-sample-table">

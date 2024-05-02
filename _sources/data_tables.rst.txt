@@ -245,9 +245,9 @@ The *global_DataSetMaster* table is the global master table that stores **datase
 
 * DATASETID -- Unique identifier (serial integer)
 
-* UNITID -- Is fkey. For available values refer to :ref:`global_UnitMaster` table.
+* UNITID -- Is fkey. For available values refer to :ref:`global_UnitMaster_Fields` table.
 
-* DSETTYPEID -- Is fkey. For available values refer to :ref:`global_datasettypeID` table.
+* DSETTYPEID -- Is fkey. For available values refer to :ref:`global_datasettypeID_Fields` table.
 
 * NEODSETID -- Is matching Neotoma dataset ID
 
@@ -255,7 +255,7 @@ The *global_DataSetMaster* table is the global master table that stores **datase
 
 * DSETNAME -- Is dataset name
 
-* DSETSOURCE -- Is fkey. For available values refer to :ref:`cabah_datasourceID` table.
+* DSETSOURCE -- Is fkey. For available values refer to :ref:`cabah_datasourceID_Fields` table.
 
 * DSETAGEOLD -- Is oldest dataset age
 
@@ -711,7 +711,7 @@ The *cabah_chemprepID* table stores the **type of chemical pretreatment given to
 
 cabah_chroncontroltypeID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *cabah_chroncontroltypeID* table is a Neotoma-derived table for compilations dealing with chronologies, e.g. IPPD. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes), stores **chronology control types**.
+The *cabah_chroncontroltypeID* table is a Neotoma-derived table for compilations dealing with chronologies, e.g. **IPPD**. This table, according to Neotoma db (https://neotoma-manual.readthedocs.io/en/latest/tables_chron.html#chroncontroltypes), stores **chronology control types**.
 
 .. csv-table::
    :file: ./csv_tables/cabah_chroncontroltypeID.csv
@@ -723,7 +723,8 @@ The *cabah_chroncontroltypeID* table is a Neotoma-derived table for compilations
 
 * PARENTID -- Is fkey. Refers to ordinal higher ranking "CCONTRLID"
 
-* METHODID -- Is fkey. For available values refer to :ref:`cabah_methodID`
+* METHODID -- Is fkey. For available values refer to :ref:`cabah_methodID_Fields`
+
 
 ..  _cabah_col_mtdID:
 
@@ -861,11 +862,11 @@ The *cabah_taxaID* table is a Neotoma-derived taxa table for compilations dealin
 
 * TAXEXTINCT -- Boolean (True/False) variable. The value is True if the taxon is extinct, False if extant. (Neotoma)
 
-* TAXAGRPID -- Is fkey. For avaiable values refer to :ref:`cabah_taxagroupID` table
+* TAXAGRPID -- Is fkey. For avaiable values refer to :ref:`cabah_taxagroupID_Fields` table
 
 * NEOTXPUBID -- Neotoma publication identification number. In Neotoma, this field links to the publications table. In OCTOPUS, however, it does NOT.
 
-* NEOVALORID -- Is fkey. For avaiable values refer to :ref:`neo_contacts` table
+* NEOVALORID -- Is fkey. For avaiable values refer to :ref:`neo_contacts_Fields` table
 
 * VALIDDATE -- Date of taxon validation
 
@@ -964,13 +965,19 @@ IPPD tables
 ippd_DataCore table
 ^^^^^^^^^^^^^^^^^^^
 
-The *ippd_DataCore* table ...
+The *ippd_DataCore* table is an IPPD-specific Neotoma table where each occurrence of a Variable in a sample comprises a record in the Data table. "data" is the primary table in Neotoma's data model. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data)
 
 .. csv-table::
    :file: ./csv_tables/ippd_DataCore.csv
    :header-rows: 1
 
-*
+* DATAID -- Arbitrary identifier. Is original Neotoma *dataid*
+
+* SAMPLEID -- Is fkey. For available values refer to :ref:`ippd_Sample_Fields` table.
+
+* VARIABLEID -- Is fkey. For available values refer to :ref:`ippd_variables_Fields` table.
+
+* VALUE -- Is the value of the variable
 
 ..  _ippd_Sample:
 
