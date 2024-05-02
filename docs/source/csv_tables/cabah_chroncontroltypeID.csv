@@ -1,2 +1,5 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+CCONTRLID,int4,pkey,TRUE,
+CCONTRLTYP,text,,TRUE,
+PARENTID,int4,fkey,,CCONTRLID
+METHODID,int4,fkey,,:ref:`cabah_methodID`
