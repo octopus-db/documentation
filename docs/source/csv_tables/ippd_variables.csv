@@ -1,2 +1,6 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+VARIABLEID,int4,pkey,TRUE,
+TAXONID,int4,fkey,TRUE,:ref:`cabah_taxaID`
+VARELEMTID,int4,fkey,,:ref:`neo_variableelements`
+VARUNITID,int2,fkey,,:ref:`neo_variableunits`
+VARCONTXID,int2,fkey,,:ref:`neo_variablecontext`

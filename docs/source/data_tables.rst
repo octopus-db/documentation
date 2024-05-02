@@ -1054,6 +1054,7 @@ The *ippd_samplekeywords* table is an IPPD-specific Neotoma table that links *ke
 
     Not the individual "SAMPLEID" (pkey1/2) and "KEYWORDID" (pkey2/2), but only their *composite* forms the pkey.
 
+
 ..  _ippd_variables:
 
 ippd_variables table
@@ -1064,7 +1065,15 @@ ippd_variables table
    :file: ./csv_tables/ippd_variables.csv
    :header-rows: 1
 
-*
+* VARIABLEID -- Is the original Neotoma *variableid*
+
+* TAXONID -- Is fkey. For available values refer to :ref:`cabah_taxaID_Fields`
+
+* VARELEMTID -- Is fkey. For available values refer to :ref:`neo_variableelements_Fields`
+
+* VARUNITID -- Is fkey. For available values refer to :ref:`neo_variableunits_Fields`
+
+* VARCONTXID -- Is fkey. For available values refer to :ref:`neo_variablecontext_Fields`
 
 ..  _Neotoma_tables:
 
