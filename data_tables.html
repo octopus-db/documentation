@@ -2225,16 +2225,37 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>CCONTRLID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CCONTRLTYP</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PARENTID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p>CCONTRLID</p></td>
+</tr>
+<tr class="row-odd"><td><p>METHODID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-methodid"><span class="std std-ref">cabah_methodID table</span></a></p></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>CCONTRLID – Is the original Neotoma <em>chroncontroltypeid</em></p></li>
+<li><p>CCONTRLTYP – Is the type of chronology control</p></li>
+<li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “CCONTRLID”</p></li>
+<li><p>METHODID – Is fkey. For available values refer to <a class="reference internal" href="#cabah-methodid"><span class="std std-ref">cabah_methodID table</span></a></p></li>
 </ul>
 </div>
 <div class="section" id="cabah-col-mtdid-table">
@@ -2648,7 +2669,7 @@
 <li><p>TAXONNAME – Name of the taxon. Most TaxonNames are biological taxa; however, some are biometric measures and some are physical parameters. In addition, some biological taxa may have parenthetic non-Latin modifers, e.g. «Betula (&gt;20 µm)» for Betula pollen grains &gt;20 µm in diameter. In general, the names used in Neotoma are those used by the original investigator. In particular, identifications are not changed, although Dataset notes can be added to the database regarding particular identifications. However, some corrections and synonymizations are made. […] (Neotoma. For more detail refer to <a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa</a>)</p></li>
 <li><p>AUTHOR – Taxon name author(s)</p></li>
 <li><p>TAXONVALID – Boolean (True/False) variable</p></li>
-<li><p>PARENTID – Is fkey. Refers to ordinal higher ranking TAXONID</p></li>
+<li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “TAXONID”</p></li>
 <li><p>TAXEXTINCT – Boolean (True/False) variable. The value is True if the taxon is extinct, False if extant. (Neotoma)</p></li>
 <li><p>TAXAGRPID – Is fkey. For avaiable values refer to <a class="reference internal" href="#cabah-taxagroupid"><span class="std std-ref">cabah_taxagroupID table</span></a> table</p></li>
 <li><p>NEOTXPUBID – Neotoma publication identification number. In Neotoma, this field links to the publications table. In OCTOPUS, however, it does NOT.</p></li>

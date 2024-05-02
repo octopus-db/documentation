@@ -717,7 +717,13 @@ The *cabah_chroncontroltypeID* table is a Neotoma-derived table for compilations
    :file: ./csv_tables/cabah_chroncontroltypeID.csv
    :header-rows: 1
 
-* 
+* CCONTRLID -- Is the original Neotoma *chroncontroltypeid*
+
+* CCONTRLTYP -- Is the type of chronology control
+
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "CCONTRLID"
+
+* METHODID -- Is fkey. For available values refer to :ref:`cabah_methodID`
 
 ..  _cabah_col_mtdID:
 
@@ -733,7 +739,7 @@ The *cabah_col_mtdID* table stores the **sample collection method**. *cabah_col_
 
 * COL_MTD -- For available values refer to :ref:`cabah_col_mtdID_Fields`
 
-* PARENTID -- Is fkey. Refers to ordinal higher ranking “COL_MTDID”
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "COL_MTDID"
 
 
 ..  _cabah_datasourceID:
@@ -851,7 +857,7 @@ The *cabah_taxaID* table is a Neotoma-derived taxa table for compilations dealin
 
 * TAXONVALID -- Boolean (True/False) variable
 
-* PARENTID -- Is fkey. Refers to ordinal higher ranking TAXONID
+* PARENTID -- Is fkey. Refers to ordinal higher ranking "TAXONID"
 
 * TAXEXTINCT -- Boolean (True/False) variable. The value is True if the taxon is extinct, False if extant. (Neotoma)
 
