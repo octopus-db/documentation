@@ -1,2 +1,7 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+SMPAGEID,int4,pkey,TRUE,
+SAMPLEID,int4,fkey,TRUE,:ref:`ippd_sampleages`
+CHRONLGYID,int4,fkey,TRUE,:ref:`neo_chronologies`
+AGE,numeric,,,
+AGEYOUNGER,numeric,,,
+AGEOLDER,numeric,,,

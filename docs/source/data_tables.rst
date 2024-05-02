@@ -992,9 +992,9 @@ The *ippd_Sample* table is an IPPD-specific Neotoma table that stores samples. I
 
 * SAMPLEID -- Arbitrary identifier. Is original Neotoma *sampleid*
 
-* ANLYSUNTID -- Arbitrary identifier. Is original Neotoma *analysisunitid*. Is fkey to :ref:`cabah_AnalysisUnit_Fields`
+* ANLYSUNTID -- Arbitrary identifier. Is original Neotoma *analysisunitid*. Is fkey to :ref:`cabah_AnalysisUnit`
 
-* NEODSETID -- Arbitrary identifier. Is "NEODSETID", i.e., the original Neotoma *datasetid*. Is fkey to :ref:`global_DataSetMaster_Fields`
+* NEODSETID -- Arbitrary identifier. Is "NEODSETID", i.e., the original Neotoma *datasetid*. Is fkey to :ref:`global_DataSetMaster`
 
 * SMPNAME -- Is sample name, if avaiable
 
@@ -1008,9 +1008,9 @@ The *ippd_Sample* table is an IPPD-specific Neotoma table that stores samples. I
 
 * SMPDATE -- Is date of sampling, if provided
 
-* TAXONID -- Is fkey to :ref:`cabah_taxaID_Fields`
+* TAXONID -- Is fkey to :ref:`cabah_taxaID`
 
-* DATASETID -- Is fkey to :ref:`global_DataSetMaster_Fields`
+* DATASETID -- Is fkey to :ref:`global_DataSetMaster`
 
 
 ..  _ippd_sampleages:
@@ -1023,7 +1023,17 @@ The *ippd_sampleages* table ...
    :file: ./csv_tables/ippd_sampleages.csv
    :header-rows: 1
 
-*
+* SMPAGEID -- Arbitrary identifier. Is original Neotoma *sampleageid*
+
+* SAMPLEID -- Arbitrary identifier. Is original Neotoma *sampleid* (and links to :ref:`ippd_sampleages`)
+
+* CHRONLGYID -- Arbitrary identifier. Is original Neotoma *chronologyid* (and links to :ref:`neo_chronologies`)
+
+* AGE -- Is the age of the sample
+
+* AGEYOUNGER -- Is the younger error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned
+
+* AGEOLDER -- Is the older error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned
 
 ..  _ippd_samplekeywords:
 
@@ -1088,7 +1098,7 @@ The *neo_chronologies* is a Neotoma table for compilations dealing with chronolo
 
 * CHRONNOTE -- Chronology related note, if applicable
 
-* UNITID -- 
+* UNITID -- Is fkey. For values refer to :ref:`global_UnitMaster_Fields` table.
 
 ..  _neo_contacts:
 
