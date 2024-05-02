@@ -953,86 +953,12 @@
 </div>
 <div class="section" id="global-datasetmaster-table">
 <span id="global-datasetmaster"></span><h4>global_DataSetMaster table<a class="headerlink" href="#global-datasetmaster-table" title="Permalink to this heading"></a></h4>
-<p>The <em>global_DataSetMaster</em> table is the global master table that stores <strong>dataset related information for all relevant compilations</strong>. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the <em>cabah_datasettypeID</em> table. In OCTOPUS data model hierarchy <em>global_DataSetID</em> is situated between the collection-specific sample tables (subordinate) and the <em>global_UnitMaster</em> table (superordinate); (= UNITID). <em>global_DataSetID</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>DATASETID</p></td>
-<td><p>serial4</p></td>
-<td><p>pkey</p></td>
-<td><p>TRUE</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>UNITID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a></p></td>
-</tr>
-<tr class="row-even"><td><p>DSETTYPEID</p></td>
-<td><p>int2</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#global-datasettypeid"><span class="std std-ref">global_datasettypeID table</span></a></p></td>
-</tr>
-<tr class="row-odd"><td><p>NEODSETID</p></td>
-<td><p>int4</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>NEODSETDOI</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>DSETNAME</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>DSETSOURCE</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td></td>
-<td><p><a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a></p></td>
-</tr>
-<tr class="row-odd"><td><p>DSETAGEOLD</p></td>
-<td><p>numeric</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>DSETAGEYNG</p></td>
-<td><p>numeric</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>DSETNOTE</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
+<p>The <em>global_DataSetMaster</em> table is the global master table that stores <strong>dataset related information for all relevant compilations</strong>. A Dataset is the set of samples for a particular data type, e.g. pollen,  from a certain collection unit (according to Neotoma db). Dataset types are defined in the <em>cabah_datasettypeID</em> table. In OCTOPUS data model hierarchy <em>global_DataSetID</em> is situated between the collection-specific sample tables (subordinate) and the <em>global_UnitMaster</em> table (superordinate); (= UNITID).
+.. csv-table:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">:</span><span class="n">file</span><span class="p">:</span> <span class="o">./</span><span class="n">csv_tables</span><span class="o">/</span><span class="n">global_DataSetMaster</span><span class="o">.</span><span class="n">csv</span>
+<span class="p">:</span><span class="n">header</span><span class="o">-</span><span class="n">rows</span><span class="p">:</span> <span class="mi">1</span>
+</pre></div>
+</div>
 <ul class="simple">
 <li><p>DATASETID – Unique identifier (serial integer)</p></li>
 <li><p>UNITID – Is fkey. For available values refer to <a class="reference internal" href="#global-unitmaster"><span class="std std-ref">global_UnitMaster table</span></a> table.</p></li>
@@ -1045,6 +971,10 @@
 <li><p>DSETAGEYNG – Is youngest dataset age</p></li>
 <li><p>DSETNOTE – Is dataset note</p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The <em>global_DataSetID</em> table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).</p>
+</div>
 </div>
 <div class="section" id="global-biomeid-table">
 <span id="global-biomeid"></span><h4>global_biomeID table<a class="headerlink" href="#global-biomeid-table" title="Permalink to this heading"></a></h4>
@@ -2564,16 +2494,93 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>TAXONID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXONCODE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>TAXONNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AUTHOR</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>TAXONVALID</p></td>
+<td><p>boolean</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>PARENTID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p>TAXONID</p></td>
+</tr>
+<tr class="row-even"><td><p>TAXEXTINCT</p></td>
+<td><p>boolean</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXAGRPID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#cabah-taxagroupid"><span class="std std-ref">cabah_taxagroupID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>NEOTXPUBID</p></td>
+<td><p>int4</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>NEOVALORID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-contacts"><span class="std std-ref">neo_contacts table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>VALIDDATE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXONNOTE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>TAXONID – Is the original Neotoma <em>taxonid</em></p></li>
+<li><p>TAXONCODE – A code for the Taxon. These codes are useful for other software or output for which the complete name is too long. Because of the very large number of taxa, codes can be duplicated for different Taxa Groups. In general, these various Taxa Groups are analyzed separately, and no duplication will occur within a dataset. However, if Taxa Groups are combined, unique codes can be generated by prefixing with the TaxaGroupID, For example, VPL:Cle (Clethra) and MAM:Cle (Clethrionomys).  […] (Neotoma. For more detail refer to https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa)</p></li>
+<li><p>TAXONNAME – Name of the taxon. Most TaxonNames are biological taxa; however, some are biometric measures and some are physical parameters. In addition, some biological taxa may have parenthetic non-Latin modifers, e.g. «Betula (&gt;20 µm)» for Betula pollen grains &gt;20 µm in diameter. In general, the names used in Neotoma are those used by the original investigator. In particular, identifications are not changed, although Dataset notes can be added to the database regarding particular identifications. However, some corrections and synonymizations are made. […] (Neotoma. For more detail refer to <a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#taxa</a>)</p></li>
+<li><p>AUTHOR – Taxon name author(s)</p></li>
+<li><p>TAXONVALID – Boolean (True/False) variable</p></li>
+<li><p>PARENTID – Is fkey. Refers to ordinal higher ranking TAXONID</p></li>
+<li><p>TAXEXTINCT – Boolean (True/False) variable. The value is True if the taxon is extinct, False if extant. (Neotoma)</p></li>
+<li><p>TAXAGRPID – Is fkey. For avaiable values refer to <a class="reference internal" href="#cabah-taxagroupid"><span class="std std-ref">cabah_taxagroupID table</span></a> table</p></li>
+<li><p>NEOTXPUBID – Neotoma publication identification number. In Neotoma, this field links to the publications table. In OCTOPUS, however, it does NOT.</p></li>
+<li><p>NEOVALORID – Is fkey. For avaiable values refer to <a class="reference internal" href="#neo-contacts"><span class="std std-ref">neo_contacts table</span></a> table</p></li>
+<li><p>VALIDDATE – Date of taxon validation</p></li>
+<li><p>TAXONNOTE – Taxon notes</p></li>
 </ul>
 </div>
 <div class="section" id="cabah-taxagroupid-table">
