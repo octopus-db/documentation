@@ -1073,7 +1073,7 @@ ippd_variables table
 
 * VARUNITID -- Is fkey. For available values refer to :ref:`neo_variableunits_Fields`
 
-* VARCONTXID -- Is fkey. For available values refer to :ref:`neo_variablecontext_Fields`
+* VARCONTXID -- Is fkey. For available values refer to :ref:`neo_variablecontexts_Fields`
 
 ..  _Neotoma_tables:
 
@@ -1094,23 +1094,23 @@ The *neo_chronologies* is a Neotoma table for compilations dealing with chronolo
 
 * CHRONLGYID -- Is the original Neotoma *chronologyid*
 
-* NEO_UNITID -- Is the original Neotoma *collectionunitid*
+* NEO_UNITID -- Is the original Neotoma *collectionunitid*. Is fkey to :ref:`global_UnitMaster`
 
-* AGETYPEID -- Is an fkey to public."cabah_agetype" table. IMPORTANT: values have been changed to match OCTOPUS db
+* AGETYPEID -- Is an fkey to :ref:`cabah_agetypeID`. IMPORTANT: values have been changed to match OCTOPUS db
 
-* CONTACTID -- Is original Neotoma *contactid*
+* CONTACTID -- Is original Neotoma *contactid* (i.e., fkey to :ref:`neo_contacts`)
 
 * IS_DEFAULT -- If TRUE, then chronology is the default chronology
 
 * CHRONNAME -- Is chronology name, if available
 
-* PREPDATE -- 
+* PREPDATE -- Date that the Chronology was prepared.
 
-* AGEMODEL -- 
+* AGEMODEL -- The age model used for the Chronology.
 
-* AGEYOUNG -- 
+* AGEYOUNG -- The younger reliable age bound for the Chronology. Younger ages may be assigned to samples, but are not regarded as reliable. If the entire Chronology is considered reliable, AgeBoundYounger is assigned the youngest sample age rounded down to the nearest 10. Thus, for 72 BP, AgeBoundYounger = 70 BP; for -45 BP, AgeBoundYounger = -50 BP. (Neotoma)
 
-* AGEOLD -- 
+* AGEOLD -- The older reliable age bound for the Chronology. Ages older than AgeOlderBound may be assigned to samples, but are not regarded as reliable. This situation is particularly true for ages extrapolated beyond the oldest Chron Control. . If the entire Chronology is considered reliable, AgeBoundOlder is assigned the oldest sample age rounded up to the nearest 10. Thus, for 12564 BP, AgeBoundOlder is 12570. (Neotoma)
 
 * CHRONNOTE -- Chronology related note, if applicable
 

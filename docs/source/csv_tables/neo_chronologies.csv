@@ -1,2 +1,13 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+CHRONLGYID,int4,pkey,TRUE,...
+NEO_UNITID,int4,fkey,TRUE,:ref:`global_UnitMaster`
+AGETYPEID,int4,fkey,,:ref:`cabah_agetypeID`
+CONTACTID,int4,fkey,,:ref:`neo_contacts`
+IS_DEFAULT,boolean,,,
+CHRONNAME,varchar(80),,,
+PREPDATE,text,,,
+AGEMODEL,varchar(80),,,
+AGEYOUNG,int4,,,
+AGEOLD,int4,,,
+CHRONNOTE,text,,,
+UNITID,int4,fkey,,:ref:`global_UnitMaster`
