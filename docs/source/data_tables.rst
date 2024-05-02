@@ -953,7 +953,7 @@ The *c14_calprogram* table stores **computer programmes** -- incl. their version
 
 .. note::
 
-    Not the individual "CALPROGRAM" (ukey1) and "CALPROGVER" (ukey2), but only their combination forms the ukey.
+    Not the individual "CALPROGRAM" (ukey1) and "CALPROGVER" (ukey2), but only their *composite* forms the ukey.
 
 ..  _IPPD_tables:
 
@@ -1017,7 +1017,7 @@ The *ippd_Sample* table is an IPPD-specific Neotoma table that stores samples. I
 
 ippd_sampleages table
 ^^^^^^^^^^^^^^^^^^^^^
-The *ippd_sampleages* table ...
+The *ippd_sampleages* table is an IPPD-specific Neotoma table that stores *sample ages*. In Neotoma's data model, *Ages* are assigned to a *Chronology*. Because there may be more than one *Chronology* for a *Collection Unit*, samples may be assigned different ages for different Chronologies. A simple example is one sample age in radiocarbon years and another in calibrated radiocarbon years. The age units are an attribute of the Chronology. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#sampleages)
 
 .. csv-table::
    :file: ./csv_tables/ippd_sampleages.csv
@@ -1035,17 +1035,24 @@ The *ippd_sampleages* table ...
 
 * AGEOLDER -- Is the older error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned
 
+
 ..  _ippd_samplekeywords:
 
 ippd_samplekeywords table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-The *ippd_samplekeywords* table ...
+The *ippd_samplekeywords* table is an IPPD-specific Neotoma table that links *keywords* to *samples*. (For example, it identifies modern pollen surface samples.)
 
 .. csv-table::
    :file: ./csv_tables/ippd_samplekeywords.csv
    :header-rows: 1
 
-*
+* SAMPLEID -- Is pkey 1/2. Is fkey to :ref:`ippd_Sample`
+
+* KEYWORDID -- Is pkey 2/2. Is fkey to :ref:`neo_keywords`
+
+.. note::
+
+    Not the individual "SAMPLEID" (pkey1/2) and "KEYWORDID" (pkey2/2), but only their *composite* forms the pkey.
 
 ..  _ippd_variables:
 

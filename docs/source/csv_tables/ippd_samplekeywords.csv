@@ -1,2 +1,3 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+SAMPLEID,int4,pkey1/2,TRUE,:ref:`cabah_Sample`
+KEYWORDID,int2,pkey2/2,TRUE,:ref:`neo_keywords`
