@@ -1,2 +1,17 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+CONTACTID,int4,pkey,TRUE,
+ALIASID,int4,,,
+CONTACTNAM,text,,TRUE,
+CSTATUSID,int2,fkey,,:ref:`global_contactstatusID`
+FAMILYNAME,text,,,
+PHONE,text,,,
+FAX,text,,,
+EMAIL,text,,,
+URL,text,,,
+ADDRESS,text,,,
+LEADINITIA,varchar(24),,,
+GIVENNAMES,text,,,
+TITLE,varchar(24),,,
+SUFFIX,varchar(24),,,
+NOTES,text,,,
+OAID,varchar(19),fkey,,:ref:`global_Author`
