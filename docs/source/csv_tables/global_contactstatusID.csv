@@ -1,0 +1,4 @@
+Field,Data type,Key,Not Null,Parent
+CSTATUSID,serial4,pkey,TRUE,
+CONTSTATUS,text,,TRUE,
+CSTATUSDSC,text,,,
