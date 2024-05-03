@@ -1,2 +1,3 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+VARUNITID,int4,pkey,TRUE,
+VARUNIT,int2,,TRUE,
