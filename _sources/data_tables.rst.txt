@@ -1198,7 +1198,7 @@ The *neo_elementmaturities* table is a Neotoma lookup lookup table of **Element 
 
 neo_elementportions table
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-The *neo_elementportions* table is a Neotoma lookup lookup table of **Element proportions**. This table is referenced by the :ref:`neo_variableelements`.
+The *neo_elementportions* table is a Neotoma lookup lookup table of **Element portions**. This table is referenced by the :ref:`neo_variableelements`.
 
 .. csv-table::
    :file: ./csv_tables/neo_elementportions.csv
@@ -1206,7 +1206,7 @@ The *neo_elementportions* table is a Neotoma lookup lookup table of **Element pr
 
 * PORTIONID -- Is the original Neotoma *portionid*
 
-* PORTION -- Is the original Neotoma element portion description
+* PORTION -- Is the original Neotoma element portion description. For avaiable values refer to :ref:`neo_elementportions_Fields` table
 
 
 ..  _neo_elementsymmetries:
@@ -1219,7 +1219,9 @@ The *neo_elementsymmetries* table is a Neotoma lookup lookup table of **Element 
    :file: ./csv_tables/neo_elementsymmetries.csv
    :header-rows: 1
 
-* 
+* SYMMETRYID -- Is the original Neotoma *symmetryid*
+
+* SYMMETRY -- Is the original Neotoma symmetry description. For avaiable values refer to :ref:`neo_elementsymmetries_Fields` table
 
 
 ..  _neo_elementtypes:

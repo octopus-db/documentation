@@ -3574,7 +3574,7 @@
 </div>
 <div class="section" id="neo-elementportions-table">
 <span id="neo-elementportions"></span><h4>neo_elementportions table<a class="headerlink" href="#neo-elementportions-table" title="Permalink to this heading"></a></h4>
-<p>The <em>neo_elementportions</em> table is a Neotoma lookup lookup table of <strong>Element proportions</strong>. This table is referenced by the <a class="reference internal" href="#neo-variableelements"><span class="std std-ref">neo_variableelements table</span></a>.</p>
+<p>The <em>neo_elementportions</em> table is a Neotoma lookup lookup table of <strong>Element portions</strong>. This table is referenced by the <a class="reference internal" href="#neo-variableelements"><span class="std std-ref">neo_variableelements table</span></a>.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -3608,7 +3608,7 @@
 </table>
 <ul class="simple">
 <li><p>PORTIONID – Is the original Neotoma <em>portionid</em></p></li>
-<li><p>PORTION – Is the original Neotoma element portion description</p></li>
+<li><p>PORTION – Is the original Neotoma element portion description. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-elementportions-fields"><span class="std std-ref">neo_elementportions fields</span></a> table</p></li>
 </ul>
 </div>
 <div class="section" id="neo-elementsymmetries-table">
@@ -3631,16 +3631,23 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>SYMMETRYID</p></td>
+<td><p>int2</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SYMMETRY</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>SYMMETRYID – Is the original Neotoma <em>symmetryid</em></p></li>
+<li><p>SYMMETRY – Is the original Neotoma symmetry description. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-elementsymmetries-fields"><span class="std std-ref">neo_elementsymmetries fields</span></a> table</p></li>
 </ul>
 </div>
 <div class="section" id="neo-elementtypes-table">
