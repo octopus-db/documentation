@@ -1,0 +1,8 @@
+"CSTATUSID","CONTSTATUS","CSTATUSDSC"
+1,"active","Person, project, or organization is active in the field"
+2,"deceased","Person is deceased"
+3,"defunct","Project or organization is defunct or non-operational"
+4,"extant","Project or organization is extant"
+5,"inactive","Person is inactive in the field"
+6,"retired","Person is retired"
+7,"unknown","Status is unknown"

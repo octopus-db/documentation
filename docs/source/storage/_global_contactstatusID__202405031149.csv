@@ -1,0 +1,8 @@
+"CSTATUSID","CONTSTATUS","CSTATUSDSC","CREATED_AT","UPDATED_AT"
+1,"active","Person, project, or organization is active in the field","2024-03-19 10:51:44.464 +0100",NA
+2,"deceased","Person is deceased","2024-03-19 10:51:44.464 +0100",NA
+3,"defunct","Project or organization is defunct or non-operational","2024-03-19 10:51:44.464 +0100",NA
+4,"extant","Project or organization is extant","2024-03-19 10:51:44.464 +0100",NA
+5,"inactive","Person is inactive in the field","2024-03-19 10:51:44.464 +0100",NA
+6,"retired","Person is retired","2024-03-19 10:51:44.464 +0100",NA
+7,"unknown","Status is unknown","2024-03-19 10:51:44.464 +0100",NA
