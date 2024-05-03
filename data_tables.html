@@ -60,6 +60,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-unitmaster-table">global_UnitMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-datasetmaster-table">global_DataSetMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-biomeid-table">global_biomeID table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#global-contactstatusid-table">global_contactstatusID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-ibraid-table">global_ibraID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-rivid-table">global_rivID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-datasettypeid-table">global_datasettypeID table</a></li>
@@ -1101,6 +1102,52 @@
 <li><p>BIOMETYPE – Name of biome. For available values refer to <a class="reference internal" href="parent_tables.html#global-biomeid-fields"><span class="std std-ref">global_biomeID fields</span></a></p></li>
 <li><p>PARENTID – Is fkey. Refers to ordinal higher ranking “BIOMEID”</p></li>
 <li><p>BIOMEDESCR – A concise description of “BIOMETYPE”</p></li>
+</ul>
+</div>
+<div class="section" id="global-contactstatusid-table">
+<span id="global-contactstatusid"></span><h4>global_contactstatusID table<a class="headerlink" href="#global-contactstatusid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>global_contactstatusID</em> table is a Neotoma-derived lookup table for compilations involving Neotoma contacts, e.g. <strong>IPPD</strong>. This table stores <em>contact statuses</em>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CSTATUSID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CONTSTATUS</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>CSTATUSDSC</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>CSTATUSID – Arbitrary identifier</p></li>
+<li><p>CONTSTATUS – Contact status</p></li>
+<li><p>CSTATUSDSC – Contact status description</p></li>
 </ul>
 </div>
 <div class="section" id="global-ibraid-table">
@@ -3391,7 +3438,7 @@
 <td><p>int2</p></td>
 <td><p>fkey</p></td>
 <td></td>
-<td><p><span class="xref std std-ref">global_contactstatusID</span></p></td>
+<td><p><a class="reference internal" href="#global-contactstatusid"><span class="std std-ref">global_contactstatusID table</span></a></p></td>
 </tr>
 <tr class="row-even"><td><p>FAMILYNAME</p></td>
 <td><p>text</p></td>
