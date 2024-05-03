@@ -1,2 +1,7 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+VARELEMTID,int4,pkey,TRUE,
+VARELEMENT,text,fkey,TRUE,
+ELEMTYPEID,int2,fkey,,:ref:`neo_elementtypes`
+SYMMETRYID,int2,fkey,,:ref:`neo_elementsymmetries`
+PORTIONID,int2,fkey,,:ref:`neo_elementportions`
+MATURITYID,int2,fkey,,:ref:`neo_elementmaturities`

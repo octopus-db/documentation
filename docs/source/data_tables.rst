@@ -1281,7 +1281,18 @@ The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable 
    :file: ./csv_tables/neo_variableelements.csv
    :header-rows: 1
 
-* 
+* VARELEMTID -- Is the original Neotoma *variableelementid*
+
+* VARELEMENT -- The element, part, or organ of the taxon identified. For plants, these include pollen, spores, and various macrofossil organs, such as «seed», «twig», «cone», and «cone bract». Thus, Betula pollen and Betula seeds are two different Variables. For mammals, Elements include the bone or tooth identified, e.g. «tibia». «tibia, distal, left», «M2, lower, left». Some more unusual elements are Neotoma fecal pellets and Erethizon dorsata quills. If no element is indicated for mammalian fauna, then the genric element «bone/tooth» is assigned. Elements were not assigned in FAUNMAP, so all Variables ingested from FAUNMAP were assigned the «bone/tooth» element. Physical Variables may also have elements. For example, the Loss-on-ignition Variables have «Loss-on-ignition» as a Taxon, and temperature of analysis as an element, e.g. «500°C», «900°C». Charcoal Variables have the size fragments as elements, e.g. «75-100 µm», «100-125 µm». (Neotoma)
+
+* ELEMTYPEID -- Is fkey. For avaiable values refer to :ref:`neo_elementtypes_Fields` table
+
+* SYMMETRYID -- Is fkey. For avaiable values refer to :ref:`neo_elementsymmetries_Fields` table
+
+* PORTIONID -- Is fkey. For avaiable values refer to :ref:`neo_elementportions_Fields` table
+
+* MATURITYID -- Is fkey. For avaiable values refer to :ref:`neo_elementmaturities_Fields` table
+
 
 ..  _neo_variableunits:
 
