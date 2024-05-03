@@ -890,6 +890,7 @@ The *cabah_taxaID* table is a Neotoma-derived taxa table for compilations dealin
 
 * TAXONNOTE -- Taxon notes
 
+
 ..  _cabah_taxagroupID:
 
 cabah_taxagroupID table
@@ -1093,6 +1094,7 @@ ippd_variables table
 
 * VARCONTXID -- Is fkey. For available values refer to :ref:`neo_variablecontexts_Fields`
 
+
 ..  _Neotoma_tables:
 
 Neotoma tables (*neo_*)
@@ -1187,7 +1189,9 @@ The *neo_elementmaturities* table is a Neotoma lookup lookup table of **Element 
    :file: ./csv_tables/neo_elementmaturities.csv
    :header-rows: 1
 
-* 
+* MATURITYID -- Is the original Neotoma *maturityid*
+
+* MATURITY -- Is the original Neotoma maturity description
 
 
 ..  _neo_elementportions:
