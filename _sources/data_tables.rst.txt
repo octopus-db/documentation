@@ -336,7 +336,7 @@ The *global_rivID* table stores the **Geofabric AHGF river name/region code** (h
 
 global_datasettypeID table
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *global_datasettypeID* table stores **dataset types**, e.g., pollen. To facilitate data migration where necessary, table structure, primary keys and content resemble Neotoma’s datasettypes table.
+The *global_datasettypeID* table stores **dataset types**, e.g., pollen. To facilitate data migration where necessary, table structure, primary keys and content resemble Neotoma's datasettypes table.
 
 .. csv-table::
    :file: ./csv_tables/global_datasettypeID.csv
@@ -1126,7 +1126,37 @@ The *neo_contacts* table is a Neotoma lookup table for compilations involving Ne
    :file: ./csv_tables/neo_contacts.csv
    :header-rows: 1
 
-* 
+* CONTACTID -- Is original Neotoma *contactid*
+
+* ALIASID -- The ContactID of a person's current name. If the AliasID is different from the ContactID, the ContactID refers to the person's former name. For example, if J. L. Bouvier became J. B. Kennedy, the ContactID for J. B. Kennedy is the AliasID for J. L. Bouvier. (Neotoma)
+
+* CONTACTNAM -- Full name of the person, last name first (e.g. «Simpson, George Gaylord») or name of organization or project (e.g. «Great Plains Flora Association»). (Neotoma)
+
+* CSTATUSID -- Is fkey. For avaiable values refer to :ref:`global_contactstatusID_Fields` table
+
+* FAMILYNAME -- Family or surname name of a person
+
+* PHONE -- Phone number
+
+* FAX -- Fax number
+
+* EMAIL -- Email address
+
+* URL -- URL, if applicable
+
+* ADDRESS -- Address
+
+* LEADINITIA -- Leading initials for given or forenames without spaces (e.g. «G.G.»)
+
+* GIVENNAMES -- Given name(s)
+
+* TITLE -- A person's title (e.g. «Dr.», «Prof.», «»)
+
+* SUFFIX -- Suffix of a person's name (e.g. «Jr.», «III»)
+
+* NOTES -- Notes, if applicable
+
+* OAID -- Is fkey. For avaiable values refer to :ref:`global_Author_Fields` table
 
 
 ..  _neo_elementmaturities:

@@ -3369,16 +3369,121 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>CONTACTID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ALIASID</p></td>
+<td><p>int4</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>CONTACTNAM</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CSTATUSID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><span class="xref std std-ref">global_contactstatusID</span></p></td>
+</tr>
+<tr class="row-even"><td><p>FAMILYNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>PHONE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>FAX</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>EMAIL</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>URL</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ADDRESS</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>LEADINITIA</p></td>
+<td><p>varchar(24)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>GIVENNAMES</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>TITLE</p></td>
+<td><p>varchar(24)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SUFFIX</p></td>
+<td><p>varchar(24)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>NOTES</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>OAID</p></td>
+<td><p>varchar(19)</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#global-author"><span class="std std-ref">global_Author table</span></a></p></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>CONTACTID – Is original Neotoma <em>contactid</em></p></li>
+<li><p>ALIASID – The ContactID of a person’s current name. If the AliasID is different from the ContactID, the ContactID refers to the person’s former name. For example, if J. L. Bouvier became J. B. Kennedy, the ContactID for J. B. Kennedy is the AliasID for J. L. Bouvier. (Neotoma)</p></li>
+<li><p>CONTACTNAM – Full name of the person, last name first (e.g. «Simpson, George Gaylord») or name of organization or project (e.g. «Great Plains Flora Association»). (Neotoma)</p></li>
+<li><p>CSTATUSID – Is fkey. For avaiable values refer to <span class="xref std std-ref">global_contactstatusID_Fields</span> table</p></li>
+<li><p>FAMILYNAME – Family or surname name of a person</p></li>
+<li><p>PHONE – Phone number</p></li>
+<li><p>FAX – Fax number</p></li>
+<li><p>EMAIL – Email address</p></li>
+<li><p>URL – URL, if applicable</p></li>
+<li><p>ADDRESS – Address</p></li>
+<li><p>LEADINITIA – Leading initials for given or forenames without spaces (e.g. «G.G.»)</p></li>
+<li><p>GIVENNAMES – Given name(s)</p></li>
+<li><p>TITLE – A person’s title (e.g. «Dr.», «Prof.», «»)</p></li>
+<li><p>SUFFIX – Suffix of a person’s name (e.g. «Jr.», «III»)</p></li>
+<li><p>NOTES – Notes, if applicable</p></li>
+<li><p>OAID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#global-author-fields"><span class="std std-ref">global_Author fields</span></a> table</p></li>
 </ul>
 </div>
 <div class="section" id="neo-elementmaturities-table">
