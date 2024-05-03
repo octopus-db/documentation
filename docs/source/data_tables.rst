@@ -1255,6 +1255,7 @@ The *neo_keywords* table is a Neotoma lookup table of **Keywords** referenced by
 
 * KEYWORD -- Is the original Neotoma keyword descriptor. For avaiable values refer to :ref:`neo_keywords_Fields` table
 
+
 ..  _neo_variablecontexts:
 
 neo_variablecontexts table
@@ -1265,7 +1266,10 @@ The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable 
    :file: ./csv_tables/neo_variablecontexts.csv
    :header-rows: 1
 
-* 
+* VARCONTXID -- Is the original Neotoma *variablecontextid*
+
+* VARCONTEXT -- Is the original Neotoma variable context descriptor. For avaiable values refer to :ref:`neo_variablecontexts_Fields` table
+
 
 ..  _neo_variableelements:
 

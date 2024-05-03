@@ -1,2 +1,3 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+VARCONTXID,int4,pkey,TRUE,
+VARCONTEXT,text,,TRUE,
