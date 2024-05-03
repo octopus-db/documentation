@@ -3692,7 +3692,7 @@
 </table>
 <ul class="simple">
 <li><p>ELEMTYPEID – Is the original Neotoma <em>elementtypeid</em></p></li>
-<li><p>ELEMENTYPE – Is the original Neotoma element type descriptor</p></li>
+<li><p>ELEMENTYPE – Is the original Neotoma element type descriptor. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-elementtypes-fields"><span class="std std-ref">neo_elementtypes fields</span></a> table</p></li>
 <li><p>DATASRCID – Is an fkey to the <a class="reference internal" href="#cabah-datasourceid"><span class="std std-ref">cabah_datasourceID table</span></a></p></li>
 </ul>
 </div>
@@ -3716,16 +3716,23 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>KEYWORDID</p></td>
+<td><p>int2</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>KEYWORD</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>KEYWORDID – Is the original Neotoma <em>keywordid</em></p></li>
+<li><p>KEYWORD – Is the original Neotoma keyword descriptor. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-keywords-fields"><span class="std std-ref">neo_keywords fields</span></a> table</p></li>
 </ul>
 </div>
 <div class="section" id="neo-variablecontexts-table">
@@ -3748,16 +3755,23 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>VARCONTXID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>VARCONTEXT</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>VARCONTXID – Is the original Neotoma <em>variablecontextid</em></p></li>
+<li><p>VARCONTEXT – Is the original Neotoma variable context descriptor. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-variablecontexts-fields"><span class="std std-ref">neo_variablecontexts fields</span></a> table</p></li>
 </ul>
 </div>
 <div class="section" id="neo-variableelements-table">

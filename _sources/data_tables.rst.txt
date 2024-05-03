@@ -1236,7 +1236,7 @@ The *neo_elementtypes* table is a Neotoma lookup lookup table of **Element types
 
 * ELEMTYPEID -- Is the original Neotoma *elementtypeid*
 
-* ELEMENTYPE -- Is the original Neotoma element type descriptor
+* ELEMENTYPE -- Is the original Neotoma element type descriptor. For avaiable values refer to :ref:`neo_elementtypes_Fields` table
 
 * DATASRCID -- Is an fkey to the :ref:`cabah_datasourceID`
 
@@ -1251,7 +1251,10 @@ The *neo_keywords* table is a Neotoma lookup table of **Keywords** referenced by
    :file: ./csv_tables/neo_keywords.csv
    :header-rows: 1
 
-* 
+* KEYWORDID -- Is the original Neotoma *keywordid*
+
+* KEYWORD -- Is the original Neotoma keyword descriptor. For avaiable values refer to :ref:`neo_keywords_Fields` table
+
 
 ..  _neo_variablecontexts:
 
@@ -1263,7 +1266,10 @@ The *neo_variablecontexts* table is a Neotoma lookup lookup table of **Variable 
    :file: ./csv_tables/neo_variablecontexts.csv
    :header-rows: 1
 
-* 
+* VARCONTXID -- Is the original Neotoma *variablecontextid*
+
+* VARCONTEXT -- Is the original Neotoma variable context descriptor. For avaiable values refer to :ref:`neo_variablecontexts_Fields` table
+
 
 ..  _neo_variableelements:
 
