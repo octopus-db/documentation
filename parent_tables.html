@@ -112,6 +112,9 @@
 <li class="toctree-l3"><a class="reference internal" href="#c14-materia2id-fields">c14_materia2ID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#c14-solvent2id-fields">c14_solvent2ID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#c-mtdid-fields">c_mtdID fields</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ippd-sampleages-fields">ippd_sampleages fields</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ippd-samplekeywords-fields">ippd_samplekeywords fields</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#ippd-variables-fields">ippd_variables fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#osl-tl-agemodelid-fields">osl-tl_agemodelID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#osl-tl-ed-procid-fields">osl-tl_ed_procID fields</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#osl-tl-lum-matid-fields">osl-tl_lum_matID fields</a></li>
@@ -1354,7 +1357,7 @@
 </tbody>
 </table>
 <div class="line-block">
-<div class="line">Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD <a class="footnote-reference brackets" href="#id161" id="id8">1</a>.</div>
+<div class="line">Classification of biomes on the basis of Prentice et al. (1992), Forseth (2010), and GPD <a class="footnote-reference brackets" href="#id167" id="id8">1</a>.</div>
 <div class="line">The latest <em>global_biomeID</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_biomeID__202403010934.csv">here</a> 🐿️</div>
 <div class="line">(🔙 to <a class="reference internal" href="data_tables.html#global-biomeid"><span class="std std-ref">global_biomeID table</span></a> variable specs)</div>
 </div>
@@ -3197,7 +3200,7 @@
 </tbody>
 </table>
 <ul class="simple">
-<li><p><strong>article</strong> <a class="footnote-reference brackets" href="#id162" id="id28">2</a> – An article from a journal or magazine. <em>Required fields</em>: author, title, journal, year. <em>Optional fields</em>: volume, number, pages, month, note.</p></li>
+<li><p><strong>article</strong> <a class="footnote-reference brackets" href="#id168" id="id28">2</a> – An article from a journal or magazine. <em>Required fields</em>: author, title, journal, year. <em>Optional fields</em>: volume, number, pages, month, note.</p></li>
 <li><p><strong>book</strong> – A book with an explicit publisher. <em>Required fields</em>: author or editor, title, publisher, year. <em>Optional fields</em>: volume or number, series, address, edition, month, note.</p></li>
 <li><p><strong>booklet</strong> – A work that is printed and bound, but without a named publisher or sponsoring institution. <em>Required field</em>: title. <em>Optional fields</em>: author, howpublished, address, month, year, note.</p></li>
 <li><p><strong>conference</strong> – The same as inproceedings, included for Scribe compatibility.</p></li>
@@ -8797,8 +8800,169 @@ University (CHN)</p></td>
 </div>
 <hr class="docutils" />
 </div>
+<div class="section" id="ippd-sampleages-fields">
+<span id="id116"></span><h3>ippd_sampleages fields<a class="headerlink" href="#ippd-sampleages-fields" title="Permalink to this heading"></a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+<col style="width: 17%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>SMPAGEID</p></th>
+<th class="head"><p>SAMPLEID</p></th>
+<th class="head"><p>CHRONLGYID</p></th>
+<th class="head"><p>AGE</p></th>
+<th class="head"><p>AGEYOUNGER</p></th>
+<th class="head"><p>AGEOLDER</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3642</p></td>
+<td><p>3503</p></td>
+<td><p>84</p></td>
+<td><p>19</p></td>
+<td><p>NA</p></td>
+<td><p>NA</p></td>
+</tr>
+<tr class="row-odd"><td><p>3643</p></td>
+<td><p>3503</p></td>
+<td><p>85</p></td>
+<td><p>3</p></td>
+<td><p>NA</p></td>
+<td><p>NA</p></td>
+</tr>
+<tr class="row-even"><td><p>3644</p></td>
+<td><p>3505</p></td>
+<td><p>84</p></td>
+<td><p>23</p></td>
+<td><p>NA</p></td>
+<td><p>NA</p></td>
+</tr>
+<tr class="row-odd"><td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+</tr>
+<tr class="row-even"><td><p>699262</p></td>
+<td><p>642751</p></td>
+<td><p>41129</p></td>
+<td><p>7434</p></td>
+<td><p>7213</p></td>
+<td><p>7632</p></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">The latest <em>ippd_sampleages</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_ippd_sampleages__202405031605.csv">here</a> 🐿️</div>
+<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#ippd-sampleages"><span class="std std-ref">ippd_sampleages table</span></a> variable specs)</div>
+</div>
+</div>
+<div class="section" id="ippd-samplekeywords-fields">
+<span id="id118"></span><h3>ippd_samplekeywords fields<a class="headerlink" href="#ippd-samplekeywords-fields" title="Permalink to this heading"></a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>SAMPLEID</p></th>
+<th class="head"><p>KEYWORDID</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>3503</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>30002</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-even"><td><p>57558</p></td>
+<td><p>1</p></td>
+</tr>
+<tr class="row-odd"><td><p>…</p></td>
+<td><p>…</p></td>
+</tr>
+<tr class="row-even"><td><p>641084</p></td>
+<td><p>1</p></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">The latest <em>ippd_samplekeywords</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_ippd_samplekeywords__202405031606.csv">here</a> 🐿️</div>
+<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#ippd-samplekeywords"><span class="std std-ref">ippd_samplekeywords table</span></a> variable specs)</div>
+</div>
+</div>
+<div class="section" id="ippd-variables-fields">
+<span id="id120"></span><h3>ippd_variables fields<a class="headerlink" href="#ippd-variables-fields" title="Permalink to this heading"></a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>VARIABLEID</p></th>
+<th class="head"><p>TAXONID</p></th>
+<th class="head"><p>VARELEMTID</p></th>
+<th class="head"><p>VARUNITID</p></th>
+<th class="head"><p>VARCONTXID</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>2</p></td>
+<td><p>141</p></td>
+<td><p>19</p></td>
+<td><p>NA</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>10</p></td>
+<td><p>166</p></td>
+<td><p>19</p></td>
+<td><p>NA</p></td>
+</tr>
+<tr class="row-even"><td><p>20</p></td>
+<td><p>20</p></td>
+<td><p>141</p></td>
+<td><p>19</p></td>
+<td><p>NA</p></td>
+</tr>
+<tr class="row-odd"><td><p>22</p></td>
+<td><p>22</p></td>
+<td><p>141</p></td>
+<td><p>19</p></td>
+<td><p>NA</p></td>
+</tr>
+<tr class="row-even"><td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+<td><p>…</p></td>
+</tr>
+<tr class="row-odd"><td><p>63971</p></td>
+<td><p>52423</p></td>
+<td><p>142</p></td>
+<td><p>19</p></td>
+<td><p>NA</p></td>
+</tr>
+</tbody>
+</table>
+<div class="line-block">
+<div class="line">The latest <em>ippd_variables</em> table version can be downloaded <a class="reference external" href="https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_ippd_variables__202404301200.csv">here</a> 🐿️</div>
+<div class="line">(🔙 to <a class="reference internal" href="data_tables.html#ippd-variables"><span class="std std-ref">ippd_variables table</span></a> variable specs)</div>
+</div>
+<hr class="docutils" />
+</div>
 <div class="section" id="osl-tl-agemodelid-fields">
-<span id="id116"></span><h3>osl-tl_agemodelID fields<a class="headerlink" href="#osl-tl-agemodelid-fields" title="Permalink to this heading"></a></h3>
+<span id="id122"></span><h3>osl-tl_agemodelID fields<a class="headerlink" href="#osl-tl-agemodelid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8880,7 +9044,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-ed-procid-fields">
-<span id="id118"></span><h3>osl-tl_ed_procID fields<a class="headerlink" href="#osl-tl-ed-procid-fields" title="Permalink to this heading"></a></h3>
+<span id="id124"></span><h3>osl-tl_ed_procID fields<a class="headerlink" href="#osl-tl-ed-procid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8930,7 +9094,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-lum-matid-fields">
-<span id="id120"></span><h3>osl-tl_lum_matID fields<a class="headerlink" href="#osl-tl-lum-matid-fields" title="Permalink to this heading"></a></h3>
+<span id="id126"></span><h3>osl-tl_lum_matID fields<a class="headerlink" href="#osl-tl-lum-matid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -8980,7 +9144,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-mineralid-fields">
-<span id="id122"></span><h3>osl-tl_mineralID fields<a class="headerlink" href="#osl-tl-mineralid-fields" title="Permalink to this heading"></a></h3>
+<span id="id128"></span><h3>osl-tl_mineralID fields<a class="headerlink" href="#osl-tl-mineralid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9026,7 +9190,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-tl-mtdid-fields">
-<span id="id124"></span><h3>osl-tl_mtdID fields<a class="headerlink" href="#osl-tl-mtdid-fields" title="Permalink to this heading"></a></h3>
+<span id="id130"></span><h3>osl-tl_mtdID fields<a class="headerlink" href="#osl-tl-mtdid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9180,7 +9344,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="osl-typeid-fields">
-<span id="id126"></span><h3>osl_typeID fields<a class="headerlink" href="#osl-typeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id132"></span><h3>osl_typeID fields<a class="headerlink" href="#osl-typeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9235,7 +9399,7 @@ University (CHN)</p></td>
 <hr class="docutils" />
 </div>
 <div class="section" id="sed-depconid-fields">
-<span id="id128"></span><h3>sed_depconID fields<a class="headerlink" href="#sed-depconid-fields" title="Permalink to this heading"></a></h3>
+<span id="id134"></span><h3>sed_depconID fields<a class="headerlink" href="#sed-depconid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9273,7 +9437,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-faciesid-fields">
-<span id="id130"></span><h3>sed_faciesID fields<a class="headerlink" href="#sed-faciesid-fields" title="Permalink to this heading"></a></h3>
+<span id="id136"></span><h3>sed_faciesID fields<a class="headerlink" href="#sed-faciesid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9323,7 +9487,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-geommodid-fields">
-<span id="id132"></span><h3>sed_geommodID fields<a class="headerlink" href="#sed-geommodid-fields" title="Permalink to this heading"></a></h3>
+<span id="id138"></span><h3>sed_geommodID fields<a class="headerlink" href="#sed-geommodid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9367,7 +9531,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-geotypeid-fields">
-<span id="id134"></span><h3>sed_geotypeID fields<a class="headerlink" href="#sed-geotypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id140"></span><h3>sed_geotypeID fields<a class="headerlink" href="#sed-geotypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9435,7 +9599,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-laketypeid-fields">
-<span id="id136"></span><h3>sed_laketypeID fields<a class="headerlink" href="#sed-laketypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id142"></span><h3>sed_laketypeID fields<a class="headerlink" href="#sed-laketypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -9689,7 +9853,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-morphid-fields">
-<span id="id138"></span><h3>sed_morphID fields<a class="headerlink" href="#sed-morphid-fields" title="Permalink to this heading"></a></h3>
+<span id="id144"></span><h3>sed_morphID fields<a class="headerlink" href="#sed-morphid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9748,7 +9912,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="sed-sitetypeid-fields">
-<span id="id140"></span><h3>sed_sitetypeID fields<a class="headerlink" href="#sed-sitetypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id146"></span><h3>sed_sitetypeID fields<a class="headerlink" href="#sed-sitetypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9787,7 +9951,7 @@ University (CHN)</p></td>
 <hr class="docutils" />
 </div>
 <div class="section" id="fos-taxrank1-classid-fields">
-<span id="id142"></span><h3>fos_TaxRank1_classID fields<a class="headerlink" href="#fos-taxrank1-classid-fields" title="Permalink to this heading"></a></h3>
+<span id="id148"></span><h3>fos_TaxRank1_classID fields<a class="headerlink" href="#fos-taxrank1-classid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9830,7 +9994,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank2-infraclaid-fields">
-<span id="id143"></span><h3>fos_TaxRank2_infraclaID fields<a class="headerlink" href="#fos-taxrank2-infraclaid-fields" title="Permalink to this heading"></a></h3>
+<span id="id149"></span><h3>fos_TaxRank2_infraclaID fields<a class="headerlink" href="#fos-taxrank2-infraclaid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9868,7 +10032,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank3-ordrid-fields">
-<span id="id145"></span><h3>fos_TaxRank3_ordrID fields<a class="headerlink" href="#fos-taxrank3-ordrid-fields" title="Permalink to this heading"></a></h3>
+<span id="id151"></span><h3>fos_TaxRank3_ordrID fields<a class="headerlink" href="#fos-taxrank3-ordrid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9906,7 +10070,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank4-familyid-fields">
-<span id="id147"></span><h3>fos_TaxRank4_familyID fields<a class="headerlink" href="#fos-taxrank4-familyid-fields" title="Permalink to this heading"></a></h3>
+<span id="id153"></span><h3>fos_TaxRank4_familyID fields<a class="headerlink" href="#fos-taxrank4-familyid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9944,7 +10108,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank5-genusid-fields">
-<span id="id149"></span><h3>fos_TaxRank5_genusID fields<a class="headerlink" href="#fos-taxrank5-genusid-fields" title="Permalink to this heading"></a></h3>
+<span id="id155"></span><h3>fos_TaxRank5_genusID fields<a class="headerlink" href="#fos-taxrank5-genusid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -9982,7 +10146,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-taxrank6-speciesid-fields">
-<span id="id151"></span><h3>fos_TaxRank6_speciesID fields<a class="headerlink" href="#fos-taxrank6-speciesid-fields" title="Permalink to this heading"></a></h3>
+<span id="id157"></span><h3>fos_TaxRank6_speciesID fields<a class="headerlink" href="#fos-taxrank6-speciesid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 50%" />
@@ -10020,7 +10184,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-chemtypeid-fields">
-<span id="id153"></span><h3>fos_chemtypeID fields<a class="headerlink" href="#fos-chemtypeid-fields" title="Permalink to this heading"></a></h3>
+<span id="id159"></span><h3>fos_chemtypeID fields<a class="headerlink" href="#fos-chemtypeid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10122,7 +10286,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-fosmat1id-fields">
-<span id="id155"></span><h3>fos_fosmat1ID fields<a class="headerlink" href="#fos-fosmat1id-fields" title="Permalink to this heading"></a></h3>
+<span id="id161"></span><h3>fos_fosmat1ID fields<a class="headerlink" href="#fos-fosmat1id-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10292,7 +10456,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-fosmat2id-fields">
-<span id="id157"></span><h3>fos_fosmat2ID fields<a class="headerlink" href="#fos-fosmat2id-fields" title="Permalink to this heading"></a></h3>
+<span id="id163"></span><h3>fos_fosmat2ID fields<a class="headerlink" href="#fos-fosmat2id-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10502,7 +10666,7 @@ University (CHN)</p></td>
 </div>
 </div>
 <div class="section" id="fos-mtdsid-fields">
-<span id="id159"></span><h3>fos_mtdsID fields<a class="headerlink" href="#fos-mtdsid-fields" title="Permalink to this heading"></a></h3>
+<span id="id165"></span><h3>fos_mtdsID fields<a class="headerlink" href="#fos-mtdsid-fields" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 33%" />
@@ -10564,109 +10728,109 @@ University (CHN)</p></td>
 </div>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="id161"><span class="brackets"><a class="fn-backref" href="#id8">1</a></span></dt>
+<dt class="label" id="id167"><span class="brackets"><a class="fn-backref" href="#id8">1</a></span></dt>
 <dd><p>Global Palaeofire Database (<a class="reference external" href="https://www.paleofire.org">https://www.paleofire.org</a>)</p>
 </dd>
-<dt class="label" id="id162"><span class="brackets"><a class="fn-backref" href="#id28">2</a></span></dt>
+<dt class="label" id="id168"><span class="brackets"><a class="fn-backref" href="#id28">2</a></span></dt>
 <dd><p>Entry type descriptions taken from <a class="reference external" href="http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/">http://newton.ex.ac.uk/tex/pack/bibtex/btxdoc/</a></p>
 </dd>
-<dt class="label" id="id163"><span class="brackets">3</span></dt>
+<dt class="label" id="id169"><span class="brackets">3</span></dt>
 <dd><p>Anderson, Libby, Weinhouse, Reid, Kirshenbaum &amp; Grosse (1947) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRev.72.931">10.1103/PhysRev.72.931</a></p>
 </dd>
-<dt class="label" id="id164"><span class="brackets">4</span></dt>
+<dt class="label" id="id170"><span class="brackets">4</span></dt>
 <dd><p>Dorn (1983) DOI: <a class="reference external" href="https://doi.org/10.1016/0033-5894(83)90065-0">10.1016/0033-5894(83)90065-0</a></p>
 </dd>
-<dt class="label" id="id166"><span class="brackets">5</span></dt>
+<dt class="label" id="id172"><span class="brackets">5</span></dt>
 <dd><p>Frink (1996) DOI: <a class="reference external" href="https://doi.org/10.2136/sssaspecpub44.c6">10.2136/sssaspecpub44.c6</a></p>
 </dd>
-<dt class="label" id="id167"><span class="brackets">6</span></dt>
+<dt class="label" id="id173"><span class="brackets">6</span></dt>
 <dd><p>Huntley, Godfrey-Smith &amp; Thewalt (1985) DOI: <a class="reference external" href="https://doi.org/10.1038/313105a0">10.1038/313105a0</a></p>
 </dd>
-<dt class="label" id="id168"><span class="brackets">7</span></dt>
+<dt class="label" id="id174"><span class="brackets">7</span></dt>
 <dd><p>Daniels, Boyd &amp; Saunders (1953) DOI: <a class="reference external" href="https://doi.org/10.1126/science.117.3040.343">10.1126/science.117.3040.343</a></p>
 </dd>
-<dt class="label" id="id169"><span class="brackets">8</span></dt>
+<dt class="label" id="id175"><span class="brackets">8</span></dt>
 <dd><p>Kaufmann &amp; Libby (1954) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRev.93.1337">10.1103/PhysRev.93.1337</a></p>
 </dd>
-<dt class="label" id="id170"><span class="brackets">9</span></dt>
+<dt class="label" id="id176"><span class="brackets">9</span></dt>
 <dd><p>Arnold (1956) DOI: <a class="reference external" href="https://doi.org/10.1126/science.124.3222.584">10.1126/science.124.3222.584</a></p>
 </dd>
-<dt class="label" id="id171"><span class="brackets">10</span></dt>
+<dt class="label" id="id177"><span class="brackets">10</span></dt>
 <dd><p>Lal, Goldberg &amp; Koide (1960) DOI: <a class="reference external" href="https://doi.org/10.1126/science.131.3397.332">10.1126/science.131.3397.332</a></p>
 </dd>
-<dt class="label" id="id172"><span class="brackets">11</span></dt>
+<dt class="label" id="id178"><span class="brackets">11</span></dt>
 <dd><p>Davis &amp; Schaeffer (1955) DOI: <a class="reference external" href="https://doi.org/10.1111/j.1749-6632.1955.tb35368.x">10.1111/j.1749-6632.1955.tb35368.x</a></p>
 </dd>
-<dt class="label" id="id173"><span class="brackets">12</span></dt>
+<dt class="label" id="id179"><span class="brackets">12</span></dt>
 <dd><p>Loosli &amp; Oeschger (1968) DOI: <a class="reference external" href="https://doi.org/10.1016/S0012-821X(68)80039-1">10.1016/S0012-821X(68)80039-1</a></p>
 </dd>
-<dt class="label" id="id174"><span class="brackets">13</span></dt>
+<dt class="label" id="id180"><span class="brackets">13</span></dt>
 <dd><p>Raisbeck &amp; Yiou (1979) DOI: <a class="reference external" href="https://doi.org/10.1038/277042a0">10.1038/277042a0</a></p>
 </dd>
-<dt class="label" id="id176"><span class="brackets">14</span></dt>
+<dt class="label" id="id182"><span class="brackets">14</span></dt>
 <dd><p>Wilkinson &amp; Sheline (1955) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRev.99.752">10.1103/PhysRev.99.752</a></p>
 </dd>
-<dt class="label" id="id177"><span class="brackets">15</span></dt>
+<dt class="label" id="id183"><span class="brackets">15</span></dt>
 <dd><p>Marti (1967) DOI: <a class="reference external" href="https://doi.org/10.1103/PhysRevLett.18.264">10.1103/PhysRevLett.18.264</a></p>
 </dd>
-<dt class="label" id="id178"><span class="brackets">16</span></dt>
+<dt class="label" id="id184"><span class="brackets">16</span></dt>
 <dd><p>Takagi, Hampel &amp; Kirsten (1974) DOI: <a class="reference external" href="https://doi.org/10.1016/0012-821X(74)90019-3">10.1016/0012-821X(74)90019-3</a></p>
 </dd>
-<dt class="label" id="id179"><span class="brackets">17</span></dt>
+<dt class="label" id="id185"><span class="brackets">17</span></dt>
 <dd><p>Smits &amp; Gentner (1950) DOI: <a class="reference external" href="https://doi.org/10.1016/0016-7037(50)90005-6">10.1016/0016-7037(50)90005-6</a></p>
 </dd>
-<dt class="label" id="id181"><span class="brackets">18</span></dt>
+<dt class="label" id="id187"><span class="brackets">18</span></dt>
 <dd><p>Hahn, Strassmann &amp; Walling (1937) DOI: <a class="reference external" href="https://doi.org/10.1007/BF01492269">10.1007/BF01492269</a></p>
 </dd>
-<dt class="label" id="id182"><span class="brackets">19</span></dt>
+<dt class="label" id="id188"><span class="brackets">19</span></dt>
 <dd><p>Herr, Merz, Eberhardt &amp; Signer (1958) DOI: <a class="reference external" href="https://doi.org/10.1515/zna-1958-0404">10.1515/zna-1958-0404</a></p>
 </dd>
-<dt class="label" id="id183"><span class="brackets">20</span></dt>
+<dt class="label" id="id189"><span class="brackets">20</span></dt>
 <dd><p>Herr &amp; Merz (1955) DOI: <a class="reference external" href="https://doi.org/10.1515/zna-1955-0804">10.1515/zna-1955-0804</a></p>
 </dd>
-<dt class="label" id="id184"><span class="brackets">21</span></dt>
+<dt class="label" id="id190"><span class="brackets">21</span></dt>
 <dd><p>Holmes (1911) DOI: <a class="reference external" href="https://doi.org/10.1098/rspa.1911.0036">10.1098/rspa.1911.0036</a></p>
 </dd>
-<dt class="label" id="id185"><span class="brackets">22</span></dt>
+<dt class="label" id="id191"><span class="brackets">22</span></dt>
 <dd><p>Williams (1995) DOI: <a class="reference external" href="https://doi.org/10.1007/BF00768738">10.1007/BF00768738</a></p>
 </dd>
-<dt class="label" id="id186"><span class="brackets">23</span></dt>
+<dt class="label" id="id192"><span class="brackets">23</span></dt>
 <dd><p>Barnes, Lang &amp; Potratz (1956) DOI: <a class="reference external" href="https://doi.org/10.1126/science.124.3213.175.b">10.1126/science.124.3213.175.b</a></p>
 </dd>
-<dt class="label" id="id187"><span class="brackets">24</span></dt>
+<dt class="label" id="id193"><span class="brackets">24</span></dt>
 <dd><p>Thurber (1962) DOI: <a class="reference external" href="https://doi.org/10.1029/JZ067i011p04518">10.1029/JZ067i011p04518</a></p>
 </dd>
-<dt class="label" id="id188"><span class="brackets">25</span></dt>
+<dt class="label" id="id194"><span class="brackets">25</span></dt>
 <dd><p>Prasad, Poolton, Kook &amp; Jain (2017) DOI: <a class="reference external" href="https://doi.org/10.1038/s41598-017-10174-8">10.1038/s41598-017-10174-8</a></p>
 </dd>
-<dt class="label" id="id189"><span class="brackets">26</span></dt>
+<dt class="label" id="id195"><span class="brackets">26</span></dt>
 <dd><p>Trautmann, Krbetschek, Dietrich &amp; Stolz (1998) DOI: <a class="reference external" href="https://doi.org/10.1016/S1350-4487(98)00012-2">10.1016/S1350-4487(98)00012-2</a></p>
 </dd>
-<dt class="label" id="id190"><span class="brackets">27</span></dt>
+<dt class="label" id="id196"><span class="brackets">27</span></dt>
 <dd><p>Hütt, Jaek &amp; Tchonka (1988) DOI: <a class="reference external" href="https://doi.org/10.1016/0277-3791(88)90033-9">10.1016/0277-3791(88)90033-9</a></p>
 </dd>
-<dt class="label" id="id192"><span class="brackets">28</span></dt>
+<dt class="label" id="id198"><span class="brackets">28</span></dt>
 <dd><p>Huang &amp; Walker (1967) DOI: <a class="reference external" href="https://doi.org/10.1126/science.155.3766.1103">10.1126/science.155.3766.1103</a></p>
 </dd>
-<dt class="label" id="id193"><span class="brackets">29</span></dt>
+<dt class="label" id="id199"><span class="brackets">29</span></dt>
 <dd><p>Fanale &amp; Schaeffer (1965) DOI: <a class="reference external" href="https://doi.org/10.1126/science.149.3681.312">10.1126/science.149.3681.312</a></p>
 </dd>
-<dt class="label" id="id194"><span class="brackets">30</span></dt>
+<dt class="label" id="id200"><span class="brackets">30</span></dt>
 <dd><p>Price &amp; Walker (1962) DOI: <a class="reference external" href="https://doi.org/10.1038/196732a0">10.1038/196732a0</a></p>
 </dd>
-<dt class="label" id="id196"><span class="brackets">31</span></dt>
+<dt class="label" id="id202"><span class="brackets">31</span></dt>
 <dd><p>Friedman &amp; Smith (1960) DOI: <a class="reference external" href="https://doi.org/10.2307/276634">10.2307/276634</a></p>
 </dd>
-<dt class="label" id="id198"><span class="brackets">32</span></dt>
+<dt class="label" id="id204"><span class="brackets">32</span></dt>
 <dd><p>Emiliani (1954) DOI: <a class="reference external" href="https://doi.org/10.1126/science.119.3103.853">10.1126/science.119.3103.853</a></p>
 </dd>
-<dt class="label" id="id199"><span class="brackets">33</span></dt>
+<dt class="label" id="id205"><span class="brackets">33</span></dt>
 <dd><p>Harold (1960) DOI: <a class="reference external" href="https://doi.org/10.1111/j.1475-4754.1960.tb00518.x">10.1111/j.1475-4754.1960.tb00518.x</a></p>
 </dd>
-<dt class="label" id="id200"><span class="brackets">34</span></dt>
+<dt class="label" id="id206"><span class="brackets">34</span></dt>
 <dd><p>Rengan (1983) DOI: <a class="reference external" href="https://doi.org/10.1021%2Fed060p682">10.1021%2Fed060p682</a></p>
 </dd>
-<dt class="label" id="id201"><span class="brackets">35</span></dt>
+<dt class="label" id="id207"><span class="brackets">35</span></dt>
 <dd><p>Fifield (1999) DOI: <a class="reference external" href="https://doi.org/10.1088/0034-4885/62/8/202">10.1088/0034-4885/62/8/202</a></p>
 </dd>
 </dl>
