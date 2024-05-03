@@ -1,2 +1,3 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+SYMMETRYID,int2,pkey,TRUE,
+SYMMETRY,text,,TRUE,
