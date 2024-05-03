@@ -1283,7 +1283,7 @@ The *neo_variableelements* table is a Neotoma lookup lookup table of **Variable 
 
 * VARELEMTID -- Is the original Neotoma *variableelementid*
 
-* VARELEMENT -- The element, part, or organ of the taxon identified. For plants, these include pollen, spores, and various macrofossil organs, such as «seed», «twig», «cone», and «cone bract». Thus, Betula pollen and Betula seeds are two different Variables. For mammals, Elements include the bone or tooth identified, e.g. «tibia». «tibia, distal, left», «M2, lower, left». Some more unusual elements are Neotoma fecal pellets and Erethizon dorsata quills. If no element is indicated for mammalian fauna, then the genric element «bone/tooth» is assigned. Elements were not assigned in FAUNMAP, so all Variables ingested from FAUNMAP were assigned the «bone/tooth» element. Physical Variables may also have elements. For example, the Loss-on-ignition Variables have «Loss-on-ignition» as a Taxon, and temperature of analysis as an element, e.g. «500°C», «900°C». Charcoal Variables have the size fragments as elements, e.g. «75-100 µm», «100-125 µm». (Neotoma)
+* VARELEMENT -- The element, part, or organ of the taxon identified. For plants, these include pollen, spores, and various macrofossil organs, such as «seed», «twig», «cone», and «cone bract». Thus, Betula pollen and Betula seeds are two different Variables. For mammals, Elements include the bone or tooth identified, e.g. «tibia». «tibia, distal, left», «M2, lower, left». Some more unusual elements are Neotoma fecal pellets and Erethizon dorsata quills. If no element is indicated for mammalian fauna, then the genric element «bone/tooth» is assigned. Elements were not assigned in FAUNMAP, so all Variables ingested from FAUNMAP were assigned the «bone/tooth» element. Physical Variables may also have elements. For example, the Loss-on-ignition Variables have «Loss-on-ignition» as a Taxon, and temperature of analysis as an element, e.g. «500°C», «900°C». Charcoal Variables have the size fragments as elements, e.g. «75-100 µm», «100-125 µm». (Neotoma) For avaiable values refer to :ref:`neo_variableelements_Fields` table
 
 * ELEMTYPEID -- Is fkey. For avaiable values refer to :ref:`neo_elementtypes_Fields` table
 
@@ -1304,7 +1304,9 @@ The *neo_variableunits* table is a Neotoma lookup table of **Variable Units**. T
    :file: ./csv_tables/neo_variableunits.csv
    :header-rows: 1
 
-* 
+* VARUNITID -- Is the original Neotoma *variableunitsid*
+
+* VARUNIT -- The units of measurement. For fauna, these are «present/absent», «NISP» (Number of Individual Specimens), and «MNI» (Minimum Number of Individals). For pollen, these are «NISP» (pollen counts) and «percent». Units for plant macrofossils include «present/abesnt» and «NISP», as well as a number of quantitative concentration measurements and semi-quantitative abundance measurements such as «1-5 scale». Examples of charcoal measurement units are «fragments/ml» and «µm^2/ml». (Neotoma) For avaiable values refer to :ref:`neo_variableunits_Fields` table
 
 Cosmogenics tables
 ~~~~~~~~~~~~~~~~~~
