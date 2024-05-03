@@ -3794,16 +3794,51 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
-<td><p>…</p></td>
+<tr class="row-even"><td><p>VARELEMTID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>VARELEMENT</p></td>
+<td><p>text</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>ELEMTYPEID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-elementtypes"><span class="std std-ref">neo_elementtypes table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>SYMMETRYID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-elementsymmetries"><span class="std std-ref">neo_elementsymmetries table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>PORTIONID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-elementportions"><span class="std std-ref">neo_elementportions table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>MATURITYID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-elementmaturities"><span class="std std-ref">neo_elementmaturities table</span></a></p></td>
 </tr>
 </tbody>
 </table>
 <ul class="simple">
-<li></li>
+<li><p>VARELEMTID – Is the original Neotoma <em>variableelementid</em></p></li>
+<li><p>VARELEMENT – The element, part, or organ of the taxon identified. For plants, these include pollen, spores, and various macrofossil organs, such as «seed», «twig», «cone», and «cone bract». Thus, Betula pollen and Betula seeds are two different Variables. For mammals, Elements include the bone or tooth identified, e.g. «tibia». «tibia, distal, left», «M2, lower, left». Some more unusual elements are Neotoma fecal pellets and Erethizon dorsata quills. If no element is indicated for mammalian fauna, then the genric element «bone/tooth» is assigned. Elements were not assigned in FAUNMAP, so all Variables ingested from FAUNMAP were assigned the «bone/tooth» element. Physical Variables may also have elements. For example, the Loss-on-ignition Variables have «Loss-on-ignition» as a Taxon, and temperature of analysis as an element, e.g. «500°C», «900°C». Charcoal Variables have the size fragments as elements, e.g. «75-100 µm», «100-125 µm». (Neotoma)</p></li>
+<li><p>ELEMTYPEID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-elementtypes-fields"><span class="std std-ref">neo_elementtypes fields</span></a> table</p></li>
+<li><p>SYMMETRYID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-elementsymmetries-fields"><span class="std std-ref">neo_elementsymmetries fields</span></a> table</p></li>
+<li><p>PORTIONID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-elementportions-fields"><span class="std std-ref">neo_elementportions fields</span></a> table</p></li>
+<li><p>MATURITYID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#neo-elementmaturities-fields"><span class="std std-ref">neo_elementmaturities fields</span></a> table</p></li>
 </ul>
 </div>
 <div class="section" id="neo-variableunits-table">
