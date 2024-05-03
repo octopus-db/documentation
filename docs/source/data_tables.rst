@@ -1234,7 +1234,12 @@ The *neo_elementtypes* table is a Neotoma lookup lookup table of **Element types
    :file: ./csv_tables/neo_elementtypes.csv
    :header-rows: 1
 
-* 
+* ELEMTYPEID -- Is the original Neotoma *elementtypeid*
+
+* ELEMENTYPE -- Is the original Neotoma element type descriptor
+
+* DATASRCID -- Is an fkey to the :ref:`cabah_datasourceID`
+
 
 ..  _neo_keywords:
 

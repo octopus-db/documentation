@@ -1,2 +1,4 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+ELEMTYPEID,int4,pkey,TRUE,
+ELEMENTYPE,text,,TRUE,
+DATASRCID,int2,fkey,,:ref:`cabah_datasourceID`
