@@ -1,2 +1,3 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+KEYWORDID,int2,pkey,TRUE,
+KEYWORD,text,,TRUE,
