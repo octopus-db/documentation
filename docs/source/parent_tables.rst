@@ -1064,6 +1064,45 @@ c_mtdID fields
 
 ----
 
+..  _ippd_sampleages_Fields:
+
+ippd_sampleages fields
+~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/ippd_sampleages_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *ippd_sampleages* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_ippd_sampleages__202405031605.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`ippd_sampleages` variable specs)
+
+
+..  _ippd_samplekeywords_Fields:
+
+ippd_samplekeywords fields
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/ippd_samplekeywords_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *ippd_samplekeywords* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_ippd_samplekeywords__202405031606.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`ippd_samplekeywords` variable specs)
+
+..  _ippd_variables_Fields:
+
+ippd_variables fields
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/ippd_variables_FIELDS_trunc.csv
+   :header-rows: 1
+
+| The latest *ippd_variables* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_ippd_variables__202404301200.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`ippd_variables` variable specs)
+
+----
+
 ..  _osl-tl_agemodelID_Fields:
 
 osl-tl_agemodelID fields
