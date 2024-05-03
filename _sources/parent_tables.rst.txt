@@ -223,6 +223,20 @@ global_PubType fields
 | The latest *global_PubType* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_PubType__202305230906.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_PubType` variable specs)
 
+
+..  _global_contactstatusID_Fields:
+
+global_contactstatusID fields
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. csv-table::
+   :file: ./csv_tables/global_contactstatusID_FIELDS.csv
+   :header-rows: 1
+
+| The latest *global_contactstatusID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_contactstatusID__202405031149.csv>`_ |:chipmunk:|
+| (|:back:| to :ref:`global_contactstatusID` variable specs)
+
+
 ----
 
 ..  _regional_parent_tables:

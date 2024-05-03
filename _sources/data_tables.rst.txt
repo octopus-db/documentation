@@ -286,23 +286,6 @@ The *global_biomeID* table stores iconic biome types that allow for a coarse cha
 * BIOMEDESCR -- A concise description of "BIOMETYPE"
 
 
-..  _global_contactstatusID:
-
-global_contactstatusID table
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-The *global_contactstatusID* table is a Neotoma-derived lookup table for compilations involving Neotoma contacts, e.g. **IPPD**. This table stores *contact statuses*.
-
-.. csv-table::
-   :file: ./csv_tables/global_contactstatusID.csv
-   :header-rows: 1
-
-* CSTATUSID -- Arbitrary identifier
-
-* CONTSTATUS -- Contact status
-
-* CSTATUSDSC -- Contact status description
-
-
 ..  _global_ibraID:
 
 global_ibraID table
@@ -538,6 +521,24 @@ The *global_PubType* table stores **publication entry types** according to BibTe
 * PUBTYPEID -- A unique identifier (auto-incrementing serial integer)
 
 * PUBTYPE -- For available values refer to :ref:`global_PubType_Fields`
+
+
+
+..  _global_contactstatusID:
+
+global_contactstatusID table
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+The *global_contactstatusID* table is a Neotoma-derived lookup table for compilations involving Neotoma contacts, e.g. **IPPD**. This table stores *contact statuses*.
+
+.. csv-table::
+   :file: ./csv_tables/global_contactstatusID.csv
+   :header-rows: 1
+
+* CSTATUSID -- Arbitrary identifier
+
+* CONTSTATUS -- Contact status
+
+* CSTATUSDSC -- Contact status description
 
 
 ..  _global_RefKeyword:

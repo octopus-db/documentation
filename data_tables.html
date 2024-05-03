@@ -60,7 +60,6 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-unitmaster-table">global_UnitMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-datasetmaster-table">global_DataSetMaster table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-biomeid-table">global_biomeID table</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#global-contactstatusid-table">global_contactstatusID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-ibraid-table">global_ibraID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-rivid-table">global_rivID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-datasettypeid-table">global_datasettypeID table</a></li>
@@ -73,6 +72,7 @@
 <li class="toctree-l4"><a class="reference internal" href="#global-author-table">global_Author table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-journal-table">global_Journal table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-pubtype-table">global_PubType table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#global-contactstatusid-table">global_contactstatusID table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-refkeyword-table">global_RefKeyword table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#global-dbdoi-table">global_dbDOI table</a></li>
 </ul>
@@ -1104,52 +1104,6 @@
 <li><p>BIOMEDESCR – A concise description of “BIOMETYPE”</p></li>
 </ul>
 </div>
-<div class="section" id="global-contactstatusid-table">
-<span id="global-contactstatusid"></span><h4>global_contactstatusID table<a class="headerlink" href="#global-contactstatusid-table" title="Permalink to this heading"></a></h4>
-<p>The <em>global_contactstatusID</em> table is a Neotoma-derived lookup table for compilations involving Neotoma contacts, e.g. <strong>IPPD</strong>. This table stores <em>contact statuses</em>.</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>CSTATUSID</p></td>
-<td><p>serial4</p></td>
-<td><p>pkey</p></td>
-<td><p>TRUE</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>CONTSTATUS</p></td>
-<td><p>text</p></td>
-<td></td>
-<td><p>TRUE</p></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>CSTATUSDSC</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ul class="simple">
-<li><p>CSTATUSID – Arbitrary identifier</p></li>
-<li><p>CONTSTATUS – Contact status</p></li>
-<li><p>CSTATUSDSC – Contact status description</p></li>
-</ul>
-</div>
 <div class="section" id="global-ibraid-table">
 <span id="global-ibraid"></span><h4>global_ibraID table<a class="headerlink" href="#global-ibraid-table" title="Permalink to this heading"></a></h4>
 <p>The <em>global_ibraID</em> table stores the location code of a site within the relevant <strong>bioregion as defined by the Interim Bio-Regionalisation of Australia (IBRA7)</strong> framework.</p>
@@ -1766,6 +1720,52 @@
 <ul class="simple">
 <li><p>PUBTYPEID – A unique identifier (auto-incrementing serial integer)</p></li>
 <li><p>PUBTYPE – For available values refer to <a class="reference internal" href="parent_tables.html#global-pubtype-fields"><span class="std std-ref">global_PubType fields</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="global-contactstatusid-table">
+<span id="global-contactstatusid"></span><h4>global_contactstatusID table<a class="headerlink" href="#global-contactstatusid-table" title="Permalink to this heading"></a></h4>
+<p>The <em>global_contactstatusID</em> table is a Neotoma-derived lookup table for compilations involving Neotoma contacts, e.g. <strong>IPPD</strong>. This table stores <em>contact statuses</em>.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>CSTATUSID</p></td>
+<td><p>serial4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>CONTSTATUS</p></td>
+<td><p>text</p></td>
+<td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>CSTATUSDSC</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>CSTATUSID – Arbitrary identifier</p></li>
+<li><p>CONTSTATUS – Contact status</p></li>
+<li><p>CSTATUSDSC – Contact status description</p></li>
 </ul>
 </div>
 <div class="section" id="global-refkeyword-table">
@@ -3518,7 +3518,7 @@
 <li><p>CONTACTID – Is original Neotoma <em>contactid</em></p></li>
 <li><p>ALIASID – The ContactID of a person’s current name. If the AliasID is different from the ContactID, the ContactID refers to the person’s former name. For example, if J. L. Bouvier became J. B. Kennedy, the ContactID for J. B. Kennedy is the AliasID for J. L. Bouvier. (Neotoma)</p></li>
 <li><p>CONTACTNAM – Full name of the person, last name first (e.g. «Simpson, George Gaylord») or name of organization or project (e.g. «Great Plains Flora Association»). (Neotoma)</p></li>
-<li><p>CSTATUSID – Is fkey. For avaiable values refer to <span class="xref std std-ref">global_contactstatusID_Fields</span> table</p></li>
+<li><p>CSTATUSID – Is fkey. For avaiable values refer to <a class="reference internal" href="parent_tables.html#global-contactstatusid-fields"><span class="std std-ref">global_contactstatusID fields</span></a> table</p></li>
 <li><p>FAMILYNAME – Family or surname name of a person</p></li>
 <li><p>PHONE – Phone number</p></li>
 <li><p>FAX – Fax number</p></li>
