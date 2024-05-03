@@ -1191,7 +1191,7 @@ The *neo_elementmaturities* table is a Neotoma lookup lookup table of **Element 
 
 * MATURITYID -- Is the original Neotoma *maturityid*
 
-* MATURITY -- Is the original Neotoma maturity description
+* MATURITY -- Is the original Neotoma maturity description. For avaiable values refer to :ref:`neo_elementmaturities_Fields` table
 
 
 ..  _neo_elementportions:
@@ -1204,7 +1204,9 @@ The *neo_elementportions* table is a Neotoma lookup lookup table of **Element pr
    :file: ./csv_tables/neo_elementportions.csv
    :header-rows: 1
 
-* 
+* PORTIONID -- Is the original Neotoma *portionid*
+
+* PORTION -- Is the original Neotoma element portion description
 
 
 ..  _neo_elementsymmetries:

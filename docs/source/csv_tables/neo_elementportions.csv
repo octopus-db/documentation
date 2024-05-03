@@ -1,2 +1,3 @@
 Field,Data type,Key,Not Null,Parent
-...,...,...,...,...
+PORTIONID,int2,pkey,TRUE,
+PORTION,text,,TRUE,
