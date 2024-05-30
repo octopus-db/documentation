@@ -1092,7 +1092,7 @@ ippd_samplekeywords fields
 ..  _ippd_variables_Fields:
 
 ippd_variables fields
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
 
 .. csv-table::
    :file: ./csv_tables/ippd_variables_FIELDS_trunc.csv
