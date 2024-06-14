@@ -265,7 +265,7 @@ The *global_DataSetMaster* table is the global master table that stores **datase
 
 .. note::
 
-    The *global_DataSetID* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
+    The *global_DataSetMaster* table is exclusively used for collections with a corresponding demand, i.e., will be bypassed for any collection that does not deal with multiple samples / observations from one and the same location / site / unit (e.g. a core).
 
 ..  _global_biomeID:
 
