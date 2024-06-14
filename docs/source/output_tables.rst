@@ -111,6 +111,20 @@ SahulArch TL output
    
    For detailed field / variable descriptions follow the links given under "Origin (Alias)".
 
+..  _SahulChar_output:
+
+_SahulChar_output
+-----------------
+
+SahulChar output will be made available upon collection release.
+
+..  _IPPD_output:
+
+_IPPD_output
+------------
+
+IPPD output will be made available upon collection release.
+
 ..  _SahulSed_output:
 
 SahulSed output
