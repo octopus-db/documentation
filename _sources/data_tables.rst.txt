@@ -974,127 +974,6 @@ The *c14_calprogram* table stores **computer programmes** -- incl. their version
 
     Not the individual "CALPROGRAM" (ukey1) and "CALPROGVER" (ukey2), but only their *composite* forms the ukey.
 
-..  _IPPD_tables:
-
-IPPD tables
-~~~~~~~~~~~
-
-..  _ippd_DataCore:
-
-ippd_DataCore table
-^^^^^^^^^^^^^^^^^^^
-
-The *ippd_DataCore* table is an IPPD-specific Neotoma table where each occurrence of a Variable in a sample comprises a record in the Data table. "data" is the primary table in Neotoma's data model. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data)
-
-.. csv-table::
-   :file: ./csv_tables/ippd_DataCore.csv
-   :header-rows: 1
-
-* DATAID -- Arbitrary identifier. Is original Neotoma *dataid*
-
-* SAMPLEID -- Is fkey. For available values refer to :ref:`ippd_Sample_Fields` table.
-
-* VARIABLEID -- Is fkey. For available values refer to :ref:`ippd_variables_Fields` table.
-
-* VALUE -- Is the value of the variable
-
-
-..  _ippd_Sample:
-
-ippd_Sample table
-^^^^^^^^^^^^^^^^^
-The *ippd_Sample* table is an IPPD-specific Neotoma table that stores samples. In Neotoma's data model, *Samples* belong to *Analysis Units*, which belong to *Collection Units*, which belong to *Sites*. However, *Samples* also belong to a *Dataset*, and the Dataset determines the type of sample. Thus, there could be two different samples from the same Analysis Unit, one belonging to a pollen dataset, the other to a plant macrofossil dataset. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples)
-
-.. csv-table::
-   :file: ./csv_tables/ippd_Sample.csv
-   :header-rows: 1
-
-* SAMPLEID -- Arbitrary identifier. Is original Neotoma *sampleid*
-
-* ANLYSUNTID -- Arbitrary identifier. Is original Neotoma *analysisunitid*. Is fkey to :ref:`cabah_AnalysisUnit`
-
-* NEODSETID -- Arbitrary identifier. Is "NEODSETID", i.e., the original Neotoma *datasetid*. Is fkey to :ref:`global_DataSetMaster`
-
-* SMPNAME -- Is sample name, if avaiable
-
-* ANLYSDATE -- Is date of analysis, if available
-
-* LABNUMBER -- Is lab number, if provided
-
-* PREPMETHOD -- Is preparation method free text field
-
-* SMPNOTE -- Is sample note, if applicable
-
-* SMPDATE -- Is date of sampling, if provided
-
-* TAXONID -- Is fkey to :ref:`cabah_taxaID`
-
-* DATASETID -- Is fkey to :ref:`global_DataSetMaster`
-
-
-..  _ippd_sampleages:
-
-ippd_sampleages table
-^^^^^^^^^^^^^^^^^^^^^
-The *ippd_sampleages* table is an IPPD-specific Neotoma table that stores *sample ages*. In Neotoma's data model, *Ages* are assigned to a *Chronology*. Because there may be more than one *Chronology* for a *Collection Unit*, samples may be assigned different ages for different Chronologies. A simple example is one sample age in radiocarbon years and another in calibrated radiocarbon years. The age units are an attribute of the Chronology. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#sampleages)
-
-.. csv-table::
-   :file: ./csv_tables/ippd_sampleages.csv
-   :header-rows: 1
-
-* SMPAGEID -- Arbitrary identifier. Is original Neotoma *sampleageid*
-
-* SAMPLEID -- Arbitrary identifier. Is original Neotoma *sampleid* (and links to :ref:`ippd_sampleages`)
-
-* CHRONLGYID -- Arbitrary identifier. Is original Neotoma *chronologyid* (and links to :ref:`neo_chronologies`)
-
-* AGE -- Is the age of the sample
-
-* AGEYOUNGER -- Is the younger error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned
-
-* AGEOLDER -- Is the older error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned
-
-
-..  _ippd_samplekeywords:
-
-ippd_samplekeywords table
-^^^^^^^^^^^^^^^^^^^^^^^^^
-The *ippd_samplekeywords* table is an IPPD-specific Neotoma table that links *keywords* to *samples*. (For example, it identifies modern pollen surface samples.)
-
-.. csv-table::
-   :file: ./csv_tables/ippd_samplekeywords.csv
-   :header-rows: 1
-
-* SAMPLEID -- Is pkey 1/2. Is fkey to :ref:`ippd_Sample`
-
-* KEYWORDID -- Is pkey 2/2. Is fkey to :ref:`neo_keywords`
-
-.. note::
-
-    Not the individual "SAMPLEID" (pkey1/2) and "KEYWORDID" (pkey2/2), but only their *composite* forms the pkey.
-
-
-..  _ippd_variables:
-
-ippd_variables table
-^^^^^^^^^^^^^^^^^^^^
-*ippd_variables* is an IPPD-specific Neotoma table that lists **Variables**, which always consist of a *Taxon* AND *Units* of measurement. Variables can also have *Elements*, *Contexts*, and *Modifications*. Thus, the same taxon with different measurement units (e.g. present/absent, NISP, MNI) are different Variables. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variables)
-
-.. csv-table::
-   :file: ./csv_tables/ippd_variables.csv
-   :header-rows: 1
-
-* VARIABLEID -- Is the original Neotoma *variableid*
-
-* TAXONID -- Is fkey. For available values refer to :ref:`cabah_taxaID_Fields`
-
-* VARELEMTID -- Is fkey. For available values refer to :ref:`neo_variableelements_Fields`
-
-* VARUNITID -- Is fkey. For available values refer to :ref:`neo_variableunits_Fields`
-
-* VARCONTXID -- Is fkey. For available values refer to :ref:`neo_variablecontexts_Fields`
-
-
 ..  _Neotoma_tables:
 
 Neotoma tables (*neo_*)
@@ -2367,7 +2246,6 @@ The *arch_tl_polygons_EPSG3857* table stores **spatial features**, i.e., polygon
 
 * OBSID2 -- The original sample identifier (as published), if available
 
-----
 
 SahulChar tables
 ~~~~~~~~~~~~~~~~
@@ -2456,6 +2334,127 @@ The *char_DataCore* table stores **charcoal / black carbon-related observations*
 .. note::
 
    \* |:nerd:| Re "AGE" -- Preference was given to uncalibrated rather than calibrated radiocarbon ages where possible, to allow for recalibration with future calibration curve updates. Ages reported in calendar years BC/AD or BCE/CE were converted to 'years BP' prior to entry or entered as AGE_UNIT = 'other' if conversion is not possible. Ages generated from dating methods that are measured as years prior to sample collection and do not require calibration, such as lead-210 or optically stimulated luminescence, were converted to 'years BP' prior to entry where possible or entered as AGE_UNIT = 'other'.
+
+
+..  _IPPD_tables:
+
+IPPD tables
+~~~~~~~~~~~
+
+..  _ippd_DataCore:
+
+ippd_DataCore table
+^^^^^^^^^^^^^^^^^^^
+
+The *ippd_DataCore* table is an IPPD-specific Neotoma table where each occurrence of a Variable in a sample comprises a record in the Data table. "data" is the primary table in Neotoma's data model. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data)
+
+.. csv-table::
+   :file: ./csv_tables/ippd_DataCore.csv
+   :header-rows: 1
+
+* DATAID -- Arbitrary identifier. Is original Neotoma *dataid*
+
+* SAMPLEID -- Is fkey. For available values refer to :ref:`ippd_Sample_Fields` table.
+
+* VARIABLEID -- Is fkey. For available values refer to :ref:`ippd_variables_Fields` table.
+
+* VALUE -- Is the value of the variable
+
+
+..  _ippd_Sample:
+
+ippd_Sample table
+^^^^^^^^^^^^^^^^^
+The *ippd_Sample* table is an IPPD-specific Neotoma table that stores samples. In Neotoma's data model, *Samples* belong to *Analysis Units*, which belong to *Collection Units*, which belong to *Sites*. However, *Samples* also belong to a *Dataset*, and the Dataset determines the type of sample. Thus, there could be two different samples from the same Analysis Unit, one belonging to a pollen dataset, the other to a plant macrofossil dataset. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples)
+
+.. csv-table::
+   :file: ./csv_tables/ippd_Sample.csv
+   :header-rows: 1
+
+* SAMPLEID -- Arbitrary identifier. Is original Neotoma *sampleid*
+
+* ANLYSUNTID -- Arbitrary identifier. Is original Neotoma *analysisunitid*. Is fkey to :ref:`cabah_AnalysisUnit`
+
+* NEODSETID -- Arbitrary identifier. Is "NEODSETID", i.e., the original Neotoma *datasetid*. Is fkey to :ref:`global_DataSetMaster`
+
+* SMPNAME -- Is sample name, if avaiable
+
+* ANLYSDATE -- Is date of analysis, if available
+
+* LABNUMBER -- Is lab number, if provided
+
+* PREPMETHOD -- Is preparation method free text field
+
+* SMPNOTE -- Is sample note, if applicable
+
+* SMPDATE -- Is date of sampling, if provided
+
+* TAXONID -- Is fkey to :ref:`cabah_taxaID`
+
+* DATASETID -- Is fkey to :ref:`global_DataSetMaster`
+
+
+..  _ippd_sampleages:
+
+ippd_sampleages table
+^^^^^^^^^^^^^^^^^^^^^
+The *ippd_sampleages* table is an IPPD-specific Neotoma table that stores *sample ages*. In Neotoma's data model, *Ages* are assigned to a *Chronology*. Because there may be more than one *Chronology* for a *Collection Unit*, samples may be assigned different ages for different Chronologies. A simple example is one sample age in radiocarbon years and another in calibrated radiocarbon years. The age units are an attribute of the Chronology. (https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#sampleages)
+
+.. csv-table::
+   :file: ./csv_tables/ippd_sampleages.csv
+   :header-rows: 1
+
+* SMPAGEID -- Arbitrary identifier. Is original Neotoma *sampleageid*
+
+* SAMPLEID -- Arbitrary identifier. Is original Neotoma *sampleid* (and links to :ref:`ippd_sampleages`)
+
+* CHRONLGYID -- Arbitrary identifier. Is original Neotoma *chronologyid* (and links to :ref:`neo_chronologies`)
+
+* AGE -- Is the age of the sample
+
+* AGEYOUNGER -- Is the younger error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned
+
+* AGEOLDER -- Is the older error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned
+
+
+..  _ippd_samplekeywords:
+
+ippd_samplekeywords table
+^^^^^^^^^^^^^^^^^^^^^^^^^
+The *ippd_samplekeywords* table is an IPPD-specific Neotoma table that links *keywords* to *samples*. (For example, it identifies modern pollen surface samples.)
+
+.. csv-table::
+   :file: ./csv_tables/ippd_samplekeywords.csv
+   :header-rows: 1
+
+* SAMPLEID -- Is pkey 1/2. Is fkey to :ref:`ippd_Sample`
+
+* KEYWORDID -- Is pkey 2/2. Is fkey to :ref:`neo_keywords`
+
+.. note::
+
+    Not the individual "SAMPLEID" (pkey1/2) and "KEYWORDID" (pkey2/2), but only their *composite* forms the pkey.
+
+
+..  _ippd_variables:
+
+ippd_variables table
+^^^^^^^^^^^^^^^^^^^^
+*ippd_variables* is an IPPD-specific Neotoma table that lists **Variables**, which always consist of a *Taxon* AND *Units* of measurement. Variables can also have *Elements*, *Contexts*, and *Modifications*. Thus, the same taxon with different measurement units (e.g. present/absent, NISP, MNI) are different Variables. (https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variables)
+
+.. csv-table::
+   :file: ./csv_tables/ippd_variables.csv
+   :header-rows: 1
+
+* VARIABLEID -- Is the original Neotoma *variableid*
+
+* TAXONID -- Is fkey. For available values refer to :ref:`cabah_taxaID_Fields`
+
+* VARELEMTID -- Is fkey. For available values refer to :ref:`neo_variableelements_Fields`
+
+* VARUNITID -- Is fkey. For available values refer to :ref:`neo_variableunits_Fields`
+
+* VARCONTXID -- Is fkey. For available values refer to :ref:`neo_variablecontexts_Fields`
 
 
 SahulSed tables

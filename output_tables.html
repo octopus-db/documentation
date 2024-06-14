@@ -63,6 +63,8 @@
 <li class="toctree-l3"><a class="reference internal" href="#sahularch-tl-output">SahulArch TL output</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#sahulchar-output">_SahulChar_output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ippd-output">_IPPD_output</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#sahulsed-output">SahulSed output</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#sahulsed-osl-output">SahulSed OSL output</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#sahulsed-tl-output">SahulSed TL output</a></li>
@@ -106,7 +108,7 @@
   <div class="section" id="output-table-fields-values">
 <h1>Output table fields &amp; values<a class="headerlink" href="#output-table-fields-values" title="Permalink to this heading"></a></h1>
 <div class="line-block">
-<div class="line">To serve OCTOPUS database collections as geospatial layers via an interactive map <a class="reference internal" href="usage.html#web-interface"><span class="std std-ref">Web interface</span></a> and to allow for data manipulation via the <a class="reference internal" href="usage.html#web-feature-service"><span class="std std-ref">Web Feature Service</span></a> protocol, data sub-collections are served to GeoServer as a flat data tables, which are described in detail below <a class="footnote-reference brackets" href="#id25" id="id1">1</a>.</div>
+<div class="line">To serve OCTOPUS database collections as geospatial layers via an interactive map <a class="reference internal" href="usage.html#web-interface"><span class="std std-ref">Web interface</span></a> and to allow for data manipulation via the <a class="reference internal" href="usage.html#web-feature-service"><span class="std std-ref">Web Feature Service</span></a> protocol, data sub-collections are served to GeoServer as a flat data tables, which are described in detail below <a class="footnote-reference brackets" href="#id27" id="id1">1</a>.</div>
 <div class="line">When downloading data from OCTOPUS, users are presented with point or polygon geospatial data files with associated attribute tables. Direct connections to the PostgreSQL/PostGIS database are possible upon request. Munack and Codilean (<a class="reference external" href="https://doi.org/10.5281/zenodo.7352807">2022</a>) provide a complete documentation of the relational database, including a detailed database model diagram and searchable HTML documentation generated using SchemaSpy (<a class="reference external" href="https://schemaspy.org">https://schemaspy.org</a>, last access: 21 Aug 2023).</div>
 </div>
 <div class="admonition note">
@@ -116,7 +118,7 @@
 <div class="section" id="crn-output">
 <span id="id3"></span><h2>CRN output<a class="headerlink" href="#crn-output" title="Permalink to this heading"></a></h2>
 <div class="line-block">
-<div class="line">OCTOPUS CRN Be-10 and Al-26 data have been recalculated <a class="footnote-reference brackets" href="#id26" id="id4">2</a> so that nuclide concentrations and denudation rates are internally consistent and comparable. These and related data, including concentrations and denudation rates as published, are served as geospatial vector layers (see <a class="reference internal" href="#crn-vector-spatial-data"><span class="std std-ref">CRN vector spatial data</span></a>).</div>
+<div class="line">OCTOPUS CRN Be-10 and Al-26 data have been recalculated <a class="footnote-reference brackets" href="#id28" id="id4">2</a> so that nuclide concentrations and denudation rates are internally consistent and comparable. These and related data, including concentrations and denudation rates as published, are served as geospatial vector layers (see <a class="reference internal" href="#crn-vector-spatial-data"><span class="std std-ref">CRN vector spatial data</span></a>).</div>
 <div class="line">In addition, OCTOPUS CRN collections also provide <a class="reference internal" href="#crn-ancillary-data"><span class="std std-ref">CRN ancillary data</span></a> comprising <strong>raster layers</strong>, including a digital elevation model, gradient raster, flow direction and flow accumulation rasters, atmospheric pressure raster, and CRN production scaling and topographic shielding factor rasters, as well as a set of <strong>structured input data files</strong> (see <a class="reference internal" href="#csv-folder"><span class="std std-ref">‘CSV’ folder</span></a> subsection) for the purpose of data recalculation integrity. The idea behind the above is that, since the CAIRN algorithm is automated (see <a class="reference external" href="https://lsdtopotools.github.io/LSDTT_documentation/">LSDTopoTools documentation</a>), users can simply publish a DEM of their study area, CRN data files, and CAIRN input files, and denudation rates should be reproducible.</div>
 </div>
 <div class="section" id="crn-vector-spatial-data">
@@ -2507,10 +2509,18 @@
 </div>
 </div>
 </div>
+<div class="section" id="sahulchar-output">
+<span id="id20"></span><h2>_SahulChar_output<a class="headerlink" href="#sahulchar-output" title="Permalink to this heading"></a></h2>
+<p>SahulChar output will be made available upon collection release.</p>
+</div>
+<div class="section" id="ippd-output">
+<span id="id21"></span><h2>_IPPD_output<a class="headerlink" href="#ippd-output" title="Permalink to this heading"></a></h2>
+<p>IPPD output will be made available upon collection release.</p>
+</div>
 <div class="section" id="sahulsed-output">
-<span id="id20"></span><h2>SahulSed output<a class="headerlink" href="#sahulsed-output" title="Permalink to this heading"></a></h2>
+<span id="id22"></span><h2>SahulSed output<a class="headerlink" href="#sahulsed-output" title="Permalink to this heading"></a></h2>
 <div class="section" id="sahulsed-osl-output">
-<span id="id21"></span><h3>SahulSed OSL output<a class="headerlink" href="#sahulsed-osl-output" title="Permalink to this heading"></a></h3>
+<span id="id23"></span><h3>SahulSed OSL output<a class="headerlink" href="#sahulsed-osl-output" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -3219,7 +3229,7 @@
 </div>
 </div>
 <div class="section" id="sahulsed-tl-output">
-<span id="id22"></span><h3>SahulSed TL output<a class="headerlink" href="#sahulsed-tl-output" title="Permalink to this heading"></a></h3>
+<span id="id24"></span><h3>SahulSed TL output<a class="headerlink" href="#sahulsed-tl-output" title="Permalink to this heading"></a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -3919,7 +3929,7 @@
 </div>
 </div>
 <div class="section" id="fossahul-output">
-<span id="id23"></span><h2>FosSahul output<a class="headerlink" href="#fossahul-output" title="Permalink to this heading"></a></h2>
+<span id="id25"></span><h2>FosSahul output<a class="headerlink" href="#fossahul-output" title="Permalink to this heading"></a></h2>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -4388,7 +4398,7 @@
 </div>
 </div>
 <div class="section" id="expage-output">
-<span id="id24"></span><h2>ExpAge output<a class="headerlink" href="#expage-output" title="Permalink to this heading"></a></h2>
+<span id="id26"></span><h2>ExpAge output<a class="headerlink" href="#expage-output" title="Permalink to this heading"></a></h2>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 25%" />
@@ -4707,10 +4717,10 @@
 </div>
 <p class="rubric">Footnotes</p>
 <dl class="footnote brackets">
-<dt class="label" id="id25"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dt class="label" id="id27"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
 <dd><p>The deployed version of GeoServer does not accept dynamically generated PostgreSQL virtual tables (knows as “views”); therefore, the generation of static flat data tables was required to serve the purpose of a view. Newer versions of GeoServer, however, accept materialised views, and an upgrade would present a possible improvement in the database by eliminating the need to store duplicate data.</p>
 </dd>
-<dt class="label" id="id26"><span class="brackets"><a class="fn-backref" href="#id4">2</a></span></dt>
+<dt class="label" id="id28"><span class="brackets"><a class="fn-backref" href="#id4">2</a></span></dt>
 <dd><p>Be-10 and Al-26 concentrations (atoms g-1) were renormalised to the Nishiizumi 2007 Be-10 AMS standard (<a class="reference external" href="https://doi.org/10.1016/j.nimb.2007.01.297">Nishiizumi et al., 2007</a>) and to the Nishiizumi 2004 Al-26 AMS standard (<a class="reference external" href="https://doi.org/10.1016/j.nimb.2004.04.075">Nishiizumi, 2004</a>) respectively. Basin-wide denudation rates were recalculated with the open-source program CAIRN (<a class="reference external" href="https://doi.org/10.5194/esurf-4-655-2016">Mudd et al., 2016</a>) with the following parameter settings: (i) nuclide production from neutrons and muons was calculated with the approximation of Braucher et al. (<a class="reference external" href="https://doi.org/10.1016/j.epsl.2011.06.036">2011</a>) using a sea-level and high-latitude total production rate of 4.3 atoms g-1 yr-1 for Be-10 and of 31.1 atoms g-1 yr-1 for Al-26; (ii) latitude and altitude scaling factors were calculated using the time-independent Lal–Stone scaling scheme (<a class="reference external" href="https://doi.org/10.1029/2000JB900181">Stone, 2000</a>) with atmospheric pressure calculated via interpolation from the National Centers for Environmental Prediction NCEP2 reanalysis data (<a class="reference external" href="https://doi.org/10.1002/qj.776">Compo et al., 2011</a>); and (iii) topographic shielding was calculated from the same digital elevation model (DEM) using the method of Codilean (<a class="reference external" href="https://doi.org/10.1002/esp.1336">2006</a>).</p>
 </dd>
 </dl>

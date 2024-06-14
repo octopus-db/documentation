@@ -102,14 +102,6 @@
 <li class="toctree-l4"><a class="reference internal" href="#c14-calprogram-table">c14_calprogram table</a></li>
 </ul>
 </li>
-<li class="toctree-l3"><a class="reference internal" href="#ippd-tables">IPPD tables</a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#ippd-datacore-table">ippd_DataCore table</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ippd-sample-table">ippd_Sample table</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ippd-sampleages-table">ippd_sampleages table</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ippd-samplekeywords-table">ippd_samplekeywords table</a></li>
-<li class="toctree-l4"><a class="reference internal" href="#ippd-variables-table">ippd_variables table</a></li>
-</ul>
-</li>
 <li class="toctree-l3"><a class="reference internal" href="#neotoma-tables-neo">Neotoma tables (<em>neo_</em>)</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#neo-chronologies-table">neo_chronologies table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#neo-contacts-table">neo_contacts table</a></li>
@@ -172,6 +164,14 @@
 <li class="toctree-l3"><a class="reference internal" href="#sahulchar-tables">SahulChar tables</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#char-sample-table">char_Sample table</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#char-datacore-table">char_DataCore table</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#ippd-tables">IPPD tables</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#ippd-datacore-table">ippd_DataCore table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ippd-sample-table">ippd_Sample table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ippd-sampleages-table">ippd_sampleages table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ippd-samplekeywords-table">ippd_samplekeywords table</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ippd-variables-table">ippd_variables table</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="#sahulsed-tables">SahulSed tables</a><ul>
@@ -2956,334 +2956,6 @@
 </div>
 </div>
 </div>
-<div class="section" id="ippd-tables">
-<span id="id10"></span><h3>IPPD tables<a class="headerlink" href="#ippd-tables" title="Permalink to this heading"></a></h3>
-<div class="section" id="ippd-datacore-table">
-<span id="ippd-datacore"></span><h4>ippd_DataCore table<a class="headerlink" href="#ippd-datacore-table" title="Permalink to this heading"></a></h4>
-<p>The <em>ippd_DataCore</em> table is an IPPD-specific Neotoma table where each occurrence of a Variable in a sample comprises a record in the Data table. “data” is the primary table in Neotoma’s data model. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data</a>)</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>DATAID</p></td>
-<td><p>int4</p></td>
-<td><p>pkey</p></td>
-<td><p>TRUE</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>SAMPLEID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></td>
-</tr>
-<tr class="row-even"><td><p>VARIABLEID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#ippd-variables"><span class="std std-ref">ippd_variables table</span></a></p></td>
-</tr>
-<tr class="row-odd"><td><p>VALUE</p></td>
-<td><p>numeric</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ul class="simple">
-<li><p>DATAID – Arbitrary identifier. Is original Neotoma <em>dataid</em></p></li>
-<li><p>SAMPLEID – Is fkey. For available values refer to <span class="xref std std-ref">ippd_Sample_Fields</span> table.</p></li>
-<li><p>VARIABLEID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#ippd-variables-fields"><span class="std std-ref">ippd_variables fields</span></a> table.</p></li>
-<li><p>VALUE – Is the value of the variable</p></li>
-</ul>
-</div>
-<div class="section" id="ippd-sample-table">
-<span id="ippd-sample"></span><h4>ippd_Sample table<a class="headerlink" href="#ippd-sample-table" title="Permalink to this heading"></a></h4>
-<p>The <em>ippd_Sample</em> table is an IPPD-specific Neotoma table that stores samples. In Neotoma’s data model, <em>Samples</em> belong to <em>Analysis Units</em>, which belong to <em>Collection Units</em>, which belong to <em>Sites</em>. However, <em>Samples</em> also belong to a <em>Dataset</em>, and the Dataset determines the type of sample. Thus, there could be two different samples from the same Analysis Unit, one belonging to a pollen dataset, the other to a plant macrofossil dataset. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples</a>)</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>SAMPLEID</p></td>
-<td><p>int4</p></td>
-<td><p>pkey</p></td>
-<td><p>TRUE</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>ANLYSUNTID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#cabah-analysisunit"><span class="std std-ref">cabah_AnalysisUnit table</span></a></p></td>
-</tr>
-<tr class="row-even"><td><p>NEODSETID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></td>
-</tr>
-<tr class="row-odd"><td><p>SMPNAME</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>ANLYSDATE</p></td>
-<td><p>varchar(10)</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>LABNUMBER</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>PREPMETHOD</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>SMPNOTE</p></td>
-<td><p>text</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>SMPDATE</p></td>
-<td><p>varchar(10)</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>TAXONID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td></td>
-<td><p><a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></td>
-</tr>
-<tr class="row-even"><td><p>DATASETID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></td>
-</tr>
-</tbody>
-</table>
-<ul class="simple">
-<li><p>SAMPLEID – Arbitrary identifier. Is original Neotoma <em>sampleid</em></p></li>
-<li><p>ANLYSUNTID – Arbitrary identifier. Is original Neotoma <em>analysisunitid</em>. Is fkey to <a class="reference internal" href="#cabah-analysisunit"><span class="std std-ref">cabah_AnalysisUnit table</span></a></p></li>
-<li><p>NEODSETID – Arbitrary identifier. Is “NEODSETID”, i.e., the original Neotoma <em>datasetid</em>. Is fkey to <a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></li>
-<li><p>SMPNAME – Is sample name, if avaiable</p></li>
-<li><p>ANLYSDATE – Is date of analysis, if available</p></li>
-<li><p>LABNUMBER – Is lab number, if provided</p></li>
-<li><p>PREPMETHOD – Is preparation method free text field</p></li>
-<li><p>SMPNOTE – Is sample note, if applicable</p></li>
-<li><p>SMPDATE – Is date of sampling, if provided</p></li>
-<li><p>TAXONID – Is fkey to <a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></li>
-<li><p>DATASETID – Is fkey to <a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></li>
-</ul>
-</div>
-<div class="section" id="ippd-sampleages-table">
-<span id="ippd-sampleages"></span><h4>ippd_sampleages table<a class="headerlink" href="#ippd-sampleages-table" title="Permalink to this heading"></a></h4>
-<p>The <em>ippd_sampleages</em> table is an IPPD-specific Neotoma table that stores <em>sample ages</em>. In Neotoma’s data model, <em>Ages</em> are assigned to a <em>Chronology</em>. Because there may be more than one <em>Chronology</em> for a <em>Collection Unit</em>, samples may be assigned different ages for different Chronologies. A simple example is one sample age in radiocarbon years and another in calibrated radiocarbon years. The age units are an attribute of the Chronology. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#sampleages">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#sampleages</a>)</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>SMPAGEID</p></td>
-<td><p>int4</p></td>
-<td><p>pkey</p></td>
-<td><p>TRUE</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>SAMPLEID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#ippd-sampleages"><span class="std std-ref">ippd_sampleages table</span></a></p></td>
-</tr>
-<tr class="row-even"><td><p>CHRONLGYID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#neo-chronologies"><span class="std std-ref">neo_chronologies table</span></a></p></td>
-</tr>
-<tr class="row-odd"><td><p>AGE</p></td>
-<td><p>numeric</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-even"><td><p>AGEYOUNGER</p></td>
-<td><p>numeric</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>AGEOLDER</p></td>
-<td><p>numeric</p></td>
-<td></td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<ul class="simple">
-<li><p>SMPAGEID – Arbitrary identifier. Is original Neotoma <em>sampleageid</em></p></li>
-<li><p>SAMPLEID – Arbitrary identifier. Is original Neotoma <em>sampleid</em> (and links to <a class="reference internal" href="#ippd-sampleages"><span class="std std-ref">ippd_sampleages table</span></a>)</p></li>
-<li><p>CHRONLGYID – Arbitrary identifier. Is original Neotoma <em>chronologyid</em> (and links to <a class="reference internal" href="#neo-chronologies"><span class="std std-ref">neo_chronologies table</span></a>)</p></li>
-<li><p>AGE – Is the age of the sample</p></li>
-<li><p>AGEYOUNGER – Is the younger error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned</p></li>
-<li><p>AGEOLDER – Is the older error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned</p></li>
-</ul>
-</div>
-<div class="section" id="ippd-samplekeywords-table">
-<span id="ippd-samplekeywords"></span><h4>ippd_samplekeywords table<a class="headerlink" href="#ippd-samplekeywords-table" title="Permalink to this heading"></a></h4>
-<p>The <em>ippd_samplekeywords</em> table is an IPPD-specific Neotoma table that links <em>keywords</em> to <em>samples</em>. (For example, it identifies modern pollen surface samples.)</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>SAMPLEID</p></td>
-<td><p>int4</p></td>
-<td><p>pkey1/2</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></td>
-</tr>
-<tr class="row-odd"><td><p>KEYWORDID</p></td>
-<td><p>int2</p></td>
-<td><p>pkey2/2</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#neo-keywords"><span class="std std-ref">neo_keywords table</span></a></p></td>
-</tr>
-</tbody>
-</table>
-<ul class="simple">
-<li><p>SAMPLEID – Is pkey 1/2. Is fkey to <a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></li>
-<li><p>KEYWORDID – Is pkey 2/2. Is fkey to <a class="reference internal" href="#neo-keywords"><span class="std std-ref">neo_keywords table</span></a></p></li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Not the individual “SAMPLEID” (pkey1/2) and “KEYWORDID” (pkey2/2), but only their <em>composite</em> forms the pkey.</p>
-</div>
-</div>
-<div class="section" id="ippd-variables-table">
-<span id="ippd-variables"></span><h4>ippd_variables table<a class="headerlink" href="#ippd-variables-table" title="Permalink to this heading"></a></h4>
-<p><em>ippd_variables</em> is an IPPD-specific Neotoma table that lists <strong>Variables</strong>, which always consist of a <em>Taxon</em> AND <em>Units</em> of measurement. Variables can also have <em>Elements</em>, <em>Contexts</em>, and <em>Modifications</em>. Thus, the same taxon with different measurement units (e.g. present/absent, NISP, MNI) are different Variables. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variables">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variables</a>)</p>
-<table class="docutils align-default">
-<colgroup>
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-<col style="width: 20%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Field</p></th>
-<th class="head"><p>Data type</p></th>
-<th class="head"><p>Key</p></th>
-<th class="head"><p>Not Null</p></th>
-<th class="head"><p>Parent</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>VARIABLEID</p></td>
-<td><p>int4</p></td>
-<td><p>pkey</p></td>
-<td><p>TRUE</p></td>
-<td></td>
-</tr>
-<tr class="row-odd"><td><p>TAXONID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td><p>TRUE</p></td>
-<td><p><a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></td>
-</tr>
-<tr class="row-even"><td><p>VARELEMTID</p></td>
-<td><p>int4</p></td>
-<td><p>fkey</p></td>
-<td></td>
-<td><p><a class="reference internal" href="#neo-variableelements"><span class="std std-ref">neo_variableelements table</span></a></p></td>
-</tr>
-<tr class="row-odd"><td><p>VARUNITID</p></td>
-<td><p>int2</p></td>
-<td><p>fkey</p></td>
-<td></td>
-<td><p><a class="reference internal" href="#neo-variableunits"><span class="std std-ref">neo_variableunits table</span></a></p></td>
-</tr>
-<tr class="row-even"><td><p>VARCONTXID</p></td>
-<td><p>int2</p></td>
-<td><p>fkey</p></td>
-<td></td>
-<td><p><a class="reference internal" href="#neo-variablecontexts"><span class="std std-ref">neo_variablecontexts table</span></a></p></td>
-</tr>
-</tbody>
-</table>
-<ul class="simple">
-<li><p>VARIABLEID – Is the original Neotoma <em>variableid</em></p></li>
-<li><p>TAXONID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-taxaid-fields"><span class="std std-ref">cabah_taxaID fields</span></a></p></li>
-<li><p>VARELEMTID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variableelements-fields"><span class="std std-ref">neo_variableelements fields</span></a></p></li>
-<li><p>VARUNITID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variableunits-fields"><span class="std std-ref">neo_variableunits fields</span></a></p></li>
-<li><p>VARCONTXID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variablecontexts-fields"><span class="std std-ref">neo_variablecontexts fields</span></a></p></li>
-</ul>
-</div>
-</div>
 <div class="section" id="neotoma-tables-neo">
 <span id="neotoma-tables"></span><h3>Neotoma tables (<em>neo_</em>)<a class="headerlink" href="#neotoma-tables-neo" title="Permalink to this heading"></a></h3>
 <p>Tables featuring the <em>neo_</em> suffix in their name have been migrated from the Neotoma db ecosystem to OCTOPUS database. <em>neo_</em> tables serve those collections that first went into Neotoma db before becoming part of OCTOPUS, as for instance <strong>IPPD</strong> (the latter as an effort of the Centre of Excellence for Australian Biodiversity and Heritage – CABAH). Due to datamodel differences between Neotoma and OCTOPUS databases, migrating those unaltered <em>neo_</em> tables became a necessity. To maintain connectivity to Neotoma, primary table keys – i.e., unique IDs that allow for definite identification of a certain tuple – were kept and must not be altered.</p>
@@ -4307,7 +3979,7 @@
 </div>
 </div>
 <div class="section" id="local-tables">
-<span id="id11"></span><h2>Local tables<a class="headerlink" href="#local-tables" title="Permalink to this heading"></a></h2>
+<span id="id10"></span><h2>Local tables<a class="headerlink" href="#local-tables" title="Permalink to this heading"></a></h2>
 <div class="section" id="crn-tables">
 <h3>CRN tables<a class="headerlink" href="#crn-tables" title="Permalink to this heading"></a></h3>
 <p>The following tables exclusively serve the <a class="reference internal" href="collections.html#crn"><span class="std std-ref">CRN collections 🍻</span></a>.</p>
@@ -4455,7 +4127,7 @@
 <li><p>SIZEMIN – Minimum grain size sampled</p></li>
 <li><p>SIZEMAX – Maximum grain size sampled</p></li>
 <li><p>PROJEPSGID – EPSG projection code, used as unique identifier, of projected coordinate system used for calculations</p></li>
-<li><p>AREA – Basin area as calculated from projected DEM <a class="footnote-reference brackets" href="#id23" id="id12">5</a></p></li>
+<li><p>AREA – Basin area as calculated from projected DEM <a class="footnote-reference brackets" href="#id23" id="id11">5</a></p></li>
 <li><p>ELEV_AVE – Mean elevation of basin as calculated from projected DEM</p></li>
 <li><p>ELEV_STD – Standard deviation of elevation of basin as calculated from projected DEM</p></li>
 <li><p>SLP_AVE – Mean slope gradient of basin as calculated from projected DEM</p></li>
@@ -4592,7 +4264,7 @@
 </tr>
 <tr class="row-even"><td><p>ALPROD</p></td>
 <td><p>numeric</p></td>
-<td><p>dimless <a class="footnote-reference brackets" href="#id24" id="id13">6</a></p></td>
+<td><p>dimless <a class="footnote-reference brackets" href="#id24" id="id12">6</a></p></td>
 <td></td>
 <td></td>
 <td></td>
@@ -5026,7 +4698,7 @@
 </tbody>
 </table>
 <ul class="simple">
-<li><p>PROJEPSGID – EPSG <a class="footnote-reference brackets" href="#id25" id="id14">7</a> projection code, used as unique identifier</p></li>
+<li><p>PROJEPSGID – EPSG <a class="footnote-reference brackets" href="#id25" id="id13">7</a> projection code, used as unique identifier</p></li>
 <li><p>PROJECTION – For available values refer to <a class="reference internal" href="parent_tables.html#crn-projepsgid-fields"><span class="std std-ref">crn_projepsgID fields</span></a></p></li>
 </ul>
 </div>
@@ -5072,7 +4744,7 @@
 </table>
 <ul class="simple">
 <li><p>id – A unique identifier (auto-incrementing serial integer)</p></li>
-<li><p>geom – WKT <a class="footnote-reference brackets" href="#id26" id="id15">8</a> notation of bounding box geometry</p></li>
+<li><p>geom – WKT <a class="footnote-reference brackets" href="#id26" id="id14">8</a> notation of bounding box geometry</p></li>
 <li><p>STUDYID – <a class="reference internal" href="collections.html#crn"><span class="std std-ref">CRN collections 🍻</span></a> study ID</p></li>
 </ul>
 </div>
@@ -7793,7 +7465,6 @@
 </ul>
 </div>
 </div>
-<hr class="docutils" />
 <div class="section" id="sahulchar-tables">
 <h3>SahulChar tables<a class="headerlink" href="#sahulchar-tables" title="Permalink to this heading"></a></h3>
 <p>The following tables exclusively serve the <a class="reference internal" href="collections.html#sahulchar"><span class="std std-ref">SahulChar collection 🔥</span></a>.</p>
@@ -8107,6 +7778,334 @@
 <p class="admonition-title">Note</p>
 <p>* 🤓 Re “AGE” – Preference was given to uncalibrated rather than calibrated radiocarbon ages where possible, to allow for recalibration with future calibration curve updates. Ages reported in calendar years BC/AD or BCE/CE were converted to ‘years BP’ prior to entry or entered as AGE_UNIT = ‘other’ if conversion is not possible. Ages generated from dating methods that are measured as years prior to sample collection and do not require calibration, such as lead-210 or optically stimulated luminescence, were converted to ‘years BP’ prior to entry where possible or entered as AGE_UNIT = ‘other’.</p>
 </div>
+</div>
+</div>
+<div class="section" id="ippd-tables">
+<span id="id15"></span><h3>IPPD tables<a class="headerlink" href="#ippd-tables" title="Permalink to this heading"></a></h3>
+<div class="section" id="ippd-datacore-table">
+<span id="ippd-datacore"></span><h4>ippd_DataCore table<a class="headerlink" href="#ippd-datacore-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_DataCore</em> table is an IPPD-specific Neotoma table where each occurrence of a Variable in a sample comprises a record in the Data table. “data” is the primary table in Neotoma’s data model. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#data</a>)</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>DATAID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SAMPLEID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>VARIABLEID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#ippd-variables"><span class="std std-ref">ippd_variables table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>VALUE</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>DATAID – Arbitrary identifier. Is original Neotoma <em>dataid</em></p></li>
+<li><p>SAMPLEID – Is fkey. For available values refer to <span class="xref std std-ref">ippd_Sample_Fields</span> table.</p></li>
+<li><p>VARIABLEID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#ippd-variables-fields"><span class="std std-ref">ippd_variables fields</span></a> table.</p></li>
+<li><p>VALUE – Is the value of the variable</p></li>
+</ul>
+</div>
+<div class="section" id="ippd-sample-table">
+<span id="ippd-sample"></span><h4>ippd_Sample table<a class="headerlink" href="#ippd-sample-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_Sample</em> table is an IPPD-specific Neotoma table that stores samples. In Neotoma’s data model, <em>Samples</em> belong to <em>Analysis Units</em>, which belong to <em>Collection Units</em>, which belong to <em>Sites</em>. However, <em>Samples</em> also belong to a <em>Dataset</em>, and the Dataset determines the type of sample. Thus, there could be two different samples from the same Analysis Unit, one belonging to a pollen dataset, the other to a plant macrofossil dataset. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#samples</a>)</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SAMPLEID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ANLYSUNTID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#cabah-analysisunit"><span class="std std-ref">cabah_AnalysisUnit table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>NEODSETID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>SMPNAME</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>ANLYSDATE</p></td>
+<td><p>varchar(10)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>LABNUMBER</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>PREPMETHOD</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SMPNOTE</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>SMPDATE</p></td>
+<td><p>varchar(10)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXONID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>DATASETID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>SAMPLEID – Arbitrary identifier. Is original Neotoma <em>sampleid</em></p></li>
+<li><p>ANLYSUNTID – Arbitrary identifier. Is original Neotoma <em>analysisunitid</em>. Is fkey to <a class="reference internal" href="#cabah-analysisunit"><span class="std std-ref">cabah_AnalysisUnit table</span></a></p></li>
+<li><p>NEODSETID – Arbitrary identifier. Is “NEODSETID”, i.e., the original Neotoma <em>datasetid</em>. Is fkey to <a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></li>
+<li><p>SMPNAME – Is sample name, if avaiable</p></li>
+<li><p>ANLYSDATE – Is date of analysis, if available</p></li>
+<li><p>LABNUMBER – Is lab number, if provided</p></li>
+<li><p>PREPMETHOD – Is preparation method free text field</p></li>
+<li><p>SMPNOTE – Is sample note, if applicable</p></li>
+<li><p>SMPDATE – Is date of sampling, if provided</p></li>
+<li><p>TAXONID – Is fkey to <a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></li>
+<li><p>DATASETID – Is fkey to <a class="reference internal" href="#global-datasetmaster"><span class="std std-ref">global_DataSetMaster table</span></a></p></li>
+</ul>
+</div>
+<div class="section" id="ippd-sampleages-table">
+<span id="ippd-sampleages"></span><h4>ippd_sampleages table<a class="headerlink" href="#ippd-sampleages-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_sampleages</em> table is an IPPD-specific Neotoma table that stores <em>sample ages</em>. In Neotoma’s data model, <em>Ages</em> are assigned to a <em>Chronology</em>. Because there may be more than one <em>Chronology</em> for a <em>Collection Unit</em>, samples may be assigned different ages for different Chronologies. A simple example is one sample age in radiocarbon years and another in calibrated radiocarbon years. The age units are an attribute of the Chronology. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#sampleages">https://neotoma-manual.readthedocs.io/en/latest/tables_samples.html#sampleages</a>)</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SMPAGEID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>SAMPLEID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#ippd-sampleages"><span class="std std-ref">ippd_sampleages table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>CHRONLGYID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#neo-chronologies"><span class="std std-ref">neo_chronologies table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>AGE</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>AGEYOUNGER</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>AGEOLDER</p></td>
+<td><p>numeric</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>SMPAGEID – Arbitrary identifier. Is original Neotoma <em>sampleageid</em></p></li>
+<li><p>SAMPLEID – Arbitrary identifier. Is original Neotoma <em>sampleid</em> (and links to <a class="reference internal" href="#ippd-sampleages"><span class="std std-ref">ippd_sampleages table</span></a>)</p></li>
+<li><p>CHRONLGYID – Arbitrary identifier. Is original Neotoma <em>chronologyid</em> (and links to <a class="reference internal" href="#neo-chronologies"><span class="std std-ref">neo_chronologies table</span></a>)</p></li>
+<li><p>AGE – Is the age of the sample</p></li>
+<li><p>AGEYOUNGER – Is the younger error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned</p></li>
+<li><p>AGEOLDER – Is the older error estimate of the age. The definition of this estimate is an attribute of the chronology. Many ages do not have explicit error estimates assigned</p></li>
+</ul>
+</div>
+<div class="section" id="ippd-samplekeywords-table">
+<span id="ippd-samplekeywords"></span><h4>ippd_samplekeywords table<a class="headerlink" href="#ippd-samplekeywords-table" title="Permalink to this heading"></a></h4>
+<p>The <em>ippd_samplekeywords</em> table is an IPPD-specific Neotoma table that links <em>keywords</em> to <em>samples</em>. (For example, it identifies modern pollen surface samples.)</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>SAMPLEID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey1/2</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>KEYWORDID</p></td>
+<td><p>int2</p></td>
+<td><p>pkey2/2</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#neo-keywords"><span class="std std-ref">neo_keywords table</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>SAMPLEID – Is pkey 1/2. Is fkey to <a class="reference internal" href="#ippd-sample"><span class="std std-ref">ippd_Sample table</span></a></p></li>
+<li><p>KEYWORDID – Is pkey 2/2. Is fkey to <a class="reference internal" href="#neo-keywords"><span class="std std-ref">neo_keywords table</span></a></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Not the individual “SAMPLEID” (pkey1/2) and “KEYWORDID” (pkey2/2), but only their <em>composite</em> forms the pkey.</p>
+</div>
+</div>
+<div class="section" id="ippd-variables-table">
+<span id="ippd-variables"></span><h4>ippd_variables table<a class="headerlink" href="#ippd-variables-table" title="Permalink to this heading"></a></h4>
+<p><em>ippd_variables</em> is an IPPD-specific Neotoma table that lists <strong>Variables</strong>, which always consist of a <em>Taxon</em> AND <em>Units</em> of measurement. Variables can also have <em>Elements</em>, <em>Contexts</em>, and <em>Modifications</em>. Thus, the same taxon with different measurement units (e.g. present/absent, NISP, MNI) are different Variables. (<a class="reference external" href="https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variables">https://neotoma-manual.readthedocs.io/en/latest/tables_taxa.html#variables</a>)</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Field</p></th>
+<th class="head"><p>Data type</p></th>
+<th class="head"><p>Key</p></th>
+<th class="head"><p>Not Null</p></th>
+<th class="head"><p>Parent</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>VARIABLEID</p></td>
+<td><p>int4</p></td>
+<td><p>pkey</p></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>TAXONID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td><p>TRUE</p></td>
+<td><p><a class="reference internal" href="#cabah-taxaid"><span class="std std-ref">cabah_taxaID table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>VARELEMTID</p></td>
+<td><p>int4</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-variableelements"><span class="std std-ref">neo_variableelements table</span></a></p></td>
+</tr>
+<tr class="row-odd"><td><p>VARUNITID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-variableunits"><span class="std std-ref">neo_variableunits table</span></a></p></td>
+</tr>
+<tr class="row-even"><td><p>VARCONTXID</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p><a class="reference internal" href="#neo-variablecontexts"><span class="std std-ref">neo_variablecontexts table</span></a></p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p>VARIABLEID – Is the original Neotoma <em>variableid</em></p></li>
+<li><p>TAXONID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#cabah-taxaid-fields"><span class="std std-ref">cabah_taxaID fields</span></a></p></li>
+<li><p>VARELEMTID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variableelements-fields"><span class="std std-ref">neo_variableelements fields</span></a></p></li>
+<li><p>VARUNITID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variableunits-fields"><span class="std std-ref">neo_variableunits fields</span></a></p></li>
+<li><p>VARCONTXID – Is fkey. For available values refer to <a class="reference internal" href="parent_tables.html#neo-variablecontexts-fields"><span class="std std-ref">neo_variablecontexts fields</span></a></p></li>
+</ul>
 </div>
 </div>
 <div class="section" id="sahulsed-tables">
@@ -10070,16 +10069,16 @@
 <dt class="label" id="id22"><span class="brackets"><a class="fn-backref" href="#id8">4</a></span></dt>
 <dd><p>This self-referencing table is both parent and child at the same time - a table design that was chosen for the representation of nested hierarchies.</p>
 </dd>
-<dt class="label" id="id23"><span class="brackets"><a class="fn-backref" href="#id12">5</a></span></dt>
+<dt class="label" id="id23"><span class="brackets"><a class="fn-backref" href="#id11">5</a></span></dt>
 <dd><p>PostgreSQL view: <a class="reference external" href="https://www.postgresql.org/docs/current/sql-createview.html">https://www.postgresql.org/docs/current/sql-createview.html</a></p>
 </dd>
-<dt class="label" id="id24"><span class="brackets"><a class="fn-backref" href="#id13">6</a></span></dt>
+<dt class="label" id="id24"><span class="brackets"><a class="fn-backref" href="#id12">6</a></span></dt>
 <dd><p>Field descriptions unaltered taken from <a class="reference external" href="https://postgis.net/">https://postgis.net/</a></p>
 </dd>
-<dt class="label" id="id25"><span class="brackets"><a class="fn-backref" href="#id14">7</a></span></dt>
+<dt class="label" id="id25"><span class="brackets"><a class="fn-backref" href="#id13">7</a></span></dt>
 <dd><p><a class="reference external" href="https://www.ctan.org/pkg/bibtex">https://www.ctan.org/pkg/bibtex</a></p>
 </dd>
-<dt class="label" id="id26"><span class="brackets"><a class="fn-backref" href="#id15">8</a></span></dt>
+<dt class="label" id="id26"><span class="brackets"><a class="fn-backref" href="#id14">8</a></span></dt>
 <dd><p>Digital Elevation Model, i.e., a digital representation of elevation data / terrain</p>
 </dd>
 <dt class="label" id="id27"><span class="brackets"><a class="fn-backref" href="#id18">9</a></span></dt>
