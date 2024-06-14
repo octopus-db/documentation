@@ -113,15 +113,15 @@ SahulArch TL output
 
 ..  _SahulChar_output:
 
-_SahulChar_output
------------------
+SahulChar_output
+----------------
 
 SahulChar output will be made available upon collection release.
 
 ..  _IPPD_output:
 
-_IPPD_output
-------------
+IPPD_output
+-----------
 
 IPPD output will be made available upon collection release.
 
