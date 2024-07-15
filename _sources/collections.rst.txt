@@ -164,8 +164,8 @@ SahulChar is a collection of published **Charcoal / Black Carbon counts and ages
 ..  _IPPD:
 
 Indo-Pacific Pollen db (IPPD) |:desert_island:|
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The Indo-Pacific Pollen Database is a collection of ... `description to come`... . Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Indo-Pacific Pollen Database is a collection of **palaeoecological records containing pollen data** and related site and dating information from around Australia and the Indo-Pacific region. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information. The IPPD can also be found on the NEOTOMAdb (https://www.neotomadb.org) and in the accompanying publication by Herbert et al. (2024).
 
 ----
 

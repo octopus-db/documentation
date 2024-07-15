@@ -62,6 +62,8 @@ References
 | 
 | Hajdas, Irka; Ascough, Philippa; Garnett, Mark H.; Fallon, Stewart J.; Pearson, Charlotte L.; Quarta, Gianluca; Spalding, Kirsty L., Yamaguchi, Haruka; Yoneda, Minoru (2021), Radiocarbon dating. Nat Rev Methods Primers 1, 62. DOI: `10.1038/s43586-021-00058-7 <https://doi.org/10.1038/s43586-021-00058-7>`_
 | 
+| Herbert, A. V.; Haberle, S. G.; Flantua, S. G. A.; Mottl, O.; Blois, J. L.; Williams, J. W.; George, A.; and Hope, G. S. (2024). The Indo-Pacific Pollen Database -- a Neotoma constituent database, Climate of the Past Discussions. DOI: `10.5194/cp-2024-44 <https://doi.org/10.5194/cp-2024-44>`_
+| 
 | Hernandez, Michael J. (2020). Database Design for Mere Mortals - A Hands--On Guide to Relational Database Design (Fourth Edition). Addison-Wesley, Pearson Education Inc.
 | 
 | Heyman, Jakob (2023). expage - A global compilation of glacial Be-10 and Al-26 data. Accessed 06-03-2023, https://expage.github.io/index.html
