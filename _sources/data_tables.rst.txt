@@ -553,21 +553,43 @@ global_RefKeyword table
 
 global_dbDOI table
 ^^^^^^^^^^^^^^^^^^
-*global_dbDOI* is a lookup table that stores information about OCTOPUS (sub-)compilation versions, preferred as digital object identifiers.
+*global_dbDOI* is a lookup table that stores information about OCTOPUS (sub-)compilation versioning, preferred as digital object identifiers.
 
 .. csv-table::
    :file: ./csv_tables/global_dbDOI.csv
    :header-rows: 1
 
-* DBDOI -- Unique identifier (Digital Object Identifier) issued by UOW Library
+* VERID -- A unique identifier (auto-incrementing serial integer)
 
-* DBDOICOMMT -- (sub)Collection comment
+* COLLDOI -- Unique identifier (Digital Object Identifier)
 
-* DBVER -- (sub)Collection publication year
+* COLLDESCR -- Concise (sub)Collection description
 
-* DBVERNO -- (sub)Collection version 
+* COLLCOMMT -- (sub)Collection comment
 
-* DBVERNAME -- (sub)Collection name (if applicable)
+* DBYEAR -- Publication year of database version
+
+* INIT_DBVER -- Database version of first sub(Collection) deployment
+
+* RUN_DBVER -- Current database version sub(Collection) deployment
+
+* COLLVER -- (sub)Collection version
+
+* OBSOLETES -- (sub)Collection version obsoleted by "COLLVER"
+
+* OBSOLTD_BY -- (sub)Collection version obsoleting "COLLVER"
+
+* DEPLOYDATE -- Date of deployment
+
+* COLLNAME -- (sub)Collection name (if applicable)
+
+* COLL_LEAD -- (sub)Collection lead
+
+* REFDOI -- Digital Object Identifier of accompanying publication (if applicable)
+
+.. note::
+
+   For db downloads, "RUN-DBVER" (e.g. 2.2) and "COLLVER" (e.g. 3) will be concatenated yielding 'v2.2(3)'.
 
 ----
 

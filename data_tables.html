@@ -1774,7 +1774,7 @@
 </div>
 <div class="section" id="global-dbdoi-table">
 <span id="global-dbdoi"></span><h4>global_dbDOI table<a class="headerlink" href="#global-dbdoi-table" title="Permalink to this heading"></a></h4>
-<p><em>global_dbDOI</em> is a lookup table that stores information about OCTOPUS (sub-)compilation versions, preferred as digital object identifiers.</p>
+<p><em>global_dbDOI</em> is a lookup table that stores information about OCTOPUS (sub-)compilation versioning, preferred as digital object identifiers.</p>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 20%" />
@@ -1792,31 +1792,85 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p>DBDOI</p></td>
-<td><p>text</p></td>
+<tr class="row-even"><td><p>VERID</p></td>
+<td><p>serial4</p></td>
 <td><p>pkey</p></td>
 <td><p>TRUE</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DBDOICOMMT</p></td>
+<tr class="row-odd"><td><p>COLLDOI</p></td>
+<td><p>varchar(256)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>COLLDESCR</p></td>
 <td><p>text</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>DBVER</p></td>
+<tr class="row-odd"><td><p>COLLCOMMT</p></td>
+<td><p>text</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>DBYEAR</p></td>
 <td><p>int2</p></td>
 <td></td>
+<td><p>TRUE</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>INIT_DBVER</p></td>
+<td><p>varchar(10)</p></td>
+<td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td><p>DBVERNO</p></td>
-<td><p>numeric</p></td>
+<tr class="row-even"><td><p>RUN_DBVER</p></td>
+<td><p>varchar(10)</p></td>
 <td></td>
 <td></td>
 <td></td>
 </tr>
-<tr class="row-even"><td><p>DBVERNAME</p></td>
+<tr class="row-odd"><td><p>COLLVER</p></td>
+<td><p>varchar(10)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>OBSOLETES</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p>VERID</p></td>
+</tr>
+<tr class="row-odd"><td><p>OBSOLTD_BY</p></td>
+<td><p>int2</p></td>
+<td><p>fkey</p></td>
+<td></td>
+<td><p>VERID</p></td>
+</tr>
+<tr class="row-even"><td><p>DEPLOYDATE</p></td>
+<td><p>varchar(10)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>COLLNAME</p></td>
+<td><p>varchar(64)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>COLL_LEAD</p></td>
+<td><p>varchar(128)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>REFDOI</p></td>
 <td><p>text</p></td>
 <td></td>
 <td></td>
@@ -1825,12 +1879,25 @@
 </tbody>
 </table>
 <ul class="simple">
-<li><p>DBDOI – Unique identifier (Digital Object Identifier) issued by UOW Library</p></li>
-<li><p>DBDOICOMMT – (sub)Collection comment</p></li>
-<li><p>DBVER – (sub)Collection publication year</p></li>
-<li><p>DBVERNO – (sub)Collection version</p></li>
-<li><p>DBVERNAME – (sub)Collection name (if applicable)</p></li>
+<li><p>VERID – A unique identifier (auto-incrementing serial integer)</p></li>
+<li><p>COLLDOI – Unique identifier (Digital Object Identifier)</p></li>
+<li><p>COLLDESCR – Concise (sub)Collection description</p></li>
+<li><p>COLLCOMMT – (sub)Collection comment</p></li>
+<li><p>DBYEAR – Publication year of database version</p></li>
+<li><p>INIT_DBVER – Database version of first sub(Collection) deployment</p></li>
+<li><p>RUN_DBVER – Current database version sub(Collection) deployment</p></li>
+<li><p>COLLVER – (sub)Collection version</p></li>
+<li><p>OBSOLETES – (sub)Collection version obsoleted by “COLLVER”</p></li>
+<li><p>OBSOLTD_BY – (sub)Collection version obsoleting “COLLVER”</p></li>
+<li><p>DEPLOYDATE – Date of deployment</p></li>
+<li><p>COLLNAME – (sub)Collection name (if applicable)</p></li>
+<li><p>COLL_LEAD – (sub)Collection lead</p></li>
+<li><p>REFDOI – Digital Object Identifier of accompanying publication (if applicable)</p></li>
 </ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>For db downloads, “RUN-DBVER” (e.g. 2.2) and “COLLVER” (e.g. 3) will be concatenated yielding ‘v2.2(3)’.</p>
+</div>
 <hr class="docutils" />
 </div>
 </div>
