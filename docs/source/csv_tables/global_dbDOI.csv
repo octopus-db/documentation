@@ -1,6 +1,15 @@
 ﻿Field,Data type,Key,Not Null,Parent
-DBDOI,text,pkey,TRUE,
-DBDOICOMMT,text,,,
-DBVER,int2,,,
-DBVERNO,numeric,,,
-DBVERNAME,text,,,
+VERID,serial4,pkey,TRUE,
+COLLDOI,varchar(256),,,
+COLLDESCR,text,,,
+COLLCOMMT,text,,,
+DBYEAR,int2,,TRUE,
+INIT_DBVER,varchar(10),,,
+RUN_DBVER,varchar(10),,,
+COLLVER,varchar(10),,,
+OBSOLETES,int2,fkey,,VERID
+OBSOLTD_BY,int2,fkey,,VERID
+DEPLOYDATE,varchar(10),,,
+COLLNAME,varchar(64),,,
+COLL_LEAD,varchar(128),,,
+REFDOI,text,,,
