@@ -16,11 +16,11 @@ A brief OCTOPUS database history
 ..  _db-history_2024:
 2024
 ^^^^
-* Major update on :ref:`CRN` (soon)
+* Major update on :ref:`CRN` (`INT collection <http://dx.doi.org/10.25900/057R-TM53>`_, `AUS collection <http://dx.doi.org/10.25900/057R-TM53>`_)
 
-* :ref:`SahulChar` release (soon)
+* :ref:`SahulChar` release (`dataset <http://dx.doi.org/10.25900/KKDX-XH23>`_)
 
-* :ref:`IPPD` release (soon)
+* :ref:`IPPD` release (`dataset <http://dx.doi.org/10.25900/57DR-YQ75>`_)
 
 ..  _db-history_2023:
 2023
