@@ -20,9 +20,13 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry; Saktura, Wanchese M.; Cohen, Tim J.; Jacobs, Zenobia; Ulm, Sean; Hesse, Paul P.; Heyman, Jakob; Peters, Katharina J.; Williams, Alan N.; Saktura, Rosaria B. K.; Rui, Xue; Chishiro-Dennelly, Kai; Panta, Adhish (2022). OCTOPUS database (v.2). Earth Syst. Sci. Data, 14, 3695--3713. DOI: `10.5194/essd-14-3695-2022 <https://doi.org/10.5194/essd-14-3695-2022>`_
 | 
-| Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Global collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/g76f-0h45 <https://doi.org/10.25900/g76f-0h45>`_
+| Codilean, Alexandru T.; Munack, Henry (2021). [OBSOLETE] OCTOPUS Database v.2: The CRN Denudation Global collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/g76f-0h45 <https://doi.org/10.25900/g76f-0h45>`_
 | 
-| Codilean, Alexandru T.; Munack, Henry (2021). OCTOPUS Database v.2: The CRN Denudation Australian collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/mpr9-yn15 <https://doi.org/10.25900/mpr9-yn15>`_
+| Codilean, Alexandru T.; Munack, Henry (2024). OCTOPUS Database v.2.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances published up to 2024 (online). University of Wollongong Australia [data set]. DOI: `10.25900/057R-TM53 <https://doi.org/10.25900/057R-TM53>`_| 
+|
+| Codilean, Alexandru T.; Munack, Henry (2021). [OBSOLETE] OCTOPUS Database v.2: The CRN Denudation Australian collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/mpr9-yn15 <https://doi.org/10.25900/mpr9-yn15>`_
+|
+| Codilean, Alexandru T.; Munack, Henry (2024). OCTOPUS Database v.2.2: The CRN Denudation Australian collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances published up to 2024 (online). University of Wollongong Australia [data set]. DOI: `10.25900/5WBX-N779 <https://doi.org/10.25900/5WBX-N779>`_
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
@@ -62,7 +66,11 @@ References
 | 
 | Hajdas, Irka; Ascough, Philippa; Garnett, Mark H.; Fallon, Stewart J.; Pearson, Charlotte L.; Quarta, Gianluca; Spalding, Kirsty L., Yamaguchi, Haruka; Yoneda, Minoru (2021), Radiocarbon dating. Nat Rev Methods Primers 1, 62. DOI: `10.1038/s43586-021-00058-7 <https://doi.org/10.1038/s43586-021-00058-7>`_
 | 
-| Herbert, A. V.; Haberle, S. G.; Flantua, S. G. A.; Mottl, O.; Blois, J. L.; Williams, J. W.; George, A.; and Hope, G. S. (2024). The Indo-Pacific Pollen Database -- a Neotoma constituent database, Climate of the Past Discussions. DOI: `10.5194/cp-2024-44 <https://doi.org/10.5194/cp-2024-44>`_
+| Herbert, A. V.; Haberle, S. G.; Flantua, S. G. A.; Mottl, O.; Blois, J. L.; Williams, J. W.; George, A.; Hope, G. S. (2024). The Indo-Pacific Pollen Database -- a Neotoma constituent database, Climate of the Past Discussions. DOI: `10.5194/cp-2024-44 <https://doi.org/10.5194/cp-2024-44>`_
+| 
+| Herbert, A. V.; Haberle, S. G.; Munack, H.; Codilean, A. T. (2024). IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region (online). University of Wollongong Australia [data set]. DOI: `10.25900/57DR-YQ75 <https://doi.org/10.25900/57DR-YQ75>`_
+| 
+| Herbert, A. V.; Haberle, S. G.; Munack, H.; Codilean, A. T. (2024). IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region (dataset-level information only) (online). University of Wollongong Australia [data set]. DOI: `10.25900/J13C-KT93 <https://doi.org/10.25900/J13C-KT93>`_
 | 
 | Hernandez, Michael J. (2020). Database Design for Mere Mortals - A Hands--On Guide to Relational Database Design (Fourth Edition). Addison-Wesley, Pearson Education Inc.
 | 
