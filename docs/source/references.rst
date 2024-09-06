@@ -22,7 +22,7 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry (2021). [OBSOLETE] OCTOPUS Database v.2: The CRN Denudation Global collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/g76f-0h45 <https://doi.org/10.25900/g76f-0h45>`_
 | 
-| Codilean, Alexandru T.; Munack, Henry (2024). OCTOPUS Database v.2.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances published up to 2024 (online). University of Wollongong Australia [data set]. DOI: `10.25900/057R-TM53 <https://doi.org/10.25900/057R-TM53>`_| 
+| Codilean, Alexandru T.; Munack, Henry (2024). OCTOPUS Database v.2.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances published up to 2024 (online). University of Wollongong Australia [data set]. DOI: `10.25900/057R-TM53 <https://doi.org/10.25900/057R-TM53>`_
 |
 | Codilean, Alexandru T.; Munack, Henry (2021). [OBSOLETE] OCTOPUS Database v.2: The CRN Denudation Australian collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/mpr9-yn15 <https://doi.org/10.25900/mpr9-yn15>`_
 |
