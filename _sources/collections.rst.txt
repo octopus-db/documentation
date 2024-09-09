@@ -194,6 +194,25 @@ SahulChar collection |:fire:|
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 SahulChar is a collection of published **Charcoal / Black Carbon counts and ages from Sahul and Zew Zealand**. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information.
 
+| *An open database of sedimentary charcoal and black carbon records from Australia, New Guinea, and New Zealand.*
+| **Publisher**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), University of Wollongong
+| **Publication year / Version**
+| 2024 / v2.2(1)
+| **Recommended citation**
+| Rehn E., Cadd H., Mooney S., Cohen T.J., Munack H., Codilean A.T., and others, 2024, SahulChar: An open database of sedimentary charcoal and black carbon records from Australia, New Guinea, and New Zealand.
+| **Extent of Data / Collection period**
+| Australia and the Indo-pacific region / 1973-2023
+| **Software Required**
+| Web browser + any desktop GIS; any WFS capable software 
+| **FoR codes (2020)**
+| 310306 Palaeoecology, 370904 Palaeoclimatology, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Related content** https://octopusdata.org
+| **DOI** 
+| http://dx.doi.org/10.25900/KKDX-XH23 (see http://dx.doi.org/10.25900/Y4E9-R595 for collection units-level derivative)
+
 ----
 
 ..  _IPPD:
@@ -201,6 +220,25 @@ SahulChar is a collection of published **Charcoal / Black Carbon counts and ages
 Indo-Pacific Pollen db (IPPD) |:desert_island:|
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 The Indo-Pacific Pollen Database is a collection of **palaeoecological records containing pollen data** and related site and dating information from around Australia and the Indo-Pacific region. Spatial data includes sample locations (point) and uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. Sample metadata is comprehensive and includes bibliographic, contextual, and sample preparation and measurement related information. The IPPD can also be found on the NEOTOMAdb (https://www.neotomadb.org) and is described in the accompanying publication by Herbert et al. (2024).
+
+| *A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region.*
+| **Publisher**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH), University of Wollongong
+| **Publication year / Version**
+| 2024 / v2.2(1)
+| **Recommended citation**
+| Herbert A.V., Haberle S.G., Munack H., Codilean A.T., 2024, IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region.
+| **Extent of Data / Collection period**
+| Australia and the Indo-pacific region / 1973-2024
+| **Software Required**
+| Web browser + any desktop GIS; any WFS capable software 
+| **FoR codes (2020)**
+| 310306 Palaeoecology, 370904 Palaeoclimatology, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Related content** https://octopusdata.org
+| **DOI** 
+| http://dx.doi.org/10.25900/57DR-YQ75 (see http://dx.doi.org/10.25900/J13C-KT93 for datasets-level derivative)
 
 ----
 
