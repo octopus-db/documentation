@@ -16,6 +16,8 @@ A brief OCTOPUS database history
 ..  _db-history_2024:
 2024
 ^^^^
+* OCTOPUS version v.2.2 deployed
+
 * Major update on :ref:`CRN` (`INT collection <http://dx.doi.org/10.25900/057R-TM53>`_, `AUS collection <http://dx.doi.org/10.25900/057R-TM53>`_)
 
 * :ref:`SahulChar` release (`dataset <http://dx.doi.org/10.25900/KKDX-XH23>`_)
@@ -37,6 +39,8 @@ A brief OCTOPUS database history
 2022
 ^^^^
 * Zenodo community launched (https://zenodo.org/communities/octopus-database)
+
+* OCTOPUS version v.2.1 deployed
 
 * Major update on :ref:`SahulArch` (`descriptive publication <https://doi.org/10.1080/03122417.2022.2159751>`_)
 
