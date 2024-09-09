@@ -23,20 +23,23 @@ CRN collections |:beers:|
 CRN Australia
 """""""""""""
 | *A collection of Australian basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances*
-| **Publisher, Year**
-| University of Wollongong, 2021
-| **Spatial extent, Publication period**
-| Australia, 1998-2021
+| **Publisher**
+| University of Wollongong
+| **Publication year / Version**
+| 2024 / v2.2(3)
+| **Recommended citation**
+| Codilean A.T., Munack H., 2024, OCTOPUS Database v.2.2: The CRN Denudation Australian collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances published up to 2024.
+| **Extent of Data / Collection period**
+| Australia / 1998-2024
 | **Software Required**
-| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
-| **FoR codes (2020)** [#]_
+| Web browser + any desktop GIS; any WFS capable software 
+| **FoR codes (2020)**
 | 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
-| **Recommended citation**
-| Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Australian collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.
-| **DOI**
-| http://dx.doi.org/10.25900/mpr9-yn15
+| **Related content** https://octopusdata.org
+| **DOI** 
+| https://doi.org/10.25900/5WBX-N779
 
 
 ..  _CRN_International:
@@ -44,41 +47,73 @@ CRN Australia
 CRN International
 """""""""""""""""
 | *A global collection of basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances, excluding Australia*
-| **Publisher, Year**
-| University of Wollongong, 2021
-| **Spatial extent, Publication period**
-| Global (excl. Australia), 1995-2021
+| **Publisher**
+| University of Wollongong
+| **Publication year / Version**
+| 2024 / v2.2(3)
+| **Recommended citation**
+| Codilean A.T., Munack H., 2024, OCTOPUS Database v.2.2** The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances published up to 2024.
+| **Extent of Data / Collection period**
+| Global, excluding Australia / 1995-2024
 | **Software Required**
-| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| Web browser + any desktop GIS; any WFS capable software 
 | **FoR codes (2020)**
 | 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
-| **Recommended citation**
-| Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Denudation Global collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances.
-| **DOI**
-| http://dx.doi.org/10.25900/g76f-0h45
+| **Related content** https://octopusdata.org
+| **DOI** 
+| https://doi.org/10.25900/057R-TM53
 
 
 ..  _CRN_Large_Basins:
 
 CRN Large Basins
 """"""""""""""""
-| *A global collection of catchment polygons for extra large river basins for which Be-10 and Al-26 abundances have been published*
-| **Publisher, Year**
-| University of Wollongong, 2021
-| **Spatial extent, Publication period**
-| Global, 2006-2017
+| *A collection of published cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates inferred from these data.*
+| **Publisher**
+| University of Wollongong
+| **Publication year / Version**
+| 2024 / v2.2(3)
+| **Recommended citation**
+| Codilean A.T., Munack H., 2024, OCTOPUS Database v.2.2: The CRN Denudation UOW (in preparation) collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances published up to 2024.
+| **Extent of Data / Collection period**
+| Global, excluding Australia / 2006-2020
 | **Software Required**
-| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| Web browser + any desktop GIS; any WFS capable software 
 | **FoR codes (2020)**
 | 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
 | **Creative Commons License**
 | Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Related content** https://octopusdata.org
+| **DOI** 
+| https://doi.org/10.5281/zenodo.13369360
+
+
+..  _CRN_InPreparation:
+
+CRN UOW (in preparation)
+""""""""""""""""""""""""
+
+| *A collection of unpublished cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates inferred from these data.*
+| **Publisher**
+| University of Wollongong
+| **Publication year / Version**
+| 2024 / v2.2(3)
 | **Recommended citation**
-| Codilean A.T., Munack H., 2021, OCTOPUS Database v.2: The CRN Large Basins collection. (Online via https://octopusdata.org. Accessed DD-MM-YYYY)
-| **DOI**
-| not applicable
+| Codilean A.T., 2024, OCTOPUS Database v.2.2: The CRN Denudation UOW (in preparation) collection. Basin-averaged denudation rates from cosmogenic Be-10 and Al-26 abundances in preparation up to 2024.
+| **Extent of Data / Collection period**
+| Australia / na
+| **Software Required**
+| Web browser + any desktop GIS; any WFS capable software 
+| **FoR codes (2020)**
+| 370399 Geochemistry not elsewhere classified, 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Related content** https://octopusdata.org
+| **DOI** 
+| https://doi.org/10.5281/zenodo.13369367
+
 
 ----
 
