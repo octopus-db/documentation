@@ -1533,6 +1533,12 @@ The *crn_be_DataCore* table stores **Be-10 observations** (= smallest data model
 
 * EBE_ERR -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3
 
+* EBEGLA -- Basin-averaged denudation rate corrected for glacier cover
+
+* EBEGLA_ERR -- Basin-averaged denudation rate error corrected for glacier cover
+
+* EBE_DIFF -- Relative difference between uncorrected and corrected (glacier!) recalculated basin-averaged denudation rate
+
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
@@ -1611,6 +1617,12 @@ The *crn_v3_basins_EPSG3857* table stores **spatial features**, i.e., multipolyg
 * STUDYID -- Unique study ID
 
 * CRN_SUBCMP -- CRN subcompilation (Global, Australian, inPrep, XXL)
+
+* QTZ_PCNT -- Relative basin area underlain by quartz bearing rocks (%). Source: GLiM (Hartmann & Moosdorf, 2012)
+
+* GLA_KM2 -- Absolute glacier extent / cover of basin area (km^2). Source: GLIMS (Raup et al., 2007)
+
+* GLA_PCNT -- Relative glacier extent / cover of basin area (%). Source: GLIMS (Raup et al., 2007)
 
 
 ..  _crn_v3_outlets_EPSG3857:
