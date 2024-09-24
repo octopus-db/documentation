@@ -4647,6 +4647,27 @@
 <td></td>
 <td></td>
 </tr>
+<tr class="row-even"><td><p>EBEGLA</p></td>
+<td><p>numeric(12,2)</p></td>
+<td><p>mm.kyr^-1</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>EBEGLA_ERR</p></td>
+<td><p>numeric(12,2)</p></td>
+<td><p>mm.kyr^-1</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>EBE_DIFF</p></td>
+<td><p>numeric(12,2)</p></td>
+<td><p>%</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <ul class="simple">
@@ -4671,6 +4692,9 @@
 <li><p>ERRBE_TOT – CAIRN Be-10 denudation rate uncertainty at 1-sigma level in mass per unit area that combines all uncertainties</p></li>
 <li><p>EBE_MMKYR – CAIRN Be-10 denudation rate calculated assuming density of 2650 kg.m^-3</p></li>
 <li><p>EBE_ERR – CAIRN Be-10 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3</p></li>
+<li><p>EBEGLA – Basin-averaged denudation rate corrected for glacier cover</p></li>
+<li><p>EBEGLA_ERR – Basin-averaged denudation rate error corrected for glacier cover</p></li>
+<li><p>EBE_DIFF – Relative difference between uncorrected and corrected (glacier!) recalculated basin-averaged denudation rate</p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -4871,6 +4895,24 @@
 <td></td>
 <td></td>
 </tr>
+<tr class="row-even"><td><p>QTZ_PCNT</p></td>
+<td><p>numeric(7,4)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>GLA_KM2</p></td>
+<td><p>numeric(10,2)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>GLA_PCNT</p></td>
+<td><p>numeric(7,4)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 </tbody>
 </table>
 <ul class="simple">
@@ -4880,6 +4922,9 @@
 <li><p>OBSID2 – Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.</p></li>
 <li><p>STUDYID – Unique study ID</p></li>
 <li><p>CRN_SUBCMP – CRN subcompilation (Global, Australian, inPrep, XXL)</p></li>
+<li><p>QTZ_PCNT – Relative basin area underlain by quartz bearing rocks (%). Source: GLiM (Hartmann &amp; Moosdorf, 2012)</p></li>
+<li><p>GLA_KM2 – Absolute glacier extent / cover of basin area (km^2). Source: GLIMS (Raup et al., 2007)</p></li>
+<li><p>GLA_PCNT – Relative glacier extent / cover of basin area (%). Source: GLIMS (Raup et al., 2007)</p></li>
 </ul>
 </div>
 <div class="section" id="crn-v3-outlets-epsg3857-table">

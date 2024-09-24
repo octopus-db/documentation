@@ -66,6 +66,8 @@ References
 | 
 | Hajdas, Irka; Ascough, Philippa; Garnett, Mark H.; Fallon, Stewart J.; Pearson, Charlotte L.; Quarta, Gianluca; Spalding, Kirsty L., Yamaguchi, Haruka; Yoneda, Minoru (2021), Radiocarbon dating. Nat Rev Methods Primers 1, 62. DOI: `10.1038/s43586-021-00058-7 <https://doi.org/10.1038/s43586-021-00058-7>`_
 | 
+| Hartmann, Jens; Moosdorf, Nils (2012). The new global lithological map database GLiM: A representation of rock properties at the Earth surface. Geochemistry, Geophysics, Geosystems 13(12), Q12004. `10.1029/2012GC004370 <https://doi.org/10.1029/2012GC004370>`_
+| 
 | Herbert, A. V.; Haberle, S. G.; Flantua, S. G. A.; Mottl, O.; Blois, J. L.; Williams, J. W.; George, A.; Hope, G. S. (2024). The Indo-Pacific Pollen Database -- a Neotoma constituent database, Climate of the Past Discussions. DOI: `10.5194/cp-2024-44 <https://doi.org/10.5194/cp-2024-44>`_
 | 
 | Herbert, A. V.; Haberle, S. G.; Munack, H.; Codilean, A. T. (2024). IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region (online). University of Wollongong Australia [data set]. DOI: `10.25900/57DR-YQ75 <https://doi.org/10.25900/57DR-YQ75>`_
@@ -111,6 +113,8 @@ References
 | Peters, Katharina J.; Saltré, Frédérik; Friedrich, Tobias; Jacobs, Zenobia; Wood, Rachel; McDowell, Matthew; Ulm, Sean; Bradshaw, Corey J. A. (2019). FosSahul 2.0, an updated database for the Late Quaternary fossil records of Sahul. Sci Data 6, 272. DOI: `10.1038/s41597-019-0267-3 <https://doi.org/10.1038/s41597-019-0267-3>`_
 | 
 | Prentice, I. Colin; Cramer, Wolfgang; Harrison, Sandy P.; Leeman, Rik; Monserud, Robert A.; Solomon, Allen M. (1992). A global biome model based on plant physiology and dominance, soil properties and climate. Journal of Biogeography, 19(2), 117--134. DOI: `10.2307/2845499 <https://doi.org/10.2307/2845499>`_
+| 
+| Raup, Bruce; Racoviteanu, Adina; Singh Khalsa, Siri Jodha; Helm, Christopher; Armstrong, Richard ; Arnaud, Yves (2007). The GLIMS geospatial glacier database: A new tool for studying glacier change. Global and Planetary Change, 56(1-2), 101-110. DOI: `10.1016/j.gloplacha.2006.07.018 <https://doi.org/10.1016/j.gloplacha.2006.07.01>`_
 | 
 | re3data.org (2018). OCTOPUS database. re3data.org -- Registry of Research Data Repositories [data set] (online). DOI: `10.17616/R31NJN2E <https://doi.org/10.17616/R31NJN2E>`_
 | 
