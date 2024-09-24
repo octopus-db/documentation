@@ -114,7 +114,7 @@ References
 | 
 | Prentice, I. Colin; Cramer, Wolfgang; Harrison, Sandy P.; Leeman, Rik; Monserud, Robert A.; Solomon, Allen M. (1992). A global biome model based on plant physiology and dominance, soil properties and climate. Journal of Biogeography, 19(2), 117--134. DOI: `10.2307/2845499 <https://doi.org/10.2307/2845499>`_
 | 
-| Raup, Bruce; Racoviteanu, Adina; Singh Khalsa, Siri Jodha; Helm, Christopher; Armstrong, Richard ; Arnaud, Yves (2007). The GLIMS geospatial glacier database: A new tool for studying glacier change. Global and Planetary Change, 56(1-2), 101-110. DOI: `10.1016/j.gloplacha.2006.07.018 <https://doi.org/10.1016/j.gloplacha.2006.07.01>`_
+| Raup, Bruce; Racoviteanu, Adina; Singh Khalsa, Siri Jodha; Helm, Christopher; Armstrong, Richard; Arnaud, Yves (2007). The GLIMS geospatial glacier database: A new tool for studying glacier change. Global and Planetary Change, 56(1-2), 101-110. DOI: `10.1016/j.gloplacha.2006.07.018 <https://doi.org/10.1016/j.gloplacha.2006.07.018>`_
 | 
 | re3data.org (2018). OCTOPUS database. re3data.org -- Registry of Research Data Repositories [data set] (online). DOI: `10.17616/R31NJN2E <https://doi.org/10.17616/R31NJN2E>`_
 | 
