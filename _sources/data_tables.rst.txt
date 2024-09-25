@@ -1533,11 +1533,11 @@ The *crn_be_DataCore* table stores **Be-10 observations** (= smallest data model
 
 * EBE_ERR -- CAIRN Be-10 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3
 
-* EBEGLA -- Basin-averaged denudation rate corrected for glacier cover
+* EBEGLA -- End-member basin-averaged denudation rate corrected for present-day glacier cover under the assumptions that (1) portions of the basin covered by glaciers contribute with sediment in proportion to their surface area and (2) the sediment are depleted in cosmogenic nuclides. 
 
-* EBEGLA_ERR -- Basin-averaged denudation rate error corrected for glacier cover
+* EBEGLA_ERR -- Uncertainty of end-member basin-averaged denudation rate corrected for present-day glacier cover.
 
-* EBE_DIFF -- Relative difference between uncorrected and corrected (glacier!) recalculated basin-averaged denudation rate
+* EBE_DIFF -- Relative difference between uncorrected (EBE_MMKYR) and glacier-cover corrected (EBEGLA) basin-averaged denudation rate.
 
 .. note::
 
@@ -1618,11 +1618,15 @@ The *crn_v3_basins_EPSG3857* table stores **spatial features**, i.e., multipolyg
 
 * CRN_SUBCMP -- CRN subcompilation (Global, Australian, inPrep, XXL)
 
-* QTZ_PCNT -- Relative basin area underlain by quartz bearing rocks (%). Source: GLiM (Hartmann & Moosdorf, 2012)
+* CENTR_LAT -- The latitude of the basin centroid — as calculated by CAIRN and in WGS84 coordinate system.
 
-* GLA_KM2 -- Absolute glacier extent / cover of basin area (km^2). Source: GLIMS (Raup et al., 2007)
+* ATM_PRESS -- The atmospheric pressure needed to obtain the basin averaged production scaling. The value translates the spatially distributed production data calculated by CAIRN into one single value.
 
-* GLA_PCNT -- Relative glacier extent / cover of basin area (%). Source: GLIMS (Raup et al., 2007)
+* QTZ_PCNT -- Relative basin area underlain by quartz bearing rocks (%). Source: GLiM - Global Lithological Map (Hartmann & Moosdorf, 2012)
+
+* GLA_KM2 -- Absolute present-day glacier extent / cover of basin area (km^2). Source: GLIMS: Global Land Ice Measurements from Space (Raup et al., 2007)
+
+* GLA_PCNT -- Relative present-day glacier extent / cover of basin area (%). Source: GLIMS: Global Land Ice Measurements from Space (Raup et al., 2007)
 
 
 ..  _crn_v3_outlets_EPSG3857:

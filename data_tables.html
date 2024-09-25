@@ -4692,9 +4692,9 @@
 <li><p>ERRBE_TOT – CAIRN Be-10 denudation rate uncertainty at 1-sigma level in mass per unit area that combines all uncertainties</p></li>
 <li><p>EBE_MMKYR – CAIRN Be-10 denudation rate calculated assuming density of 2650 kg.m^-3</p></li>
 <li><p>EBE_ERR – CAIRN Be-10 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3</p></li>
-<li><p>EBEGLA – Basin-averaged denudation rate corrected for glacier cover</p></li>
-<li><p>EBEGLA_ERR – Basin-averaged denudation rate error corrected for glacier cover</p></li>
-<li><p>EBE_DIFF – Relative difference between uncorrected and corrected (glacier!) recalculated basin-averaged denudation rate</p></li>
+<li><p>EBEGLA – End-member basin-averaged denudation rate corrected for present-day glacier cover under the assumptions that (1) portions of the basin covered by glaciers contribute with sediment in proportion to their surface area and (2) the sediment are depleted in cosmogenic nuclides.</p></li>
+<li><p>EBEGLA_ERR – Uncertainty of end-member basin-averaged denudation rate corrected for present-day glacier cover.</p></li>
+<li><p>EBE_DIFF – Relative difference between uncorrected (EBE_MMKYR) and glacier-cover corrected (EBEGLA) basin-averaged denudation rate.</p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -4895,6 +4895,18 @@
 <td></td>
 <td></td>
 </tr>
+<tr class="row-even"><td><p>CENTR_LAT</p></td>
+<td><p>numeric(6,2)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>ATM_PRESS</p></td>
+<td><p>numeric(6,4)</p></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="row-even"><td><p>QTZ_PCNT</p></td>
 <td><p>numeric(7,4)</p></td>
 <td></td>
@@ -4922,9 +4934,11 @@
 <li><p>OBSID2 – Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.</p></li>
 <li><p>STUDYID – Unique study ID</p></li>
 <li><p>CRN_SUBCMP – CRN subcompilation (Global, Australian, inPrep, XXL)</p></li>
-<li><p>QTZ_PCNT – Relative basin area underlain by quartz bearing rocks (%). Source: GLiM (Hartmann &amp; Moosdorf, 2012)</p></li>
-<li><p>GLA_KM2 – Absolute glacier extent / cover of basin area (km^2). Source: GLIMS (Raup et al., 2007)</p></li>
-<li><p>GLA_PCNT – Relative glacier extent / cover of basin area (%). Source: GLIMS (Raup et al., 2007)</p></li>
+<li><p>CENTR_LAT – The latitude of the basin centroid — as calculated by CAIRN and in WGS84 coordinate system.</p></li>
+<li><p>ATM_PRESS – The atmospheric pressure needed to obtain the basin averaged production scaling. The value translates the spatially distributed production data calculated by CAIRN into one single value.</p></li>
+<li><p>QTZ_PCNT – Relative basin area underlain by quartz bearing rocks (%). Source: GLiM - Global Lithological Map (Hartmann &amp; Moosdorf, 2012)</p></li>
+<li><p>GLA_KM2 – Absolute present-day glacier extent / cover of basin area (km^2). Source: GLIMS: Global Land Ice Measurements from Space (Raup et al., 2007)</p></li>
+<li><p>GLA_PCNT – Relative present-day glacier extent / cover of basin area (%). Source: GLIMS: Global Land Ice Measurements from Space (Raup et al., 2007)</p></li>
 </ul>
 </div>
 <div class="section" id="crn-v3-outlets-epsg3857-table">
