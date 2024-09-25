@@ -5,6 +5,8 @@ OBSID1,text,"pkey, ukey",TRUE,":ref:`crn_be_DataCore`, :ref:`crn_al_DataCore`"
 OBSID2,text,,,
 STUDYID,varchar(5),,,:ref:`crn_studies_boundingbox`
 CRN_SUBCMP,varchar(3),,,
+CENTR_LAT,"numeric(6,2)",,,
+ATM_PRESS,"numeric(6,4)",,,
 QTZ_PCNT,"numeric(7,4)",,,
 GLA_KM2,"numeric(10,2)",,,
 GLA_PCNT,"numeric(7,4)",,,
