@@ -185,7 +185,7 @@ The *global_SiteMaster* table stores an information set that enables **georefere
 
 * NEO_SITEID -- Is the corresponding neotoma/IPPD site ID, if applicable.
 
-* SITE_COMMT -- Free text site description field that, where applicable, stores neotoma/IPPD site descriptions.
+* SITEDESCR -- Free text site description field that, where applicable, stores neotoma/IPPD site descriptions.
 
 
 ..  _global_UnitMaster:

@@ -288,6 +288,45 @@ The SahulSed Aeolian TL collection
 | **DOI**
 | https://doi.org/10.25900/a2k9-kj43
 
+..  _The_SahulSed_Coastal_OSL_collection:
+
+The SahulSed Coastal OSL collection
+"""""""""""""""""""""""""""""""""""
+| *A database of published optically stimulated luminescence (OSL) ages for coastal sedimentary records from Sahul*
+| **Publisher, Year**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2024
+| **Spatial extent, Publication period**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1993-2024
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Authors tba, OCTOPUS database v2.2: The SahulSed Coastal OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.
+| **DOI**
+| DOI TBA
+
+..  _The_SahulSed_Coastal_TL_collection:
+
+The SahulSed Coastal TL collection
+""""""""""""""""""""""""""""""""""
+| *A database of published thermoluminescence (TL) ages for coastal sedimentary records from Sahul*
+| **Publisher, Year**
+| ARC Centre of Excellence for Australian Biodiversity and Heritage (CABAH); University of Wollongong, 2024
+| **Spatial extent, Publication period**
+| Sahul (mainland Australia, Tasmania, New Guinea, and neighbouring islands), 1982-2012
+| **Software Required**
+| any web browser (OCTOPUS web interface), any GIS, or any Web Feature Service (WFS) compliant application (see :ref:`Data access` section)
+| **FoR codes (2020)**
+| 370502 Geochronology, 370901 Geomorphology and earth surface processes, 370905 Quaternary environments
+| **Creative Commons License**
+| Creative Commons Attribution 4.0 International License (`CC BY 4.0 <https://creativecommons.org/licenses/by/4.0/>`_)
+| **Recommended citation**
+| Authors tba, OCTOPUS database v2.2: The SahulSed Coastal OSL collection. Sahul-wide database of published sedimentary records with radiometric ages.
+| **DOI**
+| DOI TBA
 
 ..  _The_SahulSed_Fluvial_OSL_collection:
 
