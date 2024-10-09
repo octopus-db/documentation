@@ -140,7 +140,7 @@ global_RefAbstract fields
    :file: ./csv_tables/global_RefAbstract_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202404291521.csv>`_ |:chipmunk:|
+| The latest *global_RefAbstract* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_RefAbstract__202410081241.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_RefAbstract` variable specs)
 
 ..  _global_Author_Fields:
@@ -152,7 +152,7 @@ global_Author fields
    :file: ./csv_tables/global_Author_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202404291520.csv>`_ |:chipmunk:|
+| The latest *global_Author* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Author__202410081240.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Author` variable specs)
 
 ..  _global_DataSetMaster_Fields:
@@ -176,7 +176,7 @@ global_Journal fields
    :file: ./csv_tables/global_Journal_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *global_Journal* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Journal__202404291521.csv>`_ |:chipmunk:|
+| The latest *global_Journal* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_global_Journal__202410081240.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`global_Journal` variable specs)
 
 ..  _global_PubType_Fields:
@@ -265,7 +265,7 @@ cabah_LabCodes fields
    :file: ./csv_tables/cabah_LabCodes_FIELDS_trunc.csv
    :header-rows: 1
 
-| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_LabCodes__202311161258.csv>`_ |:chipmunk:|
+| The latest *cabah_LabCodes* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_cabah_LabCodes__202410081242.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`cabah_LabCodes` variable specs)
 
 ..  _cabah_agetypeID_Fields:
@@ -1112,7 +1112,7 @@ osl-tl_agemodelID fields
    :file: ./csv_tables/osl-tl_agemodelID_FIELDS.csv
    :header-rows: 1
 
-| The latest *osl-tl_agemodelID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_tl_agemodelID__202305230906.csv>`_ |:chipmunk:|
+| The latest *osl-tl_agemodelID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_osl_tl_agemodelID__202410081241.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`osl-tl_agemodelID` variable specs)
 
 ..  _osl-tl_ed_procID_Fields:
@@ -1198,7 +1198,7 @@ sed_faciesID fields
    :file: ./csv_tables/sed_faciesID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_faciesID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_faciesID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_faciesID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_faciesID__202410081241.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_faciesID` variable specs)
 
 ..  _sed_geommodID_Fields:
@@ -1222,7 +1222,7 @@ sed_geotypeID fields
    :file: ./csv_tables/sed_geotypeID_FIELDS.csv
    :header-rows: 1
 
-| The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_geotypeID__202305230906.csv>`_ |:chipmunk:|
+| The latest *sed_geotypeID* table version can be downloaded `here <https://github.com/octopus-db/documentation/tree/main/docs/source/storage/_sed_geotypeID__202410081242.csv>`_ |:chipmunk:|
 | (|:back:| to :ref:`sed_geotypeID` variable specs)
 
 ..  _sed_laketypeID_Fields:
