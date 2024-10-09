@@ -1,16 +1,17 @@
-﻿AGEMODELID,AGEMODEL,AGEMODELAB
--9999,no data,ND
-1,Average Dose Model,ADM
-2,Arithmetic Mean,AVG
-3,Average variance,AVVAR
-4,Central Age Model,CAM
-5,Unlogged Central Age Mode,CAM_UL
-6,Common Age Model,COM_AM
-7,Finite Mixture Model,FMM
-8,Internal–External Consistency Criterion,IEU
-9,Minimum Age Model,MAM
-10,Unlogged Minimum Age Model,MAM_UL
-11,Maximum Age Model,MAX
-12,normalised Median Absolute Deviation Central Age Model,nMAD_CAM
-13,pdf Gaussian Age Model,PDFG
-14,Probability Density Summation Method,PDS
+"AGEMODELID","AGEMODEL","AGEMODELAB"
+-9999,"no data","ND"
+1,"Average Dose Model","ADM"
+2,"Arithmetic Mean","AVG"
+3,"Average variance","AVVAR"
+4,"Central Age Model","CAM"
+5,"Unlogged Central Age Mode","CAM_UL"
+6,"Common Age Model","COM_AM"
+7,"Finite Mixture Model","FMM"
+8,"Internal–External Consistency Criterion","IEU"
+9,"Minimum Age Model","MAM"
+10,"Unlogged Minimum Age Model","MAM_UL"
+11,"Maximum Age Model","MAX"
+12,"normalised Median Absolute Deviation Central Age Model","nMAD_CAM"
+13,"pdf Gaussian Age Model","PDFG"
+14,"Probability Density Summation Method","PDS"
+15,"Central / Minimum Age Model","CAM/MAM"

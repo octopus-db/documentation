@@ -1,11 +1,31 @@
-﻿FACIESID,FACIES
--9999,ND
-1,Channel
-2,Overbank
-3,Beach / Shoreline
-4,Deep-water lacustrine
-5,Shallow-water lacustrine
-6,Near-shore lacustrine
-7,Lacustrine (water depth unclear)
-8,Playa
-9,Calcareous deposits
+"FACIESID","FACIES","PARENTID"
+-9999,"ND",-9999
+1,"Channel",11
+2,"Overbank",11
+3,"Beach / Shoreline",14
+4,"Deep-water lacustrine",7
+5,"Shallow-water lacustrine",7
+6,"Near-shore lacustrine",7
+7,"Lacustrine (water depth unclear)",7
+8,"Playa",7
+9,"Calcareous deposits",9
+10,"Terrestrial",10
+11,"Fluvial",10
+12,"Marine",12
+13,"Aeolian",10
+14,"Littoral",14
+15,"Dune",13
+16,"Washover",14
+17,"Cyclone or storm deposit",14
+18,"Estuarine",18
+19,"Back-barrier / estuarine ",18
+20,"Lagoonal / lacustrine",7
+21,"Tidal flat ",14
+22,"Nearshore (to wave base)",14
+23,"Shelf",12
+24,"Inner shelf",23
+25,"Outer shelf",23
+26,"Sea Floor Sediments",12
+27,"Estuarine clay / mud",18
+28,"Channel sands and gravels",11
+29,"Estuarine sand",18

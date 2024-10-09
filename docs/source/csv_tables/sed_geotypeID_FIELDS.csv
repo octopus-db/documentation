@@ -1,17 +1,33 @@
-﻿GEOTYPEID,GEOTYPE
--9999,ND
-1,Terrace
-2,Floodplain
-3,Alluvial fan
-4,Bench
-5,Island
-6,Slack water deposit
-7,Levee
-8,Dune
-9,Sandsheet
-10,Beach / Shoreline
-11,Nearshore deposit
-12,Lake floor
-13,Lakeshore terrace
-14,Deflated cliff
-15,Bar
+"GEOTYPEID","GEOTYPE","PARENTID"
+-9999,"ND",NA
+1,"Terrace",NA
+2,"Floodplain",NA
+3,"Alluvial fan",31
+4,"Bench",NA
+5,"Island",NA
+6,"Slack water deposit",NA
+7,"Levee",NA
+8,"Dune",NA
+9,"Sandsheet",NA
+10,"Beach / Shoreline",NA
+11,"Nearshore deposit",NA
+12,"Lake floor",NA
+13,"Lakeshore terrace",1
+14,"Deflated cliff",NA
+15,"Bar",NA
+16,"Washover fan",31
+17,"Aeolianite",NA
+18,"Tsunami deposit",NA
+19,"Marine terrace",1
+20,"Clifftop dune",8
+21,"Coastal barrier (not specific)",NA
+22,"Coastal barrier (ridge plain)",NA
+23,"Coastal barrier (transgressive dune)",8
+24,"Cheniers",NA
+25,"Flood-tide delta",NA
+26,"Terrestrial dune",8
+27,"Estuarine floodplain",2
+28,"Delta front",NA
+29,"Shoreface",NA
+30,"Deep sea bed",NA
+31,"Fan",NA
