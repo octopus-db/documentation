@@ -11,7 +11,7 @@ Core collections
 ..  _CRN:
 
 CRN collections |:beers:|
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 | The OCTOPUS CRN branch features collections of published **cosmogenic Be-10 and Al-26 concentrations from modern river sediment and basin-averaged denudation rates** inferred from these data.
 | The :ref:`CRN_vector_spatial_data` -- sample site location (point), basin outline (polygon) --  uses the WGS84/Pseudo-Mercator (EPSG: 3857) projected coordinate reference system. :ref:`CRN_ancillary_data` includes: digital elevation model (raster), D8 flow direction and flow accumulation grids (raster), topographic gradient (raster), atmospheric pressure (raster), and cosmogenic nuclide production scaling factor and topographic shielding grids (raster). The raster data uses the WGS84/UTM projected coordinate reference system, UTM zones depending on the extent and location of each data package. Sample metadata is comprehensive and includes all necessary information and input files (see :ref:`CSV_folder`) for the recalculation of denudation rates using the CAIRN model [#]_. 
 

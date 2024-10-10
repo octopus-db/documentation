@@ -130,6 +130,10 @@ IPPD output will be made available upon collection release.
 SahulSed output
 ---------------
 
+.. attention::
+   
+    |:ghost:| The below :ref:`SahulSed` attribute / field tables should be considered the best case in terms of data / information completeness, respectively. For the output, however, we do not map fields with zero information content, i.e., where every single value is NULL, or 'no data'.
+
 ..  _SahulSed_OSL_output:
 
 SahulSed OSL output
