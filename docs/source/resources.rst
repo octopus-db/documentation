@@ -10,7 +10,7 @@ Resources
 
 * CABAH website (https://epicaustralia.org.au/resource/octopus/)
 
-* WFS data access via R / RStudio live example (https://rpubs.com/HenryM/octopus_wfs)
+* WFS data access via R / RStudio live example (https://rpubs.com/HenryM/1147951)
 
 Tutorial videos
 

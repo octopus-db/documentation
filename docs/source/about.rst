@@ -16,6 +16,12 @@ A brief OCTOPUS database history
 ..  _db-history_2024:
 2024
 ^^^^
+* OCTOPUS version v.2.3 deployed
+
+* Tweaks to :ref:`CRN`(`INT collection`_, `AUS collection`_)
+
+* Release of coastal OSL and TL :ref:`_SahulSed` collections
+
 * OCTOPUS version v.2.2 deployed
 
 * Major update on :ref:`CRN` (`INT collection <http://dx.doi.org/10.25900/057R-TM53>`_, `AUS collection <http://dx.doi.org/10.25900/057R-TM53>`_)
