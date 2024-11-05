@@ -18,9 +18,9 @@ A brief OCTOPUS database history
 ^^^^
 * OCTOPUS version v.2.3 deployed
 
-* Tweaks to :ref:`CRN`
+* Tweaks to :ref:`CRN` to include new data fields
 
-* :ref:`SahulSed` Coastal OSL and TL released
+* Coastal OSL and TL :ref:`SahulSed` released
 
 * OCTOPUS version v.2.2 deployed
 
