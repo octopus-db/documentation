@@ -30,7 +30,7 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
-| Codilean, Alexandru T.; Munack, Henry (2025) ...
+| Codilean, Alexandru T.; Munack, Henry (2024) : Short communication: Updated CRN Denudation datasets in OCTOPUS v2.3, Geochronology Discuss. [preprint, accepted for publication]. DOI: `10.5194/gchron-2024-28 <https://doi.org/10.5194/gchron-2024-28>`_ 
 | 
 | Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/a2k9-kj43 <https://doi.org/10.25900/a2k9-kj43>`_
 | 
@@ -122,7 +122,7 @@ References
 | 
 | re3data.org (2018). OCTOPUS database. re3data.org -- Registry of Research Data Repositories [data set] (online). DOI: `10.17616/R31NJN2E <https://doi.org/10.17616/R31NJN2E>`_
 | 
-| Rehn, Emma et al. (2025) ...
+| Rehn, E.; Cadd, H.; Mooney, S.; Cohen, T. J.; Munack, H.; Codilean, A. T.; Adeleye, M.; Beck, K. K.; Constantine IV, M.; Gouramanis, C.; Hanson, J. M.; Jones, P. J.; Kershaw, A. P.; Mackenzie, L.; Maisie, M.; Mariani, M.; Mately, K.; McWethy, D.; Mills, K.; Moss, P.; Patton, N. R.; Rowe, C.; Stevenson, J.; Tibby, J.; Wilmshurst, J. (2024). The SahulCHAR Collection: A Palaeofire Database for Australia, New Guinea, and New Zealand, Earth Syst. Sci. Data Discuss. [preprint, accepted for publication]. DOI: `10.5194/essd-2024-328 <https://doi.org/10.5194/essd-2024-3284>`_
 | 
 | Renfrew, Colin (2011). Before Civilization. Random House, ISBN 9781446466964.
 | 
