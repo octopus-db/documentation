@@ -30,6 +30,8 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
+| Codilean, Alexandru T.; Munack, Henry (2025) ...
+| 
 | Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/a2k9-kj43 <https://doi.org/10.25900/a2k9-kj43>`_
 | 
 | Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian OSL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/5jcw-tn50 <https://doi.org/10.25900/5jcw-tn50>`_
@@ -70,9 +72,11 @@ References
 | 
 | Herbert, A. V.; Haberle, S. G.; Flantua, S. G. A.; Mottl, O.; Blois, J. L.; Williams, J. W.; George, A.; Hope, G. S. (2024). The Indo-Pacific Pollen Database -- a Neotoma constituent database, Climate of the Past Discussions. DOI: `10.5194/cp-2024-44 <https://doi.org/10.5194/cp-2024-44>`_
 | 
-| Herbert, A. V.; Haberle, S. G.; Munack, H.; Codilean, A. T. (2024). IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region (online). University of Wollongong Australia [data set]. DOI: `10.25900/57DR-YQ75 <https://doi.org/10.25900/57DR-YQ75>`_
+| Herbert, Annika V.; Haberle, Simon G.; Munack, Henry; Codilean, Alexandru T. (2024). IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region (online). University of Wollongong Australia [data set]. DOI: `10.25900/57DR-YQ75 <https://doi.org/10.25900/57DR-YQ75>`_
 | 
-| Herbert, A. V.; Haberle, S. G.; Munack, H.; Codilean, A. T. (2024). IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region (dataset-level information only) (online). University of Wollongong Australia [data set]. DOI: `10.25900/J13C-KT93 <https://doi.org/10.25900/J13C-KT93>`_
+| Herbert, Annika V.; Haberle, Simon G.; Munack, Henry; Codilean, Alexandru T. (2024). IPPD: A collection of palaeoecological records containing pollen data and related site and dating information from around Australia and the Indo-pacific region (dataset-level information only) (online). University of Wollongong Australia [data set]. DOI: `10.25900/J13C-KT93 <https://doi.org/10.25900/J13C-KT93>`_
+| 
+| Herbert, Annika V.; Haberle, Simon G.; Munack, Henry; Codilean, Alexandru T. (2025). Collaborative Effort Towards a FAIR and OPEN Indo-Pacific Pollen Database (IPPD). Data Science Journal, 24(), p. 5. DOI: `10.5334/dsj-2025-005 <https://doi.org/10.5334/dsj-2025-005>`_
 | 
 | Hernandez, Michael J. (2020). Database Design for Mere Mortals - A Hands--On Guide to Relational Database Design (Fourth Edition). Addison-Wesley, Pearson Education Inc.
 | 
@@ -117,6 +121,8 @@ References
 | Raup, Bruce; Racoviteanu, Adina; Singh Khalsa, Siri Jodha; Helm, Christopher; Armstrong, Richard; Arnaud, Yves (2007). The GLIMS geospatial glacier database: A new tool for studying glacier change. Global and Planetary Change, 56(1-2), 101-110. DOI: `10.1016/j.gloplacha.2006.07.018 <https://doi.org/10.1016/j.gloplacha.2006.07.018>`_
 | 
 | re3data.org (2018). OCTOPUS database. re3data.org -- Registry of Research Data Repositories [data set] (online). DOI: `10.17616/R31NJN2E <https://doi.org/10.17616/R31NJN2E>`_
+| 
+| Rehn, Emma et al. (2025) ...
 | 
 | Renfrew, Colin (2011). Before Civilization. Random House, ISBN 9781446466964.
 | 
