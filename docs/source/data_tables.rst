@@ -1436,9 +1436,15 @@ The *crn_al_DataCore* table stores **Al-26 observations** (= smallest data model
 
 * OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
+* SMPID -- Is fkey. Refers to :ref:`crn_Sample`
+
 * OBSID2 -- Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
+
+* VERID -- ``TBA``
+
+* REFDBID1 -- ``TBA``
 
 * AL26NP -- Published Al-26 concentration
 
@@ -1447,6 +1453,10 @@ The *crn_al_DataCore* table stores **Al-26 observations** (= smallest data model
 * AL26EP -- Published Al-26 denudation rate
 
 * AL26EP_ERR -- Published 1-sigma uncertainty in Al-26 denudation rate
+
+* ALSTNDID -- ``TBA``
+
+* ALAMSID -- ``TBA``
 
 * AL26NC -- Al-26 concentration normalised to KNSTD
 
@@ -1476,6 +1486,18 @@ The *crn_al_DataCore* table stores **Al-26 observations** (= smallest data model
 
 * EAL_ERR -- CAIRN Al-26 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3
 
+* EALL -- ``TBA``
+
+* EALL_INT -- ``TBA``
+
+* EALL_EXT -- ``TBA``
+
+* EALLNS -- ``TBA``
+
+* EALLNS_INT -- ``TBA``
+
+* EALLNS_EXT -- ``TBA``
+
 .. note::
 
     Fkey fields are decribed elsewhere, i.e., within the scope of their tables of origin.
@@ -1493,21 +1515,31 @@ The *crn_be_DataCore* table stores **Be-10 observations** (= smallest data model
 
 * OBSID1 -- Unique CRN AMS measurement identifier provided as part of the compilation.
 
+* SMPID -- Is fkey. Refers to :ref:`crn_Sample`
+
 * OBSID2 -- Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.
 
 * IGSNID -- Placeholder for International Geo Sample Number unique ID
 
-* BE26NP -- Published Be-10 concentration
+* VERID -- ``TBA``
 
-* BE26NP_ERR -- Published 1-sigma uncertainty in Be-10 concentration
+* REFDBID1 -- ``TBA``
 
-* BE26EP -- Published Be-10 denudation rate
+* BE10NP -- Published Be-10 concentration
 
-* BE26EP_ERR -- Published 1-sigma uncertainty in Be-10 denudation rate
+* BE10NP_ERR -- Published 1-sigma uncertainty in Be-10 concentration
 
-* BE26NC -- Be-10 concentration normalised to 07KNSTD
+* BE10EP -- Published Be-10 denudation rate
 
-* BE26NC_ERR -- Uncertainty in Be-10 concentration normalised to 07KNSTD
+* BE10EP_ERR -- Published 1-sigma uncertainty in Be-10 denudation rate
+
+* BESTNDID -- ``TBA``
+
+* BEAMSID -- ``TBA``
+
+* BE10NC -- Be-10 concentration normalised to 07KNSTD
+
+* BE10NC_ERR -- Uncertainty in Be-10 concentration normalised to 07KNSTD
 
 * BEPROD -- CAIRN average production scaling correction for the basin
 
@@ -1538,6 +1570,18 @@ The *crn_be_DataCore* table stores **Be-10 observations** (= smallest data model
 * EBEGLA_ERR -- Uncertainty of end-member basin-averaged denudation rate corrected for present-day glacier cover.
 
 * EBE_DIFF -- Relative difference between uncorrected (EBE_MMKYR) and glacier-cover corrected (EBEGLA) basin-averaged denudation rate.
+
+* EBEL -- ``TBA``
+
+* EBEL_INT -- ``TBA``
+
+* EBEL_EXT -- ``TBA``
+
+* EBELNS -- ``TBA``
+
+* EBELNS_INT -- ``TBA``
+
+* EBELNS_EXT -- ``TBA``
 
 .. note::
 
