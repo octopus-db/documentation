@@ -4417,12 +4417,17 @@
 </table>
 <ul class="simple">
 <li><p>OBSID1 – Unique CRN AMS measurement identifier provided as part of the compilation.</p></li>
+<li><p>SMPID – Is fkey. Refers to <a class="reference internal" href="#crn-sample"><span class="std std-ref">crn_Sample table</span></a></p></li>
 <li><p>OBSID2 – Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.</p></li>
 <li><p>IGSNID – Placeholder for International Geo Sample Number unique ID</p></li>
+<li><p>VERID – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>REFDBID1 – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
 <li><p>AL26NP – Published Al-26 concentration</p></li>
 <li><p>AL26NP_ERR – Published 1-sigma uncertainty in Al-26 concentration</p></li>
 <li><p>AL26EP – Published Al-26 denudation rate</p></li>
 <li><p>AL26EP_ERR – Published 1-sigma uncertainty in Al-26 denudation rate</p></li>
+<li><p>ALSTNDID – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>ALAMSID – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
 <li><p>AL26NC – Al-26 concentration normalised to KNSTD</p></li>
 <li><p>AL26NC_ERR – Uncertainty in Al-26 concentration normalised to KNSTD</p></li>
 <li><p>ALPROD – CAIRN average production scaling correction for the basin</p></li>
@@ -4437,6 +4442,12 @@
 <li><p>ERRAL_TOT – CAIRN Al-26 denudation rate uncertainty at 1-sigma level in mass per unit area that combines all uncertainties</p></li>
 <li><p>EAL_MMKYR – CAIRN Al-26 denudation rate calculated assuming density of of 2650 kg.m^-3</p></li>
 <li><p>EAL_ERR – CAIRN Al-26 denudation rate uncertainty at 1-sigma level calculated assuming density of 2650 kg.m^-3</p></li>
+<li><p>EALL – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EALL_INT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EALL_EXT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EALLNS – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EALLNS_INT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EALLNS_EXT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -4672,14 +4683,19 @@
 </table>
 <ul class="simple">
 <li><p>OBSID1 – Unique CRN AMS measurement identifier provided as part of the compilation.</p></li>
+<li><p>SMPID – Is fkey. Refers to <a class="reference internal" href="#crn-sample"><span class="std std-ref">crn_Sample table</span></a></p></li>
 <li><p>OBSID2 – Original sample identifier (as published). This is not necessarily the lab code provided by some labs, but the ID used by authors of the source publication to identify the sample.</p></li>
 <li><p>IGSNID – Placeholder for International Geo Sample Number unique ID</p></li>
-<li><p>BE26NP – Published Be-10 concentration</p></li>
-<li><p>BE26NP_ERR – Published 1-sigma uncertainty in Be-10 concentration</p></li>
-<li><p>BE26EP – Published Be-10 denudation rate</p></li>
-<li><p>BE26EP_ERR – Published 1-sigma uncertainty in Be-10 denudation rate</p></li>
-<li><p>BE26NC – Be-10 concentration normalised to 07KNSTD</p></li>
-<li><p>BE26NC_ERR – Uncertainty in Be-10 concentration normalised to 07KNSTD</p></li>
+<li><p>VERID – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>REFDBID1 – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>BE10NP – Published Be-10 concentration</p></li>
+<li><p>BE10NP_ERR – Published 1-sigma uncertainty in Be-10 concentration</p></li>
+<li><p>BE10EP – Published Be-10 denudation rate</p></li>
+<li><p>BE10EP_ERR – Published 1-sigma uncertainty in Be-10 denudation rate</p></li>
+<li><p>BESTNDID – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>BEAMSID – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>BE10NC – Be-10 concentration normalised to 07KNSTD</p></li>
+<li><p>BE10NC_ERR – Uncertainty in Be-10 concentration normalised to 07KNSTD</p></li>
 <li><p>BEPROD – CAIRN average production scaling correction for the basin</p></li>
 <li><p>BETOPO – CAIRN average topographic shielding correction for the basin</p></li>
 <li><p>BESELF – CAIRN average self shielding correction for the basin</p></li>
@@ -4695,6 +4711,12 @@
 <li><p>EBEGLA – End-member basin-averaged denudation rate corrected for present-day glacier cover under the assumptions that (1) portions of the basin covered by glaciers contribute with sediment in proportion to their surface area and (2) the sediment are depleted in cosmogenic nuclides.</p></li>
 <li><p>EBEGLA_ERR – Uncertainty of end-member basin-averaged denudation rate corrected for present-day glacier cover.</p></li>
 <li><p>EBE_DIFF – Relative difference between uncorrected (EBE_MMKYR) and glacier-cover corrected (EBEGLA) basin-averaged denudation rate.</p></li>
+<li><p>EBEL – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EBEL_INT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EBEL_EXT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EBELNS – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EBELNS_INT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
+<li><p>EBELNS_EXT – <code class="docutils literal notranslate"><span class="pre">TBA</span></code></p></li>
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
