@@ -30,7 +30,7 @@ References
 | 
 | Codilean, Alexandru T.; Munack, Henry; Cohen, Timothy J.; Saktura, Wanchese M.; Gray, Andrew; Mudd, Simon M. (2018). OCTOPUS: an open cosmogenic isotope and luminescence database. Earth Syst. Sci. Data, 10, 2123--2139. DOI: `10.5194/essd-10-2123-2018 <https://doi.org/10.5194/essd-10-2123-2018>`_
 | 
-| Codilean, Alexandru T.; Munack, Henry (2024) : Short communication: Updated CRN Denudation datasets in OCTOPUS v2.3, Geochronology Discuss. [preprint, accepted for publication]. DOI: `10.5194/gchron-2024-28 <https://doi.org/10.5194/gchron-2024-28>`_ 
+| Codilean, Alexandru T.; Munack, Henry (2025) : Short communication: Updated CRN Denudation datasets in OCTOPUS v2.3, Geochronology. DOI: `10.5194/gchron-7-113-2025 <https://doi.org/10.5194/gchron-7-113-2025>`_
 | 
 | Cohen, Timothy J.; Fu, Xiao; Hesse, Paul; Price, David; Rui, Xue; Saktura, Rosaria B. K.; Munack, Henry; Codilean, Alexandru T. (2021). OCTOPUS Database v.2: The SahulSed Aeolian TL collection (online). University of Wollongong Australia [data set]. DOI: `10.25900/a2k9-kj43 <https://doi.org/10.25900/a2k9-kj43>`_
 | 

@@ -12,6 +12,16 @@ To provide feedback about the data collections, to contribute, or to request mor
 
 A brief OCTOPUS database history
 --------------------------------
+..  _db-history_2025:
+2025
+^^^^
+
+* CRN-collection: Accompanying short communication "Updated CRN Denudation datasets in OCTOPUS v2.3" published in Geochronology. DOI: `10.5194/gchron-7-113-2025 <https://doi.org/10.5194/gchron-7-113-2025>`_
+
+* IPPD. Accompanying publication "Collaborative Effort Towards a FAIR and OPEN Indo-Pacific Pollen Database (IPPD)" published in Data Science Journal. DOI: `10.5334/dsj-2025-005 <https://doi.org/10.5334/dsj-2025-005>`_
+
+* SahulChar. Accompanying publication "The SahulCHAR Collection: A Palaeofire Database for Australia, New Guinea, and New Zealand" published in Earth System Science Data. DOI: 
+
 
 ..  _db-history_2024:
 2024
